@@ -1,26 +1,34 @@
-# Monorepo
-- Be in repo ingest development: \
-  **git checkout development**
-- Add the individual repo to merge:\
-  **git remote add emailStep git@github.com:IP-Sentinel/emailStep.git**
-- Fetch it:\
-  **git fetch emailStep**
-- Merge it:\
-  **git merge emailStep/master --allow-unrelated-histories** 
-- Fix any issues:\
-  **git mergetool** \
-(https://stackoverflow.com/questions/161813/how-to-resolve-merge-conflicts-in-git-repository)
-- commit fixes:\
-  **git commit -m "fix whichever files"**
-- push development to github:\
-  **git push origin development**
-- get main:\
-  **git checkout main**
-- merge development:\
-  **git merge development**
-- Push main to github:\
-  **git push origin main**
-- Back to ingest development:\
-  **git checkout development**
-- remove remote individual repo:\
-  **git remote rm emailStep** 
+# Real Big Data - Amazon Web Services
+
+This project is designed to collect, store and process data from various
+communication platforms. The collected data can be
+used for compliance monitoring, sentiment analysis, security auditing, or business intelligence.
+
+## Platforms
+
+- Slack, Teams, and Zoom
+- WhatsApp
+- VoIP (SIP)
+- Email accounts
+
+## How it works
+
+1. Ingestion Layer
+
+Each module runs individually in its own lambda container temporarily and rotating
+accordingly to usage.
+
+2. Processing Layer
+
+Like the Ingestion Layer, the Processing Layer is designed to automatically
+process and make sure only the required information is sent through and in JSON
+format.
+
+3. Storage & Analysis
+
+The processed data is stored in the specific data lakes using the following
+technology:
+
+- Kafka
+- AWS S3
+- Elasticsearch

@@ -1,0 +1,1591 @@
+{
+    "cdr": {
+        "source": {
+            "source_id": "86268970184",
+            "source_type": "meet"
+        },
+        "date_of_action": "2022-09-05 11:30:29",
+        "origin_from": {
+            "persona_id": "FqKjNWquTXi5qfFIeQQCFA",
+            "persona_first_name": "Nicolas",
+            "persona_second_name": "Verle",
+            "persona_number": "",
+            "persona_email": "nicolas.verle@melqart.com",
+            "persona_department": "Investment Management"
+        },
+        "destination_to": {
+            "persona_id": "Unknown",
+            "persona_first_name": "Unknown",
+            "persona_second_name": "Unknown",
+            "persona_number": "Unknown",
+            "persona_email": "Unknown",
+            "persona_department": "Unknown"
+        },
+        "participants": [
+            {
+                "id": "FqKjNWquTXi5qfFIeQQCFA",
+                "name": "Nicolas Verle",
+                "user_email": "nicolas.verle@melqart.com"
+            },
+            {
+                "id": "cQuSekjtQcS6jcTZn2APeA",
+                "name": "Mei Mei Chow",
+                "user_email": ""
+            }
+        ]
+    },
+    "transcript": {
+        "type": "VTT",
+        "source": {
+            "source_id": "86268970184",
+            "source_type": "meet"
+        },
+        "recording_id": "cf273f44-085c-45b6-902f-5cbb814cff97",
+        "start_time": "2022-09-05 11:30:31",
+        "end_time": "2022-09-05 13:43:19",
+        "content": {
+            "content": [
+                {
+                    "text": " The Luke.",
+                    "end_ts": "00:00:11.100",
+                    "ts": "00:00:10.010",
+                    "speaker": "Nicolas Verle"
+                },
+                {
+                    "text": " Can you hear me?",
+                    "end_ts": "00:00:17.630",
+                    "ts": "00:00:16.300",
+                    "speaker": "Nicolas Verle"
+                },
+                {
+                    "text": " Hello!",
+                    "end_ts": "00:00:23.709",
+                    "ts": "00:00:21.800",
+                    "speaker": "Nicolas Verle"
+                },
+                {
+                    "text": " How is that?",
+                    "end_ts": "00:00:27.889",
+                    "ts": "00:00:26.190",
+                    "speaker": "Mei Mei Chow"
+                },
+                {
+                    "text": " Hi! How are you? Good morning! Good. You",
+                    "end_ts": "00:00:31.389",
+                    "ts": "00:00:27.900",
+                    "speaker": "Mei Mei Chow"
+                },
+                {
+                    "text": " Very good, very good. Thank you. Im sorry im still struggling with my camera. This is killing me every time it works and then stops working. I think youre gonna have to ask for a new one, because its Its insane. How have you been",
+                    "end_ts": "00:00:43.769",
+                    "ts": "00:00:31.400",
+                    "speaker": "Nicolas Verle"
+                },
+                {
+                    "text": " good? I had a break with the family in the timing for a week. That was really really nice.",
+                    "end_ts": "00:00:51.190",
+                    "ts": "00:00:43.970",
+                    "speaker": "Mei Mei Chow"
+                },
+                {
+                    "text": " Im sure venture.",
+                    "end_ts": "00:00:53.029",
+                    "ts": "00:00:51.200",
+                    "speaker": "Nicolas Verle"
+                },
+                {
+                    "text": " Did you go? So did you? Did you go selling, or you just went to the beach?",
+                    "end_ts": "00:00:57.920",
+                    "ts": "00:00:53.420",
+                    "speaker": "Mei Mei Chow"
+                },
+                {
+                    "text": " This ones a beach. So weve been sailing in Fouquet before. Ah, just I call it Bc. Right before before children, and we found there was no",
+                    "end_ts": "00:01:08.759",
+                    "ts": "00:00:58.530",
+                    "speaker": "Mei Mei Chow"
+                },
+                {
+                    "text": " So we we divide our lives from, you know, Bbc",
+                    "end_ts": "00:01:14.590",
+                    "ts": "00:01:09.260",
+                    "speaker": "Mei Mei Chow"
+                },
+                {
+                    "text": " Yeah. Yeah. Yeah. Yeah. Yeah. Yeah.",
+                    "end_ts": "00:01:16.899",
+                    "ts": "00:01:14.600",
+                    "speaker": "Nicolas Verle"
+                },
+                {
+                    "text": " So when you were young, free and single, we yeah, we went sailing for a week and realized there was absolutely No, we get lots of waves for no wind. So so this time it was just an onshore beach holiday in a villa with a nice pool. There was a",
+                    "end_ts": "00:01:31.830",
+                    "ts": "00:01:16.950",
+                    "speaker": "Mei Mei Chow"
+                },
+                {
+                    "text": " um. Theres a chef who Ah, um! The villa has a has your own chef, so you know you just ordered the food in my class. Are you? So? Yeah, I I think Ive put on this three. Kg",
+                    "end_ts": "00:01:51.250",
+                    "ts": "00:01:32.160",
+                    "speaker": "Mei Mei Chow"
+                },
+                {
+                    "text": " So you wont, you wont. You wont put it.",
+                    "end_ts": "00:01:54.040",
+                    "ts": "00:01:51.260",
+                    "speaker": "Mei Mei Chow"
+                },
+                {
+                    "text": " Yeah, I wouldnt forget it was it was um were meeting with my husbands",
+                    "end_ts": "00:02:00.120",
+                    "ts": "00:01:54.520",
+                    "speaker": "Mei Mei Chow"
+                },
+                {
+                    "text": " um sister and family, and some of them flew in from Uk, and some flew in from India, where his brother-in-law is um working for one of the oil companies Exxon. So we had to choose an island that we knew had sun, but at the same time there was a direct flight. So yeah,",
+                    "end_ts": "00:02:19.459",
+                    "ts": "00:02:00.270",
+                    "speaker": "Mei Mei Chow"
+                },
+                {
+                    "text": " all the yeah. So its good.",
+                    "end_ts": "00:02:21.369",
+                    "ts": "00:02:19.470",
+                    "speaker": "Mei Mei Chow"
+                },
+                {
+                    "text": " Get it. I actually see you.",
+                    "end_ts": "00:02:23.489",
+                    "ts": "00:02:21.380",
+                    "speaker": "Mei Mei Chow"
+                },
+                {
+                    "text": " The food is so I dont know Its great. For ten years. Ten years ago, actually with some friends, I spent two weeks selling around croquet. We were on to a forty-five ship selling selling boats. That was great it was great youre selling topics all around it,",
+                    "end_ts": "00:02:38.199",
+                    "ts": "00:02:23.500",
+                    "speaker": "Mei Mei Chow"
+                },
+                {
+                    "text": " and one of my best memory ever I need to come back. But as you said, that was Pc",
+                    "end_ts": "00:02:50.490",
+                    "ts": "00:02:38.260",
+                    "speaker": "Mei Mei Chow"
+                },
+                {
+                    "text": " Thats two thousand and two! Thats two thousand and twelve. My oldest is already born, but Ive always thought of myself. I gotta go back there. Yeah, go by there. Its so beautiful",
+                    "end_ts": "00:03:02.730",
+                    "ts": "00:02:50.500",
+                    "speaker": "Mei Mei Chow"
+                },
+                {
+                    "text": " that you saw you found some wind then, because when we when we went. We did Fouquet. Ah, probably no wind the only bit that was win. Ah, we had, Mona. How ah of about, I think. Fifty foot right. The only bit of wind we found was from between as we were crossing over to P. P.",
+                    "end_ts": "00:03:23.070",
+                    "ts": "00:03:03.160",
+                    "speaker": "Mei Mei Chow"
+                },
+                {
+                    "text": " So let me um. We actually have done that into ah December, and we went all around the north. Whats the name of these islands? Similar N. Islands",
+                    "end_ts": "00:03:36.490",
+                    "ts": "00:03:23.170",
+                    "speaker": "Nicolas Verle"
+                },
+                {
+                    "text": " sit down",
+                    "end_ts": "00:03:37.490",
+                    "ts": "00:03:36.500",
+                    "speaker": "Mei Mei Chow"
+                },
+                {
+                    "text": " So when all way north to Simeon Island,",
+                    "end_ts": "00:03:40.319",
+                    "ts": "00:03:37.500",
+                    "speaker": "Mei Mei Chow"
+                },
+                {
+                    "text": " and and then we had some. I remember actually having a you know how to say when youre on duty like for two or three hours a night, and that, like huge storm raining everywhere, it was great. It was great, great, great, great, of course, the lost side. All the fence I did that was for so long, but ill Ill definitely come back to it. Its already late for you, so I dont want. I want to be used to too much of your time.",
+                    "end_ts": "00:04:10.050",
+                    "ts": "00:03:40.330",
+                    "speaker": "Mei Mei Chow"
+                },
+                {
+                    "text": " Im sorry for my camera. Its still not working, but Im. Uh I I did receive directly from Jason. Thanks very much. The analysis of the uh the serial transaction. I think its",
+                    "end_ts": "00:04:22.989",
+                    "ts": "00:04:10.060",
+                    "speaker": "Nicolas Verle"
+                },
+                {
+                    "text": " its great. Did he actually do the math? If if other things equal what it would mean for us, adjusting for the backlog, you know, if you take sixty-seven million per steel, and youre adding the backlog what it would mean for us.",
+                    "end_ts": "00:04:35.029",
+                    "ts": "00:04:23.000",
+                    "speaker": "Nicolas Verle"
+                },
+                {
+                    "text": " Yeah, it comes to about um. I think when you did the backl, it it comes to about eighty-ish um and Arctic. Ah, Stan, from I think the the same. Ah, but except Arctic thought that the steel value was higher.",
+                    "end_ts": "00:04:54.079",
+                    "ts": "00:04:35.660",
+                    "speaker": "Mei Mei Chow"
+                },
+                {
+                    "text": " So, in interesting. I dont know whether its because things have moved. You know, that deal with",
+                    "end_ts": "00:05:02.669",
+                    "ts": "00:04:56.010",
+                    "speaker": "Mei Mei Chow"
+                },
+                {
+                    "text": " and which you that is about",
+                    "end_ts": "00:05:03.990",
+                    "ts": "00:05:02.680",
+                    "speaker": "Mei Mei Chow"
+                },
+                {
+                    "text": " Yeah, here youre talking about the steel value of the Cdo jackups. Right?",
+                    "end_ts": "00:05:08.989",
+                    "ts": "00:05:04.000",
+                    "speaker": "Nicolas Verle"
+                },
+                {
+                    "text": " Okay, that. But but because if I got that right, its one hundred million all in per jackup, including including the backlog. So if you strip the backlog out, then youre between seventy and eighty million.",
+                    "end_ts": "00:05:24.320",
+                    "ts": "00:05:09.000",
+                    "speaker": "Nicolas Verle"
+                },
+                {
+                    "text": " Yeah. So but what I remember is, if we take seventy to eighty million steel for our rigs, our own wrecks, and then you add the backdrop that we have. Were in about one hundred and ten hundred and twenty, eight hundred and thirty.",
+                    "end_ts": "00:05:38.959",
+                    "ts": "00:05:24.350",
+                    "speaker": "Mei Mei Chow"
+                },
+                {
+                    "text": " Yeah.",
+                    "end_ts": "00:05:40.230",
+                    "ts": "00:05:39.200",
+                    "speaker": "Mei Mei Chow"
+                },
+                {
+                    "text": " So were talking about",
+                    "end_ts": "00:05:41.819",
+                    "ts": "00:05:40.240",
+                    "speaker": "Mei Mei Chow"
+                },
+                {
+                    "text": " to add about,",
+                    "end_ts": "00:05:44.750",
+                    "ts": "00:05:41.830",
+                    "speaker": "Mei Mei Chow"
+                },
+                {
+                    "text": " I think, twenty to thirty per week",
+                    "end_ts": "00:05:48.180",
+                    "ts": "00:05:44.770",
+                    "speaker": "Mei Mei Chow"
+                },
+                {
+                    "text": " in terms of Butler.",
+                    "end_ts": "00:05:51.789",
+                    "ts": "00:05:50.470",
+                    "speaker": "Nicolas Verle"
+                },
+                {
+                    "text": " Okay.",
+                    "end_ts": "00:05:52.590",
+                    "ts": "00:05:51.800",
+                    "speaker": "Nicolas Verle"
+                },
+                {
+                    "text": " Okay. So So somewhat somewhat somewhat equivalent. All right. Look, I mean Its Its good.",
+                    "end_ts": "00:05:57.530",
+                    "ts": "00:05:52.600",
+                    "speaker": "Nicolas Verle"
+                },
+                {
+                    "text": " Im",
+                    "end_ts": "00:06:01.460",
+                    "ts": "00:05:57.850",
+                    "speaker": "Nicolas Verle"
+                },
+                {
+                    "text": " Ah, what",
+                    "end_ts": "00:06:04.309",
+                    "ts": "00:06:02.240",
+                    "speaker": "Mei Mei Chow"
+                },
+                {
+                    "text": " what was interesting because it was a you know Stan objects been knocking on our door. So, as I was saying to Ben as well that theyve been. Theyve been asking whether they could do anything for us right. And um, I I said to access. Well, well, if you think theres such a great market for for for for asset purchase. Why havent come to us before?",
+                    "end_ts": "00:06:26.019",
+                    "ts": "00:06:04.420",
+                    "speaker": "Mei Mei Chow"
+                },
+                {
+                    "text": " And they looked a bit sheepish, maybe because they didnt. I dont know who they asked, but they said, Well, we were given the impression that none of the rigs were for sale.",
+                    "end_ts": "00:06:37.319",
+                    "ts": "00:06:26.030",
+                    "speaker": "Mei Mei Chow"
+                },
+                {
+                    "text": " Yeah. So I said, thats not the case. And and clearly",
+                    "end_ts": "00:06:43.339",
+                    "ts": "00:06:37.550",
+                    "speaker": "Mei Mei Chow"
+                },
+                {
+                    "text": " that must have been the impression, because otherwise they could have come and hooked out our things to ads as well. Right?",
+                    "end_ts": "00:06:50.260",
+                    "ts": "00:06:43.480",
+                    "speaker": "Mei Mei Chow"
+                },
+                {
+                    "text": " Um, But so I I put them right. I said no such thing. I said everything was on the table, so they said they were going to go away, and and and you know, come back, I think, this week to to tell me what they think there is in the market.",
+                    "end_ts": "00:07:03.170",
+                    "ts": "00:06:50.420",
+                    "speaker": "Mei Mei Chow"
+                },
+                {
+                    "text": " Its",
+                    "end_ts": "00:07:03.990",
+                    "ts": "00:07:03.300",
+                    "speaker": "Nicolas Verle"
+                },
+                {
+                    "text": " good good we want. We want options, as we said, you know its we. We want an exit sooner sooner than later.",
+                    "end_ts": "00:07:14.079",
+                    "ts": "00:07:04.000",
+                    "speaker": "Mei Mei Chow"
+                },
+                {
+                    "text": " And uh, obviously, if we have to celebrate by rig, at least thats even something we can do before solving the tax thing, because were selling an asset after we just dont want to make sure we have enough to solve the tax thing. But whereas if youre selling the overall business, then you need to sold the tax thing before setting the overall business.",
+                    "end_ts": "00:07:33.999",
+                    "ts": "00:07:14.090",
+                    "speaker": "Mei Mei Chow"
+                },
+                {
+                    "text": " Yes, I mean when I was saying that, he said He doesnt hold up much hope for C. Max to see much of value of how im getting too much money back until the tax issue is this result? And uh, whilst I I know that thats hanging over us, I feel that we still have to progress with everything at the same time and see what comes up, so that you know, as soon as the tax thing is resolved, or we say, even if we do, ssl we are ready. Were rather than wait",
+                    "end_ts": "00:08:04.349",
+                    "ts": "00:07:34.420",
+                    "speaker": "Mei Mei Chow"
+                },
+                {
+                    "text": " for the texting to be resolved.",
+                    "end_ts": "00:08:06.090",
+                    "ts": "00:08:04.360",
+                    "speaker": "Mei Mei Chow"
+                },
+                {
+                    "text": " Yeah, I I I I I I I also dont want you to, You know, burn burn them. They like all too much. Uh, and and if you have to prioritize, because if you have its almost impossible to conduct everything in parallel,",
+                    "end_ts": "00:08:20.399",
+                    "ts": "00:08:06.100",
+                    "speaker": "Mei Mei Chow"
+                },
+                {
+                    "text": " so its its Its Its true that the tax thing is sort of first and foremost, I actually do. You think if we start with thats actually brainstorm? If we start selling one, two rigs directly as an asset sale. Obviously, gemax is going to be unhappy right? Because it means thats a ray which is moving east",
+                    "end_ts": "00:08:38.880",
+                    "ts": "00:08:20.410",
+                    "speaker": "Nicolas Verle"
+                },
+                {
+                    "text": " one way or another. Do you think they could have indirectly or bad influence on whatever negotiation were having with the Mexican taxman? I even X picks up the phone and call their friends with the Ssd. Saying, These guys, you know they just did something nasty to us, or you think its two different two different things.",
+                    "end_ts": "00:08:55.930",
+                    "ts": "00:08:38.890",
+                    "speaker": "Nicolas Verle"
+                },
+                {
+                    "text": " Um,",
+                    "end_ts": "00:08:59.530",
+                    "ts": "00:08:57.900",
+                    "speaker": "Mei Mei Chow"
+                },
+                {
+                    "text": " I dont know I I I would say I dont know Mexican well enough to know that. But um! I I think there is that risk that that would happen.",
+                    "end_ts": "00:09:11.419",
+                    "ts": "00:09:00.570",
+                    "speaker": "Mei Mei Chow"
+                },
+                {
+                    "text": " Um, which means, I think you know thats why. If we have those options available, we will. We will have to go back to come and say, Are you serious? Otherwise, when well sell the rigs and give them that option to extend things for a longer period, and then we we, so they support block.",
+                    "end_ts": "00:09:30.789",
+                    "ts": "00:09:11.440",
+                    "speaker": "Mei Mei Chow"
+                },
+                {
+                    "text": " Um. Its just that You can see the Middle Eastern guys are picking up any spare steel at the moment. Thats something else we need to consider.",
+                    "end_ts": "00:09:39.790",
+                    "ts": "00:09:30.820",
+                    "speaker": "Mei Mei Chow"
+                },
+                {
+                    "text": " Yeah, No, Clearly, Clearly its. Ah, what will we do? Everything we we do, everything one go, then, then theres less concern, Right? Its Its a that you say were stripping out one by one or Pmx and turn around and say, Okay, fine.",
+                    "end_ts": "00:09:56.180",
+                    "ts": "00:09:39.800",
+                    "speaker": "Mei Mei Chow"
+                },
+                {
+                    "text": " And then well be pouring them.",
+                    "end_ts": "00:09:58.849",
+                    "ts": "00:09:56.210",
+                    "speaker": "Mei Mei Chow"
+                },
+                {
+                    "text": " Yeah, I I. I just want to make sure that were not. Obviously its great that we show in peace to remix. I think the next understand that the balance of power is massively changed, not only because of our behavior, because, whatever everything thats happening, I just want to. On the other hand, I dont want to Pmx in a corner where theyre so bad at us that they pick up the phone and they call their friends the sat and say, just that slip their throat open.",
+                    "end_ts": "00:10:24.589",
+                    "ts": "00:09:58.880",
+                    "speaker": "Mei Mei Chow"
+                },
+                {
+                    "text": " Okay,",
+                    "end_ts": "00:10:25.450",
+                    "ts": "00:10:24.600",
+                    "speaker": "Mei Mei Chow"
+                },
+                {
+                    "text": " and I may. Maybe they have the power. Maybe they dont. Maybe they wont. Do it. But so look I I I leave it to you. You you know you know where I stand. I want events as much as possible, but the reality is where I grew up. The first event on Cmx is the tax we need to deal with the",
+                    "end_ts": "00:10:44.569",
+                    "ts": "00:10:25.460",
+                    "speaker": "Mei Mei Chow"
+                },
+                {
+                    "text": " Yes, so maybe ill let me update you without giving you the numbers right.",
+                    "end_ts": "00:10:49.690",
+                    "ts": "00:10:44.670",
+                    "speaker": "Mei Mei Chow"
+                },
+                {
+                    "text": " Let me up you to where weve got to. So I think. As I spoke to you, I said, I insist on a call with Kpmg last Friday, which we had,",
+                    "end_ts": "00:11:00.540",
+                    "ts": "00:10:50.600",
+                    "speaker": "Mei Mei Chow"
+                },
+                {
+                    "text": " and um",
+                    "end_ts": "00:11:03.140",
+                    "ts": "00:11:00.880",
+                    "speaker": "Mei Mei Chow"
+                },
+                {
+                    "text": " good and bad. Sadly, I think the conclusion that Jim myself and Ken as came to was Kpmgs report",
+                    "end_ts": "00:11:13.379",
+                    "ts": "00:11:03.610",
+                    "speaker": "Mei Mei Chow"
+                },
+                {
+                    "text": " was not so strong as in they Havent done as much work as Shabbat has in a shorter time and more confidence in their answers, but saying that Kpmgs numbers were",
+                    "end_ts": "00:11:31.109",
+                    "ts": "00:11:13.920",
+                    "speaker": "Mei Mei Chow"
+                },
+                {
+                    "text": " closer to Chavers, so we have unsigned. On one side we have got chavers,",
+                    "end_ts": "00:11:36.730",
+                    "ts": "00:11:31.120",
+                    "speaker": "Mei Mei Chow"
+                },
+                {
+                    "text": " and then Kpmg. Which gives us, and saying to Jim, at least the comfort that Chaves was not talking rubbish. Chevys number is very clear, and Gibb and he has taken an even dimmer view. So were talking about large numbers just for one year.",
+                    "end_ts": "00:11:53.309",
+                    "ts": "00:11:36.740",
+                    "speaker": "Mei Mei Chow"
+                },
+                {
+                    "text": " So um. Then that was a debate on whether you know we retain Kpmg. Their work isnt uh not as strong, and I said, we need to retain them. They are an international firm after all, and eventually we will push them to come up with a formal opinion, and if we are going to go down the litigation route, or at least show teeth in the negotiations to education, will be much stronger",
+                    "end_ts": "00:12:23.409",
+                    "ts": "00:11:54.340",
+                    "speaker": "Mei Mei Chow"
+                },
+                {
+                    "text": " by two tech advisors rather than one.",
+                    "end_ts": "00:12:27.339",
+                    "ts": "00:12:23.420",
+                    "speaker": "Mei Mei Chow"
+                },
+                {
+                    "text": " So what were doing with Kpmg now is pushing them to come to a more concrete view by this Friday,",
+                    "end_ts": "00:12:40.340",
+                    "ts": "00:12:27.400",
+                    "speaker": "Mei Mei Chow"
+                },
+                {
+                    "text": " where weve got to, and I dont. I dont know whether it is them not getting enough information, or they dont want to get enough information. Theyre still a bit blurry on twenty, sixteen onwards, but weve got enough viewpoint",
+                    "end_ts": "00:12:58.579",
+                    "ts": "00:12:41.590",
+                    "speaker": "Mei Mei Chow"
+                },
+                {
+                    "text": " on the two thousand and fourteen to know that two thousand and sixteen is going to go the same way. Its just a matter of how much more were going to add to the to the numbers, as weve only over the years. Right? So let me make sure. I understand right now. Two thousand and fourteen is the one for which we have number two thousand and fifteen. Theyve passed the statutory time limit,",
+                    "end_ts": "00:13:17.700",
+                    "ts": "00:12:58.590",
+                    "speaker": "Mei Mei Chow"
+                },
+                {
+                    "text": " so after its a question of two thousand and sixteen, and we dont know where it stops.",
+                    "end_ts": "00:13:22.000",
+                    "ts": "00:13:17.710",
+                    "speaker": "Nicolas Verle"
+                },
+                {
+                    "text": " Correct. Two thousand and sixteen and seventeen are in the middle of assessments, and then youve got eighteen, nineteen, twenty, and eventually twenty one, which",
+                    "end_ts": "00:13:33.140",
+                    "ts": "00:13:22.750",
+                    "speaker": "Mei Mei Chow"
+                },
+                {
+                    "text": " which they havent issue any assessment, and they may do",
+                    "end_ts": "00:13:36.909",
+                    "ts": "00:13:33.590",
+                    "speaker": "Mei Mei Chow"
+                },
+                {
+                    "text": " um. So so",
+                    "end_ts": "00:13:40.190",
+                    "ts": "00:13:37.280",
+                    "speaker": "Mei Mei Chow"
+                },
+                {
+                    "text": " so I um. This was a strategy here I was discussing with uh, Jim and and I just wanted to share with you and also get more ideas on how we should progress forward. Um, I said to Jim. Okay, we now really need to engage with him. Manual. We we cant we? We cant delay that anymore. And uh,",
+                    "end_ts": "00:14:01.769",
+                    "ts": "00:13:40.200",
+                    "speaker": "Mei Mei Chow"
+                },
+                {
+                    "text": " also Quin Emmanuel reached out to me over the weekend. Theyve just been offered another litigation against Cedril um Bill, The the medicine partner, did not want to have too much information, because he didnt want to be,",
+                    "end_ts": "00:14:21.609",
+                    "ts": "00:14:01.780",
+                    "speaker": "Mei Mei Chow"
+                },
+                {
+                    "text": " you know, conflicted uh. So he told them not to give him more information until hes spoken to to to me to to say we may. Uh, Are you okay? If we go? Yeah, basically we we gotta. We gotta to decide what We in the option.",
+                    "end_ts": "00:14:40.859",
+                    "ts": "00:14:21.620",
+                    "speaker": "Mei Mei Chow"
+                },
+                {
+                    "text": " Yes, uh, but luckily, a day later I said to him",
+                    "end_ts": "00:15:03.499",
+                    "ts": "00:14:41.270",
+                    "speaker": "Mei Mei Chow"
+                },
+                {
+                    "text": " im quite confident theres no conflict. However, I was saying to Jim, I said, I dont want to lose his opportunity of getting a Quin Emmanuel and find that theyre not acting me as a side and sending me, you know.",
+                    "end_ts": "00:15:16.610",
+                    "ts": "00:15:03.510",
+                    "speaker": "Mei Mei Chow"
+                },
+                {
+                    "text": " Yeah. So So Jim is now agreed that we need to appoint them. Uh. So Ive spoken to to Bill and say, Hold your horses over there we are. We are appointing you um, and he is just going to give me a refresh engagement that gave me dates back to,",
+                    "end_ts": "00:15:33.610",
+                    "ts": "00:15:16.660",
+                    "speaker": "Mei Mei Chow"
+                },
+                {
+                    "text": " I think,",
+                    "end_ts": "00:15:35.210",
+                    "ts": "00:15:33.790",
+                    "speaker": "Mei Mei Chow"
+                },
+                {
+                    "text": " June, or maybe before June. It is too old, so hes going to have to re. We craft it right? So thats where we are with Quid Emmanuel",
+                    "end_ts": "00:15:45.990",
+                    "ts": "00:15:35.800",
+                    "speaker": "Mei Mei Chow"
+                },
+                {
+                    "text": " at least first stage. The first stage is to review all the documentation, everything they need to do to see whether we have a case.",
+                    "end_ts": "00:15:53.010",
+                    "ts": "00:15:46.000",
+                    "speaker": "Mei Mei Chow"
+                },
+                {
+                    "text": " Yup, yup, yup! And and and where. So what",
+                    "end_ts": "00:15:55.589",
+                    "ts": "00:15:53.020",
+                    "speaker": "Nicolas Verle"
+                },
+                {
+                    "text": " understood and agreed We need to, you know, purchase thing out. We we ced real the other, as I, As we discussed for for us the priority was to take care of the C next notes its Its mostly done now. So now its. The next thing on cmx. Is this tax issue so obviously dealing with the sat one and then dealing with cedar. On the other hand, when when do you think we are going to start engaging with the S at?",
+                    "end_ts": "00:16:20.900",
+                    "ts": "00:15:55.600",
+                    "speaker": "Nicolas Verle"
+                },
+                {
+                    "text": " Okay. So this is the pros and cons right? Um. Ah, my view is, we need Chavez involved cachevests. Ah! Analysis is much much stronger than Kpmg. So we have two",
+                    "end_ts": "00:16:34.589",
+                    "ts": "00:16:21.540",
+                    "speaker": "Mei Mei Chow"
+                },
+                {
+                    "text": " text advisors behind us. We have win in that role, and my view is after you. You have met to Pesus, and the fact that he has has delivered to date. Uh, he says he can engage with the S. Eighteen is to also involve uh Rda and Hastes in this. But this is where the chicken and it comes in if we know, before engaging the sat, its a large number. We know that now that should be the numbers that we use.",
+                    "end_ts": "00:17:03.530",
+                    "ts": "00:16:34.600",
+                    "speaker": "Mei Mei Chow"
+                },
+                {
+                    "text": " Uh, If you know, Bill finds that we have a good case of either gross negligence or or misconduct whatever procedure side to, to basically use it to negotiate to get something back from the right here, either the money or the shares, and so on. So forth. Um, if we go and speak to sat first, and then he sues is",
+                    "end_ts": "00:17:28.290",
+                    "ts": "00:17:03.540",
+                    "speaker": "Mei Mei Chow"
+                },
+                {
+                    "text": " uh hes confident that he can reduce that number to very small. Its almost like weve got nothing to negotiate with, C drill, anymore. So its Its Its How do we get haste to get uh sat to slow down uh until we have a proper case?",
+                    "end_ts": "00:17:47.970",
+                    "ts": "00:17:28.300",
+                    "speaker": "Mei Mei Chow"
+                },
+                {
+                    "text": " Uh go through that with C drill before we then formally engage sat.",
+                    "end_ts": "00:17:53.589",
+                    "ts": "00:17:47.980",
+                    "speaker": "Mei Mei Chow"
+                },
+                {
+                    "text": " Yeah. Look",
+                    "end_ts": "00:17:54.959",
+                    "ts": "00:17:53.600",
+                    "speaker": "Nicolas Verle"
+                },
+                {
+                    "text": " I I I see. Yeah, but with okay, I I understand the theoretical question. But im afraid we cant have a cake and eat it. We can, on one hand, obtain a lot from cedar on the page. Now, in the end, whatever we get from cedar will be",
+                    "end_ts": "00:18:11.810",
+                    "ts": "00:17:55.050",
+                    "speaker": "Nicolas Verle"
+                },
+                {
+                    "text": " that thats that will be a",
+                    "end_ts": "00:18:15.070",
+                    "ts": "00:18:12.040",
+                    "speaker": "Nicolas Verle"
+                },
+                {
+                    "text": " based on whatever were being finally hit by the taxman. What I what I mean by that is, if im ced well, there is no way, no way in in hell that I will ever accept to settle before I know whats the final impact to Paris.",
+                    "end_ts": "00:18:33.189",
+                    "ts": "00:18:15.320",
+                    "speaker": "Nicolas Verle"
+                },
+                {
+                    "text": " See what I mean. Theres theres no way. I I just want to bury that thing quickly, and its, you know. Im im. Im inventing stupid numbers on purpose. Lets say that we start seeing how its two hundred million impact for us, and were going to say its two hundred million. Okay, So were suing your basis of two hundred million. Well, the same time we negotiate one main to end up being only fifty million per day. There is no way in hell,",
+                    "end_ts": "00:19:02.160",
+                    "ts": "00:18:33.200",
+                    "speaker": "Mei Mei Chow"
+                },
+                {
+                    "text": " and a serial will ever accept to negotiate before they know whats the final number were being hit with. So I think my once again I dont want to micromanage you. I I leave it to your to your decision. But by playing the the chicken leg",
+                    "end_ts": "00:19:19.789",
+                    "ts": "00:19:02.170",
+                    "speaker": "Mei Mei Chow"
+                },
+                {
+                    "text": " in the end were now going to accelerate things which is going to delay things. Because if I were to say sorry guys, I im not even engaging with you. Im not negotiating before you. Actually, if you know, maybe you could just be inventing stupid numbers, right? Maybe you guys, I And by the way, thats what ill say, because ill say that for me there was no tax issue.",
+                    "end_ts": "00:19:39.019",
+                    "ts": "00:19:19.960",
+                    "speaker": "Nicolas Verle"
+                },
+                {
+                    "text": " So show me youre actually paying something, because once were paying something by definition, we dont want to pay something for being something, because we feel we have no choice. So I think the priority is, we engage with the sat. We we sort of park in our mind.",
+                    "end_ts": "00:19:55.929",
+                    "ts": "00:19:39.030",
+                    "speaker": "Mei Mei Chow"
+                },
+                {
+                    "text": " Whatever is that well recover from cedral.",
+                    "end_ts": "00:19:59.679",
+                    "ts": "00:19:55.940",
+                    "speaker": "Nicolas Verle"
+                },
+                {
+                    "text": " We agree on a scheduled payment, whatever we find as much as we can to lower it. Once weve got that then we turn to cetera.",
+                    "end_ts": "00:20:07.739",
+                    "ts": "00:19:59.860",
+                    "speaker": "Nicolas Verle"
+                },
+                {
+                    "text": "I would think so.",
+                    "end_ts": "00:20:09.330",
+                    "ts": "00:20:07.750",
+                    "speaker": "Unknown"
+                },
+                {
+                    "text": " Otherwise. Its too easy to facilitate to say these. These are virtual numbers that are corresponding to nothing.",
+                    "end_ts": "00:20:14.689",
+                    "ts": "00:20:09.420",
+                    "speaker": "Mei Mei Chow"
+                },
+                {
+                    "text": " Yeah, I hear an interest. And the other thing we just need to be um cognizant about is they want to push for E. Why, whom they say they can get them twenty million. So thats the other thing that",
+                    "end_ts": "00:20:29.300",
+                    "ts": "00:20:15.820",
+                    "speaker": "Mei Mei Chow"
+                },
+                {
+                    "text": " do. We then allow them to go with Ei and let them take their responsibility, or we go with someone else and not use the Ui and end up with a high number, and then theyre going to turn around and say, Well,",
+                    "end_ts": "00:20:41.189",
+                    "ts": "00:20:29.680",
+                    "speaker": "Mei Mei Chow"
+                },
+                {
+                    "text": " okay.",
+                    "end_ts": "00:20:43.060",
+                    "ts": "00:20:41.200",
+                    "speaker": "Mei Mei Chow"
+                },
+                {
+                    "text": " But the problem is, I I see what youre describing. But if we let Cedial drive the ship, it will go nowhere. Nothing will happen, because deep inside, even though they always they will always pretend that how we use the Ui would have been a lot lower.",
+                    "end_ts": "00:21:00.100",
+                    "ts": "00:20:43.110",
+                    "speaker": "Mei Mei Chow"
+                },
+                {
+                    "text": " The truth is, if we let them drive that ship with Ei, we will get to nowhere in a year and a half, which is not something you can afford,",
+                    "end_ts": "00:21:06.740",
+                    "ts": "00:21:00.110",
+                    "speaker": "Nicolas Verle"
+                },
+                {
+                    "text": " so its not a question of us saying, were Were building a file, and not to try to see why I was, was frankly and maybe not in fraud, but in roles, misunderstanding at least negligence. So in one hand were showing the negligence by Ui, the negligence, by cedarl into telling me why, what to do,",
+                    "end_ts": "00:21:24.359",
+                    "ts": "00:21:06.750",
+                    "speaker": "Nicolas Verle"
+                },
+                {
+                    "text": " and we justifying why were moving away from you. Why, and then",
+                    "end_ts": "00:21:29.680",
+                    "ts": "00:21:24.370",
+                    "speaker": "Nicolas Verle"
+                },
+                {
+                    "text": " then we nigger, and then we negotiate with the tax plan, and Cedral will never be able to say that we negotiate with the tax plan in in bad phase, because whatever we recover from them will only be a fraction right? So we had all incentive to try to get that. We got to show that were trying to get that number as low as possible. But if we, if we let cedral at the hem with you, I I can assure you well still be discussing about this in a year.",
+                    "end_ts": "00:21:56.219",
+                    "ts": "00:21:29.690",
+                    "speaker": "Nicolas Verle"
+                },
+                {
+                    "text": " Yeah, which is we? Just um,",
+                    "end_ts": "00:21:59.910",
+                    "ts": "00:21:56.630",
+                    "speaker": "Mei Mei Chow"
+                },
+                {
+                    "text": " And I I think thats what weve done till now right to make sure that we are comfortable with what an independent findings are, rather than leave it to run it and sign everything off. I think we just got to be triply sure. Legally, they cant come and hit us with it.",
+                    "end_ts": "00:22:17.629",
+                    "ts": "00:21:59.950",
+                    "speaker": "Mei Mei Chow"
+                },
+                {
+                    "text": " Look at Jim,",
+                    "end_ts": "00:22:20.050",
+                    "ts": "00:22:18.600",
+                    "speaker": "Mei Mei Chow"
+                },
+                {
+                    "text": " we we are! We are sovereign in our company now, right, thats us taking the decision so normally. If shares in you have done their work well, theres enough in their work to show that e why Job, which is not to do in the first place.",
+                    "end_ts": "00:22:38.109",
+                    "ts": "00:22:20.060",
+                    "speaker": "Mei Mei Chow"
+                },
+                {
+                    "text": " So we should just build that audit trail summ in that to cedar and say weve decided to remove a y for a B C, and D.",
+                    "end_ts": "00:22:47.270",
+                    "ts": "00:22:38.260",
+                    "speaker": "Mei Mei Chow"
+                },
+                {
+                    "text": " Now well well keep you in form of the negotiation.",
+                    "end_ts": "00:22:51.370",
+                    "ts": "00:22:47.360",
+                    "speaker": "Mei Mei Chow"
+                },
+                {
+                    "text": " Were always at every point in time we keep them in full.",
+                    "end_ts": "00:22:55.089",
+                    "ts": "00:22:51.690",
+                    "speaker": "Nicolas Verle"
+                },
+                {
+                    "text": " Okay,",
+                    "end_ts": "00:22:56.000",
+                    "ts": "00:22:55.100",
+                    "speaker": "Mei Mei Chow"
+                },
+                {
+                    "text": " they can race and they cant raise their hand. But we got to show what what how many mistakes Ai has been doing so.",
+                    "end_ts": "00:23:03.869",
+                    "ts": "00:22:56.040",
+                    "speaker": "Mei Mei Chow"
+                },
+                {
+                    "text": " Yeah.",
+                    "end_ts": "00:23:07.050",
+                    "ts": "00:23:05.970",
+                    "speaker": "Mei Mei Chow"
+                },
+                {
+                    "text": " Otherwise you know its it is. This sort of mitigation cannot be handled by cedar. Its a complete conflict of interest you. Youll be doing with people procedural Dont care. Theyre not shoulder or they will keep the can down the road forever, And thats where our interest is not online. We want to deal with that thing as a asap.",
+                    "end_ts": "00:23:28.269",
+                    "ts": "00:23:09.650",
+                    "speaker": "Mei Mei Chow"
+                },
+                {
+                    "text": "They want to never have to deal with that thing.",
+                    "end_ts": "00:23:30.460",
+                    "ts": "00:23:28.280",
+                    "speaker": "Unknown"
+                },
+                {
+                    "text": " So even if theres a I understand the cost to us all. We can legal risk. But you know, lawyers how they are. They see risk everywhere. Okay, fine. But I know what my biggest risk for me is nothing happening for you.",
+                    "end_ts": "00:23:42.730",
+                    "ts": "00:23:30.520",
+                    "speaker": "Mei Mei Chow"
+                },
+                {
+                    "text": " Its",
+                    "end_ts": "00:23:44.130",
+                    "ts": "00:23:43.040",
+                    "speaker": "Mei Mei Chow"
+                },
+                {
+                    "text": " okay. I hear you. Um!",
+                    "end_ts": "00:23:49.140",
+                    "ts": "00:23:46.130",
+                    "speaker": "Mei Mei Chow"
+                },
+                {
+                    "text": " It just makes you all the I Ill just make sure all the ends are tied. Thats anything concerns me. But no, I do.",
+                    "end_ts": "00:23:56.789",
+                    "ts": "00:23:49.570",
+                    "speaker": "Mei Mei Chow"
+                },
+                {
+                    "text": " Yeah, I I mean, I am.",
+                    "end_ts": "00:23:59.239",
+                    "ts": "00:23:56.800",
+                    "speaker": "Mei Mei Chow"
+                },
+                {
+                    "text": " I can see you now. Yeah, yeah. Finally, I dont know how long its gonna last up. But its there.",
+                    "end_ts": "00:24:06.540",
+                    "ts": "00:23:59.650",
+                    "speaker": "Mei Mei Chow"
+                },
+                {
+                    "text": " Yeah, Our confidence level is definitely with Travis and Rda and Quid Manual. Right? Its just to",
+                    "end_ts": "00:24:13.990",
+                    "ts": "00:24:06.820",
+                    "speaker": "Mei Mei Chow"
+                },
+                {
+                    "text": " yeah, and you and and and we need a big name like Atm G. To be able to fight off you. Why? Because the Y. C. Door will have a feel, they say, Oh, but you hire the local guy. Its not the international standard. Blah blah blah blah blah! We hire the local diagnosed best. We had a great firm, and both of them. I told us",
+                    "end_ts": "00:24:30.800",
+                    "ts": "00:24:14.000",
+                    "speaker": "Mei Mei Chow"
+                },
+                {
+                    "text": " Job done by Ai was not up to the required standard boom.",
+                    "end_ts": "00:24:34.489",
+                    "ts": "00:24:30.810",
+                    "speaker": "Nicolas Verle"
+                },
+                {
+                    "text": " Okay, that gives us a way forward, because I hear you. Okay?",
+                    "end_ts": "00:24:43.999",
+                    "ts": "00:24:36.820",
+                    "speaker": "Mei Mei Chow"
+                },
+                {
+                    "text": " Okay. And you what you wanted to discuss with me. Also this thing about sergio relocation expenses",
+                    "end_ts": "00:24:55.889",
+                    "ts": "00:24:50.800",
+                    "speaker": "Mei Mei Chow"
+                },
+                {
+                    "text": " for that. That was so that so there are two things on Serjo. Um. So I think when Keenan sporting was doing the cusp escape or cascade um, and we are trying to get uh Tina all the direct to ships right and and get all the people off. Uh, weve found out that uh, because it was all done on a piecemeal basis thats",
+                    "end_ts": "00:25:18.540",
+                    "ts": "00:24:55.900",
+                    "speaker": "Mei Mei Chow"
+                },
+                {
+                    "text": " is sitting in the middle. I would call the",
+                    "end_ts": "00:25:24.780",
+                    "ts": "00:25:18.550",
+                    "speaker": "Mei Mei Chow"
+                },
+                {
+                    "text": " in the middle, holding companies, so hes not sitting in the Mexican, c. Max companies. Hes not sitting at the top layer parrot. But hes sitting in these C Mix companies in Uk, Netherlands and Hoskly Bermuda.",
+                    "end_ts": "00:25:42.789",
+                    "ts": "00:25:24.840",
+                    "speaker": "Mei Mei Chow"
+                },
+                {
+                    "text": " You mean hes already there as of today. Hes already a director there. Okay, Okay,",
+                    "end_ts": "00:25:47.930",
+                    "ts": "00:25:42.800",
+                    "speaker": "Nicolas Verle"
+                },
+                {
+                    "text": " yeah. So he he was a director, and I think either",
+                    "end_ts": "00:25:51.789",
+                    "ts": "00:25:48.130",
+                    "speaker": "Mei Mei Chow"
+                },
+                {
+                    "text": " two or three companies what I call the intermediate holding companies.",
+                    "end_ts": "00:25:56.450",
+                    "ts": "00:25:51.800",
+                    "speaker": "Mei Mei Chow"
+                },
+                {
+                    "text": " Now.",
+                    "end_ts": "00:25:57.820",
+                    "ts": "00:25:56.530",
+                    "speaker": "Mei Mei Chow"
+                },
+                {
+                    "text": " I uh",
+                    "end_ts": "00:26:00.310",
+                    "ts": "00:25:57.990",
+                    "speaker": "Mei Mei Chow"
+                },
+                {
+                    "text": " obviously sympathize with him. He doesnt want to go on a Mexican entities because of the text issue. He says he doesnt want to be son. He pulled into jail, but hes Ah,",
+                    "end_ts": "00:26:13.790",
+                    "ts": "00:26:00.350",
+                    "speaker": "Mei Mei Chow"
+                },
+                {
+                    "text": " um! So so thats the main reason he doesnt want to be there. So when King is building brought it to Uh Tyson myself, James and Jim the other day, and said, What do you want to do with sergio because hes in between. So we all have a discussion to say it doesnt make sense right for him to be in either all the way through or hes not at all.",
+                    "end_ts": "00:26:34.779",
+                    "ts": "00:26:13.800",
+                    "speaker": "Mei Mei Chow"
+                },
+                {
+                    "text": " So that was. It was just logically what we came to. So Jordan did say to me, What did the Board deliberate? And I was very open with him. I say, look, this is concerned. If you were a Mexican director,",
+                    "end_ts": "00:26:47.169",
+                    "ts": "00:26:34.790",
+                    "speaker": "Mei Mei Chow"
+                },
+                {
+                    "text": " then it makes sense for you to be all the way through. But youre neither on top, and youre not at the bottom, and youre just in the intermediate holding company where theres no real activity. And then he said he would want it to request that he stayed on there because he said the Board Director ships reported to him. He did mention that he had had a discussion with you, and I said",
+                    "end_ts": "00:27:08.339",
+                    "ts": "00:26:47.180",
+                    "speaker": "Mei Mei Chow"
+                },
+                {
+                    "text": " was that recent um, and was that in line with you being a direct all the way through, including the Mexican entities, or just the intermediate holding companies. I think my impression was",
+                    "end_ts": "00:27:21.930",
+                    "ts": "00:27:08.350",
+                    "speaker": "Mei Mei Chow"
+                },
+                {
+                    "text": " that was a discussion he had with you some time ago. So at the moment the the Boards view is he shouldnt be on any of the direct issues,",
+                    "end_ts": "00:27:31.469",
+                    "ts": "00:27:22.400",
+                    "speaker": "Mei Mei Chow"
+                },
+                {
+                    "text": " if its just the intermediate holding company. But I wanted to check with you because Sir Joe did say that he spoke to you about it,",
+                    "end_ts": "00:27:38.550",
+                    "ts": "00:27:31.620",
+                    "speaker": "Mei Mei Chow"
+                },
+                {
+                    "text": " so so ill tell you why. My My conversation with them was after we discussed like a a month and a half ago, where you had in mind, and I did tell him",
+                    "end_ts": "00:27:48.429",
+                    "ts": "00:27:38.560",
+                    "speaker": "Mei Mei Chow"
+                },
+                {
+                    "text": " I dont want to steal your show. That was for you to to turn. You thought about with all about, you know, making it more absurd and purchase so that hes in the",
+                    "end_ts": "00:27:58.899",
+                    "ts": "00:27:48.440",
+                    "speaker": "Mei Mei Chow"
+                },
+                {
+                    "text": " Its so that hes in the No? Okay, because he felt a bit frustrated, and and we were. We understood that he couldnt be a director. So what I told him, and that by by the way, he just ping me, and I think im going to see him tomorrow afternoon. So its so, because in a moment so its good that you and I synchronize uh our speech before. But, uh, what I told them is that I know that they may have something in mind to",
+                    "end_ts": "00:28:22.430",
+                    "ts": "00:27:58.910",
+                    "speaker": "Nicolas Verle"
+                },
+                {
+                    "text": " if you in the loop of info. But I dont want to, you know. Steal May Mays wind, so ill let her discuss with you that there was never, I didnt even know that he was already a director and me to get holdings. Okay, yeah, I I And for me the discussion was all I didnt even know that it was such direct. She I mean that makes perfect sense. By the way, where I even thought about it for me the only thing that matters was cmx. And parties, and I had understood from him that he didnt want to be on the same export",
+                    "end_ts": "00:28:52.040",
+                    "ts": "00:28:22.440",
+                    "speaker": "Mei Mei Chow"
+                },
+                {
+                    "text": " for obvious reasons. And to me the question was to get him, you know, still in death",
+                    "end_ts": "00:28:58.880",
+                    "ts": "00:28:52.050",
+                    "speaker": "Nicolas Verle"
+                },
+                {
+                    "text": " in the know and the floor information of the company, which is kind of key, because I really can get very much pretty fast if you feel that you dont have to about whats going on. So I We never had any discussion at all about the intermediate directorship, now that that that that thats for sure. I know we would never dare, you know, committing to anything like that before youre mentioning it with you. The The only thing I ever told him, is, I think I may have as a solution by part to, but ill let you die. Discuss with with with you Dark, and that that was the",
+                    "end_ts": "00:29:28.679",
+                    "ts": "00:28:58.890",
+                    "speaker": "Mei Mei Chow"
+                },
+                {
+                    "text": " that was the ah, the you say the observer now? Ah, where I one hundred percent agree with you is that makes no sense to having a whole cascade of holding another, the last one",
+                    "end_ts": "00:29:41.860",
+                    "ts": "00:29:29.200",
+                    "speaker": "Nicolas Verle"
+                },
+                {
+                    "text": " that being said, I know how he is. I know, because im Latin, and hes even worse because its Mexican, and he is. He wants some sort of title or something for his resume. So he wants to be able to say somewhere they some sort of director somewhere. So",
+                    "end_ts": "00:30:00.789",
+                    "ts": "00:29:42.120",
+                    "speaker": "Nicolas Verle"
+                },
+                {
+                    "text": " if its not possible, thats not possible. Thank you very much. But ifs there a way, we can put in the director of something,",
+                    "end_ts": "00:30:07.249",
+                    "ts": "00:30:00.870",
+                    "speaker": "Nicolas Verle"
+                },
+                {
+                    "text": " whats your",
+                    "end_ts": "00:30:08.830",
+                    "ts": "00:30:07.390",
+                    "speaker": "Nicolas Verle"
+                },
+                {
+                    "text": " great, if not well, too bad. But he doesnt want to be director at Cmx. So whats Whats the issue in having him director of the whole links. What do you think? Its the issue? It just looks bad, or its exposed. Its exposing us, or wait. Look, I understand that it looks cleaner if we remove him.",
+                    "end_ts": "00:30:28.430",
+                    "ts": "00:30:09.140",
+                    "speaker": "Mei Mei Chow"
+                },
+                {
+                    "text": " But why? Whats the danger if we keep in direct in one of the intermediary holdings?",
+                    "end_ts": "00:30:33.579",
+                    "ts": "00:30:28.520",
+                    "speaker": "Nicolas Verle"
+                },
+                {
+                    "text": " Actually there, there is no danger. Right, Nicholas. So I mean we could leave it as status quo. Its just that. When we were logically looking at it. Whether it was it, it seemed odd that he was not at the top and not the bottom",
+                    "end_ts": "00:30:45.040",
+                    "ts": "00:30:34.270",
+                    "speaker": "Mei Mei Chow"
+                },
+                {
+                    "text": "it. It was just a logical,",
+                    "end_ts": "00:30:47.429",
+                    "ts": "00:30:45.110",
+                    "speaker": "Unknown"
+                },
+                {
+                    "text": " a viewpoint, rather than it cant. He cant be in in the intermediate way he can, he can be kept there. Maybe we should ask him. That question is once the tax thing is solved,",
+                    "end_ts": "00:31:02.659",
+                    "ts": "00:30:47.740",
+                    "speaker": "Mei Mei Chow"
+                },
+                {
+                    "text": " Will he agree to be a director of Cmx in Mexico, because if thats",
+                    "end_ts": "00:31:09.580",
+                    "ts": "00:31:02.730",
+                    "speaker": "Mei Mei Chow"
+                },
+                {
+                    "text": " thats the case, then it be the actor of all the cascade that purchase, and its just that were holding up from our last one.",
+                    "end_ts": "00:31:17.789",
+                    "ts": "00:31:10.500",
+                    "speaker": "Nicolas Verle"
+                },
+                {
+                    "text": " Okay, Now, if youre telling us. Oh, no, I dont even feel comfortable. My bad say, Okay, So youll never be direct to of C back. So whats the point of keeping you in the holdings right?",
+                    "end_ts": "00:31:27.970",
+                    "ts": "00:31:17.800",
+                    "speaker": "Mei Mei Chow"
+                },
+                {
+                    "text": " If its just because you know, and and a few months will have to solve the tax thing and then you become director. Yeah, It be stupid to remove you from the holdings, knowing very well that were going to put you back into the final so of a whole day in a few months. But look once again I I leave it to you. Its just ideas on top of my mind.",
+                    "end_ts": "00:31:47.490",
+                    "ts": "00:31:27.980",
+                    "speaker": "Nicolas Verle"
+                },
+                {
+                    "text": " Yes,",
+                    "end_ts": "00:31:48.460",
+                    "ts": "00:31:47.500",
+                    "speaker": "Mei Mei Chow"
+                },
+                {
+                    "text": " okay. Now Then I realized today because I spoke to Sir Joe. So whenever hes not any meetings I call him and I keep him fully brief and updated, so he knows he was. He missed out on the meeting with Kpmg last Friday, and I have said to him that I will ensure that hes in this Friday. I didnt realize he was not invited because he he has to be in. I I was not controlling the the the zone calls and stuff, and I have now written an email.",
+                    "end_ts": "00:32:18.429",
+                    "ts": "00:31:48.610",
+                    "speaker": "Mei Mei Chow"
+                },
+                {
+                    "text": " Ah, to say, Please involve Sergio Sergio was fully involved in the sheriffs review. He should be in the kpm as well.",
+                    "end_ts": "00:32:26.690",
+                    "ts": "00:32:18.450",
+                    "speaker": "Mei Mei Chow"
+                },
+                {
+                    "text": " Um,",
+                    "end_ts": "00:32:28.100",
+                    "ts": "00:32:26.700",
+                    "speaker": "Mei Mei Chow"
+                },
+                {
+                    "text": " so. But I briefed him as to what happened. Ah, so he he he knows whenever hes not in a caller. I update him Now Then it it I guess it it. It became a little bit ah more obvious today. Why? Why the directorships and so forth. So whilst I was in Fouquet the last two days. There was a lot of rain and a wi-fi was cutting in and out, so",
+                    "end_ts": "00:32:51.929",
+                    "ts": "00:32:28.110",
+                    "speaker": "Mei Mei Chow"
+                },
+                {
+                    "text": " I probably didnt Yeah, I",
+                    "end_ts": "00:32:54.170",
+                    "ts": "00:32:51.940",
+                    "speaker": "Mei Mei Chow"
+                },
+                {
+                    "text": " emails were coming in out it wasnt sure what I had seen or had not seen. And then I realized what I had missed was a request from Tyson to approve Sir Joes accommodation in London, which I then said to Sergio",
+                    "end_ts": "00:33:18.800",
+                    "ts": "00:32:54.180",
+                    "speaker": "Mei Mei Chow"
+                },
+                {
+                    "text": " hes coming back to London for twenty-eight days. Hes. He requested to book into a two bedroom service apartment that costs six hundred pounds a night.",
+                    "end_ts": "00:33:30.880",
+                    "ts": "00:33:18.810",
+                    "speaker": "Mei Mei Chow"
+                },
+                {
+                    "text": " Now his understanding is that parents would pay for it because hes here for parents, I said, Are you here on Pariss business for twenty-eight days, and then so what happened? Was you know he, the condition of him being on the parentss board was that he would be a Mexican tax resident, not a Uk tax resident. Um, now",
+                    "end_ts": "00:33:53.810",
+                    "ts": "00:33:31.580",
+                    "speaker": "Mei Mei Chow"
+                },
+                {
+                    "text": " personal calls with him. He did say to me he didnt know what to do now that he wasnt in, and you know he wasnt sure the right thing to do. So I I did say to him, I said, Look, I have got. I have got a tax adviser who looks at uh individuals. I said. You know his name is. He helped me, signing whether I was a Uk tax resident or not, because I I also live, have my time in the Uk. Right? Um! And then he came and he said, Okay, this Ive decided. Im gonna stay Uk residents.",
+                    "end_ts": "00:34:23.590",
+                    "ts": "00:33:53.820",
+                    "speaker": "Mei Mei Chow"
+                },
+                {
+                    "text": " And this this adviser has advised me that if im to do that, I have to spend at least one hundred and eighty days, if not more, in the Uk. In other words, if you spend one hundred and eighty days,",
+                    "end_ts": "00:34:36.479",
+                    "ts": "00:34:23.600",
+                    "speaker": "Mei Mei Chow"
+                },
+                {
+                    "text": " the Uk.",
+                    "end_ts": "00:34:40.020",
+                    "ts": "00:34:36.590",
+                    "speaker": "Mei Mei Chow"
+                },
+                {
+                    "text": " And then you also spend a majority of your time in Mexico, but not somewhere else. Mexican might still deem that you youre trying to, so he he will. Probably you want to spend",
+                    "end_ts": "00:34:50.710",
+                    "ts": "00:34:40.080",
+                    "speaker": "Mei Mei Chow"
+                },
+                {
+                    "text": " more than one hundred and eighty days in the Uk. So if the agreement was, and im not saying its wrong right just. I just want to make sure we are all on the same page. If we pay for his accommodation for him to be in the Uk for more than half the year. Were talking about um. If I assume six hundred,",
+                    "end_ts": "00:35:10.329",
+                    "ts": "00:34:50.719",
+                    "speaker": "Mei Mei Chow"
+                },
+                {
+                    "text": " six hundred and twelve actually was what the cost. Were talking about one hundred and twenty thousand pounds a year for his accommodation. Um, which equivalent to an additional, its basically extra ten thousand pounds a year for you. So I dont know whether you had a view about that. I mean. What I said to him was once I was working to you. Im going to set a policy in place to make sure its formalized. Uh, but I because he he said to me, he also spoke to you about",
+                    "end_ts": "00:35:39.169",
+                    "ts": "00:35:10.450",
+                    "speaker": "Mei Mei Chow"
+                },
+                {
+                    "text": " ill ill. Ill tell you where is when we decided that he wouldnt be Ceo material present material, and it wouldnt basically stay in in Mexico, he said, Okay, im going to have to move back to London, and I cant, anyway be a Mexican resident, and its Its partially because of practice I dont know to which extent theres some personal elements,",
+                    "end_ts": "00:36:06.300",
+                    "ts": "00:35:39.180",
+                    "speaker": "Mei Mei Chow"
+                },
+                {
+                    "text": " you know, like Tibet is why I think he got married recently, and his wife actually didnt want to move back to Mexico, which I can perfectly understand what. When you Australian, you marrying a guy in London, they tells you. Next thing is you moving to Mexico? Youre like Well, but actually, the guy is Mexican, so that is something that was never. But",
+                    "end_ts": "00:36:22.050",
+                    "ts": "00:36:06.310",
+                    "speaker": "Mei Mei Chow"
+                },
+                {
+                    "text": " so what I told them is that I cant understand. There has to be a negotiation here, and that parachute will help you. But thats not for me to have a negotiation, and whatever number it is thats something that you have to agree with me. May I never agree to? I said, on the concept that theres a help. Yes, but I think its also quite happy to move back to",
+                    "end_ts": "00:36:41.600",
+                    "ts": "00:36:22.060",
+                    "speaker": "Mei Mei Chow"
+                },
+                {
+                    "text": " to London. So I, if you were asking me, theres no way were paying for his life in London forever, the or half of the year that makes no sense whatsoever.",
+                    "end_ts": "00:36:53.000",
+                    "ts": "00:36:41.610",
+                    "speaker": "Nicolas Verle"
+                },
+                {
+                    "text": " Now, if were, can we help? Because we have? Were harshly responsible for that? Because we told him No, Actually, we dont need you to be an our personal guy anymore.",
+                    "end_ts": "00:37:04.620",
+                    "ts": "00:36:53.010",
+                    "speaker": "Nicolas Verle"
+                },
+                {
+                    "text": " When we agree on everything. We are very happy to have him, you know, down the ground Mexico all the time. Thats why were so happy to have it. And now were realizing,",
+                    "end_ts": "00:37:13.449",
+                    "ts": "00:37:04.630",
+                    "speaker": "Mei Mei Chow"
+                },
+                {
+                    "text": " partly because of him and partly because of us. Actually he cant be in Mexico. Its a that its actually a problem for him and us. So were helping him to come back, because, in my my view, theres no way were paying for everything.",
+                    "end_ts": "00:37:25.709",
+                    "ts": "00:37:13.460",
+                    "speaker": "Mei Mei Chow"
+                },
+                {
+                    "text": " But were helping, and after whats the right number? Im not going to tell you Whats the right number I wont get involved. I wont. Second, Guess you and say youll find something that makes sense.",
+                    "end_ts": "00:37:36.750",
+                    "ts": "00:37:25.720",
+                    "speaker": "Mei Mei Chow"
+                },
+                {
+                    "text": " So thank you that that that, and it helps the fact that I am hearing from you that you agreed to help. But you didnt agree to take everything, so that I just want to know where we",
+                    "end_ts": "00:37:47.289",
+                    "ts": "00:37:37.940",
+                    "speaker": "Mei Mei Chow"
+                },
+                {
+                    "text": " Yeah, Okay. Otherwise its just the wrong incentive, because if its everything. Its going to take the most expensive thing out there. Its like No, no, no, no! So",
+                    "end_ts": "00:37:57.290",
+                    "ts": "00:37:47.300",
+                    "speaker": "Mei Mei Chow"
+                },
+                {
+                    "text": " well I that thats what worries me. I think thats a case. Look I I I mean I dont want to, you know, nickel and dime anyone I I mean I I said to surgery, I say, I live. How my life in the nature half of the Uk. I said, I dont charge by either, I said I I took on the job on the basis that I know I have to travel to Uk. Ah, I",
+                    "end_ts": "00:38:15.500",
+                    "ts": "00:37:57.300",
+                    "speaker": "Mei Mei Chow"
+                },
+                {
+                    "text": " I then bought a property actually, literally recently, as as as as I joined the board, I want to. Im not going to charge for anything apart from the affairs to go for for meetings and stuff Right So then, he said, Oh, its different in his case, because hes doing this for parrot. And I said, youre doing this for parrots,",
+                    "end_ts": "00:38:33.150",
+                    "ts": "00:38:15.510",
+                    "speaker": "Mei Mei Chow"
+                },
+                {
+                    "text": " and and thats how the directorship came back in. He said, because im a director and the intermediate holding company. Ah, Ive got to show that um im in London rather than in Mexico, and I said, So are you telling me that if you didnt have the intermediate director hips you dont",
+                    "end_ts": "00:38:52.880",
+                    "ts": "00:38:33.710",
+                    "speaker": "Mei Mei Chow"
+                },
+                {
+                    "text": " you dont have. Yeah, you You know what I mean. Its its a mix of personal and business. Its so. So it has to be a negotiation,",
+                    "end_ts": "00:39:01.989",
+                    "ts": "00:38:52.890",
+                    "speaker": "Mei Mei Chow"
+                },
+                {
+                    "text": " and I will not. Second, guess you on whatever there is a right number. You both, and ill tell him the tomorrows. Its a negotiation. Characters will pick up a part of the tab a dollar, and I wont get involved in this thats between you and me.",
+                    "end_ts": "00:39:16.849",
+                    "ts": "00:39:02.000",
+                    "speaker": "Nicolas Verle"
+                },
+                {
+                    "text": " Yeah, I ill. Ill do that at least, I I know, and I know we we can. Uh you know I I would just find out from policy whats a fair amount, and so forth. Its like. When they asked me to approve six hundred and twelve a night for two bedroom. I I I was for twenty-eight nights. I mean My My first question was, why two bedrooms?",
+                    "end_ts": "00:39:35.990",
+                    "ts": "00:39:17.380",
+                    "speaker": "Mei Mei Chow"
+                },
+                {
+                    "text": " Ive heard this",
+                    "end_ts": "00:39:37.090",
+                    "ts": "00:39:36.000",
+                    "speaker": "Mei Mei Chow"
+                },
+                {
+                    "text": " and it, and its always the same, you know, if it were just twenty-eight days, and we never hear about it anymore, even though the the six are the great is is a lot. But you know the overall absolute. Its like ten ten years something that you know. The problem is, if we see these coming back, you know, every six months. Thats a different story.",
+                    "end_ts": "00:39:54.670",
+                    "ts": "00:39:37.100",
+                    "speaker": "Mei Mei Chow"
+                },
+                {
+                    "text": " Yes, thats why I wanted to. Yeah, I Yeah, I I mean, I I did say that if I knew its just twenty-eight days, I said I would have said, yes. But you know youre now telling me to be here for around two hundred days. Hold on. Yeah, yeah, its a precedent.",
+                    "end_ts": "00:40:10.880",
+                    "ts": "00:39:55.380",
+                    "speaker": "Mei Mei Chow"
+                },
+                {
+                    "text": " Okay, Thank you. Uh, okay, I think Im clear on that. Now. Um, Then the next thing just two more small items uh rough file. Um. So I, Jims also interviewed him and and liked him. So. Um, were gonna uh uh press ahead with the",
+                    "end_ts": "00:40:30.469",
+                    "ts": "00:40:11.630",
+                    "speaker": "Mei Mei Chow"
+                },
+                {
+                    "text": " coming out with something for him, and lets see how the negotiations go. I did say to Raphael that its going to happen. Hes got to do it quick. The good thing about Malaysia law is",
+                    "end_ts": "00:40:41.370",
+                    "ts": "00:40:30.480",
+                    "speaker": "Mei Mei Chow"
+                },
+                {
+                    "text": " uh, I cant remember whether he has a hes going to check three or six months uh to um uh period uh no notification period. Uh, but I said to him, if if a small amount would you rather buy him out? So hell start with us asap",
+                    "end_ts": "00:40:56.889",
+                    "ts": "00:40:41.380",
+                    "speaker": "Mei Mei Chow"
+                },
+                {
+                    "text": " um kns um, so ive um uh told them that im negotiating a fee. So now theyre where its going to be nowhere, and were gonna also talk about the sort of feature I Ive said to them if they want you to what they They got to be fair with the B as well as uh as well as the amount going forward. So I I think thats going to help um. But thats thats why I want to stay with you.",
+                    "end_ts": "00:41:25.559",
+                    "ts": "00:40:58.550",
+                    "speaker": "Mei Mei Chow"
+                },
+                {
+                    "text": "Terror?",
+                    "end_ts": "00:41:29.160",
+                    "ts": "00:41:28.070",
+                    "speaker": "Unknown"
+                },
+                {
+                    "text": " Yeah. So let me get working on the uh the texting um, I mean, whilst im not happy with Kpmgs number. I think its given us a relief that Chvis was not",
+                    "end_ts": "00:41:41.799",
+                    "ts": "00:41:29.560",
+                    "speaker": "Mei Mei Chow"
+                },
+                {
+                    "text": " far out, and now we can move to the next steps.",
+                    "end_ts": "00:41:46.490",
+                    "ts": "00:41:42.020",
+                    "speaker": "Mei Mei Chow"
+                },
+                {
+                    "text": " Yeah, yeah, I think we we have no choice",
+                    "end_ts": "00:41:49.889",
+                    "ts": "00:41:46.500",
+                    "speaker": "Mei Mei Chow"
+                },
+                {
+                    "text": " as well.",
+                    "end_ts": "00:41:51.140",
+                    "ts": "00:41:49.900",
+                    "speaker": "Mei Mei Chow"
+                },
+                {
+                    "text": " Sorry",
+                    "end_ts": "00:41:51.959",
+                    "ts": "00:41:51.150",
+                    "speaker": "Nicolas Verle"
+                },
+                {
+                    "text": "he's been hanging over us for far too long.",
+                    "end_ts": "00:41:54.190",
+                    "ts": "00:41:52.290",
+                    "speaker": "Unknown"
+                },
+                {
+                    "text": " Yeah, yeah, So lets just Its just Its just, you know. Lets lets bite the bullet on this, and after well see whatever we can recover from zero. We just need to.",
+                    "end_ts": "00:42:02.639",
+                    "ts": "00:41:54.200",
+                    "speaker": "Nicolas Verle"
+                },
+                {
+                    "text": " Theyre the audit trail, because clearly youre right. Heres how were used to the bunk advisor and everything said, Look, your advisor got us nowhere. In three years we have this over hanging our heads. So we have actually hired true advisor very well connected locally one and a great name, and they told us that so your job was just not to be done. In the first place, boom, boom! All that is in the audit trail,",
+                    "end_ts": "00:42:25.950",
+                    "ts": "00:42:02.650",
+                    "speaker": "Nicolas Verle"
+                },
+                {
+                    "text": " and we move forward because we cant afford to way right, that its even worse than that. Cedar is actually very happy. We stole in here because Cedar Doesnt want us to sell directs. Cedral Doesnt want us to do anything serial. Just want us to keep on if they keep on keeping their fees and everything. So Thats thats the problem. So they we call you just a second",
+                    "end_ts": "00:42:46.790",
+                    "ts": "00:42:25.960",
+                    "speaker": "Mei Mei Chow"
+                },
+                {
+                    "text": " Im being told. I have another meeting which is not in my schedule. So is it? Okay, if I jump, and if we can finish tomorrow morning if thats fine.",
+                    "end_ts": "00:43:06.120",
+                    "ts": "00:42:56.010",
+                    "speaker": "Mei Mei Chow"
+                },
+                {
+                    "text": " Yeah. No, I think thats all the things I wanted to discuss with you.",
+                    "end_ts": "00:43:09.289",
+                    "ts": "00:43:06.270",
+                    "speaker": "Mei Mei Chow"
+                },
+                {
+                    "text": " Okay, perfect, perfect. Thank you very much.",
+                    "end_ts": "00:43:11.890",
+                    "ts": "00:43:09.300",
+                    "speaker": "Mei Mei Chow"
+                },
+                {
+                    "text": " Speak to it. Its up against him.",
+                    "end_ts": "00:43:13.289",
+                    "ts": "00:43:11.900",
+                    "speaker": "Mei Mei Chow"
+                },
+                {
+                    "text": " Okay, Thank you. Bye bye,",
+                    "end_ts": "00:43:14.679",
+                    "ts": "00:43:13.300",
+                    "speaker": "Mei Mei Chow"
+                },
+                {
+                    "text": "I sent the",
+                    "end_ts": "00:50:14.499",
+                    "ts": "00:50:13.440",
+                    "speaker": "Unknown"
+                },
+                {
+                    "text": "I don't.",
+                    "end_ts": "01:11:44.130",
+                    "ts": "01:11:43.080",
+                    "speaker": "Unknown"
+                },
+                {
+                    "text": "There's no",
+                    "end_ts": "01:12:41.529",
+                    "ts": "01:12:40.500",
+                    "speaker": "Unknown"
+                },
+                {
+                    "text": "paragraph.",
+                    "end_ts": "01:13:01.280",
+                    "ts": "01:13:00.050",
+                    "speaker": "Unknown"
+                },
+                {
+                    "text": "Then you're back.",
+                    "end_ts": "01:18:57.489",
+                    "ts": "01:18:56.460",
+                    "speaker": "Unknown"
+                },
+                {
+                    "text": "It's not on that. We",
+                    "end_ts": "01:30:47.569",
+                    "ts": "01:30:46.110",
+                    "speaker": "Unknown"
+                },
+                {
+                    "text": "ordering them",
+                    "end_ts": "01:31:11.240",
+                    "ts": "01:31:09.930",
+                    "speaker": "Unknown"
+                },
+                {
+                    "text": "for them.",
+                    "end_ts": "01:31:27.350",
+                    "ts": "01:31:26.320",
+                    "speaker": "Unknown"
+                },
+                {
+                    "text": "They're not there.",
+                    "end_ts": "01:32:44.969",
+                    "ts": "01:32:43.890",
+                    "speaker": "Unknown"
+                },
+                {
+                    "text": "You're in a nutshell,",
+                    "end_ts": "01:33:40.489",
+                    "ts": "01:33:39.470",
+                    "speaker": "Unknown"
+                },
+                {
+                    "text": "is she?",
+                    "end_ts": "01:33:47.099",
+                    "ts": "01:33:46.060",
+                    "speaker": "Unknown"
+                },
+                {
+                    "text": " Brian? Yeah,",
+                    "end_ts": "01:36:23.029",
+                    "ts": "01:36:21.100",
+                    "speaker": "Nicolas Verle"
+                },
+                {
+                    "text": "it's fine for Michelle. But you've got something out to your",
+                    "end_ts": "01:36:31.500",
+                    "ts": "01:36:28.480",
+                    "speaker": "Unknown"
+                },
+                {
+                    "text": "Then you should be there",
+                    "end_ts": "01:36:36.740",
+                    "ts": "01:36:34.890",
+                    "speaker": "Unknown"
+                },
+                {
+                    "text": "without",
+                    "end_ts": "01:36:38.969",
+                    "ts": "01:36:37.690",
+                    "speaker": "Unknown"
+                },
+                {
+                    "text": "you want me to tell him i'm gonna attend one of the Zoo.",
+                    "end_ts": "01:36:48.710",
+                    "ts": "01:36:44.820",
+                    "speaker": "Unknown"
+                },
+                {
+                    "text": "We'll just leave it, and the shelter is going to.",
+                    "end_ts": "01:36:51.849",
+                    "ts": "01:36:49.020",
+                    "speaker": "Unknown"
+                },
+                {
+                    "text": "He's very sharp,",
+                    "end_ts": "01:36:54.989",
+                    "ts": "01:36:53.720",
+                    "speaker": "Unknown"
+                },
+                {
+                    "text": "and you find out",
+                    "end_ts": "01:37:03.010",
+                    "ts": "01:37:01.710",
+                    "speaker": "Unknown"
+                },
+                {
+                    "text": "he's on the right. Yes,",
+                    "end_ts": "01:59:49.579",
+                    "ts": "01:59:47.720",
+                    "speaker": "Unknown"
+                },
+                {
+                    "text": "with you.",
+                    "end_ts": "01:59:58.599",
+                    "ts": "01:59:56.390",
+                    "speaker": "Unknown"
+                },
+                {
+                    "text": "The one was eight eggs at the hemount of all.",
+                    "end_ts": "02:00:03.920",
+                    "ts": "02:00:00.170",
+                    "speaker": "Unknown"
+                },
+                {
+                    "text": "Thank you. Yeah,",
+                    "end_ts": "02:00:06.420",
+                    "ts": "02:00:05.370",
+                    "speaker": "Unknown"
+                },
+                {
+                    "text": "Thank you.",
+                    "end_ts": "02:00:27.280",
+                    "ts": "02:00:26.030",
+                    "speaker": "Unknown"
+                },
+                {
+                    "text": "That it was a good.",
+                    "end_ts": "02:04:32.219",
+                    "ts": "02:04:30.780",
+                    "speaker": "Unknown"
+                },
+                {
+                    "text": "It's",
+                    "end_ts": "02:08:14.050",
+                    "ts": "02:08:12.960",
+                    "speaker": "Unknown"
+                },
+                {
+                    "text": "not to remove.",
+                    "end_ts": "02:08:32.469",
+                    "ts": "02:08:31.310",
+                    "speaker": "Unknown"
+                }
+            ]
+        }
+    },
+    "recording": {
+        "source": {
+            "source_id": "86268970184",
+            "source_type": "meet"
+        },
+        "type": "M4A",
+        "play_url": "https://melqart.zoom.us/rec/play/MuaZDjXI-6GGRIYpo-o6ePz4GzFBcecti8bmn2dfVj1nEsiBoASHNmkL0TTSQo15M8igxELYUkYjka_u.pF6KFmDPhtueeAQz",
+        "recording_id": "4283dbb3-558b-40c7-9848-7c7a4d2ca12b",
+        "download_url": "processed.zoom/2022-09-22/audio_file_86268970184_1663802794932.m4a"
+    }
+}

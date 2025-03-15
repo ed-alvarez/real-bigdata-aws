@@ -1,0 +1,1425 @@
+Return-Path: <JournalError@ip-sentinel.com>
+Received: from EUR05-AM6-obe.outbound.protection.outlook.com (mail-am6eur05lp2111.outbound.protection.outlook.com [104.47.18.111])
+ by inbound-smtp.eu-west-1.amazonaws.com with SMTP id ajl7oumc8r8e7bmbm17a2jbn1jmq0juk6hmvrgo1
+ for ips@ip-sentinel.net;
+ Thu, 09 Apr 2020 19:00:49 +0000 (UTC)
+Received-SPF: permerror (spfCheck: Error in processing SPF Record) client-ip=104.47.18.111; envelope-from=JournalError@ip-sentinel.com; helo=mail-am6eur05lp2111.outbound.protection.outlook.com;
+Authentication-Results: amazonses.com;
+ spf=permerror (spfCheck: Error in processing SPF Record) client-ip=104.47.18.111; envelope-from=JournalError@ip-sentinel.com; helo=mail-am6eur05lp2111.outbound.protection.outlook.com;
+ dmarc=fail header.from=news.scmediaglobal.com;
+X-SES-RECEIPT: AEFBQUFBQUFBQUFHNUV4a2RQeHMxdDFKQzNKcW01VHBWeU05UnRTdGJKV3o2dUNsQmdsb3FQdVlWbC9TcTBaaEkvOVN0QytidVdveExjWlBqQWh5RTc2OWJUeW80TUhwK2pPbXFPbEdMc3MvOVJmRm5iUnlhMDBybms5TVdEdjliMkVFVXl1TDQ1Ym1XWERrTkJyT0FjNDM4ajh5dW1MbDNyem94SjBmTStndFFkUHVBNmhjblBocWhhczZJV3RFWXZlSWY1MVNsbHNGbXNteVd3N25HVG5VL01zRmM3VXJTQU1EV0pUYzV4bUc4ZDhKVDBWV0diWU5xdURjZ3dDSk1McnRERndSQmNSblpzOTRpdFVuajlobmV4ZTdyUTVBQURZZHpZTGlZVHJXeE9KaTFORDNtcmNvUmRsRER3dUw4NWVTYXhGbm5ySmM9
+X-SES-DKIM-SIGNATURE: a=rsa-sha256; q=dns/txt; b=C0dUMNay4R4BOU1dG6wx1uCByBTTtBB5jJT16XQYWaUeOk7ZfInmTgGF7AMBOGq1ijstQPQ7liZu9JIU7NYVJs6CXLEEfdj4xAag8IwN/IQXxuwuvzB9/6ygB0a5+lXwy+LY600qTg/8fWjEq+Gc8eXmCWbMK+FlhvfqLuRM/x4=; c=relaxed/simple; s=shh3fegwg5fppqsuzphvschd53n6ihuv; d=amazonses.com; t=1586458849; v=1; bh=fzWO9D4g71v6AnsdETDNcM1zKHdF513J27s13hQg9aA=; h=From:To:Cc:Bcc:Subject:Date:Message-ID:MIME-Version:Content-Type:X-SES-RECEIPT;
+Content-Type: multipart/mixed;
+	boundary="_4e08c6fa-a72e-4fbd-b0af-dff590ee0aa7_"
+Subject: Webinar: How to design a least privilege architecture in AWS
+To: james@ip-sentinel.com
+From: SC Media Industry Buzz <news@news.scmediaglobal.com>
+MIME-Version: 1.0
+Sender:
+	<MicrosoftExchange329e71ec88ae4615bbc36ab6ce41109e@IPSentinelLtd.onmicrosoft.com>
+Message-ID: <24851382-d3a9-4d30-a142-7e3eb3360383@journal.report.generator>
+Date: Thu, 9 Apr 2020 19:00:48 +0000
+X-MS-PublicTrafficType: Email
+X-MS-Journal-Report:
+X-MS-Exchange-Parent-Message-Id:
+	<4Oz1ucmcnr-gmLed483eeng.mr.1586458836482@OMS01.news.scmediaglobal.com>
+Auto-Submitted: auto-generated
+X-MS-Exchange-Generated-Message-Source: Journal Agent
+X-MS-TrafficTypeDiagnostic: DB7PR10MB1915:JournalingReport
+X-LD-Processed: a38e65be-fb2c-4ab0-9084-199607af9f21,ExtAddr
+X-OriginatorOrg: IPSentinelLtd.onmicrosoft.com
+X-MS-Exchange-CrossTenant-Network-Message-Id:
+	ff0e6aaa-852f-4774-9aee-08d7dcb850f4
+X-MS-Exchange-CrossTenant-FromEntityHeader: Hosted
+X-MS-Exchange-Transport-CrossTenantHeadersStamped: DB7PR10MB1915
+
+--_4e08c6fa-a72e-4fbd-b0af-dff590ee0aa7_
+Content-Type: text/plain; charset="us-ascii"
+Content-Transfer-Encoding: 7bit
+
+Sender: news@news.scmediaglobal.com
+Subject: Webinar: How to design a least privilege architecture in AWS
+Message-Id: <4Oz1ucmcnr-gmLed483eeng.mr.1586458836482@OMS01.news.scmediaglobal.com>
+Recipient: james@ip-sentinel.com
+
+--_4e08c6fa-a72e-4fbd-b0af-dff590ee0aa7_
+Content-Type: message/rfc822
+
+Received: from AM0PR02CA0080.eurprd02.prod.outlook.com (2603:10a6:208:154::21)
+ by DB7PR10MB1915.EURPRD10.PROD.OUTLOOK.COM (2603:10a6:5:e::24) with Microsoft
+ SMTP Server (version=TLS1_2, cipher=TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384) id
+ 15.20.2878.19; Thu, 9 Apr 2020 19:00:46 +0000
+Received: from AM5EUR03FT029.eop-EUR03.prod.protection.outlook.com
+ (2603:10a6:208:154:cafe::aa) by AM0PR02CA0080.outlook.office365.com
+ (2603:10a6:208:154::21) with Microsoft SMTP Server (version=TLS1_2,
+ cipher=TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384) id 15.20.2900.15 via Frontend
+ Transport; Thu, 9 Apr 2020 19:00:46 +0000
+Authentication-Results: spf=softfail (sender IP is 91.220.42.227)
+ smtp.mailfrom=news.scmediaglobal.com; ip-sentinel.com; dkim=fail (body hash
+ did not verify) header.d=news.scmediaglobal.com;ip-sentinel.com; dmarc=fail
+ action=none header.from=news.scmediaglobal.com;compauth=none reason=405
+Received-SPF: SoftFail (protection.outlook.com: domain of transitioning
+ news.scmediaglobal.com discourages use of 91.220.42.227 as permitted sender)
+Received: from eu-smtp-1.mimecast.com (91.220.42.227) by
+ AM5EUR03FT029.mail.protection.outlook.com (10.152.16.150) with Microsoft SMTP
+ Server (version=TLS1_2, cipher=TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384) id
+ 15.20.2900.18 via Frontend Transport; Thu, 9 Apr 2020 19:00:45 +0000
+ARC-Message-Signature: i=1; a=rsa-sha256; c=relaxed/relaxed;
+	d=dkim.mimecast.com; s=201903; t=1586458845;
+	h=from:from:reply-to:reply-to:subject:subject:date:date:
+	 message-id:message-id:to:to:cc:mime-version:mime-version:
+	 content-type:content-type:list-unsubscribe:dkim-signature;
+	bh=jssqkwxWSZzwDCv3UPJTVmSMz44/3Gm3a+1OLt6ukLw=;
+	b=MylGxUWlpeozt1Bu7XYXnr+q8znouM3ZdDSqaIiHv4S/co5gYOZgnEGmzcobJs7moFDaQj
+	tEA8tfim8sZ1Plm+ubDfygAhjIJvnUbHy6FAyOnY9BCNbYrRGtbBiHdAy7oAhyCdPVI/EK
+	zGBlaan/XBQ4Z2P80nDjhh2MrUWpbd3Vpke1IxhXi9fyn6HQ1m/2l23NrjdaWLWbgIt4Oz
+	oeVwUSeF3TKki9r2r+DHP9vIZgn5oy0ooOIXmTEYl0a7HUVhP2gbhBbHNI6s14NDTBvcj6
+	VMEySqbY5ELvy9DPZ7qkjDYqVizB5evGhHXAEAkazxu0SjtaRq3A3q/uidhy9w==
+ARC-Seal: i=1; s=201903; d=dkim.mimecast.com; t=1586458845; a=rsa-sha256;
+	cv=none;
+	b=lwwk664vlJQ1vzax36kgR/WY5hbHslP/CwDXFioC2Li5O052ltw6BAIV1WVyLD/+G5raaR
+	zt3ClwPRslzS+czrIQpWcfT6jmm1TypOGWOwdF62wLBJNMKuSXGz5Jll6Il4/09gPs6yW+
+	hX2YaiKt/m2lO+ipOi+0FT+TjXb028aVXX1ZUWQvL27F95ufjzuz+SNYiYr/8H1oqATBE/
+	KyPJflAd61jZQb1Xw0sU2t9J3UzkvCh71z4jhKGRVUA2/d5lIHoxjvs2sszkjBAGXNSnWD
+	LXSVvIw7BKcH7KBsNxivxJ6RIi0a8R91vc7Jr3lFytLIGwod/p8RDN1MO1BDKg==
+ARC-Authentication-Results: i=1;
+	relay.mimecast.com;
+	spf=pass (relay.mimecast.com: domain of news@news.scmediaglobal.com designates 205.162.47.11 as permitted sender) smtp.mailfrom=news@news.scmediaglobal.com
+Received: from mailsrv4711.o-mx.com (mailsrv4711.o-mx.com [205.162.47.11])
+ by relay.mimecast.com with ESMTP id uk-mta-35-5NJOGxY8MB642GhMsgOqoQ-1;
+ Thu, 09 Apr 2020 20:00:43 +0100
+X-MC-Unique: 5NJOGxY8MB642GhMsgOqoQ-1
+DKIM-Signature: v=1; a=rsa-sha256; q=dns/txt; c=relaxed/relaxed; t=1586458839; d=news.scmediaglobal.com; s=dkim; h=date:message-id:from:reply-to:to:subject:mime-version:list-unsubscribe; bh=neZjCfU6QNk80IJ8IXzAp1zddAUxSpWBrDV73l0HDKU=; b=LBRTt51rKSK+pwGsyQCnEs2YkDiydl5ahvh/Mz2XwM9WSBv8bXdmjYaNsyz/uw88ExAxX6Iuaof7YhY7NSAsZ/OdFS3oK/U8/0Drm9GV1zQOly5jm5cna2dYZI7XsVDct2NYJcBVPFtybp3dExd152u0as4pC7bxtQ3eJUF7vqs=;
+Date: Thu, 9 Apr 2020 14:00:39 -0500 (CDT)
+Message-ID: <4Oz1ucmcnr-gmLed483eeng.mr.1586458836482@OMS01.news.scmediaglobal.com>
+From: SC Media Industry Buzz <news@news.scmediaglobal.com>
+Reply-To: SC Media Industry Buzz <news@scmediaglobal.com>
+To: james@ip-sentinel.com
+Subject: Webinar: How to design a least privilege architecture in AWS
+MIME-Version: 1.0
+X-MailSessionID: 4Oz1ucmcnr-gmLed483eeng.mr.1586458836482
+Referer: https://cra.omeclk.com/portal/
+List-Unsubscribe: <mailto:autounsub@cra.omeclk.com?subject=Complaint&body=mailto-unsub-ePgA6FhiESUpnqkXnvvguatop96ogfbgA-unsub-mailto>,<https://cra.omeclk.com/portal/unsubscribe/?ePgA6FhiESUpnqkXnvvguatop96ogfbgA>
+Feedback-ID: 12408:CRACD200401006:newsletter:OMAIL
+Authentication-Results-Original: relay.mimecast.com; spf=pass
+ (relay.mimecast.com: domain of news@news.scmediaglobal.com designates
+ 205.162.47.11 as permitted sender) smtp.mailfrom=news@news.scmediaglobal.com
+X-Mimecast-Spam-Score: 1
+Content-Type: multipart/mixed;
+	boundary="_c110a149-83a4-42f7-b204-e818104c66e6_"
+Return-Path: news@news.scmediaglobal.com
+X-MS-Exchange-Organization-OriginalArrivalTime: 09 Apr 2020 19:00:45.8558
+ (UTC)
+X-MS-Exchange-Organization-ExpirationStartTime: 09 Apr 2020 19:00:45.9289
+ (UTC)
+X-MS-Exchange-Organization-ExpirationStartTimeReason: OriginalSubmit
+X-MS-Exchange-Organization-ExpirationInterval: 1:00:00:00.0000000
+X-MS-Exchange-Organization-ExpirationIntervalReason: OriginalSubmit
+X-MS-Exchange-Organization-Network-Message-Id: cc5fe804-9b00-4250-2b73-08d7dcb84f55
+X-MS-Exchange-Organization-OriginalClientIPAddress: 91.220.42.227
+X-MS-Exchange-Organization-OriginalServerIPAddress: 10.152.16.150
+X-MS-Exchange-Organization-MessageScope: 3e5b5103-9522-482b-9aee-1cdf4b4c1df2
+X-EOPAttributedMessage: 0
+X-EOPTenantAttributedMessage: a38e65be-fb2c-4ab0-9084-199607af9f21:0
+X-MS-Exchange-Organization-TargetResourceForest: EURPRD10.PROD.OUTLOOK.COM
+X-MS-Exchange-Organization-OrgEopForest: EUR03
+X-MS-Exchange-Organization-MessageDirectionality: Incoming
+X-MS-Exchange-Organization-Id: a38e65be-fb2c-4ab0-9084-199607af9f21
+X-MS-Exchange-Organization-FFO-ServiceTag: EUR03B
+X-MS-Exchange-Organization-TenantServiceProvider: Mimecast
+X-MS-Exchange-Organization-Cross-Premises-Headers-Processed: AM5EUR03FT029.eop-EUR03.prod.protection.outlook.com
+X-MS-Exchange-Organization-ConnectingIP: 91.220.42.227
+X-MS-Exchange-Organization-ConnectingEHLO: eu-smtp-1.mimecast.com
+X-MS-Exchange-Organization-AS-LastExternalIp: 91.220.42.227
+X-MS-Exchange-Organization-Originating-Country: GB
+X-MS-Exchange-Organization-OriginalEnvelopeRecipients: james@ip-sentinel.com
+X-MS-Exchange-Organization-P2SenderPII: <PII:H101(Z5Fgzk60X05lE6NF5qIFLBf3lnul8UgMt5246zjDi/0=)>@news.scmediaglobal.com
+X-MS-Exchange-Organization-PtrDomains: eu-smtp-delivery-1.mimecast.com
+X-MS-Exchange-Organization-EhloAndPtrDomain: eu-smtp-1.mimecast.com;eu-smtp-delivery-1.mimecast.com
+X-MS-Exchange-Organization-MxPointsToUs: false
+X-MS-Exchange-Organization-RecipientMxInfo-PFAFD: ip-sentinel.com#eu-smtp-inbound-1.mimecast.com;eu-smtp-inbound-2.mimecast.com
+X-MS-Exchange-Organization-CompAuthRes: none
+X-MS-Exchange-Organization-CompAuthReason: 300
+X-MS-Exchange-Organization-SpoofDetection-Frontdoor-DisplayDomainName: news.scmediaglobal.com
+X-MS-Exchange-Organization-SenderRep-Score: 3
+X-MS-Exchange-Organization-SenderRep-Data: IpClassLargeGrayBest_GrayBest_GrayOther
+X-MS-Exchange-Organization-VBR-Class: GrayBest
+X-MS-Exchange-Organization-RepTable-Version: 637216416000000000
+X-MS-Exchange-Organization-HMATPModel-Spf: 3
+X-MS-Exchange-Organization-HMATPModel-FeatureReputationValues-Spam: 103;-1;34;587;304;-1;586;302;-1;-1;-1;-1;-1;34;-1
+X-MS-Exchange-Organization-HMATPModel-FeatureReputationValues-Phish: 8;-1;3;1;0;-1;1;0;-1;-1;-1;-1;-1;3;-1
+X-MS-Exchange-Organization-HMATPModel-Recipient: <PII:H101(EDG4npUjkyuZ5fEs6NOBcyqNTIBlzZpYIU79s9La3yw=)>@ip-sentinel.com
+X-MS-Exchange-Organization-ASND: true
+X-Forefront-Antispam-Report:
+	CIP:91.220.42.227;CTRY:GB;LANG:en;SCL:1;SRV:;IPV:NLI;SFV:NSPM;H:eu-smtp-1.mimecast.com;PTR:eu-smtp-delivery-1.mimecast.com;CAT:NONE;SFTY:;SFS:(10001)(6019001)(269900001)(956004)(356004)(1096003)(8676002)(7636003)(33964004)(66574012)(2160300002)(5660300002)(76236002)(6666004)(246002)(6916009)(26005)(19627405001)(86362001)(336012)(120186005)(71156002)(115110200001)(10721665003)(19627315001)(19625255004);DIR:INB;SFP:;
+X-MS-Exchange-Organization-OrderedPrecisionLatencyInProgress: LSRV=AM0PR02CA0080.eurprd02.prod.outlook.com:TOTAL-FE=0.011|SMR-PEN=0.074(RENV=0.069|SMRPROXY-PEN=0.000);2020-04-09T19:00:46.281Z
+X-MS-Exchange-Organization-MessageLatency: SRV=AM5EUR03FT029.eop-EUR03.prod.protection.outlook.com:TOTAL-FE=0.413|SMR-PEN=0.343(RENV=0.049(SMRRC=0.026)|REOH=0.293(SMREH=0.269(SMREH-Protocol
+ Filter Agent=0.265 ))|SMRPROXY-PEN=0.000)|SMS=0.070
+X-MS-Exchange-Organization-MessageLatency:
+	SRV=AM0PR02CA0080.eurprd02.prod.outlook.com:TOTAL-FE=0.084|SMR-PEN=0.074(RENV=0.069|SMRPROXY-PEN=0.000)|SMS=0.073
+X-MS-Exchange-Forest-ArrivalHubServer: DB7PR10MB1915.EURPRD10.PROD.OUTLOOK.COM
+X-MS-Exchange-Organization-AuthSource:
+	AM5EUR03FT029.eop-EUR03.prod.protection.outlook.com
+X-MS-Exchange-Organization-AuthAs: Anonymous
+X-MS-Exchange-Organization-FromEntityHeader: Internet
+X-MS-Exchange-Forest-MessageScope: 3e5b5103-9522-482b-9aee-1cdf4b4c1df2
+X-MS-Exchange-Organization-TransportTrafficType: Email
+X-MS-Exchange-Organization-TransportTrafficSubType:
+X-MS-PublicTrafficType: Email
+X-MS-Exchange-Organization-Antispam-ProtocolFilterHub-ScanContext:
+	ProtocolFilterHub:SmtpOnEndOfData;
+X-MS-Office365-Filtering-Correlation-Id: cc5fe804-9b00-4250-2b73-08d7dcb84f55
+X-MS-Exchange-Organization-OriginalSize: 56286
+X-MS-TrafficTypeDiagnostic: DB7PR10MB1915:
+X-MS-Exchange-Organization-HygienePolicy: Premium
+X-MS-Exchange-Organization-ReplicationInfo:
+	ReplicaId=36c4ad74-3904-7f69-e243-914fb8dcd708;ReplicatingServerFqdn=VI1PR10MB1920.EURPRD10.PROD.OUTLOOK.COM
+X-MS-Exchange-Forest-Language: en
+X-MS-Exchange-Forest-IndexAgent-0:
+	AQ0CZW4AAQEIAAAPAAADH4sIAAAAAAAEAO1XXW4bRxJuihJ/hqLXzi
+ avi943eyELkmFkAT8toRUSYVeOYGpt+GnRnGlyOhpOc7t7SNPwQw6w
+ F9gj5BjJUXKSfNU1M6I2gg8QSBgSw57qqq+++qp69NOfxsnk3fTfeq
+ lM8fzFy3HyTs9Mqdwr+a3dyGBlpr1ZlFLJQisf5MqZtSn0Qkvl0twE
+ nYbKaWlKCTfDcfLLD/+VD5+Hz8Pnd/dBd781eiM3eibX2nljy+HO3z
+ i5d2KMk8+PjHb3e1v98sP/8OCiXMMo+zPWppPXU6nKjCzlpXI3OqwK
+ lWqZGZ9W3sscIbe2kqkqZeq0CggiF06VVaGc9DqtnAlbqeHS2XKpyy
+ BDrmiM2bUBUOkD1hdShaDSG+kA3QdVIkLIna0W+W/HHtAsTersc68X
+ 5FAFEHEcU7iutM/U9khOYF/I05chP5IvTl6cjJPTUzm5lFfX8pN8Ia
+ 8u5fn1OPn6BJ5KoPTM5Th5c/7NxfT6/I18/d276PGiBBDjifM4lT9D
+ ycYUBXBqT0nqD2q5KpCfnUeOUBavg6xW9wxyT6kfydSiqAZc+CrN5Y
+ 3eSuM9EpIK4XONwpCToFyI4TdEI1bgx4Jj81Efy0mWGWJDFQVICDl8
+ 3EGFAhXPN9YVmay8RtE8I7wXkY9h9HwOvZi1vod0udQht5nnkuYKRj
+ OtSwhwVditzqLEluojLHGqyal2a5Mi4lNQ9+yY6J2udGrmJmXAEIEu
+ Mw2LiBqoHOi3rxqF/lODIbUgbUR9aC1XMFTu3iRAmwKpJQRWcEZEly
+ 49ib9VpqECa+NiOXdk2sS8VCviykUyPGcAHotIgM/NypNXYhNyLgO5
+ JEuVIlEvl6oE3ij7pxeTy2cRVInCWnZQe92hFN2Zl+Y/lW4ATFarYn
+ sf+beSWlZFMFDbbVagXHP9DMkwAnB2VoGg1qamxjeBzss8Nl5rsLI+
+ DorZVhY2vSFpZnYT+Wp5hfRLfYSKF6ZWLz0xZWUrZG9LEyytHrGWiH
+ uywa4wt27JNWpYfXql1PRZtCQnypSgHWq9KazKaGLQ5GpIu/Vd60jd
+ YCS+2pmGfyc9TnPUvdAIljXjbIL22PpwjwVQyrq9o8kRoJXoLogEY6
+ pKEY/atHKotqogffz85mJyVhcNKsZcdJrsGKNezpACtEmUzaxyGf1o
+ bLxE0PgoBr0mJ7awiy0msIeSqgBmjY8Wc1uhM9gtJF6mZoVooMmj9g
+ rV3ZiQy7fWZtai0biCx/Jbjbb0jR06Mprl8OV0FrvGuoUqzUeWc90N
+ OCfQS/S00cIRJL/ASAdqEg40ZUgrXNZSB6rS3dOF671ADaMsMJvk28
+ sNHMv1+YeVdiA30k/w9Af0vacZo+mR0SRDPsVILbUg5mbB6omg4Me4
+ UKkCg48GzdwprhEe+Zg4ht7aQIboHoIHK2IiN/o2LaSI4QNaqRBndQ
+ jt7ZxH7Nn1d22JztBCteEF3SHpHZ5jKvjhYIV4uS4wFzCQsrh3EtAl
+ AcMoV6twK4izwlZZ60ROCib1eEfDU4Xx4eQ/wFJpPBauMP6pLaa2qL
+ hkk4Z1jM/6f4CpWqh2EylIyc/tm1sc5USsLX9zqBEN9dyWZyooyLNV
+ 1Zrm7U7FIB5KnDxFsqBTOmQwdOwSvUnP18pRSXYaBkOkrlfEGZomwG
+ sAjjhLqysVz+f4bjGzVZCzyhQZhTFladcqnk6+TYxzoUR8c+BgVBKy
+ HSyKhLDW9eyf0R6a13b2PZ92nl8o7rwPjJO/XOekO73h2WqRawxZFz
+ S2cdu70YT91+evdrXo784c18DAcOWOyqwsbUBj0SECyiApp+cFFYvi
+ YDCb0ASmRK37/8Ix/EmGoRyoCrHvQfwnGNGRJOM/nARsjjeLkkj6JP
+ +FKTHzqTMz3bxrXuE4VelWXtnCpHy0XWu3jJFrXfCrY0yj3U699kp+
+ r5ba/82snlPyILg4xuiA+c8/xpcyebbFeHxj/E2rfYB4eXICjHi/JD
+ WudVlhykwrKFV+fSZfA9J7NPORfP1enp6cnP51nIi9bkcciv2DTm9P
+ iD2x3xfDrtjfE92e6HfE3oHoDUVyKMZY6YoeVh6uh+t3fe3vi4MuNc
+ JXdxuhv9MIYyz2xYgtcY3EYV8M+B4XbxmIIS48ghlusIgrESNYclt1
+ qe/EF6J3KL5A3+H+MS6BTuztd3oHQsBsr3OwLwQ87HX2Y4d2I7bRgP
+ p0gJ941BfJLpK4MoABG7ffnaadkQue8hZAwiMKFL+7MX3cJ+LwUDzC
+ PXvb74hEHLBBawxX2I4V8lknMibjuIuzZgJhM6B8h/A5jGijE86CHP
+ ZjLuyToTJLvJ39cPSR+GP3tkaDsXjECbKryPBhN6aAi0kGqqF4gu0t
+ yJYTrhF75nTiymMmkFFxRhzuIFYwXocclLFFwKC09oNF2OA+EY8G4k
+ tsH0UyuVIjMYZ9/DlkwFEbFIX3tnVp2eZEOHF4HopRo4QBR0yiGiP+
+ hB8xzwyvZYm9DaI9pwAPICQSS6iisGttsFsOPYog8f0H8STKY9Qqh4
+ mCDaK0LcApNBQlnBqMWyaZW4YUbb6MoROsw3JYZ9FrtcGS4EettkdN
+ Cv1mhfnhqjF4vmfZsyrgilPmRBgAG7MS2D9jZh1Gg8exNH3G3Jpx0L
+ qdScAjLnFjdtD2YDslmuza9SdcrL1YQeyCWhrBDHpNxJhILYOYI02P
+ r+qCDrudAQ8K4qcD7Qlmptf0UcSJedKlwfIrViJn2jsXAAA=
+X-MS-Exchange-Forest-IndexAgent: 1 2060
+X-MS-Exchange-Forest-EmailMessageHash: B9018505
+X-MS-Exchange-Organization-IsPotentialIntraOrgMail: False
+X-MS-Exchange-Organization-Antispam-PreContentFilter-PolicyLoadTime:
+	MAOSUB:31;MAOSUBLOAD:31;SAORES:31;SAORESLOAD:31;SLORES:31;SLORESLOAD:31;
+X-MS-Exchange-Organization-MessageFingerprint:
+	BCD5731F.AE2297E1.31E42FA7.48E1F041.2042B
+X-MS-Exchange-Organization-UrlMinimumDomainAge: omeclk.com#249
+X-MS-Exchange-Organization-URLFeatureReduction:
+	63;3;0;14;0;0;0;0;10;3;1;10000000;0;0;0
+X-MS-Exchange-Organization-Persisted-Urls-ChunkCount: 1
+X-MS-Exchange-Organization-Persisted-Urls-0:
+	=?us-ascii?Q?[{"ID":4,"OU":"http://s3.amazonaws.com/roidna/aws/2020/aws-m?=
+ =?us-ascii?Q?arch-2020-3/aws-black.png","IBT":false,"U":"http://s3.amazon?=
+ =?us-ascii?Q?aws.com/roidna/aws/2020/aws-march-2020-3/aws-black.png","DNR?=
+ =?us-ascii?Q?":false,"IAR":false,"LI":{"TN":"img","IC":false,"BF":2,"SI":?=
+ =?us-ascii?Q?-1,"EndIndex":-1},"SRCI":1,"IU":null,"NU":"s3.amazonaws.com/?=
+ =?us-ascii?Q?roidna/aws/2020/aws-march-2020-3/aws-black.png","DPD":{"UF":?=
+ =?us-ascii?Q?"73728","OCH":"9434849962562793852","SCHM":"Http","CNT":"1"}?=
+ =?us-ascii?Q?,"PROC":[]},{"ID":17,"OU":"https://cra.omeclk.com/portal/pre?=
+ =?us-ascii?Q?ferences/=3FePgA6FhiESUpnqkXnvvguatop96ogfbgA","IBT":false,"?=
+ =?us-ascii?Q?U":"https://cra.omeclk.com/portal/preferences/=3FePgA6FhiESU?=
+ =?us-ascii?Q?pnqkXnvvguatop96ogfbgA","DNR":false,"IAR":false,"LI":{"TN":"?=
+ =?us-ascii?Q?a","IC":true,"BF":2,"SI":-1,"EndIndex":-1},"SRCI":1,"IU":nul?=
+ =?us-ascii?Q?l,"NU":"cra.omeclk.com/portal/preferences/=3FePgA6FhiESUpnqk?=
+ =?us-ascii?Q?Xnvvguatop96ogfbgA","DPD":{"UF":"256","OCH":"162142765373672?=
+ =?us-ascii?Q?40955","SCHM":"Https","CNT":"1","SL":"1","LOG":"1"},"PROC":[?=
+ =?us-ascii?Q?]},{"ID":2,"OU":"https://cra.omeclk.com/portal/wts/ugmcnr-gm?=
+ =?us-ascii?Q?Legv6%7Cx4anVjPra7D5kqEBv1qxla","IBT":false,"U":"https://cra?=
+ =?us-ascii?Q?.omeclk.com/portal/wts/ugmcnr-gmLegv6%7Cx4anVjPra7D5kqEBv1qx?=
+ =?us-ascii?Q?la","DNR":false,"IAR":false,"LI":{"TN":"a","IC":true,"BF":2,?=
+ =?us-ascii?Q?"SI":-1,"EndIndex":-1},"SRCI":1,"IU":null,"NU":"cra.omeclk.c?=
+ =?us-ascii?Q?om/portal/wts/ugmcnr-gmLegv6%7Cx4anVjPra7D5kqEBv1qxla","DPD"?=
+ =?us-ascii?Q?:{"UF":"256","OCH":"6192720836521895360","SCHM":"Https","CNT?=
+ =?us-ascii?Q?":"1","SL":"1","LOG":"1"},"PROC":[]},{"ID":19,"OU":"https://?=
+ =?us-ascii?Q?cra.omeclk.com/portal/wts/ugmcnr-gmLegv6%7Cx76nVjPra7D5kqEBv?=
+ =?us-ascii?Q?1qxla","IBT":false,"U":"https://cra.omeclk.com/portal/wts/ug?=
+ =?us-ascii?Q?mcnr-gmLegv6%7Cx76nVjPra7D5kqEBv1qxla","DNR":false,"IAR":fal?=
+ =?us-ascii?Q?se,"LI":{"TN":"a","IC":true,"BF":2,"SI":-1,"EndIndex":-1},"S?=
+ =?us-ascii?Q?RCI":1,"IU":null,"NU":"cra.omeclk.com/portal/wts/ugmcnr-gmLe?=
+ =?us-ascii?Q?gv6%7Cx76nVjPra7D5kqEBv1qxla","DPD":{"UF":"256","OCH":"45177?=
+ =?us-ascii?Q?18196855657990","SCHM":"Https","CNT":"1","SL":"1","LOG":"1"}?=
+ =?us-ascii?Q?,"PROC":[]},{"ID":20,"OU":"https://cra.omeclk.com/portal/wts?=
+ =?us-ascii?Q?/ugmcnr-gmLegv6%7Cx7LnVjPra7D5kqEBv1qxla","IBT":false,"U":"h?=
+ =?us-ascii?Q?ttps://cra.omeclk.com/portal/wts/ugmcnr-gmLegv6%7Cx7LnVjPra7?=
+ =?us-ascii?Q?D5kqEBv1qxla","DNR":false,"IAR":false,"LI":{"TN":"a","IC":tr?=
+ =?us-ascii?Q?ue,"BF":2,"SI":-1,"EndIndex":-1},"SRCI":1,"IU":null,"NU":"cr?=
+ =?us-ascii?Q?a.omeclk.com/portal/wts/ugmcnr-gmLegv6%7Cx7LnVjPra7D5kqEBv1q?=
+ =?us-ascii?Q?xla","DPD":{"UF":"256","OCH":"14759464526757600624","SCHM":"?=
+ =?us-ascii?Q?Https","CNT":"1","SL":"1","LOG":"1"},"PROC":[]},{"ID":18,"OU?=
+ =?us-ascii?Q?":"https://cra.omeclk.com/portal/unsubscribeconfirm/=3FePgA6?=
+ =?us-ascii?Q?FhiESUpnqkXnvvguatop96ogfbgA","IBT":false,"U":"https://cra.o?=
+ =?us-ascii?Q?meclk.com/portal/unsubscribeconfirm/=3FePgA6FhiESUpnqkXnvvgu?=
+ =?us-ascii?Q?atop96ogfbgA","DNR":false,"IAR":false,"LI":{"TN":"a","IC":tr?=
+ =?us-ascii?Q?ue,"BF":2,"SI":-1,"EndIndex":-1},"SRCI":1,"IU":null,"NU":"cr?=
+ =?us-ascii?Q?a.omeclk.com/portal/unsubscribeconfirm/=3FePgA6FhiESUpnqkXnv?=
+ =?us-ascii?Q?vguatop96ogfbgA","DPD":{"UF":"256","OCH":"143092729936383927?=
+ =?us-ascii?Q?14","SCHM":"Https","CNT":"1","SL":"1","LOG":"1"},"PROC":[]},?=
+ =?us-ascii?Q?{"ID":1,"OU":"https://cra.omeclk.com/portal/unsubscribe/=3Fe?=
+ =?us-ascii?Q?PgA6FhiESUpnqkXnvvguatop96ogfbgA","IBT":false,"U":"https://c?=
+ =?us-ascii?Q?ra.omeclk.com/portal/unsubscribe/=3FePgA6FhiESUpnqkXnvvguato?=
+ =?us-ascii?Q?p96ogfbgA","DNR":false,"IAR":false,"LI":{"BF":1,"SI":-1,"End?=
+ =?us-ascii?Q?Index":-1},"SRCI":4,"IU":null,"NU":"cra.omeclk.com/portal/un?=
+ =?us-ascii?Q?subscribe/=3FePgA6FhiESUpnqkXnvvguatop96ogfbgA","DPD":{"UF":?=
+ =?us-ascii?Q?"256","OCH":"4209229613926328370","SCHM":"Https","CNT":"1","?=
+ =?us-ascii?Q?SL":"1","LOG":"1"},"PROC":[]},{"ID":1,"OU":"https://cra.omec?=
+ =?us-ascii?Q?lk.com/portal/public/ViewCommInBrowser.jsp=3FSv4%2BeOSSuczkt?=
+ =?us-ascii?Q?pNgnyvaGfrVNXoQqLYWMmD99HFffsctY99oskneSF3aY0mvhtRFArjt6nabr?=
+ =?us-ascii?Q?30%3DA","IBT":false,"U":"https://cra.omeclk.com/portal/publi?=
+ =?us-ascii?Q?c/ViewCommInBrowser.jsp=3FSv4%2BeOSSuczktpNgnyvaGfrVNXoQqLYW?=
+ =?us-ascii?Q?MmD99HFffsctY99oskneSF3aY0mvhtRFArjt6nabr30%3DA","DNR":false?=
+ =?us-ascii?Q?,"IAR":false,"LI":{"TN":"a","IC":true,"BF":2,"SI":-1,"EndInd?=
+ =?us-ascii?Q?ex":-1},"SRCI":1,"IU":null,"NU":"cra.omeclk.com/portal/publi?=
+ =?us-ascii?Q?c/ViewCommInBrowser.jsp=3FSv4%2BeOSSuczktpNgnyvaGfrVNXoQqLYW?=
+ =?us-ascii?Q?MmD99HFffsctY99oskneSF3aY0mvhtRFArjt6nabr30%3DA","DPD":{"UF"?=
+ =?us-ascii?Q?:"256","OCH":"17520500011669034789","SCHM":"Https","CNT":"1"?=
+ =?us-ascii?Q?,"SL":"1","LOG":"1"},"PROC":[]},{"ID":6,"OU":"https://cra.om?=
+ =?us-ascii?Q?eclk.com/portal/wts/uemcnr-gmLegv6%7Cx86nVjPra","IBT":false,?=
+ =?us-ascii?Q?"U":"https://cra.omeclk.com/portal/wts/uemcnr-gmLegv6%7Cx86n?=
+ =?us-ascii?Q?VjPra","DNR":false,"IAR":false,"LI":{"TN":"a","IC":true,"BF"?=
+ =?us-ascii?Q?:2,"SI":-1,"EndIndex":-1},"SRCI":1,"IU":null,"NU":"cra.omecl?=
+ =?us-ascii?Q?k.com/portal/wts/uemcnr-gmLegv6%7Cx86nVjPra","DPD":{"UF":"25?=
+ =?us-ascii?Q?6","OCH":"5682579350442921261","SCHM":"Https","CNT":"1","SL"?=
+ =?us-ascii?Q?:"1","LOG":"1"},"PROC":[]},{"ID":16,"OU":"https://cra.omeclk?=
+ =?us-ascii?Q?.com/portal/wts/uemcnr-gmLegv6%7Cx7qnVjPra","IBT":false,"U":?=
+ =?us-ascii?Q?"https://cra.omeclk.com/portal/wts/uemcnr-gmLegv6%7Cx7qnVjPr?=
+ =?us-ascii?Q?a","DNR":false,"IAR":false,"LI":{"TN":"a","IC":true,"BF":2,"?=
+ =?us-ascii?Q?SI":-1,"EndIndex":-1},"SRCI":1,"IU":null,"NU":"cra.omeclk.co?=
+ =?us-ascii?Q?m/portal/wts/uemcnr-gmLegv6%7Cx7qnVjPra","DPD":{"UF":"256","?=
+ =?us-ascii?Q?OCH":"6752839431173047839","SCHM":"Https","CNT":"1","SL":"1"?=
+ =?us-ascii?Q?,"LOG":"1"},"PROC":[]},{"ID":15,"OU":"https://cra.omeclk.com?=
+ =?us-ascii?Q?/portal/wts/uemcnr-gmLegv6%7Cx-qnVjPra","IBT":false,"U":"htt?=
+ =?us-ascii?Q?ps://cra.omeclk.com/portal/wts/uemcnr-gmLegv6%7Cx-qnVjPra","?=
+ =?us-ascii?Q?DNR":false,"IAR":false,"LI":{"TN":"a","IC":true,"BF":2,"SI":?=
+ =?us-ascii?Q?-1,"EndIndex":-1},"SRCI":1,"IU":null,"NU":"cra.omeclk.com/po?=
+ =?us-ascii?Q?rtal/wts/uemcnr-gmLegv6%7Cx-qnVjPra","DPD":{"UF":"256","OCH"?=
+ =?us-ascii?Q?:"7538675898097611285","SCHM":"Https","CNT":"1","SL":"1","LO?=
+ =?us-ascii?Q?G":"1"},"PROC":[]},{"ID":3,"OU":"https://cdn.omeda.com/hoste?=
+ =?us-ascii?Q?d/images/CLIENT=5FCRA/CRACD/industrybuzz1108452=5F1256547.pn?=
+ =?us-ascii?Q?g","IBT":false,"U":"https://cdn.omeda.com/hosted/images/CLIE?=
+ =?us-ascii?Q?NT=5FCRA/CRACD/industrybuzz1108452=5F1256547.png","DNR":fals?=
+ =?us-ascii?Q?e,"IAR":false,"LI":{"TN":"img","IC":false,"BF":2,"SI":-1,"En?=
+ =?us-ascii?Q?dIndex":-1},"SRCI":1,"IU":null,"NU":"cdn.omeda.com/hosted/im?=
+ =?us-ascii?Q?ages/CLIENT=5FCRA/CRACD/industrybuzz1108452=5F1256547.png","?=
+ =?us-ascii?Q?DPD":{"UF":"65536","OCH":"9773050171868155038","SCHM":"Https?=
+ =?us-ascii?Q?","CNT":"1"},"PROC":[]},{"ID":5,"OU":"http://52.8.82.31/emai?=
+ =?us-ascii?Q?ls/AWS=5Femail-24-logo-02.png","IBT":false,"U":"http://52.8.?=
+ =?us-ascii?Q?82.31/emails/AWS=5Femail-24-logo-02.png","DNR":false,"IAR":f?=
+ =?us-ascii?Q?alse,"LI":{"TN":"img","IC":false,"BF":2,"SI":-1,"EndIndex":-?=
+ =?us-ascii?Q?1},"SRCI":1,"IU":null,"NU":"52.8.82.31/emails/AWS=5Femail-24?=
+ =?us-ascii?Q?-logo-02.png","DPD":{"UF":"65536","OCH":"7430730518434447084?=
+ =?us-ascii?Q?","SCHM":"Http","CNT":"1"},"PROC":[]},{"ID":7,"OU":"http://5?=
+ =?us-ascii?Q?2.8.82.31/emails/AWS=5Femail-24-ico-01.png","IBT":false,"U":?=
+ =?us-ascii?Q?"http://52.8.82.31/emails/AWS=5Femail-24-ico-01.png","DNR":f?=
+ =?us-ascii?Q?alse,"IAR":false,"LI":{"TN":"img","IC":false,"BF":2,"SI":-1,?=
+ =?us-ascii?Q?"EndIndex":-1},"SRCI":1,"IU":null,"NU":"52.8.82.31/emails/AW?=
+ =?us-ascii?Q?S=5Femail-24-ico-01.png","DPD":{"UF":"65536","OCH":"30502503?=
+ =?us-ascii?Q?24305477937","SCHM":"Http","CNT":"1"},"PROC":[]},{"ID":8,"OU?=
+ =?us-ascii?Q?":"http://52.8.82.31/emails/AWS=5Femail-24-ico-02.png","IBT"?=
+ =?us-ascii?Q?:false,"U":"http://52.8.82.31/emails/AWS=5Femail-24-ico-02.p?=
+ =?us-ascii?Q?ng","DNR":false,"IAR":false,"LI":{"TN":"img","IC":false,"BF"?=
+ =?us-ascii?Q?:2,"SI":-1,"EndIndex":-1},"SRCI":1,"IU":null,"NU":"52.8.82.3?=
+ =?us-ascii?Q?1/emails/AWS=5Femail-24-ico-02.png","DPD":{"UF":"65536","OCH?=
+ =?us-ascii?Q?":"10395694966303218168","SCHM":"Http","CNT":"1"},"PROC":[]}?=
+ =?us-ascii?Q?,{"ID":9,"OU":"http://52.8.82.31/emails/AWS=5Femail-24-ico-0?=
+ =?us-ascii?Q?3.png","IBT":false,"U":"http://52.8.82.31/emails/AWS=5Femail?=
+ =?us-ascii?Q?-24-ico-03.png","DNR":false,"IAR":false,"LI":{"TN":"img","IC?=
+ =?us-ascii?Q?":false,"BF":2,"SI":-1,"EndIndex":-1},"SRCI":1,"IU":null,"NU?=
+ =?us-ascii?Q?":"52.8.82.31/emails/AWS=5Femail-24-ico-03.png","DPD":{"UF":?=
+ =?us-ascii?Q?"65536","OCH":"9455384963146592043","SCHM":"Http","CNT":"1"}?=
+ =?us-ascii?Q?,"PROC":[]},{"ID":10,"OU":"http://52.8.82.31/emails/AWS=5Fem?=
+ =?us-ascii?Q?ail-24-ico-04.png","IBT":false,"U":"http://52.8.82.31/emails?=
+ =?us-ascii?Q?/AWS=5Femail-24-ico-04.png","DNR":false,"IAR":false,"LI":{"T?=
+ =?us-ascii?Q?N":"img","IC":false,"BF":2,"SI":-1,"EndIndex":-1},"SRCI":1,"?=
+ =?us-ascii?Q?IU":null,"NU":"52.8.82.31/emails/AWS=5Femail-24-ico-04.png",?=
+ =?us-ascii?Q?"DPD":{"UF":"65536","OCH":"12503154429751441354","SCHM":"Htt?=
+ =?us-ascii?Q?p","CNT":"1"},"PROC":[]},{"ID":11,"OU":"http://52.8.82.31/em?=
+ =?us-ascii?Q?ails/AWS=5Femail-24-img-01.png","IBT":false,"U":"http://52.8?=
+ =?us-ascii?Q?.82.31/emails/AWS=5Femail-24-img-01.png","DNR":false,"IAR":f?=
+ =?us-ascii?Q?alse,"LI":{"TN":"img","IC":false,"BF":2,"SI":-1,"EndIndex":-?=
+ =?us-ascii?Q?1},"SRCI":1,"IU":null,"NU":"52.8.82.31/emails/AWS=5Femail-24?=
+ =?us-ascii?Q?-img-01.png","DPD":{"UF":"65536","OCH":"14648003165450942315?=
+ =?us-ascii?Q?","SCHM":"Http","CNT":"1"},"PROC":[]},{"ID":12,"OU":"http://?=
+ =?us-ascii?Q?52.8.82.31/emails/AWS=5Femail-24-logo-03.png","IBT":false,"U?=
+ =?us-ascii?Q?":"http://52.8.82.31/emails/AWS=5Femail-24-logo-03.png","DNR?=
+ =?us-ascii?Q?":false,"IAR":false,"LI":{"TN":"img","IC":false,"BF":2,"SI":?=
+ =?us-ascii?Q?-1,"EndIndex":-1},"SRCI":1,"IU":null,"NU":"52.8.82.31/emails?=
+ =?us-ascii?Q?/AWS=5Femail-24-logo-03.png","DPD":{"UF":"65536","OCH":"6490?=
+ =?us-ascii?Q?420515277820959","SCHM":"Http","CNT":"1"},"PROC":[]},{"ID":1?=
+ =?us-ascii?Q?3,"OU":"http://52.8.82.31/emails/AWS=5Femail-24-img-02.png",?=
+ =?us-ascii?Q?"IBT":false,"U":"http://52.8.82.31/emails/AWS=5Femail-24-img?=
+ =?us-ascii?Q?-02.png","DNR":false,"IAR":false,"LI":{"TN":"img","IC":false?=
+ =?us-ascii?Q?,"BF":2,"SI":-1,"EndIndex":-1},"SRCI":1,"IU":null,"NU":"52.8?=
+ =?us-ascii?Q?.82.31/emails/AWS=5Femail-24-img-02.png","DPD":{"UF":"65536"?=
+ =?us-ascii?Q?,"OCH":"15256287189390435230","SCHM":"Http","CNT":"1"},"PROC?=
+ =?us-ascii?Q?":[]},{"ID":14,"OU":"http://52.8.82.31/emails/AWS=5Femail-24?=
+ =?us-ascii?Q?-logo-04.png","IBT":false,"U":"http://52.8.82.31/emails/AWS?=
+ =?us-ascii?Q?=5Femail-24-logo-04.png","DNR":false,"IAR":false,"LI":{"TN":?=
+ =?us-ascii?Q?"img","IC":false,"BF":2,"SI":-1,"EndIndex":-1},"SRCI":1,"IU"?=
+ =?us-ascii?Q?:null,"NU":"52.8.82.31/emails/AWS=5Femail-24-logo-04.png","D?=
+ =?us-ascii?Q?PD":{"UF":"65536","OCH":"13774503612340472102","SCHM":"Http"?=
+ =?us-ascii?Q?,"CNT":"1"},"PROC":[]},{"ID":21,"OU":"https://cra.omeclk.com?=
+ =?us-ascii?Q?/portal/wts/ucmcnr-gmLed483ee.gif","IBT":false,"U":"https://?=
+ =?us-ascii?Q?cra.omeclk.com/portal/wts/ucmcnr-gmLed483ee.gif","DNR":false?=
+ =?us-ascii?Q?,"IAR":false,"LI":{"TN":"img","IC":false,"BF":2,"SI":-1,"End?=
+ =?us-ascii?Q?Index":-1},"SRCI":1,"IU":null,"NU":"cra.omeclk.com/portal/wt?=
+ =?us-ascii?Q?s/ucmcnr-gmLed483ee.gif","DPD":{"UF":"65536","OCH":"11648374?=
+ =?us-ascii?Q?535237936271","SCHM":"Https","CNT":"1"},"PROC":[]}]?=
+X-MS-Exchange-Organization-PersistedUrlCount: 22
+X-MS-Exchange-Organization-Antispam-PreContentFilter-ScanContext:
+	CategorizerOnSubmitted;CategorizerOnResolved;
+X-MS-Exchange-Organization-AVScannedByV2: Symantec;Microsoft;Command
+X-MS-Exchange-Organization-AVScanComplete: true
+X-MS-Exchange-Organization-UrlSelected: 1
+X-MS-Exchange-Organization-UrlLogged: 1
+X-MS-Exchange-Organization-Recipient-Limit-Verified: True
+X-MS-Exchange-Organization-TotalRecipientCount: 1
+X-MS-Exchange-Organization-ReplyAllBlocker-Verdict: Allow
+X-MS-Exchange-Organization-ASDirectionalityType: 1
+X-MS-Exchange-Organization-Boomerang-Verdict: None
+X-MS-Exchange-Organization-HMATPModel-DkimAuthStatus: 2
+X-MS-Exchange-Organization-HMATPModel-DmarcAuthStatus: 3
+X-MS-Exchange-Organization-IsKnownDomain: 0
+X-MS-Exchange-Organization-Rules-Execution-History:
+	445baf80-ba55-4328-beb2-7ef58677c508
+X-MS-Exchange-Forest-RulesExecuted: DB7PR10MB1915
+X-MS-Exchange-Organization-RulesExecuted: DB7PR10MB1915
+X-MS-Exchange-Organization-DlpRules-Execution-History:
+	7b52c449-06a6-4016-b17d-85c7805c2a93%%%680b4c78-c8a9-4805-ad8d-123c1746c977%%%ea42d9a3-1d20-43c6-bff6-0270514e1a3a%%%76deacf8-570e-4217-bfc1-dda443ab4236%%%52e853eb-20ed-464f-9070-79fecdd7e72a
+X-MS-Exchange-Organization-DlpRulesExecuted: DB7PR10MB1915
+X-MS-Exchange-Organization-Antispam-ContentFilter-ScanContext:
+	CategorizerOnResolved;
+X-MS-Exchange-Organization-CFA-UserOption: 0
+X-MS-Exchange-Organization-CommunicationStateSummary: EST
+X-MS-Exchange-Organization-FirstContactSummary:
+	ST=1;MRG=0;EXT=0;UN=1;ORCT=1;EV=1;FC=0;NESI=0;NES=0;ESTI=0;EST=1;INS=0;ERR=0
+X-MS-Exchange-Organization-CompAuth-Eop: compauth=none reason=405
+X-MS-Exchange-Organization-Feature-Long: 0	201:32415	202:2584	203:1	205:451
+	206:12	208:831	210:565	211:3184	212:10	213:123	215:32259	220:9	221:9	222:1
+	223:8	227:1	228:1	234:1	235:2	236:2	238:3	241:1	243:1	244:2	246:1	247:1	248:3
+	254:1	260:3	261:400	262:6	263:6	264:1800	265:75	1004:cigna.com
+	1006:secur,access,lock,customer	1007:Latn	1008:bjservices.com
+	1014:news.scmediaglobal.com	1015:news.scmediaglobal.com
+	1020:news.scmediaglobal.com	1030:news.scmediaglobal.com
+	1034:B00B1BEB@ip-sentinel.com	1035:news.scmediaglobal.com
+X-MS-Exchange-Organization-ExtractionTags: FWH;FWH;SUB64;1IMG;2IMG;LINK;
+X-MS-Exchange-Organization-ExtractionTagsURLFound: URL
+X-MS-Exchange-Organization-ExtractionTagsSubject: Webinar: How to design a
+ least privilege architecture in AWS
+X-MS-Exchange-Organization-ExtractionTagsFrom: SC Media Industry Buzz
+ <news@news.scmediaglobal.com>
+X-MS-Exchange-Organization-ExtractionTagsSubjectNormalized: vveblnar hovv to
+ deslgn a least prlvllege archltecture ln avvs
+X-MS-Oob-TLC-OOBClassifiers: OLM:6430;
+X-MS-Exchange-Organization-HeloRdns:
+	eu-smtp-1.mimecast.com;eu-smtp-delivery-1.mimecast.com
+X-MS-Exchange-Organization-SpamScore: 16
+X-MS-Exchange-Organization-Antispam-AnalystRuleHits:
+	(10001)(6019001)(269900001)(956004)(356004)(1096003)(8676002)(7636003)(33964004)(66574012)(2160300002)(5660300002)(76236002)(6666004)(246002)(6916009)(26005)(19627405001)(86362001)(336012)(120186005)(71156002)(115110200001)(10721665003)(19627315001)(19625255004)
+X-MS-Exchange-Organization-SCL: 1
+X-MS-Exchange-Organization-Antispam-ScanContext: DIR:Incoming;SFV:NSPM;SKIP:0;
+X-MS-Exchange-Organization-Antispam-PostContentFilter-ScanContext:
+	CategorizerOnResolved;CategorizerOnRouted;
+X-Microsoft-Antispam: BCL:0;
+X-Microsoft-Antispam-Message-Info:
+	=?us-ascii?Q?cU8vcFZXhTklmoPOIdp41F/HLhC1XJ68xVd4yKZuMNh91UooBeDWrkGPm9s4?=
+ =?us-ascii?Q?+XfkJGKn8fJ93q321GKvxH98H2AFvNJOUYwM/SzSyCx8NigmERFcmLDfz2kq?=
+ =?us-ascii?Q?sDeHyuvNE+8X+30bc0RHVg8B1+U0e9GYEjggV09YebBDE/zLJFZeiD0a2oR3?=
+ =?us-ascii?Q?3fXR73Ie3MFhxFqLB/oayXwUU5slghUwNj6RpZ0ECRhcjCbxGALPp6qI4CmJ?=
+ =?us-ascii?Q?ktFYJwop2765/5QbeKakM+u2p2BkkVk03Mv6jmT4DumTK0W7VL739P8Zr6t3?=
+ =?us-ascii?Q?M/+ICpCJP8VaCdhsMxze4TQdV6Oz8r/CYYKxHklXvBAnMTRJCaU8QfOwZwG8?=
+ =?us-ascii?Q?GtIIN6drvVQBgsKlaloB0a/y5dDgctHm4QRiDka+mQAwJh3b//2eWY8btQDJ?=
+ =?us-ascii?Q?YoPb6RS7/JvAAeLHB93qvTQJNqzizkoFwMK2UcQ5Iq5mUzVTX7SFCLoAIFOC?=
+ =?us-ascii?Q?JwLSjPyRGKhief0x0ZrbW0O5Xy89FQaWkYsRqleEmNXFmXWcHxUpOfxwSfw+?=
+ =?us-ascii?Q?YuTTcBh5v1gvYIO2rfI65K+loHVqwzX1+633utHqHFqF4B6S4hvndBWnlWCa?=
+ =?us-ascii?Q?5QcoDUSTL3rmEF+mKT0pBxgt9cKewwLCQrcY5Euev5AUB3dz57zyKbKi3N4c?=
+ =?us-ascii?Q?6u//ha0ZtmC9P+bBKEL4rvhJQLZH6dGwUiAtGGIOig2QqXyOPGiS6+C6yjKv?=
+ =?us-ascii?Q?dEwl+KXzi8HfNqWL6tzm3zJO9/n0BToLbubcp0lWQ+5SCI5LqMOZQAeiJR/T?=
+ =?us-ascii?Q?JLClNoAgvd49cuj7LLuuk0tb9uI5j9nsTcWjBkebZp/Ar+RsMUDfooH7XYw6?=
+ =?us-ascii?Q?NiQjKF6o6+8kNGS1V0ijj5puinr0dKAlRGH6d6BKHfVw3irxZRKdP2HHuY4Y?=
+ =?us-ascii?Q?A/msZ4e9dmX+diI/zqeFt432FgNES7LzxI7eSbqlbB7rvHbBERm5jVs8Cu6l?=
+ =?us-ascii?Q?Uxh7+Vkv3N7/oRbMMiTNKCDBh1MUK8rzy/1VsYnVk42ijQ0/29Pp5Dd75md+?=
+ =?us-ascii?Q?EuwVGIl//J3y0JCmh738088pAVy3UcsGKa/Ca0OwmJbUnprLrdW3J4HtbeCw?=
+ =?us-ascii?Q?U6sdZ0QvXyzdGKPbStrgpU1/xWmj0qZIqmAdB7dJ2ZtFaOr2if0c1A5VMBgl?=
+ =?us-ascii?Q?CRZtyNQv8XnAtG6Qks3mJyVazLZ9MZmUGoTQrpLSG5FKk5yGz+reHqOpUBk4?=
+ =?us-ascii?Q?BQVblVgtLS2//ZcEiWSvR0Ch6NHwZB0H55bmjvmD6mVbZ72VzB2pi9xg+7Qx?=
+ =?us-ascii?Q?i/3etqLzPNF/hj046xLB2y1eLTepRER0Jf1lWRTs+0ti3IeOuELQIEsTXky5?=
+ =?us-ascii?Q?Ds+1LouTJ1zg4az3ADl88vVSKZQ3fnbm+9oseBAWc7dhZP2lGPk4LpjCg3He?=
+ =?us-ascii?Q?d7KUfWW46/3qCnpD322UfPKDk/E3HlW5tvEkAK8fcwyNQE3psUrySsj+WxKI?=
+ =?us-ascii?Q?qhpuzummpBht9Cj3NPUGjWWq2i1VRkiJF2I0e2OI6+dg0joXaRNFeDGy4rJk?=
+ =?us-ascii?Q?aV2pVrjZy6tKq830vMuDk7V0+J8ozjZAFjYeSKBAo+Z4QXaa9f3vg2gqAQ?=
+ =?us-ascii?Q?=3D=3D?=
+X-MS-Exchange-Organization-GroupForkPerf: VCL=0;VL=0
+X-MS-Exchange-Organization-Cross-Session-Cache:
+	=?us-ascii?Q?00CIP=3D91.220.42.227;EIPC0=3D2004,2055,950,951,2005,2006,20?=
+ =?us-ascii?Q?07,2008,2009,2010,2011,2012,2013,2014,2000,2050,2051,2052,95?=
+ =?us-ascii?Q?2,902,2054,2016,903,901,907,905,904,2003,2001,3000,2002,967,?=
+ =?us-ascii?Q?2058,2059,2060,531,2017,5011,5051,5001,5057,5056,5055,5058,9?=
+ =?us-ascii?Q?06,5010,5052,5054,5059,5053,5031,5040,5034,5032,5027,5030,50?=
+ =?us-ascii?Q?28,5029,5025,5026,5033,5035,5039,5037,5036,5038,5020,5002,50?=
+ =?us-ascii?Q?03,5005;MIPC0=3D2003,2004,950,952,951,5011;REP=3D01,1,65\;01?=
+ =?us-ascii?Q?,2,99\;01,3,5533916\;01,4,352778\;01,5,183\;01,6,1068\;01,7,?=
+ =?us-ascii?Q?15562\;01,8,3429\;01,9,5549454\;01,10,353594\;01,11,183\;01,?=
+ =?us-ascii?Q?12,3429\;02,1,0\;02,2,0\;02,3,2202\;02,4,116\;02,5,0\;02,6,7?=
+ =?us-ascii?Q?\;02,7,39;SL=3D1;EMSL=3D1;SCL=3D1;BL=3D0;RL=3D1;PID=3D0;EXPI?=
+ =?us-ascii?Q?D=3D;IsIncomingMail=3Dtrue;CIPCRY=3DGB;TIP=3DNotListed;SAUTH?=
+ =?us-ascii?Q?OP=3D1;RMX=3DMimecast;EIPC1=3D2004,2055,950,951,2005,2006,20?=
+ =?us-ascii?Q?07,2008,2009,2010,2011,2012,2013,2014,2000,2050,2051,2052,95?=
+ =?us-ascii?Q?2,902,2054,2016,903,901,907,905,904,2003,2001,3000,2002,967,?=
+ =?us-ascii?Q?2058,2059,2060,531,2017,5011,5051,5001,5057,5056,5055,5058,9?=
+ =?us-ascii?Q?06,5010,5052,5054,5059,5053,5031,5040,5034,5032,5027,5030,50?=
+ =?us-ascii?Q?28,5029,5025,5026,5033,5035,5039,5037,5036,5038,5020,5002,50?=
+ =?us-ascii?Q?03,5005;MIPC1=3D2003,2004,950,952,951,5011,5054;A=3D00;MX=3D?=
+ =?us-ascii?Q?00;PTR=3D00eu-smtp-delivery-1.mimecast.com;SPF=3D031bmV3c0Bu?=
+ =?us-ascii?Q?ZXdzLnNjbWVkaWFnbG9iYWwuY29t;DKIM=3D00ZGtpbS5fZG9tYWlua2V5Lm?=
+ =?us-ascii?Q?5ld3Muc2NtZWRpYWdsb2JhbC5jb20=3D\;dj1ES0lNMTsgcD1NSUdmTUEwR0?=
+ =?us-ascii?Q?NTcUdTSWIzRFFFQkFRVUFBNEdOQURDQmlRS0JnUUNhUFRVeUYzSmtTTHVxTi?=
+ =?us-ascii?Q?tmZ0lsYmg2L21vWlJmUmg5MkR0TmxLTkJ4TDMwSWtJdjJYeTdzVE1wU2VWeW?=
+ =?us-ascii?Q?xLRmxpMDNsUHo2QWRuM2lqMUF4R3pBRnFITDZONEpBRWJ6RmFXbFFNT3Rhcm?=
+ =?us-ascii?Q?NnM29VS1RKMkFnT3NBaGs4cXQwL0lQYzdKemhKM2F2WGZGUXhuc2VhT2JuK2?=
+ =?us-ascii?Q?hjcUJjQXMxbXpqZWxHTkp0UzhITndJREFRQUI=3D;DMARC=3D00bmV3cy5zY?=
+ =?us-ascii?Q?21lZGlhZ2xvYmFsLmNvbQ=3D=3D\;dj1ETUFSQzE7IHA9bm9uZTsgcnVhPW1?=
+ =?us-ascii?Q?haWx0bzpkbWFyYy1yZXBvcnRzQG5ld3Muc2NtZWRpYWdsb2JhbC5jb20=3D;?=
+ =?us-ascii?Q?ARC=3D00MjAxOTAzLl9kb21haW5rZXkuZGtpbS5taW1lY2FzdC5jb20=3D\;?=
+ =?us-ascii?Q?dj1ES0lNMTsgaz1yc2E7IHA9TUlJQklqQU5CZ2txaGtpRzl3MEJBUUVGQUFP?=
+ =?us-ascii?Q?Q0FROEFNSUlCQ2dLQ0FRRUFzWmhSOG5aQUFZL0NwYnNHODVvUmFkM0VEeWNB?=
+ =?us-ascii?Q?QmhJYjZSYS9YWHc5VDNCRmZ5RFJySjFpOHNENkZROFdGSC8xMXBhSkpKM0Ja?=
+ =?us-ascii?Q?ZDZSSjZhdEczSXg0eTZvdkc4RVF3WjN6OHlCMVIrQU85aXgvMEYvR3lkeG1K?=
+ =?us-ascii?Q?dGU2RkJGWlp5akhzem1OTmlRVzJta1BRekpVL1p6NW1oWmlqTnM1MXdjaDEw?=
+ =?us-ascii?Q?c0xySHNjY2?=
+X-MS-Exchange-Organization-Cross-Session-Cache:
+	=?us-ascii?Q?01svMzdJTDVVNTgxNkpIVlY2TjJLbDJDZncyOXkzdWIrbHE5SnRDMWIwWnAv?=
+ =?us-ascii?Q?ZGdUOHJDWk0wS1NNM0JsVVhibStCYk5HUXExOGVTUlpab2ROaXZUMTNUdFpQ?=
+ =?us-ascii?Q?cUtUM0dEYzl1N2w4ZG9iREpUdGpPNnhBa3dvS1RZMWszN28zVW1IK005T3VG?=
+ =?us-ascii?Q?bStYUlo1NDNGWUdYVGU2MnJjZWtlWWFCYkxFZm1mRG1ia3VxeXdJREFRQUI?=
+ =?us-ascii?Q?=3D;AUTHRES=3D[mx.microsoft.com,1]{5,3,UwBvAGYAdABGAGEAaQBsA?=
+ =?us-ascii?Q?A=3D=3D,cwBlAG4AZABlAHIAIABJAFAAIABpAHMAIAA5ADEALgAyADIAMAAu?=
+ =?us-ascii?Q?ADQAMgAuADIAMgA3AA=3D=3D,cwBtAHQAcAAuAHIAYwBwAHQAVABvAEQAbwB?=
+ =?us-ascii?Q?tAGEAaQBuAA=3D=3D|aQBwAC0AcwBlAG4AdABpAG4AZQBsAC4AYwBvAG0A,c?=
+ =?us-ascii?Q?wBtAHQAcAAuAE0AYQBpAGwARgByAG8AbQA=3D|bgBlAHcAcwAuAHMAYwBtAG?=
+ =?us-ascii?Q?UAZABpAGEAZwBsAG8AYgBhAGwALgBjAG8AbQA=3D}{9,8,RgBhAGkAbAA=3D?=
+ =?us-ascii?Q?,cAA9AG4AbwBuAGUAIABzAHAAPQBuAG8AbgBlACAAcABjAHQAPQAxADAAMAA?=
+ =?us-ascii?Q?=3D,YQBjAHQAaQBvAG4A|TgBvAG4AZQA=3D,aABlAGEAZABlAHIALgBmAHIA?=
+ =?us-ascii?Q?bwBtAA=3D=3D|bgBlAHcAcwAuAHMAYwBtAGUAZABpAGEAZwBsAG8AYgBhAGw?=
+ =?us-ascii?Q?ALgBjAG8AbQA=3D}{2,8,RgBhAGkAbAA=3D,YgBvAGQAeQAgAGgAYQBzAGgA?=
+ =?us-ascii?Q?IABkAGkAZAAgAG4AbwB0ACAAdgBlAHIAaQBmAHkA,aABlAGEAZABlAHIALgB?=
+ =?us-ascii?Q?kAA=3D=3D|bgBlAHcAcwAuAHMAYwBtAGUAZABpAGEAZwBsAG8AYgBhAGwALg?=
+ =?us-ascii?Q?BjAG8AbQA=3D}{12,8,RgBhAGkAbAA=3D,MwA=3D};SpfResult=3D3;Dkim?=
+ =?us-ascii?Q?Status=3D2;DkimSS=3D10;DmarcStatus=3D3;DmarcAction=3D0;ARCRE?=
+ =?us-ascii?Q?S=3Dv110300000000000000000000000000000000000000;MFP=3D717950?=
+ =?us-ascii?Q?36-eb25-4476-a66d-6f18c01fa238;PReRC=3D1;FPR=3DBCD5731F.AE22?=
+ =?us-ascii?Q?97E1.31E42FA7.48E1F041.2042B;URLC=5FBE=3D22;URLC=5FBEC=3D10;?=
+ =?us-ascii?Q?URLC=5FAE=3D0;UMGPV=3D1653;UMEPV=3D71;NoDLx=3D1;BR=5FV=3DNon?=
+ =?us-ascii?Q?e;DIR=3D1;PTRO=3Dmimecast.com;P2O=3Dscmediaglobal.com;P=5FCA?=
+ =?us-ascii?Q?UTH=3Dnone;P=5FCAUTHR=3D300;P=5FCAuthOSLookupFailed=3Dfalse;?=
+ =?us-ascii?Q?P=5FCAuthOSLookupPerformed=3Dtrue;P=5FOSCAUTH=3Dnone;P=5FOSC?=
+ =?us-ascii?Q?AUTHR=3D300;KWND=3D0;CFP=3D56477d47-10bf-4b2b-9a2a-52b035200?=
+ =?us-ascii?Q?bb1;HCFP=3De05013b2-0ff2-49e9-af62-b4a46de0ca1f;APP=3Da8dfc5?=
+ =?us-ascii?Q?aa-9841-4a34-8cd7-50d2223d2224;GWS=5FRead=3DV2;SRCS=3DEST;CA?=
+ =?us-ascii?Q?UTH=3Dnone;CAUTHR=3D405;CAUTH=5FCAT=3DAD;IVB=5FDBG=3DD2;HMEP?=
+ =?us-ascii?Q?V=3D10000;HMEPV2=3D3746;HMESV=3D345;HMESV2=3D200;SRESV=3D651?=
+ =?us-ascii?Q?1;BMASV=3D210;BMAPV=3D4387;CMASV=3D2453;CMAPV=3D10000;CBEBV?=
+ =?us-ascii?Q?=3D1104;CBEBV2=3D1364;CLEPV=3D10000;CSEPV=3D8278;FSC=3D5;FSC?=
+ =?us-ascii?Q?ID=3D76403047;PV=5FUM=3D;SFA=5FSFV=3DNSPM;SFA=5FASC=3D16;SFA?=
+ =?us-ascii?Q?=5FSCL=3D1;ASC=3D11;ASCID=3D71156002|115110200001|1072166500?=
+ =?us-ascii?Q?3|19627315001|19625255004;FFV=3DNSPM;FV=5FSCL=3D1;FV=3DNSPM;?=
+ =?us-ascii?Q?FVS=3DFilters;FSCL=3D1;TAP=5FEP=3D?=
+X-MS-Exchange-Organization-Processed-By-Gcc-Journaling: Journal Agent
+
+--_c110a149-83a4-42f7-b204-e818104c66e6_
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.=
+w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns=3D"http://www.w3.org/1999/xhtml" xmlns:o=3D"urn:schemas-microso=
+ft-com:office:office" xmlns:v=3D"urn:schemas-microsoft-com:vml">
+<head><!--[if gte mso 9]><xml><o:OfficeDocumentSettings><o:AllowPNG/><o:Pix=
+elsPerInch>96</o:PixelsPerInch></o:OfficeDocumentSettings></xml><![endif]--=
+>
+=09<title>AWS_email-24</title>
+=09<meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dutf-8"=
+ /><meta name=3D"viewport" content=3D"width=3Ddevice-width, initial-scale=
+=3D1.0" />
+=09<style type=3D"text/css">a{
+=09=09=09=09outline:none;
+=09=09=09=09color:#fc8918;
+=09=09=09=09text-decoration:underline;
+=09=09=09}
+=09=09=09a:hover{text-decoration:none!important;}
+=09=09=09.h-u a{text-decoration:none;}
+=09=09=09.h-u a:hover{text-decoration:underline!important;}
+=09=09=09a[x-apple-data-detectors]{color:inherit!important; text-decoration=
+:none!important;}
+=09=09=09a[href^=3D"tel"]:hover{text-decoration:none!important;}
+=09=09=09.active-i a:hover,
+=09=09=09.active-t:hover{opacity:0.8;}
+=09=09=09.active-i a,
+=09=09=09.active-t{transition:all 0.3s ease;}
+=09=09=09a img{border:none;}
+=09=09=09b, strong{font-weight:700;}
+=09=09=09p{margin:0;}
+=09=09=09th{padding:0;}
+=09=09=09table td{mso-line-height-rule:exactly;}
+=09=09=09.ns span, .ns a{color:inherit!important; text-decoration:none!impo=
+rtant; border:none!important;}
+=09=09=09.l-fff a{color:#fff;}
+=09=09=09.l-fc8918 a{color:#fc8918;}
+=09=09=09.btn-1 a{color:#fff; text-decoration:none; display:block; padding:=
+10px 8px;}
+=09=09=09@media only screen and (max-width:375px) and (min-width:374px) {
+=09=09=09=09.gmail-fix{min-width:374px!important;}
+=09=09=09}
+=09=09=09@media only screen and (max-width:414px) and (min-width:413px) {
+=09=09=09=09.gmail-fix{min-width:413px!important;}
+=09=09=09}
+=09=09=09@media only screen and (max-width:617px) {
+=09=09=09=09.w-100p{width:100%!important;}
+=09=09=09=09.tflex{display:block!important;width:100%!important;}
+=09=09=09=09.d-b{display:block!important;}
+=09=09=09=09.ta-l{text-align:left!important;}
+=09=09=09=09.hm{display:none!important;width:0!important;height:0!important=
+;padding:0!important;font-size:0!important;line-height:0!important;}
+=09=09=09=09.w-19{width:19px!important;}
+=09=09=09=09.wi-28 img{width:28px!important;height:auto!important;}
+=09=09=09=09.wi-30 img{width:30px!important;height:auto!important;}
+=09=09=09=09.wi-34 img{width:34px!important;height:auto!important;}
+=09=09=09=09.wi-100 img{width:100px!important;height:auto!important;}
+=09=09=09=09.wi-123 img{width:123px!important;height:auto!important;}
+=09=09=09=09.maxw-150{max-width:150px!important;}
+=09=09=09=09.maxw-208{max-width:208px!important;}
+=09=09=09=09.p-0{padding:0!important;}
+=09=09=09=09.plr-25{padding-left:25px!important;padding-right:25px!importan=
+t;}
+=09=09=09=09.plr-26{padding-left:26px!important;padding-right:26px!importan=
+t;}
+=09=09=09=09.plr-27{padding-left:27px!important;padding-right:27px!importan=
+t;}
+=09=09=09=09.pl-0{padding-left:0!important;}
+=09=09=09=09.pl-26{padding-left:26px!important;}
+=09=09=09=09.pr-25{padding-right:25px!important;}
+=09=09=09=09.pt-0{padding-top:0!important;}
+=09=09=09=09.pt-21{padding-top:21px!important;}
+=09=09=09=09.pt-39{padding-top:39px!important;}
+=09=09=09=09.pt-40{padding-top:40px!important;}
+=09=09=09=09.pt-42{padding-top:42px!important;}
+=09=09=09=09.pt-55{padding-top:55px!important;}
+=09=09=09=09.pb-5{padding-bottom:5px!important;}
+=09=09=09=09.pb-10{padding-bottom:10px!important;}
+=09=09=09=09.pb-11{padding-bottom:11px!important;}
+=09=09=09=09.pb-13{padding-bottom:13px!important;}
+=09=09=09=09.pb-14{padding-bottom:14px!important;}
+=09=09=09=09.pb-18{padding-bottom:18px!important;}
+=09=09=09=09.pb-25{padding-bottom:25px!important;}
+=09=09=09=09.pb-27{padding-bottom:27px!important;}
+=09=09=09=09.pb-28{padding-bottom:28px!important;}
+=09=09=09=09.pb-30{padding-bottom:30px!important;}
+=09=09=09=09.pb-34{padding-bottom:34px!important;}
+=09=09=09=09.pb-36{padding-bottom:36px!important;}
+=09=09=09=09.pb-40{padding-bottom:40px!important;}
+=09=09=09=09.pb-44{padding-bottom:44px!important;}
+=09=09=09=09.pb-46{padding-bottom:46px!important;}
+=09=09=09=09.pb-47{padding-bottom:47px!important;}
+=09=09=09=09.pb-55{padding-bottom:55px!important;}
+=09=09=09=09.pb-66{padding-bottom:66px!important;}
+=09=09=09=09.mb-8{margin-bottom:8px!important;}
+=09=09=09=09.mb-18{margin-bottom:18px!important;}
+=09=09=09=09.fs-14{font-size:14px!important;}
+=09=09=09=09.fs-15{font-size:15px!important;}
+=09=09=09=09.fs-16{font-size:16px!important;}
+=09=09=09=09.fs-22{font-size:22px!important;}
+=09=09=09=09.fs-24{font-size:24px!important;}
+=09=09=09=09.lh-18{line-height:18px!important;}
+=09=09=09=09.lh-20{line-height:20px!important;}
+=09=09=09=09.lh-23{line-height:23px!important;}
+=09=09=09=09.lh-24{line-height:24px!important;}
+=09=09=09=09.lh-27{line-height:27px!important;}
+=09=09=09=09.lh-28{line-height:28px!important;}
+=09=09=09=09.ls-0{letter-spacing:0!important;}
+=09=09=09=09
+=09=09=09=09.bg-m1{background:#253241 url(http://52.8.82.31/emails/AWS_emai=
+l-24-bg-01-m.png) no-repeat bottom right !important;}
+=09=09=09=09.pb-151{padding-bottom:151px!important;}
+=09=09=09=09.btn-1 a{padding:11px 8px!important;}
+=09=09=09}
+=09=09=09@media (prefers-dark-interface) {body{-apple-color-filter:none;}}
+=09</style>
+</head>
+<body style=3D"background:#fff; margin:0; padding:0; -webkit-text-size-adju=
+st:100%; -ms-text-size-adjust:100%;">
+<p><span style=3D"display:none !important;visibility:hidden;mso-hide:all;fo=
+nt-size:1px;color:#ffffff;line-height:1px;max-height:0px;max-width:0px;opac=
+ity:0;overflow:hidden">Webinar: How to design a least privilege architectur=
+e in AWS</span> <!-- buzz --></p>
+
+<table align=3D"center" border=3D"0" cellpadding=3D"0" cellspacing=3D"0" st=
+yle=3D"background-color: #ffffff; width: 100%;" width=3D"100%">
+=09<tbody>
+=09=09<tr>
+=09=09=09<td align=3D"center" height=3D"100%" valign=3D"top" width=3D"100%"=
+><!-- header -->
+=09=09=09<div style=3D"display: none; max-height: 0px; overflow: hidden;">&=
+nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbs=
+p;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&=
+zwnj;&nbsp;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbs=
+p;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&=
+zwnj;&nbsp;&zwnj;&nbsp;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbs=
+p;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&=
+zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbs=
+p;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&=
+zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&nbsp;&zwnj;&nbsp;&zwnj;&nbs=
+p;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&=
+zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&nbsp;&zwnj;&nbs=
+p;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&=
+zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&nbs=
+p;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&=
+zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwn=
+j;&nbsp;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&=
+zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwn=
+j;&nbsp;&zwnj;&nbsp;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&=
+zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwn=
+j;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&=
+zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwn=
+j;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&=
+zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwn=
+j;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&nbsp;&zwnj;&nbsp;&=
+zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwn=
+j;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&nbsp;&=
+zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwn=
+j;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&=
+nbsp;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwn=
+j;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&=
+nbsp;&zwnj;&nbsp;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwn=
+j;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&=
+nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwn=
+j;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&=
+nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwn=
+j;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&=
+nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&nbsp;&zwnj;&nbsp;&zwn=
+j;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&=
+nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&nbsp;&zwn=
+j;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&=
+nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbs=
+p;</div>
+
+=09=09=09<table align=3D"center" border=3D"0" cellpadding=3D"0" cellspacing=
+=3D"0" width=3D"100%">
+=09=09=09=09<tbody>
+=09=09=09=09=09<tr>
+=09=09=09=09=09=09<td align=3D"center" style=3D"font-family: Arial, Helveti=
+ca, Sans-Serif; font-size:10px; margin:0px; padding:10px 0px 10px 0px; vert=
+ical-align:center;" width=3D"100%"><a href=3D"https://cra.omeclk.com/portal=
+/public/ViewCommInBrowser.jsp?Sv4%2BeOSSuczktpNgnyvaGfrVNXoQqLYWMmD99HFffsc=
+tY99oskneSF3aY0mvhtRFArjt6nabr30%3DA" style=3D"color:#0E1317; text-decorati=
+on:none;" target=3D"_blank">View web version</a></td>
+=09=09=09=09=09</tr>
+=09=09=09=09=09<tr>
+=09=09=09=09=09=09<td align=3D"center" valign=3D"middle" width=3D"100%">
+=09=09=09=09=09=09<table style=3D"max-width:600px;width:100%" width=3D"600"=
+>
+=09=09=09=09=09=09=09<tbody>
+=09=09=09=09=09=09=09=09<tr>
+=09=09=09=09=09=09=09=09=09<td align=3D"left" style=3D"border-bottom:4px so=
+lid #3a3a3c; padding:15px 8px 8px 8px;">
+=09=09=09=09=09=09=09=09=09<table border=3D"0" cellpadding=3D"0" cellspacin=
+g=3D"0">
+=09=09=09=09=09=09=09=09=09=09<tbody>
+=09=09=09=09=09=09=09=09=09=09=09<tr>
+=09=09=09=09=09=09=09=09=09=09=09=09<td><a href=3D"https://cra.omeclk.com/p=
+ortal/wts/ugmcnr-gmLegv6%7Cx4anVjPra7D5kqEBv1qxla"><img alt=3D"SC Media Ind=
+ustry Buzz" border=3D"0" height=3D"auto" src=3D"https://cdn.omeda.com/hoste=
+d/images/CLIENT_CRA/CRACD/industrybuzz1108452_1256547.png" style=3D"width:1=
+00%; max-width:277px;display:block; font-family: Arial, Helvetica, Geneva, =
+sans-serif; font-size: 18px;color: #ffffff;" title=3D"SC Media Industry Buz=
+z" width=3D"277" /></a></td>
+=09=09=09=09=09=09=09=09=09=09=09</tr>
+=09=09=09=09=09=09=09=09=09=09</tbody>
+=09=09=09=09=09=09=09=09=09</table>
+=09=09=09=09=09=09=09=09=09</td>
+=09=09=09=09=09=09=09=09</tr>
+=09=09=09=09=09=09=09</tbody>
+=09=09=09=09=09=09</table>
+=09=09=09=09=09=09</td>
+=09=09=09=09=09</tr>
+=09=09=09=09</tbody>
+=09=09=09</table>
+=09=09=09</td>
+=09=09</tr>
+=09</tbody>
+</table>
+<!-- end buzz logo -->
+
+<table cellpadding=3D"0" cellspacing=3D"0" class=3D"gmail-fix" style=3D"bac=
+kground:#fff; min-width:320px;" width=3D"100%">
+=09<tbody>
+=09=09<tr>
+=09=09=09<td>
+=09=09=09<table align=3D"center" cellpadding=3D"0" cellspacing=3D"0" class=
+=3D"w-100p" style=3D"background:#fffffe; max-width:600px; margin:0 auto;" w=
+idth=3D"600"><!-- header -->
+=09=09=09=09<tbody>
+=09=09=09=09=09<tr>
+=09=09=09=09=09=09<td background=3D"http://52.8.82.31/emails/AWS_email-24-b=
+g-01.png" bgcolor=3D"#253241" class=3D"bg-m1" style=3D"background-image:url=
+(http://52.8.82.31/emails/AWS_email-24-bg-01.png); background-repeat:no-rep=
+eat; background-position:center bottom;"><!--[if gte mso 9]>
+=09=09=09=09=09=09=09=09=09<v:rect xmlns:v=3D"urn:schemas-microsoft-com:vml=
+" fill=3D"true" stroke=3D"false" style=3D"width:600px; height:232px;">
+=09=09=09=09=09=09=09=09=09=09<v:fill type=3D"frame" src=3D"http://52.8.82.=
+31/emails/AWS_email-24-bg-01.png" color=3D"#253241" />
+=09=09=09=09=09=09=09=09=09=09<v:textbox style=3D"mso-fit-shape-to-text:tru=
+e; padding-top:0; padding-right:0; padding-bottom:0; padding-left:0;">
+=09=09=09=09=09=09=09=09=09=09=09<![endif]-->
+=09=09=09=09=09=09<table cellpadding=3D"0" cellspacing=3D"0" width=3D"100%"=
+>
+=09=09=09=09=09=09=09<tbody>
+=09=09=09=09=09=09=09=09<tr>
+=09=09=09=09=09=09=09=09=09<td class=3D"hm" height=3D"232" width=3D"50">&nb=
+sp;</td>
+=09=09=09=09=09=09=09=09=09<td class=3D"plr-26 pb-151" valign=3D"top">
+=09=09=09=09=09=09=09=09=09<table cellpadding=3D"0" cellspacing=3D"0" width=
+=3D"100%">
+=09=09=09=09=09=09=09=09=09=09<tbody>
+=09=09=09=09=09=09=09=09=09=09=09<tr>
+=09=09=09=09=09=09=09=09=09=09=09=09<td class=3D"pt-21 pb-66" style=3D"padd=
+ing:26px 0 58px;">
+=09=09=09=09=09=09=09=09=09=09=09=09<table cellpadding=3D"0" cellspacing=3D=
+"0">
+=09=09=09=09=09=09=09=09=09=09=09=09=09<tbody>
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09<tr>
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09<td class=3D"wi-123" style=3D"=
+line-height:1px; font-size:1px; mso-line-height-rule:at-least;"><img alt=3D=
+"aws marketplace" src=3D"http://s3.amazonaws.com/roidna/aws/2020/aws-march-=
+2020-3/aws-black.png" style=3D"font:16px/17px Arial, Helvetica, sans-serif;=
+ color:#fff; vertical-align:top;" width=3D"136" /></td>
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09<td class=3D"w-19" width=3D"22=
+">&nbsp;</td>
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09<td class=3D"wi-30" style=3D"l=
+ine-height:1px; font-size:1px; mso-line-height-rule:at-least;">
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09<p class=3D"mb-8" style=3D"mar=
+gin:0 0 6px;"><img alt=3D"SANS" src=3D"http://52.8.82.31/emails/AWS_email-2=
+4-logo-02.png" style=3D"font:18px/19px Arial, Helvetica, sans-serif; color:=
+#fff; vertical-align:top;" width=3D"34" /></p>
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09</td>
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09</tr>
+=09=09=09=09=09=09=09=09=09=09=09=09=09</tbody>
+=09=09=09=09=09=09=09=09=09=09=09=09</table>
+=09=09=09=09=09=09=09=09=09=09=09=09</td>
+=09=09=09=09=09=09=09=09=09=09=09</tr>
+=09=09=09=09=09=09=09=09=09=09=09<tr>
+=09=09=09=09=09=09=09=09=09=09=09=09<td class=3D"l-fff" style=3D"font:22px/=
+30px Arial, Helvetica, sans-serif; color:#fff; letter-spacing:0.3px;">How t=
+o design a least<br class=3D"hm" />
+=09=09=09=09=09=09=09=09=09=09=09=09<span class=3D"d-b">privilege architect=
+ure</span> in AWS</td>
+=09=09=09=09=09=09=09=09=09=09=09</tr>
+=09=09=09=09=09=09=09=09=09=09</tbody>
+=09=09=09=09=09=09=09=09=09</table>
+=09=09=09=09=09=09=09=09=09</td>
+=09=09=09=09=09=09=09=09=09<td class=3D"hm" width=3D"20">&nbsp;</td>
+=09=09=09=09=09=09=09=09</tr>
+=09=09=09=09=09=09=09</tbody>
+=09=09=09=09=09=09</table>
+=09=09=09=09=09=09<!--[if gte mso 9]>
+=09=09=09=09=09=09=09=09=09=09</v:textbox>
+=09=09=09=09=09=09=09=09=09</v:rect>
+=09=09=09=09=09=09=09=09<![endif]--></td>
+=09=09=09=09=09</tr>
+=09=09=09=09=09<!-- content -->
+=09=09=09=09=09<tr>
+=09=09=09=09=09=09<td class=3D"p-0" style=3D"padding:44px 0 0;">
+=09=09=09=09=09=09<table cellpadding=3D"0" cellspacing=3D"0" width=3D"100%"=
+>
+=09=09=09=09=09=09=09<tbody>
+=09=09=09=09=09=09=09=09<tr>
+=09=09=09=09=09=09=09=09=09<td class=3D"hm" valign=3D"bottom" width=3D"50">
+=09=09=09=09=09=09=09=09=09<table cellpadding=3D"0" cellspacing=3D"0" width=
+=3D"100%">
+=09=09=09=09=09=09=09=09=09=09<tbody>
+=09=09=09=09=09=09=09=09=09=09=09<tr>
+=09=09=09=09=09=09=09=09=09=09=09=09<td height=3D"74" style=3D"background:#=
+3b4e62;">&nbsp;</td>
+=09=09=09=09=09=09=09=09=09=09=09</tr>
+=09=09=09=09=09=09=09=09=09=09</tbody>
+=09=09=09=09=09=09=09=09=09</table>
+=09=09=09=09=09=09=09=09=09</td>
+=09=09=09=09=09=09=09=09=09<td>
+=09=09=09=09=09=09=09=09=09<table cellpadding=3D"0" cellspacing=3D"0" width=
+=3D"100%">
+=09=09=09=09=09=09=09=09=09=09<tbody>
+=09=09=09=09=09=09=09=09=09=09=09<tr>
+=09=09=09=09=09=09=09=09=09=09=09=09<td class=3D"pt-40 plr-25 pb-46" style=
+=3D"padding:27px 26px 39px 32px; border:1px solid #f2f2f2; box-shadow:0 2px=
+ 7px rgba(0, 0, 0, 0.27); mso-padding-right-alt:20px;">
+=09=09=09=09=09=09=09=09=09=09=09=09<table cellpadding=3D"0" cellspacing=3D=
+"0" width=3D"100%">
+=09=09=09=09=09=09=09=09=09=09=09=09=09<tbody>
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09<tr>
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09<th align=3D"left" class=3D"tf=
+lex" style=3D"vertical-align:top;" width=3D"247">
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09<table cellpadding=3D"0" cells=
+pacing=3D"0" width=3D"100%">
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09<tbody>
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09<tr>
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09<td class=3D"pb-13 fs=
+-22 lh-28" style=3D"padding:1px 0 11px; font:18px/22px Arial, Helvetica, sa=
+ns-serif; color:#253241;">You&rsquo;re Invited!</td>
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09</tr>
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09<tr>
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09<td class=3D"fs-15 lh=
+-24" style=3D"font:11px/19px Arial, Helvetica, sans-serif; color:#253241; l=
+etter-spacing:0.3px;">SANS and AWS Marketplace discuss how you can create a=
+ granular security environment that provides strong attack resistance throu=
+gh least privilege and micro-segmentation.</td>
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09</tr>
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09</tbody>
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09</table>
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09</th>
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09<th class=3D"tflex" height=3D"=
+24" width=3D"29">&nbsp;</th>
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09<th align=3D"left" class=3D"tf=
+lex" style=3D"vertical-align:top;">
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09<table cellpadding=3D"0" cells=
+pacing=3D"0" width=3D"100%">
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09<tbody>
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09<tr>
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09<td class=3D"pb-28 pt=
+-0 ns fs-14 lh-23" style=3D"padding:3px 0 16px; font:700 11px/20px Arial, H=
+elvetica, sans-serif; color:#232f3e; text-transform:uppercase;">Tuesday, Ap=
+ril 14th, 2020<br />
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=0911 AM PT &nbsp;|&nbsp=
+; 2 PM ET<br />
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=0960 min session</td>
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09</tr>
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09<tr>
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09<td>
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09<table cellpadding=3D=
+"0" cellspacing=3D"0" class=3D"w-100p" width=3D"157">
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09<tbody>
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09<tr>
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09<td align=3D=
+"center" class=3D"active-t btn-1 fs-15 lh-18" style=3D"mso-padding-alt:10px=
+ 8px; background:#fc8918; font:13px/15px Arial, Helvetica, sans-serif;"><a =
+href=3D"https://cra.omeclk.com/portal/wts/uemcnr-gmLegv6%7Cx86nVjPra" style=
+=3D"color:#fff; text-decoration:none; display:block; padding:10px 8px;">REG=
+ISTER NOW</a></td>
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09</tr>
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09</tbody>
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09</table>
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09</td>
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09</tr>
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09</tbody>
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09</table>
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09</th>
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09</tr>
+=09=09=09=09=09=09=09=09=09=09=09=09=09</tbody>
+=09=09=09=09=09=09=09=09=09=09=09=09</table>
+=09=09=09=09=09=09=09=09=09=09=09=09</td>
+=09=09=09=09=09=09=09=09=09=09=09</tr>
+=09=09=09=09=09=09=09=09=09=09</tbody>
+=09=09=09=09=09=09=09=09=09</table>
+=09=09=09=09=09=09=09=09=09</td>
+=09=09=09=09=09=09=09=09=09<td class=3D"hm" valign=3D"bottom" width=3D"50">
+=09=09=09=09=09=09=09=09=09<table cellpadding=3D"0" cellspacing=3D"0" width=
+=3D"100%">
+=09=09=09=09=09=09=09=09=09=09<tbody>
+=09=09=09=09=09=09=09=09=09=09=09<tr>
+=09=09=09=09=09=09=09=09=09=09=09=09<td height=3D"74" style=3D"background:#=
+3b4e62;">&nbsp;</td>
+=09=09=09=09=09=09=09=09=09=09=09</tr>
+=09=09=09=09=09=09=09=09=09=09</tbody>
+=09=09=09=09=09=09=09=09=09</table>
+=09=09=09=09=09=09=09=09=09</td>
+=09=09=09=09=09=09=09=09</tr>
+=09=09=09=09=09=09=09</tbody>
+=09=09=09=09=09=09</table>
+=09=09=09=09=09=09</td>
+=09=09=09=09=09</tr>
+=09=09=09=09=09<tr>
+=09=09=09=09=09=09<td class=3D"pt-39 plr-25 pb-47 fs-16 lh-24 l-fff ls-0" s=
+tyle=3D"background:#3b4e62; padding:30px 51px 41px; font:11px/19px Arial, H=
+elvetica, sans-serif; color:#fff; letter-spacing:0.4px;">
+=09=09=09=09=09=09<p class=3D"mb-18" style=3D"margin:0 0 14px;"><b>In this =
+webinar:</b></p>
+=09=09=09=09=09=09SANS and AWS Marketplace will present examples of how to =
+set up a least privilege stack, covering such key issues as where to start =
+and what to prioritize. Additionally, they will present real-world use case=
+s of least privilege stacks and effective micro-segmentation methods that h=
+ave been deployed in Amazon Web Services (AWS).</td>
+=09=09=09=09=09</tr>
+=09=09=09=09=09<!-- block -->
+=09=09=09=09=09<tr>
+=09=09=09=09=09=09<td class=3D"pt-55 plr-25 pb-30" style=3D"padding:40px 35=
+px 19px 41px;">
+=09=09=09=09=09=09<table cellpadding=3D"0" cellspacing=3D"0" width=3D"100%"=
+>
+=09=09=09=09=09=09=09<tbody>
+=09=09=09=09=09=09=09=09<tr>
+=09=09=09=09=09=09=09=09=09<td class=3D"pl-0 pb-36 fs-16 lh-24" style=3D"pa=
+dding:0 0 24px 8px; font:bold 12px/19px Arial, Helvetica, sans-serif; color=
+:#253241;">Specifically, attendees will learn to:</td>
+=09=09=09=09=09=09=09=09</tr>
+=09=09=09=09=09=09=09=09<tr>
+=09=09=09=09=09=09=09=09=09<td class=3D"pb-44" style=3D"padding:0 0 31px;">
+=09=09=09=09=09=09=09=09=09<table cellpadding=3D"0" cellspacing=3D"0" width=
+=3D"100%">
+=09=09=09=09=09=09=09=09=09=09<tbody>
+=09=09=09=09=09=09=09=09=09=09=09<tr>
+=09=09=09=09=09=09=09=09=09=09=09=09<th align=3D"left" class=3D"tflex" vali=
+gn=3D"top" width=3D"40">
+=09=09=09=09=09=09=09=09=09=09=09=09<table cellpadding=3D"0" cellspacing=3D=
+"0" width=3D"100%">
+=09=09=09=09=09=09=09=09=09=09=09=09=09<tbody>
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09<tr>
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09<td align=3D"center" class=3D"=
+ta-l wi-28 p-0" style=3D"padding:6px 0 0; line-height:1px; font-size:1px; m=
+so-line-height-rule:at-least;"><img alt=3D"" src=3D"http://52.8.82.31/email=
+s/AWS_email-24-ico-01.png" style=3D"vertical-align:top;" width=3D"21" /></t=
+d>
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09</tr>
+=09=09=09=09=09=09=09=09=09=09=09=09=09</tbody>
+=09=09=09=09=09=09=09=09=09=09=09=09</table>
+=09=09=09=09=09=09=09=09=09=09=09=09</th>
+=09=09=09=09=09=09=09=09=09=09=09=09<th class=3D"tflex" height=3D"12" width=
+=3D"11">&nbsp;</th>
+=09=09=09=09=09=09=09=09=09=09=09=09<th align=3D"left" class=3D"tflex">
+=09=09=09=09=09=09=09=09=09=09=09=09<table cellpadding=3D"0" cellspacing=3D=
+"0" width=3D"100%">
+=09=09=09=09=09=09=09=09=09=09=09=09=09<tbody>
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09<tr>
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09<td class=3D"fs-16 lh-24" styl=
+e=3D"font:12px/19px Arial, Helvetica, sans-serif; color:#253241; letter-spa=
+cing:0.1px;">Leverage the three pillars of least privilege as a control sta=
+ck to ensure security in their AWS environment</td>
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09</tr>
+=09=09=09=09=09=09=09=09=09=09=09=09=09</tbody>
+=09=09=09=09=09=09=09=09=09=09=09=09</table>
+=09=09=09=09=09=09=09=09=09=09=09=09</th>
+=09=09=09=09=09=09=09=09=09=09=09</tr>
+=09=09=09=09=09=09=09=09=09=09</tbody>
+=09=09=09=09=09=09=09=09=09</table>
+=09=09=09=09=09=09=09=09=09</td>
+=09=09=09=09=09=09=09=09</tr>
+=09=09=09=09=09=09=09=09<tr>
+=09=09=09=09=09=09=09=09=09<td class=3D"pb-44" style=3D"padding:0 0 31px;">
+=09=09=09=09=09=09=09=09=09<table cellpadding=3D"0" cellspacing=3D"0" width=
+=3D"100%">
+=09=09=09=09=09=09=09=09=09=09<tbody>
+=09=09=09=09=09=09=09=09=09=09=09<tr>
+=09=09=09=09=09=09=09=09=09=09=09=09<th align=3D"left" class=3D"tflex" vali=
+gn=3D"top" width=3D"40">
+=09=09=09=09=09=09=09=09=09=09=09=09<table cellpadding=3D"0" cellspacing=3D=
+"0" width=3D"100%">
+=09=09=09=09=09=09=09=09=09=09=09=09=09<tbody>
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09<tr>
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09<td align=3D"center" class=3D"=
+ta-l wi-28 p-0" style=3D"padding:6px 0 0;"><img alt=3D"" src=3D"http://52.8=
+.82.31/emails/AWS_email-24-ico-02.png" style=3D"vertical-align:top;" width=
+=3D"25" /></td>
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09</tr>
+=09=09=09=09=09=09=09=09=09=09=09=09=09</tbody>
+=09=09=09=09=09=09=09=09=09=09=09=09</table>
+=09=09=09=09=09=09=09=09=09=09=09=09</th>
+=09=09=09=09=09=09=09=09=09=09=09=09<th class=3D"tflex" height=3D"12" width=
+=3D"11">&nbsp;</th>
+=09=09=09=09=09=09=09=09=09=09=09=09<th align=3D"left" class=3D"tflex">
+=09=09=09=09=09=09=09=09=09=09=09=09<table cellpadding=3D"0" cellspacing=3D=
+"0" width=3D"100%">
+=09=09=09=09=09=09=09=09=09=09=09=09=09<tbody>
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09<tr>
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09<td class=3D"fs-16 lh-24" styl=
+e=3D"font:12px/19px Arial, Helvetica, sans-serif; color:#253241; letter-spa=
+cing:0.1px;">Map user and service relationships to use identity and access =
+management (IAM) as an isolation and segmentation technique</td>
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09</tr>
+=09=09=09=09=09=09=09=09=09=09=09=09=09</tbody>
+=09=09=09=09=09=09=09=09=09=09=09=09</table>
+=09=09=09=09=09=09=09=09=09=09=09=09</th>
+=09=09=09=09=09=09=09=09=09=09=09</tr>
+=09=09=09=09=09=09=09=09=09=09</tbody>
+=09=09=09=09=09=09=09=09=09</table>
+=09=09=09=09=09=09=09=09=09</td>
+=09=09=09=09=09=09=09=09</tr>
+=09=09=09=09=09=09=09=09<tr>
+=09=09=09=09=09=09=09=09=09<td class=3D"pb-44" style=3D"padding:0 0 31px;">
+=09=09=09=09=09=09=09=09=09<table cellpadding=3D"0" cellspacing=3D"0" width=
+=3D"100%">
+=09=09=09=09=09=09=09=09=09=09<tbody>
+=09=09=09=09=09=09=09=09=09=09=09<tr>
+=09=09=09=09=09=09=09=09=09=09=09=09<th align=3D"left" class=3D"tflex" vali=
+gn=3D"top" width=3D"40">
+=09=09=09=09=09=09=09=09=09=09=09=09<table cellpadding=3D"0" cellspacing=3D=
+"0" width=3D"100%">
+=09=09=09=09=09=09=09=09=09=09=09=09=09<tbody>
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09<tr>
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09<td align=3D"center" class=3D"=
+ta-l wi-28 p-0" style=3D"padding:6px 0 0;"><img alt=3D"" src=3D"http://52.8=
+.82.31/emails/AWS_email-24-ico-03.png" style=3D"vertical-align:top;" width=
+=3D"25" /></td>
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09</tr>
+=09=09=09=09=09=09=09=09=09=09=09=09=09</tbody>
+=09=09=09=09=09=09=09=09=09=09=09=09</table>
+=09=09=09=09=09=09=09=09=09=09=09=09</th>
+=09=09=09=09=09=09=09=09=09=09=09=09<th class=3D"tflex" height=3D"12" width=
+=3D"11">&nbsp;</th>
+=09=09=09=09=09=09=09=09=09=09=09=09<th align=3D"left" class=3D"tflex">
+=09=09=09=09=09=09=09=09=09=09=09=09<table cellpadding=3D"0" cellspacing=3D=
+"0" width=3D"100%">
+=09=09=09=09=09=09=09=09=09=09=09=09=09<tbody>
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09<tr>
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09<td class=3D"fs-16 lh-24" styl=
+e=3D"font:12px/19px Arial, Helvetica, sans-serif; color:#253241; letter-spa=
+cing:0.1px;">Apply micro-segmentation to set up multiple security zones and=
+ implement robust security controls</td>
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09</tr>
+=09=09=09=09=09=09=09=09=09=09=09=09=09</tbody>
+=09=09=09=09=09=09=09=09=09=09=09=09</table>
+=09=09=09=09=09=09=09=09=09=09=09=09</th>
+=09=09=09=09=09=09=09=09=09=09=09</tr>
+=09=09=09=09=09=09=09=09=09=09</tbody>
+=09=09=09=09=09=09=09=09=09</table>
+=09=09=09=09=09=09=09=09=09</td>
+=09=09=09=09=09=09=09=09</tr>
+=09=09=09=09=09=09=09=09<tr>
+=09=09=09=09=09=09=09=09=09<td class=3D"pb-44" style=3D"padding:0 0 31px;">
+=09=09=09=09=09=09=09=09=09<table cellpadding=3D"0" cellspacing=3D"0" width=
+=3D"100%">
+=09=09=09=09=09=09=09=09=09=09<tbody>
+=09=09=09=09=09=09=09=09=09=09=09<tr>
+=09=09=09=09=09=09=09=09=09=09=09=09<th align=3D"left" class=3D"tflex" vali=
+gn=3D"top" width=3D"40">
+=09=09=09=09=09=09=09=09=09=09=09=09<table cellpadding=3D"0" cellspacing=3D=
+"0" width=3D"100%">
+=09=09=09=09=09=09=09=09=09=09=09=09=09<tbody>
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09<tr>
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09<td align=3D"center" class=3D"=
+ta-l p-0" style=3D"padding:6px 0 0; line-height:1px; font-size:1px; mso-lin=
+e-height-rule:at-least;"><img alt=3D"" src=3D"http://52.8.82.31/emails/AWS_=
+email-24-ico-04.png" style=3D"vertical-align:top;" width=3D"26" /></td>
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09</tr>
+=09=09=09=09=09=09=09=09=09=09=09=09=09</tbody>
+=09=09=09=09=09=09=09=09=09=09=09=09</table>
+=09=09=09=09=09=09=09=09=09=09=09=09</th>
+=09=09=09=09=09=09=09=09=09=09=09=09<th class=3D"tflex" height=3D"12" width=
+=3D"11">&nbsp;</th>
+=09=09=09=09=09=09=09=09=09=09=09=09<th align=3D"left" class=3D"tflex">
+=09=09=09=09=09=09=09=09=09=09=09=09<table cellpadding=3D"0" cellspacing=3D=
+"0" width=3D"100%">
+=09=09=09=09=09=09=09=09=09=09=09=09=09<tbody>
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09<tr>
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09<td class=3D"fs-16 lh-24" styl=
+e=3D"font:12px/19px Arial, Helvetica, sans-serif; color:#253241; letter-spa=
+cing:0.1px;">Enhance security posture by locking down the control plane, de=
+livering continuous monitoring, and ensuring platform as a service (PaaS) a=
+nd container workload protection and monitoring</td>
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09</tr>
+=09=09=09=09=09=09=09=09=09=09=09=09=09</tbody>
+=09=09=09=09=09=09=09=09=09=09=09=09</table>
+=09=09=09=09=09=09=09=09=09=09=09=09</th>
+=09=09=09=09=09=09=09=09=09=09=09</tr>
+=09=09=09=09=09=09=09=09=09=09</tbody>
+=09=09=09=09=09=09=09=09=09</table>
+=09=09=09=09=09=09=09=09=09</td>
+=09=09=09=09=09=09=09=09</tr>
+=09=09=09=09=09=09=09</tbody>
+=09=09=09=09=09=09</table>
+=09=09=09=09=09=09</td>
+=09=09=09=09=09</tr>
+=09=09=09=09=09<!-- block -->
+=09=09=09=09=09<tr>
+=09=09=09=09=09=09<td class=3D"l-fff pt-39 pl-26 pr-25" style=3D"background=
+:#232f3e; padding:0 50px 2px;">
+=09=09=09=09=09=09<table cellpadding=3D"0" cellspacing=3D"0" width=3D"100%"=
+>
+=09=09=09=09=09=09=09<tbody>
+=09=09=09=09=09=09=09=09<tr>
+=09=09=09=09=09=09=09=09=09<td class=3D"pt-0 pb-34 fs-16 lh-20" style=3D"pa=
+dding:28px 0 32px; font:12px/15px Arial, Helvetica, sans-serif; color:#fff;=
+ letter-spacing:0.1px;">Speakers:</td>
+=09=09=09=09=09=09=09=09</tr>
+=09=09=09=09=09=09=09=09<tr>
+=09=09=09=09=09=09=09=09=09<td class=3D"pb-25" style=3D"padding:0 0 24px;">
+=09=09=09=09=09=09=09=09=09<table cellpadding=3D"0" cellspacing=3D"0" width=
+=3D"100%">
+=09=09=09=09=09=09=09=09=09=09<tbody>
+=09=09=09=09=09=09=09=09=09=09=09<tr>
+=09=09=09=09=09=09=09=09=09=09=09=09<th align=3D"left" class=3D"tflex" styl=
+e=3D"vertical-align:top;" width=3D"121">
+=09=09=09=09=09=09=09=09=09=09=09=09<table cellpadding=3D"0" cellspacing=3D=
+"0" width=3D"121">
+=09=09=09=09=09=09=09=09=09=09=09=09=09<tbody>
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09<tr>
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09<td style=3D"box-shadow:0 2px =
+4px rgba(0, 0, 0, 0.28);"><img alt=3D"" height=3D"103" src=3D"http://52.8.8=
+2.31/emails/AWS_email-24-img-01.png" style=3D"vertical-align:top;" width=3D=
+"121" /></td>
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09</tr>
+=09=09=09=09=09=09=09=09=09=09=09=09=09</tbody>
+=09=09=09=09=09=09=09=09=09=09=09=09</table>
+=09=09=09=09=09=09=09=09=09=09=09=09</th>
+=09=09=09=09=09=09=09=09=09=09=09=09<th class=3D"tflex" height=3D"19" width=
+=3D"29">&nbsp;</th>
+=09=09=09=09=09=09=09=09=09=09=09=09<th align=3D"left" class=3D"tflex" styl=
+e=3D"vertical-align:top;">
+=09=09=09=09=09=09=09=09=09=09=09=09<table cellpadding=3D"0" cellspacing=3D=
+"0" width=3D"100%">
+=09=09=09=09=09=09=09=09=09=09=09=09=09<tbody>
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09<tr>
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09<td class=3D"pb-11" style=3D"p=
+adding:0 0 5px;">
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09<table cellpadding=3D"0" cells=
+pacing=3D"0" class=3D"w-100p maxw-208" width=3D"131">
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09<tbody>
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09<tr>
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09<td height=3D"1" styl=
+e=3D"background:#fffffe; font-size:1px; line-height:1px;">&nbsp;</td>
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09</tr>
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09</tbody>
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09</table>
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09</td>
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09</tr>
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09<tr>
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09<td class=3D"wi-34" style=3D"p=
+adding:0 0 15px; line-height:1px; font-size:1px; mso-line-height-rule:at-le=
+ast;"><img alt=3D"SANS" src=3D"http://52.8.82.31/emails/AWS_email-24-logo-0=
+3.png" style=3D"font:14px/14px Times New Roman, Times, serif; color:#fff; v=
+ertical-align:top;" width=3D"25" /></td>
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09</tr>
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09<tr>
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09<td class=3D"fs-24 lh-27 pb-14=
+" style=3D"padding:0 0 5px; font:19px/24px Arial, Helvetica, sans-serif; co=
+lor:#fff;">Dave Shackleford</td>
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09</tr>
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09<tr>
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09<td class=3D"fs-16 lh-20" styl=
+e=3D"font:bold 12px/18px Arial, Helvetica, sans-serif; color:#fff;">SANS An=
+alyst</td>
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09</tr>
+=09=09=09=09=09=09=09=09=09=09=09=09=09</tbody>
+=09=09=09=09=09=09=09=09=09=09=09=09</table>
+=09=09=09=09=09=09=09=09=09=09=09=09</th>
+=09=09=09=09=09=09=09=09=09=09=09</tr>
+=09=09=09=09=09=09=09=09=09=09</tbody>
+=09=09=09=09=09=09=09=09=09</table>
+=09=09=09=09=09=09=09=09=09</td>
+=09=09=09=09=09=09=09=09</tr>
+=09=09=09=09=09=09=09=09<tr>
+=09=09=09=09=09=09=09=09=09<td class=3D"fs-16 lh-24 pb-55" style=3D"padding=
+:0 0 38px; font:12px/19px Arial, Helvetica, sans-serif; color:#fff;">Dave S=
+hackleford, a SANS analyst, senior instructor, course author, GIAC technica=
+l director and member of the board of directors for the SANS Technology Ins=
+titute, is the founder and principal consultant with Voodoo Security. He ha=
+s consulted with hundreds of organizations in the areas of security, regula=
+tory compliance, and network architecture and engineering. A VMware vExpert=
+, Dave has extensive experience designing and configuring secure virtualize=
+d infrastructures. He previously worked as chief security officer for Confi=
+guresoft and CTO for the Center for Internet Security. Dave currently helps=
+ lead the Atlanta chapter of the Cloud Security Alliance.</td>
+=09=09=09=09=09=09=09=09</tr>
+=09=09=09=09=09=09=09=09<tr>
+=09=09=09=09=09=09=09=09=09<td class=3D"pb-18" style=3D"padding:0 0 24px;">
+=09=09=09=09=09=09=09=09=09<table cellpadding=3D"0" cellspacing=3D"0" width=
+=3D"100%">
+=09=09=09=09=09=09=09=09=09=09<tbody>
+=09=09=09=09=09=09=09=09=09=09=09<tr>
+=09=09=09=09=09=09=09=09=09=09=09=09<th align=3D"left" class=3D"tflex" styl=
+e=3D"vertical-align:top;" width=3D"121">
+=09=09=09=09=09=09=09=09=09=09=09=09<table cellpadding=3D"0" cellspacing=3D=
+"0" width=3D"121">
+=09=09=09=09=09=09=09=09=09=09=09=09=09<tbody>
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09<tr>
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09<td><img alt=3D"" height=3D"10=
+2" src=3D"http://52.8.82.31/emails/AWS_email-24-img-02.png" style=3D"vertic=
+al-align:top;" width=3D"121" /></td>
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09</tr>
+=09=09=09=09=09=09=09=09=09=09=09=09=09</tbody>
+=09=09=09=09=09=09=09=09=09=09=09=09</table>
+=09=09=09=09=09=09=09=09=09=09=09=09</th>
+=09=09=09=09=09=09=09=09=09=09=09=09<th class=3D"tflex" height=3D"19" width=
+=3D"29">&nbsp;</th>
+=09=09=09=09=09=09=09=09=09=09=09=09<th align=3D"left" class=3D"tflex" styl=
+e=3D"vertical-align:top;">
+=09=09=09=09=09=09=09=09=09=09=09=09<table cellpadding=3D"0" cellspacing=3D=
+"0" width=3D"100%">
+=09=09=09=09=09=09=09=09=09=09=09=09=09<tbody>
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09<tr>
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09<td class=3D"pb-11" style=3D"p=
+adding:0 0 6px;">
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09<table cellpadding=3D"0" cells=
+pacing=3D"0" class=3D"w-100p maxw-150" width=3D"131">
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09<tbody>
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09<tr>
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09<td height=3D"1" styl=
+e=3D"background:#fffffe; font-size:1px; line-height:1px;">&nbsp;</td>
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09</tr>
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09</tbody>
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09</table>
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09</td>
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09</tr>
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09<tr>
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09<td class=3D"pb-27 wi-100" sty=
+le=3D"padding:0 0 22px; line-height:1px; font-size:1px; mso-line-height-rul=
+e:at-least;"><img alt=3D"aws marketplace" src=3D"http://52.8.82.31/emails/A=
+WS_email-24-logo-04.png" style=3D"font:14px/14px Arial, Helvetica, sans-ser=
+if; color:#fff; vertical-align:top;" width=3D"129" /></td>
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09</tr>
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09<tr>
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09<td class=3D"fs-24 lh-27 pb-10=
+" style=3D"padding:0 0 6px; font:19px/24px Arial, Helvetica, sans-serif; co=
+lor:#fff;">Saager Khasnis</td>
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09</tr>
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09<tr>
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09<td class=3D"fs-16 lh-20 pb-5"=
+ style=3D"font:bold 12px/18px Arial, Helvetica, sans-serif; color:#fff;">Pa=
+rtner Solutions Architect at AWS</td>
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09</tr>
+=09=09=09=09=09=09=09=09=09=09=09=09=09</tbody>
+=09=09=09=09=09=09=09=09=09=09=09=09</table>
+=09=09=09=09=09=09=09=09=09=09=09=09</th>
+=09=09=09=09=09=09=09=09=09=09=09</tr>
+=09=09=09=09=09=09=09=09=09=09</tbody>
+=09=09=09=09=09=09=09=09=09</table>
+=09=09=09=09=09=09=09=09=09</td>
+=09=09=09=09=09=09=09=09</tr>
+=09=09=09=09=09=09=09=09<tr>
+=09=09=09=09=09=09=09=09=09<td class=3D"fs-16 lh-24 pb-40 h-u" style=3D"pad=
+ding:0 0 37px; font:12px/19px Arial, Helvetica, sans-serif; color:#fff; let=
+ter-spacing:-0.2px;">Sagar Khasnis is a Partner Solutions Architect focusin=
+g on AWS Marketplace and Service Catalog. He has vast experience in helping=
+ enterprise customers in various technical roles. He is a technologist who =
+is passionate about building innovative solutions using AWS services to hel=
+p customers achieve their business objectives.</td>
+=09=09=09=09=09=09=09=09</tr>
+=09=09=09=09=09=09=09</tbody>
+=09=09=09=09=09=09</table>
+=09=09=09=09=09=09</td>
+=09=09=09=09=09</tr>
+=09=09=09=09=09<!-- footer -->
+=09=09=09=09=09<tr>
+=09=09=09=09=09=09<td class=3D"pt-42 plr-27 pb-55 l-fc8918" style=3D"backgr=
+ound:#3b4e62; padding:38px 50px 42px;">
+=09=09=09=09=09=09<table cellpadding=3D"0" cellspacing=3D"0" width=3D"100%"=
+>
+=09=09=09=09=09=09=09<tbody>
+=09=09=09=09=09=09=09=09<tr>
+=09=09=09=09=09=09=09=09=09<td class=3D"pb-34" style=3D"padding:0 0 25px;">
+=09=09=09=09=09=09=09=09=09<table align=3D"center" cellpadding=3D"0" cellsp=
+acing=3D"0" class=3D"w-100p" style=3D"margin:0 auto;" width=3D"158">
+=09=09=09=09=09=09=09=09=09=09<tbody>
+=09=09=09=09=09=09=09=09=09=09=09<tr>
+=09=09=09=09=09=09=09=09=09=09=09=09<td align=3D"center" class=3D"active-t =
+btn-1 fs-15 lh-18" style=3D"mso-padding-alt:10px 8px; background:#fc8918; f=
+ont:700 13px/15px Arial, Helvetica, sans-serif;"><a href=3D"https://cra.ome=
+clk.com/portal/wts/uemcnr-gmLegv6%7Cx-qnVjPra" style=3D"color:#fff; text-de=
+coration:none; display:block; padding:10px 8px;">REGISTER NOW</a></td>
+=09=09=09=09=09=09=09=09=09=09=09</tr>
+=09=09=09=09=09=09=09=09=09=09</tbody>
+=09=09=09=09=09=09=09=09=09</table>
+=09=09=09=09=09=09=09=09=09</td>
+=09=09=09=09=09=09=09=09</tr>
+=09=09=09=09=09=09=09=09<tr>
+=09=09=09=09=09=09=09=09=09<td class=3D"fs-16 lh-24" style=3D"font:italic 1=
+0px/17px Arial, Helvetica, sans-serif; color:#a7afb8; letter-spacing:-0.3px=
+;">*The views and opinions of the SANS Institute and their presenter, Dave =
+Shackleford, are their own, and do not necessarily reflect the positions of=
+ AWS or AWS Marketplace.</td>
+=09=09=09=09=09=09=09=09</tr>
+=09=09=09=09=09=09=09</tbody>
+=09=09=09=09=09=09</table>
+=09=09=09=09=09=09</td>
+=09=09=09=09=09</tr>
+=09=09=09=09</tbody>
+=09=09=09</table>
+=09=09=09</td>
+=09=09</tr>
+=09=09<tr>
+=09=09=09<td class=3D"hm" style=3D"line-height:0;">
+=09=09=09<div style=3D"white-space:nowrap; font:15px/0 courier;">&nbsp; &nb=
+sp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &=
+nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;=
+ &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</div=
+>
+=09=09=09</td>
+=09=09</tr>
+=09</tbody>
+</table>
+<!-- unsubscribe - Omeda -->
+
+<table align=3D"center" bgcolor=3D"#ffffff" border=3D"0" cellpadding=3D"0" =
+cellspacing=3D"0" style=3D"background-color: #ffffff;" width=3D"100%">
+=09<tbody>
+=09=09<tr>
+=09=09=09<td align=3D"center" style=3D"padding-bottom:15px;padding-top:15px=
+;" valign=3D"top" width=3D"100%">
+=09=09=09<table align=3D"center" border=3D"0" cellpadding=3D"0" cellspacing=
+=3D"0" style=3D"text-align:center;max-width:600px;font-size:12px;line-heigh=
+t:25px;color:#000000;font-family:Arial;" width=3D"100%">
+=09=09=09=09<tbody>
+=09=09=09=09=09<tr>
+=09=09=09=09=09=09<td align=3D"center"><a href=3D"https://cra.omeclk.com/po=
+rtal/wts/uemcnr-gmLegv6%7Cx7qnVjPra" style=3D"color:#000000; text-decoratio=
+n:none;">Advertise with us</a> &nbsp; | &nbsp; <a href=3D"https://cra.omecl=
+k.com/portal/preferences/?ePgA6FhiESUpnqkXnvvguatop96ogfbgA" style=3D"color=
+:#000000; text-decoration:none;" target=3D"_blank">Manage email preferences=
+</a> &nbsp; | &nbsp; <a href=3D"https://cra.omeclk.com/portal/unsubscribeco=
+nfirm/?ePgA6FhiESUpnqkXnvvguatop96ogfbgA" style=3D"color:#000000; text-deco=
+ration:none;" target=3D"_blank">Unsubscribe</a></td>
+=09=09=09=09=09</tr>
+=09=09=09=09=09<tr>
+=09=09=09=09=09=09<td align=3D"center">View <a href=3D"https://cra.omeclk.c=
+om/portal/wts/ugmcnr-gmLegv6%7Cx76nVjPra7D5kqEBv1qxla" style=3D"color:#0000=
+00; text-decoration:none;" target=3D"_blank">Privacy Policy</a> and <a href=
+=3D"https://cra.omeclk.com/portal/wts/ugmcnr-gmLegv6%7Cx7LnVjPra7D5kqEBv1qx=
+la" style=3D"color:#000000; text-decoration:none;" target=3D"_blank">Terms =
+of Service</a></td>
+=09=09=09=09=09</tr>
+=09=09=09=09=09<tr>
+=09=09=09=09=09=09<td align=3D"center">You are subscribed as: james@ip-sent=
+inel.com</td>
+=09=09=09=09=09</tr>
+=09=09=09=09=09<tr>
+=09=09=09=09=09=09<td align=3D"center">&copy; 2020 CyberRisk Alliance | 400=
+ Madison Avenue, Suite 6C New York, NY 10017</td>
+=09=09=09=09=09</tr>
+=09=09=09=09</tbody>
+=09=09=09</table>
+=09=09=09</td>
+=09=09</tr>
+=09</tbody>
+</table>
+<!-- end unsub--><img height=3D"1" width=3D"1" border=3D"0" src=3D"https://=
+cra.omeclk.com/portal/wts/ucmcnr-gmLed483ee.gif"/></body>
+</html>
+--_c110a149-83a4-42f7-b204-e818104c66e6_--
+
+--_4e08c6fa-a72e-4fbd-b0af-dff590ee0aa7_--

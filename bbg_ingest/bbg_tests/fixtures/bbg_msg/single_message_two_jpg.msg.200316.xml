@@ -1,0 +1,826 @@
+<Message>
+<MsgID>5E6FB93C0120077E01D80231</MsgID>
+<MsgTime>2020-03-16-13.37.00.000000</MsgTime>
+<MsgTimeUTC>1584380220</MsgTimeUTC>
+<MsgLang>CODE 65001</MsgLang>
+<Sender>
+<UserInfo>
+<FirstName>CAMRON</FirstName>
+<LastName>JOSEPH</LastName>
+<AccountName>GOLDMAN SACHS INTERN</AccountName>
+<BloombergEmailAddress>CJOSEPH29@Bloomberg.net</BloombergEmailAddress>
+<CorporateEmailAddress></CorporateEmailAddress>
+</UserInfo>
+</Sender>
+<Recipient DeliveryType = "BCC">
+<UserInfo>
+<FirstName>SEAN</FirstName>
+<LastName>OLDFIELD</LastName>
+<FirmNumber>848135</FirmNumber>
+<AccountName>MIRABELLA FINANCIAL</AccountName>
+<AccountNumber>30413594</AccountNumber>
+<BloombergUUID>25813826</BloombergUUID>
+<BloombergEmailAddress>SEANSYSTEM2@Bloomberg.net</BloombergEmailAddress>
+<CorporateEmailAddress>sean@system2capital.com</CorporateEmailAddress>
+</UserInfo>
+</Recipient>
+<Recipient DeliveryType = "BCC">
+<UserInfo>
+<FirstName>DAN</FirstName>
+<LastName>BREWER</LastName>
+<FirmNumber>848135</FirmNumber>
+<AccountName>MIRABELLA FINANCIAL</AccountName>
+<AccountNumber>30413594</AccountNumber>
+<BloombergUUID>26589322</BloombergUUID>
+<BloombergEmailAddress>DBREWERS2C@Bloomberg.net</BloombergEmailAddress>
+<CorporateEmailAddress>dan.brewer@system2capital.com</CorporateEmailAddress>
+</UserInfo>
+</Recipient>
+<Subject>
+GS Converts EOD 16/03/20
+</Subject>
+<Attachment>
+<FileName>image001.jpg</FileName>
+<FileID>5E6FC08A0000F71907F527E6.jpg</FileID>
+<FileSize>4068</FileSize>
+</Attachment>
+<Attachment>
+<FileName>image002.jpg</FileName>
+<FileID>5E6FC0A30000354A07FB4359.jpg</FileID>
+<FileSize>729</FileSize>
+</Attachment>
+<MsgBody>
+.bbScopedStyle5932547029646744
+
+
+
+
+
+p.MsoNormal, li.MsoNormal, div.MsoNormal
+	{margin: 0cm;margin-bottom: .0001pt;font-size: 11.0pt;font-family: &quot;Calibri&quot;,&quot;sans-serif&quot;; }
+.bbScopedStyle5932547029646744
+h3
+	{margin-right: 0cm;margin-left: 0cm;font-size: 13.5pt;font-family: &quot;Times New Roman&quot;,&quot;serif&quot;;font-weight: bold; }
+.bbScopedStyle5932547029646744
+a:link, span.MsoHyperlink
+	{color: blue;text-decoration: underline; }
+.bbScopedStyle5932547029646744
+a:visited, span.MsoHyperlinkFollowed
+	{color: purple;text-decoration: underline; }
+.bbScopedStyle5932547029646744
+p
+	{margin-right: 0cm;margin-left: 0cm;font-size: 12.0pt;font-family: &quot;Times New Roman&quot;,&quot;serif&quot;; }
+.bbScopedStyle5932547029646744
+p.MsoAcetate, li.MsoAcetate, div.MsoAcetate
+	{margin: 0cm;margin-bottom: .0001pt;font-size: 8.0pt;font-family: &quot;Tahoma&quot;,&quot;sans-serif&quot;; }
+.bbScopedStyle5932547029646744
+p.MsoListParagraph, li.MsoListParagraph, div.MsoListParagraph
+	{margin-top: 0cm;margin-right: 0cm;margin-bottom: 0cm;margin-left: 36.0pt;margin-bottom: .0001pt;font-size: 11.0pt;font-family: &quot;Calibri&quot;,&quot;sans-serif&quot;; }
+.bbScopedStyle5932547029646744
+span.Heading3Char
+	{font-weight: bold; }
+.bbScopedStyle5932547029646744
+span.BalloonTextChar
+	{font-family: &quot;Tahoma&quot;,&quot;sans-serif&quot;; }
+.bbScopedStyle5932547029646744
+p.wordsection1, li.wordsection1, div.wordsection1
+	{margin-right: 0cm;margin-left: 0cm;font-size: 12.0pt;font-family: &quot;Times New Roman&quot;,&quot;serif&quot;; }
+.bbScopedStyle5932547029646744
+span.EmailStyle23
+	{font-family: &quot;Calibri&quot;,&quot;sans-serif&quot;;color: windowtext; }
+.bbScopedStyle5932547029646744
+span.EmailStyle24
+	{font-family: &quot;Calibri&quot;,&quot;sans-serif&quot;;color: #1F497D; }
+.bbScopedStyle5932547029646744
+span.EmailStyle25
+	{font-family: &quot;Calibri&quot;,&quot;sans-serif&quot;;color: #1F497D; }
+.bbScopedStyle5932547029646744
+span.EmailStyle26
+	{font-family: &quot;Calibri&quot;,&quot;sans-serif&quot;;color: #1F497D; }
+.bbScopedStyle5932547029646744
+span.EmailStyle27
+	{font-family: &quot;Calibri&quot;,&quot;sans-serif&quot;;color: #1F497D; }
+.bbScopedStyle5932547029646744
+span.EmailStyle28
+	{font-family: &quot;Calibri&quot;,&quot;sans-serif&quot;;color: #1F497D; }
+.bbScopedStyle5932547029646744
+span.EmailStyle29
+	{font-family: &quot;Calibri&quot;,&quot;sans-serif&quot;;color: #1F497D; }
+.bbScopedStyle5932547029646744
+span.EmailStyle30
+	{font-family: &quot;Calibri&quot;,&quot;sans-serif&quot;;color: #1F497D; }
+.bbScopedStyle5932547029646744
+span.EmailStyle31
+	{font-family: &quot;Calibri&quot;,&quot;sans-serif&quot;;color: #1F497D; }
+.bbScopedStyle5932547029646744
+span.EmailStyle32
+	{font-family: &quot;Calibri&quot;,&quot;sans-serif&quot;;color: #1F497D; }
+.bbScopedStyle5932547029646744
+span.EmailStyle33
+	{font-family: &quot;Calibri&quot;,&quot;sans-serif&quot;;color: #1F497D; }
+.bbScopedStyle5932547029646744
+span.EmailStyle34
+	{font-family: &quot;Calibri&quot;,&quot;sans-serif&quot;;color: #1F497D; }
+.bbScopedStyle5932547029646744
+span.EmailStyle35
+	{font-family: &quot;Calibri&quot;,&quot;sans-serif&quot;;color: #1F497D; }
+.bbScopedStyle5932547029646744
+span.EmailStyle36
+	{font-family: &quot;Calibri&quot;,&quot;sans-serif&quot;;color: #1F497D; }
+.bbScopedStyle5932547029646744
+span.EmailStyle37
+	{font-family: &quot;Calibri&quot;,&quot;sans-serif&quot;;color: #1F497D; }
+.bbScopedStyle5932547029646744
+span.EmailStyle38
+	{font-family: &quot;Calibri&quot;,&quot;sans-serif&quot;;color: #1F497D; }
+.bbScopedStyle5932547029646744
+span.EmailStyle39
+	{font-family: &quot;Calibri&quot;,&quot;sans-serif&quot;;color: #1F497D; }
+.bbScopedStyle5932547029646744
+span.EmailStyle40
+	{font-family: &quot;Calibri&quot;,&quot;sans-serif&quot;;color: #1F497D; }
+.bbScopedStyle5932547029646744
+span.EmailStyle41
+	{font-family: &quot;Calibri&quot;,&quot;sans-serif&quot;;color: #1F497D; }
+.bbScopedStyle5932547029646744
+span.EmailStyle42
+	{font-family: &quot;Calibri&quot;,&quot;sans-serif&quot;;color: #1F497D; }
+.bbScopedStyle5932547029646744
+span.EmailStyle43
+	{font-family: &quot;Calibri&quot;,&quot;sans-serif&quot;;color: #1F497D; }
+.bbScopedStyle5932547029646744
+span.EmailStyle44
+	{font-family: &quot;Calibri&quot;,&quot;sans-serif&quot;;color: #1F497D; }
+.bbScopedStyle5932547029646744
+span.EmailStyle45
+	{font-family: &quot;Calibri&quot;,&quot;sans-serif&quot;;color: #1F497D; }
+.bbScopedStyle5932547029646744
+span.EmailStyle46
+	{font-family: &quot;Calibri&quot;,&quot;sans-serif&quot;;color: #1F497D; }
+.bbScopedStyle5932547029646744
+span.EmailStyle47
+	{font-family: &quot;Calibri&quot;,&quot;sans-serif&quot;;color: #1F497D; }
+.bbScopedStyle5932547029646744
+span.EmailStyle48
+	{font-family: &quot;Calibri&quot;,&quot;sans-serif&quot;;color: #1F497D; }
+.bbScopedStyle5932547029646744
+span.EmailStyle49
+	{font-family: &quot;Calibri&quot;,&quot;sans-serif&quot;;color: #1F497D; }
+.bbScopedStyle5932547029646744
+span.EmailStyle50
+	{font-family: &quot;Calibri&quot;,&quot;sans-serif&quot;;color: #1F497D; }
+.bbScopedStyle5932547029646744
+span.EmailStyle51
+	{font-family: &quot;Calibri&quot;,&quot;sans-serif&quot;;color: #1F497D; }
+.bbScopedStyle5932547029646744
+span.EmailStyle52
+	{font-family: &quot;Calibri&quot;,&quot;sans-serif&quot;;color: #1F497D; }
+.bbScopedStyle5932547029646744
+span.EmailStyle53
+	{font-family: &quot;Calibri&quot;,&quot;sans-serif&quot;;color: #1F497D; }
+.bbScopedStyle5932547029646744
+span.EmailStyle54
+	{font-family: &quot;Calibri&quot;,&quot;sans-serif&quot;;color: #1F497D; }
+.bbScopedStyle5932547029646744
+span.EmailStyle55
+	{font-family: &quot;Calibri&quot;,&quot;sans-serif&quot;;color: #1F497D; }
+.bbScopedStyle5932547029646744
+span.EmailStyle56
+	{font-family: &quot;Calibri&quot;,&quot;sans-serif&quot;;color: #1F497D; }
+.bbScopedStyle5932547029646744
+span.EmailStyle57
+	{font-family: &quot;Calibri&quot;,&quot;sans-serif&quot;;color: #1F497D; }
+.bbScopedStyle5932547029646744
+span.EmailStyle58
+	{font-family: &quot;Calibri&quot;,&quot;sans-serif&quot;;color: #1F497D; }
+.bbScopedStyle5932547029646744
+span.EmailStyle59
+	{font-family: &quot;Calibri&quot;,&quot;sans-serif&quot;;color: #1F497D; }
+.bbScopedStyle5932547029646744
+span.EmailStyle60
+	{font-family: &quot;Calibri&quot;,&quot;sans-serif&quot;;color: #1F497D; }
+.bbScopedStyle5932547029646744
+span.EmailStyle61
+	{font-family: &quot;Calibri&quot;,&quot;sans-serif&quot;;color: #1F497D; }
+.bbScopedStyle5932547029646744
+span.EmailStyle62
+	{font-family: &quot;Calibri&quot;,&quot;sans-serif&quot;;color: #1F497D; }
+.bbScopedStyle5932547029646744
+span.EmailStyle63
+	{font-family: &quot;Calibri&quot;,&quot;sans-serif&quot;;color: #1F497D; }
+.bbScopedStyle5932547029646744
+span.EmailStyle64
+	{font-family: &quot;Calibri&quot;,&quot;sans-serif&quot;;color: #1F497D; }
+.bbScopedStyle5932547029646744
+span.EmailStyle65
+	{font-family: &quot;Calibri&quot;,&quot;sans-serif&quot;;color: #1F497D; }
+.bbScopedStyle5932547029646744
+span.EmailStyle66
+	{font-family: &quot;Calibri&quot;,&quot;sans-serif&quot;;color: #1F497D; }
+.bbScopedStyle5932547029646744
+span.EmailStyle67
+	{font-family: &quot;Calibri&quot;,&quot;sans-serif&quot;;color: #1F497D; }
+.bbScopedStyle5932547029646744
+span.EmailStyle68
+	{font-family: &quot;Calibri&quot;,&quot;sans-serif&quot;;color: #1F497D; }
+.bbScopedStyle5932547029646744
+span.EmailStyle69
+	{font-family: &quot;Calibri&quot;,&quot;sans-serif&quot;;color: #1F497D; }
+.bbScopedStyle5932547029646744
+span.EmailStyle70
+	{font-family: &quot;Calibri&quot;,&quot;sans-serif&quot;;color: #1F497D; }
+.bbScopedStyle5932547029646744
+span.EmailStyle71
+	{font-family: &quot;Calibri&quot;,&quot;sans-serif&quot;;color: #1F497D; }
+.bbScopedStyle5932547029646744
+.MsoChpDefault
+	{font-size: 10.0pt; }
+.bbScopedStyle5932547029646744
+@page WordSection1
+	{margin: 72.0pt 72.0pt 72.0pt 72.0pt; }
+.bbScopedStyle5932547029646744
+div.WordSection1
+	{; }
+
+
+
+
+
+
+
+SECURITIES DIVISION
+
+  Derivative
+ Sales
+
+
+
+
+
+
+
+
+Prepared by a Goldman Sachs sales and trading desk, which may have a position in the products mentioned that is inconsistent with the
+ views expressed in this material. In evaluating this material, you should know that it could have been previously provided to other clients and/or internal Goldman Sachs personnel, who could have already acted on it. This material is not independent advice
+ and is not a product of Global Investment Research.
+
+
+Convertible Daily Recap
+
+March 16th, 2020
+
+
+
+
+
+
+
+
+Names Traded Today
+
+
+
+
+
+
+
+LVMH 0% 21
+
+
+
+
+
+Adidas 0.05% 23
+
+
+
+
+
+Snam 0% 22
+
+
+
+
+
+
+ENI 0% 22
+
+
+
+
+
+Airbus/Dassault 0% 21
+
+
+
+
+
+Cellnex 0.5% 28
+
+
+
+
+
+
+Artemis/Kering 0% 23
+
+
+
+
+
+Yandex 0.75% 25
+
+
+
+
+
+BP 1% 23
+
+
+
+
+
+Symrise 0.2375% 24
+
+
+
+
+
+STM 0% 22
+
+
+
+
+
+
+Atos/Worldline 0% 24
+
+
+
+
+
+Kering/Puma 0% 22
+
+
+
+
+
+
+
+
+Total Volume
+Traded ~ 50mm USD
+
+
+
+Top Outright Moves (bond points)
+
+
+
+
+
+
+
+
+STM 0% 22
+
+
+1.87
+
+
+
+
+
+Besi 2.5% 23
+
+
+1.81
+
+
+
+
+
+Ocado 0.875% 25
+
+
+1.50
+
+
+
+
+
+STM 0.25% 24
+
+
+1.27
+
+
+
+
+
+Takeaway.com 2.25% 24
+
+
+0.68
+
+
+
+
+
+Norwegian Air 6.375% 24
+
+
+0.61
+
+
+
+
+
+Ubisoft 0% 24
+
+
+0.51
+
+
+
+
+
+Pharming 3% 25
+
+
+0.47
+
+
+
+
+
+Besi 0.5% 24
+
+
+0.44
+
+
+
+
+
+Qiagen 0.5% 23
+
+
+0.43
+
+
+
+
+
+
+
+
+
+
+
+
+MTU 0.125% 23
+
+
+-11.89
+
+
+
+
+
+Encavis 5.25% perp 23
+
+
+-10.32
+
+
+
+
+
+CA Immo 0.75% 25
+
+
+-9.09
+
+
+
+
+
+Immofinanz 1.5% 24
+
+
+-9.07
+
+
+
+
+
+Atos/Worldline 0% 24
+
+
+-8.50
+
+
+
+
+
+Tag Immo 0.625% 22
+
+
+-6.48
+
+
+
+
+
+Intu 2.875% 22
+
+
+-6.00
+
+
+
+
+
+LVMH 0% 21
+
+
+-5.54
+
+
+
+
+
+Cofinimmo 0.1875% 21
+
+
+-5.36
+
+
+
+
+
+Sika 3.75% 22 Mando
+
+
+-5.24
+
+
+
+
+
+
+
+
+Top Delta Adjusted (bond points)
+
+
+
+
+
+
+STM 0% 22
+
+
+1.33
+
+
+
+
+
+Symrise 0.2375% 24
+
+
+1.16
+
+
+
+
+
+Artemis/Kering 0% 23
+
+
+0.81
+
+
+
+
+
+STM 0.25% 24
+
+
+0.62
+
+
+
+
+
+BP 1% 23
+
+
+0.26
+
+
+
+
+
+Delivery Hero 1% 27
+
+
+0.15
+
+
+
+
+
+Brenntag 1.875% 22
+
+
+0.10
+
+
+
+
+
+Sika 0.15% 25
+
+
+0.10
+
+
+
+
+
+Sirius 5% 27 Non-Escrow
+
+
+0.03
+
+
+
+
+
+MTU 0.05% 27
+
+
+0.03
+
+
+
+
+
+
+
+
+
+
+
+Intu 2.875% 22
+
+
+-6.00
+
+
+
+
+
+Ence 1.25% 23
+
+
+-5.00
+
+
+
+
+
+Encavis 5.25% perp 23
+
+
+-3.62
+
+
+
+
+
+Elis 0% 23
+
+
+-2.78
+
+
+
+
+
+Air France 0.125% 26
+
+
+-2.52
+
+
+
+
+
+Adidas 0.05% 23
+
+
+-2.35
+
+
+
+
+
+Borr Drilling 3.875% 23
+
+
+-2.00
+
+
+
+
+
+Glencore 0% 25
+
+
+-1.92
+
+
+
+
+
+DWNI 0.6% 26
+
+
+-1.89
+
+
+
+
+
+Atos/Worldline 0% 24
+
+
+-1.83
+
+
+
+
+
+
+
+
+Camron Joseph | Goldman
+Sachs
+
+______________________________________________________
+
+ Plumtree Court | 25 Shoe Lane | London EC4A 4AU
+
+&apos;
++44 207-552-1034
+
+
+›
+camron.joseph@gs.com
+© Copyright 2019 Goldman Sachs. All rights reserved. See www.gs.com/disclaimer/emailsalesandtrading.html for risk disclosure, order
+ handling practices, conflicts of interest and other terms and conditions relating to this e-mail and your reliance on it, and www.gs.com/disclaimer/ipo/ for recent prospectuses for initial public offerings to which this message may relate. See www.gs.com/swapsrelated-disclosures
+ for important disclosures relating to CFTC-regulated swap transactions, and www.gs.com/FX-disclosures for spot foreign exchange terms of dealing. This e-mail may contain confidential or privileged information. If you are not the intended recipient, please
+ advise us immediately and delete it. See www.gs.com/disclaimer/email/ on confidentiality and the risks of electronic communication. If you cannot access these links, please notify us by reply message and we will send the contents to you. This material is a
+ solicitation of derivatives business generally, only for the purposes of, and to the extent it would otherwise be subject to, CFTC Regulations 1.71 and 23.605. Goldman Sachs International (“GSI”) is authorized by the Prudential Regulation Authority and regulated
+ by the Financial Conduct Authority and Prudential Regulation Authority.
+
+
+
+
+
+
+
+
+© Copyright 2020 Goldman Sachs. All rights reserved. See www.gs.com/disclaimer/email-salesandtrading.html for risk disclosure, order handling practices, conflicts of interest and other terms and conditions relating to this e-mail and your reliance on it, and
+ www.gs.com/disclaimer/ipo/ for recent prospectuses for initial public offerings to which this message may relate. See www.gs.com/swaps-related-disclosures for important disclosures relating to CFTC-regulated swap transactions, and http://www.goldmansachs.com/terms-of-dealing
+ for general terms of dealing. For information on the nature and risks of investments for MiFID Professional Clients, see http://www.goldmansachs.com/disclosures/mifid/info-on-nature-risks-of-investments.pdf. See http://www.goldmansachs.com/disclosures/mifid/
+ for important disclosures and GS policies in relation to MiFID II and MiFIR. This e-mail may contain confidential or privileged information. If you are not the intended recipient, please advise us immediately and delete it. See www.gs.com/disclaimer/email/
+ on confidentiality and the risks of electronic communication. If you cannot access these links, please notify us by reply message and we will send the contents to you. This material is a solicitation of derivatives business generally, only for the purposes
+ of, and to the extent it would otherwise be subject to, CFTC Regulations 1.71 and 23.605. Goldman Sachs International (“GSI”) is authorised by the Prudential Regulation Authority and regulated by the Financial Conduct Authority and Prudential Regulation Authority.
+
+
+
+
+
+
+Your Personal Data: We may collect and process information about you that may be subject to data protection laws. For more information about how we use and disclose your personal data, how we protect your information, our legal basis to use your information,
+ your rights and who you can contact, please refer to:
+www.gs.com/privacy-notices
+
+
+
+
+
+
+
+ .rte-style-msg-personal-disclaimer      a[data-destination] { color: #67d8e5 !important; }© Copyright 2015 Goldman Sachs. All rights reserved. See www.gs.com/disclaimer/email-salesandtrading.html for risk disclosure, order handling practices, conflicts of interest and other terms and conditions relating to this e-mail and your reliance on it, and www.gs.com/disclaimer/ipo/ for recent prospectuses for initial public offerings to which this message may relate. See www.gs.com/swaps-related-disclosures for important disclosures relating to CFTC-regulated swap transactions. This e-mail may contain confidential or privileged information. If you are not the intended recipient, please advise us immediately and delete it. See www.gs.com/disclaimer/email/ on confidentiality and the risks of electronic communication. If you cannot access these links, please notify us by reply message and we will send the contents to you. This material is a solicitation of derivatives business generally, only for the purposes of, and to the extent it would otherwise be subject to, CFTC Regulations 1.71 and 23.605. Goldman Sachs International (“GSI”) is authorised by the Prudential Regulation Authority and regulated by the Financial Conduct Authority and Prudential Regulation Authority.
+
+
+
+</MsgBody>
+<DisclaimerReference>132418</DisclaimerReference>
+</Message>

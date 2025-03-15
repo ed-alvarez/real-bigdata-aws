@@ -1,0 +1,169 @@
+{
+  "Records": [
+            {
+                "eventSource": "aws:ses",
+                "eventVersion": "1.0",
+                "ses": {
+                    "mail": {
+                        "timestamp": "2020-02-21T23:24:05.751Z",
+                        "source": "JournalError@ip-sentinel.com",
+                        "messageId": "0b4l6ro2bovvkt9f8isb3rlobiuv256fcvakauo1",
+                        "destination": [
+                            "james@hogbin.com"
+                        ],
+                        "headersTruncated": false,
+                        "headers": [
+                            {
+                                "name": "Return-Path",
+                                "value": "<JournalError@ip-sentinel.com>"
+                            },
+                            {
+                                "name": "Received",
+                                "value": "from EUR05-AM6-obe.outbound.protection.outlook.com (mail-am6eur05lp2105.outbound.protection.outlook.com [104.47.18.105]) by inbound-smtp.eu-west-1.amazonaws.com with SMTP id 0b4l6ro2bovvkt9f8isb3rlobiuv256fcvakauo1 for ips@ip-sentinel.net; Fri, 21 Feb 2020 23:24:05 +0000 (UTC)"
+                            },
+                            {
+                                "name": "Received-SPF",
+                                "value": "permerror (spfCheck: Error in processing SPF Record) client-ip=104.47.18.105; envelope-from=JournalError@ip-sentinel.com; helo=mail-am6eur05lp2105.outbound.protection.outlook.com;"
+                            },
+                            {
+                                "name": "Authentication-Results",
+                                "value": "amazonses.com; spf=permerror (spfCheck: Error in processing SPF Record) client-ip=104.47.18.105; envelope-from=JournalError@ip-sentinel.com; helo=mail-am6eur05lp2105.outbound.protection.outlook.com; dmarc=temperror header.from=ip-sentinel.com;"
+                            },
+                            {
+                                "name": "X-SES-RECEIPT",
+                                "value": "AEFBQUFBQUFBQUFHV0tnQjQzL1ROYVJJcTNxVDljK3FUSkRIQUtaaGxjUnBMSm1lbFZxRDlkeUhYbjRpRWpZOTRSMnZMcjhFS0Y0cjloTkJKY0c0OWlEQUp1ZU1JR2hScUdIc2dzSm11OFBDaTRvS1hiN2RiaWh3SjJhUnJOczBoL1F3K3BaQk5tS0pVOU5JbEUvU3luSTdacmo0T09OU1dydTc1d3poR21Vc0lWM3VFSzlXc3F2Z0hsUXlnMFplUlpUcXVZVjZnWEpzZWU5N3FNZ3lmeGdIclVpb3BIUnRpUlZYRWpUV09qTnM1SlFFeDkrV0sxaUFxNCtzZ0JtWTE4U3Jja3lsbExpMGZvT2Z4MjVJMjJqMFpmUkJtZXd6T0theWJoTyttT1BBaXQyRTM3bmk3YktuQzhlTEJLLzd6bVhLeHFEMkJnZys3RHB4U3FiNmE1VC90eEdMWmpDRFFUTUhVNG10L1phS1gzcnlUZUNpbGx3PT0="
+                            },
+                            {
+                                "name": "X-SES-DKIM-SIGNATURE",
+                                "value": "a=rsa-sha256; q=dns/txt; b=EPcF7qze+BN2lJKuHOI4o61OOU4kpI8Y2I0hwGhg+rVrBqzAhdu+PDcmZH3juNiFrMqQS41of6od+aJ4HkIi4emHy9rp7Id4LuRhBhAdRWYStHo9pT5fp83wbo3Ib2u/GVCizVBGbJ3CC7wfiuCM1NRdawbKiSs6CcwzMqCB6TY=; c=relaxed/simple; s=ihchhvubuqgjsxyuhssfvqohv7z3u4hn; d=amazonses.com; t=1582327445; v=1; bh=HBhI120PU3WRgqczExi5IhNMWKesvfH6arXOyT3nskw=; h=From:To:Cc:Bcc:Subject:Date:Message-ID:MIME-Version:Content-Type:X-SES-RECEIPT;"
+                            },
+                            {
+                                "name": "Content-Type",
+                                "value": "multipart/mixed; boundary=\"_0b5d7391-2c83-4d9b-b7e9-5ebc927cc5c6_\""
+                            },
+                            {
+                                "name": "Subject",
+                                "value": "test"
+                            },
+                            {
+                                "name": "To",
+                                "value": "James Hogbin <james@hogbin.com>"
+                            },
+                            {
+                                "name": "From",
+                                "value": "James Hogbin <james@ip-sentinel.com>"
+                            },
+                            {
+                                "name": "Sender",
+                                "value": "<MicrosoftExchange329e71ec88ae4615bbc36ab6ce41109e@IPSentinelLtd.onmicrosoft.com>"
+                            },
+                            {
+                                "name": "Message-ID",
+                                "value": "<9cf3d564-c305-4676-a6f3-aa0ce854af6a@journal.report.generator>"
+                            },
+                            {
+                                "name": "Date",
+                                "value": "Fri, 21 Feb 2020 23:24:04 +0000"
+                            },
+                            {
+                                "name": "X-MS-PublicTrafficType",
+                                "value": "Email"
+                            },
+                            {
+                                "name": "X-MS-Journal-Report",
+                                "value": ""
+                            },
+                            {
+                                "name": "X-MS-Exchange-Parent-Message-Id",
+                                "value": "<4F13B6DC-73E2-405E-9B9B-FC0FDE4075CE@ip-sentinel.com>"
+                            },
+                            {
+                                "name": "Auto-Submitted",
+                                "value": "auto-generated"
+                            },
+                            {
+                                "name": "X-MS-Exchange-Generated-Message-Source",
+                                "value": "Journal Agent"
+                            },
+                            {
+                                "name": "X-MS-TrafficTypeDiagnostic",
+                                "value": "VI1PR10MB3214:JournalingReport"
+                            },
+                            {
+                                "name": "X-LD-Processed",
+                                "value": "a38e65be-fb2c-4ab0-9084-199607af9f21,ExtAddr"
+                            },
+                            {
+                                "name": "X-MS-Exchange-Transport-Forked",
+                                "value": "True"
+                            },
+                            {
+                                "name": "Keywords",
+                                "value": ""
+                            },
+                            {
+                                "name": "MIME-Version",
+                                "value": "1.0"
+                            },
+                            {
+                                "name": "X-OriginatorOrg",
+                                "value": "IPSentinelLtd.onmicrosoft.com"
+                            },
+                            {
+                                "name": "X-MS-Exchange-CrossTenant-Network-Message-Id",
+                                "value": "3b7e14ab-fba6-4819-b5a9-08d7b7252461"
+                            },
+                            {
+                                "name": "X-MS-Exchange-CrossTenant-FromEntityHeader",
+                                "value": "Hosted"
+                            },
+                            {
+                                "name": "X-MS-Exchange-Transport-CrossTenantHeadersStamped",
+                                "value": "VI1PR10MB3214"
+                            }
+                        ],
+                        "commonHeaders": {
+                            "returnPath": "JournalError@ip-sentinel.com",
+                            "from": [
+                                "James Hogbin <james@ip-sentinel.com>"
+                            ],
+                            "sender": "MicrosoftExchange329e71ec88ae4615bbc36ab6ce41109e@IPSentinelLtd.onmicrosoft.com",
+                            "date": "Fri, 21 Feb 2020 23:24:04 +0000",
+                            "to": [
+                                "James Hogbin <james@hogbin.com>"
+                            ],
+                            "messageId": "<9cf3d564-c305-4676-a6f3-aa0ce854af6a@journal.report.generator>",
+                            "subject": "test"
+                        }
+                    },
+                    "receipt": {
+                        "timestamp": "2020-02-21T23:24:05.751Z",
+                        "processingTimeMillis": 526,
+                        "recipients": [
+                            "ips@ip-sentinel.net"
+                        ],
+                        "spamVerdict": {
+                            "status": "DISABLED"
+                        },
+                        "virusVerdict": {
+                            "status": "DISABLED"
+                        },
+                        "spfVerdict": {
+                            "status": "PROCESSING_FAILED"
+                        },
+                        "dkimVerdict": {
+                            "status": "GRAY"
+                        },
+                        "dmarcVerdict": {
+                            "status": "PROCESSING_FAILED"
+                        },
+                        "action": {
+                            "type": "Lambda",
+                            "functionArn": "arn:aws:lambda:eu-west-1:955323147179:function:dev-email-ingest",
+                            "invocationType": "Event"
+                        }
+                    }
+                }
+            }
+        ]
+}

@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<verbacdr state="1">	<!-- Finished Call State -->
+	<id>8817b722-2cef-4856-98d0-58891d78b520</id>
+	<native_id>63205a00-eb25-45fd-aac9-ebc72f0fbf17</native_id>
+	<native_call_id>63205a00-eb25-45fd-aac9-ebc72f0fbf17</native_call_id>
+	<location>SYSTMSREC1-NL2.mid.dom</location>
+	<mediator>SYSTMSREC1-NL2.mid.dom</mediator>
+	<source_ip>127.0.0.1</source_ip>
+	<source_caller_id>jsv@saxobank.com</source_caller_id>
+	<source_name>Jaspreet Singh Virk (JSV)</source_name>
+	<destination_caller_id>Conference</destination_caller_id>
+	<start_time>2022.01.13 13:21:15.437</start_time>
+	<record_creation_time>2022.01.13 13:21:15.437</record_creation_time>
+	<end_time>2022.01.13 13:22:21.881</end_time>
+	<audio_codec_id>4</audio_codec_id>	<!-- G.711U 64 kbps -->
+	<video_codec_id>299</video_codec_id>	<!-- Undefined -->
+	<direction_id>14</direction_id>	<!-- Conference -->
+	<cause_id>0</cause_id>	<!-- Normal -->
+	<rec_provider>21</rec_provider>	<!-- Microsoft Teams -->
+	<signaling_id>9</signaling_id>	<!-- Microsoft Graph -->
+	<recorder_service_id>23</recorder_service_id>	<!-- Unified Recorder -->
+	<modality_id>voice</modality_id>
+	<recorded_party>0</recorded_party>	<!-- Source caller -->
+	<record_failed>false</record_failed>
+	<ondemand>false</ondemand>
+	<rtp_count_valid>false</rtp_count_valid>
+	<conference>true</conference>
+	<keep>false</keep>
+	<controlled>false</controlled>
+	<voice_mail>false</voice_mail>
+	<skip_acl_check>false</skip_acl_check>
+	<secondary>0</secondary>	<!-- Primary -->
+	<agent_id>7558c922-1909-4003-80fd-7be05f73cc0e</agent_id>
+	<platform_id>msteams</platform_id>
+	<platform_call_id>c2f4c810-ecfd-44c0-89c3-06bdb69d2fbc</platform_call_id>
+	<media_length>66</media_length>
+	<files>
+		<file expected_url="2022\01\13\8817b722-2cef-4856-98d0-58891d78b520_(20220113132115437).wav" size="107505" original="1">2022\01\13\8817b722-2cef-4856-98d0-58891d78b520_(20220113132115437).wav</file>
+	</files>
+	<participants>
+		<participant>
+			<callerid>Vaibhav Sharma</callerid>
+			<name>Vaibhav Sharma</name>
+			<role>Conferee</role>
+			<start_time>2022.01.13 13:21:15.437</start_time>
+			<end_time>2022.01.13 13:22:21.881</end_time>
+			<modality>Audio, Data</modality>
+			<end_cause>0</end_cause>
+		</participant>
+		<participant>
+			<callerid>JSV</callerid>
+			<name>Jaspreet Singh Virk (JSV)</name>
+			<role>Conferee</role>
+			<start_time>2022.01.13 13:21:15.437</start_time>
+			<end_time>2022.01.13 13:22:21.881</end_time>
+			<modality>Audio, Data</modality>
+			<end_cause>0</end_cause>
+		</participant>
+	</participants>
+	<media>
+		<mediasegment id="0" start_time="2022.01.13 13:21:15.437" end_time="2022.01.13 13:22:21.881">
+			<mediadescriptor>
+				<destination ip="127.0.0.1" port="16384" protocol="udp" bitrate="128000" tipsupported="false" />
+				<content type="main"/>
+				<codecs>
+					<codec name="PCMA" pt="8" clk="16000" />
+					<codec name="PCMU" pt="0" clk="8000" />
+					<codec name="GSM" pt="3" clk="8000" />
+					<codec name="G723" pt="4" clk="8000" />
+					<codec name="G722" pt="9" clk="8000" />
+					<codec name="G729" pt="18" clk="8000" />
+				</codecs>
+				<statistics>
+					<start_time>2022.01.13 13:21:15.589</start_time>
+					<rtp total="3306" lost="0" duplicated="0" outoforder="0" outofbuffer="0" streamchange="0"/>
+					<decoding ok="6612" error="0" skipped="0" outofbuffer="0" resync="1"/>
+					<mixing normalwrite="0" solowrite="6612" silencewrite="0" latemedia="0" resync="0" silence_suppressed="0"/>
+				</statistics>
+			</mediadescriptor>
+		</mediasegment>
+	</media>
+</verbacdr>

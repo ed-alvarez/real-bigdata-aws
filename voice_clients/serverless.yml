@@ -1,0 +1,233 @@
+
+service: valeur-voice
+org: hogbinj
+app: clients
+configValidationMode: error
+variablesResolutionMode: 20210326
+
+
+frameworkVersion: '2'
+
+provider:
+  lambdaHashingVersion: 20201221
+  name: aws
+  runtime: python3.8
+  stage: ${opt:stage,"dev"}
+  deploymentBucket:
+    name: ${self:provider.stage}-deployment-serverless-ips
+  deploymentPrefix: ${self:provider.stage}-${self:service}
+  iam:
+    role:
+      name: ${self:provider.stage}-${self:service}-role
+      statements:
+        - Effect: "Allow"
+          Action:
+            - "states:StartExecution"
+            - "states:DescribeExecution"
+          Resource:
+            - !Sub 'arn:aws:states:${AWS::Region}:${AWS::AccountId}:stateMachine:${self:provider.stage}-${self:service}-ingest'
+        - Effect: "Allow"
+          Action:
+            - "s3:ListBucket"
+          Resource:
+            - "arn:aws:s3:::*"
+        - Effect: "Allow"
+          Action:
+            - "s3:*Object"
+          Resource:
+            - "arn:aws:s3:::*"
+        - Effect: "Allow"
+          Action:
+            - "kms:Decrypt"
+            - "kms:GenerateDataKey"
+          Resource:
+            - "*"
+        - Effect: "Allow"
+          Action:
+            - "ssm:GetParameter"
+          Resource:
+            - "*"
+        - Effect: 'Allow'
+          Action:
+            - "sns:Publish"
+          Resource:
+            - !Ref AlarmTopic
+  region: eu-west-1
+  environment:
+    STAGE: ${self:provider.stage}
+    LOGGING_LEVEL: ${self:custom.LOGGING_LEVEL.${self:provider.stage}}
+
+
+functions:
+  ValeurSFTPtoS3:
+    name: ${self:provider.stage}-${self:service}
+    description: ${self:provider.stage} copy valeur calls from SFTP to AWS
+    handler: voice_clients_src/valeur/handler.lambda_handler
+    role: SFTPToS3Role
+    memorySize: ${self:custom.SFTPToS3_lambda_memory.${self:provider.stage}}
+    timeout: ${self:custom.SFTPToS3_lambda_timeout.${self:provider.stage}}
+    vpc:
+      securityGroupIds:
+        - sg-04e9bad922c54367e
+      subnetIds:
+        - subnet-03b8bedf3b9ae9814
+        - subnet-0d00a216c4ab6159e
+    package:
+      patterns:
+        - "./voice_clients_src/valeur/**"
+
+stepFunctions:
+  stateMachines:
+    valeur_voice_ingest:
+      name: ${self:provider.stage}-${self:service}-ingest
+      loggingConfig:
+        level: ALL
+        includeExecutionData: true
+        destinations:
+          - Fn::GetAtt: [StepFunctionLogs, Arn]
+      definition:
+        Comment: Orchestrate the SFTP to S3 copy and Voice ingest
+        StartAt: voice_copy_and_ingest
+        States:
+          voice_copy_and_ingest:
+            Type: Parallel
+            Branches:
+            - StartAt: FileCopyFromSFTPToS3
+              States:
+                FileCopyFromSFTPToS3:
+                  Type: Task
+                  Resource:
+                    Fn::GetAtt: [ValeurSFTPtoS3, Arn]
+                  TimeoutSeconds: ${self:custom.SFTPToS3_lambda_timeout.${self:provider.stage}}
+                  ResultPath: "$"
+                  Next: VoiceIngest
+
+                VoiceIngest:
+                  Type: Map
+                  InputPath : $.event
+                  ItemsPath : $.response
+                  MaxConcurrency : 0
+                  Iterator :
+                    StartAt: Upload
+                    States:
+                      Upload:
+                        Type: Task
+                        Resource:
+                          ${self:custom.transcriptARN.${self:provider.stage}}
+                        End : true
+                  ResultPath: "$"
+                  Next: Done
+
+                Done:
+                  Type: Pass
+                  Result: $
+                  End: true
+            Catch:
+            - ErrorEquals: [ "States.ALL" ]
+              Next: JobFailed
+            Next: JobSucceded
+
+          JobFailed:
+              Type: Fail
+
+          JobSucceded:
+            Type: Succeed
+
+resources: # CloudFormation template syntax from here on.
+  Resources:
+    SFTPToS3Role:
+      Type: AWS::IAM::Role
+      Properties:
+        RoleName: SFTP-To-S3-Role
+        AssumeRolePolicyDocument:
+          Version: '2012-10-17'
+          Statement:
+            - Effect: Allow
+              Principal:
+                Service:
+                  - lambda.amazonaws.com
+              Action:
+                - sts:AssumeRole
+        Policies:
+        - PolicyName: SFTPToS3Policy
+          PolicyDocument:
+            Version: '2012-10-17'
+            Statement:
+              - Effect: Allow
+                Action:
+                  - logs:CreateLogGroup
+                  - logs:CreateLogStream
+                  - logs:PutLogEvents
+                Resource:
+                  - !Sub 'arn:aws:logs:${AWS::Region}:${AWS::AccountId}:log-group:/aws/lambda/*:*:*'
+              - Effect: Allow
+                Action:
+                  - ssm:GetParameter
+                Resource: "*"
+              - Effect: Allow
+                Action:
+                  - s3:GetObject
+                  - s3:PutObject
+                  - s3:ListBucket
+                Resource: "arn:aws:s3:::*/*"
+              - Effect: Allow
+                Action:
+                  - ec2:DescribeInstances
+                  - ec2:CreateNetworkInterface
+                  - ec2:AttachNetworkInterface
+                  - ec2:DescribeNetworkInterfaces
+                  - ec2:DeleteNetworkInterface
+                  - autoscaling:CompleteLifecycleAction
+                Resource: "*"
+
+    StepFunctionLogs:
+      Type: AWS::Logs::LogGroup
+      Properties:
+        LogGroupName: /stepfunction/${self:provider.stage}-${self:service}-ingest
+
+package:
+  individually: true
+  patterns:
+    - "!node_modules/**"
+    - "!voice_clients_tests/**"
+    - "!voice_clients_src/**"
+    - "!*.json"
+    - "!*.txt"
+    - "!conftest.py"
+    - "../shared/shared_src/**"
+
+plugins:
+  - serverless-stage-manager
+  - serverless-python-requirements
+  - serverless-step-functions
+
+custom:
+  pythonRequirements:
+    dockerizePip: non-linux
+    slim: true
+    useDownloadCache: false
+    useStaticCache: false
+    invalidateCaches: true
+    noDeploy:
+      - pytest
+      - mock
+      - moto
+      - freezegun
+
+  stages:
+    - dev
+    - prod
+
+  LOGGING_LEVEL:
+    dev: DEBUG
+    prod: INFO
+
+  SFTPToS3_lambda_timeout:
+    dev: 540
+    prod: 540
+  SFTPToS3_lambda_memory:
+    dev: 1769
+    prod: 1769
+  transcriptARN:
+    dev: arn:aws:lambda:eu-west-1:899631935537:function:dev-voice-create-transcription-job
+    prod: arn:aws:lambda:eu-west-1:955323147179:function:prod-voice-create-transcription-job

@@ -1,0 +1,1297 @@
+Return-Path: <journalerror@svelland.com>
+Received: from GBR01-LO2-obe.outbound.protection.outlook.com (mail-lo2gbr01lp2058.outbound.protection.outlook.com [104.47.21.58])
+ by inbound-smtp.eu-west-1.amazonaws.com with SMTP id o1la49nfnshaafmmfqeea1fftk64attna1if9ig1
+ for svelland@ip-sentinel.net;
+ Thu, 12 Nov 2020 15:21:19 +0000 (UTC)
+Received-SPF: pass (spfCheck: domain of svelland.com designates 104.47.21.58 as permitted sender) client-ip=104.47.21.58; envelope-from=journalerror@svelland.com; helo=mail-lo2gbr01lp2058.outbound.protection.outlook.com;
+Authentication-Results: amazonses.com;
+ spf=pass (spfCheck: domain of svelland.com designates 104.47.21.58 as permitted sender) client-ip=104.47.21.58; envelope-from=journalerror@svelland.com; helo=mail-lo2gbr01lp2058.outbound.protection.outlook.com;
+ dmarc=fail header.from=listserve.citywire.co.uk;
+X-SES-RECEIPT: AEFBQUFBQUFBQUFFOTlzWW1XWHdMalJXcFBFMmxwcGJ6RGxlZUdrTEdmM3R3bS9sUEo0aHlrK0pUTFE1V1NEOWNRV2FEV0FlTXM4eGRWRXl4WHFLMlBzcEF0U2szdjR4UnFYMUZLbjZTckdTYVBhdTg4cWErYVdjb2xnM0pnUWdWY2pMMjFGeGVNb01KZmx5aUNrMzhycEtNQ2M3Tm9tY3VOTHZHQmhTSHVrSGgvZTRsWUNBNVgxQ3ptUlNnc3gwZVg3KytHYWRubHZTMDVtWWQvSENMMzNEVTVWMXptcHNUOG9HRUc1K21Ob2lwK1dMKzZnMFExYnMrS1NReWkwVTduRWovQjl0RHRwUDljN2dBQjFkbWw1SGVYaXJrUXhRUGU4aWllTTIxZWdFeFhtbHNEK1FhRjh6a29ja3Rrc1l0anE1RHdtNzBIWXc9
+X-SES-DKIM-SIGNATURE: a=rsa-sha256; q=dns/txt; b=yMiknp4azYrDCe0LwsPBWGG7+LmZ5UHTTKVG/Kmcuj/dzNXokHy2IL3Lme+EqRQpwTQo6uGLTH65HuDx5NjIT8hVfXLBA6CccYzu5u3Wbb4neZqMXcK91Sz32ExF3Csnhx/Eel2fbjtWmS2f44Ns3d3lIeuK74wuTW1zJCRr3mY=; c=relaxed/simple; s=shh3fegwg5fppqsuzphvschd53n6ihuv; d=amazonses.com; t=1605194479; v=1; bh=JaBefwqNbFZ/wPTnVNq7a5Ve1L5VEULyUIMy5vDUIHw=; h=From:To:Cc:Bcc:Subject:Date:Message-ID:MIME-Version:Content-Type:X-SES-RECEIPT;
+Content-Type: multipart/mixed;
+	boundary="_63cac18e-50b4-4589-914a-679cc18aef86_"
+Subject: =?utf-8?B?UmV2ZWFsZWQ6IFRoZSDCozQ3MG0gaW52ZXN0b3JzIHBhaWQgZm9yIOKAmHBvb3IgdmE=?=
+	=?utf-8?B?bHVl4oCZIGZ1bmRz?=
+To: tim@svelland.com
+From: "Wealth Manager Afternoon" <noreply@listserve.citywire.co.uk>
+MIME-Version: 1.0
+Sender:
+	<MicrosoftExchange329e71ec88ae4615bbc36ab6ce41109e@svelland.onmicrosoft.com>
+Message-ID: <adad41bc-ceeb-4f28-b7ef-7304a1c36106@journal.report.generator>
+Date: Thu, 12 Nov 2020 15:21:19 +0000
+X-MS-PublicTrafficType: Email
+X-MS-Journal-Report:
+Return-Path: journalerror@svelland.com
+X-MS-Exchange-Parent-Message-Id:
+	<304A9E0E706F4655AC18525FBBF21B63@listserve.citywire.co.uk>
+Auto-Submitted: auto-generated
+X-MS-Exchange-Generated-Message-Source: Journal Agent
+X-MS-TrafficTypeDiagnostic: CWLP265MB1457:JournalingReport
+X-OriginatorOrg: svelland.onmicrosoft.com
+X-MS-Exchange-CrossTenant-AuthSource: CWLP265MB1457.GBRP265.PROD.OUTLOOK.COM
+X-MS-Exchange-CrossTenant-AuthAs: Internal
+X-MS-Exchange-CrossTenant-OriginalArrivalTime: 12 Nov 2020 15:21:19.0905 (UTC)
+X-MS-Exchange-CrossTenant-Network-Message-Id:
+	dedab520-f506-41b7-f9ef-08d8871e9aec
+X-MS-Exchange-CrossTenant-FromEntityHeader: Hosted
+X-MS-Exchange-Transport-CrossTenantHeadersStamped: CWLP265MB1457
+
+--_63cac18e-50b4-4589-914a-679cc18aef86_
+Content-Type: text/plain; charset="iso-8859-1"
+Content-Transfer-Encoding: quoted-printable
+
+Sender: noreply@listserve.citywire.co.uk
+Subject: Revealed: The =A3470m investors paid for 'poor value' funds
+Message-Id: <304A9E0E706F4655AC18525FBBF21B63@listserve.citywire.co.uk>
+Recipient: tim@svelland.com
+
+--_63cac18e-50b4-4589-914a-679cc18aef86_
+Content-Type: message/rfc822
+
+Received: from DB6PR1001CA0038.EURPRD10.PROD.OUTLOOK.COM (2603:10a6:4:55::24)
+ by CWLP265MB1457.GBRP265.PROD.OUTLOOK.COM (2603:10a6:401:30::13) with
+ Microsoft SMTP Server (version=TLS1_2,
+ cipher=TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384) id 15.20.3541.23; Thu, 12 Nov
+ 2020 15:21:17 +0000
+Received: from DB5EUR03FT052.eop-EUR03.prod.protection.outlook.com
+ (2603:10a6:4:55:cafe::92) by DB6PR1001CA0038.outlook.office365.com
+ (2603:10a6:4:55::24) with Microsoft SMTP Server (version=TLS1_2,
+ cipher=TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384) id 15.20.3541.25 via Frontend
+ Transport; Thu, 12 Nov 2020 15:21:17 +0000
+Authentication-Results: spf=pass (sender IP is 83.217.101.187)
+ smtp.mailfrom=listserve.citywire.co.uk; svelland.com; dkim=pass (signature
+ was verified) header.d=listserve.citywire.co.uk;svelland.com; dmarc=pass
+ action=none header.from=listserve.citywire.co.uk;compauth=pass reason=100
+Received-SPF: Pass (protection.outlook.com: domain of listserve.citywire.co.uk
+ designates 83.217.101.187 as permitted sender)
+ receiver=protection.outlook.com; client-ip=83.217.101.187;
+ helo=listserve.citywire.co.uk;
+Received: from listserve.citywire.co.uk (83.217.101.187) by
+ DB5EUR03FT052.mail.protection.outlook.com (10.152.21.82) with Microsoft SMTP
+ Server (version=TLS1_0, cipher=TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA) id
+ 15.20.3564.22 via Frontend Transport; Thu, 12 Nov 2020 15:21:16 +0000
+DKIM-Signature: v=1; a=rsa-sha1; d=listserve.citywire.co.uk;s=keylistserve;
+	c=relaxed/relaxed; q=dns/txt; t=1605194477;
+	h=from:to:message-id:date:subject:mime-version:content-type;
+	bh=Ly6b15WOKAL1otVudCIGmv2Zb5o=;
+	b=qHgRGKuJoBT27m8oWPf+ed7Y6Rj/xogX31Z2pVuhDLy77GbUTn4Bx7J/+nmuWVvGeE7pdc7FWzZr10ZDQaIPNzHLTvA+T/F3XU6uJa5EqSOPUAGhQqhiKB8L4hoikLeT2sU71x0TeFgJjIU+VeafttoR9zfxIZXwCJIvpJnXzXHmKNGzTWuepp8YQmfEuWmRmlXedOitSILVm27Fz56mi5qLU17R1HBDsATFtz7R592uE92bDlbqUQN9BstgXu55LbFH4GWSFGlqe/kdTiqM3asJAYCf/U8/CWx/zkHqdBN6rw1tPnWtAHkslHhkrLvJX7+Ywfwd5CyDXKJsnusXRw==
+X-FBL: M2U4LjFlLjk1MDAwMDAzMTY3MWUxLkVtYWlsZXItMjIzMzguSjg0OTIzLUVtYWlsZXItMjIzMzgudGltPXN2ZWxsYW5kLmNvbQ==
+From: "Wealth Manager Afternoon" <noreply@listserve.citywire.co.uk>
+To: tim@svelland.com
+Message-ID: <304A9E0E706F4655AC18525FBBF21B63@listserve.citywire.co.uk>
+Date: Thu, 12 Nov 2020 15:16:15 +0000
+Subject: =?utf-8?B?UmV2ZWFsZWQ6IFRoZSDCozQ3MG0gaW52ZXN0b3JzIHBhaWQgZm9yIOKAmHBvb3IgdmE=?=
+	=?utf-8?B?bHVl4oCZIGZ1bmRz?=
+MIME-Version: 1.0
+Content-Type: text/html; charset=utf-8
+Title: Revealed: The £470m investors paid for ‘poor value’ funds
+Return-Path: 3e8.14.Emailer-22338.tim=svelland.com@listserve.citywire.co.uk
+X-MS-Exchange-Organization-OriginalArrivalTime: 12 Nov 2020 15:21:16.8947
+ (UTC)
+X-MS-Exchange-Organization-ExpirationStartTime: 12 Nov 2020 15:21:17.1483
+ (UTC)
+X-MS-Exchange-Organization-ExpirationStartTimeReason: OriginalSubmit
+X-MS-Exchange-Organization-ExpirationInterval: 1:00:00:00.0000000
+X-MS-Exchange-Organization-ExpirationIntervalReason: OriginalSubmit
+X-MS-Exchange-Organization-Network-Message-Id: f873f402-3065-4c9a-7699-08d8871e99c4
+X-MS-Exchange-Organization-OriginalClientIPAddress: 83.217.101.187
+X-MS-Exchange-Organization-OriginalServerIPAddress: 10.152.21.82
+X-MS-Exchange-Organization-MessageScope: 927ae2b6-b8da-49a7-a7cf-997e600df23c
+X-EOPAttributedMessage: 0
+X-EOPTenantAttributedMessage: 5cfc3dce-458c-4160-b5f4-5ce31300f756:0
+X-MS-Exchange-Organization-TargetResourceForest: GBRP265.PROD.OUTLOOK.COM
+X-MS-Exchange-Organization-OrgEopForest: EUR03
+X-MS-Exchange-Organization-MessageDirectionality: Incoming
+X-MS-Exchange-Organization-Id: 5cfc3dce-458c-4160-b5f4-5ce31300f756
+X-MS-Exchange-Organization-FFO-ServiceTag: EUR03B
+X-MS-Exchange-Organization-Cross-Premises-Headers-Processed: DB5EUR03FT052.eop-EUR03.prod.protection.outlook.com
+X-MS-Exchange-Organization-ConnectingIP: 83.217.101.187
+X-MS-Exchange-Organization-ConnectingEHLO: listserve.citywire.co.uk
+X-MS-Exchange-Organization-AS-LastExternalIp: 83.217.101.187
+X-MS-Exchange-Organization-Originating-Country: GB
+X-MS-Exchange-Organization-P2SenderPII: <PII:H101(04rhTzukkjFBfNQ+eOEROCTyocMLSoPtm39VswS26uc=)>@listserve.citywire.co.uk
+X-MS-Exchange-Organization-P2SenderDisplayNamePII: H101(fwOfyCDaAqsNSxUuDe4iGwXkwZbpRaw8isl4coWuMk0=)
+X-MS-Exchange-Organization-OriginalEnvelopeRecipients: tim@svelland.com
+X-MS-Exchange-Organization-PtrDomains: listserve.citywire.co.uk
+X-MS-Exchange-Organization-EhloAndPtrDomain: listserve.citywire.co.uk;listserve.citywire.co.uk
+X-MS-Exchange-Organization-MxPointsToUs: true
+X-MS-Exchange-Organization-RecipientMxInfo-PFAFD: svelland.com#svelland-com.mail.protection.outlook.com
+X-MS-Exchange-Organization-CompAuthRes: pass
+X-MS-Exchange-Organization-CompAuthReason: 100
+X-MS-Exchange-Organization-SpoofDetection-Frontdoor-DisplayDomainName: listserve.citywire.co.uk
+X-MS-Exchange-Organization-Auth-ExtendedDmarcStatus: Pass
+X-MS-Exchange-Organization-SenderRep-Score: 1
+X-MS-Exchange-Organization-SenderRep-Data: IpClassLargeGrayOther_GrayOther_Good
+X-MS-Exchange-Organization-VBR-Class: GrayOther
+X-MS-Exchange-Organization-HMATPModel-Spf: 1
+X-MS-Exchange-Organization-HMATPModel-Recipient: <PII:H101(c2UupY5q2evZE/anYrk9i9MUnlWvRfdEoO38Wet+aos=)>@svelland.com
+X-MS-Exchange-Organization-TransportTrafficType: Email
+X-MS-PublicTrafficType: Email
+X-MS-Exchange-Organization-OrderedPrecisionLatencyInProgress: LSRV=DB6PR1001CA0038.EURPRD10.PROD.OUTLOOK.COM:TOTAL-FE=0.014|SMR-PEN=0.048(RENV=0.045|SMRPROXY-PEN=0.000);2020-11-12T15:21:17.297Z
+X-MS-Exchange-Organization-MessageLatency: SRV=DB5EUR03FT052.eop-EUR03.prod.protection.outlook.com:TOTAL-FE=0.387|SMR-PEN=0.365(RENV=0.230(SMRRC=0.050(SMRRC-TenantAttributionAndInboundConnectorAgent=0.035
+ ))|REOH=0.134(SMREH=0.110(SMREH-Protocol Filter
+ Agent=0.109))|SMRPROXY-PEN=0.000)|SMS=0.023
+X-MS-Exchange-Organization-MessageLatency:
+	SRV=DB6PR1001CA0038.EURPRD10.PROD.OUTLOOK.COM:TOTAL-FE=0.148|SMR-PEN=0.048(RENV=0.045|SMRPROXY-PEN=0.000)|SMS=0.134(SMSC=0.123)
+X-MS-Exchange-Forest-ArrivalHubServer: CWLP265MB1457.GBRP265.PROD.OUTLOOK.COM
+X-MS-Exchange-Organization-AuthSource:
+	DB5EUR03FT052.eop-EUR03.prod.protection.outlook.com
+X-MS-Exchange-Organization-AuthAs: Anonymous
+X-MS-Exchange-Organization-FromEntityHeader: Internet
+X-MS-Exchange-Forest-MessageScope: 927ae2b6-b8da-49a7-a7cf-997e600df23c
+X-MS-Exchange-Organization-Antispam-ProtocolFilterHub-ScanContext:
+	ProtocolFilterHub:SmtpOnEndOfData;
+X-MS-Office365-Filtering-Correlation-Id: f873f402-3065-4c9a-7699-08d8871e99c4
+X-MS-Exchange-Organization-Auth-DmarcStatus: Pass
+X-MS-Exchange-Organization-VerifiedDkimDomainsList: listserve.citywire.co.uk
+X-MS-Exchange-Organization-OriginalSize: 38646
+X-MS-TrafficTypeDiagnostic: CWLP265MB1457:
+X-MS-Exchange-Organization-HygienePolicy: Premium
+X-MS-Exchange-Organization-ReplicationInfo:
+	ReplicaId=ce12430c-df09-6c06-2137-ef991e87d808;ReplicatingServerFqdn=LNXP265MB1467.GBRP265.PROD.OUTLOOK.COM
+X-MS-Exchange-Forest-Language: en
+X-MS-Exchange-Forest-IndexAgent-0:
+	AQ0CZW4AAVsEAAAPAAADH4sIAAAAAAAEAGVUy3LbNhSF3hIVpfmEu+
+ rYU0cjp8rYo03jKHbs1K+x3WgNkZCIEUmwAChHM11k23U37bqr/kY+
+ JV/SA8BykomGQ5HAfZzHBf+MptJu7qUWNBM8syld8IIvhabndM6tMJ
+ Yuxb3pbX+D6EasESiSCd2lgj79Oz4Y5bTDLWWCG7tLslgjS2lDJZcJ
+ LZSmzx//LhX+1zyrxOeP/9CiKhKDWq7C/oh++5XE7xVw+A1a8LWqtE
+ RzFKNcJSKjUmm7UJlUPk1mhdjQ7Y8zrPM4ReAF1xbB00prKShOOfIl
+ 1lPBE4d6enV5d3x5Ryc3VxcTOlrLNaezLVLsX61BeX80GhFP1tIIwN
+ diKY0VWgQSx7dvyWouC1ksqdRqqXmeC3D7i96oAqws5dIYUpVFvaPb
+ M8p4VXhwpjIWiXyeCVciXqGXZ6p5sRSIfiPR3kCACUChZcGtVAXPaK
+ ZyUTgVTpBexGI4HJZgSu+/53QioZPT8JsKCJulG0oUYMRKQ0aYSqJY
+ wmOUBmZuEf4L4s4KirkRtFGVZwLe0lE5Vfc0O6UzLTLuMAtb6cKJol
+ VOFg7OtSxWCLxAKQmPgFolkB5DZUh8eH6tRS5B+YvNzhWaploamqUw
+ Gsmvtbov6DaVZQZrLS8NvasyWRl6zZHrzPCKzBU0tiqUwKw6gUHgez
+ 2mvJQWCW+1qkq3+/U77DIPk+pVsILnZDA1wjGSGFVp0M8b7yguKpAW
+ fv4//UfbIzOkoyyjG7lMraEbgalZi2SI+RQ6N+TEmqoikc4JQ38Mom
+ uNsYs3dA2R4o0bZEUYwPKxIImcy8wEaZcCcmLWoJ5CXZpvwjYtZGbd
+ gJbuxAkMbIKh0+4fghvaKZQWZbZ5lWF8PaZhvAUcq2G12nX6bVxKqL
+ dNnCu1GoLH49hfLRYyFpMv8MIUSqh4Xc1RPnUwzm2yR/v4UJxkOOR7
+ dHhA73n1IeXQZsaz1R6dQwWIeXu8v08vT98N6U5kE/ppPKad0S69GB
+ 3Q4Xj0Eqfvm+6Y+uNi6WeuUBP6+fDF4Xg8GgbZqsJUcxNrOYdjMn9l
+ 1iJzoWCYE0zDFwBH62uWpRYL1MUhMntb6WL4sMIoQZlBxFiX9dqs02
+ ER7k32Q5dFDdZqsnadNVqs02NRk7X8SguvLdZt1Jp1xrCLy6e0Itb3
+ we2IDbDSYM0O6+Kh/ZDexSsKIqDHnjRrKMWQhb5IRDAuPGMLAb5XO6
+ z02ROfiL7dHusP2NOWR9XxkGqsFcoicsCeIQWLaIeabRYhzJdqAkPd
+ P/jELoLDess/tzyqeo1FfveRkV/v4h4AhMWQGypH7Gno3nFhjiAutN
+ 7mtoMOHsDAS+qQdFm/5dmF9DbrhWrBgqZnFGCE1o9FOqzXqTFyOkRd
+ n1X3jEK7gMQT73olIy+sp1nrBLM8+Hbo4rZquDPca4zVag3/jC6s40
+ 0JWtUfVtwrvGjU2DPvSxDzUai+N9159z8S1fIbVwcAAA==
+X-MS-Exchange-Forest-IndexAgent: 1 1126
+X-MS-Exchange-Forest-EmailMessageHash: 554FAFD2
+X-MS-Exchange-Organization-IsPotentialIntraOrgMail: False
+X-MS-Exchange-Organization-Antispam-PreContentFilter-PolicyLoadTime:
+	MAOSUB:2;MAOSUBLOAD:1;SAORES:2;SAORESLOAD:1;SLORES:0;SLORESLOAD:0;
+X-MS-Exchange-Organization-MessageFingerprint:
+	AF5C6F29.2EF61715.2BD45787.CCEA5B39.20285
+X-MS-Exchange-Organization-UrlMinimumDomainAge: citywire.co.uk#7791
+X-MS-Exchange-Organization-URLFeatureReduction:
+	36;4;0;30;0;0;0;0;14;5;1;67725;0;0;0
+X-MS-Exchange-Organization-Persisted-Urls-ChunkCount: 4
+X-MS-Exchange-Organization-Persisted-Urls-0:
+	=?us-ascii?Q?[{"ID":1,"OU":"http://click.listserve.citywire.co.uk/click?=
+ =?us-ascii?Q?=3Fa=3Dhttp%253A%252F%252Fcitywire.co.uk%252Fwealth-manager&?=
+ =?us-ascii?Q?d=3D172A67C541089939C1507E565C832112&t=3DYz0yMjMzOCZlPTExMjk?=
+ =?us-ascii?Q?wNDc%3D&h=3D1E4175D46ED5AA72F46DD76BCB2727B7&l=3DMzUxNzcz","?=
+ =?us-ascii?Q?U":"http://click.listserve.citywire.co.uk/click=3Fa=3Dhttp%2?=
+ =?us-ascii?Q?53A%252F%252Fcitywire.co.uk%252Fwealth-manager&d=3D172A67C54?=
+ =?us-ascii?Q?1089939C1507E565C832112&t=3DYz0yMjMzOCZlPTExMjkwNDc%3D&h=3D1?=
+ =?us-ascii?Q?E4175D46ED5AA72F46DD76BCB2727B7&l=3DMzUxNzcz","IAR":false,"L?=
+ =?us-ascii?Q?I":{"TN":"a","IC":true,"BF":2,"SI":-1,"EndIndex":-1},"SRCI":?=
+ =?us-ascii?Q?1,"IU":null,"NU":"click.listserve.citywire.co.uk/click=3Fa?=
+ =?us-ascii?Q?=3Dhttp%253A%252F%252Fcitywire.co.uk%252Fwealth-manager&d=3D?=
+ =?us-ascii?Q?172A67C541089939C1507E565C832112&t=3DYz0yMjMzOCZlPTExMjkwNDc?=
+ =?us-ascii?Q?%3D&h=3D1E4175D46ED5AA72F46DD76BCB2727B7&l=3DMzUxNzcz","UFT"?=
+ =?us-ascii?Q?:"{101:36,102:4,103:1,105:30,108:5,110:8,111:14,112:3,114:8,?=
+ =?us-ascii?Q?115:15,116:2,118:9,119:8,121:7,122:5,123:2,125:2,128:5,131:6?=
+ =?us-ascii?Q?7725,135:\"612EE96A,8CB07814,34CA57A1,7CB05EE4,1DA190FC,4470?=
+ =?us-ascii?Q?6194,8B053100,434711FA,4D13F94B,C210A217,92ED20B5,10166C3D,6?=
+ =?us-ascii?Q?78CE431,E59026EE,171B246F,201B029B,5A4D6343,814E8749,AED9A7D?=
+ =?us-ascii?Q?8\",201:7791,202:157,203:244,204:8036,205:14,206:1,207:54,20?=
+ =?us-ascii?Q?8:3,209:52,210:3,211:50,212:3,213:57,214:3,215:62,216:3,217:?=
+ =?us-ascii?Q?64,218:3,219:57,220:3,221:51,222:2,223:51,224:2,225:51,226:2?=
+ =?us-ascii?Q?,227:51,228:2,229:56,230:3,231:62,232:3,233:54,234:3,235:57,?=
+ =?us-ascii?Q?236:3,239:63,240:3,243:57,244:3,245:33,246:1,247:34,248:1,24?=
+ =?us-ascii?Q?9:14,250:1,251:13,252:1}","DPD":{"UF":"256","OCH":"121785230?=
+ =?us-ascii?Q?71137746196","SCHM":"Http","CNT":"1","SL":"1","LOG":"1"},"PR?=
+ =?us-ascii?Q?OC":[]},{"ID":3,"OU":"http://click.listserve.citywire.co.uk/?=
+ =?us-ascii?Q?click=3Fa=3Dhttps%253A%252F%252Fcitywire.co.uk%252Fwealth-ma?=
+ =?us-ascii?Q?nager%252Fnews%252Frevealed-the-470m-at-least-investors-paid?=
+ =?us-ascii?Q?-for-poor-value-funds%252Fa1421512%253Fre%253D79501%2526ea%2?=
+ =?us-ascii?Q?53D1129047%2526utm=5Fsource%253DBulkEmail=5FWM=5FDaily=5FPM%?=
+ =?us-ascii?Q?2526utm=5Fmedium%253DBulkEmail=5FWM=5FDaily=5FPM%2526utm=5Fc?=
+ =?us-ascii?Q?ampaign%253DBulkEmail=5FWM=5FDaily=5FPM&d=3D172A67C541089939?=
+ =?us-ascii?Q?C1507E565C832112&t=3DYz0yMjMzOCZlPTExMjkwNDc%3D&h=3D1E4175D4?=
+ =?us-ascii?Q?6ED5AA72F46DD76BCB2727B7&l=3DMzUxNzc0","U":"http://click.lis?=
+ =?us-ascii?Q?tserve.citywire.co.uk/click=3Fa=3Dhttps%253A%252F%252Fcitywi?=
+ =?us-ascii?Q?re.co.uk%252Fwealth-manager%252Fnews%252Frevealed-the-470m-a?=
+ =?us-ascii?Q?t-least-investors-paid-for-poor-value-funds%252Fa1421512%253?=
+ =?us-ascii?Q?Fre%253D79501%2526ea%253D1129047%2526utm=5Fsource%253DBulkEm?=
+ =?us-ascii?Q?ail=5FWM=5FDaily=5FPM%2526utm=5Fmedium%253DBulkEmail=5FWM=5F?=
+ =?us-ascii?Q?Daily=5FPM%2526utm=5Fcampaign%253DBulkEmail=5FWM=5FDaily=5FP?=
+ =?us-ascii?Q?M&d=3D172A67C541089939C1507E565C832112&t=3DYz0yMjMzOCZlPTExM?=
+ =?us-ascii?Q?jkwNDc%3D&h=3D1E4175D46ED5AA72F46DD76BCB2727B7&l=3DMzUxNzc0"?=
+ =?us-ascii?Q?,"IAR":false,"LI":{"TN":"a","IC":true,"BF":2,"SI":-1,"EndInd?=
+ =?us-ascii?Q?ex":-1},"SRCI":1,"IU":null,"NU":"click.listserve.citywire.co?=
+ =?us-ascii?Q?.uk/click=3Fa=3Dhttps%253A%252F%252Fcitywire.co.uk%252Fwealt?=
+ =?us-ascii?Q?h-manager%252Fnews%252Frevealed-the-470m-at-least-investors-?=
+ =?us-ascii?Q?paid-for-poor-value-funds%252Fa1421512%253Fre%253D79501%2526?=
+ =?us-ascii?Q?ea%253D1129047%2526utm=5Fsource%253DBulkEmail=5FWM=5FDaily?=
+ =?us-ascii?Q?=5FPM%2526utm=5Fmedium%253DBulkEmail=5FWM=5FDaily=5FPM%2526u?=
+ =?us-ascii?Q?tm=5Fcampaign%253DBulkEmail=5FWM=5FDaily=5FPM&d=3D172A67C541?=
+ =?us-ascii?Q?089939C1507E565C832112&t=3DYz0yMjMzOCZlPTExMjkwNDc%3D&h=3D1E?=
+ =?us-ascii?Q?4175D46ED5AA72F46DD76BCB2727B7&l=3DMzUxNzc0","UFT":"{101:36,?=
+ =?us-ascii?Q?102:4,103:1,105:30,108:5,110:8,111:14,112:3,114:8,115:15,116?=
+ =?us-ascii?Q?:2,118:9,119:8,121:7,122:5,123:2,125:2,128:5,131:67725,135:\?=
+ =?us-ascii?Q?"612EE96A,8CB07814,34CA57A1,7CB05EE4,1DA190FC,44706194,8B053?=
+ =?us-ascii?Q?100,434711FA,4D13F94B,C210A217,92ED20B5,10166C3D,678CE431,E5?=
+ =?us-ascii?Q?9026EE,171B246F,201B029B,5A4D6343,814E8749,AED9A7D8\",201:77?=
+ =?us-ascii?Q?91,202:157,203:244,204:8036,205:14,206:1,207:54,208:3,209:52?=
+ =?us-ascii?Q?,210:3,211:50,212:3,213:57,214:3,215:62,216:3,217:64,218:3,2?=
+ =?us-ascii?Q?19:57,220:3,221:51,222:2,223:51,224:2,225:51,226:2,227:51,22?=
+ =?us-ascii?Q?8:2,229:56,230:3,231:62,232:3,233:54,234:3,235:57,236:3,239:?=
+ =?us-ascii?Q?63,240:3,243:57,244:3,245:33,246:1,247:34,248:1,249:14,250:1?=
+ =?us-ascii?Q?,251:13,252:1}","DPD":{"UF":"256","OCH":"5688370111942275784?=
+ =?us-ascii?Q?","SCHM":"Http","CNT":"1","SL":"1","LOG":"1"},"PROC":[]},{"I?=
+ =?us-ascii?Q?D":4,"OU":"http://click.listserve.citywire.co.uk/click=3Fa?=
+ =?us-ascii?Q?=3Dhttps%253A%252F%252Fcitywire.co.uk%252Fwealth-manager%252?=
+ =?us-ascii?Q?Fnews%252Fthe-10-uk-equity-fund-favourites-in-model-portfoli?=
+ =?us-ascii?Q?os%252Fa1420286%253Fre%253D79501%2526ea%253D1129047%2526utm?=
+ =?us-ascii?Q?=5Fsource%253DBulkEmail=5FWM=5FDaily=5FPM%2526utm=5Fmedium%2?=
+ =?us-ascii?Q?53DBulkEmail=5FWM=5FDaily=5FPM%2526utm=5Fcampaign%253DBulkEm?=
+ =?us-ascii?Q?ail=5FWM=5FDaily=5FPM&d=3D172A67C541089939C1507E565C832112&t?=
+ =?us-ascii?Q?=3DYz0yMjMzOCZlPTExMjkwNDc%3D&h=3D1E4175D46ED5AA72F46DD76BCB?=
+ =?us-ascii?Q?2727B7&l=3DMzUxNzc1","U":"http://click.listserve.citywire.co?=
+ =?us-ascii?Q?.uk/click=3Fa=3Dhttps%253A%252F%252Fcitywire.co.uk%252Fwealt?=
+ =?us-ascii?Q?h-manager%252Fnews%252Fthe-10-uk-equity-fund-favourites-in-m?=
+ =?us-ascii?Q?odel-portfolios%252Fa1420286%253Fre%253D79501%2526ea%253D112?=
+ =?us-ascii?Q?9047%2526utm=5Fsource%253DBulkEmail=5FWM=5FDaily=5FPM%2526ut?=
+ =?us-ascii?Q?m=5Fmedium%253DBulkEmail=5FWM=5FDaily=5FPM%2526utm=5Fcampaig?=
+ =?us-ascii?Q?n%253DBulkEmail=5FWM=5FDaily=5FPM&d=3D172A67C541089939C1507E?=
+ =?us-ascii?Q?565C832112&t=3DYz0yMjMzOCZlPTExMjkwNDc%3D&h=3D1E4175D46ED5AA?=
+ =?us-ascii?Q?72F46DD76BCB2727B7&l=3DMzUxNzc1","IAR":false,"LI":{"TN":"a",?=
+ =?us-ascii?Q?"IC":true,"BF":2,"SI":-1,"EndIndex":-1},"SRCI":1,"IU":null,"?=
+ =?us-ascii?Q?NU":"click.listserve.citywire.co.uk/click=3Fa=3Dhttps%253A%2?=
+ =?us-ascii?Q?52F%252Fcitywire.co.uk%252Fwealth-manager%252Fnews%252Fthe-1?=
+ =?us-ascii?Q?0-uk-equity-fund-favourites-in-model-portfolios%252Fa1420286?=
+ =?us-ascii?Q?%253Fre%253D79501%2526ea%253D1129047%2526utm=5Fsource%253DBu?=
+ =?us-ascii?Q?lkEmail=5FWM=5FDaily=5FPM%2526utm=5Fmedium%253DBulkEmail=5FW?=
+ =?us-ascii?Q?M=5FDaily=5FPM%2526utm=5Fcampaign%253DBulkEmail=5FWM=5FDaily?=
+ =?us-ascii?Q?=5FPM&d=3D172A67C541089939C1507E565C832112&t=3DYz0yMjMzOCZlP?=
+ =?us-ascii?Q?TExMjkwNDc%3D&h=3D1E4175D46ED5AA72F46DD76BCB2727B7&l=3DMzUxN?=
+ =?us-ascii?Q?zc1","UFT":"{101:36,102:4,103:1,105:30,108:5,110:8,111:14,11?=
+ =?us-ascii?Q?2:3,114:8,115:15,116:2,118:9,119:8,121:7,122:5,123:2,125:2,1?=
+ =?us-ascii?Q?28:5,131:67725,135:\"612EE96A,8CB07814,34CA57A1,7CB05EE4,1DA?=
+ =?us-ascii?Q?190FC,44706194,8B053100,434711FA,4D13F94B,C210A217,92ED20B5,?=
+ =?us-ascii?Q?10166C3D,678CE431,E59026EE,171B246F,201B029B,5A4D6343,814E87?=
+ =?us-ascii?Q?49,AED9A7D8\",201:7791,202:157,203:244,204:8036,205:14,206:1?=
+ =?us-ascii?Q?,207:54,208:3,209:52,210:3,211:50,212:3,213:57,214:3,215:62,?=
+ =?us-ascii?Q?216:3,217:64,218:3,219:57,220:3,221:51,222:2,223:51,224:2,22?=
+ =?us-ascii?Q?5:51,226:2,227:51,228:2,229:56,230:3,231:62,232:3,233:54,234?=
+ =?us-ascii?Q?:3,235:57,236:3,239:63,240:3,243:57,244:3,245:33,246:1,247:3?=
+ =?us-ascii?Q?4,248:1,249:14,250:1,251:13,252:1}","DPD":{"UF":"256","OCH":?=
+ =?us-ascii?Q?"4840659535242182231","SCHM":"Http","CNT":"1","SL":"1","LOG"?=
+ =?us-ascii?Q?:"1"},"PROC":[]},{"ID":5,"OU":"http://click.listserve.citywi?=
+ =?us-ascii?Q?re.co.uk/click=3Fa=3Dhttps%253A%252F%252Fcitywire.co.uk%252F?=
+ =?us-ascii?Q?wealth-manager%252Fnews%252Ftilney-sandw-poaches-martin-curr?=
+ =?us-ascii?Q?ie-charities-head%252Fa1424766%253Fre%253D79501%2526ea%253D1?=
+ =?us-ascii?Q?129047%2526utm=5Fsource%253DBulkEmail=5FWM=5FDaily=5FPM%2526?=
+ =?us-ascii?Q?utm=5Fmedium%253DBulkEmail=5FWM=5FDaily=5FPM%2526utm=5Fcampa?=
+ =?us-ascii?Q?ign%253DBulkEmail=5FWM=5FDaily=5FPM&d=3D172A67C541089939C150?=
+ =?us-ascii?Q?7E565C832112&t=3DYz0yMjMzOCZlPTExMjkwNDc%3D&h=3D1E4175D46ED5?=
+ =?us-ascii?Q?AA72F46DD76BCB2727B7&l=3DMzUxNzc2","U":"http://click.listser?=
+ =?us-ascii?Q?ve.citywire.co.uk/click=3Fa=3Dhttps%253A%252F%252Fcitywire.c?=
+ =?us-ascii?Q?o.uk%252Fwealth-manager%252Fnews%252Ftilney-sandw-poaches-ma?=
+ =?us-ascii?Q?rtin-currie-charities-head%252Fa1424766%253Fre%253D79501%252?=
+ =?us-ascii?Q?6ea%253D1129047%2526utm=5Fsource%253DBulkEmail=5FWM=5FDaily?=
+ =?us-ascii?Q?=5FPM%2526utm=5Fmedium%253DBulkEmail=5FWM=5FDaily=5FPM%2526u?=
+ =?us-ascii?Q?tm=5Fcampaign%253DBulkEmail=5FWM=5FDaily=5FPM&d=3D172A67C541?=
+ =?us-ascii?Q?089939C1507E565C832112&t=3DYz0yMjMzOCZlPTExMjkwNDc%3D&h=3D1E?=
+ =?us-ascii?Q?4175D46ED5AA72F46DD76BCB2727B7&l=3DMzUxNzc2","IAR":false,"LI?=
+ =?us-ascii?Q?":{"TN":"a","IC":true,"BF":2,"SI":-1,"EndIndex":-1},"SRCI":1?=
+ =?us-ascii?Q?,"IU":null,"NU":"click.listserve.citywire.co.uk/click=3Fa=3D?=
+ =?us-ascii?Q?https%253A%252F%252Fcitywire.co.uk%252Fwealth-manager%252Fne?=
+ =?us-ascii?Q?ws%252Ftilney-sandw-poaches-martin-currie-charities-head%252?=
+ =?us-ascii?Q?Fa1424766%253Fre%253D79501%2526ea%253D1129047%2526utm=5Fsour?=
+ =?us-ascii?Q?ce%253DBulkEmail=5FWM=5FDaily=5FPM%2526utm=5Fmedium%253DBulk?=
+ =?us-ascii?Q?Email=5FWM=5FDaily=5FPM%2526utm=5Fcampaign%253DBulkEmail=5FW?=
+ =?us-ascii?Q?M=5FDaily=5FPM&d=3D172A67C541089939C1507E565C832112&t=3DYz0y?=
+ =?us-ascii?Q?MjMzOCZlPTExMjkwNDc%3D&h=3D1E4175D46ED5AA72F46DD76BCB2727B7&?=
+ =?us-ascii?Q?l=3DMzUxNzc2","UFT":"{101:36,102:4,103:1,105:30,108:5,110:8,?=
+ =?us-ascii?Q?111:14,112:3,114:8,115:15,116:2,118:9,119:8,121:7,122:5,123:?=
+ =?us-ascii?Q?2,125:2,128:5,131:67725,135:\"612EE96A,8CB07814,34CA57A1,7CB?=
+ =?us-ascii?Q?05EE4,1DA190FC,44706194,8B053100,434711FA,4D13F94B,C210A217,?=
+ =?us-ascii?Q?92ED20B5,10166C3D,678CE431,E59026EE,171B246F,201B029B,5A4D63?=
+ =?us-ascii?Q?43,814E8749,AED9A7D8\",201:7791,202:157,203:244,204:8036,205?=
+ =?us-ascii?Q?:14,206:1,207:54,208:3,209:52,210:3,211:50,212:3,213:57,214:?=
+ =?us-ascii?Q?3,215:62,216:3,217:64,218:3,219:57,220:3,221:51,222:2,223:51?=
+ =?us-ascii?Q?,224:2,225:51,226:2,227:51,228:2,229:56,230:3,231:62,232:3,2?=
+ =?us-ascii?Q?33:54,234:3,235:57,236:3,239:63,240:3,243:57,244:3,245:33,24?=
+ =?us-ascii?Q?6:1,247:34,248:1,249:14,250:1,251:13,252:1}","DPD":{"UF":"25?=
+ =?us-ascii?Q?6","OCH":"1065851615793522416","SCHM":"Http","CNT":"1","SL":?=
+ =?us-ascii?Q?"1","LOG":"1"},"PROC":[]},{"ID":6,"OU":"http://click.listser?=
+ =?us-ascii?Q?ve.citywire.co.uk/click=3Fa=3Dhttp%253A%252F%252Faccounts.ci?=
+ =?us-ascii?Q?tywire.info%252Fiframeredirector%253FreturnUrl%253Dhttps%252?=
+ =?us-ascii?Q?53A%25252F%25252Fwww.avivainvestors.com%25252Fen-gb%25252Fca?=
+ =?us-ascii?Q?pabilities%25252Fesg-know-how%25252F%2526via%253DClickOut%25?=
+ =?us-ascii?Q?26client%253DAviva%2526email%253D20201111=5FWM=5FPM&d=3DE429?=
+ =?us-ascii?Q?80DC789AF0069E5156CBD0A4B082&t=3DYz0yMjMzOCZlPTExMjkwNDc%3D&?=
+ =?us-ascii?Q?h=3D1E4175D46ED5AA72F46DD76BCB2727B7&l=3DMzUxNzc3","U":"http?=
+ =?us-ascii?Q?://click.listserve.citywire.co.uk/click=3Fa=3Dhttp%253A%252F?=
+ =?us-ascii?Q?%252Faccounts.citywire.info%252Fiframeredirector%253FreturnU?=
+ =?us-ascii?Q?rl%253Dhttps%25253A%25252F%25252Fwww.avivainvestors.com%2525?=
+ =?us-ascii?Q?2Fen-gb%25252Fcapabilities%25252Fesg-know-how%25252F%2526via?=
+ =?us-ascii?Q?%253DClickOut%2526client%253DAviva%2526email%253D20201111=5F?=
+ =?us-ascii?Q?WM=5FPM&d=3DE42980DC789AF0069E5156CBD0A4B082&t=3DYz0yMjMzOCZ?=
+ =?us-ascii?Q?lPTExMjkwNDc%3D&h=3D1E4175D46ED5AA72F46DD76BCB2727B7&l=3DMzU?=
+ =?us-ascii?Q?xNzc3","IAR":false,"LI":{"TN":"a","IC":true,"BF":2,"SI":-1,"?=
+ =?us-ascii?Q?EndIndex":-1},"SRCI":1,"IU":null,"NU":"click.listserve.cityw?=
+ =?us-ascii?Q?ire.co.uk/click=3Fa=3Dhttp%253A%252F%252Faccounts.citywire.i?=
+ =?us-ascii?Q?nfo%252Fiframeredirector%253FreturnUrl%253Dhttps%25253A%2525?=
+ =?us-ascii?Q?2F%25252Fwww.avivainvestors.com%25252Fen-gb%25252Fcapabiliti?=
+ =?us-ascii?Q?es%25252Fesg-know-how%25252F%2526via%253DClickOut%2526client?=
+ =?us-ascii?Q?%253DAviva%2526email%253D20201111=5FWM=5FPM&d=3DE42980DC789A?=
+ =?us-ascii?Q?F0069E5156CBD0A4B082&t=3DYz0yMjMzOCZlPTExMjkwNDc%3D&h=3D1E41?=
+ =?us-ascii?Q?75D46ED5AA72F46DD76BCB2727B7&l=3DMzUxNzc3","UFT":"{101:36,10?=
+ =?us-ascii?Q?2:4,103:1,105:30,108:5,110:8,111:14,112:3,114:8,115:15,116:2?=
+ =?us-ascii?Q?,118:9,119:8,121:7,122:5,123:2,125:2,128:5,131:67725,135:\"6?=
+ =?us-ascii?Q?12EE96A,8CB07814,34CA57A1,7CB05EE4,1DA190FC,44706194,8B05310?=
+ =?us-ascii?Q?0,434711FA,4D13F94B,C210A217,92ED20B5,10166C3D,678CE431,E590?=
+ =?us-ascii?Q?26EE,171B246F,201B029B,5A4D6343,814E8749,AED9A7D8\",201:7791?=
+ =?us-ascii?Q?,202:157,203:244,204:8036,205:14,206:1,207:54,208:3,209:52,2?=
+ =?us-ascii?Q?10:3,211:50,212:3,213:57,214:3,215:62,216:3,217:64,218:3,219?=
+ =?us-ascii?Q?:57,220:3,221:51,222:2,223:51,224:2,225:51,226:2,227:51,228:?=
+ =?us-ascii?Q?2,229:56,230:3,231:62,232:3,233:54,234:3,235:57,236:3,239:63?=
+ =?us-ascii?Q?,240:3,243:57,244:3,245:33,246:1,247:3?=
+X-MS-Exchange-Organization-Persisted-Urls-1:
+	=?us-ascii?Q?4,248:1,249:14,250:1,251:13,252:1}","DPD":{"UF":"256","OCH":?=
+ =?us-ascii?Q?"1114127390154322810","SCHM":"Http","CNT":"1","SL":"1","LOG"?=
+ =?us-ascii?Q?:"1"},"PROC":[]},{"ID":7,"OU":"http://click.listserve.citywi?=
+ =?us-ascii?Q?re.co.uk/click=3Fa=3Dhttps%253A%252F%252Fcitywire.co.uk%252F?=
+ =?us-ascii?Q?wealth-manager%252Fnews%252Fasi-launches-sustainable-tracker?=
+ =?us-ascii?Q?-fund-range%252Fa1424753%253Fre%253D79501%2526ea%253D1129047?=
+ =?us-ascii?Q?%2526utm=5Fsource%253DBulkEmail=5FWM=5FDaily=5FPM%2526utm=5F?=
+ =?us-ascii?Q?medium%253DBulkEmail=5FWM=5FDaily=5FPM%2526utm=5Fcampaign%25?=
+ =?us-ascii?Q?3DBulkEmail=5FWM=5FDaily=5FPM&d=3D172A67C541089939C1507E565C?=
+ =?us-ascii?Q?832112&t=3DYz0yMjMzOCZlPTExMjkwNDc%3D&h=3D1E4175D46ED5AA72F4?=
+ =?us-ascii?Q?6DD76BCB2727B7&l=3DMzUxNzc4","U":"http://click.listserve.cit?=
+ =?us-ascii?Q?ywire.co.uk/click=3Fa=3Dhttps%253A%252F%252Fcitywire.co.uk%2?=
+ =?us-ascii?Q?52Fwealth-manager%252Fnews%252Fasi-launches-sustainable-trac?=
+ =?us-ascii?Q?ker-fund-range%252Fa1424753%253Fre%253D79501%2526ea%253D1129?=
+ =?us-ascii?Q?047%2526utm=5Fsource%253DBulkEmail=5FWM=5FDaily=5FPM%2526utm?=
+ =?us-ascii?Q?=5Fmedium%253DBulkEmail=5FWM=5FDaily=5FPM%2526utm=5Fcampaign?=
+ =?us-ascii?Q?%253DBulkEmail=5FWM=5FDaily=5FPM&d=3D172A67C541089939C1507E5?=
+ =?us-ascii?Q?65C832112&t=3DYz0yMjMzOCZlPTExMjkwNDc%3D&h=3D1E4175D46ED5AA7?=
+ =?us-ascii?Q?2F46DD76BCB2727B7&l=3DMzUxNzc4","IAR":false,"LI":{"TN":"a","?=
+ =?us-ascii?Q?IC":true,"BF":2,"SI":-1,"EndIndex":-1},"SRCI":1,"IU":null,"N?=
+ =?us-ascii?Q?U":"click.listserve.citywire.co.uk/click=3Fa=3Dhttps%253A%25?=
+ =?us-ascii?Q?2F%252Fcitywire.co.uk%252Fwealth-manager%252Fnews%252Fasi-la?=
+ =?us-ascii?Q?unches-sustainable-tracker-fund-range%252Fa1424753%253Fre%25?=
+ =?us-ascii?Q?3D79501%2526ea%253D1129047%2526utm=5Fsource%253DBulkEmail=5F?=
+ =?us-ascii?Q?WM=5FDaily=5FPM%2526utm=5Fmedium%253DBulkEmail=5FWM=5FDaily?=
+ =?us-ascii?Q?=5FPM%2526utm=5Fcampaign%253DBulkEmail=5FWM=5FDaily=5FPM&d?=
+ =?us-ascii?Q?=3D172A67C541089939C1507E565C832112&t=3DYz0yMjMzOCZlPTExMjkw?=
+ =?us-ascii?Q?NDc%3D&h=3D1E4175D46ED5AA72F46DD76BCB2727B7&l=3DMzUxNzc4","U?=
+ =?us-ascii?Q?FT":"{101:36,102:4,103:1,105:30,108:5,110:8,111:14,112:3,114?=
+ =?us-ascii?Q?:8,115:15,116:2,118:9,119:8,121:7,122:5,123:2,125:2,128:5,13?=
+ =?us-ascii?Q?1:67725,135:\"612EE96A,8CB07814,34CA57A1,7CB05EE4,1DA190FC,4?=
+ =?us-ascii?Q?4706194,8B053100,434711FA,4D13F94B,C210A217,92ED20B5,10166C3?=
+ =?us-ascii?Q?D,678CE431,E59026EE,171B246F,201B029B,5A4D6343,814E8749,AED9?=
+ =?us-ascii?Q?A7D8\",201:7791,202:157,203:244,204:8036,205:14,206:1,207:54?=
+ =?us-ascii?Q?,208:3,209:52,210:3,211:50,212:3,213:57,214:3,215:62,216:3,2?=
+ =?us-ascii?Q?17:64,218:3,219:57,220:3,221:51,222:2,223:51,224:2,225:51,22?=
+ =?us-ascii?Q?6:2,227:51,228:2,229:56,230:3,231:62,232:3,233:54,234:3,235:?=
+ =?us-ascii?Q?57,236:3,239:63,240:3,243:57,244:3,245:33,246:1,247:34,248:1?=
+ =?us-ascii?Q?,249:14,250:1,251:13,252:1}","DPD":{"UF":"256","OCH":"295502?=
+ =?us-ascii?Q?8390183376726","SCHM":"Http","CNT":"1","SL":"1","LOG":"1"},"?=
+ =?us-ascii?Q?PROC":[]},{"ID":8,"OU":"http://click.listserve.citywire.co.u?=
+ =?us-ascii?Q?k/click=3Fa=3Dhttps%253A%252F%252Fcitywire.co.uk%252Fwealth-?=
+ =?us-ascii?Q?manager%252Fnews%252Fdiversity-international-women-in-financ?=
+ =?us-ascii?Q?e-part-v%252Fa1419161%253Fre%253D79501%2526ea%253D1129047%25?=
+ =?us-ascii?Q?26utm=5Fsource%253DBulkEmail=5FWM=5FDaily=5FPM%2526utm=5Fmed?=
+ =?us-ascii?Q?ium%253DBulkEmail=5FWM=5FDaily=5FPM%2526utm=5Fcampaign%253DB?=
+ =?us-ascii?Q?ulkEmail=5FWM=5FDaily=5FPM&d=3D172A67C541089939C1507E565C832?=
+ =?us-ascii?Q?112&t=3DYz0yMjMzOCZlPTExMjkwNDc%3D&h=3D1E4175D46ED5AA72F46DD?=
+ =?us-ascii?Q?76BCB2727B7&l=3DMzUxNzc5","U":"http://click.listserve.citywi?=
+ =?us-ascii?Q?re.co.uk/click=3Fa=3Dhttps%253A%252F%252Fcitywire.co.uk%252F?=
+ =?us-ascii?Q?wealth-manager%252Fnews%252Fdiversity-international-women-in?=
+ =?us-ascii?Q?-finance-part-v%252Fa1419161%253Fre%253D79501%2526ea%253D112?=
+ =?us-ascii?Q?9047%2526utm=5Fsource%253DBulkEmail=5FWM=5FDaily=5FPM%2526ut?=
+ =?us-ascii?Q?m=5Fmedium%253DBulkEmail=5FWM=5FDaily=5FPM%2526utm=5Fcampaig?=
+ =?us-ascii?Q?n%253DBulkEmail=5FWM=5FDaily=5FPM&d=3D172A67C541089939C1507E?=
+ =?us-ascii?Q?565C832112&t=3DYz0yMjMzOCZlPTExMjkwNDc%3D&h=3D1E4175D46ED5AA?=
+ =?us-ascii?Q?72F46DD76BCB2727B7&l=3DMzUxNzc5","IAR":false,"LI":{"TN":"a",?=
+ =?us-ascii?Q?"IC":true,"BF":2,"SI":-1,"EndIndex":-1},"SRCI":1,"IU":null,"?=
+ =?us-ascii?Q?NU":"click.listserve.citywire.co.uk/click=3Fa=3Dhttps%253A%2?=
+ =?us-ascii?Q?52F%252Fcitywire.co.uk%252Fwealth-manager%252Fnews%252Fdiver?=
+ =?us-ascii?Q?sity-international-women-in-finance-part-v%252Fa1419161%253F?=
+ =?us-ascii?Q?re%253D79501%2526ea%253D1129047%2526utm=5Fsource%253DBulkEma?=
+ =?us-ascii?Q?il=5FWM=5FDaily=5FPM%2526utm=5Fmedium%253DBulkEmail=5FWM=5FD?=
+ =?us-ascii?Q?aily=5FPM%2526utm=5Fcampaign%253DBulkEmail=5FWM=5FDaily=5FPM?=
+ =?us-ascii?Q?&d=3D172A67C541089939C1507E565C832112&t=3DYz0yMjMzOCZlPTExMj?=
+ =?us-ascii?Q?kwNDc%3D&h=3D1E4175D46ED5AA72F46DD76BCB2727B7&l=3DMzUxNzc5",?=
+ =?us-ascii?Q?"UFT":"{101:36,102:4,103:1,105:30,108:5,110:8,111:14,112:3,1?=
+ =?us-ascii?Q?14:8,115:15,116:2,118:9,119:8,121:7,122:5,123:2,125:2,128:5,?=
+ =?us-ascii?Q?131:67725,135:\"612EE96A,8CB07814,34CA57A1,7CB05EE4,1DA190FC?=
+ =?us-ascii?Q?,44706194,8B053100,434711FA,4D13F94B,C210A217,92ED20B5,10166?=
+ =?us-ascii?Q?C3D,678CE431,E59026EE,171B246F,201B029B,5A4D6343,814E8749,AE?=
+ =?us-ascii?Q?D9A7D8\",201:7791,202:157,203:244,204:8036,205:14,206:1,207:?=
+ =?us-ascii?Q?54,208:3,209:52,210:3,211:50,212:3,213:57,214:3,215:62,216:3?=
+ =?us-ascii?Q?,217:64,218:3,219:57,220:3,221:51,222:2,223:51,224:2,225:51,?=
+ =?us-ascii?Q?226:2,227:51,228:2,229:56,230:3,231:62,232:3,233:54,234:3,23?=
+ =?us-ascii?Q?5:57,236:3,239:63,240:3,243:57,244:3,245:33,246:1,247:34,248?=
+ =?us-ascii?Q?:1,249:14,250:1,251:13,252:1}","DPD":{"UF":"256","OCH":"1724?=
+ =?us-ascii?Q?5760381974165873","SCHM":"Http","CNT":"1","SL":"1","LOG":"1"?=
+ =?us-ascii?Q?},"PROC":[]},{"ID":9,"OU":"http://click.listserve.citywire.c?=
+ =?us-ascii?Q?o.uk/click=3Fa=3Dhttp%253A%252F%252Faccounts.citywire.info%2?=
+ =?us-ascii?Q?52Fiframeredirector%253FreturnUrl%253Dhttps%25253A%25252F%25?=
+ =?us-ascii?Q?252Fprofessionals.fidelity.co.uk%25252Farticles%25252Fwebcas?=
+ =?us-ascii?Q?ts%25252F2020-10-22-fidelity-analysts-esg-spotlight-16033663?=
+ =?us-ascii?Q?39795%25253Futm=5Fterm%25253Dws=5Fesg%252526utm=5Fcampaign%2?=
+ =?us-ascii?Q?5253D%252526utm=5Fmedium%25253Dnative=5Fcontent%252526utm=5F?=
+ =?us-ascii?Q?source%25253Dcitywirewm%252526utm=5Fcontent%25253Desg=5Fspot?=
+ =?us-ascii?Q?light%2526via%253DClickOut%2526client%253Dfidelity%2526email?=
+ =?us-ascii?Q?%253D20201112=5Fwm=5Fpm&d=3DE42980DC789AF0069E5156CBD0A4B082?=
+ =?us-ascii?Q?&t=3DYz0yMjMzOCZlPTExMjkwNDc%3D&h=3D1E4175D46ED5AA72F46DD76B?=
+ =?us-ascii?Q?CB2727B7&l=3DMzUxNzgw","U":"http://click.listserve.citywire.?=
+ =?us-ascii?Q?co.uk/click=3Fa=3Dhttp%253A%252F%252Faccounts.citywire.info%?=
+ =?us-ascii?Q?252Fiframeredirector%253FreturnUrl%253Dhttps%25253A%25252F%2?=
+ =?us-ascii?Q?5252Fprofessionals.fidelity.co.uk%25252Farticles%25252Fwebca?=
+ =?us-ascii?Q?sts%25252F2020-10-22-fidelity-analysts-esg-spotlight-1603366?=
+ =?us-ascii?Q?339795%25253Futm=5Fterm%25253Dws=5Fesg%252526utm=5Fcampaign%?=
+ =?us-ascii?Q?25253D%252526utm=5Fmedium%25253Dnative=5Fcontent%252526utm?=
+ =?us-ascii?Q?=5Fsource%25253Dcitywirewm%252526utm=5Fcontent%25253Desg=5Fs?=
+ =?us-ascii?Q?potlight%2526via%253DClickOut%2526client%253Dfidelity%2526em?=
+ =?us-ascii?Q?ail%253D20201112=5Fwm=5Fpm&d=3DE42980DC789AF0069E5156CBD0A4B?=
+ =?us-ascii?Q?082&t=3DYz0yMjMzOCZlPTExMjkwNDc%3D&h=3D1E4175D46ED5AA72F46DD?=
+ =?us-ascii?Q?76BCB2727B7&l=3DMzUxNzgw","IAR":false,"LI":{"TN":"a","IC":tr?=
+ =?us-ascii?Q?ue,"BF":2,"SI":-1,"EndIndex":-1},"SRCI":1,"IU":null,"NU":"cl?=
+ =?us-ascii?Q?ick.listserve.citywire.co.uk/click=3Fa=3Dhttp%253A%252F%252F?=
+ =?us-ascii?Q?accounts.citywire.info%252Fiframeredirector%253FreturnUrl%25?=
+ =?us-ascii?Q?3Dhttps%25253A%25252F%25252Fprofessionals.fidelity.co.uk%252?=
+ =?us-ascii?Q?52Farticles%25252Fwebcasts%25252F2020-10-22-fidelity-analyst?=
+ =?us-ascii?Q?s-esg-spotlight-1603366339795%25253Futm=5Fterm%25253Dws=5Fes?=
+ =?us-ascii?Q?g%252526utm=5Fcampaign%25253D%252526utm=5Fmedium%25253Dnativ?=
+ =?us-ascii?Q?e=5Fcontent%252526utm=5Fsource%25253Dcitywirewm%252526utm=5F?=
+ =?us-ascii?Q?content%25253Desg=5Fspotlight%2526via%253DClickOut%2526clien?=
+ =?us-ascii?Q?t%253Dfidelity%2526email%253D20201112=5Fwm=5Fpm&d=3DE42980DC?=
+ =?us-ascii?Q?789AF0069E5156CBD0A4B082&t=3DYz0yMjMzOCZlPTExMjkwNDc%3D&h=3D?=
+ =?us-ascii?Q?1E4175D46ED5AA72F46DD76BCB2727B7&l=3DMzUxNzgw","UFT":"{101:3?=
+ =?us-ascii?Q?6,102:4,103:1,105:30,108:5,110:8,111:14,112:3,114:8,115:15,1?=
+ =?us-ascii?Q?16:2,118:9,119:8,121:7,122:5,123:2,125:2,128:5,131:67725,135?=
+ =?us-ascii?Q?:\"612EE96A,8CB07814,34CA57A1,7CB05EE4,1DA190FC,44706194,8B0?=
+ =?us-ascii?Q?53100,434711FA,4D13F94B,C210A217,92ED20B5,10166C3D,678CE431,?=
+ =?us-ascii?Q?E59026EE,171B246F,201B029B,5A4D6343,814E8749,AED9A7D8\",201:?=
+ =?us-ascii?Q?7791,202:157,203:244,204:8036,205:14,206:1,207:54,208:3,209:?=
+ =?us-ascii?Q?52,210:3,211:50,212:3,213:57,214:3,215:62,216:3,217:64,218:3?=
+ =?us-ascii?Q?,219:57,220:3,221:51,222:2,223:51,224:2,225:51,226:2,227:51,?=
+ =?us-ascii?Q?228:2,229:56,230:3,231:62,232:3,233:54,234:3,235:57,236:3,23?=
+ =?us-ascii?Q?9:63,240:3,243:57,244:3,245:33,246:1,247:34,248:1,249:14,250?=
+ =?us-ascii?Q?:1,251:13,252:1}","DPD":{"UF":"256","OCH":"11011041858788303?=
+ =?us-ascii?Q?465","SCHM":"Http","CNT":"1","SL":"1","LOG":"1"},"PROC":[]},?=
+ =?us-ascii?Q?{"ID":10,"OU":"http://click.listserve.citywire.co.uk/click?=
+ =?us-ascii?Q?=3Fa=3Dhttps%253A%252F%252Fcitywire.co.uk%252Fwealth-manager?=
+ =?us-ascii?Q?%252Fnews%252Fhow-wh-ireland-returned-from-the-brink%252Fa14?=
+ =?us-ascii?Q?21515%253Fre%253D79501%2526ea%253D1129047%2526utm=5Fsource%2?=
+ =?us-ascii?Q?53DBulkEmail=5FWM=5FDaily=5FPM%2526utm=5Fmedium%253DBulkEmai?=
+ =?us-ascii?Q?l=5FWM=5FDaily=5FPM%2526utm=5Fcampaign%253DBulkEmail=5FWM=5F?=
+ =?us-ascii?Q?Daily=5FPM&d=3D172A67C541089939C1507E565C832112&t=3DYz0yMjMz?=
+ =?us-ascii?Q?OCZlPTExMjkwNDc%3D&h=3D1E4175D46ED5AA72F46DD76BCB2727B7&l=3D?=
+ =?us-ascii?Q?MzUxNzgx","U":"http://click.listserve.citywire.co.uk/click?=
+ =?us-ascii?Q?=3Fa=3Dhttps%253A%252F%252Fcitywire.co.uk%252Fwealth-manager?=
+ =?us-ascii?Q?%252Fnews%252Fhow-wh-ireland-returned-from-the-brink%252Fa14?=
+ =?us-ascii?Q?21515%253Fre%253D79501%2526ea%253D1129047%2526utm=5Fsource%2?=
+ =?us-ascii?Q?53DBulkEmail=5FWM=5FDaily=5FPM%2526utm=5Fmedium%253DBulkEmai?=
+ =?us-ascii?Q?l=5FWM=5FDaily=5FPM%2526utm=5Fcampaign%253DBulkEmail=5FWM=5F?=
+ =?us-ascii?Q?Daily=5FPM&d=3D172A67C541089939C1507E565C832112&t=3DYz0yMjMz?=
+ =?us-ascii?Q?OCZlPTExMjkwNDc%3D&h=3D1E4175D46ED5AA72F46DD76BCB2727B7&l=3D?=
+ =?us-ascii?Q?MzUxNzgx","IAR":false,"LI":{"TN":"a","IC":true,"BF":2,"SI":-?=
+ =?us-ascii?Q?1,"EndIndex":-1},"SRCI":1,"IU":null,"NU":"click.listserve.ci?=
+ =?us-ascii?Q?tywire.co.uk/click=3Fa=3Dhttps%253A%252F%252Fcitywire.co.uk%?=
+ =?us-ascii?Q?252Fwealth-manager%252Fnews%252Fhow-wh-ireland-returned-from?=
+ =?us-ascii?Q?-the-brink%252Fa1421515%253Fre%253D79501%2526ea%253D1129047%?=
+ =?us-ascii?Q?2526utm=5Fsource%253DBulkEmail=5FWM=5FDaily=5FPM%2526utm=5Fm?=
+ =?us-ascii?Q?edium%253DBulkEmail=5FWM=5FDaily=5FPM%2526utm=5Fcampaign%253?=
+ =?us-ascii?Q?DBulkEmail=5FWM=5FDaily=5FPM&d=3D172A67C541089939C1507E565C8?=
+ =?us-ascii?Q?32112&t=3DYz0yMjMzOCZlPTExMjkwNDc%3D&h=3D1E4175D46ED5AA72F46?=
+ =?us-ascii?Q?DD76BCB2727B7&l=3DMzUxNzgx","UFT":"{101:36,102:4,103:1,105:3?=
+ =?us-ascii?Q?0,108:5,110:8,111:14,112:3,114:8,115:15,116:2,118:9,119:8,12?=
+ =?us-ascii?Q?1:7,122:5,123:2,125:2,128:5,131:67725,135:\"612EE96A,8CB0781?=
+ =?us-ascii?Q?4,34CA57A1,7CB05EE4,1DA190FC,44706194,8B053100,434711FA,4D13?=
+ =?us-ascii?Q?F94B,C210A217,92ED20B5,10166C3D,678CE431,E59026EE,171B246F,2?=
+ =?us-ascii?Q?01B029B,5A4D6343,814E8749,AED9A7D8\",201:7791,202:157,203:24?=
+ =?us-ascii?Q?4,204:8036,205:14,206:1,207:54,208:3,209:52,210:3,211:50,212?=
+ =?us-ascii?Q?:3,213:57,214:3,215:62,216:3,217:64,218:3,219:57,220:3,221:5?=
+ =?us-ascii?Q?1,222:2,223:51,224:2,225:51,226:2,227:51,228:2,229:56,230:3,?=
+ =?us-ascii?Q?231:62,232:3,233:54,234:3,235:57,236:3,239:63,240:3,243:57,2?=
+ =?us-ascii?Q?44:3,245:33,246:1,247:34,248:1,249:14,250:1,251:13,252:1}","?=
+ =?us-ascii?Q?DPD":{"UF":"256","OCH":"3094514773819001051","SCHM":"Http","?=
+ =?us-ascii?Q?CNT":"1","SL":"1","LOG":"1"},"PROC":[]},{"ID":11,"OU":"http:?=
+ =?us-ascii?Q?//click.listserve.citywire.co.uk/click=3Fa=3Dhttps%253A%252F?=
+ =?us-ascii?Q?%252Fcitywire.co.uk%252Fwealth-manager%252Fnews%252Fmattioli?=
+ =?us-ascii?Q?-woods-hires-ex-premier-uk-equity-head-chris-white%252Fa1424?=
+ =?us-ascii?Q?606%253Fre%253D79501%2526ea%253D1129047%2526utm=5Fsource%253?=
+ =?us-ascii?Q?DBulkEmail=5FWM=5FDaily=5FPM%2526utm=5Fmedium%253DBulkEmail?=
+ =?us-ascii?Q?=5FWM=5FDaily=5FPM%2526utm=5Fcampaign%253DBulkEmail=5FWM=5FD?=
+ =?us-ascii?Q?aily=5FPM&d=3D172A67C541089939C1507E565C832112&t=3DYz0yMjMzO?=
+ =?us-ascii?Q?CZlPTExMjkwNDc%3D&h=3D1E4175D46ED5AA72F46DD76BCB2727B7&l=3DM?=
+ =?us-ascii?Q?zUxNzgy","U":"http://click.listserve.citywire.co.uk/click=3F?=
+ =?us-ascii?Q?a=3Dhttps%253A%252F%252Fcitywire.co.uk%252Fwealth-manager%25?=
+ =?us-ascii?Q?2Fnews%252Fmattioli-woods-hires-ex-premier-uk-equity-head-ch?=
+ =?us-ascii?Q?ris-white%252Fa1424606%253Fre%?=
+X-MS-Exchange-Organization-Persisted-Urls-2:
+	=?us-ascii?Q?253D79501%2526ea%253D1129047%2526utm=5Fsource%253DBulkEmail?=
+ =?us-ascii?Q?=5FWM=5FDaily=5FPM%2526utm=5Fmedium%253DBulkEmail=5FWM=5FDai?=
+ =?us-ascii?Q?ly=5FPM%2526utm=5Fcampaign%253DBulkEmail=5FWM=5FDaily=5FPM&d?=
+ =?us-ascii?Q?=3D172A67C541089939C1507E565C832112&t=3DYz0yMjMzOCZlPTExMjkw?=
+ =?us-ascii?Q?NDc%3D&h=3D1E4175D46ED5AA72F46DD76BCB2727B7&l=3DMzUxNzgy","I?=
+ =?us-ascii?Q?AR":false,"LI":{"TN":"a","IC":true,"BF":2,"SI":-1,"EndIndex"?=
+ =?us-ascii?Q?:-1},"SRCI":1,"IU":null,"NU":"click.listserve.citywire.co.uk?=
+ =?us-ascii?Q?/click=3Fa=3Dhttps%253A%252F%252Fcitywire.co.uk%252Fwealth-m?=
+ =?us-ascii?Q?anager%252Fnews%252Fmattioli-woods-hires-ex-premier-uk-equit?=
+ =?us-ascii?Q?y-head-chris-white%252Fa1424606%253Fre%253D79501%2526ea%253D?=
+ =?us-ascii?Q?1129047%2526utm=5Fsource%253DBulkEmail=5FWM=5FDaily=5FPM%252?=
+ =?us-ascii?Q?6utm=5Fmedium%253DBulkEmail=5FWM=5FDaily=5FPM%2526utm=5Fcamp?=
+ =?us-ascii?Q?aign%253DBulkEmail=5FWM=5FDaily=5FPM&d=3D172A67C541089939C15?=
+ =?us-ascii?Q?07E565C832112&t=3DYz0yMjMzOCZlPTExMjkwNDc%3D&h=3D1E4175D46ED?=
+ =?us-ascii?Q?5AA72F46DD76BCB2727B7&l=3DMzUxNzgy","UFT":"{101:36,102:4,103?=
+ =?us-ascii?Q?:1,105:30,108:5,110:8,111:14,112:3,114:8,115:15,116:2,118:9,?=
+ =?us-ascii?Q?119:8,121:7,122:5,123:2,125:2,128:5,131:67725,135:\"612EE96A?=
+ =?us-ascii?Q?,8CB07814,34CA57A1,7CB05EE4,1DA190FC,44706194,8B053100,43471?=
+ =?us-ascii?Q?1FA,4D13F94B,C210A217,92ED20B5,10166C3D,678CE431,E59026EE,17?=
+ =?us-ascii?Q?1B246F,201B029B,5A4D6343,814E8749,AED9A7D8\",201:7791,202:15?=
+ =?us-ascii?Q?7,203:244,204:8036,205:14,206:1,207:54,208:3,209:52,210:3,21?=
+ =?us-ascii?Q?1:50,212:3,213:57,214:3,215:62,216:3,217:64,218:3,219:57,220?=
+ =?us-ascii?Q?:3,221:51,222:2,223:51,224:2,225:51,226:2,227:51,228:2,229:5?=
+ =?us-ascii?Q?6,230:3,231:62,232:3,233:54,234:3,235:57,236:3,239:63,240:3,?=
+ =?us-ascii?Q?243:57,244:3,245:33,246:1,247:34,248:1,249:14,250:1,251:13,2?=
+ =?us-ascii?Q?52:1}","DPD":{"UF":"256","OCH":"12958867280775719829","SCHM"?=
+ =?us-ascii?Q?:"Http","CNT":"1","SL":"1","LOG":"1"},"PROC":[]},{"ID":12,"O?=
+ =?us-ascii?Q?U":"http://click.listserve.citywire.co.uk/click=3Fa=3Dhttps%?=
+ =?us-ascii?Q?253A%252F%252Fcitywire.co.uk%252Fwealth-manager%252Fnews%252?=
+ =?us-ascii?Q?Fbrown-shipley-taps-julius-baer-regional-boss-to-head-manche?=
+ =?us-ascii?Q?ster%252Fa1424591%253Fre%253D79501%2526ea%253D1129047%2526ut?=
+ =?us-ascii?Q?m=5Fsource%253DBulkEmail=5FWM=5FDaily=5FPM%2526utm=5Fmedium%?=
+ =?us-ascii?Q?253DBulkEmail=5FWM=5FDaily=5FPM%2526utm=5Fcampaign%253DBulkE?=
+ =?us-ascii?Q?mail=5FWM=5FDaily=5FPM&d=3D172A67C541089939C1507E565C832112&?=
+ =?us-ascii?Q?t=3DYz0yMjMzOCZlPTExMjkwNDc%3D&h=3D1E4175D46ED5AA72F46DD76BC?=
+ =?us-ascii?Q?B2727B7&l=3DMzUxNzgz","U":"http://click.listserve.citywire.c?=
+ =?us-ascii?Q?o.uk/click=3Fa=3Dhttps%253A%252F%252Fcitywire.co.uk%252Fweal?=
+ =?us-ascii?Q?th-manager%252Fnews%252Fbrown-shipley-taps-julius-baer-regio?=
+ =?us-ascii?Q?nal-boss-to-head-manchester%252Fa1424591%253Fre%253D79501%25?=
+ =?us-ascii?Q?26ea%253D1129047%2526utm=5Fsource%253DBulkEmail=5FWM=5FDaily?=
+ =?us-ascii?Q?=5FPM%2526utm=5Fmedium%253DBulkEmail=5FWM=5FDaily=5FPM%2526u?=
+ =?us-ascii?Q?tm=5Fcampaign%253DBulkEmail=5FWM=5FDaily=5FPM&d=3D172A67C541?=
+ =?us-ascii?Q?089939C1507E565C832112&t=3DYz0yMjMzOCZlPTExMjkwNDc%3D&h=3D1E?=
+ =?us-ascii?Q?4175D46ED5AA72F46DD76BCB2727B7&l=3DMzUxNzgz","IAR":false,"LI?=
+ =?us-ascii?Q?":{"TN":"a","IC":true,"BF":2,"SI":-1,"EndIndex":-1},"SRCI":1?=
+ =?us-ascii?Q?,"IU":null,"NU":"click.listserve.citywire.co.uk/click=3Fa=3D?=
+ =?us-ascii?Q?https%253A%252F%252Fcitywire.co.uk%252Fwealth-manager%252Fne?=
+ =?us-ascii?Q?ws%252Fbrown-shipley-taps-julius-baer-regional-boss-to-head-?=
+ =?us-ascii?Q?manchester%252Fa1424591%253Fre%253D79501%2526ea%253D1129047%?=
+ =?us-ascii?Q?2526utm=5Fsource%253DBulkEmail=5FWM=5FDaily=5FPM%2526utm=5Fm?=
+ =?us-ascii?Q?edium%253DBulkEmail=5FWM=5FDaily=5FPM%2526utm=5Fcampaign%253?=
+ =?us-ascii?Q?DBulkEmail=5FWM=5FDaily=5FPM&d=3D172A67C541089939C1507E565C8?=
+ =?us-ascii?Q?32112&t=3DYz0yMjMzOCZlPTExMjkwNDc%3D&h=3D1E4175D46ED5AA72F46?=
+ =?us-ascii?Q?DD76BCB2727B7&l=3DMzUxNzgz","UFT":"{101:36,102:4,103:1,105:3?=
+ =?us-ascii?Q?0,108:5,110:8,111:14,112:3,114:8,115:15,116:2,118:9,119:8,12?=
+ =?us-ascii?Q?1:7,122:5,123:2,125:2,128:5,131:67725,135:\"612EE96A,8CB0781?=
+ =?us-ascii?Q?4,34CA57A1,7CB05EE4,1DA190FC,44706194,8B053100,434711FA,4D13?=
+ =?us-ascii?Q?F94B,C210A217,92ED20B5,10166C3D,678CE431,E59026EE,171B246F,2?=
+ =?us-ascii?Q?01B029B,5A4D6343,814E8749,AED9A7D8\",201:7791,202:157,203:24?=
+ =?us-ascii?Q?4,204:8036,205:14,206:1,207:54,208:3,209:52,210:3,211:50,212?=
+ =?us-ascii?Q?:3,213:57,214:3,215:62,216:3,217:64,218:3,219:57,220:3,221:5?=
+ =?us-ascii?Q?1,222:2,223:51,224:2,225:51,226:2,227:51,228:2,229:56,230:3,?=
+ =?us-ascii?Q?231:62,232:3,233:54,234:3,235:57,236:3,239:63,240:3,243:57,2?=
+ =?us-ascii?Q?44:3,245:33,246:1,247:34,248:1,249:14,250:1,251:13,252:1}","?=
+ =?us-ascii?Q?DPD":{"UF":"256","OCH":"1950690727951336720","SCHM":"Http","?=
+ =?us-ascii?Q?CNT":"1"},"PROC":[]},{"ID":13,"OU":"http://click.listserve.c?=
+ =?us-ascii?Q?itywire.co.uk/click=3Fa=3Dhttp%253A%252F%252Faccounts.citywi?=
+ =?us-ascii?Q?re.info%252Fiframeredirector%253FreturnUrl%253Dhttps%25253A%?=
+ =?us-ascii?Q?25252F%25252Fad.doubleclick.net%25252Fddm%25252Fclk%25252F47?=
+ =?us-ascii?Q?6619530%25253B282927871%25253Bw%2526via%253DClickOut%2526cli?=
+ =?us-ascii?Q?ent%253Dcapital%2526email%253D20201112=5Fwm=5Fpm&d=3DE42980D?=
+ =?us-ascii?Q?C789AF0069E5156CBD0A4B082&t=3DYz0yMjMzOCZlPTExMjkwNDc%3D&h?=
+ =?us-ascii?Q?=3D1E4175D46ED5AA72F46DD76BCB2727B7&l=3DMzUxNzg0","U":"http:?=
+ =?us-ascii?Q?//click.listserve.citywire.co.uk/click=3Fa=3Dhttp%253A%252F%?=
+ =?us-ascii?Q?252Faccounts.citywire.info%252Fiframeredirector%253FreturnUr?=
+ =?us-ascii?Q?l%253Dhttps%25253A%25252F%25252Fad.doubleclick.net%25252Fddm?=
+ =?us-ascii?Q?%25252Fclk%25252F476619530%25253B282927871%25253Bw%2526via%2?=
+ =?us-ascii?Q?53DClickOut%2526client%253Dcapital%2526email%253D20201112=5F?=
+ =?us-ascii?Q?wm=5Fpm&d=3DE42980DC789AF0069E5156CBD0A4B082&t=3DYz0yMjMzOCZ?=
+ =?us-ascii?Q?lPTExMjkwNDc%3D&h=3D1E4175D46ED5AA72F46DD76BCB2727B7&l=3DMzU?=
+ =?us-ascii?Q?xNzg0","IAR":false,"LI":{"TN":"a","IC":true,"BF":2,"SI":-1,"?=
+ =?us-ascii?Q?EndIndex":-1},"SRCI":1,"IU":null,"NU":"click.listserve.cityw?=
+ =?us-ascii?Q?ire.co.uk/click=3Fa=3Dhttp%253A%252F%252Faccounts.citywire.i?=
+ =?us-ascii?Q?nfo%252Fiframeredirector%253FreturnUrl%253Dhttps%25253A%2525?=
+ =?us-ascii?Q?2F%25252Fad.doubleclick.net%25252Fddm%25252Fclk%25252F476619?=
+ =?us-ascii?Q?530%25253B282927871%25253Bw%2526via%253DClickOut%2526client%?=
+ =?us-ascii?Q?253Dcapital%2526email%253D20201112=5Fwm=5Fpm&d=3DE42980DC789?=
+ =?us-ascii?Q?AF0069E5156CBD0A4B082&t=3DYz0yMjMzOCZlPTExMjkwNDc%3D&h=3D1E4?=
+ =?us-ascii?Q?175D46ED5AA72F46DD76BCB2727B7&l=3DMzUxNzg0","UFT":"{101:36,1?=
+ =?us-ascii?Q?02:4,103:1,105:30,108:5,110:8,111:14,112:3,114:8,115:15,116:?=
+ =?us-ascii?Q?2,118:9,119:8,121:7,122:5,123:2,125:2,128:5,131:67725,135:\"?=
+ =?us-ascii?Q?612EE96A,8CB07814,34CA57A1,7CB05EE4,1DA190FC,44706194,8B0531?=
+ =?us-ascii?Q?00,434711FA,4D13F94B,C210A217,92ED20B5,10166C3D,678CE431,E59?=
+ =?us-ascii?Q?026EE,171B246F,201B029B,5A4D6343,814E8749,AED9A7D8\",201:779?=
+ =?us-ascii?Q?1,202:157,203:244,204:8036,205:14,206:1,207:54,208:3,209:52,?=
+ =?us-ascii?Q?210:3,211:50,212:3,213:57,214:3,215:62,216:3,217:64,218:3,21?=
+ =?us-ascii?Q?9:57,220:3,221:51,222:2,223:51,224:2,225:51,226:2,227:51,228?=
+ =?us-ascii?Q?:2,229:56,230:3,231:62,232:3,233:54,234:3,235:57,236:3,239:6?=
+ =?us-ascii?Q?3,240:3,243:57,244:3,245:33,246:1,247:34,248:1,249:14,250:1,?=
+ =?us-ascii?Q?251:13,252:1}","DPD":{"UF":"256","OCH":"17622299892003436601?=
+ =?us-ascii?Q?","SCHM":"Http","CNT":"1"},"PROC":[]},{"ID":16,"OU":"http://?=
+ =?us-ascii?Q?click.listserve.citywire.co.uk/click=3Fa=3Dhttp%253A%252F%25?=
+ =?us-ascii?Q?2Fcitywire.co.uk%252Fwealth-manager%252Fterms&d=3D172A67C541?=
+ =?us-ascii?Q?089939C1507E565C832112&t=3DYz0yMjMzOCZlPTExMjkwNDc%3D&h=3D1E?=
+ =?us-ascii?Q?4175D46ED5AA72F46DD76BCB2727B7&l=3DMzUxNzg1","U":"http://cli?=
+ =?us-ascii?Q?ck.listserve.citywire.co.uk/click=3Fa=3Dhttp%253A%252F%252Fc?=
+ =?us-ascii?Q?itywire.co.uk%252Fwealth-manager%252Fterms&d=3D172A67C541089?=
+ =?us-ascii?Q?939C1507E565C832112&t=3DYz0yMjMzOCZlPTExMjkwNDc%3D&h=3D1E417?=
+ =?us-ascii?Q?5D46ED5AA72F46DD76BCB2727B7&l=3DMzUxNzg1","IAR":false,"LI":{?=
+ =?us-ascii?Q?"TN":"a","IC":true,"BF":2,"SI":-1,"EndIndex":-1},"SRCI":1,"I?=
+ =?us-ascii?Q?U":null,"NU":"click.listserve.citywire.co.uk/click=3Fa=3Dhtt?=
+ =?us-ascii?Q?p%253A%252F%252Fcitywire.co.uk%252Fwealth-manager%252Fterms&?=
+ =?us-ascii?Q?d=3D172A67C541089939C1507E565C832112&t=3DYz0yMjMzOCZlPTExMjk?=
+ =?us-ascii?Q?wNDc%3D&h=3D1E4175D46ED5AA72F46DD76BCB2727B7&l=3DMzUxNzg1","?=
+ =?us-ascii?Q?UFT":"{101:36,102:4,103:1,105:30,108:5,110:8,111:14,112:3,11?=
+ =?us-ascii?Q?4:8,115:15,116:2,118:9,119:8,121:7,122:5,123:2,125:2,128:5,1?=
+ =?us-ascii?Q?31:67725,135:\"612EE96A,8CB07814,34CA57A1,7CB05EE4,1DA190FC,?=
+ =?us-ascii?Q?44706194,8B053100,434711FA,4D13F94B,C210A217,92ED20B5,10166C?=
+ =?us-ascii?Q?3D,678CE431,E59026EE,171B246F,201B029B,5A4D6343,814E8749,AED?=
+ =?us-ascii?Q?9A7D8\",201:7791,202:157,203:244,204:8036,205:14,206:1,207:5?=
+ =?us-ascii?Q?4,208:3,209:52,210:3,211:50,212:3,213:57,214:3,215:62,216:3,?=
+ =?us-ascii?Q?217:64,218:3,219:57,220:3,221:51,222:2,223:51,224:2,225:51,2?=
+ =?us-ascii?Q?26:2,227:51,228:2,229:56,230:3,231:62,232:3,233:54,234:3,235?=
+ =?us-ascii?Q?:57,236:3,239:63,240:3,243:57,244:3,245:33,246:1,247:34,248:?=
+ =?us-ascii?Q?1,249:14,250:1,251:13,252:1}","DPD":{"UF":"256","OCH":"46798?=
+ =?us-ascii?Q?94080919768036","SCHM":"Http","CNT":"1"},"PROC":[]},{"ID":17?=
+ =?us-ascii?Q?,"OU":"http://click.listserve.citywire.co.uk/click=3Fa=3Dhtt?=
+ =?us-ascii?Q?p%253A%252F%252Fcitywire.co.uk%252Fwealth-manager%252Fprivac?=
+ =?us-ascii?Q?y&d=3D172A67C541089939C1507E565C832112&t=3DYz0yMjMzOCZlPTExM?=
+ =?us-ascii?Q?jkwNDc%3D&h=3D1E4175D46ED5AA72F46DD76BCB2727B7&l=3DMzUxNzg2"?=
+ =?us-ascii?Q?,"U":"http://click.listserve.citywire.co.uk/click=3Fa=3Dhttp?=
+ =?us-ascii?Q?%253A%252F%252Fcitywire.co.uk%252Fwealth-manager%252Fprivacy?=
+ =?us-ascii?Q?&d=3D172A67C541089939C1507E565C832112&t=3DYz0yMjMzOCZlPTExMj?=
+ =?us-ascii?Q?kwNDc%3D&h=3D1E4175D46ED5AA72F46DD76BCB2727B7&l=3DMzUxNzg2",?=
+ =?us-ascii?Q?"IAR":false,"LI":{"TN":"a","IC":true,"BF":2,"SI":-1,"EndInde?=
+ =?us-ascii?Q?x":-1},"SRCI":1,"IU":null,"NU":"click.listserve.citywire.co.?=
+ =?us-ascii?Q?uk/click=3Fa=3Dhttp%253A%252F%252Fcitywire.co.uk%252Fwealth-?=
+ =?us-ascii?Q?manager%252Fprivacy&d=3D172A67C541089939C1507E565C832112&t?=
+ =?us-ascii?Q?=3DYz0yMjMzOCZlPTExMjkwNDc%3D&h=3D1E4175D46ED5AA72F46DD76BCB?=
+ =?us-ascii?Q?2727B7&l=3DMzUxNzg2","UFT":"{101:36,102:4,103:1,105:30,108:5?=
+ =?us-ascii?Q?,110:8,111:14,112:3,114:8,115:15,116:2,118:9,119:8,121:7,122?=
+ =?us-ascii?Q?:5,123:2,125:2,128:5,131:67725,135:\"612EE96A,8CB07814,34CA5?=
+ =?us-ascii?Q?7A1,7CB05EE4,1DA190FC,44706194,8B053100,434711FA,4D13F94B,C2?=
+ =?us-ascii?Q?10A217,92ED20B5,10166C3D,678CE431,E59026EE,171B246F,201B029B?=
+ =?us-ascii?Q?,5A4D6343,814E8749,AED9A7D8\",201:7791,202:157,203:244,204:8?=
+ =?us-ascii?Q?036,205:14,206:1,207:54,208:3,209:52,210:3,211:50,212:3,213:?=
+ =?us-ascii?Q?57,214:3,215:62,216:3,217:64,218:3,219:57,220:3,221:51,222:2?=
+ =?us-ascii?Q?,223:51,224:2,225:51,226:2,227:51,228:2,229:56,230:3,231:62,?=
+ =?us-ascii?Q?232:3,233:54,234:3,235:57,236:3,239:63,240:3,243:57,244:3,24?=
+ =?us-ascii?Q?5:33,246:1,247:34,248:1,249:14,250:1,251:13,252:1}","DPD":{"?=
+ =?us-ascii?Q?UF":"256","OCH":"15452819634428303902","SCHM":"Http","CNT":"?=
+ =?us-ascii?Q?1"},"PROC":[]},{"ID":18,"OU":"http://click.listserve.citywir?=
+ =?us-ascii?Q?e.co.uk/click=3Fa=3Dhttp%253A%252F%252Faccounts.citywire.inf?=
+ =?us-ascii?Q?o%252Funsubscribe%253FUC25yiC%2fKK4YyYANcMNrl8ZZ2tBzN1Yf=3Dg?=
+ =?us-ascii?Q?tRN0ZlLqxdagKdix3xveeR3izv9adGd%2526region%253DWM%2526emailc?=
+ =?us-ascii?Q?ategoryid%253D22%2526re%253D79501%2526ea%253D1129047%2526utm?=
+ =?us-ascii?Q?=5Fsource%253DBulkEmail=5FWM=5FDaily=5FPM%2526utm=5Fmedium%2?=
+ =?us-ascii?Q?53DBulkEmail=5FWM=5FDaily=5FPM%2526utm=5Fcampaign%253DBulkEm?=
+ =?us-ascii?Q?ail=5FWM=5FDaily=5FPM&d=3DE42980DC789AF0069E5156CBD0A4B082&t?=
+ =?us-ascii?Q?=3DYz0yMjMzOCZlPTExMjkwNDc%3D&h=3D1E4175D46ED5AA72F46DD76BCB?=
+ =?us-ascii?Q?2727B7&l=3DMzUxNzg3","U":"http://click.listserve.citywire.co?=
+ =?us-ascii?Q?.uk/click=3Fa=3Dhttp%253A%252F%252Faccounts.citywire.info%25?=
+ =?us-ascii?Q?2Funsubscribe%253FUC25yiC%2fKK4YyYANcMNrl8ZZ2tBzN1Yf=3DgtRN0?=
+ =?us-ascii?Q?ZlLqxdagKdix3xveeR3izv9adGd%2526region%253DWM%2526emailcateg?=
+ =?us-ascii?Q?oryid%253D22%2526re%253D79501%2526ea%253D1129047%2526utm=5Fs?=
+ =?us-ascii?Q?ource%253DBulkEmail=5FWM=5FDaily=5FPM%2526utm=5Fmedium%253DB?=
+ =?us-ascii?Q?ulkEmail=5FWM=5FDaily=5FPM%2526utm=5Fcampaign%253DBulkEmail?=
+ =?us-ascii?Q?=5FWM=5FDaily=5FPM&d=3DE42980DC789AF0069E5156CBD0A4B082&t=3D?=
+ =?us-ascii?Q?Yz0yMjMzOCZlPTExMjkwNDc%3D&h=3D1E4175D46ED5AA72F46DD76BCB272?=
+ =?us-ascii?Q?7B7&l=3DMzUxNzg3","IAR":false,"LI":{"TN":"a","IC":true,"BF":?=
+ =?us-ascii?Q?2,"SI":-1,"EndIndex":-1},"SRCI":1,"IU":null,"NU":"click.list?=
+ =?us-ascii?Q?serve.citywire.co.uk/click=3Fa=3Dhttp%253A%252F%252Faccounts?=
+ =?us-ascii?Q?.citywire.info%252Funsubscribe%253FUC25yiC%2fKK4YyYANcMNrl8Z?=
+ =?us-ascii?Q?Z2?=
+X-MS-Exchange-Organization-Persisted-Urls-3:
+	=?us-ascii?Q?tBzN1Yf=3DgtRN0ZlLqxdagKdix3xveeR3izv9adGd%2526region%253DWM?=
+ =?us-ascii?Q?%2526emailcategoryid%253D22%2526re%253D79501%2526ea%253D1129?=
+ =?us-ascii?Q?047%2526utm=5Fsource%253DBulkEmail=5FWM=5FDaily=5FPM%2526utm?=
+ =?us-ascii?Q?=5Fmedium%253DBulkEmail=5FWM=5FDaily=5FPM%2526utm=5Fcampaign?=
+ =?us-ascii?Q?%253DBulkEmail=5FWM=5FDaily=5FPM&d=3DE42980DC789AF0069E5156C?=
+ =?us-ascii?Q?BD0A4B082&t=3DYz0yMjMzOCZlPTExMjkwNDc%3D&h=3D1E4175D46ED5AA7?=
+ =?us-ascii?Q?2F46DD76BCB2727B7&l=3DMzUxNzg3","UFT":"{101:36,102:4,103:1,1?=
+ =?us-ascii?Q?05:30,108:5,110:8,111:14,112:3,114:8,115:15,116:2,118:9,119:?=
+ =?us-ascii?Q?8,121:7,122:5,123:2,125:2,128:5,131:67725,135:\"612EE96A,8CB?=
+ =?us-ascii?Q?07814,34CA57A1,7CB05EE4,1DA190FC,44706194,8B053100,434711FA,?=
+ =?us-ascii?Q?4D13F94B,C210A217,92ED20B5,10166C3D,678CE431,E59026EE,171B24?=
+ =?us-ascii?Q?6F,201B029B,5A4D6343,814E8749,AED9A7D8\",201:7791,202:157,20?=
+ =?us-ascii?Q?3:244,204:8036,205:14,206:1,207:54,208:3,209:52,210:3,211:50?=
+ =?us-ascii?Q?,212:3,213:57,214:3,215:62,216:3,217:64,218:3,219:57,220:3,2?=
+ =?us-ascii?Q?21:51,222:2,223:51,224:2,225:51,226:2,227:51,228:2,229:56,23?=
+ =?us-ascii?Q?0:3,231:62,232:3,233:54,234:3,235:57,236:3,239:63,240:3,243:?=
+ =?us-ascii?Q?57,244:3,245:33,246:1,247:34,248:1,249:14,250:1,251:13,252:1?=
+ =?us-ascii?Q?}","DPD":{"UF":"256","OCH":"110501914063880178","SCHM":"Http?=
+ =?us-ascii?Q?","CNT":"1"},"PROC":[]},{"ID":2,"OU":"http://images.citywire?=
+ =?us-ascii?Q?.co.uk/Bulkemail/nb/nb-logo-wealth-manager-252x61.gif","U":"?=
+ =?us-ascii?Q?http://images.citywire.co.uk/Bulkemail/nb/nb-logo-wealth-man?=
+ =?us-ascii?Q?ager-252x61.gif","IAR":false,"LI":{"TN":"img","IC":false,"BF?=
+ =?us-ascii?Q?":2,"SI":-1,"EndIndex":-1},"SRCI":1,"IU":null,"NU":"images.c?=
+ =?us-ascii?Q?itywire.co.uk/Bulkemail/nb/nb-logo-wealth-manager-252x61.gif?=
+ =?us-ascii?Q?","UFT":"{101:68,102:4,105:21,108:4,110:8,111:14,112:3,114:8?=
+ =?us-ascii?Q?,115:6,116:1,118:6,119:8,121:7,122:5,123:2,125:2,128:33,129:?=
+ =?us-ascii?Q?1,130:4,131:67725,135:\"3EECF9A1,F5A67807,7569FD13,2162D8C1,?=
+ =?us-ascii?Q?92ED20B5,10166C3D,678CE431,E59026EE,171B246F,201B029B,ADF761?=
+ =?us-ascii?Q?DE,38C4CF17,87530DE9,DBA50D72,69993CB8,2810724,3861BB4F,D3B7?=
+ =?us-ascii?Q?1C2A,AED15CC6,58F859E3,655D65BF,24E711DE,6A080C48,2D93F9C0,3?=
+ =?us-ascii?Q?3096732,79BFB262,66B5BA13,22685472,9447E96D,633D9BF2,3DC9D36?=
+ =?us-ascii?Q?F,4AFA8270,1810591,2363D8D7,A9B918A3,3379B856,991760CF,25878?=
+ =?us-ascii?Q?88B,573C2344,FAF4E0B,FC648C,804F64E4,8E7E3401,C09FE678,84F92?=
+ =?us-ascii?Q?C3F\"}","DPD":{"UF":"65536","OCH":"17790407506045443083","SC?=
+ =?us-ascii?Q?HM":"Http","CNT":"1"},"PROC":[]},{"ID":14,"OU":"http://ad.li?=
+ =?us-ascii?Q?stserve.citywire.co.uk:81/api/v1/img/698230/em=5Fwm=5Fcitywi?=
+ =?us-ascii?Q?re=5Fhouse=5Fcirculation=5Fmar2020v2","U":"http://ad.listser?=
+ =?us-ascii?Q?ve.citywire.co.uk:81/api/v1/img/698230/em=5Fwm=5Fcitywire=5F?=
+ =?us-ascii?Q?house=5Fcirculation=5Fmar2020v2","IAR":false,"LI":{"TN":"img?=
+ =?us-ascii?Q?","IC":false,"BF":2,"SI":-1,"EndIndex":-1},"SRCI":1,"IU":nul?=
+ =?us-ascii?Q?l,"NU":"ad.listserve.citywire.co.uk/api/v1/img/698230/em=5Fw?=
+ =?us-ascii?Q?m=5Fcitywire=5Fhouse=5Fcirculation=5Fmar2020v2","UFT":"{101:?=
+ =?us-ascii?Q?88,102:4,105:27,107:1,108:5,110:8,111:14,112:3,114:8,115:12,?=
+ =?us-ascii?Q?116:2,118:9,119:8,121:7,122:5,123:2,125:2,127:5,128:42,131:6?=
+ =?us-ascii?Q?7725,135:\"7CB05EE4,1DA190FC,44706194,8B053100,434711FA,4D13?=
+ =?us-ascii?Q?F94B,C210A217,92ED20B5,10166C3D,678CE431,E59026EE,171B246F,2?=
+ =?us-ascii?Q?01B029B,1F99EC85,BAFC4CFE,566A087A,96CE4BF4,F45673A2,8F01C14?=
+ =?us-ascii?Q?4\"}","DPD":{"UF":"65536","OCH":"17242949198699747466","SCHM?=
+ =?us-ascii?Q?":"Http","CNT":"1"},"PROC":[]},{"ID":15,"OU":"http://ad.list?=
+ =?us-ascii?Q?serve.citywire.co.uk:81/api/v1/imp/698230/em=5Fwm=5Fcitywire?=
+ =?us-ascii?Q?=5Fhouse=5Fcirculation=5Fmar2020v2","U":"http://ad.listserve?=
+ =?us-ascii?Q?.citywire.co.uk:81/api/v1/imp/698230/em=5Fwm=5Fcitywire=5Fho?=
+ =?us-ascii?Q?use=5Fcirculation=5Fmar2020v2","IAR":false,"LI":{"TN":"img",?=
+ =?us-ascii?Q?"IC":false,"BF":2,"SI":-1,"EndIndex":-1},"SRCI":1,"IU":null,?=
+ =?us-ascii?Q?"NU":"ad.listserve.citywire.co.uk/api/v1/imp/698230/em=5Fwm?=
+ =?us-ascii?Q?=5Fcitywire=5Fhouse=5Fcirculation=5Fmar2020v2","UFT":"{101:8?=
+ =?us-ascii?Q?8,102:4,105:27,107:1,108:5,110:8,111:14,112:3,114:8,115:12,1?=
+ =?us-ascii?Q?16:2,118:9,119:8,121:7,122:5,123:2,125:2,127:5,128:42,131:67?=
+ =?us-ascii?Q?725,135:\"7CB05EE4,1DA190FC,44706194,8B053100,434711FA,4D13F?=
+ =?us-ascii?Q?94B,C210A217,92ED20B5,10166C3D,678CE431,E59026EE,171B246F,20?=
+ =?us-ascii?Q?1B029B,1F99EC85,CDFC6AE7,566A087A,96CE4BF4,F45673A2,8F01C144?=
+ =?us-ascii?Q?\"}","DPD":{"UF":"65536","OCH":"11304355044825709179","SCHM"?=
+ =?us-ascii?Q?:"Http","CNT":"1"},"PROC":[]},{"ID":19,"OU":"http://utm.city?=
+ =?us-ascii?Q?wire.info/=5F=5FTrackEmailOpen.gif=3Feventname=3DOpen=5FNews?=
+ =?us-ascii?Q?letter=5FWM&emailIdentifier=3D79501&emailAddressId=3D1129047?=
+ =?us-ascii?Q?","U":"http://utm.citywire.info/=5F=5FTrackEmailOpen.gif=3Fe?=
+ =?us-ascii?Q?ventname=3DOpen=5FNewsletter=5FWM&emailIdentifier=3D79501&em?=
+ =?us-ascii?Q?ailAddressId=3D1129047","IAR":false,"LI":{"TN":"img","IC":fa?=
+ =?us-ascii?Q?lse,"BF":2,"SI":-1,"EndIndex":-1},"SRCI":1,"IU":null,"NU":"u?=
+ =?us-ascii?Q?tm.citywire.info/=5F=5FTrackEmailOpen.gif=3Feventname=3DOpen?=
+ =?us-ascii?Q?=5FNewsletter=5FWM&emailIdentifier=3D79501&emailAddressId=3D?=
+ =?us-ascii?Q?1129047","UFT":"{101:38,102:3,105:17,108:3,110:8,111:13,112:?=
+ =?us-ascii?Q?2,114:8,115:3,116:1,118:3,119:8,121:7,122:4,123:1,125:4,128:?=
+ =?us-ascii?Q?20,129:1,130:2,131:511449,135:\"FF8B3E4C,92ED20B5,10166C3D,6?=
+ =?us-ascii?Q?78CE431,E59026EE,171B246F,201B029B,A3560598,90D15363,15708EC?=
+ =?us-ascii?Q?0,665EBF48,DBA50D72,69993CB8,2810724,3861BB4F,D2FA342F,725D7?=
+ =?us-ascii?Q?A36,3AFCFACF,74F56B02,84F92C3F\"}","DPD":{"UF":"65536","OCH"?=
+ =?us-ascii?Q?:"760556043800486879","SCHM":"Http","CNT":"1"},"PROC":[]},{"?=
+ =?us-ascii?Q?ID":20,"OU":"http://click.listserve.citywire.co.uk/open=3Ft?=
+ =?us-ascii?Q?=3DYz0yMjMzOCZlPTExMjkwNDc%3D&h=3D1E4175D46ED5AA72F46DD76BCB?=
+ =?us-ascii?Q?2727B7","U":"http://click.listserve.citywire.co.uk/open=3Ft?=
+ =?us-ascii?Q?=3DYz0yMjMzOCZlPTExMjkwNDc%3D&h=3D1E4175D46ED5AA72F46DD76BCB?=
+ =?us-ascii?Q?2727B7","IAR":false,"LI":{"TN":"img","IC":false,"BF":2,"SI":?=
+ =?us-ascii?Q?-1,"EndIndex":-1},"SRCI":1,"IU":null,"NU":"click.listserve.c?=
+ =?us-ascii?Q?itywire.co.uk/open=3Ft=3DYz0yMjMzOCZlPTExMjkwNDc%3D&h=3D1E41?=
+ =?us-ascii?Q?75D46ED5AA72F46DD76BCB2727B7","UFT":"{101:35,102:4,103:1,105?=
+ =?us-ascii?Q?:30,108:5,110:8,111:14,112:3,114:8,115:15,116:2,118:9,119:8,?=
+ =?us-ascii?Q?121:7,122:5,123:2,125:2,128:4,131:67725,135:\"612EE96A,8CB07?=
+ =?us-ascii?Q?814,34CA57A1,7CB05EE4,1DA190FC,44706194,8B053100,434711FA,4D?=
+ =?us-ascii?Q?13F94B,C210A217,92ED20B5,10166C3D,678CE431,E59026EE,171B246F?=
+ =?us-ascii?Q?,201B029B,3AFCFACF,74F56B02\"}","DPD":{"UF":"65536","OCH":"1?=
+ =?us-ascii?Q?2411445543865305990","SCHM":"Http","CNT":"1"},"PROC":[]}]?=
+X-MS-Exchange-Organization-PersistedUrlCount: 20
+X-MS-Exchange-Organization-Antispam-PreContentFilter-ScanContext:
+	CategorizerOnSubmitted;CategorizerOnResolved;
+X-MS-Exchange-Organization-AVScannedByV2: Symantec;Microsoft;Command
+X-MS-Exchange-Organization-AVScanComplete: true
+X-MS-Exchange-Organization-UrlSelected: 1
+X-MS-Exchange-Organization-UrlLogged: 1
+X-MS-Exchange-Organization-Recipient-Limit-Verified: True
+X-MS-Exchange-Organization-TotalRecipientCount: 1
+X-MS-Exchange-Organization-ReplyAllBlocker-Verdict: Allow
+X-MS-Exchange-Organization-ASDirectionalityType: 1
+X-MS-Exchange-Organization-Boomerang-Verdict: None
+X-MS-Exchange-Organization-HMATPModel-DkimAuthStatus: 1
+X-MS-Exchange-Organization-HMATPModel-DmarcAuthStatus: 1
+X-MS-Exchange-Organization-IP-Bulk-Level: 1
+X-MS-Exchange-Organization-BCL: 1
+X-MS-Exchange-Organization-BCL-Source: P2Bulk
+X-MS-Exchange-Organization-SenderRecipientCommunicationState: EST
+X-MS-Exchange-Organization-Antispam-ContentFilter-ScanContext:
+	CategorizerOnResolved;
+X-MS-Exchange-Organization-Antiphish-V2: SKP-BLK-NOSAVE
+X-MS-Exchange-Organization-CommunicationStateSummary: EST
+X-MS-Exchange-Organization-FirstContactSummary:
+	ST=1;MRG=0;EXT=0;UN=1;ORCT=1;EV=1;FC=0;NESI=0;NES=0;ESTI=0;EST=1;INS=0;ERR=0
+X-MS-Exchange-Organization-CFA-UserOption: 0
+X-MS-Exchange-Organization-CompAuth-Eop: compauth=pass reason=100
+X-MS-Exchange-Organization-Feature-Long: 0	201:29368	202:503	203:1	205:344
+	208:320	213:58	215:29301	219:1	220:17	221:15	222:1	223:14	227:1	235:2	236:1
+	238:1	241:1	244:1	246:1	247:1	248:1	252:1	258:1	260:5	261:520	262:9	263:14
+	264:1042	265:32	1007:Latn	1008:aleris.com	1014:listserve.citywire.co.uk
+	1015:listserve.citywire.co.uk	1020:listserve.citywire.co.uk
+	1030:listserve.citywire.co.uk	1034:C00AF369@svelland.com
+	1035:listserve.citywire.co.uk
+X-MS-Exchange-Organization-HDRFeatureV2:
+	10;0;1;1;1;-1;1;1;1;1;7;7;0;1;7;0;108;24;18;26;27;-1;27;27;18;27;52;52;75;87;52;75;1;1;1;-1;-1;-1;-1;-1;-1;2;58;1;27
+X-MS-Exchange-Organization-ExtractionTags: SUB64;1IMG;2IMG;LINK;
+X-MS-Exchange-Organization-ExtractionTagsURLFound: URL
+X-MS-Exchange-Organization-ExtractionTagsSubject:
+	=?Windows-1252?Q?Revealed:_The_=A3470m_investors_paid_for_=91poor_value?=
+ =?Windows-1252?Q?=92_funds?=
+X-MS-Exchange-Organization-ExtractionTagsFrom: "Wealth Manager Afternoon"
+ <noreply@listserve.citywire.co.uk>
+X-MS-Exchange-Organization-ExtractionTagsSubjectNormalized:
+	=?iso-8859-1?Q?revealed_the_=A347orn_lnvestors_pald_for_por_value_funds?=
+X-MS-Oob-TLC-OOBClassifiers: OLM:5516;
+X-MS-Exchange-Organization-SpamScore: 2
+X-MS-Exchange-Organization-Antispam-AnalystRuleHits:
+	(279900001)(209900001)(286005)(166002)(33656002)(8426002)(7066003)(6916009)(356005)(76236003)(26005)(44726023)(44706002)(2616005)(55016002)(7596003)(7636003)(956004)(83380400001)(7696005)(118246002)(37786003)(1096003)(336012)(17308445002)(6606295002)
+X-MS-Exchange-Organization-Antispam-ScanContext: DIR:Incoming;SFV:NSPM;SKIP:0;
+X-MS-Exchange-Organization-Antispam-PostContentFilter-ScanContext:
+	CategorizerOnResolved;CategorizerOnRouted;
+X-MS-Exchange-Organization-SCL: 1
+X-Microsoft-Antispam: BCL:1;
+X-Microsoft-Antispam-Message-Info:
+	=?us-ascii?Q?e5CpN60WSOgoC41v+ARlZ4z4vyZZPyzdgzdLsW1DIMZTtVID+VtmAQI2BWIs?=
+ =?us-ascii?Q?n0jOMytL6xt3wJ455R70N64BbNnes585vAwmKXO/7Xcm8qZet9Zj7e1z4z0D?=
+ =?us-ascii?Q?FNXDoNoHr2Z5nh2MV1a7A6pL3eSznI29uOrlFZ/mXdnWbuLHTEGto2bHrD83?=
+ =?us-ascii?Q?FUgA9xao/xcfzif0rY8VKfQ14a77Q764OeKeJxNa/PbyNPyy41FYw0qx4zz5?=
+ =?us-ascii?Q?ZLiTzzDOU01yG9TrivzFXMSNQgmqu1hHSKnXWcX+lBkCE1YlJMo0qvdamiiN?=
+ =?us-ascii?Q?ER8/TL6grouH7E+E4CJArVJjJ59aStgZ0lk3iewnh6E94iU+l8i6xCu5B9Fd?=
+ =?us-ascii?Q?dPHTt0+F0STc2nRydwBFRX8FUFqt2wtRx9OSRU0RRt+D0U1KmbyQsC2AqJjX?=
+ =?us-ascii?Q?1bEiOJ0Se/JRfcze0Hhm2rxZJBlLLLYB6Z4H+feoimb3B61GKvbOzVkiny/m?=
+ =?us-ascii?Q?CbvYX66ZtbB8tVybQ4mzIPH2wk0qAzGUew3dBdltgVdo37Yg/iCr5av3oEsK?=
+ =?us-ascii?Q?uOwsgUll1xhZStFVe1kDadpxTgYno488tDH2cCzNAjSPmTaPyEq2Th6V5nxm?=
+ =?us-ascii?Q?E4Rb+d0iioWbHdDjqdQIJGqBSNcLA1q/P4vWNLBFxY3Sp+39r54bCwxxF52h?=
+ =?us-ascii?Q?JTiW0nbbPWOkdj/cFBU9reYYEZQT6f6hdlUMVQeicnpCSJT3nK7vd+eVgXiX?=
+ =?us-ascii?Q?Yamdmva76r7SHRqn9Wymg588Zn7S8QKTJNMcsWJM9xEIehhO5WtSahU2Xvyg?=
+ =?us-ascii?Q?qd8kNKEBGjDXCCjD+vrfLkI6FuFaKKsa07JMliJyjZFrWxC/64RTNYWJWXOa?=
+ =?us-ascii?Q?r6A2erOfVURi3xBXy9aggPPbtPy0sl+40+4WvUPtbRjlKaLJfd4ye4BLPYq2?=
+ =?us-ascii?Q?PgNmFh3qCJLfEXZBSP6nen5YsJTNRubBW82gC5fCqLhuazO42wtM77qS5k7k?=
+ =?us-ascii?Q?0xwhHQvfSErTccKM2x2Ej3P0gba9myLaroMvlt8pIOCmlAPGx2WLVL6OyvaE?=
+ =?us-ascii?Q?A9pGodmpncxYyg1YpI1416Sa4Re3dWibok5fbxadORMEkSfog+zDd4vuenI1?=
+ =?us-ascii?Q?FlWrDvD8erJ7SBy+eF7xZXlprCFvkPHdK+5lYje+C9g5mu5r7UURDcZmjh9X?=
+ =?us-ascii?Q?iis70gvGMGmwz5CSrgHJiYLNuis8OwPx8ZbudBr4RtwFYd/vuuEDw4q2ZFJJ?=
+ =?us-ascii?Q?VXGJygLtdeyQ4BNTuMjM86Uw6/iPgEfjrXzfAprNVZSK8B+S1IjiGIhzTgWR?=
+ =?us-ascii?Q?rqhKBI+shLcFivTjMvcmlr3T1iws2jrvDmvNuo4ePiB1XCQpupqRx+mIWH27?=
+ =?us-ascii?Q?2EnHwqk2k+LS5yyR3haE7y8dIFMfR+aBCCXo5SzJp77DIJj+QVl5J0dIJaJw?=
+ =?us-ascii?Q?beb3WfAKMSIHV618T2PNFRQQANlr?=
+X-Forefront-Antispam-Report:
+	CIP:83.217.101.187;CTRY:GB;LANG:en;SCL:1;SRV:;IPV:NLI;SFV:NSPM;H:listserve.citywire.co.uk;PTR:listserve.citywire.co.uk;CAT:NONE;SFS:(279900001)(209900001)(286005)(166002)(33656002)(8426002)(7066003)(6916009)(356005)(76236003)(26005)(44726023)(44706002)(2616005)(55016002)(7596003)(7636003)(956004)(83380400001)(7696005)(118246002)(37786003)(1096003)(336012)(17308445002)(6606295002);DIR:INB;
+X-MS-Exchange-Organization-GroupForkPerf: VCL=0;VL=11
+X-MS-Exchange-Organization-Cross-Session-Cache:
+	=?us-ascii?Q?00CIP=3D83.217.101.187;EIPC0=3D2004,2055,950,951,2005,2006,2?=
+ =?us-ascii?Q?007,2008,2009,2010,2011,2012,2013,2014,2000,2050,2051,2052,9?=
+ =?us-ascii?Q?52,902,2054,2016,903,901,905,904,2001,3000,907,2003,2002,967?=
+ =?us-ascii?Q?,2058,2059,2060,531,2017,5080,5011,5051,5001,5057,5058,5052,?=
+ =?us-ascii?Q?5056,5054,906,5055,5010,5059,5053,5002,5003,5005,5070;MIPC0?=
+ =?us-ascii?B?PTUwNTE7UkVQPTtTTD0xO0VNU0w9MTtTQ0w9MTtCTD0xO1JMPTE7UElEPTA7?=
+ =?us-ascii?Q?EXPID=3D;IsIncomingMail=3Dtrue;TIP=3DNotListed;CIPCRY=3DGB;S?=
+ =?us-ascii?Q?AUTHOP=3D1;RMX=3DOffice365;EIPC1=3D2004,2055,950,951,2005,20?=
+ =?us-ascii?Q?06,2007,2008,2009,2010,2011,2012,2013,2014,2000,2050,2051,20?=
+ =?us-ascii?Q?52,952,902,2054,2016,903,901,905,904,2001,3000,907,2003,2002?=
+ =?us-ascii?Q?,967,2058,2059,2060,531,2017,5080,5011,5051,5001,5057,5058,5?=
+ =?us-ascii?Q?052,5056,5054,906,5055,5010,5059,5053,5002,5003,5005,5070;MI?=
+ =?us-ascii?Q?PC1=3D5051;A=3D00;MX=3D00;PTR=3D00listserve.citywire.co.uk;S?=
+ =?us-ascii?Q?PF=3D011M2U4LjE0LkVtYWlsZXItMjIzMzgudGltPXN2ZWxsYW5kLmNvbUBs?=
+ =?us-ascii?Q?aXN0c2VydmUuY2l0eXdpcmUuY28udWs=3D;DKIM=3D00a2V5bGlzdHNlcnZl?=
+ =?us-ascii?Q?Ll9kb21haW5rZXkubGlzdHNlcnZlLmNpdHl3aXJlLmNvLnVr\;az1yc2E7IH?=
+ =?us-ascii?Q?A9TUlJQklqQU5CZ2txaGtpRzl3MEJBUUVGQUFPQ0FROEFNSUlCQ2dLQ0FRRU?=
+ =?us-ascii?Q?F5dVV1dFliU1cvc1FGb1Fqb0FicHVFT1RRQkswSTN1Z1pJMWNFbjVnemhkMX?=
+ =?us-ascii?Q?pKMkVqazFrVW4vK1Rkbk1OdjBmRkJaNVB4S3cwNjBlSUpnQ0prbHZUNFBhU2?=
+ =?us-ascii?Q?5oZXZiSEprNzZnM01CRHBDNEJidGhxaVlweEVkcFBLTE5CNGtaTWduL05aRT?=
+ =?us-ascii?Q?VXSGpSK0Q1R0RGTlZiNXk2TWFWUnVSSVpKOER2QzhLVmM0cWcvNDFDYkVkOV?=
+ =?us-ascii?Q?psKzZEemgvY21JMjZ3QkZZQjYydzIzUTdGQTAvY1p0NldNOC9zYlpJUGpQVW?=
+ =?us-ascii?Q?I4MW9lMGxkcXoyUzRYNmxjeHF4SWNwcTNTYktmaFltVzZVWUJZbW1jR3Z6Vy?=
+ =?us-ascii?Q?9wM2JXQVh1eTFPYXAvZzc0dFdTbU42ZkFzRnZ4WmR2dm5mRWJmRm4vbU41MX?=
+ =?us-ascii?Q?JvSkMySHFlR3RkRFBqUHB4SkVhNlYzQjZFY3dJREFRQUI=3D;DMARC=3D00b?=
+ =?us-ascii?Q?GlzdHNlcnZlLmNpdHl3aXJlLmNvLnVr\;dj1ETUFSQzE7IHA9bm9uZTsgcnV?=
+ =?us-ascii?Q?hPW1haWx0bzplN2UyZGFmNTdjMTM0NzJAcmVwLmRtYXJjYW5hbHl6ZXIuY29?=
+ =?us-ascii?Q?tOw=3D=3D;AUTHRES=3D[mx.microsoft.com,1]{5,1,UABhAHMAcwA=3D,?=
+ =?us-ascii?Q?cwBlAG4AZABlAHIAIABJAFAAIABpAHMAIAA4ADMALgAyADEANwAuADEAMAAx?=
+ =?us-ascii?Q?AC4AMQA4ADcA,cwBtAHQAcAAuAHIAYwBwAHQAVABvAEQAbwBtAGEAaQBuAA?=
+ =?us-ascii?Q?=3D=3D|cwB2AGUAbABsAGEAbgBkAC4AYwBvAG0A,cwBtAHQAcAAuAE0AYQBp?=
+ =?us-ascii?Q?AGwARgByAG8AbQA=3D|bABpAHMAdABzAGUAcgB2AGUALgBjAGkAdAB5AHcAa?=
+ =?us-ascii?Q?QByAGUALgBjAG8ALgB1AGsA}{9,1,UABhAHMAcwA=3D,cAA9AG4AbwBuAGUA?=
+ =?us-ascii?Q?IABzAHAAPQBuAG8AbgBlACAAcABjAHQAPQAxADAAMAA=3D,YQBjAHQAaQBvA?=
+ =?us-ascii?Q?G4A|TgBvAG4AZQA=3D,aABlAGEAZABlAHIALgBmAHIAbwBtAA=3D=3D|bABp?=
+ =?us-ascii?Q?AHMAdABzAGUAcgB2AGUALgBjA?=
+X-MS-Exchange-Organization-Cross-Session-Cache:
+	=?us-ascii?Q?01GkAdAB5AHcAaQByAGUALgBjAG8ALgB1AGsA}{2,1,UABhAHMAcwA=3D,cw?=
+ =?us-ascii?Q?BpAGcAbgBhAHQAdQByAGUAIAB3AGEAcwAgAHYAZQByAGkAZgBpAGUAZAA=3D?=
+ =?us-ascii?Q?,aABlAGEAZABlAHIALgBkAA=3D=3D|bABpAHMAdABzAGUAcgB2AGUALgBjAG?=
+ =?us-ascii?Q?kAdAB5AHcAaQByAGUALgBjAG8ALgB1AGsA}{12,7,TgBvAG4AZQA=3D,MAA?=
+ =?us-ascii?Q?=3D};SpfResult=3D1;DkimStatus=3D1;DkimSS=3D0;DmarcStatus=3D1?=
+ =?us-ascii?Q?;DmarcAction=3D0;ARCRES=3Dv100000000000000000000000000000000?=
+ =?us-ascii?Q?000000000;CAuthExp=3Dtrue;MFP=3Dab5704f4-84cb-4ef4-aa31-d2e4?=
+ =?us-ascii?Q?1571b7aa;PReRC=3D1;FPR=3DAF5C6F29.2EF61715.2BD45787.CCEA5B39?=
+ =?us-ascii?Q?.20285;URLC=5FBE=3D20;URLC=5FBEC=3D15;URLC=5FAE=3D0;UMGPV=3D?=
+ =?us-ascii?Q?6286;UMEPV=3D9999;NoDLx=3D1;CGDLxSupported=3D1;BR=5FV=3DNone?=
+ =?us-ascii?Q?;DIR=3D1;PTRO=3Dcitywire.co.uk;P2O=3Dcitywire.co.uk;P=5FCAUT?=
+ =?us-ascii?Q?H=3Dpass;P=5FCAUTHR=3D100;P2BCL=3D1;BCL=3D1;CFP=3Db002f2f0-2?=
+ =?us-ascii?Q?2b3-47eb-aabe-4276f25a48ac;HCFP=3D9126a72c-100e-407d-8ebb-ca?=
+ =?us-ascii?Q?a165e5f252;APP=3D7c0786e2-b780-4b8f-8a35-3253eb8580ba;GWS=5F?=
+ =?us-ascii?Q?Read=3DV2;SRCS=3DEST;CAUTH=3Dpass;CAUTHR=3D100;CAUTH=5FCAT?=
+ =?us-ascii?Q?=3DAD;IVB=5FDBG=3DD2;HMEPV=3D10000;HMEPV2=3D10000;HMESV=3D11?=
+ =?us-ascii?Q?89;HMESV2=3D1607;SRESV=3D835;BMASV=3D380;BMESV=3D3011;BMAPV?=
+ =?us-ascii?Q?=3D444;BMEPV=3D3649;CMASV=3D1438;CMAPV=3D10000;CBEBV=3D5354;?=
+ =?us-ascii?Q?CBEBV2=3D5828;CLEPV=3D3722;URLF=5FDBG=3DDS:7;ASC=3D2;ASCID?=
+ =?us-ascii?Q?=3D17308445002|6606295002;FFV=3DNSPM;FV=5FSCL=3D1;FV=3DNSPM;?=
+ =?us-ascii?Q?FVS=3DFilters;FSCL=3D1;TAP=5FEP=3D?=
+X-MS-Exchange-Organization-Processed-By-Gcc-Journaling: Journal Agent
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" ><html xmlns:n="http://schemas.citywire.co.uk/CWDSEmailList.xsd" xmlns:tl="urn:CWTransformLibrary" xmlns:rm="urn:CWRealMediaOAS" xmlns="http://www.w3.org/1999/xhtml"><head><META http-equiv="Content-Type" content="text/html; charset=utf-8"><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><title>Citywire Wealth Manager - Latest News</title><style type="text/css">
+	#outlook a{
+		padding:0;
+	}
+	.ReadMsgBody{
+		width:100%;
+	}
+	.ExternalClass{
+		width:100%;
+	}
+	.ExternalClass,.ExternalClass p,.ExternalClass span,.ExternalClass font,.ExternalClass td,.ExternalClass div{
+		line-height:100%;
+	}
+	body,table,td,p,a,li,blockquote{
+		-webkit-text-size-adjust:100%;
+		-ms-text-size-adjust:100%;
+	}
+	table,td{
+		mso-table-lspace:0pt;
+		mso-table-rspace:0pt;
+	}
+	img{
+		-ms-interpolation-mode:bicubic;
+	}
+	body{
+		margin:0;
+		padding:0;
+	}
+	img{
+		border:0;
+		height:auto;
+		line-height:100%;
+		outline:none;
+		text-decoration:none;
+	}
+	table{
+		border-collapse:collapse !important;
+	}
+	body,#bodytable,#bodycell{
+		height:100% !important;
+		padding:0;
+		width:100% !important;
+	}
+	.a{
+		color:#0083BA;
+		font-weight:normal;
+		text-decoration:none;
+	}
+	.appleLinks {
+		color:#81868a;
+		font-weight:normal;
+		text-decoration:none;
+	}
+	.appleLinks a{
+		color:#81868a;
+		font-weight:normal;
+		text-decoration:none;
+	}
+
+	a[x-apple-data-detectors] {
+	    color: inherit !important;
+	    text-decoration: none !important;
+	    font-size: inherit !important;
+	    font-family: inherit !important;
+	    font-weight: inherit !important;
+	    line-height: inherit !important;
+	}
+
+	@media only screen and (max-width: 728px){
+		body,table,td,p,a,li,blockquote{
+			-webkit-text-size-adjust:none !important;
+		}
+
+	}
+
+	/* SECTIONS */
+	@media only screen and (max-width: 480px){
+		.preheader-td{
+			padding-top:10px !important;
+			padding-right:40px !important;
+			padding-bottom:10px !important;
+			padding-left:40px !important;
+		}
+	}
+
+	@media only screen and (max-width: 480px){
+		.section-td{
+			padding-top:25px !important;
+			padding-right:40px !important;
+			padding-bottom:25px !important;
+			padding-left:40px !important;
+			background-color:#ffffff !important;
+		}
+	}
+	@media only screen and (max-width: 480px){
+		.footer-td {
+			padding-top:25px !important;
+			padding-right:40px !important;
+			padding-bottom:25px !important;
+			padding-left:40px !important;
+			background-color:#d8d8d8 !important;
+		}
+	}
+
+	/* NEWS */
+	@media only screen and (max-width: 480px){
+		.news-heading-td {
+			padding-top:25px !important;
+			padding-bottom:25px !important;
+		}
+	}
+	@media only screen and (max-width: 480px){
+		.news-heading-h1 {
+			font-size:32px !important;
+			line-height:40px !important;
+			color: #25aae1 !important;
+		}
+	}
+	@media only screen and (max-width: 480px){
+		.news-heading-p {
+			font-size:28px !important;
+			line-height:36px !important;
+			color: #81868a !important;
+		}
+	}
+	@media only screen and (max-width: 480px){
+		.news-entry-td {
+			padding-top:25px !important;
+			padding-bottom:25px !important;
+		}
+	}
+	@media only screen and (max-width: 480px){
+		.news-entry-a {
+			font-size:32px !important;
+			line-height:40px !important;
+			color: #2f3438 !important;
+		}
+	}
+
+
+
+	/* HOUSE AD */
+	@media only screen and (max-width: 480px){
+		.housead-headline-td {
+			padding-top:25px !important;
+			padding-bottom:10px !important;
+		}
+	}
+	@media only screen and (max-width: 480px){
+		.housead-paragraph-td {
+			padding-top:10px !important;
+			padding-bottom:25px !important;
+		}
+	}
+	@media only screen and (max-width: 480px){
+		.housead-headline-h3-a {
+			font-size:32px !important;
+			line-height:40px !important;
+			color: #2f3438 !important;
+		}
+	}
+	@media only screen and (max-width: 480px){
+		.housead-paragraph-p-a {
+			font-size:32px !important;
+			line-height:40px !important;
+			color: #81868a !important;
+		}
+	}
+
+	/* SPONSORED NEWS and NATIVE NAME */
+	@media only screen and (max-width: 480px){
+		.sponsored-native-name,
+		.sponsored-news-entry-name {
+			font-size:20px !important;
+			line-height:26px !important;
+		}
+	}
+
+
+	/* SPONSORED NATIVE AD */
+	@media only screen and (max-width: 480px){
+		.sponsored-native-name-td {
+			padding-top:10px !important;
+			padding-bottom:10px !important;
+		}
+	}
+	@media only screen and (max-width: 480px){
+		.sponsored-native-headline-td {
+			padding-top:25px !important;
+			padding-bottom:10px !important;
+		}
+	}
+	@media only screen and (max-width: 480px){
+		.sponsored-native-paragraph-td {
+			padding-top:10px !important;
+			padding-bottom:25px !important;
+		}
+	}
+	@media only screen and (max-width: 480px){
+		.sponsored-native-headline-h3-a {
+			font-size:32px !important;
+			line-height:40px !important;
+			color: #2f3438 !important;
+		}
+	}
+	@media only screen and (max-width: 480px){
+		.sponsored-native-paragraph-p-a {
+			font-size:32px !important;
+			line-height:40px !important;
+			color: #81868a !important;
+		}
+	}
+
+</style></head>
+<body style="background-color:#eaeced;"><table align="center" border="0" cellpadding="0" cellspacing="0" height="100%" width="100%" id="bodytable" style="background-color:#eaeced; border-collapse:collapse;"><tbody><tr><td align="center" id="bodycell" bgcolor="#eaeced" valign="middle"><table align="center" border="0" cellpadding="0" cellspacing="0" style="border:none; width:728px; min-width:728px; border-collapse:collapse;"><tbody><tr><td align="center" valign="top"><table border="0" cellpadding="0" cellspacing="0" width="100%" style="-webkit-text-size-adjust: 100%;-ms-text-size-adjust: 100%;mso-table-lspace: 0pt;mso-table-rspace: 0pt;border-collapse: collapse !important;"><tbody><tr><td align="left" valign="top" class="section-td" style="padding-top: 30px; padding-right: 60px; padding-bottom: 30px; padding-left: 60px; background-color: #ffffff;"><table border="0" cellpadding="0" cellspacing="0" width="100%" style="-webkit-text-size-adjust: 100%;-ms-text-size-adjust: 100%;mso-table-lspace: 0pt;mso-table-rspace: 0pt;border-collapse: collapse !important;"><tbody><tr><td align="left" valign="top"><a href="http://click.listserve.citywire.co.uk/click?a=http%253A%252F%252Fcitywire.co.uk%252Fwealth-manager&d=172A67C541089939C1507E565C832112&t=Yz0yMjMzOCZlPTExMjkwNDc%3D&h=1E4175D46ED5AA72F46DD76BCB2727B7&l=MzUxNzcz" target="_blank"><img width="252" height="61" src="http://images.citywire.co.uk/Bulkemail/nb/nb-logo-wealth-manager-252x61.gif" alt="Wealth Manager" style="border:none; display:block;"></a></td>
+<td width="100%"></td>
+</tr></tbody></table></td>
+</tr><tr><td height="10" style="padding-top:0px;padding-bottom:0px;padding-left:0px;padding-right:0px;"></td>
+</tr></tbody></table><div id="emailBody"><table border="0" cellpadding="0" cellspacing="0" width="100%" style="-webkit-text-size-adjust: 100%;-ms-text-size-adjust: 100%;mso-table-lspace: 0pt;mso-table-rspace: 0pt;border-collapse: collapse !important;"><tbody><tr><td align="left" valign="top" class="section-td" style="padding-top: 30px; padding-right: 60px; padding-bottom: 30px; padding-left: 60px; background-color: #ffffff;"><table cellpadding="0" cellspacing="0" border="0" width="728" style="font-family: Trebuchet MS, Helvetica, sans-serif; font-size:14px; text-align:left; color:#7F7F7F; background-color:#ffffff; vertical-align:top; border-collapse: collapse; margin: 0px; padding: 0px; border: 0px;"><tr><td valign="top" colspan="2" width="728" style="font-family: Trebuchet MS, Helvetica, sans-serif; font-size:14px; text-align:left; color:#7F7F7F; background-color:#ffffff; vertical-align:top; border-collapse: collapse; margin: 0px; padding: 0px; border: 0px;"><table name="articlePlaceholder" width="100%" border="0" cellspacing="0" cellpadding="0" style="border-collapse:collapse;border-bottom: solid 1px #eeeeee;"><tbody><tr><td align="left" valign="top" class="news-entry-td" style="padding-bottom:14px; padding-top:14px;">
+<a class="news-entry-a" target="_blank" style="color:#2f3438;font-weight:bold;text-decoration:none;font-family: Helvetica, 'Helvetica Neue', Arial, sans-serif;font-size:18px;line-height:24px;text-align:left;" href="http://click.listserve.citywire.co.uk/click?a=https%253A%252F%252Fcitywire.co.uk%252Fwealth-manager%252Fnews%252Frevealed-the-470m-at-least-investors-paid-for-poor-value-funds%252Fa1421512%253Fre%253D79501%2526ea%253D1129047%2526utm_source%253DBulkEmail_WM_Daily_PM%2526utm_medium%253DBulkEmail_WM_Daily_PM%2526utm_campaign%253DBulkEmail_WM_Daily_PM&d=172A67C541089939C1507E565C832112&t=Yz0yMjMzOCZlPTExMjkwNDc%3D&h=1E4175D46ED5AA72F46DD76BCB2727B7&l=MzUxNzc0">Revealed: The &pound;470m (at least) investors paid for &lsquo;poor value&rsquo; funds</a></td>
+</tr></tbody></table><table name="articlePlaceholder" width="100%" border="0" cellspacing="0" cellpadding="0" style="border-collapse:collapse;border-bottom: solid 1px #eeeeee;"><tbody><tr><td align="left" valign="top" class="news-entry-td" style="padding-bottom:14px; padding-top:14px;">
+<a class="news-entry-a" target="_blank" style="color:#2f3438;font-weight:bold;text-decoration:none;font-family: Helvetica, 'Helvetica Neue', Arial, sans-serif;font-size:18px;line-height:24px;text-align:left;" href="http://click.listserve.citywire.co.uk/click?a=https%253A%252F%252Fcitywire.co.uk%252Fwealth-manager%252Fnews%252Fthe-10-uk-equity-fund-favourites-in-model-portfolios%252Fa1420286%253Fre%253D79501%2526ea%253D1129047%2526utm_source%253DBulkEmail_WM_Daily_PM%2526utm_medium%253DBulkEmail_WM_Daily_PM%2526utm_campaign%253DBulkEmail_WM_Daily_PM&d=172A67C541089939C1507E565C832112&t=Yz0yMjMzOCZlPTExMjkwNDc%3D&h=1E4175D46ED5AA72F46DD76BCB2727B7&l=MzUxNzc1">The 10 UK equity fund favourites in model portfolios</a></td>
+</tr></tbody></table><table name="articlePlaceholder" width="100%" border="0" cellspacing="0" cellpadding="0" style="border-collapse:collapse;border-bottom: solid 1px #eeeeee;"><tbody><tr><td align="left" valign="top" class="news-entry-td" style="padding-bottom:14px; padding-top:14px;">
+<a class="news-entry-a" target="_blank" style="color:#2f3438;font-weight:bold;text-decoration:none;font-family: Helvetica, 'Helvetica Neue', Arial, sans-serif;font-size:18px;line-height:24px;text-align:left;" href="http://click.listserve.citywire.co.uk/click?a=https%253A%252F%252Fcitywire.co.uk%252Fwealth-manager%252Fnews%252Ftilney-sandw-poaches-martin-currie-charities-head%252Fa1424766%253Fre%253D79501%2526ea%253D1129047%2526utm_source%253DBulkEmail_WM_Daily_PM%2526utm_medium%253DBulkEmail_WM_Daily_PM%2526utm_campaign%253DBulkEmail_WM_Daily_PM&d=172A67C541089939C1507E565C832112&t=Yz0yMjMzOCZlPTExMjkwNDc%3D&h=1E4175D46ED5AA72F46DD76BCB2727B7&l=MzUxNzc2">Tilney S&W poaches Martin Currie charities head</a></td>
+</tr></tbody></table><table name="adPlaceholder" border="0" cellpadding="0" cellspacing="0" style="border-bottom: solid 1px #ffe291; -webkit-text-size-adjust: 100%;-ms-text-size-adjust: 100%;mso-table-lspace: 0pt;mso-table-rspace: 0pt;border-collapse: collapse !important;" width="100%">
+<tbody>
+<tr>
+<td align="left" class="section-td" style="padding-top: 15px; padding-right: 0px; padding-bottom: 0px; padding-left: 0px; background-color: #ffffff;" valign="top">
+<table border="0" cellpadding="0" cellspacing="0" style="-webkit-text-size-adjust: 100%;-ms-text-size-adjust: 100%;mso-table-lspace: 0pt;mso-table-rspace: 0pt;border-collapse: collapse !important;" width="100%">
+<tbody>
+<tr>
+<td align="left" class="sponsored-native-name-td" style="padding-bottom:10px; padding-top:0px;border-bottom: solid 1px #ffe291;" valign="top">
+<p class="sponsored-native-name" style="color:#999999;font-weight:normal;text-decoration:none;text-transform:uppercase;font-family: Helvetica, 'Helvetica Neue', Arial, sans-serif;font-size:12px;line-height:14px;padding-right:0px;padding-bottom:0px;padding-top:0px;margin-left:0px;margin-right:0px;margin-bottom:0px;margin-top:0px;">CONTENT FROM: Aviva Investors
+</p>
+
+</td>
+
+</tr>
+<tr>
+<td align="left" class="sponsored-native-headline-td" style="padding-top:14px;padding-bottom:14px;" valign="top">
+<h3 style="color:#2f3438;font-weight:bold;text-decoration:none;font-family: Helvetica, 'Helvetica Neue', Arial, sans-serif;font-size:18px;line-height:24px;text-align:left;padding-top:0px;padding-bottom:0px;margin-left:0px;padding-right:0px;margin-top:0px;margin-bottom:0px;margin-left:0px;margin-right:0px;">
+<a class="sponsored-native-headline-h3-a" href="http://click.listserve.citywire.co.uk/click?a=http%253A%252F%252Faccounts.citywire.info%252Fiframeredirector%253FreturnUrl%253Dhttps%25253A%25252F%25252Fwww.avivainvestors.com%25252Fen-gb%25252Fcapabilities%25252Fesg-know-how%25252F%2526via%253DClickOut%2526client%253DAviva%2526email%253D20201111_WM_PM&d=E42980DC789AF0069E5156CBD0A4B082&t=Yz0yMjMzOCZlPTExMjkwNDc%3D&h=1E4175D46ED5AA72F46DD76BCB2727B7&l=MzUxNzc3" style="color:#2f3438;font-weight:bold;text-decoration:none;font-family: Helvetica, 'Helvetica Neue', Arial, sans-serif;">Over 1000 advisers registered for ESG training programme – Don&rsquo;t miss out
+</a>
+</h3>
+</td>
+
+</tr>
+</tbody>
+</table>
+</td>
+
+</tr>
+</tbody>
+</table><table name="articlePlaceholder" width="100%" border="0" cellspacing="0" cellpadding="0" style="border-collapse:collapse;border-bottom: solid 1px #eeeeee;"><tbody><tr><td align="left" valign="top" class="news-entry-td" style="padding-bottom:14px; padding-top:14px;">
+<a class="news-entry-a" target="_blank" style="color:#2f3438;font-weight:bold;text-decoration:none;font-family: Helvetica, 'Helvetica Neue', Arial, sans-serif;font-size:18px;line-height:24px;text-align:left;" href="http://click.listserve.citywire.co.uk/click?a=https%253A%252F%252Fcitywire.co.uk%252Fwealth-manager%252Fnews%252Fasi-launches-sustainable-tracker-fund-range%252Fa1424753%253Fre%253D79501%2526ea%253D1129047%2526utm_source%253DBulkEmail_WM_Daily_PM%2526utm_medium%253DBulkEmail_WM_Daily_PM%2526utm_campaign%253DBulkEmail_WM_Daily_PM&d=172A67C541089939C1507E565C832112&t=Yz0yMjMzOCZlPTExMjkwNDc%3D&h=1E4175D46ED5AA72F46DD76BCB2727B7&l=MzUxNzc4">ASI launches sustainable tracker fund range</a></td>
+</tr></tbody></table><table name="articlePlaceholder" width="100%" border="0" cellspacing="0" cellpadding="0" style="border-collapse:collapse;border-bottom: solid 1px #eeeeee;"><tbody><tr><td align="left" valign="top" class="news-entry-td" style="padding-bottom:14px; padding-top:14px;">
+<a class="news-entry-a" target="_blank" style="color:#2f3438;font-weight:bold;text-decoration:none;font-family: Helvetica, 'Helvetica Neue', Arial, sans-serif;font-size:18px;line-height:24px;text-align:left;" href="http://click.listserve.citywire.co.uk/click?a=https%253A%252F%252Fcitywire.co.uk%252Fwealth-manager%252Fnews%252Fdiversity-international-women-in-finance-part-v%252Fa1419161%253Fre%253D79501%2526ea%253D1129047%2526utm_source%253DBulkEmail_WM_Daily_PM%2526utm_medium%253DBulkEmail_WM_Daily_PM%2526utm_campaign%253DBulkEmail_WM_Daily_PM&d=172A67C541089939C1507E565C832112&t=Yz0yMjMzOCZlPTExMjkwNDc%3D&h=1E4175D46ED5AA72F46DD76BCB2727B7&l=MzUxNzc5">Diversity: International Women in Finance...part V</a></td>
+</tr></tbody></table><table name="adPlaceholder" border="0" cellpadding="0" cellspacing="0" style="border-bottom: solid 1px #ffe291; -webkit-text-size-adjust: 100%;-ms-text-size-adjust: 100%;mso-table-lspace: 0pt;mso-table-rspace: 0pt;border-collapse: collapse !important;" width="100%">
+<tbody>
+<tr>
+<td align="left" class="section-td" style="padding-top: 15px; padding-right: 0px; padding-bottom: 0px; padding-left: 0px; background-color: #ffffff;" valign="top">
+<table border="0" cellpadding="0" cellspacing="0" style="-webkit-text-size-adjust: 100%;-ms-text-size-adjust: 100%;mso-table-lspace: 0pt;mso-table-rspace: 0pt;border-collapse: collapse !important;" width="100%">
+<tbody>
+<tr>
+<td align="left" class="sponsored-native-name-td" style="padding-bottom:10px; padding-top:0px;border-bottom: solid 1px #ffe291;" valign="top">
+<p class="sponsored-native-name" style="color:#999999;font-weight:normal;text-decoration:none;text-transform:uppercase;font-family: Helvetica, 'Helvetica Neue', Arial, sans-serif;font-size:12px;line-height:14px;padding-right:0px;padding-bottom:0px;padding-top:0px;margin-left:0px;margin-right:0px;margin-bottom:0px;margin-top:0px;">CONTENT FROM: Fidelity International
+</p>
+
+</td>
+
+</tr>
+<tr>
+<td align="left" class="sponsored-native-headline-td" style="padding-top:14px;padding-bottom:14px;" valign="top">
+<h3 style="color:#2f3438;font-weight:bold;text-decoration:none;font-family: Helvetica, 'Helvetica Neue', Arial, sans-serif;font-size:18px;line-height:24px;text-align:left;padding-top:0px;padding-bottom:0px;margin-left:0px;padding-right:0px;margin-top:0px;margin-bottom:0px;margin-left:0px;margin-right:0px;">
+<a class="sponsored-native-headline-h3-a" href="http://click.listserve.citywire.co.uk/click?a=http%253A%252F%252Faccounts.citywire.info%252Fiframeredirector%253FreturnUrl%253Dhttps%25253A%25252F%25252Fprofessionals.fidelity.co.uk%25252Farticles%25252Fwebcasts%25252F2020-10-22-fidelity-analysts-esg-spotlight-1603366339795%25253Futm_term%25253Dws_esg%252526utm_campaign%25253D%252526utm_medium%25253Dnative_content%252526utm_source%25253Dcitywirewm%252526utm_content%25253Desg_spotlight%2526via%253DClickOut%2526client%253Dfidelity%2526email%253D20201112_wm_pm&d=E42980DC789AF0069E5156CBD0A4B082&t=Yz0yMjMzOCZlPTExMjkwNDc%3D&h=1E4175D46ED5AA72F46DD76BCB2727B7&l=MzUxNzgw" style="color:#2f3438;font-weight:bold;text-decoration:none;font-family: Helvetica, 'Helvetica Neue', Arial, sans-serif;">Why does corporate engagement matter?
+</a>
+</h3>
+</td>
+
+</tr>
+</tbody>
+</table>
+</td>
+
+</tr>
+</tbody>
+</table><table width="100%" border="0" cellspacing="0" cellpadding="0" style="border-collapse:collapse;border-bottom: solid 1px #eeeeee;"><tbody><tr><td align="left" valign="top" style="padding-bottom:12px; padding-top:12px;" class="news-heading-td"><h1 class="news-heading-h1" style="color:#ff0000;font-weight:normal;text-decoration:none;font-family: Helvetica, 'Helvetica Neue', Arial, sans-serif;font-size:18px;line-height:24px;text-align:left;padding-left:0px;padding-right:0px;padding-bottom:0px;padding-top:0px;margin-left:0px;margin-right:0px;margin-bottom:0px;margin-top:0px;">In case you missed it</h1></td>
+
+</tr></tbody></table><table name="articlePlaceholder" width="100%" border="0" cellspacing="0" cellpadding="0" style="border-collapse:collapse;border-bottom: solid 1px #eeeeee;"><tbody><tr><td align="left" valign="top" class="news-entry-td" style="padding-bottom:14px; padding-top:14px;">
+<a class="news-entry-a" target="_blank" style="color:#2f3438;font-weight:bold;text-decoration:none;font-family: Helvetica, 'Helvetica Neue', Arial, sans-serif;font-size:18px;line-height:24px;text-align:left;" href="http://click.listserve.citywire.co.uk/click?a=https%253A%252F%252Fcitywire.co.uk%252Fwealth-manager%252Fnews%252Fhow-wh-ireland-returned-from-the-brink%252Fa1421515%253Fre%253D79501%2526ea%253D1129047%2526utm_source%253DBulkEmail_WM_Daily_PM%2526utm_medium%253DBulkEmail_WM_Daily_PM%2526utm_campaign%253DBulkEmail_WM_Daily_PM&d=172A67C541089939C1507E565C832112&t=Yz0yMjMzOCZlPTExMjkwNDc%3D&h=1E4175D46ED5AA72F46DD76BCB2727B7&l=MzUxNzgx">How WH Ireland returned from the brink</a></td>
+</tr></tbody></table><table name="articlePlaceholder" width="100%" border="0" cellspacing="0" cellpadding="0" style="border-collapse:collapse;border-bottom: solid 1px #eeeeee;"><tbody><tr><td align="left" valign="top" class="news-entry-td" style="padding-bottom:14px; padding-top:14px;">
+<a class="news-entry-a" target="_blank" style="color:#2f3438;font-weight:bold;text-decoration:none;font-family: Helvetica, 'Helvetica Neue', Arial, sans-serif;font-size:18px;line-height:24px;text-align:left;" href="http://click.listserve.citywire.co.uk/click?a=https%253A%252F%252Fcitywire.co.uk%252Fwealth-manager%252Fnews%252Fmattioli-woods-hires-ex-premier-uk-equity-head-chris-white%252Fa1424606%253Fre%253D79501%2526ea%253D1129047%2526utm_source%253DBulkEmail_WM_Daily_PM%2526utm_medium%253DBulkEmail_WM_Daily_PM%2526utm_campaign%253DBulkEmail_WM_Daily_PM&d=172A67C541089939C1507E565C832112&t=Yz0yMjMzOCZlPTExMjkwNDc%3D&h=1E4175D46ED5AA72F46DD76BCB2727B7&l=MzUxNzgy">Mattioli Woods hires ex-Premier UK equity head Chris White</a></td>
+</tr></tbody></table><table name="articlePlaceholder" width="100%" border="0" cellspacing="0" cellpadding="0" style="border-collapse:collapse;border-bottom: solid 1px #eeeeee;"><tbody><tr><td align="left" valign="top" class="news-entry-td" style="padding-bottom:14px; padding-top:14px;">
+<a class="news-entry-a" target="_blank" style="color:#2f3438;font-weight:bold;text-decoration:none;font-family: Helvetica, 'Helvetica Neue', Arial, sans-serif;font-size:18px;line-height:24px;text-align:left;" href="http://click.listserve.citywire.co.uk/click?a=https%253A%252F%252Fcitywire.co.uk%252Fwealth-manager%252Fnews%252Fbrown-shipley-taps-julius-baer-regional-boss-to-head-manchester%252Fa1424591%253Fre%253D79501%2526ea%253D1129047%2526utm_source%253DBulkEmail_WM_Daily_PM%2526utm_medium%253DBulkEmail_WM_Daily_PM%2526utm_campaign%253DBulkEmail_WM_Daily_PM&d=172A67C541089939C1507E565C832112&t=Yz0yMjMzOCZlPTExMjkwNDc%3D&h=1E4175D46ED5AA72F46DD76BCB2727B7&l=MzUxNzgz">Brown Shipley taps Julius Baer regional boss to head Manchester</a></td>
+</tr></tbody></table><table name="adPlaceholder" border="0" cellpadding="0" cellspacing="0" style="border-bottom: solid 1px #ffe291; -webkit-text-size-adjust: 100%;-ms-text-size-adjust: 100%;mso-table-lspace: 0pt;mso-table-rspace: 0pt;border-collapse: collapse !important;" width="100%">
+<tbody>
+<tr>
+<td align="left" class="section-td" style="padding-top: 15px; padding-right: 0px; padding-bottom: 0px; padding-left: 0px; background-color: #ffffff;" valign="top">
+<table border="0" cellpadding="0" cellspacing="0" style="-webkit-text-size-adjust: 100%;-ms-text-size-adjust: 100%;mso-table-lspace: 0pt;mso-table-rspace: 0pt;border-collapse: collapse !important;" width="100%">
+<tbody>
+<tr>
+<td align="left" class="sponsored-native-name-td" style="padding-bottom:10px; padding-top:0px;border-bottom: solid 1px #ffe291;" valign="top">
+<p class="sponsored-native-name" style="color:#999999;font-weight:normal;text-decoration:none;text-transform:uppercase;font-family: Helvetica, 'Helvetica Neue', Arial, sans-serif;font-size:12px;line-height:14px;padding-right:0px;padding-bottom:0px;padding-top:0px;margin-left:0px;margin-right:0px;margin-bottom:0px;margin-top:0px;">CONTENT FROM: Capital Group
+</td>
+
+</tr>
+<tr>
+<td align="left" class="sponsored-native-headline-td" style="padding-top:14px;padding-bottom:14px;" valign="top">
+<h3 style="color:#2f3438;font-weight:bold;text-decoration:none;font-family: Helvetica, 'Helvetica Neue', Arial, sans-serif;font-size:18px;line-height:24px;text-align:left;padding-top:0px;padding-bottom:0px;margin-left:0px;padding-right:0px;margin-top:0px;margin-bottom:0px;margin-left:0px;margin-right:0px;">
+<a class="sponsored-native-headline-h3-a" href="http://click.listserve.citywire.co.uk/click?a=http%253A%252F%252Faccounts.citywire.info%252Fiframeredirector%253FreturnUrl%253Dhttps%25253A%25252F%25252Fad.doubleclick.net%25252Fddm%25252Fclk%25252F476619530%25253B282927871%25253Bw%2526via%253DClickOut%2526client%253Dcapital%2526email%253D20201112_wm_pm&d=E42980DC789AF0069E5156CBD0A4B082&t=Yz0yMjMzOCZlPTExMjkwNDc%3D&h=1E4175D46ED5AA72F46DD76BCB2727B7&l=MzUxNzg0" style="color:#2f3438;font-weight:bold;text-decoration:none;font-family: Helvetica, 'Helvetica Neue', Arial, sans-serif;">Capital Group&rsquo;s investment team share their vision for the future
+</h3>
+</td>
+
+</tr>
+</tbody>
+</table>
+</td>
+
+</tr>
+</tbody>
+</table>
+<div class="adbanner"><a style="text-decoration:none" href="mailto:workingfromhome@citywire.co.uk?subject=Citywire WM Magazine Home Address&Body=If you already subscribe to the Citywire Wealth Manager Magazine and would like to receive it at home, please send us your address details below.%0A%0A Address details:"><img border="0" alt="Advert" src="http://ad.listserve.citywire.co.uk:81/api/v1/img/698230/em_wm_citywire_house_circulation_mar2020v2" /></a><img border="0" width="1" height="1" src="http://ad.listserve.citywire.co.uk:81/api/v1/imp/698230/em_wm_citywire_house_circulation_mar2020v2" /></div>
+</td>
+</tr></table></td>
+</tr><tr><td height="10" style="padding-top:0px;padding-bottom:0px;padding-left:0px;padding-right:0px;"></td>
+</tr></tbody></table></div>
+<table width="100%" border="0" cellspacing="0" cellpadding="0" style="-webkit-text-size-adjust: 100%;-ms-text-size-adjust: 100%;mso-table-lspace: 0pt;mso-table-rspace: 0pt;border-collapse: collapse !important;"><tbody><tr><td align="left" valign="top" class="footer-td" style="padding-top:30px; padding-right: 60px; padding-bottom:30px; padding-left:60px; background-color:#dcdfe1; color:#81868a; font-weight:normal; font-family: Helvetica, 'Helvetica Neue', Arial, sans-serif; font-size:12px; line-height: 16px;"><table width="100%" border="0" cellspacing="0" cellpadding="0" style="-webkit-text-size-adjust: 100%;-ms-text-size-adjust: 100%;mso-table-lspace: 0pt;mso-table-rspace: 0pt;border-collapse: collapse !important;"><tbody><tr><td align="left" valign="top" style="padding-top:5px;padding-bottom:5px;"><p style="color:#81868a; font-weight:normal; font-family: Helvetica, 'Helvetica Neue', Arial, sans-serif; font-size:12px; line-height: 16px;padding-top:0px;padding-bottom:0px;margin-left:0px;padding-right:0px;margin-top:0px;margin-bottom:0px;margin-left:0px;margin-right:0px;">© <span class="appleLinks">Citywire</span>. All Rights Reserved.
+															<a href="http://click.listserve.citywire.co.uk/click?a=http%253A%252F%252Fcitywire.co.uk%252Fwealth-manager%252Fterms&d=172A67C541089939C1507E565C832112&t=Yz0yMjMzOCZlPTExMjkwNDc%3D&h=1E4175D46ED5AA72F46DD76BCB2727B7&l=MzUxNzg1" target="_blank" style="color:#81868a; font-weight:normal; text-decoration:underline; font-family: Helvetica, 'Helvetica Neue', Arial, sans-serif; font-size:12px; line-height: 16px; ">Terms and Conditions</a> |
+															<a href="http://click.listserve.citywire.co.uk/click?a=http%253A%252F%252Fcitywire.co.uk%252Fwealth-manager%252Fprivacy&d=172A67C541089939C1507E565C832112&t=Yz0yMjMzOCZlPTExMjkwNDc%3D&h=1E4175D46ED5AA72F46DD76BCB2727B7&l=MzUxNzg2" target="_blank" style="color:#81868a; font-weight:normal; text-decoration:underline; font-family: Helvetica, 'Helvetica Neue', Arial, sans-serif; font-size:12px; line-height: 16px; ">Privacy Policy</a></p>
+</td>
+</tr><tr><td align="left" valign="top" style="padding-top:5px;padding-bottom:5px;"><p style="color:#81868a; font-weight:normal; font-family: Helvetica, 'Helvetica Neue', Arial, sans-serif; font-size:12px; line-height: 16px;padding-top:0px;padding-bottom:0px;margin-left:0px;padding-right:0px;margin-top:0px;margin-bottom:0px;margin-left:0px;margin-right:0px;">To stop Citywire emails from getting removed by email filters please add our address (<span class="appleLinks"><a style="color:#81868a; font-weight:normal; text-decoration:none; font-family: Helvetica, 'Helvetica Neue', Arial, sans-serif; font-size:12px;" href="mailto:noreply@listserve.citywire.co.uk">noreply@listserve.citywire.co.uk</a></span>) to your email address book. Registered Office: Citywire Financial Publishers Ltd, <span class="appleLinks">1st Floor</span>, <span class="appleLinks">87 Vauxhall Walk, London SE11 5HJ</span>. Tel: <span class="appleLinks">+44 (0) 207 8405100</span>. Registered in England no: <span class="appleLinks">3828440</span>.</p>
+</td>
+</tr><tr><td align="left" valign="top" style="padding-top:5px;padding-bottom:5px;"><p style="color:#81868a; font-weight:normal; font-family: Helvetica, 'Helvetica Neue', Arial, sans-serif; font-size:12px; line-height: 16px;padding-top:0px;padding-bottom:0px;margin-left:0px;padding-right:0px;margin-top:0px;margin-bottom:0px;margin-left:0px;margin-right:0px;">To unsubscribe tim@svelland.com or change your email preferences, please <a style="color:#81868a; font-weight:normal; text-decoration:underline; font-family: Helvetica, 'Helvetica Neue', Arial, sans-serif; font-size:12px;" href="http://click.listserve.citywire.co.uk/click?a=http%253A%252F%252Faccounts.citywire.info%252Funsubscribe%253FUC25yiC%2fKK4YyYANcMNrl8ZZ2tBzN1Yf=gtRN0ZlLqxdagKdix3xveeR3izv9adGd%2526region%253DWM%2526emailcategoryid%253D22%2526re%253D79501%2526ea%253D1129047%2526utm_source%253DBulkEmail_WM_Daily_PM%2526utm_medium%253DBulkEmail_WM_Daily_PM%2526utm_campaign%253DBulkEmail_WM_Daily_PM&d=E42980DC789AF0069E5156CBD0A4B082&t=Yz0yMjMzOCZlPTExMjkwNDc%3D&h=1E4175D46ED5AA72F46DD76BCB2727B7&l=MzUxNzg3">click here</a>.</p>
+</td>
+</tr></tbody></table></td>
+</tr></tbody></table></td>
+</tr></tbody></table></td>
+</tr></tbody></table><img src="http://utm.citywire.info/__TrackEmailOpen.gif?eventname=Open_Newsletter_WM&emailIdentifier=79501&emailAddressId=1129047">
+<img id="__cwotp__" src="http://click.listserve.citywire.co.uk/open?t=Yz0yMjMzOCZlPTExMjkwNDc%3D&h=1E4175D46ED5AA72F46DD76BCB2727B7" width="1" height="1" border="0" />
+</body></html>
+
+
+--_63cac18e-50b4-4589-914a-679cc18aef86_--

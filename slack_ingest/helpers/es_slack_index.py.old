@@ -1,0 +1,167 @@
+from elasticsearch_dsl import connections, Document, analyzer, Object, Date, Keyword, Text, InnerDoc, Integer
+import settings
+from fnmatch import fnmatch
+from datetime import datetime
+
+ALIAS = 'test-ips-data-slack'
+PATTERN = ALIAS + '-*'
+
+html_strip = analyzer('html_strip',
+                      tokenizer="uax_url_email",
+                      filter=["standard", "lowercase", "stop", "snowball"],
+                      char_filter=["html_strip"]
+                      )
+
+email_addr = analyzer('email_addr',
+                      tokenizer="uax_url_email",
+                      filter=["standard", "lowercase", "stop", "snowball"],
+                      )
+
+class Schema:
+    """Increment this number for each change rolled into production"""
+    version = 1
+
+class Email_Id(InnerDoc):
+    corporateemailaddress = Text(analyzer=email_addr, fields={'keyword': Keyword()})
+    firstname = Text(fields={'keyword': Keyword()})
+    lastname = Text(fields={'keyword': Keyword()})
+
+class Fingerprint_Meta(InnerDoc):
+    attachment_error = Text()
+    bucket = Keyword()
+    client = Keyword()
+    key = Keyword()
+    processed = Date(format="E, d MMM yyyy HH:mm:ss Z||E, dd MMM yyyy HH:mm:ss Z||yyyy-MM-dd HH:mm:ss")
+    time = Date(format="E, d MMM yyyy HH:mm:ss Z||E, dd MMM yyyy HH:mm:ss Z||yyyy-MM-dd HH:mm:ss")
+    type = Keyword()
+    schema = Integer()
+
+class Attachment(InnerDoc):
+    filename = Keyword()
+    attachment = Text(fields={'content': Text(analyzer='snowball', term_vector='with_positions_offsets')})
+    filesize = Integer()
+    error = Text()
+    fileB64content = Text(term_vector='with_positions_offsets')
+
+class Sentiment(InnerDoc):
+    compound = Integer()
+    neg = Integer()
+    neu = Integer()
+    pos = Integer()
+
+class SLACK(Document):
+    to = Object(Email_Id)
+    from_ = Object(Email_Id)
+    subject = Text(analyzer='snowball', fields={'keyword': Keyword()})
+    body = Text(analyzer='snowball', term_vector='with_positions_offsets')
+    body_html = Text(analyzer=html_strip, term_vector='with_positions_offsets')
+    attachments = Object(Attachment)
+    message_id = Keyword()
+    date = Date(format="E, d MMM yyyy HH:mm:ss Z||E, dd MMM yyyy HH:mm:ss Z||yyyy-MM-dd HH:mm:ss||yyyy-MM-ddTHH:mm:ss")
+    fingerprint = Object(Fingerprint_Meta)
+    sentiment = Object(Sentiment)
+
+    @classmethod
+    def _matches(cls, hit):
+        # override _matches to match indices in a pattern instead of just ALIAS
+        # hit is the raw dict as returned by elasticsearch
+        return fnmatch(hit['_index'], PATTERN)
+
+    class Index:
+        name = ALIAS
+        settings = {
+            "number_of_shards": 6,
+            "number_of_replicas": 2
+        }
+        aliases = {"IPS_data_slack": {}}
+
+def setup():
+    """ Create an IndexTemplate and save it into elasticsearch. """
+    index_template = SLACK._index.as_template(template_name=ALIAS, pattern=PATTERN)
+    index_template.save()
+
+    # create the first index if it doesn't exist
+    if not SLACK._index.exists():
+        migrate(move_data=False)
+
+
+def migrate(move_data=True, update_alias=True):
+    """
+    Upgrade function that creates a new index for the data. Optionally it also can
+    (and by default will) reindex previous copy of the data into the new index
+    (specify ``move_data=False`` to skip this step) and update the alias to
+    point to the latest index (set ``update_alias=False`` to skip).
+    Note that while this function is running the application can still perform
+    any and all searches without any loss of functionality. It should, however,
+    not perform any writes at this time as those might be lost.
+    """
+    # construct a new index name by appending current timestamp
+    next_index = PATTERN.replace('*', datetime.now().strftime('%Y%m%d%H%M%S%f'))
+
+    # get the low level connection
+    es = connections.get_connection()
+
+    # create new index, it will use the settings from the template
+    es.indices.create(index=next_index)
+
+    if move_data:
+        # move data from current alias to the new index
+        es.reindex(
+            body={"source": {"index": ALIAS}, "dest": {"index": next_index}},
+            request_timeout=3600
+        )
+        # refresh the index to make the changes visible
+        es.indices.refresh(index=next_index)
+
+    if update_alias:
+        # repoint the alias to point to the newly created index
+        es.indices.update_aliases(body={
+            'actions': [
+                {"remove": {"alias": ALIAS, "index": PATTERN}},
+                {"add": {"alias": ALIAS, "index": next_index}},
+            ]
+        })
+
+
+
+
+if __name__ == '__main__':
+    # initiate the default connection to elasticsearch
+    connections.create_connection(**settings.ES_CONNECTION)
+
+    # create the empty index
+    # setup()
+
+    dict_add_to = {
+        'corporateemailaddress': 'james@ip-sentinel.com',
+        'firstname': 'James',
+        'lastname': 'Hogbin'
+    }
+
+    dict_add_to_1 = {
+        'corporateemailaddress': 'james@hogbin.com',
+        'firstname'            : 'James',
+        'lastname'             : 'Test Hogbin'
+    }
+
+    dict_add_from = {
+        'corporateemailaddress': 'fred@basset.com',
+        'firstname': 'Fred',
+        'lastname': 'Basset'
+    }
+
+    add_to = Email_Id(**dict_add_to)
+    add_to_1 = Email_Id(**dict_add_to_1)
+    add_from = Email_Id(**dict_add_from)
+
+    to_list = [add_to, add_to_1]
+
+    email_to_load = {
+        'to': to_list,
+        'from_': add_from,
+        'subject': 'A test subject',
+        'body': 'Some text for a body'
+    }
+
+    load_slack = EMAIL(**email_to_load)
+    load_slack.save(refresh=True)

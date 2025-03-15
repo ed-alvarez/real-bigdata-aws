@@ -1,0 +1,1735 @@
+Return-Path: <journaling@abbevillellp.com>
+Received: from EUR04-HE1-obe.outbound.protection.outlook.com (mail-he1eur04lp2057.outbound.protection.outlook.com [104.47.13.57])
+ by inbound-smtp.eu-west-1.amazonaws.com with SMTP id adgbr5uqgkf4n0e8s72rpavfbatv59n2tgtal501
+ for kirkoswald@ip-sentinel.net;
+ Wed, 18 Nov 2020 13:33:11 +0000 (UTC)
+Received-SPF: pass (spfCheck: domain of abbevillellp.com designates 104.47.13.57 as permitted sender) client-ip=104.47.13.57; envelope-from=journaling@abbevillellp.com; helo=mail-he1eur04lp2057.outbound.protection.outlook.com;
+Authentication-Results: amazonses.com;
+ spf=pass (spfCheck: domain of abbevillellp.com designates 104.47.13.57 as permitted sender) client-ip=104.47.13.57; envelope-from=journaling@abbevillellp.com; helo=mail-he1eur04lp2057.outbound.protection.outlook.com;
+ dmarc=fail header.from=barclays.com;
+X-SES-RECEIPT: AEFBQUFBQUFBQUFFckNzOVpKRCsxM1h5bFVHUy9wV3M1ZVpmeXpXMmpHVy82MGtmb21TWmVVUDRZRlpBaE5hNGxkb1h1Y01VTndlQjBhTURlblFBMHBPOWNEakpPdFFIQ0E0SE96bkovT2p5MTZqSjQ3OStzazY3QngvcTY5ZmcwdEpGTG44b3hicW9jUjd4U0xvYjc2ZEhSTExLMjIrUGJ1U2FJR011TzU3dlJjbGViUTZMMmk5bzRCM2JoNGRPWjlJcVlmc2VnaGl5MUxLRTFQZUNlZUhkU1cxNmFrZVlvRU9uMnRTZGJ1S0tGSlJGcnEvbW1RbHBaWXY4MXZSQkRQY1hiSGdVeDU0bXlQZmFoMCs2emR5WmludCtFYkZ2QUx2RjRPUy82TGNSdHExcmwvWm5hRTQwTVBXNFRnWWFTaXVVQmcyZEdYTnM9
+X-SES-DKIM-SIGNATURE: a=rsa-sha256; q=dns/txt; b=jJMSMXPw5f3rileBEJSJ00teF3bYrMG8HNMEAAbQwkinordfHqP0Ck/hlvIFZE4a/+QqxIdqx7ED4lXq4Z8PtGHPkRA9AubVoDaUnD1FSmKwHIu7mYPiVysamEi7xpDjXYZfKnj0dc4v9Lpl9gDcpxSMoqZe3+EhdIwBgSkd5XY=; c=relaxed/simple; s=shh3fegwg5fppqsuzphvschd53n6ihuv; d=amazonses.com; t=1605706391; v=1; bh=ZTUjFAiMi5sVxzBtHA/df90tBCfStQCAlDoxLLvgbR8=; h=From:To:Cc:Bcc:Subject:Date:Message-ID:MIME-Version:Content-Type:X-SES-RECEIPT;
+Content-Type: multipart/mixed;
+	boundary="_8e2a6aa6-54f8-43cb-a52f-4ed76d799d8f_"
+Subject: RE: Margin Call Notice for Kirkoswald Global Macro Master Fund
+ Limited (GMRA) as of COB 17 Nov 2020
+CC: <warren.cole@kirkoswald.com>, <wesley.dodd@kirkoswald.com>
+To: <NHayes@mfsadmin.com>, <ops@kirkoswald.com>, <ldnrepo@barclays.com>,
+        <bob.price@kirkoswald.com>, <kirkoswald.middleoffice@mfsadmin.com>,
+        <Kirkoswald@mfsadmin.com>
+From: <ldnrepo@barclays.com>
+MIME-Version: 1.0
+Sender:
+	<MicrosoftExchange329e71ec88ae4615bbc36ab6ce41109e@AbbevillePartnersLLP.onmicrosoft.com>
+Message-ID: <437dc6a0-1797-4b87-88e3-098bec8cf72b@journal.report.generator>
+Date: Wed, 18 Nov 2020 13:33:10 +0000
+X-MS-PublicTrafficType: Email
+X-MS-Journal-Report:
+Return-Path: journaling@abbevillellp.com
+X-MS-Exchange-Parent-Message-Id:
+	<AM6PR0102MB3637AC02E3CDF73168CE9E8891E10@AM6PR0102MB3637.eurprd01.prod.exchangelabs.com>
+Auto-Submitted: auto-generated
+X-MS-Exchange-Generated-Message-Source: Journal Agent
+X-MS-TrafficTypeDiagnostic: DB6PR0301MB2501:JournalingReport
+X-LD-Processed: b4126aba-d698-403e-a36b-2d797e7cd9b7,ExtAddr
+X-OriginatorOrg: AbbevillePartnersLLP.onmicrosoft.com
+X-MS-Exchange-CrossTenant-AuthSource:
+	DB6PR0301MB2501.eurprd03.prod.outlook.com
+X-MS-Exchange-CrossTenant-AuthAs: Internal
+X-MS-Exchange-CrossTenant-OriginalArrivalTime: 18 Nov 2020 13:33:10.1750 (UTC)
+X-MS-Exchange-CrossTenant-Network-Message-Id:
+	ad428f79-aaf6-437c-8d85-08d88bc67db5
+X-MS-Exchange-CrossTenant-FromEntityHeader: Hosted
+X-MS-Exchange-Transport-CrossTenantHeadersStamped: DB6PR0301MB2501
+
+--_8e2a6aa6-54f8-43cb-a52f-4ed76d799d8f_
+Content-Type: text/plain; charset="us-ascii"
+Content-Transfer-Encoding: 7bit
+
+Sender: sanjulanaicker.ganesankarunagaran@barclays.com
+On-Behalf-Of: ldnrepo@barclays.com
+Subject: RE: Margin Call Notice for Kirkoswald Global Macro Master Fund Limited (GMRA) as of COB 17 Nov 2020
+Message-Id: <AM6PR0102MB3637AC02E3CDF73168CE9E8891E10@AM6PR0102MB3637.eurprd01.prod.exchangelabs.com>
+Recipient: wesley.dodd@kirkoswald.com
+
+--_8e2a6aa6-54f8-43cb-a52f-4ed76d799d8f_
+Content-Type: message/rfc822
+
+ARC-Seal: i=2; a=rsa-sha256; s=arcselector9901; d=microsoft.com; cv=fail;
+ b=BBVBD945QSLiLbaI+yeKn/rHOP+GkmxbGwrgTJg+/gKgd/ZbsYQwSp/pOE88DXga7ib31E6CxamdEuK2s14Kp6PwKHdL6xFJdlWlqfNA/Gd6uNRWJdPAQlS5/C+UhUB7ijEAfMFJDmhmkxb9hE5r0eyhapeTDDbbaj9qQEVvdm3+lzMSOxGtXB67JiS5GtAKH1up4WQ3HuA7SxoAaWZ5NgPpu6ZOv9RQJzk1M/WE5uX7XS0YAuTmLCiKqpbpSPqF5NKik0p15OjXckvozIwTjf2ThL4sInt6VC0FKOmeRgYWLZkK4R48jeL8bNU83+/P4zR18B/le/d+Vi91Cf60yA==
+ARC-Message-Signature: i=2; a=rsa-sha256; c=relaxed/relaxed; d=microsoft.com;
+ s=arcselector9901;
+ h=From:Date:Subject:Message-ID:Content-Type:MIME-Version:X-MS-Exchange-SenderADCheck;
+ bh=sBDkZb/vCIDEqm4CzbzO2VN9sInzHi+DJ5BL7Veszqg=;
+ b=ggVMgSRTaCAUNoC6CpoMKJu8wGr3VjhZ9waog1aA1g7HBkpuueYF9grXm5IUfCRC1ALSwyiud5IGNoY+kZoTPVmxtSYFyJ2+g+qPuHRhsTxE4iV1Pm0cbSYTOrKFViHSHFAcq3bsj9MuH1BMY8S9SobWR9qW/MHSUODwDy8zN2Mv6II9rE+DeHWE1v4jAnMItUkR1m7bwy4qHB8OoMKD3rhH7DnzmnQlsr7S74Ew8pQaTZBiiINNOAy+YkuxwCrRQFj06liJYI20V9kZwtMNN6GUGSlH6tvQu53qAslZfJq67VxWbVGsu4YrFA0h2YmWNstZwhz+E3K5Js+y8zw94Q==
+ARC-Authentication-Results: i=2; mx.microsoft.com 1; spf=fail (sender ip is
+ 199.192.67.9) smtp.rcpttodomain=kirkoswald.com smtp.mailfrom=barclays.com;
+ dmarc=fail (p=reject sp=none pct=100) action=oreject
+ header.from=barclays.com; dkim=fail (signature did not verify)
+ header.d=barclays.com; dkim=fail (body hash did not verify)
+ header.d=barclays.onmicrosoft.com; arc=fail (47)
+Received: from AM5PR0101CA0030.eurprd01.prod.exchangelabs.com
+ (2603:10a6:206:16::43) by DB6PR0301MB2501.eurprd03.prod.outlook.com
+ (2603:10a6:4:5a::17) with Microsoft SMTP Server (version=TLS1_2,
+ cipher=TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384) id 15.20.3564.25; Wed, 18 Nov
+ 2020 13:33:09 +0000
+Received: from AM5EUR03FT021.eop-EUR03.prod.protection.outlook.com
+ (2603:10a6:206:16:cafe::d2) by AM5PR0101CA0030.outlook.office365.com
+ (2603:10a6:206:16::43) with Microsoft SMTP Server (version=TLS1_2,
+ cipher=TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384) id 15.20.3589.20 via Frontend
+ Transport; Wed, 18 Nov 2020 13:33:09 +0000
+Authentication-Results: spf=fail (sender IP is 199.192.67.9)
+ smtp.mailfrom=barclays.com; kirkoswald.com; dkim=fail (signature did not
+ verify) header.d=barclays.com;kirkoswald.com; dmarc=fail action=oreject
+ header.from=barclays.com;compauth=none reason=451
+Received-SPF: Fail (protection.outlook.com: domain of barclays.com does not
+ designate 199.192.67.9 as permitted sender) receiver=protection.outlook.com;
+ client-ip=199.192.67.9; helo=mailgwny01.accessabacus.com;
+Received: from mailgwny01.accessabacus.com (199.192.67.9) by
+ AM5EUR03FT021.mail.protection.outlook.com (10.152.16.105) with Microsoft SMTP
+ Server (version=TLS1_2, cipher=TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384) id
+ 15.20.3589.20 via Frontend Transport; Wed, 18 Nov 2020 13:33:07 +0000
+Received: from pps.filterd (mailgwny01.accessabacus.com [127.0.0.1])
+	by mailgwny01.accessabacus.com (8.16.0.43/8.16.0.43) with SMTP id 0AIDX3og016692
+	for <wesley.dodd@kirkoswald.com>; Wed, 18 Nov 2020 08:33:07 -0500
+Received: from pps.reinject (localhost [127.0.0.1])
+	by mailgwny01.accessabacus.com with ESMTP id 34td3qvj6a-1
+	(version=TLSv1.2 cipher=ECDHE-RSA-AES256-GCM-SHA384 bits=256 verify=NOT)
+	for <wesley.dodd@kirkoswald.com>; Wed, 18 Nov 2020 08:33:06 -0500
+Received: from mailgwny01.accessabacus.com (mailgwny01.accessabacus.com [127.0.0.1])
+	by pps.reinject (8.16.0.36/8.16.0.36) with SMTP id 0AIDX6Zl016820
+	for <wesley.dodd@kirkoswald.com>; Wed, 18 Nov 2020 08:33:06 -0500
+Received: from mail1.bemta25.messagelabs.com (mail1.bemta25.messagelabs.com [195.245.230.4])
+	by mailgwny01.accessabacus.com with ESMTP id 34td3qvj5n-1
+	(version=TLSv1.2 cipher=ECDHE-RSA-AES256-GCM-SHA384 bits=256 verify=NOT);
+	Wed, 18 Nov 2020 08:33:05 -0500
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=barclays.com;
+	s=barclayscom20180719; t=1605706383; i=@barclays.com;
+	bh=ACend8TlvV9aDtISX0PYFjVsfrfJXaYRP4qcYuiFhaM=;
+	h=From:To:CC:Subject:Sender:Date:Message-ID:References:In-Reply-To:
+	 Content-Type:Content-Transfer-Encoding:MIME-Version;
+	b=ZV2FXb2gpJg7LSb/FxxSDuaeWdg8eaoiB+nE8oc6sV86canQcRmPqvFUw7xkkmABZ
+	 KLW9BVzk8ubuNIExEK2+sJbdJlhXnwai6wJSi5Qy6UieF8vlU9nSeyfShbNZSu9isM
+	 HfFnpWPqbLRa5MFGq/gAsSmHBQEu2fWwDQeMLqLWYti095O2ZOsjTEnrPyi9dkL6Q6
+	 rwmZbEjY5KtBJF1titlYt4YqzDkjJlAcmIiBHFmLJPRjk6lfgGDRsU2+SSxIczxv6p
+	 ffyFtsMYCmRCAa0UDBQoVbh7bzK9I0dzc8hfQBlqQ/iybbpkU0/RKRhatWkvKicIM4
+	 CuZXhDrRnll7g==
+Received: from [100.112.194.135] (using TLSv1.2 with cipher DHE-RSA-AES256-GCM-SHA384 (256 bits))
+	by server-4.bemta.az-a.eu-west-1.aws.symcld.net id DE/31-14660-F8225BF5; Wed, 18 Nov 2020 13:33:03 +0000
+X-Env-Sender: SanjulaNaicker.GanesanKarunagaran@barclays.com
+X-Msg-Ref: server-6.tower-266.messagelabs.com!1605706370!42160!14
+X-Originating-IP: [157.83.97.117]
+X-SYMC-ESS-Client-Auth: outbound-route-from=pass
+X-StarScan-Received:
+X-StarScan-Version: 9.60.3; banners=-,-,-
+X-VirusChecked: Checked
+Received: (qmail 16826 invoked from network); 18 Nov 2020 13:33:02 -0000
+Received: from unknown (HELO IMSMGGCB604P.barclays.com) (157.83.97.117)
+  by server-6.tower-266.messagelabs.com with ECDHE-RSA-AES256-GCM-SHA384 encrypted SMTP; 18 Nov 2020 13:33:02 -0000
+Received: from IMSMGGCCP01P.barclays.com (Unknown_Domain [35.49.84.75])
+	(using TLS with cipher ECDHE-RSA-AES256-GCM-SHA384 (256/256 bits))
+	(Client did not present a certificate)
+	by IMSMGGCB604P.barclays.com (Symantec Messaging Gateway) with SMTP id 02.0D.60501.E8225BF5; Wed, 18 Nov 2020 13:33:02 +0000 (GMT)
+X-AuditID: 0a118867-8a150a800001ec55-7a-5fb5228e9976
+Received: from ldnpsmeg1000004.INTRANET.BARCAPINT.com (Unknown_Domain [10.250.250.254])
+	by IMSMGGCCP01P.barclays.com (Symantec Messaging Gateway) with SMTP id 0A.62.32924.D8225BF5; Wed, 18 Nov 2020 13:33:01 +0000 (GMT)
+Received: from MUKPBCC4XSN0034.collab.barclayscorp.com (Not Verified[10.40.84.45]) by ldnpsmeg1000004.INTRANET.BARCAPINT.com with Barclays Capital Filter ESMTP (using TLS: TLSv1.2, ECDHE-RSA-AES256-SHA384)
+	id <B5fb5228c000d>; Wed, 18 Nov 2020 13:33:00 +0000
+Received: from MUKPBCC4XHY0003.collab.barclayscorp.com (22.116.84.21) by
+ MUKPBCC4XSN0034.collab.barclayscorp.com (10.37.66.57) with Microsoft SMTP
+ Server (TLS) id 15.0.1395.4; Wed, 18 Nov 2020 13:33:00 +0000
+Received: from XUKPBCC4XEDG006.collab.barclayscorp.com (10.234.4.41) by
+ MUKPBCC4XHY0003.collab.barclayscorp.com (22.116.84.21) with Microsoft SMTP
+ Server (TLS) id 15.0.1395.4; Wed, 18 Nov 2020 13:33:00 +0000
+Received: from EUR04-HE1-obe.outbound.protection.outlook.com (104.47.13.54) by
+ edge.barclays.com (10.234.4.25) with Microsoft SMTP Server (TLS) id
+ 15.0.1395.4; Wed, 18 Nov 2020 13:33:00 +0000
+ARC-Seal: i=1; a=rsa-sha256; s=arcselector9901; d=microsoft.com; cv=none;
+ b=PmQj9Aqv80dibtMu684++RndBpS/tCwAu5hIETRuZ1aAUUGFwsBLM/Umx50I2lhb2jQZ2OsZ9VHmNgQalEwqQbjoDpB7XTyXiFwzfOrTfwf5esOMSAdQFjFUbZ6w8EQOSXJ7t0JlOCiYEKd2LHmSXdJ5UYhr9H10Q11xZjnRlESMFDvfR/y6wd5hCVxGiO44wtYdi4ZTVy9jvCVl1zTeMzse1dhFlKPa8H7wcfO+1pmgchPr1+jIJgG4IyfyZnWSJzX3F9/9ttu51kIzvKUXFBWdg/ZldqQzlggu1yXSJL583nfClnEB3Xn767BHkdw3pNO6UfCGXx6dI2QJl04mzw==
+ARC-Message-Signature: i=1; a=rsa-sha256; c=relaxed/relaxed; d=microsoft.com;
+ s=arcselector9901;
+ h=From:Date:Subject:Message-ID:Content-Type:MIME-Version:X-MS-Exchange-SenderADCheck;
+ bh=bpcQZbfbVdjcx51VqMKCUso+l8M1X4v82lWYecaFteM=;
+ b=DJAUjAGF7sz2KzgVPFa89XzeGkhZe2VXozgJngFjelfJ0O+JZDTiUsj6NDHGCxKncnuD+06TyD75IpUe7u7KLy8zYxKKdQ7v0D4urrtHfKLMNe4q0Hxp9z6FiFoLbKTBPG59YeeTC+QPpa8Ka9cf5m1M4p2nJpmZ+1oNkIMKAdsOr/VQRB/V2zLW34vY6S6VdAATOvFwKsrf95dMHdVQKljQpKfaWYOtWO9D7bVZAqrufuiVyhCq5QkQL/B5lumdqfNHOC6vWPxVltvi0He3n9b8X4dO9OKVQ8LvL46UcmN2GM9rdIigIGelQCqbDw3ZP6+DouwsYJYIg7GeyWMyWg==
+ARC-Authentication-Results: i=1; mx.microsoft.com 1; spf=pass
+ smtp.mailfrom=barclays.com; dmarc=pass action=none header.from=barclays.com;
+ dkim=pass header.d=barclays.com; arc=none
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+ d=barclays.onmicrosoft.com; s=selector1-barclays-onmicrosoft-com;
+ h=From:Date:Subject:Message-ID:Content-Type:MIME-Version:X-MS-Exchange-SenderADCheck;
+ bh=bpcQZbfbVdjcx51VqMKCUso+l8M1X4v82lWYecaFteM=;
+ b=OBVpCN824d/nHnwv7xzAs/2eS+7OFqQhXBnN79NriD417p13LKNycGrS7XfPdBLY8jAwDIdy6CFBEaT1iW/5X3DjDxRkqeG2piw2KlKR7jfOeV62ABH3tdj5pUbL5sg1sQX+Fu2lt3NvjQy6Ob2wESjd60ZO+sgU3pqEDxH8dZ8=
+Received: from AM6PR0102MB3637.eurprd01.prod.exchangelabs.com
+ (2603:10a6:209:22::32) by AM7PR01MB6980.eurprd01.prod.exchangelabs.com
+ (2603:10a6:20b:1bc::7) with Microsoft SMTP Server (version=TLS1_2,
+ cipher=TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384) id 15.20.3564.25; Wed, 18 Nov
+ 2020 13:32:58 +0000
+Received: from AM6PR0102MB3637.eurprd01.prod.exchangelabs.com
+ ([fe80::2001:43bc:53b1:7d48]) by
+ AM6PR0102MB3637.eurprd01.prod.exchangelabs.com
+ ([fe80::2001:43bc:53b1:7d48%6]) with mapi id 15.20.3564.025; Wed, 18 Nov 2020
+ 13:32:58 +0000
+From: <ldnrepo@barclays.com>
+To: <NHayes@mfsadmin.com>, <ops@kirkoswald.com>, <ldnrepo@barclays.com>,
+        <bob.price@kirkoswald.com>, <kirkoswald.middleoffice@mfsadmin.com>,
+        <Kirkoswald@mfsadmin.com>
+CC: <warren.cole@kirkoswald.com>, <wesley.dodd@kirkoswald.com>
+Subject: RE: Margin Call Notice for Kirkoswald Global Macro Master Fund
+ Limited (GMRA) as of COB 17 Nov 2020
+Thread-Topic: Margin Call Notice for Kirkoswald Global Macro Master Fund
+ Limited (GMRA) as of COB 17 Nov 2020
+Thread-Index: AQHWvYWEBWdcMTt6CEu2trBBeZFvGanNlgyAgAAIwACAAESOoA==
+Sender: <sanjulanaicker.ganesankarunagaran@barclays.com>
+Date: Wed, 18 Nov 2020 13:32:58 +0000
+Message-ID: <AM6PR0102MB3637AC02E3CDF73168CE9E8891E10@AM6PR0102MB3637.eurprd01.prod.exchangelabs.com>
+References: <108nwjy23b42.4opftvp7bgto@GBRPSM020006024.INTRANET.BARCAPINT.com>
+ <DB7PR03MB4827BB3684FDD52ED701D995E2E10@DB7PR03MB4827.eurprd03.prod.outlook.com>
+ <259e159d2680486f8a4140a5024f936f@opmbox02mtd.options-it.com>
+In-Reply-To: <259e159d2680486f8a4140a5024f936f@opmbox02mtd.options-it.com>
+Accept-Language: en-US
+Content-Language: en-US
+X-MS-Has-Attach:
+X-MS-TNEF-Correlator:
+msip_labels: MSIP_Label_809883c2-c98e-47bb-9665-f01ec16099d6_Enabled=True;
+ MSIP_Label_809883c2-c98e-47bb-9665-f01ec16099d6_SiteId=c4b62f1d-01e0-4107-a0cc-5ac886858b23;
+ MSIP_Label_809883c2-c98e-47bb-9665-f01ec16099d6_Owner=gansanju@intranet.barcapint.com;
+ MSIP_Label_809883c2-c98e-47bb-9665-f01ec16099d6_SetDate=2020-11-18T13:32:46.1231230Z;
+ MSIP_Label_809883c2-c98e-47bb-9665-f01ec16099d6_Name=Restricted - External;
+ MSIP_Label_809883c2-c98e-47bb-9665-f01ec16099d6_Application=Microsoft Azure
+ Information Protection;
+ MSIP_Label_809883c2-c98e-47bb-9665-f01ec16099d6_Extended_MSFT_Method=Manual;
+ barclaysdc=Restricted - External
+x-ms-exchange-messagesentrepresentingtype: 2
+x-originating-ip: [167.203.22.6]
+x-ms-publictraffictype: Email
+X-MS-Office365-Filtering-Correlation-Id: 4c3da904-0235-4b90-1ff6-08d88bc67cae
+x-ms-traffictypediagnostic: AM7PR01MB6980:|DB6PR0301MB2501:
+x-ms-exchange-transport-forked: True
+x-microsoft-antispam-prvs: <AM7PR01MB6980E4C1BC210194A171522091E10@AM7PR01MB6980.eurprd01.prod.exchangelabs.com>
+x-ms-oob-tlc-oobclassifiers: OLM:5516;OLM:590;
+x-ms-exchange-senderadcheck: 1
+X-Microsoft-Antispam-Untrusted: BCL:0;
+X-Microsoft-Antispam-Message-Info-Original: u1M7VsDiPiziHCTstl4KmFQZkcbhgh8Xp42j9fYws3AIevTGic+PFVfTjVLnaMS9Q3nzwW06086YKAQAKM019XtquVuAHPr7Hkn+uwSTRRU3aJ2NLvMg5+BssF3x2YfKbIjyAlm0B9UibqBaXHbNPbwKjJT+I6rzJgNtu441/KmCaMdEc+PuNm0YBDXj7I4vaGQOCXB9EKehyUryshjj92TipGnKrJ/5AHDmjVbS1r18oLd7fsqlQgu72R7eAJ9kxvOhnS4/UmgwqQUL3LrPekP6c3Nh7Zj59uIKHk1vxXSHzSJyL5cUkYiKoqTh7VYI1aMyCvneb18aSoG2XmN6j41tQiBAHXku5WNjfxu1jMgEfvk7GUvhbTIc40DAQn45NidM+JLiItTGa8hxnt8dzg==
+X-Forefront-Antispam-Report-Untrusted: CIP:255.255.255.255;CTRY:;LANG:en;SCL:1;SRV:;IPV:NLI;SFV:NSPM;H:AM6PR0102MB3637.eurprd01.prod.exchangelabs.com;PTR:;CAT:NONE;SFS:(4636009)(346002)(376002)(366004)(39860400002)(396003)(136003)(5660300002)(10290500003)(66574015)(54906003)(71200400001)(66446008)(64756008)(52536014)(7696005)(33656002)(966005)(66946007)(2906002)(4326008)(83380400001)(478600001)(8676002)(66556008)(15650500001)(8936002)(66476007)(76116006)(110136005)(7846003)(316002)(9686003)(55016002)(30864003)(186003)(26005)(6506007)(53546011);DIR:OUT;SFP:1102;
+x-ms-exchange-antispam-messagedata: SU6tH8EBb0gVLBYqY5kLENDcguYLTUEBQ6joI3Gt2gR+hIXwXfkJkut1MxTgFaXA/mhWTh9PFo11xxfO4frIlDgocdx+Cz4h+BzYo92Ta1vUxMDxH4VfqDWvvxuiZYSFfs5FlVmDCJSFYMCLHa2Nc4GRj1JnX4aS9IiUNpNFpKkgSUGpgHKmCutJRA11FuUTAeHUHbzDxHyeluvkLq18F3Eph1TD0S74ri6FN8nLQtYbJ6dqFRIibfSwSNw1cbOCd79WorXKLzym11TocWP6LD5EnQTO3NokCsIIxEVUfmjeT6Np20mVe7wNJMBPZI0Urlf/2VWwAd1G2yIPb+1IPK3tgWFfKUKs/nZpbWeQrNZzlfPXefJ+0XDpkbcTwg7BPByWl1PvisBFFsXIzcwBAUGid85jAjTeeV4Wf3JeH5m6qI1xxVSvrNaR+d7AoT0PD3E0eyX/q7aruUVsOq6OtAbFtFcuYWw5qGcxh08ojn8UgB9pNGyHMCbLS6Dabi3xoz7vv3qHvDVsqjypySD9rAAPyMyXKLo+Nc+uUsN3SvwxKQcZL/77JAFLzZhoc0ODMbw1BnndZyPpLJKl4S8WeREUPJq4uEHMVTTIWe1BZew105sWCkxoV4xDR3M0UfEaIzw0bUZ8lHn8btyBmV0XuMubov4kuSvNoYKOdFH7VqUtas+oD2NlLFm6GO/jnnS/k3Wzt8N8YwN+PhFoOMTnTWPuTOFeQDnmGd/sfXv4U3q96VQb/vK0ZiCRo8aMURlov/ezbyJv5oUtOG+JrGNmKun97vf3YwDRhZh8jvpCFNwyFkZnTECTVFgQs0RXg+3lcQx2gZ8yzX/urZZAWcLIl1pruWP5nnBXsounUFNwnas2iMohG0qPJOeg53DLNeo9Cl9tGB5ZUX/YxnaroxRRJQ==
+Content-Type: text/plain; charset="utf-8"
+X-MS-Exchange-Transport-CrossTenantHeadersStamped: AM7PR01MB6980
+X-CFilter-Loop: Reflected
+X-Brightmail-Tracker: H4sIAAAAAAAAA+NgFtrGKsWRmVeSWpSXmKPExsWibBjirduntDXe4PoDWYu7lw6zWWy6+onV
+	4vG6bawWP549Z7fYf28Ou0X79pssFvNWP2d2YPdoe6blsenZD7YApihRm5KcYoXi1JKSzLx0
+	WyXf0OAQJX27BNGMP7cPMhUcmM9YseT6Z9YGxi2zGbsYOTkkBEwkJu6aztrFyMUhJLCLSaL3
+	xXd2mETDvznMEIk7jBL3bxxig3CamSR+rWmBylxmlDg6vR/Bad36B2rYYUaJ4y93M4I4jALL
+	mCVuNO5hhXBOsUhsal7JArKGUWAHo8S0l+kgCRaBrcwSy3ZMhVqznkli1d6dUM4nRolXr78w
+	gbSwCchIzPp8gx0kISKwilFi46QnrCAJZgE7iR/Xl4H9JSyQJ3H53W4wW0QgX6JvzlcWCNtJ
+	4uikfVA1FhIPj+8Bs1kEVCXaX39jA7F5BVIl2g81skNsfsgo0flgF9hmTgEvie4fV6EOF5P4
+	fmoNE8RicYlbT+YzQcJNQGLJnvPMELaoxMvH/8C+5hVoYpU4/+M8MyQIJjNK7HjyDapKR+LU
+	8hnsExhtZiEZNouRA8jWlFi/Sx8irCgxpfsh+yywAwUlTs58wrKAkWUVI4+nb7Cvu7uzk5mB
+	ScAmRmAC4hLsSN/BuPHkC71DjEwcjIcYJTiYlUR4XUw2xgvxpiRWVqUW5ccXleakFh9iNAX6
+	fCKzlGhyPjAF5pXEG5qaGhgATTK1sDAxUBLnFfghHS8kkJ5YkpqdmlqQWgTTx8TBKdXA1Htg
+	V1zHS7nVJwUZOlfFMWatVWPYkS53sdR74f+0dkMx3ZVeSq6PWgL+sc8/45O+U9JkSUztpk+G
+	XjJp3GWP11sXJq549SHy7ZVN31RjRZ2nR3KUWpruV8t83HfC1zl6V8kztafh++/ev/RBraPh
+	pEP+s1evebcvq7sS8ovjmLqJk/rk9ra67fpPppjGv5SbHBv42FIkW4H51oQgKxZzbsP4Hfd5
+	/0+L5ZobsvGbZ+EBT/GVN7Y7717gy8yo6cV5XMJU5wrH5f5P++8pbO+xZGdID1uw2yn2i9d+
+	5zn3HonePysy83PhvAOC12+6b7b+fHxziuUtu7kpHfZR2vbzyjuC/csf7z/CyRO5YsI3JZbi
+	jERDLeai4kQAFIyJEckDAAA=
+X-Brightmail-Tracker: H4sIAAAAAAAAA+NgFupnleLIzCtJLcpLzFFi42Lh+vXrn26v0tZ4g8OtVhZ3Lx1ms9h09ROr
+	xeN121gtfjx7zm6x/94cdov27TdZLOatfs7swO7R9kzLY9OzH2wBTFFcNimpOZllqUX6dglc
+	GX9uH2QqODCfsWLJ9c+sDYxbZjN2MXJySAiYSDT8m8PcxcjFISRwh1Hi/o1DbBBOM5PErzUt
+	UJnLjBJHp/cjOK1b/7BCOIcZJY6/3M0I4jAKLGOWuNG4hxXCOcUisal5JQvIGkaBHYwS016m
+	gyRYBLYySyzbMRVqzXomiVV7d0I5nxglXr3+wgTSwiYgIzHr8w12kISIwCpGiY2TnrCCJJgF
+	7CR+XF8Gdr6wQJ7E5Xe7wWwRgXyJvjlfWSBsJ4mjk/ZB1VhIPDy+B8xmEVCVaH/9jQ3E5hVI
+	lWg/1MgOsfkho0Tng11gmzkFvCS6f1yFOlxM4vupNUwQi8Ulbj2ZzwQJNwGJJXvOM0PYohIv
+	H/8D+5pXoIlV4vyP88yQIJjMKLHjyTeoKh2JU8tnsEPYChK7luyBmiQrcWl+N+MERstZSJbM
+	YuQAsjUl1u/ShwgrSkzpfsg+C+xwQYmTM5+wLGBkWcXI4+kb7Ovu7uwcYGAYsIkRmGiUDUO8
+	dzAen5R5iJGJg/EQowQHs5IIr4vJxngh3pTEyqrUovz4otKc1OJDjNIcLErivP4xBfFCAumJ
+	JanZqakFqUUwWSYOTqkGRs/d03wr0hPuZZumRv+xf73re+E+5W3s6srzVsVciNjC6efo1tCf
+	cNLa8l8j3xf7rts3l3bJFWRe/zXNOTrS/HDIql8BtjOl5578rLP41TEVEZsiZ1HlWPGJ8YK3
+	7Kxd9qvHPmR2c3lYUqE3q/Py1zXOj9b13sq78fJ+TnHGTy6RL0y9E5eXKbEUZyQaajEXFScC
+	ANBXiwgiAwAA
+X-CLX-Shades: MLX
+X-CLX-Response: 1TFkXHhgbEQpMehcbEhMRCllEF2EbRk5aYh9QX15JEQpYWBdrR3l6UAFoE2Z 6bBEKeE4XZR0ZY2xabWBjBR8RCnlMF2hzZlhIfR1ORll6EQpDSBcHHREKQ1kXBxMcEQpDSRcaBB oaGhEKWU0XZ2ZyEQpZSRcacRoQGncGGBIbcRwfGBAadwYYGgYbGBoRClleF2hueREKSUYXS0hLS
+ V9ZTVhFX1p1WlhFTl9JXkNFRAdcRxEKQ04XUH9CXmtMZ29PUGNkcntaf2Z7Wx4HRFsaeBITYBp9 UGIRClhcFx8EGgQYGxIFGxoEGxsaBB8aBBseGBAbHhofGhEKXlkXfRxZSVkRCk1cFx4dHxEKTFo XaWhHTU1DEQpFWRdva2sRCkxGF29ra2tsa2sRCkJPF2lcQUFuWGxNHWVzEQpDWhcbEx8EGB4fBB
+ gZGgQeEQpCXhcbEQpZRRcTEQpFSRcbEQpFZhceEQpEWBceEQpEXhccEQpESRcYEQpCRRdsaHNtH F1ZWnMfYBEKQk4XZR0ZY2xabWBjBR8RCkJMF2tHeXpQAWgTZnpsEQpCbBdrR3l6UAFoE2Z6bBEK QkAXbmliRV8FQmgfR2gRClpYFxsYEQp5QxdlWWt5ZUdIZhtlSBEKWUsXExIfHREKcGcXbmNDeHJ
+ yflwfXU4QBx0aEQpwaBdgBVwdXBhHbF9+GhAHHRoRCnBoF2tZGnJPYVh8EmZEEAcdGhEKcGgXYR pgaFluSW98bmAQHRIRCnBoF2UTSGtieFlNHmB5EAcdGhEKcGgXYkloZktwGGRNf3MQBx0aEQpwf RdraWRzc3pjWE8fWxAHHRoRCnBnF3pyXVBLH1IdWFNfEBsYGREKcH0XYmsBZGxJfmsfZFkQBx0a
+ EQpwfRdhUl5HXXlocHpITRAHHRoRCnB9F2JaGEdgHF1PWXJIEAcdGhEKcH0XbHtAc1tlEkdgHlA QBx0aEQpwfRdlfx5wU2IfGkJnZBAHHRoRCnB9F21pGWB+bGhdGU5BEAcdGhEKcH0XbGBpaxtlHV kdfEcQBx0aEQpwfRdpUHtwa2FeE3JPcxAHHRoRCnB9F2Ufc3BIGkxjZEF/EBsdHBEKcH0XekMcT
+ GBDQ3weYkUQGx0fEQpwfRdoTx9Ce2ZuSWkcXxAbHRkRCnB/F2YeZGMZXXBkfUNAEBseGxEKcF8X ZE4YR0ZcThJyR0EQBx0aEQpwXxdkTU15HFtca0RpZRAHHRoRCnBfF2VDbWQTeGJ7El9ZEBwaEQp wXxdjT0NsfgVdexhIRRAeEhEKcF8XY0NZTWlCckJpRxMQBx0aEQpwXxduZERtZHBrSXoacxAHHR
+ oRCnBfF2cTZn9SXkFPQktTEB4SEQpwXxdrZnxlZgFjbWR6fhAeEhEKcF8XZG5SfGlJEkRoWQUQG RoRCnB/F2xhfH5rHkQZElxkEBscExEKcF8XYEMfXloZHn9+HWUQGx0fEQpwfxdjfkVNQxJ4RhIf bBAbHR0RCnBfF3pDHExgQ0N8HmJFEBsdHxEKcH8XaHp7fhxgW3htZhMQGx0cEQpwXxdnbXhLGkx
+ 8bH0eSRAbHRgRCnBDF25zZGYYTVhBYxJeEBsYGxEKbX4XGhEKWE0XSxEg
+Content-Transfer-Encoding: Quoted-printable
+MIME-Version: 1.0
+X-Barracuda-Envelope-From: Proofpoint
+X-Proofpoint-Spam-Details: rule=inbound_notspam policy=inbound score=0 suspectscore=0 clxscore=421
+ priorityscore=189 impostorscore=0 phishscore=0 bulkscore=0 malwarescore=0
+ spamscore=0 lowpriorityscore=0 mlxscore=0 adultscore=0 mlxlogscore=999
+ classifier=spam adjust=0 reason=mlx scancount=2 engine=8.12.0-2009150000
+ definitions=main-2011180095
+Return-Path: SanjulaNaicker.GanesanKarunagaran@barclays.com
+X-MS-Exchange-Organization-OriginalArrivalTime: 18 Nov 2020 13:33:07.9679
+ (UTC)
+X-MS-Exchange-Organization-ExpirationStartTime: 18 Nov 2020 13:33:08.4496
+ (UTC)
+X-MS-Exchange-Organization-ExpirationStartTimeReason: OriginalSubmit
+X-MS-Exchange-Organization-ExpirationInterval: 1:00:00:00.0000000
+X-MS-Exchange-Organization-ExpirationIntervalReason: OriginalSubmit
+X-MS-Exchange-Organization-Network-Message-Id: 4c3da904-0235-4b90-1ff6-08d88bc67cae
+X-MS-Exchange-Organization-OriginalClientIPAddress: 199.192.67.9
+X-MS-Exchange-Organization-OriginalServerIPAddress: 10.152.16.105
+X-MS-Exchange-Organization-MessageScope: bd5b9f03-9e37-4636-bc3f-a0d6d5f3149a
+X-EOPAttributedMessage: 0
+X-EOPTenantAttributedMessage: b4126aba-d698-403e-a36b-2d797e7cd9b7:0
+X-MS-Exchange-Organization-TargetResourceForest: eurprd03.prod.outlook.com
+X-MS-Exchange-Organization-OrgEopForest: EUR03
+X-MS-Exchange-Organization-MessageDirectionality: Incoming
+X-MS-Exchange-Organization-Id: b4126aba-d698-403e-a36b-2d797e7cd9b7
+X-MS-Exchange-Organization-MessageInboundConnectorType: Partner
+X-MS-Exchange-Organization-MessageInboundConnectorName: Inbound Email from
+ Proofpoint
+X-MS-Exchange-Organization-Base64-MessageInboundConnectorData: TgBhAG0AZQA9AEkAbgBiAG8AdQBuAGQAIABFAG0AYQBpAGwAIABmAHIAbwBtACAAUAByAG8AbwBmAHAAbwBpAG4AdAA7AEMAbwBuAG4AZQBjAHQAbwByAFQAeQBwAGUAPQBQAGEAcgB0AG4AZQByADsAVABlAG4AYQBuAHQASQBkAD0AYgA0ADEAMgA2AGEAYgBhAC0AZAA2ADkAOAAtADQAMAAzAGUALQBhADMANgBiAC0AMgBkADcAOQA3AGUANwBjAGQAOQBiADcA
+X-MS-Exchange-Organization-MessageInboundConnectorData: Name=Inbound Email
+ from
+ Proofpoint;ConnectorType=Partner;TenantId=b4126aba-d698-403e-a36b-2d797e7cd9b7
+X-MS-Exchange-Organization-InboundConnector-Attributes: id=03746255-66f1-4e52-079d-08d723d74211;ty=2;idh=9b8a637c-27fd-66c5-f2ee-57aa6d6e05e0;cr=458;ch=290;tl=1;mi=0;
+X-MS-Exchange-Organization-FFO-ServiceTag: EUR03B
+X-MS-Exchange-Organization-SkipListedRecipientPilot: True
+X-MS-Exchange-Organization-Cross-Premises-Headers-Processed: AM5EUR03FT021.eop-EUR03.prod.protection.outlook.com
+X-MS-Exchange-Transport-CrossTenantHeadersStripped: AM5EUR03FT021.eop-EUR03.prod.protection.outlook.com
+X-MS-Exchange-Organization-ConnectingIP: 199.192.67.9
+X-MS-Exchange-Organization-ConnectingEHLO: mailgwny01.accessabacus.com
+X-MS-Exchange-Organization-AS-LastExternalIp: 199.192.67.9
+X-MS-Exchange-Organization-Originating-Country: US
+X-MS-Exchange-Organization-P2SenderPII: <PII:H101(DYEJ2r6FrjWMjx2dxyExc56oLNn6P+Uj9QGg1NYUEjQ=)>@barclays.com
+X-MS-Exchange-Organization-OriginalEnvelopeRecipients: wesley.dodd@kirkoswald.com
+X-MS-Exchange-Organization-PtrDomains: mailgwny01.accessabacus.com
+X-MS-Exchange-Organization-EhloAndPtrDomain: mailgwny01.accessabacus.com;mailgwny01.accessabacus.com
+X-MS-Exchange-Organization-MxPointsToUs: false
+X-MS-Exchange-Organization-RecipientMxInfo-PFAFD: kirkoswald.com#mailgwny01.accessabacus.com;mailgwsf01.accessabacus.com
+X-MS-Exchange-Organization-CompAuthRes: none
+X-MS-Exchange-Organization-CompAuthReason: 451
+X-MS-Exchange-Organization-SpoofDetection-Frontdoor-DisplayDomainName: barclays.com
+X-MS-Exchange-Organization-SenderRep-Score: 3
+X-MS-Exchange-Organization-SenderRep-Data: IpClassLargeGrayOther_GrayOther_Good
+X-MS-Exchange-Organization-VBR-Class: GrayOther
+X-MS-Exchange-Organization-HMATPModel-Spf: 4
+X-MS-Exchange-Organization-HMATPModel-Recipient: <PII:H101(YRcGKwyTFxp28GyENb1HaW3aEDMrzZbiC7nwKLhUOw0=)>@kirkoswald.com
+X-MS-Exchange-Organization-TransportTrafficType: Email
+X-MS-Exchange-Organization-OrderedPrecisionLatencyInProgress: LSRV=AM5PR0101CA0030.eurprd01.prod.exchangelabs.com:TOTAL-FE=0.025|SMR-PEN=0.074(RENV=0.071|SMRPROXY-PEN=0.000);2020-11-18T13:33:09.446Z
+X-MS-Exchange-Organization-MessageLatency: SRV=AM5EUR03FT021.eop-EUR03.prod.protection.outlook.com:TOTAL-FE=1.452|SMR-PEN=1.410(RENV=0.104(SMRRC=0.021)|REOH=1.305(SMREH=0.927(SMREH-Protocol
+ Filter Agent=0.924 ))|SMRPROXY-PEN=0.000)|SMS=0.042
+X-MS-Exchange-Organization-MessageLatency:
+	SRV=AM5PR0101CA0030.eurprd01.prod.exchangelabs.com:TOTAL-FE=0.087|SMR-PEN=0.074(RENV=0.071|SMRPROXY-PEN=0.000)|SMS=0.062(SMSC=0.033)
+X-MS-Exchange-Forest-ArrivalHubServer:
+	DB6PR0301MB2501.eurprd03.prod.outlook.com
+X-MS-Exchange-Organization-AuthSource:
+	AM5EUR03FT021.eop-EUR03.prod.protection.outlook.com
+X-MS-Exchange-Organization-AuthAs: Anonymous
+X-MS-Exchange-Organization-FromEntityHeader: Internet
+X-MS-Exchange-Forest-MessageScope: bd5b9f03-9e37-4636-bc3f-a0d6d5f3149a
+X-MS-Exchange-Organization-Antispam-ProtocolFilterHub-ScanContext:
+	ProtocolFilterHub:SmtpOnEndOfData;
+X-MS-Office365-Filtering-Correlation-Id-Prvs:
+	ae24eb17-fff5-4662-c6c1-08d88bc67683
+X-MS-Exchange-Organization-OriginalSize: 45513
+X-MS-Exchange-Organization-HygienePolicy: Premium
+X-MS-Exchange-Organization-ReplicationInfo:
+	ReplicaId=8847c867-01b0-f3da-eb0e-4f7dc68bd808;ReplicatingServerFqdn=HE1PR0301MB2505.eurprd03.prod.outlook.com
+X-MS-Exchange-Forest-Language: en
+X-MS-Exchange-Forest-IndexAgent-0:
+	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
+X-MS-Exchange-Forest-IndexAgent: 1 7690
+X-MS-Exchange-Forest-EmailMessageHash: 2DDB6E8C
+X-MS-Exchange-Organization-IsPotentialIntraOrgMail: False
+X-MS-Exchange-Organization-Antispam-PreContentFilter-PolicyLoadTime:
+	MAOSUB:2;MAOSUBLOAD:1;SAORES:2;SAORESLOAD:1;SLORES:0;SLORESLOAD:0;
+X-MS-Exchange-Organization-MessageFingerprint:
+	E250F275.AEFA9BC9.BAF0A573.8AF9D845.207BD
+X-MS-Exchange-Organization-UrlMinimumDomainAge: home.barclays#2031
+X-MS-Exchange-Organization-URLFeatureReduction:
+	84;4;0;31;0;0;0;0;24;8;7;10000000;0;1;0
+X-MS-Exchange-Organization-Persisted-Urls-ChunkCount: 5
+X-MS-Exchange-Organization-Persisted-Urls-0:
+	=?us-ascii?Q?[{"ID":7,"OU":"https://urldefense.proofpoint.com/v2/url=3Fu?=
+ =?us-ascii?Q?=3Dhttps-3A=5F=5Fclicktime.symantec.com=5F32aSxMkpsw28SVvnbe?=
+ =?us-ascii?Q?5KB8T6H2-3Fu-3Dhttps-253A-252F-252Furldefense.proofpoint.com?=
+ =?us-ascii?Q?-252Fv2-252Furl-253Fu-253Dhttps-2D3A-5F-5Fwww.investmentbank?=
+ =?us-ascii?Q?.barclays.com-5Fdisclosures-5Fpersonalinformationuse.html-25?=
+ =?us-ascii?Q?26d-253DDwIF-2Dg-2526c-253Ddpn1WjMMQGUYKOlM1k1w3OIaMfTHNTwPo?=
+ =?us-ascii?Q?UrrILOsxvs-2526r-253DryqPGn58iJo-5FeGaN9j9IgI0XFYvG66oJtaT0D?=
+ =?us-ascii?Q?oFnFJM-2526m-253DEvN-2DkTjn8-2DRpcY-2DcpUhKbSNGhDFhIHRz17nec?=
+ =?us-ascii?Q?ryyVl4-2526s-253DqfyX6UcmQcf9-2DoPY6AyHj9bKW-5FGyY0R5TwVyXbc?=
+ =?us-ascii?Q?t3A0-2526e-253D&d=3DDwIGAw&c=3Ddpn1WjMMQGUYKOlM1k1w3OIaMfTHN?=
+ =?us-ascii?Q?TwPoUrrILOsxvs&r=3D-zJgZJliT2lTAJxL6GuHqU2qWNLXozchr18fzuv?=
+ =?us-ascii?Q?=5Forc&m=3DH4HBqa1iLIRuy3q9iStbVGc8KVPuWcgCHN3DEncnwNI&s=3Dv?=
+ =?us-ascii?Q?JKjn3GuhnHdoo9BnXcXK5ofxcPzH1QQiLbGsc3aEkY&e=3D","U":"https:?=
+ =?us-ascii?Q?//www.investmentbank.barclays.com/disclosures/personalinform?=
+ =?us-ascii?Q?ationuse.html","IAR":false,"LI":{"BF":1,"SI":-1,"EndIndex":-?=
+ =?us-ascii?Q?1},"SRCI":1,"IU":[{"ID":-1,"OU":"https://urldefense.proofpoi?=
+ =?us-ascii?Q?nt.com/v2/url=3Fu=3Dhttps-3A=5F=5Fclicktime.symantec.com=5F3?=
+ =?us-ascii?Q?2aSxMkpsw28SVvnbe5KB8T6H2-3Fu-3Dhttps-253A-252F-252Furldefen?=
+ =?us-ascii?Q?se.proofpoint.com-252Fv2-252Furl-253Fu-253Dhttps-2D3A-5F-5Fw?=
+ =?us-ascii?Q?ww.investmentbank.barclays.com-5Fdisclosures-5Fpersonalinfor?=
+ =?us-ascii?Q?mationuse.html-2526d-253DDwIF-2Dg-2526c-253Ddpn1WjMMQGUYKOlM?=
+ =?us-ascii?Q?1k1w3OIaMfTHNTwPoUrrILOsxvs-2526r-253DryqPGn58iJo-5FeGaN9j9I?=
+ =?us-ascii?Q?gI0XFYvG66oJtaT0DoFnFJM-2526m-253DEvN-2DkTjn8-2DRpcY-2DcpUhK?=
+ =?us-ascii?Q?bSNGhDFhIHRz17necryyVl4-2526s-253DqfyX6UcmQcf9-2DoPY6AyHj9bK?=
+ =?us-ascii?Q?W-5FGyY0R5TwVyXbct3A0-2526e-253D&d=3DDwIGAw&c=3Ddpn1WjMMQGUY?=
+ =?us-ascii?Q?KOlM1k1w3OIaMfTHNTwPoUrrILOsxvs&r=3D-zJgZJliT2lTAJxL6GuHqU2q?=
+ =?us-ascii?Q?WNLXozchr18fzuv=5Forc&m=3DH4HBqa1iLIRuy3q9iStbVGc8KVPuWcgCHN?=
+ =?us-ascii?Q?3DEncnwNI&s=3DvJKjn3GuhnHdoo9BnXcXK5ofxcPzH1QQiLbGsc3aEkY&e?=
+ =?us-ascii?Q?=3D","U":"https://urldefense.proofpoint.com/v2/url=3Fu=3Dhtt?=
+ =?us-ascii?Q?ps-3A=5F=5Fclicktime.symantec.com=5F32aSxMkpsw28SVvnbe5KB8T6?=
+ =?us-ascii?Q?H2-3Fu-3Dhttps-253A-252F-252Furldefense.proofpoint.com-252Fv?=
+ =?us-ascii?Q?2-252Furl-253Fu-253Dhttps-2D3A-5F-5Fwww.investmentbank.barcl?=
+ =?us-ascii?Q?ays.com-5Fdisclosures-5Fpersonalinformationuse.html-2526d-25?=
+ =?us-ascii?Q?3DDwIF-2Dg-2526c-253Ddpn1WjMMQGUYKOlM1k1w3OIaMfTHNTwPoUrrILO?=
+ =?us-ascii?Q?sxvs-2526r-253DryqPGn58iJo-5FeGaN9j9IgI0XFYvG66oJtaT0DoFnFJM?=
+ =?us-ascii?Q?-2526m-253DEvN-2DkTjn8-2DRpcY-2DcpUhKbSNGhDFhIHRz17necryyVl4?=
+ =?us-ascii?Q?-2526s-253DqfyX6UcmQcf9-2DoPY6AyHj9bKW-5FGyY0R5TwVyXbct3A0-2?=
+ =?us-ascii?Q?526e-253D&d=3DDwIGAw&c=3Ddpn1WjMMQGUYKOlM1k1w3OIaMfTHNTwPoUr?=
+ =?us-ascii?Q?rILOsxvs&r=3D-zJgZJliT2lTAJxL6GuHqU2qWNLXozchr18fzuv=5Forc&m?=
+ =?us-ascii?Q?=3DH4HBqa1iLIRuy3q9iStbVGc8KVPuWcgCHN3DEncnwNI&s=3DvJKjn3Guh?=
+ =?us-ascii?Q?nHdoo9BnXcXK5ofxcPzH1QQiLbGsc3aEkY&e=3D","IAR":false,"LI":nu?=
+ =?us-ascii?Q?ll,"SRCI":1,"IU":null,"NU":"urldefense.proofpoint.com/v2/url?=
+ =?us-ascii?Q?=3Fu=3Dhttps-3A=5F=5Fclicktime.symantec.com=5F32aSxMkpsw28SV?=
+ =?us-ascii?Q?vnbe5KB8T6H2-3Fu-3Dhttps-253A-252F-252Furldefense.proofpoint?=
+ =?us-ascii?Q?.com-252Fv2-252Furl-253Fu-253Dhttps-2D3A-5F-5Fwww.investment?=
+ =?us-ascii?Q?bank.barclays.com-5Fdisclosures-5Fpersonalinformationuse.htm?=
+ =?us-ascii?Q?l-2526d-253DDwIF-2Dg-2526c-253Ddpn1WjMMQGUYKOlM1k1w3OIaMfTHN?=
+ =?us-ascii?Q?TwPoUrrILOsxvs-2526r-253DryqPGn58iJo-5FeGaN9j9IgI0XFYvG66oJt?=
+ =?us-ascii?Q?aT0DoFnFJM-2526m-253DEvN-2DkTjn8-2DRpcY-2DcpUhKbSNGhDFhIHRz1?=
+ =?us-ascii?Q?7necryyVl4-2526s-253DqfyX6UcmQcf9-2DoPY6AyHj9bKW-5FGyY0R5TwV?=
+ =?us-ascii?Q?yXbct3A0-2526e-253D&d=3DDwIGAw&c=3Ddpn1WjMMQGUYKOlM1k1w3OIaM?=
+ =?us-ascii?Q?fTHNTwPoUrrILOsxvs&r=3D-zJgZJliT2lTAJxL6GuHqU2qWNLXozchr18fz?=
+ =?us-ascii?Q?uv=5Forc&m=3DH4HBqa1iLIRuy3q9iStbVGc8KVPuWcgCHN3DEncnwNI&s?=
+ =?us-ascii?Q?=3DvJKjn3GuhnHdoo9BnXcXK5ofxcPzH1QQiLbGsc3aEkY&e=3D","UFT":"?=
+ =?us-ascii?Q?{}","DPD":{"UF":"16640","OCH":"7552365028321618752","SCHM":"?=
+ =?us-ascii?Q?Https"},"PROC":[]},{"ID":-1,"OU":"https://clicktime.symantec?=
+ =?us-ascii?Q?.com/32aSxMkpsw28SVvnbe5KB8T6H2=3Fu=3Dhttps%3A%2F%2Furldefen?=
+ =?us-ascii?Q?se.proofpoint.com%2Fv2%2Furl%3Fu%3Dhttps-3A=5F=5Fwww.investm?=
+ =?us-ascii?Q?entbank.barclays.com=5Fdisclosures=5Fpersonalinformationuse.?=
+ =?us-ascii?Q?html%26d%3DDwIF-g%26c%3Ddpn1WjMMQGUYKOlM1k1w3OIaMfTHNTwPoUrr?=
+ =?us-ascii?Q?ILOsxvs%26r%3DryqPGn58iJo=5FeGaN9j9IgI0XFYvG66oJtaT0DoFnFJM%?=
+ =?us-ascii?Q?26m%3DEvN-kTjn8-RpcY-cpUhKbSNGhDFhIHRz17necryyVl4%26s%3DqfyX?=
+ =?us-ascii?Q?6UcmQcf9-oPY6AyHj9bKW=5FGyY0R5TwVyXbct3A0%26e%3D","U":"https?=
+ =?us-ascii?Q?://clicktime.symantec.com/32aSxMkpsw28SVvnbe5KB8T6H2=3Fu=3Dh?=
+ =?us-ascii?Q?ttps%3A%2F%2Furldefense.proofpoint.com%2Fv2%2Furl%3Fu%3Dhttp?=
+ =?us-ascii?Q?s-3A=5F=5Fwww.investmentbank.barclays.com=5Fdisclosures=5Fpe?=
+ =?us-ascii?Q?rsonalinformationuse.html%26d%3DDwIF-g%26c%3Ddpn1WjMMQGUYKOl?=
+ =?us-ascii?Q?M1k1w3OIaMfTHNTwPoUrrILOsxvs%26r%3DryqPGn58iJo=5FeGaN9j9IgI0?=
+ =?us-ascii?Q?XFYvG66oJtaT0DoFnFJM%26m%3DEvN-kTjn8-RpcY-cpUhKbSNGhDFhIHRz1?=
+ =?us-ascii?Q?7necryyVl4%26s%3DqfyX6UcmQcf9-oPY6AyHj9bKW=5FGyY0R5TwVyXbct3?=
+ =?us-ascii?Q?A0%26e%3D","IAR":false,"LI":null,"SRCI":1,"IU":null,"NU":"cl?=
+ =?us-ascii?Q?icktime.symantec.com/32aSxMkpsw28SVvnbe5KB8T6H2=3Fu=3Dhttps%?=
+ =?us-ascii?Q?3A%2F%2Furldefense.proofpoint.com%2Fv2%2Furl%3Fu%3Dhttps-3A?=
+ =?us-ascii?Q?=5F=5Fwww.investmentbank.barclays.com=5Fdisclosures=5Fperson?=
+ =?us-ascii?Q?alinformationuse.html%26d%3DDwIF-g%26c%3Ddpn1WjMMQGUYKOlM1k1?=
+ =?us-ascii?Q?w3OIaMfTHNTwPoUrrILOsxvs%26r%3DryqPGn58iJo=5FeGaN9j9IgI0XFYv?=
+ =?us-ascii?Q?G66oJtaT0DoFnFJM%26m%3DEvN-kTjn8-RpcY-cpUhKbSNGhDFhIHRz17nec?=
+ =?us-ascii?Q?ryyVl4%26s%3DqfyX6UcmQcf9-oPY6AyHj9bKW=5FGyY0R5TwVyXbct3A0%2?=
+ =?us-ascii?Q?6e%3D","UFT":"{}","DPD":{"UF":"16640","OCH":"148975246884619?=
+ =?us-ascii?Q?11007","SCHM":"Https"},"PROC":[]},{"ID":-1,"OU":"https://url?=
+ =?us-ascii?Q?defense.proofpoint.com/v2/url=3Fu=3Dhttps-3A=5F=5Fwww.invest?=
+ =?us-ascii?Q?mentbank.barclays.com=5Fdisclosures=5Fpersonalinformationuse?=
+ =?us-ascii?Q?.html&d=3DDwIF-g&c=3Ddpn1WjMMQGUYKOlM1k1w3OIaMfTHNTwPoUrrILO?=
+ =?us-ascii?Q?sxvs&r=3DryqPGn58iJo=5FeGaN9j9IgI0XFYvG66oJtaT0DoFnFJM&m=3DE?=
+ =?us-ascii?Q?vN-kTjn8-RpcY-cpUhKbSNGhDFhIHRz17necryyVl4&s=3DqfyX6UcmQcf9-?=
+ =?us-ascii?Q?oPY6AyHj9bKW=5FGyY0R5TwVyXbct3A0&e=3D","U":"https://urldefen?=
+ =?us-ascii?Q?se.proofpoint.com/v2/url=3Fu=3Dhttps-3A=5F=5Fwww.investmentb?=
+ =?us-ascii?Q?ank.barclays.com=5Fdisclosures=5Fpersonalinformationuse.html?=
+ =?us-ascii?Q?&d=3DDwIF-g&c=3Ddpn1WjMMQGUYKOlM1k1w3OIaMfTHNTwPoUrrILOsxvs&?=
+ =?us-ascii?Q?r=3DryqPGn58iJo=5FeGaN9j9IgI0XFYvG66oJtaT0DoFnFJM&m=3DEvN-kT?=
+ =?us-ascii?Q?jn8-RpcY-cpUhKbSNGhDFhIHRz17necryyVl4&s=3DqfyX6UcmQcf9-oPY6A?=
+ =?us-ascii?Q?yHj9bKW=5FGyY0R5TwVyXbct3A0&e=3D","IAR":false,"LI":null,"SRC?=
+ =?us-ascii?Q?I":1,"IU":null,"NU":"urldefense.proofpoint.com/v2/url=3Fu=3D?=
+ =?us-ascii?Q?https-3A=5F=5Fwww.investmentbank.barclays.com=5Fdisclosures?=
+ =?us-ascii?Q?=5Fpersonalinformationuse.html&d=3DDwIF-g&c=3Ddpn1WjMMQGUYKO?=
+ =?us-ascii?Q?lM1k1w3OIaMfTHNTwPoUrrILOsxvs&r=3DryqPGn58iJo=5FeGaN9j9IgI0X?=
+ =?us-ascii?Q?FYvG66oJtaT0DoFnFJM&m=3DEvN-kTjn8-RpcY-cpUhKbSNGhDFhIHRz17ne?=
+ =?us-ascii?Q?cryyVl4&s=3DqfyX6UcmQcf9-oPY6AyHj9bKW=5FGyY0R5TwVyXbct3A0&e?=
+ =?us-ascii?Q?=3D","UFT":"{}","DPD":{"UF":"16640","OCH":"17715424404890785?=
+ =?us-ascii?Q?526","SCHM":"Https"},"PROC":[]}],"NU":"www.investmentbank.ba?=
+ =?us-ascii?Q?rclays.com/disclosures/personalinformationuse.html","UFT":"{?=
+ =?us-ascii?Q?101:71,102:4,105:31,108:4,110:8,111:12,112:2,114:8,115:18,11?=
+ =?us-ascii?Q?6:2,118:14,119:8,121:7,122:3,123:1,125:3,128:27,129:1,131:10?=
+ =?us-ascii?Q?000000,135:\"F538357B,21EA8D63,3FCF19CB,8A61201A,4911B468,2A?=
+ =?us-ascii?Q?7038A6,BF32A27A,CC9D3D20,4F45993D,4CD3AB70,8B2B94D9,ED510A19?=
+ =?us-ascii?Q?,A358FC5C,F43DC64,5D015945,BF0C618C,B1F5A047,2D153A8F,6CF4A6?=
+ =?us-ascii?Q?82,E80E10A1,C6B12B30,2D185E1B,604D6CB5,715D78A3,3B03B694,12E?=
+ =?us-ascii?Q?21B33,4B03FFC3,88C6B96F,68F5581E,73880355,9CF3F889,F22BC3D,2?=
+ =?us-ascii?Q?AF86471,B2B926CE,37687581,8C4E989A,C9F415D6,91C141A0,15BB62B?=
+ =?us-ascii?Q?A,47018AE1,AADA76AD,7810F03,37A49FA9,C13BF155,B3F7C4CB,3EF88?=
+ =?us-ascii?Q?3ED,959AE413,2F07A546,21419CEA,9E44B498\",201:9857,202:362,2?=
+ =?us-ascii?Q?03:3,204:9861,205:29,206:1,207:31,208:2,209:31,210:2,211:31,?=
+ =?us-ascii?Q?212:2,213:13,214:1,215:12,216:2,217:23,218:1,219:12,220:2,22?=
+ =?us-ascii?Q?1:52,222:3,223:52,224:3,225:52,226:3,227:51,228:3,229:13,230?=
+ =?us-ascii?Q?:1,231:12,232:2,233:27,234:1,235:12,236:2,237:16,238:2,239:3?=
+ =?us-ascii?Q?1,240:1,241:33,242:2,243:32,244:1,245:13,246:2,247:11,248:1,?=
+ =?us-ascii?Q?249:12,250:2,251:13,252:2}","DPD":{"UF":"256","OCH":"1629014?=
+ =?us-ascii?Q?5392590161149","SCHM":"Https","UWS":"3|5|3","CNT":"2","SL":"?=
+ =?us-ascii?Q?1","LOG":"1"},"PROC":[]},{"ID":8,"OU":"https://urldefense.pr?=
+ =?us-ascii?Q?oofpoint.com/v2/url=3Fu=3Dhttps-3A=5F=5Fclicktime.symantec.c?=
+ =?us-ascii?Q?om=5F346NiWGnLovQXdeyCgz1TZm6H2-3Fu-3Dhttp-253A-252F-252Fkir?=
+ =?us-ascii?Q?koswald.com&d=3DDwIGAw&c=3Ddpn1WjMMQGUYKOlM1k1w3OIaMfTHNTwPo?=
+ =?us-ascii?Q?UrrILOsxvs&r=3D-zJgZJliT2lTAJxL6GuHqU2qWNLXozchr18fzuv=5Forc?=
+ =?us-ascii?Q?&m=3DH4HBqa1iLIRuy3q9iStbVGc8KVPuWcgCHN3DEncnwNI&s=3D9ytxeaq?=
+ =?us-ascii?Q?HBWe3tTxwzx9EuVlWBH1n9INVhdmkYcrx4RM&e=3D","U":"http://kirko?=
+ =?us-ascii?Q?swald.com/","IAR":false,"LI":{"BF":1,"SI":-1,"EndIndex":-1},?=
+ =?us-ascii?Q?"SRCI":1,"IU":[{"ID":-1,"OU":"https://urldefense.proofpoint.?=
+ =?us-ascii?Q?com/v2/url=3Fu=3Dhttps-3A=5F=5Fclicktime.symantec.com=5F346N?=
+ =?us-ascii?Q?iWGnLovQXdeyCgz1TZm6H2-3Fu-3Dhttp-253A-252F-252Fkirkoswald.c?=
+ =?us-ascii?Q?om&d=3DDwIGAw&c=3Ddpn1WjMMQGUYKOlM1k1w3OIaMfTHNTwPoUrrILOsxv?=
+ =?us-ascii?Q?s&r=3D-zJgZJliT2lTAJxL6GuHqU2qWNLXozchr18fzuv=5Forc&m=3DH4HB?=
+ =?us-ascii?Q?qa1iLIRuy3q9iStbVGc8KVPuWcgCHN3DEncnwNI&s=3D9ytxeaqHBWe3tTxw?=
+ =?us-ascii?Q?zx9EuVlWBH1n9INVhdmkYcrx4RM&e=3D","U":"https://urldefense.pr?=
+ =?us-ascii?Q?oofpoint.com/v2/url=3Fu=3Dhttps-3A=5F=5Fclicktime.symantec.c?=
+ =?us-ascii?Q?om=5F346NiWGnLovQXdeyCgz1TZm6H2-3Fu-3Dhttp-253A-252F-252Fkir?=
+ =?us-ascii?Q?koswald.com&d=3DDwIGAw&c=3Ddpn1WjMMQGUYKOlM1k1w3OIaMfTHNTwPo?=
+ =?us-ascii?Q?UrrILOsxvs&r=3D-zJgZJliT2lTAJxL6GuHqU2qWNLXozchr18fzuv=5Forc?=
+ =?us-ascii?Q?&m=3DH4HBqa1iLIRuy3q9iStbVGc8KVPuWcgCHN3DEncnwNI&s=3D9ytxeaq?=
+ =?us-ascii?Q?HBWe3tTxwzx9EuVlWBH1n9INVhdmkYcrx4RM&e=3D","IAR":false,"LI":?=
+ =?us-ascii?Q?null,"SRCI":1,"IU":null,"NU":"urldefense.proofpoint.com/v2/u?=
+ =?us-ascii?Q?rl=3Fu=3Dhttps-3A=5F=5Fclicktime.symantec.com=5F346NiWGnLovQ?=
+ =?us-ascii?Q?XdeyCgz1TZm6H2-3Fu-3Dhttp-253A-252F-252Fkirkoswald.com&d=3DD?=
+ =?us-ascii?Q?wIGAw&c=3Ddpn1WjMMQGUYKOlM1k1w3OIaMfTHNTwPoUrrILOsxvs&r=3D-z?=
+ =?us-ascii?Q?JgZJliT2lTAJxL6GuHqU2qWNLXozchr18fzuv=5Forc&m=3DH4HBqa1iLIRu?=
+ =?us-ascii?Q?y3q9iStbVGc8KVPuWcgCHN3DEncnwNI&s=3D9ytxeaqHBWe3tTxwzx9EuVlW?=
+ =?us-ascii?Q?BH1n9INVhdmkYcrx4RM&e=3D","UFT":"{}","DPD":{"UF":"16640","OC?=
+ =?us-ascii?Q?H":"13714721725214144248","SCHM":"Https"},"PROC":[]},{"ID":-?=
+ =?us-ascii?Q?1,"OU":"https://clicktime.symantec.com/346NiWGnLovQXdeyCgz1T?=
+ =?us-ascii?Q?Zm6H2=3Fu=3Dhttp%3A%2F%2Fkirkoswald.com","U":"https://clickt?=
+ =?us-ascii?Q?ime.symantec.com/346NiWGnLovQXdeyCgz1TZm6H2=3Fu=3Dhttp%3A%2F?=
+ =?us-ascii?Q?%2Fkirkoswald.com","IAR":false,"LI":null,"SRCI":1,"IU":null,?=
+ =?us-ascii?Q?"NU":"clicktime.symantec.com/346NiWGnLovQXdeyCgz1TZm6H2=3Fu?=
+ =?us-ascii?Q?=3Dhttp%3A%2F%2Fkirkoswald.com","UFT":"{}","DPD":{"UF":"1664?=
+ =?us-ascii?Q?0","OCH":"8016638365193323730","SCHM":"Https"},"PROC":[]}],"?=
+ =?us-ascii?Q?NU":"kirkoswald.com","UFT":"{101:15,102:1,105:14,108:3,110:1?=
+ =?us-ascii?Q?0,111:14,112:2,114:10,116:1,119:10,121:9,122:3,123:1,125:3,1?=
+ =?us-ascii?Q?31:10000000,135:\"35DF883B,1E1AFF75,E1F910ED,3CEE9DCA,EB564C?=
+ =?us-ascii?Q?2E,5F6621A4,D078CF9,7A109176\",201:2344,202:151,203:212,204:?=
+ =?us-ascii?Q?2557,205:85,206:2,207:83,208:2,209:84,210:2,211:81,212:2,213?=
+ =?us-ascii?Q?:82,214:4,215:85,216:4,217:85,218:4,219:81,220:2,221:52,222:?=
+ =?us-ascii?Q?3,223:52,224:3,225:52,226:3,227:51,228:3,229:81,230:4,231:1,?=
+ =?us-ascii?Q?232:0,233:63,234:2,235:81,236:2,237:82,238:4,239:84,240:4,24?=
+ =?us-ascii?Q?1:84,242:4,243:81,244:2,245:21,246:1,247:21,248:1,249:1,250:?=
+ =?us-ascii?Q?0,251:1,252:0}","DPD":{"UF":"256","OCH":"1353486840335637371?=
+ =?us-ascii?Q?9","SCHM":"Http","UWS":"3|5","CNT":"1","SL":"1","LOG":"1"},"?=
+ =?us-ascii?Q?PROC":[]},{"ID":4,"OU":"https://urldefense.proofpoint.com/v2?=
+ =?us-ascii?Q?/url=3Fu=3Dhttps-3A=5F=5Fclicktime.symantec.com=5F34tP8xmF43?=
+ =?us-ascii?Q?1qatcn9zoFyrB6H2-3Fu-3Dhttps-253A-252F-252Furldefense.proofp?=
+ =?us-ascii?Q?oint.com-252Fv2-252Furl-253Fu-253Dhttps-2D3A-5F-5Fwww.invest?=
+ =?us-ascii?Q?mentbank.barclays.com-5Fdisclosures-5Fbarclays-2D2Dglobal-2D?=
+ =?us-ascii?Q?2Dmarkets-2D2Ddisclosures.html-2526d-253DDwIF-2Dg-2526c-253D?=
+ =?us-ascii?Q?dpn1WjMMQGUYKOlM1k1w3OIaMfTHNTwPoUrrILOsxvs-2526r-253DryqPGn?=
+ =?us-ascii?Q?58iJo-5FeGaN9j9IgI0XFYvG66oJtaT0DoFn?=
+X-MS-Exchange-Organization-Persisted-Urls-1:
+	=?us-ascii?Q?FJM-2526m-253DEvN-2DkTjn8-2DRpcY-2DcpUhKbSNGhDFhIHRz17necryy?=
+ =?us-ascii?Q?Vl4-2526s-253DllxsoE7zp09-2DST53-5FhrGCzDZrTm64Dg87HAjCeQYc1?=
+ =?us-ascii?Q?M-2526e-253D&d=3DDwIGAw&c=3Ddpn1WjMMQGUYKOlM1k1w3OIaMfTHNTwP?=
+ =?us-ascii?Q?oUrrILOsxvs&r=3D-zJgZJliT2lTAJxL6GuHqU2qWNLXozchr18fzuv=5For?=
+ =?us-ascii?Q?c&m=3DH4HBqa1iLIRuy3q9iStbVGc8KVPuWcgCHN3DEncnwNI&s=3Dp8-rIP?=
+ =?us-ascii?Q?2-8E6misoP2btsWkI=5FinjU6cBSvYzcgAY4YV0&e=3D","U":"https://w?=
+ =?us-ascii?Q?ww.investmentbank.barclays.com/disclosures/barclays-global-m?=
+ =?us-ascii?Q?arkets-disclosures.html","IAR":false,"LI":{"BF":1,"SI":-1,"E?=
+ =?us-ascii?Q?ndIndex":-1},"SRCI":1,"IU":[{"ID":-1,"OU":"https://urldefens?=
+ =?us-ascii?Q?e.proofpoint.com/v2/url=3Fu=3Dhttps-3A=5F=5Fclicktime.symant?=
+ =?us-ascii?Q?ec.com=5F34tP8xmF431qatcn9zoFyrB6H2-3Fu-3Dhttps-253A-252F-25?=
+ =?us-ascii?Q?2Furldefense.proofpoint.com-252Fv2-252Furl-253Fu-253Dhttps-2?=
+ =?us-ascii?Q?D3A-5F-5Fwww.investmentbank.barclays.com-5Fdisclosures-5Fbar?=
+ =?us-ascii?Q?clays-2D2Dglobal-2D2Dmarkets-2D2Ddisclosures.html-2526d-253D?=
+ =?us-ascii?Q?DwIF-2Dg-2526c-253Ddpn1WjMMQGUYKOlM1k1w3OIaMfTHNTwPoUrrILOsx?=
+ =?us-ascii?Q?vs-2526r-253DryqPGn58iJo-5FeGaN9j9IgI0XFYvG66oJtaT0DoFnFJM-2?=
+ =?us-ascii?Q?526m-253DEvN-2DkTjn8-2DRpcY-2DcpUhKbSNGhDFhIHRz17necryyVl4-2?=
+ =?us-ascii?Q?526s-253DllxsoE7zp09-2DST53-5FhrGCzDZrTm64Dg87HAjCeQYc1M-252?=
+ =?us-ascii?Q?6e-253D&d=3DDwIGAw&c=3Ddpn1WjMMQGUYKOlM1k1w3OIaMfTHNTwPoUrrI?=
+ =?us-ascii?Q?LOsxvs&r=3D-zJgZJliT2lTAJxL6GuHqU2qWNLXozchr18fzuv=5Forc&m?=
+ =?us-ascii?Q?=3DH4HBqa1iLIRuy3q9iStbVGc8KVPuWcgCHN3DEncnwNI&s=3Dp8-rIP2-8?=
+ =?us-ascii?Q?E6misoP2btsWkI=5FinjU6cBSvYzcgAY4YV0&e=3D","U":"https://urld?=
+ =?us-ascii?Q?efense.proofpoint.com/v2/url=3Fu=3Dhttps-3A=5F=5Fclicktime.s?=
+ =?us-ascii?Q?ymantec.com=5F34tP8xmF431qatcn9zoFyrB6H2-3Fu-3Dhttps-253A-25?=
+ =?us-ascii?Q?2F-252Furldefense.proofpoint.com-252Fv2-252Furl-253Fu-253Dht?=
+ =?us-ascii?Q?tps-2D3A-5F-5Fwww.investmentbank.barclays.com-5Fdisclosures-?=
+ =?us-ascii?Q?5Fbarclays-2D2Dglobal-2D2Dmarkets-2D2Ddisclosures.html-2526d?=
+ =?us-ascii?Q?-253DDwIF-2Dg-2526c-253Ddpn1WjMMQGUYKOlM1k1w3OIaMfTHNTwPoUrr?=
+ =?us-ascii?Q?ILOsxvs-2526r-253DryqPGn58iJo-5FeGaN9j9IgI0XFYvG66oJtaT0DoFn?=
+ =?us-ascii?Q?FJM-2526m-253DEvN-2DkTjn8-2DRpcY-2DcpUhKbSNGhDFhIHRz17necryy?=
+ =?us-ascii?Q?Vl4-2526s-253DllxsoE7zp09-2DST53-5FhrGCzDZrTm64Dg87HAjCeQYc1?=
+ =?us-ascii?Q?M-2526e-253D&d=3DDwIGAw&c=3Ddpn1WjMMQGUYKOlM1k1w3OIaMfTHNTwP?=
+ =?us-ascii?Q?oUrrILOsxvs&r=3D-zJgZJliT2lTAJxL6GuHqU2qWNLXozchr18fzuv=5For?=
+ =?us-ascii?Q?c&m=3DH4HBqa1iLIRuy3q9iStbVGc8KVPuWcgCHN3DEncnwNI&s=3Dp8-rIP?=
+ =?us-ascii?Q?2-8E6misoP2btsWkI=5FinjU6cBSvYzcgAY4YV0&e=3D","IAR":false,"L?=
+ =?us-ascii?Q?I":null,"SRCI":1,"IU":null,"NU":"urldefense.proofpoint.com/v?=
+ =?us-ascii?Q?2/url=3Fu=3Dhttps-3A=5F=5Fclicktime.symantec.com=5F34tP8xmF4?=
+ =?us-ascii?Q?31qatcn9zoFyrB6H2-3Fu-3Dhttps-253A-252F-252Furldefense.proof?=
+ =?us-ascii?Q?point.com-252Fv2-252Furl-253Fu-253Dhttps-2D3A-5F-5Fwww.inves?=
+ =?us-ascii?Q?tmentbank.barclays.com-5Fdisclosures-5Fbarclays-2D2Dglobal-2?=
+ =?us-ascii?Q?D2Dmarkets-2D2Ddisclosures.html-2526d-253DDwIF-2Dg-2526c-253?=
+ =?us-ascii?Q?Ddpn1WjMMQGUYKOlM1k1w3OIaMfTHNTwPoUrrILOsxvs-2526r-253DryqPG?=
+ =?us-ascii?Q?n58iJo-5FeGaN9j9IgI0XFYvG66oJtaT0DoFnFJM-2526m-253DEvN-2DkTj?=
+ =?us-ascii?Q?n8-2DRpcY-2DcpUhKbSNGhDFhIHRz17necryyVl4-2526s-253DllxsoE7zp?=
+ =?us-ascii?Q?09-2DST53-5FhrGCzDZrTm64Dg87HAjCeQYc1M-2526e-253D&d=3DDwIGAw?=
+ =?us-ascii?Q?&c=3Ddpn1WjMMQGUYKOlM1k1w3OIaMfTHNTwPoUrrILOsxvs&r=3D-zJgZJl?=
+ =?us-ascii?Q?iT2lTAJxL6GuHqU2qWNLXozchr18fzuv=5Forc&m=3DH4HBqa1iLIRuy3q9i?=
+ =?us-ascii?Q?StbVGc8KVPuWcgCHN3DEncnwNI&s=3Dp8-rIP2-8E6misoP2btsWkI=5Finj?=
+ =?us-ascii?Q?U6cBSvYzcgAY4YV0&e=3D","UFT":"{}","DPD":{"UF":"16640","OCH":?=
+ =?us-ascii?Q?"8784678413514723874","SCHM":"Https"},"PROC":[]},{"ID":-1,"O?=
+ =?us-ascii?Q?U":"https://clicktime.symantec.com/34tP8xmF431qatcn9zoFyrB6H?=
+ =?us-ascii?Q?2=3Fu=3Dhttps%3A%2F%2Furldefense.proofpoint.com%2Fv2%2Furl%3?=
+ =?us-ascii?Q?Fu%3Dhttps-3A=5F=5Fwww.investmentbank.barclays.com=5Fdisclos?=
+ =?us-ascii?Q?ures=5Fbarclays-2Dglobal-2Dmarkets-2Ddisclosures.html%26d%3D?=
+ =?us-ascii?Q?DwIF-g%26c%3Ddpn1WjMMQGUYKOlM1k1w3OIaMfTHNTwPoUrrILOsxvs%26r?=
+ =?us-ascii?Q?%3DryqPGn58iJo=5FeGaN9j9IgI0XFYvG66oJtaT0DoFnFJM%26m%3DEvN-k?=
+ =?us-ascii?Q?Tjn8-RpcY-cpUhKbSNGhDFhIHRz17necryyVl4%26s%3DllxsoE7zp09-ST5?=
+ =?us-ascii?Q?3=5FhrGCzDZrTm64Dg87HAjCeQYc1M%26e%3D","U":"https://clicktim?=
+ =?us-ascii?Q?e.symantec.com/34tP8xmF431qatcn9zoFyrB6H2=3Fu=3Dhttps%3A%2F%?=
+ =?us-ascii?Q?2Furldefense.proofpoint.com%2Fv2%2Furl%3Fu%3Dhttps-3A=5F=5Fw?=
+ =?us-ascii?Q?ww.investmentbank.barclays.com=5Fdisclosures=5Fbarclays-2Dgl?=
+ =?us-ascii?Q?obal-2Dmarkets-2Ddisclosures.html%26d%3DDwIF-g%26c%3Ddpn1WjM?=
+ =?us-ascii?Q?MQGUYKOlM1k1w3OIaMfTHNTwPoUrrILOsxvs%26r%3DryqPGn58iJo=5FeGa?=
+ =?us-ascii?Q?N9j9IgI0XFYvG66oJtaT0DoFnFJM%26m%3DEvN-kTjn8-RpcY-cpUhKbSNGh?=
+ =?us-ascii?Q?DFhIHRz17necryyVl4%26s%3DllxsoE7zp09-ST53=5FhrGCzDZrTm64Dg87?=
+ =?us-ascii?Q?HAjCeQYc1M%26e%3D","IAR":false,"LI":null,"SRCI":1,"IU":null,?=
+ =?us-ascii?Q?"NU":"clicktime.symantec.com/34tP8xmF431qatcn9zoFyrB6H2=3Fu?=
+ =?us-ascii?Q?=3Dhttps%3A%2F%2Furldefense.proofpoint.com%2Fv2%2Furl%3Fu%3D?=
+ =?us-ascii?Q?https-3A=5F=5Fwww.investmentbank.barclays.com=5Fdisclosures?=
+ =?us-ascii?Q?=5Fbarclays-2Dglobal-2Dmarkets-2Ddisclosures.html%26d%3DDwIF?=
+ =?us-ascii?Q?-g%26c%3Ddpn1WjMMQGUYKOlM1k1w3OIaMfTHNTwPoUrrILOsxvs%26r%3Dr?=
+ =?us-ascii?Q?yqPGn58iJo=5FeGaN9j9IgI0XFYvG66oJtaT0DoFnFJM%26m%3DEvN-kTjn8?=
+ =?us-ascii?Q?-RpcY-cpUhKbSNGhDFhIHRz17necryyVl4%26s%3DllxsoE7zp09-ST53=5F?=
+ =?us-ascii?Q?hrGCzDZrTm64Dg87HAjCeQYc1M%26e%3D","UFT":"{}","DPD":{"UF":"1?=
+ =?us-ascii?Q?6640","OCH":"17609779434902130810","SCHM":"Https"},"PROC":[]?=
+ =?us-ascii?Q?},{"ID":-1,"OU":"https://urldefense.proofpoint.com/v2/url=3F?=
+ =?us-ascii?Q?u=3Dhttps-3A=5F=5Fwww.investmentbank.barclays.com=5Fdisclosu?=
+ =?us-ascii?Q?res=5Fbarclays-2Dglobal-2Dmarkets-2Ddisclosures.html&d=3DDwI?=
+ =?us-ascii?Q?F-g&c=3Ddpn1WjMMQGUYKOlM1k1w3OIaMfTHNTwPoUrrILOsxvs&r=3DryqP?=
+ =?us-ascii?Q?Gn58iJo=5FeGaN9j9IgI0XFYvG66oJtaT0DoFnFJM&m=3DEvN-kTjn8-RpcY?=
+ =?us-ascii?Q?-cpUhKbSNGhDFhIHRz17necryyVl4&s=3DllxsoE7zp09-ST53=5FhrGCzDZ?=
+ =?us-ascii?Q?rTm64Dg87HAjCeQYc1M&e=3D","U":"https://urldefense.proofpoint?=
+ =?us-ascii?Q?.com/v2/url=3Fu=3Dhttps-3A=5F=5Fwww.investmentbank.barclays.?=
+ =?us-ascii?Q?com=5Fdisclosures=5Fbarclays-2Dglobal-2Dmarkets-2Ddisclosure?=
+ =?us-ascii?Q?s.html&d=3DDwIF-g&c=3Ddpn1WjMMQGUYKOlM1k1w3OIaMfTHNTwPoUrrIL?=
+ =?us-ascii?Q?Osxvs&r=3DryqPGn58iJo=5FeGaN9j9IgI0XFYvG66oJtaT0DoFnFJM&m=3D?=
+ =?us-ascii?Q?EvN-kTjn8-RpcY-cpUhKbSNGhDFhIHRz17necryyVl4&s=3DllxsoE7zp09-?=
+ =?us-ascii?Q?ST53=5FhrGCzDZrTm64Dg87HAjCeQYc1M&e=3D","IAR":false,"LI":nul?=
+ =?us-ascii?Q?l,"SRCI":1,"IU":null,"NU":"urldefense.proofpoint.com/v2/url?=
+ =?us-ascii?Q?=3Fu=3Dhttps-3A=5F=5Fwww.investmentbank.barclays.com=5Fdiscl?=
+ =?us-ascii?Q?osures=5Fbarclays-2Dglobal-2Dmarkets-2Ddisclosures.html&d=3D?=
+ =?us-ascii?Q?DwIF-g&c=3Ddpn1WjMMQGUYKOlM1k1w3OIaMfTHNTwPoUrrILOsxvs&r=3Dr?=
+ =?us-ascii?Q?yqPGn58iJo=5FeGaN9j9IgI0XFYvG66oJtaT0DoFnFJM&m=3DEvN-kTjn8-R?=
+ =?us-ascii?Q?pcY-cpUhKbSNGhDFhIHRz17necryyVl4&s=3DllxsoE7zp09-ST53=5FhrGC?=
+ =?us-ascii?Q?zDZrTm64Dg87HAjCeQYc1M&e=3D","UFT":"{}","DPD":{"UF":"16640",?=
+ =?us-ascii?Q?"OCH":"17378544144238468746","SCHM":"Https"},"PROC":[]}],"NU?=
+ =?us-ascii?Q?":"www.investmentbank.barclays.com/disclosures/barclays-glob?=
+ =?us-ascii?Q?al-markets-disclosures.html","UFT":"{101:84,102:4,105:31,108?=
+ =?us-ascii?Q?:4,110:8,111:12,112:2,114:8,115:18,116:2,118:14,119:8,121:7,?=
+ =?us-ascii?Q?122:3,123:1,125:3,128:40,129:1,130:3,131:10000000,135:\"F538?=
+ =?us-ascii?Q?357B,21EA8D63,3FCF19CB,8A61201A,4911B468,2A7038A6,BF32A27A,C?=
+ =?us-ascii?Q?C9D3D20,4F45993D,4CD3AB70,8B2B94D9,ED510A19,A358FC5C,F43DC64?=
+ =?us-ascii?Q?,5D015945,BF0C618C,B1F5A047,2D153A8F,6CF4A682,E80E10A1,C6B12?=
+ =?us-ascii?Q?B30,2D185E1B,604D6CB5,715D78A3,3B03B694,12E21B33,4B03FFC3,88?=
+ =?us-ascii?Q?C6B96F,21419CEA,9E44B498\",201:9857,202:362,203:3,204:9861,2?=
+ =?us-ascii?Q?05:29,206:1,207:31,208:2,209:31,210:2,211:31,212:2,213:13,21?=
+ =?us-ascii?Q?4:1,215:12,216:2,217:23,218:1,219:12,220:2,221:52,222:3,223:?=
+ =?us-ascii?Q?52,224:3,225:52,226:3,227:51,228:3,229:13,230:1,231:12,232:2?=
+ =?us-ascii?Q?,233:27,234:1,235:12,236:2,237:16,238:2,239:31,240:1,241:33,?=
+ =?us-ascii?Q?242:2,243:32,244:1,245:13,246:2,247:11,248:1,249:12,250:2,25?=
+ =?us-ascii?Q?1:13,252:2}","DPD":{"UF":"256","OCH":"16219775240339311568",?=
+ =?us-ascii?Q?"SCHM":"Https","UWS":"3|5|3","CNT":"2","SL":"1","LOG":"1"},"?=
+ =?us-ascii?Q?PROC":[]},{"ID":5,"OU":"https://urldefense.proofpoint.com/v2?=
+ =?us-ascii?Q?/url=3Fu=3Dhttps-3A=5F=5Fclicktime.symantec.com=5F3Vs8egYPGA?=
+ =?us-ascii?Q?kVGSLH2fQC7zA6H2-3Fu-3Dhttps-253A-252F-252Furldefense.proofp?=
+ =?us-ascii?Q?oint.com-252Fv2-252Furl-253Fu-253Dhttp-2D3A-5F-5Fpublicresea?=
+ =?us-ascii?Q?rch.barclays.com-2526d-253DDwIF-2Dg-2526c-253Ddpn1WjMMQGUYKO?=
+ =?us-ascii?Q?lM1k1w3OIaMfTHNTwPoUrrILOsxvs-2526r-253DryqPGn58iJo-5FeGaN9j?=
+ =?us-ascii?Q?9IgI0XFYvG66oJtaT0DoFnFJM-2526m-253DEvN-2DkTjn8-2DRpcY-2DcpU?=
+ =?us-ascii?Q?hKbSNGhDFhIHRz17necryyVl4-2526s-253DZn3fSk1VbBBxW-2DT-2D6kk0?=
+ =?us-ascii?Q?FTSybYS7SppCPYJcpmqZsCU-2526e-253D&d=3DDwIGAw&c=3Ddpn1WjMMQG?=
+ =?us-ascii?Q?UYKOlM1k1w3OIaMfTHNTwPoUrrILOsxvs&r=3D-zJgZJliT2lTAJxL6GuHqU?=
+ =?us-ascii?Q?2qWNLXozchr18fzuv=5Forc&m=3DH4HBqa1iLIRuy3q9iStbVGc8KVPuWcgC?=
+ =?us-ascii?Q?HN3DEncnwNI&s=3DE3h1aSdB3IVzfCictuBRS-p-ig70dX3QPiyuUgMYhOE&?=
+ =?us-ascii?Q?e=3D","U":"http://publicresearch.barclays.com/","IAR":false,?=
+ =?us-ascii?Q?"LI":{"BF":1,"SI":-1,"EndIndex":-1},"SRCI":1,"IU":[{"ID":-1,?=
+ =?us-ascii?Q?"OU":"https://urldefense.proofpoint.com/v2/url=3Fu=3Dhttps-3?=
+ =?us-ascii?Q?A=5F=5Fclicktime.symantec.com=5F3Vs8egYPGAkVGSLH2fQC7zA6H2-3?=
+ =?us-ascii?Q?Fu-3Dhttps-253A-252F-252Furldefense.proofpoint.com-252Fv2-25?=
+ =?us-ascii?Q?2Furl-253Fu-253Dhttp-2D3A-5F-5Fpublicresearch.barclays.com-2?=
+ =?us-ascii?Q?526d-253DDwIF-2Dg-2526c-253Ddpn1WjMMQGUYKOlM1k1w3OIaMfTHNTwP?=
+ =?us-ascii?Q?oUrrILOsxvs-2526r-253DryqPGn58iJo-5FeGaN9j9IgI0XFYvG66oJtaT0?=
+ =?us-ascii?Q?DoFnFJM-2526m-253DEvN-2DkTjn8-2DRpcY-2DcpUhKbSNGhDFhIHRz17ne?=
+ =?us-ascii?Q?cryyVl4-2526s-253DZn3fSk1VbBBxW-2DT-2D6kk0FTSybYS7SppCPYJcpm?=
+ =?us-ascii?Q?qZsCU-2526e-253D&d=3DDwIGAw&c=3Ddpn1WjMMQGUYKOlM1k1w3OIaMfTH?=
+ =?us-ascii?Q?NTwPoUrrILOsxvs&r=3D-zJgZJliT2lTAJxL6GuHqU2qWNLXozchr18fzuv?=
+ =?us-ascii?Q?=5Forc&m=3DH4HBqa1iLIRuy3q9iStbVGc8KVPuWcgCHN3DEncnwNI&s=3DE?=
+ =?us-ascii?Q?3h1aSdB3IVzfCictuBRS-p-ig70dX3QPiyuUgMYhOE&e=3D","U":"https:?=
+ =?us-ascii?Q?//urldefense.proofpoint.com/v2/url=3Fu=3Dhttps-3A=5F=5Fclick?=
+ =?us-ascii?Q?time.symantec.com=5F3Vs8egYPGAkVGSLH2fQC7zA6H2-3Fu-3Dhttps-2?=
+ =?us-ascii?Q?53A-252F-252Furldefense.proofpoint.com-252Fv2-252Furl-253Fu-?=
+ =?us-ascii?Q?253Dhttp-2D3A-5F-5Fpublicresearch.barclays.com-2526d-253DDwI?=
+ =?us-ascii?Q?F-2Dg-2526c-253Ddpn1WjMMQGUYKOlM1k1w3OIaMfTHNTwPoUrrILOsxvs-?=
+ =?us-ascii?Q?2526r-253DryqPGn58iJo-5FeGaN9j9IgI0XFYvG66oJtaT0DoFnFJM-2526?=
+ =?us-ascii?Q?m-253DEvN-2DkTjn8-2DRpcY-2DcpUhKbSNGhDFhIHRz17necryyVl4-2526?=
+ =?us-ascii?Q?s-253DZn3fSk1VbBBxW-2DT-2D6kk0FTSybYS7SppCPYJcpmqZsCU-2526e-?=
+ =?us-ascii?Q?253D&d=3DDwIGAw&c=3Ddpn1WjMMQGUYKOlM1k1w3OIaMfTHNTwPoUrrILOs?=
+ =?us-ascii?Q?xvs&r=3D-zJgZJliT2lTAJxL6GuHqU2qWNLXozchr18fzuv=5Forc&m=3DH4?=
+ =?us-ascii?Q?HBqa1iLIRuy3q9iStbVGc8KVPuWcgCHN3DEncnwNI&s=3DE3h1aSdB3IVzfC?=
+ =?us-ascii?Q?ictuBRS-p-ig70dX3QPiyuUgMYhOE&e=3D","IAR":false,"LI":null,"S?=
+ =?us-ascii?Q?RCI":1,"IU":null,"NU":"urldefense.proofpoint.com/v2/url=3Fu?=
+ =?us-ascii?Q?=3Dhttps-3A=5F=5Fclicktime.symantec.com=5F3Vs8egYPGAkVGSLH2f?=
+ =?us-ascii?Q?QC7zA6H2-3Fu-3Dhttps-253A-252F-252Furldefense.proofpoint.com?=
+ =?us-ascii?Q?-252Fv2-252Furl-253Fu-253Dhttp-2D3A-5F-5Fpublicresearch.barc?=
+ =?us-ascii?Q?lays.com-2526d-253DDwIF-2Dg-2526c-253Ddpn1WjMMQGUYKOlM1k1w3O?=
+ =?us-ascii?Q?IaMfTHNTwPoUrrILOsxvs-2526r-253DryqPGn58iJo-5FeGaN9j9IgI0XFY?=
+ =?us-ascii?Q?vG66oJtaT0DoFnFJM-2526m-253DEvN-2DkTjn8-2DRpcY-2DcpUhKbSNGhD?=
+ =?us-ascii?Q?FhIHRz17necryyVl4-2526s-253DZn3fSk1VbBBxW-2DT-2D6kk0FTSybYS7?=
+ =?us-ascii?Q?SppCPYJcpmqZsCU-2526e-253D&d=3DDwIGAw&c=3Ddpn1WjMMQGUYKOlM1k?=
+ =?us-ascii?Q?1w3OIaMfTHNTwPoUrrILOsxvs&r=3D-zJgZJliT2lTAJxL6GuHqU2qWNLXoz?=
+ =?us-ascii?Q?chr18fzuv=5Forc&m=3DH4HBqa1iLIRuy3q9iStbVGc8KVPuWcgCHN3DEncn?=
+ =?us-ascii?Q?wNI&s=3DE3h1aSdB3IVzfCictuBRS-p-ig70dX3QPiyuUgMYhOE&e=3D","U?=
+ =?us-ascii?Q?FT":"{}","DPD":{"UF":"16640","OCH":"10731377844368485408","S?=
+ =?us-ascii?Q?CHM":"Https"},"PROC":[]},{"ID":-1,"OU":"https://clicktime.sy?=
+ =?us-ascii?Q?mantec.com/3Vs8egYPGAkVGSLH2fQC7zA6H2=3Fu=3Dhttps%3A%2F%2Fur?=
+ =?us-ascii?Q?ldefense.proofpoint.com%2Fv2%2Furl%3Fu%3Dhttp-3A=5F=5Fpublic?=
+ =?us-ascii?Q?research.barclays.com%26d%3DDwIF-g%26c%3Ddpn1WjMMQGUYKOlM1k1?=
+ =?us-ascii?Q?w3OIaMfTHNTwPoUrrILOsxvs%26r%3DryqPGn58iJo=5FeGaN9j9IgI0XFYv?=
+ =?us-ascii?Q?G66oJtaT0DoFnFJM%26m%3DEvN-kTjn8-RpcY-cpUhKbSNGhDFhIHRz17nec?=
+ =?us-ascii?Q?ryyVl4%26s%3DZn3fSk1VbBBxW-T-6kk0FTSybYS7SppCPYJcpmqZsCU%26e?=
+ =?us-ascii?Q?%3D","U":"https://clicktime.symantec.com/3Vs8egYPGAkVGSLH2fQ?=
+ =?us-ascii?Q?C7zA6H2=3Fu=3Dhttps%3A%2F%2Furldefense.proofpoint.com%2Fv2%2?=
+ =?us-ascii?Q?Furl%3Fu%3Dhttp-3A=5F=5Fpub?=
+X-MS-Exchange-Organization-Persisted-Urls-2:
+	=?us-ascii?Q?licresearch.barclays.com%26d%3DDwIF-g%26c%3Ddpn1WjMMQGUYKOlM?=
+ =?us-ascii?Q?1k1w3OIaMfTHNTwPoUrrILOsxvs%26r%3DryqPGn58iJo=5FeGaN9j9IgI0X?=
+ =?us-ascii?Q?FYvG66oJtaT0DoFnFJM%26m%3DEvN-kTjn8-RpcY-cpUhKbSNGhDFhIHRz17?=
+ =?us-ascii?Q?necryyVl4%26s%3DZn3fSk1VbBBxW-T-6kk0FTSybYS7SppCPYJcpmqZsCU%?=
+ =?us-ascii?Q?26e%3D","IAR":false,"LI":null,"SRCI":1,"IU":null,"NU":"click?=
+ =?us-ascii?Q?time.symantec.com/3Vs8egYPGAkVGSLH2fQC7zA6H2=3Fu=3Dhttps%3A%?=
+ =?us-ascii?Q?2F%2Furldefense.proofpoint.com%2Fv2%2Furl%3Fu%3Dhttp-3A=5F?=
+ =?us-ascii?Q?=5Fpublicresearch.barclays.com%26d%3DDwIF-g%26c%3Ddpn1WjMMQG?=
+ =?us-ascii?Q?UYKOlM1k1w3OIaMfTHNTwPoUrrILOsxvs%26r%3DryqPGn58iJo=5FeGaN9j?=
+ =?us-ascii?Q?9IgI0XFYvG66oJtaT0DoFnFJM%26m%3DEvN-kTjn8-RpcY-cpUhKbSNGhDFh?=
+ =?us-ascii?Q?IHRz17necryyVl4%26s%3DZn3fSk1VbBBxW-T-6kk0FTSybYS7SppCPYJcpm?=
+ =?us-ascii?Q?qZsCU%26e%3D","UFT":"{}","DPD":{"UF":"16640","OCH":"10824699?=
+ =?us-ascii?Q?794160302358","SCHM":"Https"},"PROC":[]},{"ID":-1,"OU":"http?=
+ =?us-ascii?Q?s://urldefense.proofpoint.com/v2/url=3Fu=3Dhttp-3A=5F=5Fpubl?=
+ =?us-ascii?Q?icresearch.barclays.com&d=3DDwIF-g&c=3Ddpn1WjMMQGUYKOlM1k1w3?=
+ =?us-ascii?Q?OIaMfTHNTwPoUrrILOsxvs&r=3DryqPGn58iJo=5FeGaN9j9IgI0XFYvG66o?=
+ =?us-ascii?Q?JtaT0DoFnFJM&m=3DEvN-kTjn8-RpcY-cpUhKbSNGhDFhIHRz17necryyVl4?=
+ =?us-ascii?Q?&s=3DZn3fSk1VbBBxW-T-6kk0FTSybYS7SppCPYJcpmqZsCU&e=3D","U":"?=
+ =?us-ascii?Q?https://urldefense.proofpoint.com/v2/url=3Fu=3Dhttp-3A=5F=5F?=
+ =?us-ascii?Q?publicresearch.barclays.com&d=3DDwIF-g&c=3Ddpn1WjMMQGUYKOlM1?=
+ =?us-ascii?Q?k1w3OIaMfTHNTwPoUrrILOsxvs&r=3DryqPGn58iJo=5FeGaN9j9IgI0XFYv?=
+ =?us-ascii?Q?G66oJtaT0DoFnFJM&m=3DEvN-kTjn8-RpcY-cpUhKbSNGhDFhIHRz17necry?=
+ =?us-ascii?Q?yVl4&s=3DZn3fSk1VbBBxW-T-6kk0FTSybYS7SppCPYJcpmqZsCU&e=3D","?=
+ =?us-ascii?Q?IAR":false,"LI":null,"SRCI":1,"IU":null,"NU":"urldefense.pro?=
+ =?us-ascii?Q?ofpoint.com/v2/url=3Fu=3Dhttp-3A=5F=5Fpublicresearch.barclay?=
+ =?us-ascii?Q?s.com&d=3DDwIF-g&c=3Ddpn1WjMMQGUYKOlM1k1w3OIaMfTHNTwPoUrrILO?=
+ =?us-ascii?Q?sxvs&r=3DryqPGn58iJo=5FeGaN9j9IgI0XFYvG66oJtaT0DoFnFJM&m=3DE?=
+ =?us-ascii?Q?vN-kTjn8-RpcY-cpUhKbSNGhDFhIHRz17necryyVl4&s=3DZn3fSk1VbBBxW?=
+ =?us-ascii?Q?-T-6kk0FTSybYS7SppCPYJcpmqZsCU&e=3D","UFT":"{}","DPD":{"UF":?=
+ =?us-ascii?Q?"16640","OCH":"4185857008522968666","SCHM":"Https"},"PROC":[?=
+ =?us-ascii?Q?]}],"NU":"publicresearch.barclays.com","UFT":"{101:28,102:2,?=
+ =?us-ascii?Q?105:27,108:3,110:8,111:12,112:2,114:8,115:14,116:1,118:14,11?=
+ =?us-ascii?Q?9:8,121:7,122:3,123:1,125:3,131:10000000,135:\"DFFC43BF,2468?=
+ =?us-ascii?Q?E649,1230F0AD,8CB07814,1BCA3046,80EE7474,BFF04B46,3A119CCB,3?=
+ =?us-ascii?Q?246F737,373D24B0,A38A9928,E2F4FF8D,F43DC64,5D015945,BF0C618C?=
+ =?us-ascii?Q?,B1F5A047,2D153A8F,6CF4A682\",201:9857,202:362,203:3,204:986?=
+ =?us-ascii?Q?1,205:29,206:1,207:31,208:2,209:31,210:2,211:31,212:2,213:13?=
+ =?us-ascii?Q?,214:1,215:12,216:2,217:23,218:1,219:12,220:2,221:52,222:3,2?=
+ =?us-ascii?Q?23:52,224:3,225:52,226:3,227:51,228:3,229:13,230:1,231:12,23?=
+ =?us-ascii?Q?2:2,233:27,234:1,235:12,236:2,237:16,238:2,239:31,240:1,241:?=
+ =?us-ascii?Q?33,242:2,243:32,244:1,245:13,246:2,247:11,248:1,249:12,250:2?=
+ =?us-ascii?Q?,251:10,252:2}","DPD":{"UF":"256","OCH":"5893907323562716763?=
+ =?us-ascii?Q?","SCHM":"Http","UWS":"3|5|3","CNT":"2","SL":"1","LOG":"1"},?=
+ =?us-ascii?Q?"PROC":[]},{"ID":1,"OU":"https://urldefense.proofpoint.com/v?=
+ =?us-ascii?Q?2/url=3Fu=3Dhttps-3A=5F=5Fclicktime.symantec.com=5F33kDr8yA6?=
+ =?us-ascii?Q?ezcApUeYhn9C2S6H2-3Fu-3Dwww.mufg-2Dinvestorservice.com&d=3DD?=
+ =?us-ascii?Q?wIGAw&c=3Ddpn1WjMMQGUYKOlM1k1w3OIaMfTHNTwPoUrrILOsxvs&r=3D-z?=
+ =?us-ascii?Q?JgZJliT2lTAJxL6GuHqU2qWNLXozchr18fzuv=5Forc&m=3DH4HBqa1iLIRu?=
+ =?us-ascii?Q?y3q9iStbVGc8KVPuWcgCHN3DEncnwNI&s=3DNawZsC=5FSflib8fanuyBilx?=
+ =?us-ascii?Q?Cwdz8cbfbqw9MACgwZdcs&e=3D","U":"http://www.mufg-investorser?=
+ =?us-ascii?Q?vice.com/","IAR":false,"LI":{"BF":1,"SI":-1,"EndIndex":-1},"?=
+ =?us-ascii?Q?SRCI":1,"IU":[{"ID":-1,"OU":"https://urldefense.proofpoint.c?=
+ =?us-ascii?Q?om/v2/url=3Fu=3Dhttps-3A=5F=5Fclicktime.symantec.com=5F33kDr?=
+ =?us-ascii?Q?8yA6ezcApUeYhn9C2S6H2-3Fu-3Dwww.mufg-2Dinvestorservice.com&d?=
+ =?us-ascii?Q?=3DDwIGAw&c=3Ddpn1WjMMQGUYKOlM1k1w3OIaMfTHNTwPoUrrILOsxvs&r?=
+ =?us-ascii?Q?=3D-zJgZJliT2lTAJxL6GuHqU2qWNLXozchr18fzuv=5Forc&m=3DH4HBqa1?=
+ =?us-ascii?Q?iLIRuy3q9iStbVGc8KVPuWcgCHN3DEncnwNI&s=3DNawZsC=5FSflib8fanu?=
+ =?us-ascii?Q?yBilxCwdz8cbfbqw9MACgwZdcs&e=3D","U":"https://urldefense.pro?=
+ =?us-ascii?Q?ofpoint.com/v2/url=3Fu=3Dhttps-3A=5F=5Fclicktime.symantec.co?=
+ =?us-ascii?Q?m=5F33kDr8yA6ezcApUeYhn9C2S6H2-3Fu-3Dwww.mufg-2Dinvestorserv?=
+ =?us-ascii?Q?ice.com&d=3DDwIGAw&c=3Ddpn1WjMMQGUYKOlM1k1w3OIaMfTHNTwPoUrrI?=
+ =?us-ascii?Q?LOsxvs&r=3D-zJgZJliT2lTAJxL6GuHqU2qWNLXozchr18fzuv=5Forc&m?=
+ =?us-ascii?Q?=3DH4HBqa1iLIRuy3q9iStbVGc8KVPuWcgCHN3DEncnwNI&s=3DNawZsC=5F?=
+ =?us-ascii?Q?Sflib8fanuyBilxCwdz8cbfbqw9MACgwZdcs&e=3D","IAR":false,"LI":?=
+ =?us-ascii?Q?null,"SRCI":1,"IU":null,"NU":"urldefense.proofpoint.com/v2/u?=
+ =?us-ascii?Q?rl=3Fu=3Dhttps-3A=5F=5Fclicktime.symantec.com=5F33kDr8yA6ezc?=
+ =?us-ascii?Q?ApUeYhn9C2S6H2-3Fu-3Dwww.mufg-2Dinvestorservice.com&d=3DDwIG?=
+ =?us-ascii?Q?Aw&c=3Ddpn1WjMMQGUYKOlM1k1w3OIaMfTHNTwPoUrrILOsxvs&r=3D-zJgZ?=
+ =?us-ascii?Q?JliT2lTAJxL6GuHqU2qWNLXozchr18fzuv=5Forc&m=3DH4HBqa1iLIRuy3q?=
+ =?us-ascii?Q?9iStbVGc8KVPuWcgCHN3DEncnwNI&s=3DNawZsC=5FSflib8fanuyBilxCwd?=
+ =?us-ascii?Q?z8cbfbqw9MACgwZdcs&e=3D","UFT":"{}","DPD":{"UF":"16640","OCH?=
+ =?us-ascii?Q?":"14405480557136428302","SCHM":"Https"},"PROC":[]},{"ID":-1?=
+ =?us-ascii?Q?,"OU":"https://clicktime.symantec.com/33kDr8yA6ezcApUeYhn9C2?=
+ =?us-ascii?Q?S6H2=3Fu=3Dwww.mufg-investorservice.com","U":"https://clickt?=
+ =?us-ascii?Q?ime.symantec.com/33kDr8yA6ezcApUeYhn9C2S6H2=3Fu=3Dwww.mufg-i?=
+ =?us-ascii?Q?nvestorservice.com","IAR":false,"LI":null,"SRCI":1,"IU":null?=
+ =?us-ascii?Q?,"NU":"clicktime.symantec.com/33kDr8yA6ezcApUeYhn9C2S6H2=3Fu?=
+ =?us-ascii?Q?=3Dwww.mufg-investorservice.com","UFT":"{}","DPD":{"UF":"166?=
+ =?us-ascii?Q?40","OCH":"2161220933073644586","SCHM":"Https"},"PROC":[]}],?=
+ =?us-ascii?Q?"NU":"www.mufg-investorservice.com","UFT":"{101:29,102:2,105?=
+ =?us-ascii?Q?:28,108:3,109:1,110:20,111:24,112:2,113:1,114:20,115:3,116:1?=
+ =?us-ascii?Q?,118:3,119:20,120:1,121:14,122:3,123:1,125:3,131:10000000,13?=
+ =?us-ascii?Q?5:\"F538357B,A53B0D59,FB388049,84932C27,386848A6,E855F47D,10?=
+ =?us-ascii?Q?FCD5EA,49D7B9AA,8240288F,308BA71D,755DF581,5A61431C,E754074B?=
+ =?us-ascii?Q?,E7E3FFA7,623906BF,2C89623A,E7F0CB9A,7A5E310B,23F6380E\",249?=
+ =?us-ascii?Q?:0,250:0,251:0,252:0}","DPD":{"UF":"256","OCH":"882207315844?=
+ =?us-ascii?Q?9599542","SCHM":"Http","UWS":"3|5","CNT":"1","SL":"1","LOG":?=
+ =?us-ascii?Q?"1"},"PROC":[]},{"ID":2,"OU":"https://urldefense.proofpoint.?=
+ =?us-ascii?Q?com/v2/url=3Fu=3Dhttps-3A=5F=5Fclicktime.symantec.com=5F3Rb1?=
+ =?us-ascii?Q?YGoWHYgTbQctDB2qjxF6H2-3Fu-3Dwww.barclays.com-252Femaildiscl?=
+ =?us-ascii?Q?aimer&d=3DDwIGAw&c=3Ddpn1WjMMQGUYKOlM1k1w3OIaMfTHNTwPoUrrILO?=
+ =?us-ascii?Q?sxvs&r=3D-zJgZJliT2lTAJxL6GuHqU2qWNLXozchr18fzuv=5Forc&m=3DH?=
+ =?us-ascii?Q?4HBqa1iLIRuy3q9iStbVGc8KVPuWcgCHN3DEncnwNI&s=3DAlmztHpmBbtcU?=
+ =?us-ascii?Q?-vBUcvnoPy7wOEgZQvvsh3m-VHp6mg&e=3D","U":"http://www.barclay?=
+ =?us-ascii?Q?s.com/emaildisclaimer","IAR":false,"LI":{"BF":1,"SI":-1,"End?=
+ =?us-ascii?Q?Index":-1},"SRCI":1,"IU":[{"ID":-1,"OU":"https://urldefense.?=
+ =?us-ascii?Q?proofpoint.com/v2/url=3Fu=3Dhttps-3A=5F=5Fclicktime.symantec?=
+ =?us-ascii?Q?.com=5F3Rb1YGoWHYgTbQctDB2qjxF6H2-3Fu-3Dwww.barclays.com-252?=
+ =?us-ascii?Q?Femaildisclaimer&d=3DDwIGAw&c=3Ddpn1WjMMQGUYKOlM1k1w3OIaMfTH?=
+ =?us-ascii?Q?NTwPoUrrILOsxvs&r=3D-zJgZJliT2lTAJxL6GuHqU2qWNLXozchr18fzuv?=
+ =?us-ascii?Q?=5Forc&m=3DH4HBqa1iLIRuy3q9iStbVGc8KVPuWcgCHN3DEncnwNI&s=3DA?=
+ =?us-ascii?Q?lmztHpmBbtcU-vBUcvnoPy7wOEgZQvvsh3m-VHp6mg&e=3D","U":"https:?=
+ =?us-ascii?Q?//urldefense.proofpoint.com/v2/url=3Fu=3Dhttps-3A=5F=5Fclick?=
+ =?us-ascii?Q?time.symantec.com=5F3Rb1YGoWHYgTbQctDB2qjxF6H2-3Fu-3Dwww.bar?=
+ =?us-ascii?Q?clays.com-252Femaildisclaimer&d=3DDwIGAw&c=3Ddpn1WjMMQGUYKOl?=
+ =?us-ascii?Q?M1k1w3OIaMfTHNTwPoUrrILOsxvs&r=3D-zJgZJliT2lTAJxL6GuHqU2qWNL?=
+ =?us-ascii?Q?Xozchr18fzuv=5Forc&m=3DH4HBqa1iLIRuy3q9iStbVGc8KVPuWcgCHN3DE?=
+ =?us-ascii?Q?ncnwNI&s=3DAlmztHpmBbtcU-vBUcvnoPy7wOEgZQvvsh3m-VHp6mg&e=3D"?=
+ =?us-ascii?Q?,"IAR":false,"LI":null,"SRCI":1,"IU":null,"NU":"urldefense.p?=
+ =?us-ascii?Q?roofpoint.com/v2/url=3Fu=3Dhttps-3A=5F=5Fclicktime.symantec.?=
+ =?us-ascii?Q?com=5F3Rb1YGoWHYgTbQctDB2qjxF6H2-3Fu-3Dwww.barclays.com-252F?=
+ =?us-ascii?Q?emaildisclaimer&d=3DDwIGAw&c=3Ddpn1WjMMQGUYKOlM1k1w3OIaMfTHN?=
+ =?us-ascii?Q?TwPoUrrILOsxvs&r=3D-zJgZJliT2lTAJxL6GuHqU2qWNLXozchr18fzuv?=
+ =?us-ascii?Q?=5Forc&m=3DH4HBqa1iLIRuy3q9iStbVGc8KVPuWcgCHN3DEncnwNI&s=3DA?=
+ =?us-ascii?Q?lmztHpmBbtcU-vBUcvnoPy7wOEgZQvvsh3m-VHp6mg&e=3D","UFT":"{}",?=
+ =?us-ascii?Q?"DPD":{"UF":"16640","OCH":"8125141395043639448","SCHM":"Http?=
+ =?us-ascii?Q?s"},"PROC":[]},{"ID":-1,"OU":"https://clicktime.symantec.com?=
+ =?us-ascii?Q?/3Rb1YGoWHYgTbQctDB2qjxF6H2=3Fu=3Dwww.barclays.com%2Femaildi?=
+ =?us-ascii?Q?sclaimer","U":"https://clicktime.symantec.com/3Rb1YGoWHYgTbQ?=
+ =?us-ascii?Q?ctDB2qjxF6H2=3Fu=3Dwww.barclays.com%2Femaildisclaimer","IAR"?=
+ =?us-ascii?Q?:false,"LI":null,"SRCI":1,"IU":null,"NU":"clicktime.symantec?=
+ =?us-ascii?Q?.com/3Rb1YGoWHYgTbQctDB2qjxF6H2=3Fu=3Dwww.barclays.com%2Fema?=
+ =?us-ascii?Q?ildisclaimer","UFT":"{}","DPD":{"UF":"16640","OCH":"13055169?=
+ =?us-ascii?Q?240211287313","SCHM":"Https"},"PROC":[]}],"NU":"www.barclays?=
+ =?us-ascii?Q?.com/emaildisclaimer","UFT":"{101:32,102:2,105:16,108:3,110:?=
+ =?us-ascii?Q?8,111:12,112:2,114:8,115:3,116:1,118:3,119:8,121:7,122:3,123?=
+ =?us-ascii?Q?:1,125:3,128:15,131:10000000,135:\"F538357B,F43DC64,5D015945?=
+ =?us-ascii?Q?,BF0C618C,B1F5A047,2D153A8F,6CF4A682,69993CB8,2810724,3861BB?=
+ =?us-ascii?Q?4F,DBFA425A,736EC4EA,E80E10A1,C6B12B30,2D185E1B,624D6FDB,676?=
+ =?us-ascii?Q?1E613,3761B9BC,B8FC49D8,157697B1\",201:9857,202:362,203:3,20?=
+ =?us-ascii?Q?4:9861,205:29,206:1,207:31,208:2,209:31,210:2,211:31,212:2,2?=
+ =?us-ascii?Q?13:13,214:1,215:12,216:2,217:23,218:1,219:12,220:2,221:52,22?=
+ =?us-ascii?Q?2:3,223:52,224:3,225:52,226:3,227:51,228:3,229:13,230:1,231:?=
+ =?us-ascii?Q?12,232:2,233:27,234:1,235:12,236:2,237:16,238:2,239:31,240:1?=
+ =?us-ascii?Q?,241:33,242:2,243:32,244:1,245:13,246:2,247:11,248:1,249:12,?=
+ =?us-ascii?Q?250:2,251:13,252:1}","DPD":{"UF":"256","OCH":"61782989265118?=
+ =?us-ascii?Q?31216","SCHM":"Http","UWS":"3|5","CNT":"2","SL":"1","LOG":"1?=
+ =?us-ascii?Q?"},"PROC":[]},{"ID":3,"OU":"https://urldefense.proofpoint.co?=
+ =?us-ascii?Q?m/v2/url=3Fu=3Dhttps-3A=5F=5Fclicktime.symantec.com=5F357zwb?=
+ =?us-ascii?Q?B9cVFmHiERx4LndBB6H2-3Fu-3Dwww.barclays.com-252Fsalesandtrad?=
+ =?us-ascii?Q?ingdisclaimer&d=3DDwIGAw&c=3Ddpn1WjMMQGUYKOlM1k1w3OIaMfTHNTw?=
+ =?us-ascii?Q?PoUrrILOsxvs&r=3D-zJgZJliT2lTAJxL6GuHqU2qWNLXozchr18fzuv=5Fo?=
+ =?us-ascii?Q?rc&m=3DH4HBqa1iLIRuy3q9iStbVGc8KVPuWcgCHN3DEncnwNI&s=3DHZeBd?=
+ =?us-ascii?Q?wfkJ93lRD-NrM9-2S6RhUbpnSLMKIv5w1NaLzE&e=3D","U":"http://www?=
+ =?us-ascii?Q?.barclays.com/salesandtradingdisclaimer","IAR":false,"LI":{"?=
+ =?us-ascii?Q?BF":1,"SI":-1,"EndIndex":-1},"SRCI":1,"IU":[{"ID":-1,"OU":"h?=
+ =?us-ascii?Q?ttps://urldefense.proofpoint.com/v2/url=3Fu=3Dhttps-3A=5F=5F?=
+ =?us-ascii?Q?clicktime.symantec.com=5F357zwbB9cVFmHiERx4LndBB6H2-3Fu-3Dww?=
+ =?us-ascii?Q?w.barclays.com-252Fsalesandtradingdisclaimer&d=3DDwIGAw&c=3D?=
+ =?us-ascii?Q?dpn1WjMMQGUYKOlM1k1w3OIaMfTHNTwPoUrrILOsxvs&r=3D-zJgZJliT2lT?=
+ =?us-ascii?Q?AJxL6GuHqU2qWNLXozchr18fzuv=5Forc&m=3DH4HBqa1iLIRuy3q9iStbVG?=
+ =?us-ascii?Q?c8KVPuWcgCHN3DEncnwNI&s=3DHZeBdwfkJ93lRD-NrM9-2S6RhUbpnSLMKI?=
+ =?us-ascii?Q?v5w1NaLzE&e=3D","U":"https://urldefense.proofpoint.com/v2/ur?=
+ =?us-ascii?Q?l=3Fu=3Dhttps-3A=5F=5Fclicktime.symantec.com=5F357zwbB9cVFmH?=
+ =?us-ascii?Q?iERx4LndBB6H2-3Fu-3Dwww.barclays.com-252Fsalesandtradingdisc?=
+ =?us-ascii?Q?laimer&d=3DDwIGAw&c=3Ddpn1WjMMQGUYKOlM1k1w3OIaMfTHNTwPoUrrIL?=
+ =?us-ascii?Q?Osxvs&r=3D-zJgZJliT2lTAJxL6GuHqU2qWNLXozchr18fzuv=5Forc&m=3D?=
+ =?us-ascii?Q?H4HBqa1iLIRuy3q9iStbVGc8KVPuWcgCHN3DEncnwNI&s=3DHZeBdwfkJ93l?=
+ =?us-ascii?Q?RD-NrM9-2S6RhUbpnSLMKIv5w1NaLzE&e=3D","IAR":false,"LI":null,?=
+ =?us-ascii?Q?"SRCI":1,"IU":null,"NU":"urldefense.proofpoint.com/v2/url=3F?=
+ =?us-ascii?Q?u=3Dhttps-3A=5F=5Fclicktime.symantec.com=5F357zwbB9cVFmHiERx?=
+ =?us-ascii?Q?4LndBB6H2-3Fu-3Dwww.barclays.com-252Fsalesandtradingdisclaim?=
+ =?us-ascii?Q?er&d=3DDwIGAw&c=3Ddpn1WjMMQGUYKOlM1k1w3OIaMfTHNTwPoUrrILOsxv?=
+ =?us-ascii?Q?s&r=3D-zJgZJliT2lTAJxL6GuHqU2qWNLXozchr18fzuv=5Forc&m=3DH4HB?=
+ =?us-ascii?Q?qa1iLIRuy3q9iStbVGc8KVPuWcgCHN3DEncnwNI&s=3DHZeBdwfkJ93lRD-N?=
+ =?us-ascii?Q?rM9-2S6RhUbpnSLMKIv5w1NaLzE&e=3D","UFT":"{}","DPD":{"UF":"16?=
+ =?us-ascii?Q?640","OCH":"11021156426527150912","SCHM":"Https"},"PROC":[]}?=
+ =?us-ascii?Q?,{"ID":-1,"OU":"https://clicktime.symantec.com/357zwbB9cVFmH?=
+ =?us-ascii?Q?iERx4LndBB6H2=3Fu=3Dwww.barclays.com%2Fsalesandtradingdiscla?=
+ =?us-ascii?Q?imer","U":"https://clicktime.symantec.com/357zwbB9cVFmHiERx4?=
+ =?us-ascii?Q?LndBB6H2=3Fu=3Dwww.barclays.com%2Fsalesandtradingdisclaimer"?=
+ =?us-ascii?Q?,"IAR":false,"LI":null,"SRCI":1,"IU":null,"NU":"clicktime.sy?=
+ =?us-ascii?Q?mantec.com/357zwbB9cVFmHiERx4LndBB6H2=3Fu=3Dwww.barclays.com?=
+ =?us-ascii?Q?%2Fsalesandtradingdisclaimer","UFT":"{?=
+X-MS-Exchange-Organization-Persisted-Urls-3:
+	=?us-ascii?Q?}","DPD":{"UF":"16640","OCH":"14950606626304128263","SCHM":"?=
+ =?us-ascii?Q?Https"},"PROC":[]}],"NU":"www.barclays.com/salesandtradingdi?=
+ =?us-ascii?Q?sclaimer","UFT":"{101:42,102:2,105:16,108:3,110:8,111:12,112?=
+ =?us-ascii?Q?:2,114:8,115:3,116:1,118:3,119:8,121:7,122:3,123:1,125:3,128?=
+ =?us-ascii?Q?:25,131:10000000,135:\"F538357B,F43DC64,5D015945,BF0C618C,B1?=
+ =?us-ascii?Q?F5A047,2D153A8F,6CF4A682,1113B4D9,33686F35,796C8FC5,858A5E42?=
+ =?us-ascii?Q?,F13B1B3,1E63D0F8,98C5C9D3,F0DEC097,A3560598,95D15B42,177D5D?=
+ =?us-ascii?Q?D9,D30DEF92,CAF41769,B6BDAA48,AE154347,E80E10A1,C6B12B30,2D1?=
+ =?us-ascii?Q?85E1B,624D6FDB,6761E613,3761B9BC,B8FC49D8,157697B1\",201:985?=
+ =?us-ascii?Q?7,202:362,203:3,204:9861,205:29,206:1,207:31,208:2,209:31,21?=
+ =?us-ascii?Q?0:2,211:31,212:2,213:13,214:1,215:12,216:2,217:23,218:1,219:?=
+ =?us-ascii?Q?12,220:2,221:52,222:3,223:52,224:3,225:52,226:3,227:51,228:3?=
+ =?us-ascii?Q?,229:13,230:1,231:12,232:2,233:27,234:1,235:12,236:2,237:16,?=
+ =?us-ascii?Q?238:2,239:31,240:1,241:33,242:2,243:32,244:1,245:13,246:2,24?=
+ =?us-ascii?Q?7:11,248:1,249:12,250:2,251:13,252:1}","DPD":{"UF":"256","OC?=
+ =?us-ascii?Q?H":"8194905861800231438","SCHM":"Http","UWS":"3|5","CNT":"2"?=
+ =?us-ascii?Q?,"SL":"1","LOG":"1"},"PROC":[]},{"ID":6,"OU":"https://urldef?=
+ =?us-ascii?Q?ense.proofpoint.com/v2/url=3Fu=3Dhttps-3A=5F=5Fclicktime.sym?=
+ =?us-ascii?Q?antec.com=5F3VPqwk8Zr65d3yHyUixrB586H2-3Fu-3Dhttps-253A-252F?=
+ =?us-ascii?Q?-252Furldefense.proofpoint.com-252Fv2-252Furl-253Fu-253Dhttp?=
+ =?us-ascii?Q?s-2D3A-5F-5Fwww.home.barclays-5Fdisclosures-5Fimportantapacd?=
+ =?us-ascii?Q?isclosures.html-2526d-253DDwIF-2Dg-2526c-253Ddpn1WjMMQGUYKOl?=
+ =?us-ascii?Q?M1k1w3OIaMfTHNTwPoUrrILOsxvs-2526r-253DryqPGn58iJo-5FeGaN9j9?=
+ =?us-ascii?Q?IgI0XFYvG66oJtaT0DoFnFJM-2526m-253DEvN-2DkTjn8-2DRpcY-2DcpUh?=
+ =?us-ascii?Q?KbSNGhDFhIHRz17necryyVl4-2526s-253DAcXO4ewb0TIeCcEVWO1ivB2P6?=
+ =?us-ascii?Q?LeAy82-2D6qNqu4ENWGk-2526e-253D&d=3DDwIGAw&c=3Ddpn1WjMMQGUYK?=
+ =?us-ascii?Q?OlM1k1w3OIaMfTHNTwPoUrrILOsxvs&r=3D-zJgZJliT2lTAJxL6GuHqU2qW?=
+ =?us-ascii?Q?NLXozchr18fzuv=5Forc&m=3DH4HBqa1iLIRuy3q9iStbVGc8KVPuWcgCHN3?=
+ =?us-ascii?Q?DEncnwNI&s=3D2-OIbo0BYYMbcab8GEo4EXuae9WJ8bSzKv0Gu8a6zHU&e?=
+ =?us-ascii?Q?=3D","U":"https://www.home.barclays/disclosures/importantapa?=
+ =?us-ascii?Q?cdisclosures.html","IAR":false,"LI":{"BF":1,"SI":-1,"EndInde?=
+ =?us-ascii?Q?x":-1},"SRCI":1,"IU":[{"ID":-1,"OU":"https://urldefense.proo?=
+ =?us-ascii?Q?fpoint.com/v2/url=3Fu=3Dhttps-3A=5F=5Fclicktime.symantec.com?=
+ =?us-ascii?Q?=5F3VPqwk8Zr65d3yHyUixrB586H2-3Fu-3Dhttps-253A-252F-252Furld?=
+ =?us-ascii?Q?efense.proofpoint.com-252Fv2-252Furl-253Fu-253Dhttps-2D3A-5F?=
+ =?us-ascii?Q?-5Fwww.home.barclays-5Fdisclosures-5Fimportantapacdisclosure?=
+ =?us-ascii?Q?s.html-2526d-253DDwIF-2Dg-2526c-253Ddpn1WjMMQGUYKOlM1k1w3OIa?=
+ =?us-ascii?Q?MfTHNTwPoUrrILOsxvs-2526r-253DryqPGn58iJo-5FeGaN9j9IgI0XFYvG?=
+ =?us-ascii?Q?66oJtaT0DoFnFJM-2526m-253DEvN-2DkTjn8-2DRpcY-2DcpUhKbSNGhDFh?=
+ =?us-ascii?Q?IHRz17necryyVl4-2526s-253DAcXO4ewb0TIeCcEVWO1ivB2P6LeAy82-2D?=
+ =?us-ascii?Q?6qNqu4ENWGk-2526e-253D&d=3DDwIGAw&c=3Ddpn1WjMMQGUYKOlM1k1w3O?=
+ =?us-ascii?Q?IaMfTHNTwPoUrrILOsxvs&r=3D-zJgZJliT2lTAJxL6GuHqU2qWNLXozchr1?=
+ =?us-ascii?Q?8fzuv=5Forc&m=3DH4HBqa1iLIRuy3q9iStbVGc8KVPuWcgCHN3DEncnwNI&?=
+ =?us-ascii?Q?s=3D2-OIbo0BYYMbcab8GEo4EXuae9WJ8bSzKv0Gu8a6zHU&e=3D","U":"h?=
+ =?us-ascii?Q?ttps://urldefense.proofpoint.com/v2/url=3Fu=3Dhttps-3A=5F=5F?=
+ =?us-ascii?Q?clicktime.symantec.com=5F3VPqwk8Zr65d3yHyUixrB586H2-3Fu-3Dht?=
+ =?us-ascii?Q?tps-253A-252F-252Furldefense.proofpoint.com-252Fv2-252Furl-2?=
+ =?us-ascii?Q?53Fu-253Dhttps-2D3A-5F-5Fwww.home.barclays-5Fdisclosures-5Fi?=
+ =?us-ascii?Q?mportantapacdisclosures.html-2526d-253DDwIF-2Dg-2526c-253Ddp?=
+ =?us-ascii?Q?n1WjMMQGUYKOlM1k1w3OIaMfTHNTwPoUrrILOsxvs-2526r-253DryqPGn58?=
+ =?us-ascii?Q?iJo-5FeGaN9j9IgI0XFYvG66oJtaT0DoFnFJM-2526m-253DEvN-2DkTjn8-?=
+ =?us-ascii?Q?2DRpcY-2DcpUhKbSNGhDFhIHRz17necryyVl4-2526s-253DAcXO4ewb0TIe?=
+ =?us-ascii?Q?CcEVWO1ivB2P6LeAy82-2D6qNqu4ENWGk-2526e-253D&d=3DDwIGAw&c=3D?=
+ =?us-ascii?Q?dpn1WjMMQGUYKOlM1k1w3OIaMfTHNTwPoUrrILOsxvs&r=3D-zJgZJliT2lT?=
+ =?us-ascii?Q?AJxL6GuHqU2qWNLXozchr18fzuv=5Forc&m=3DH4HBqa1iLIRuy3q9iStbVG?=
+ =?us-ascii?Q?c8KVPuWcgCHN3DEncnwNI&s=3D2-OIbo0BYYMbcab8GEo4EXuae9WJ8bSzKv?=
+ =?us-ascii?Q?0Gu8a6zHU&e=3D","IAR":false,"LI":null,"SRCI":1,"IU":null,"NU?=
+ =?us-ascii?Q?":"urldefense.proofpoint.com/v2/url=3Fu=3Dhttps-3A=5F=5Fclic?=
+ =?us-ascii?Q?ktime.symantec.com=5F3VPqwk8Zr65d3yHyUixrB586H2-3Fu-3Dhttps-?=
+ =?us-ascii?Q?253A-252F-252Furldefense.proofpoint.com-252Fv2-252Furl-253Fu?=
+ =?us-ascii?Q?-253Dhttps-2D3A-5F-5Fwww.home.barclays-5Fdisclosures-5Fimpor?=
+ =?us-ascii?Q?tantapacdisclosures.html-2526d-253DDwIF-2Dg-2526c-253Ddpn1Wj?=
+ =?us-ascii?Q?MMQGUYKOlM1k1w3OIaMfTHNTwPoUrrILOsxvs-2526r-253DryqPGn58iJo-?=
+ =?us-ascii?Q?5FeGaN9j9IgI0XFYvG66oJtaT0DoFnFJM-2526m-253DEvN-2DkTjn8-2DRp?=
+ =?us-ascii?Q?cY-2DcpUhKbSNGhDFhIHRz17necryyVl4-2526s-253DAcXO4ewb0TIeCcEV?=
+ =?us-ascii?Q?WO1ivB2P6LeAy82-2D6qNqu4ENWGk-2526e-253D&d=3DDwIGAw&c=3Ddpn1?=
+ =?us-ascii?Q?WjMMQGUYKOlM1k1w3OIaMfTHNTwPoUrrILOsxvs&r=3D-zJgZJliT2lTAJxL?=
+ =?us-ascii?Q?6GuHqU2qWNLXozchr18fzuv=5Forc&m=3DH4HBqa1iLIRuy3q9iStbVGc8KV?=
+ =?us-ascii?Q?PuWcgCHN3DEncnwNI&s=3D2-OIbo0BYYMbcab8GEo4EXuae9WJ8bSzKv0Gu8?=
+ =?us-ascii?Q?a6zHU&e=3D","UFT":"{}","DPD":{"UF":"16640","OCH":"1372828868?=
+ =?us-ascii?Q?4219179279","SCHM":"Https"},"PROC":[]},{"ID":-1,"OU":"https:?=
+ =?us-ascii?Q?//clicktime.symantec.com/3VPqwk8Zr65d3yHyUixrB586H2=3Fu=3Dht?=
+ =?us-ascii?Q?tps%3A%2F%2Furldefense.proofpoint.com%2Fv2%2Furl%3Fu%3Dhttps?=
+ =?us-ascii?Q?-3A=5F=5Fwww.home.barclays=5Fdisclosures=5Fimportantapacdisc?=
+ =?us-ascii?Q?losures.html%26d%3DDwIF-g%26c%3Ddpn1WjMMQGUYKOlM1k1w3OIaMfTH?=
+ =?us-ascii?Q?NTwPoUrrILOsxvs%26r%3DryqPGn58iJo=5FeGaN9j9IgI0XFYvG66oJtaT0?=
+ =?us-ascii?Q?DoFnFJM%26m%3DEvN-kTjn8-RpcY-cpUhKbSNGhDFhIHRz17necryyVl4%26?=
+ =?us-ascii?Q?s%3DAcXO4ewb0TIeCcEVWO1ivB2P6LeAy82-6qNqu4ENWGk%26e%3D","U":?=
+ =?us-ascii?Q?"https://clicktime.symantec.com/3VPqwk8Zr65d3yHyUixrB586H2?=
+ =?us-ascii?Q?=3Fu=3Dhttps%3A%2F%2Furldefense.proofpoint.com%2Fv2%2Furl%3F?=
+ =?us-ascii?Q?u%3Dhttps-3A=5F=5Fwww.home.barclays=5Fdisclosures=5Fimportan?=
+ =?us-ascii?Q?tapacdisclosures.html%26d%3DDwIF-g%26c%3Ddpn1WjMMQGUYKOlM1k1?=
+ =?us-ascii?Q?w3OIaMfTHNTwPoUrrILOsxvs%26r%3DryqPGn58iJo=5FeGaN9j9IgI0XFYv?=
+ =?us-ascii?Q?G66oJtaT0DoFnFJM%26m%3DEvN-kTjn8-RpcY-cpUhKbSNGhDFhIHRz17nec?=
+ =?us-ascii?Q?ryyVl4%26s%3DAcXO4ewb0TIeCcEVWO1ivB2P6LeAy82-6qNqu4ENWGk%26e?=
+ =?us-ascii?Q?%3D","IAR":false,"LI":null,"SRCI":1,"IU":null,"NU":"clicktim?=
+ =?us-ascii?Q?e.symantec.com/3VPqwk8Zr65d3yHyUixrB586H2=3Fu=3Dhttps%3A%2F%?=
+ =?us-ascii?Q?2Furldefense.proofpoint.com%2Fv2%2Furl%3Fu%3Dhttps-3A=5F=5Fw?=
+ =?us-ascii?Q?ww.home.barclays=5Fdisclosures=5Fimportantapacdisclosures.ht?=
+ =?us-ascii?Q?ml%26d%3DDwIF-g%26c%3Ddpn1WjMMQGUYKOlM1k1w3OIaMfTHNTwPoUrrIL?=
+ =?us-ascii?Q?Osxvs%26r%3DryqPGn58iJo=5FeGaN9j9IgI0XFYvG66oJtaT0DoFnFJM%26?=
+ =?us-ascii?Q?m%3DEvN-kTjn8-RpcY-cpUhKbSNGhDFhIHRz17necryyVl4%26s%3DAcXO4e?=
+ =?us-ascii?Q?wb0TIeCcEVWO1ivB2P6LeAy82-6qNqu4ENWGk%26e%3D","UFT":"{}","DP?=
+ =?us-ascii?Q?D":{"UF":"16640","OCH":"3827785711963639913","SCHM":"Https"}?=
+ =?us-ascii?Q?,"PROC":[]},{"ID":-1,"OU":"https://urldefense.proofpoint.com?=
+ =?us-ascii?Q?/v2/url=3Fu=3Dhttps-3A=5F=5Fwww.home.barclays=5Fdisclosures?=
+ =?us-ascii?Q?=5Fimportantapacdisclosures.html&d=3DDwIF-g&c=3Ddpn1WjMMQGUY?=
+ =?us-ascii?Q?KOlM1k1w3OIaMfTHNTwPoUrrILOsxvs&r=3DryqPGn58iJo=5FeGaN9j9IgI?=
+ =?us-ascii?Q?0XFYvG66oJtaT0DoFnFJM&m=3DEvN-kTjn8-RpcY-cpUhKbSNGhDFhIHRz17?=
+ =?us-ascii?Q?necryyVl4&s=3DAcXO4ewb0TIeCcEVWO1ivB2P6LeAy82-6qNqu4ENWGk&e?=
+ =?us-ascii?Q?=3D","U":"https://urldefense.proofpoint.com/v2/url=3Fu=3Dhtt?=
+ =?us-ascii?Q?ps-3A=5F=5Fwww.home.barclays=5Fdisclosures=5Fimportantapacdi?=
+ =?us-ascii?Q?sclosures.html&d=3DDwIF-g&c=3Ddpn1WjMMQGUYKOlM1k1w3OIaMfTHNT?=
+ =?us-ascii?Q?wPoUrrILOsxvs&r=3DryqPGn58iJo=5FeGaN9j9IgI0XFYvG66oJtaT0DoFn?=
+ =?us-ascii?Q?FJM&m=3DEvN-kTjn8-RpcY-cpUhKbSNGhDFhIHRz17necryyVl4&s=3DAcXO?=
+ =?us-ascii?Q?4ewb0TIeCcEVWO1ivB2P6LeAy82-6qNqu4ENWGk&e=3D","IAR":false,"L?=
+ =?us-ascii?Q?I":null,"SRCI":1,"IU":null,"NU":"urldefense.proofpoint.com/v?=
+ =?us-ascii?Q?2/url=3Fu=3Dhttps-3A=5F=5Fwww.home.barclays=5Fdisclosures=5F?=
+ =?us-ascii?Q?importantapacdisclosures.html&d=3DDwIF-g&c=3Ddpn1WjMMQGUYKOl?=
+ =?us-ascii?Q?M1k1w3OIaMfTHNTwPoUrrILOsxvs&r=3DryqPGn58iJo=5FeGaN9j9IgI0XF?=
+ =?us-ascii?Q?YvG66oJtaT0DoFnFJM&m=3DEvN-kTjn8-RpcY-cpUhKbSNGhDFhIHRz17nec?=
+ =?us-ascii?Q?ryyVl4&s=3DAcXO4ewb0TIeCcEVWO1ivB2P6LeAy82-6qNqu4ENWGk&e=3D"?=
+ =?us-ascii?Q?,"UFT":"{}","DPD":{"UF":"16640","OCH":"1245590175839741534",?=
+ =?us-ascii?Q?"SCHM":"Https"},"PROC":[]}],"NU":"www.home.barclays/disclosu?=
+ =?us-ascii?Q?res/importantapacdisclosures.html","UFT":"{101:59,102:3,103:?=
+ =?us-ascii?Q?1,105:17,108:3,110:8,111:13,112:2,114:8,115:3,116:1,118:3,11?=
+ =?us-ascii?Q?9:4,121:4,122:8,123:1,125:8,128:29,129:1,131:104390,135:\"F5?=
+ =?us-ascii?Q?38357B,68D6E49D,ED0B1AA2,E80E10A1,C6B12B30,2D185E1B,604D6CB5?=
+ =?us-ascii?Q?,715D78A3,3B03B694,12E21B33,4B03FFC3,88C6B96F,CDFC6AE7,A5D4D?=
+ =?us-ascii?Q?7,60E640FC,2E016386,7EF18AB8,A02835AA,2E63EA28,8B9EA5EC,A228?=
+ =?us-ascii?Q?38D0,2799F91D,51FFC145,2470A65D,3A39A92B,21419CEA,9E44B498\"?=
+ =?us-ascii?Q?,201:2031,202:413,203:160,204:2192,205:28,206:1,207:27,208:1?=
+ =?us-ascii?Q?,209:28,210:1,211:43,212:7,213:24,214:2,215:12,216:2,217:37,?=
+ =?us-ascii?Q?218:2,219:12,220:2,221:52,222:3,223:52,224:3,225:52,226:3,22?=
+ =?us-ascii?Q?7:51,228:3,229:24,230:2,231:12,232:2,233:63,234:2,235:12,236?=
+ =?us-ascii?Q?:2,237:24,238:2,239:10,240:2,241:33,242:2,243:10,244:2,245:1?=
+ =?us-ascii?Q?3,246:2,247:11,248:1,249:10,250:2,251:8,252:2}","DPD":{"UF":?=
+ =?us-ascii?Q?"256","OCH":"17913694833260379328","SCHM":"Https","UWS":"3|5?=
+ =?us-ascii?Q?|3","CNT":"2","SL":"1","LOG":"1"},"PROC":[]},{"ID":9,"OU":"h?=
+ =?us-ascii?Q?ttps://urldefense.proofpoint.com/v2/url=3Fu=3Dhttps-3A=5F=5F?=
+ =?us-ascii?Q?clicktime.symantec.com=5F36mb1o1tRziEFoNLD6H615S6H2-3Fu-3Dww?=
+ =?us-ascii?Q?w.mfsadmin.com&d=3DDwIGAw&c=3Ddpn1WjMMQGUYKOlM1k1w3OIaMfTHNT?=
+ =?us-ascii?Q?wPoUrrILOsxvs&r=3D-zJgZJliT2lTAJxL6GuHqU2qWNLXozchr18fzuv=5F?=
+ =?us-ascii?Q?orc&m=3DH4HBqa1iLIRuy3q9iStbVGc8KVPuWcgCHN3DEncnwNI&s=3DiUMh?=
+ =?us-ascii?Q?Y4Wdv3DjQ=5FUct0w8QxbRs0jsS2K2FNXw9dIw6l0&e=3D","U":"http://?=
+ =?us-ascii?Q?www.mfsadmin.com/","IAR":false,"LI":{"BF":1,"SI":-1,"EndInde?=
+ =?us-ascii?Q?x":-1},"SRCI":1,"IU":[{"ID":-1,"OU":"https://urldefense.proo?=
+ =?us-ascii?Q?fpoint.com/v2/url=3Fu=3Dhttps-3A=5F=5Fclicktime.symantec.com?=
+ =?us-ascii?Q?=5F36mb1o1tRziEFoNLD6H615S6H2-3Fu-3Dwww.mfsadmin.com&d=3DDwI?=
+ =?us-ascii?Q?GAw&c=3Ddpn1WjMMQGUYKOlM1k1w3OIaMfTHNTwPoUrrILOsxvs&r=3D-zJg?=
+ =?us-ascii?Q?ZJliT2lTAJxL6GuHqU2qWNLXozchr18fzuv=5Forc&m=3DH4HBqa1iLIRuy3?=
+ =?us-ascii?Q?q9iStbVGc8KVPuWcgCHN3DEncnwNI&s=3DiUMhY4Wdv3DjQ=5FUct0w8QxbR?=
+ =?us-ascii?Q?s0jsS2K2FNXw9dIw6l0&e=3D","U":"https://urldefense.proofpoint?=
+ =?us-ascii?Q?.com/v2/url=3Fu=3Dhttps-3A=5F=5Fclicktime.symantec.com=5F36m?=
+ =?us-ascii?Q?b1o1tRziEFoNLD6H615S6H2-3Fu-3Dwww.mfsadmin.com&d=3DDwIGAw&c?=
+ =?us-ascii?Q?=3Ddpn1WjMMQGUYKOlM1k1w3OIaMfTHNTwPoUrrILOsxvs&r=3D-zJgZJliT?=
+ =?us-ascii?Q?2lTAJxL6GuHqU2qWNLXozchr18fzuv=5Forc&m=3DH4HBqa1iLIRuy3q9iSt?=
+ =?us-ascii?Q?bVGc8KVPuWcgCHN3DEncnwNI&s=3DiUMhY4Wdv3DjQ=5FUct0w8QxbRs0jsS?=
+ =?us-ascii?Q?2K2FNXw9dIw6l0&e=3D","IAR":false,"LI":null,"SRCI":1,"IU":nul?=
+ =?us-ascii?Q?l,"NU":"urldefense.proofpoint.com/v2/url=3Fu=3Dhttps-3A=5F?=
+ =?us-ascii?Q?=5Fclicktime.symantec.com=5F36mb1o1tRziEFoNLD6H615S6H2-3Fu-3?=
+ =?us-ascii?Q?Dwww.mfsadmin.com&d=3DDwIGAw&c=3Ddpn1WjMMQGUYKOlM1k1w3OIaMfT?=
+ =?us-ascii?Q?HNTwPoUrrILOsxvs&r=3D-zJgZJliT2lTAJxL6GuHqU2qWNLXozchr18fzuv?=
+ =?us-ascii?Q?=5Forc&m=3DH4HBqa1iLIRuy3q9iStbVGc8KVPuWcgCHN3DEncnwNI&s=3Di?=
+ =?us-ascii?Q?UMhY4Wdv3DjQ=5FUct0w8QxbRs0jsS2K2FNXw9dIw6l0&e=3D","UFT":"{}?=
+ =?us-ascii?Q?","DPD":{"UF":"16640","OCH":"6802214241699660201","SCHM":"Ht?=
+ =?us-ascii?Q?tps"},"PROC":[]},{"ID":-1,"OU":"https://clicktime.symantec.c?=
+ =?us-ascii?Q?om/36mb1o1tRziEFoNLD6H615S6H2=3Fu=3Dwww.mfsadmin.com","U":"h?=
+ =?us-ascii?Q?ttps://clicktime.symantec.com/36mb1o1tRziEFoNLD6H615S6H2=3Fu?=
+ =?us-ascii?Q?=3Dwww.mfsadmin.com","IAR":false,"LI":null,"SRCI":1,"IU":nul?=
+ =?us-ascii?Q?l,"NU":"clicktime.symantec.com/36mb1o1tRziEFoNLD6H615S6H2=3F?=
+ =?us-ascii?Q?u=3Dwww.mfsadmin.com","UFT":"{}","DPD":{"UF":"16640","OCH":"?=
+ =?us-ascii?Q?8369733824163138975","SCHM":"Https"},"PROC":[]}],"NU":"www.m?=
+ =?us-ascii?Q?fsadmin.com","UFT":"{101:17,102:2,105:16,108:3,110:8,111:12,?=
+ =?us-ascii?Q?112:2,114:8,115:3,116:1,118:3,119:8,121:7,122:3,123:1,125:3,?=
+ =?us-ascii?Q?131:858564,135:\"F538357B,C85A051D,B0755C57,6030093D,6323F4F?=
+ =?us-ascii?Q?9,9C2D7CBB,AD6CB6BD\",201:6043,202:240,203:895,204:6939,205:?=
+ =?us-ascii?Q?48,206:2,207:50,208:2,209:50,210:2,211:48,212:2,213:53,214:1?=
+ =?us-ascii?Q?,215:53,216:1,217:53,218:1,219:5,220:1,221:52,222:3,223:52,2?=
+ =?us-ascii?Q?24:3,225:52,226:3,227:51,228:3,229:53,230:1,231:4,232:1,233:?=
+ =?us-ascii?Q?87,234:2,235:5,236:1,237:53,238:1,239:53,240:1,241:53,242:1,?=
+ =?us-ascii?Q?243:5,244:1,245:31,246:1,247:31,248:1,249:5,250:1,251:5,252:?=
+ =?us-ascii?Q?0}","DPD":{"UF":"256"?=
+X-MS-Exchange-Organization-Persisted-Urls-4:
+	,"OCH":"17536651574876395862","SCHM":"Http","UWS":"3|5","CNT":"1","SL":"1","LOG":"1"},"PROC":[]}]
+X-MS-Exchange-Organization-PersistedUrlCount: 9
+X-MS-Exchange-Organization-Antispam-PreContentFilter-ScanContext:
+	CategorizerOnSubmitted;CategorizerOnResolved;
+X-MS-Exchange-Organization-AVScannedByV2: Symantec;Command;Microsoft
+X-MS-Exchange-Organization-AVScanComplete: true
+X-MS-Exchange-Organization-UrlSelected: 1
+X-MS-Exchange-Organization-UrlLogged: 1
+X-MS-Exchange-Organization-Recipient-Limit-Verified: True
+X-MS-Exchange-Organization-TotalRecipientCount: 1
+X-MS-Exchange-Organization-ASDirectionalityType: 1
+X-MS-Exchange-Organization-Boomerang-Verdict: None
+X-MS-Exchange-Organization-HMATPModel-DkimAuthStatus: 2
+X-MS-Exchange-Organization-HMATPModel-DmarcAuthStatus: 3
+X-MS-Exchange-Organization-Rules-Execution-History:
+	77b6d8b7-48ee-4e10-b406-0856d3083c78%%%424fd4ec-04e7-4bac-a103-491fa9037eea
+X-MS-Exchange-Forest-RulesExecuted: DB6PR0301MB2501
+X-MS-Exchange-Organization-RulesExecuted: DB6PR0301MB2501
+X-MS-Exchange-Organization-SenderRecipientCommunicationState: NE
+X-MS-Exchange-Organization-Antispam-ContentFilter-ScanContext:
+	CategorizerOnResolved;
+X-MS-Exchange-Organization-CommunicationStateSummary: NE
+X-MS-Exchange-Organization-FirstContactSummary:
+	ST=7;MRG=0;EXT=0;UN=1;ORCT=1;EV=1;FC=0;NESI=0;NES=1;ESTI=0;EST=0;INS=0;ERR=0
+X-MS-Exchange-Organization-CFA-UserOption: 0
+X-MS-Exchange-Organization-Antispam-SFASkipFiltering: true
+X-MS-Exchange-Organization-CompAuth-Eop: compauth=none reason=451
+X-MS-Exchange-Organization-Impersonation-Brand-Info: S:WKP;
+X-MS-Exchange-Organization-UriInBody: true
+X-MS-Exchange-Organization-Feature-Long: 0	201:18367	202:18093	220:15	221:15
+	224:15	227:2	228:1	235:2	236:2	237:5	238:3	244:1	245:1	246:1	247:1	248:4
+	252:1	255:1	258:1	1004:fmglobal.com	1005:notice,limit
+	1006:notice,limit,click,bank,attach,contact,confirm,customer,importan,notif,delete,request,secur,stor,warn,deposit,los
+	1007:Latn	1014:barclays.com	1015:barclays.com	1020:barclays.com
+	1030:barclays.com	1034:CD66BE3F@kirkoswald.com	1035:barclays.com
+X-MS-Exchange-Organization-HDRFeatureV2:
+	10;6;1;2;2;0;3;3;2;0;2;2;1;1;2;1;109;60;11;37;37;69;35;35;7;112;6;6;1;12;6;1;2;3;4;4;44;4;42;-1;-1;1;8;-1;-1
+X-MS-Exchange-Organization-ExtractionTags: SUB64;LINK;
+X-MS-Exchange-Organization-ExtractionTagsURLFound: URL
+X-MS-Exchange-Organization-ExtractionTagsSubject: RE: Margin Call Notice for
+ Kirkoswald Global Macro Master Fund Limited (GMRA) as of COB 17 Nov 2020
+X-MS-Exchange-Organization-ExtractionTagsFrom: <ldnrepo@barclays.com>
+X-MS-Exchange-Organization-ExtractionTagsSubjectNormalized: re rnargln cal
+ notlce for klrkosvvald global rnacro rnaster fund llrnlted grnra as of cob l7
+ nov 2o2o
+X-MS-Exchange-Organization-DetonationSkipEnforcementScenarios: TenantAllow
+X-MS-Exchange-Organization-Antispam-PostContentFilter-ScanContext:
+	CategorizerOnResolved;CategorizerOnRouted;
+X-MS-Exchange-Organization-SCL: -1
+X-Microsoft-Antispam: BCL:0;
+X-Microsoft-Antispam-Message-Info:
+	=?us-ascii?Q?bTNPq149cldngaykufVrt84Pw7SqezHFumhqqlgqAU7YylFPzaXQrrBaOlml?=
+ =?us-ascii?Q?NklZPTFkHqJpIbs1UVZXYw+a0j2TZbji80S47pTnPKk3oZJezKjLKE8BRlMO?=
+ =?us-ascii?Q?2mz7nAjETty0t3TmA+1Uqsmfpc5ZAha7eJDT7A2xJPb1DLcb8knhVrtbpcT5?=
+ =?us-ascii?Q?1SMu4ArUFG2RZOKqWcyNtCM0XDgW1qocEchApTGgTm3PQ3oyTymja9vhG5Eq?=
+ =?us-ascii?Q?LKt6hTWsupUou5anWsgtHdj2q5F/UmUtBJVKUo8oddCWQNUzVbHvKggIWqJA?=
+ =?us-ascii?Q?wAD94NB+whaFBF0rthLTH1iwMwWGAKIsNnl5FLSXJztJQTTmr9uFX62oR4U4?=
+ =?us-ascii?Q?NP0oC8G0kFxNIf8sBE6vjNKcdQI1x5ZRH/uwu5OuMzI95vVu/u5iIukb2WvE?=
+ =?us-ascii?Q?UHIS3y8tvkgT7KTmCaEe8EzgSwAqLtPzLt9DCn2V9h/0JfD6Rf1vByntDk0T?=
+ =?us-ascii?Q?lKXukRUqUz5fDzj9tgfs40JazEUNL0uhs2KsmJFRvmKLd5/ZxQ25P1DXzJfo?=
+ =?us-ascii?Q?SBqa0Leitd+9AMawpENZKUP//2wVh5eu3IN+lhbkZU6knu3rtK3ymDzwA2a9?=
+ =?us-ascii?Q?pNnneV/utyVlJGynAzE3mIZKzWmZLTc5N5SbF57HFo1WZCGoHetuO1OBa5MU?=
+ =?us-ascii?Q?Tvdl57qmpjNd/BDOLuMHI4HzRKgAUPdAkyy8mXd++LEOIkqHamzRWb+cZAKi?=
+ =?us-ascii?Q?w259MvL+Q/l0Sm+ClY0JajCvNPnJYmx597OEYDc5OtQ3gX6V0eJtrPMFWaa1?=
+ =?us-ascii?Q?gbD3ILltJIOrJTkGNG1vz27KTaAjfwemQ6Kf8AUAOpKalFBPJDAmWc+AUhpJ?=
+ =?us-ascii?Q?Pt7xe+jww6iZAXMsX4PplnfJubM/0XlC94WdbS9DnQX9mLGGo2hYyrrcU6Np?=
+ =?us-ascii?Q?58VcYLIWaDtTyFD2/uaIQRhCAmbES7+JO8tELKyfxvAUb635PMREwxQCbmDt?=
+ =?us-ascii?Q?pOtlneEY8FQ0ZVnyE2HGgeTq9N8dxJuPHEV+5hdweXvLg9vckPHZ11x43Gy3?=
+ =?us-ascii?Q?ifUbOHxhUDtMc+tJ2dDrykFmHIFUEUc3gdyhtHKbf4M+Y/F4Rg3nkrilnbNK?=
+ =?us-ascii?Q?Dp/PtRbBuS2zDGw0wdprCe2mXuFbLKr3cMwhxoVNxOYe6plJt+Mv0domW2kI?=
+ =?us-ascii?Q?fucaLdeJR/49JVoX+DkcaeMsHrUL0i5XOah0dJL00uoYtJYrEJipzgyZg+Ec?=
+ =?us-ascii?Q?PbzqViAKNDqeEnReLZNZ6ex0c4DePSLBBFT7ccs0Fx8bNaR7uy+0i5coBkxH?=
+ =?us-ascii?Q?9s9XfMHg3knAgmGwHVJi4ncTQa30FLQrO1NZRxC1fAVWzQ49qc2T9E3qq3ct?=
+ =?us-ascii?Q?WY7xIy04A+IJ0CP5IBCoNDi98tzz937QMqTGeGfSA/Vyf6FfFYP61noTd0BI?=
+ =?us-ascii?Q?B9uQosr0WvUf5XP4zWDjn4luaswnz+g9LDfLowb1PQzMWT1cIrTjNmxGWTpY?=
+ =?us-ascii?Q?+mBKfaFeovs=3D?=
+X-Forefront-Antispam-Report:
+	CIP:199.192.67.9;CTRY:US;LANG:en;SCL:-1;SRV:;IPV:CAL;SFV:SKN;H:mailgwny01.accessabacus.com;PTR:mailgwny01.accessabacus.com;CAT:NONE;SFS:;DIR:INB;
+X-MS-Exchange-Organization-GroupForkPerf: VCL=0;VL=4
+X-MS-Exchange-Organization-Cross-Session-Cache:
+	=?us-ascii?Q?00CIP=3D199.192.67.9;EIPC0=3D2004,2055,950,951,2005,2006,200?=
+ =?us-ascii?Q?7,2008,2009,2010,2011,2012,2013,2014,2000,2050,2051,2052,952?=
+ =?us-ascii?Q?,902,2054,2016,903,901,905,904,907,2001,3000,2003,2002,967,2?=
+ =?us-ascii?Q?058,2059,2060,531,2017,5080,5011,5051,5001,5057,5058,5052,50?=
+ =?us-ascii?Q?56,906,5054,5010,5055,5059,5053,5002,5003,5005,5070;MIPC0=3D?=
+ =?us-ascii?Q?950,952;REP=3D01,1,0\;01,2,0\;01,3,0\;01,4,0\;01,5,182\;01,6?=
+ =?us-ascii?Q?,0\;01,7,0\;01,8,54\;01,9,0\;01,10,0\;01,11,0\;01,12,54\;02,?=
+ =?us-ascii?Q?1,0\;02,2,0\;02,3,0\;02,4,0\;02,5,183\;02,6,0\;02,7,0;SL=3D3?=
+ =?us-ascii?Q?;EMSL=3D1;SCL=3D-1;BL=3D0;RL=3D1;PID=3D0;EXPID=3D;IsIncoming?=
+ =?us-ascii?Q?Mail=3Dtrue;TIP=3DAllowList;TP=5FCPIP=3DAllow;IPV=3DCAL;IPB?=
+ =?us-ascii?Q?=5FSkip=3D1;IPT=5FSkip=3D1;CIPCRY=3DUS;SAUTHOP=3D1;RMX=3DUnk?=
+ =?us-ascii?Q?nown;EIPC1=3D2004,2055,950,951,2005,2006,2007,2008,2009,2010?=
+ =?us-ascii?Q?,2011,2012,2013,2014,2000,2050,2051,2052,952,902,2054,2016,9?=
+ =?us-ascii?Q?03,901,905,904,907,2001,3000,2003,2002,967,2058,2059,2060,53?=
+ =?us-ascii?Q?1,2017,5080,5011,5051,5001,5057,5058,5052,5056,906,5054,5010?=
+ =?us-ascii?Q?,5055,5059,5053,5002,5003,5005,5070;MIPC1=3D950,952,951,902,?=
+ =?us-ascii?Q?2003,2004,2014,2002,5011,5056,5010,5053;A=3D00;MX=3D00;PTR?=
+ =?us-ascii?Q?=3D00mailgwny01.accessabacus.com;SPF=3D041U2FuanVsYU5haWNrZX?=
+ =?us-ascii?Q?IuR2FuZXNhbkthcnVuYWdhcmFuQGJhcmNsYXlzLmNvbQ=3D=3D;DKIM=3D00?=
+ =?us-ascii?Q?c2VsZWN0b3IxLWJhcmNsYXlzLW9ubWljcm9zb2Z0LWNvbS5fZG9tYWlua2V5?=
+ =?us-ascii?Q?LmJhcmNsYXlzLm9ubWljcm9zb2Z0LmNvbQ=3D=3D\;dj1ES0lNMTsgaz1yc2?=
+ =?us-ascii?Q?E7IHA9TUlHZk1BMEdDU3FHU0liM0RRRUJBUVVBQTRHTkFEQ0JpUUtCZ1FEZD?=
+ =?us-ascii?Q?hRenY3R2l0ckljWTJtTFAxWFpWdGZkTEZoNTZmV1FpYytxMktuRmVEaGc5ZE?=
+ =?us-ascii?Q?txRzZOK0RiMVA1MUVrLzhNcUxDbVJiOWVzd3lVeUtKcG1XaWtjcVE2OEV0dW?=
+ =?us-ascii?Q?ZUWXVYQlhBdG9hUXQ0M2Vqa0R0bUxsVDlPclF1K1ZGdHdKYVdXOURxdExPYW?=
+ =?us-ascii?Q?dLSGdaWlJZMm1LRUxJMlZFNER5dzdkWU55MllHRFNNdktRSURBUUFCOw=3D?=
+ =?us-ascii?Q?=3D|00YmFyY2xheXNjb20yMDE4MDcxOS5fZG9tYWlua2V5LmJhcmNsYXlzLm?=
+ =?us-ascii?Q?NvbQ=3D=3D\;dj1ES0lNMTsgaz1yc2E7IHQ9czsgcD1NSUlCSWpBTkJna3Fo?=
+ =?us-ascii?Q?a2lHOXcwQkFRRUZBQU9DQVE4QU1JSUJDZ0tDQVFFQWpaQTBFZEtBNDM4emE5?=
+ =?us-ascii?Q?bzZnNHpaMEcyUmV0ck9neTNmTDIvNUdhdGFPdEY1NUdMK0ZMZXhxajkyZzE0?=
+ =?us-ascii?Q?Qm9PdFlYQVN3dm9OT0hjYTgrb3pZRDZ4TEIyTGFoMks0M0VwakhtU3d0SUNU?=
+ =?us-ascii?Q?TVBxTFpreVROcFZ5OW1wakNabWJBV2xld2trZFRiQVF0aHRNWWhKZXNRSzJM?=
+ =?us-ascii?Q?TStxb0c2UTlJWFdMZm9LTis2aUxjc0ZzSGQyRXFMQ3BrQTF5NlY1Y3VCOXlJ?=
+ =?us-ascii?Q?STUzN3NCWTZFWFVZT3A1eVFkYjBaQXUyUGFYdFNvenZlR3FIVVV0NHZaeEd3?=
+ =?us-ascii?Q?SGtFenZNYUFiUmZpT2tLSFVPd3lGTUlPejkrVWlRRHdUbEU5YXF3bTZjUXFH?=
+ =?us-ascii?Q?eUZueFRqREZ3cmIrK2sramFyb25Y?=
+X-MS-Exchange-Organization-Cross-Session-Cache:
+	=?us-ascii?Q?01bTZIOEl1YXlkTThVM2ROdFlTZngzU3FwbXJvT0ZDcW1NdjJXUUlEQVFBQg?=
+ =?us-ascii?Q?=3D=3D;DMARC=3D00YmFyY2xheXMuY29t\;dj1ETUFSQzE7cD1yZWplY3Q7c?=
+ =?us-ascii?Q?3A9bm9uZTtmbz0xO3JpPTM2MDA7cnVhPW1haWx0bzpiYXJjbGF5c0BydWEuY?=
+ =?us-ascii?Q?WdhcmkuY29tO3J1Zj1tYWlsdG86YmFyY2xheXNAcnVmLmFnYXJpLmNvbQ=3D?=
+ =?us-ascii?Q?=3D;ARC=3D00YXJjc2VsZWN0b3I5OTAxLl9kb21haW5rZXkubWljcm9zb2Z0?=
+ =?us-ascii?Q?LmNvbQ=3D=3D\;dj1ES0lNMTsgaz1yc2E7IHA9TUlJQklqQU5CZ2txaGtpRz?=
+ =?us-ascii?Q?l3MEJBUUVGQUFPQ0FROEFNSUlCQ2dLQ0FRRUFvaENFQ3g4QUNWSWo0MnRhTW?=
+ =?us-ascii?Q?M4RzJsamlEbXNib1VXNG1nYXNPZzMvMkF5MUQzN0R3SzBDRTFhb2s2eDB4Nm?=
+ =?us-ascii?Q?RRNEZDL05HZGVrc1BqVC9aTFlIK3p3d1V2RWxKd2Q4YWR0Wks0RTdBVDlSen?=
+ =?us-ascii?Q?I2V1B0VGlGSGk4N2VtNm4xMkhUdnA4cGxwR0hYbm04dmRGclR4Y0NVZ3V3VU?=
+ =?us-ascii?Q?J6YmU2TUIxMkRjM3ZTVVJjT1VxZmE2RGxqLzZjTmVobCtQTW9ucWxMeE9sMk?=
+ =?us-ascii?Q?ttcFRKL1Z5OWpoZEZPdTUweEVoWElUNW9jT2E0dFgxMmhmb01wWmZCVzZpVT?=
+ =?us-ascii?Q?VRSXl2bkVGa0p1RjhJYnM3SGhyN0VjMUdaYzZ0Z09kNXVOVEFubnZoK3hpWX?=
+ =?us-ascii?Q?M4ZTcyMkg1aURlY01zQnpqK0k5VStDQlkxQUN3WTloVEMxVUROdTN4UytXS1?=
+ =?us-ascii?Q?FOZ3ZuaWZkSVFJREFRQUI=3D;AUTHRES=3D[mx.microsoft.com,1]{5,8,?=
+ =?us-ascii?Q?RgBhAGkAbAA=3D,cwBlAG4AZABlAHIAIABJAFAAIABpAHMAIAAxADkAOQAuA?=
+ =?us-ascii?Q?DEAOQAyAC4ANgA3AC4AOQA=3D,cwBtAHQAcAAuAHIAYwBwAHQAVABvAEQAbw?=
+ =?us-ascii?Q?BtAGEAaQBuAA=3D=3D|awBpAHIAawBvAHMAdwBhAGwAZAAuAGMAbwBtAA=3D?=
+ =?us-ascii?Q?=3D,cwBtAHQAcAAuAE0AYQBpAGwARgByAG8AbQA=3D|YgBhAHIAYwBsAGEAe?=
+ =?us-ascii?Q?QBzAC4AYwBvAG0A}{9,8,RgBhAGkAbAA=3D,cAA9AHIAZQBqAGUAYwB0ACAA?=
+ =?us-ascii?Q?cwBwAD0AbgBvAG4AZQAgAHAAYwB0AD0AMQAwADAA,YQBjAHQAaQBvAG4A|Tw?=
+ =?us-ascii?Q?BSAGUAagBlAGMAdAA=3D,aABlAGEAZABlAHIALgBmAHIAbwBtAA=3D=3D|Yg?=
+ =?us-ascii?Q?BhAHIAYwBsAGEAeQBzAC4AYwBvAG0A}{2,8,RgBhAGkAbAA=3D,cwBpAGcAb?=
+ =?us-ascii?Q?gBhAHQAdQByAGUAIABkAGkAZAAgAG4AbwB0ACAAdgBlAHIAaQBmAHkA,aABl?=
+ =?us-ascii?Q?AGEAZABlAHIALgBkAA=3D=3D|YgBhAHIAYwBsAGEAeQBzAC4AYwBvAG0A}{2?=
+ =?us-ascii?Q?,8,RgBhAGkAbAA=3D,YgBvAGQAeQAgAGgAYQBzAGgAIABkAGkAZAAgAG4Abw?=
+ =?us-ascii?Q?B0ACAAdgBlAHIAaQBmAHkA,aABlAGEAZABlAHIALgBkAA=3D=3D|YgBhAHIA?=
+ =?us-ascii?Q?YwBsAGEAeQBzAC4AbwBuAG0AaQBjAHIAbwBzAG8AZgB0AC4AYwBvAG0A}{12?=
+ =?us-ascii?Q?,8,RgBhAGkAbAA=3D,NAA3AA=3D=3D};SpfResult=3D4;DkimStatus=3D2?=
+ =?us-ascii?Q?;DkimSS=3D12;DmarcStatus=3D3;DmarcAction=3D5;DmarcSkip=3D451?=
+ =?us-ascii?Q?;ARCRES=3Dv114700000000000000000000000000000000000000;CAuthE?=
+ =?us-ascii?Q?xp=3Dtrue;MFP=3D9c8eaf1c-ad63-4b5b-aa82-b04654917d1e;PReRC?=
+ =?us-ascii?Q?=3D1;FPR=3DE250F275.AEFA9BC9.BAF0A573.8AF9D845.207BD;URLC=5F?=
+ =?us-ascii?B?QkU9MTU7VVJMQ19CRUM9MTU7VVJMQ19CPTk7VVJMQ19CQz05O1VSTENfQUU9?=
+ =?us-ascii?Q?0;UMGPV=3D121;UMEPV=3D9999;NoDLx=3D1;CGDLxSupported=3D1;BR?=
+ =?us-ascii?Q?=5FV=3DNone;DIR=3D1;PTRO=3Daccessabacus.com;P2O=3Dbarclays.c?=
+ =?us-ascii?Q?om;P=5FCAUT?=
+X-MS-Exchange-Organization-Cross-Session-Cache:
+	02H=none;P_CAUTHR=451;CFP=dbce25f0-38c8-49ec-a9ab-83830e92a239;HCFP=351d152b-f4aa-469c-96a0-53633749c8d6;APP=41a1d9f6-c11a-4e52-b557-2ed4219dee95;GWS_Read=V2;SRCS=NE;CAUTH=none;CAUTHR=451;CAUTH_CAT=AD;IMPD_DBG=SKP.DIS;IMPU_DBG=SKP.DIS;IVB_DBG=D6:S1;HMEPV=3630;HMEPV2=372;HMESV=1980;HMESV2=943;SRESV=8183;BMASV=2178;BMESV=7961;BMAPV=2689;BMEPV=4314;CMASV=10000;CMAPV=10000;CBEBV=2905;CBEBV2=6780;CLEPV=110;URLF_DBG=DS:7;FFV=NSPM;FV_SCL=1;TP_FV=Allow;TP_FC=ConnPolicy;TPV_SCL=-1;FV=Allow;FVS=Tenant;FSCL=-1;TAP_EP=
+X-MS-Exchange-Organization-Processed-By-Gcc-Journaling: Journal Agent
+
+HI Team,
+
+Booked to receive USD 1,026,000 for VD today.
+
+
+Regards
+
+Sanjula G K =C2=A0| Collateral and Margin Services
+Email: sanjulanaicker.ganesankarunagaran@barclays.com=20=20=20=20
+Tel +91 (0)44 6617 4165 | REPO Hotline +91-20-77739817=20
+Barclays, Chennai=C2=A0
+Respect=C2=A0 |=C2=A0 Integrity=C2=A0 |=C2=A0=C2=A0Service=C2=A0 |=C2=A0=C2=
+=A0Excellence=C2=A0 |=C2=A0 Stewardship
+Helping people achieve their ambitions =E2=80=93 in the right way=C2=A0=C2=
+=A0=C2=A0=C2=A0=C2=A0
+
+
+
+
+
+Restricted - External
+
+-----Original Message-----
+From: Nicholas Hayes <NHayes@mfsadmin.com>=20
+Sent: Wednesday, November 18, 2020 9:27 AM
+To: 'Operations' <ops@kirkoswald.com>; ldnrepo <ldnrepo@barclays.com>; Bob =
+Price <bob.price@kirkoswald.com>; kirkoswald.middleoffice@mfsadmin.com; Kir=
+koswald@mfsadmin.com
+Cc: Warren Cole <warren.cole@kirkoswald.com>; Wesley Dodd <wesley.dodd@kirk=
+oswald.com>
+Subject: RE: Margin Call Notice for Kirkoswald Global Macro Master Fund Lim=
+ited (GMRA) as of COB 17 Nov 2020
+
+
+This mail originated from outside our organisation - NHayes@mfsadmin.com
+
+Hi Pin,
+
+Payment has been set up now.
+
+Regards,
+Nick
+
+Nick Hayes
+BPO Operations
+
+MUFG Investor Services
+Ormonde House, 12-13 Lower Leeson Street, Dublin 2, Ireland https://urldefe=
+nse.proofpoint.com/v2/url?u=3Dhttps-3A__clicktime.symantec.com_33kDr8yA6ezc=
+ApUeYhn9C2S6H2-3Fu-3Dwww.mufg-2Dinvestorservice.com&d=3DDwIGAw&c=3Ddpn1WjMM=
+QGUYKOlM1k1w3OIaMfTHNTwPoUrrILOsxvs&r=3D-zJgZJliT2lTAJxL6GuHqU2qWNLXozchr18=
+fzuv_orc&m=3DH4HBqa1iLIRuy3q9iStbVGc8KVPuWcgCHN3DEncnwNI&s=3DNawZsC_Sflib8f=
+anuyBilxCwdz8cbfbqw9MACgwZdcs&e=3D=20
+T +353 1 6470553 Ext: 70553
+E nhayes@mfsadmin.com
+MUFG Fund Services (Ireland) Limited
+MUFG Fund Services (Ireland) Limited is incorporated in Ireland as a privat=
+e company limited by shares. Company Registration Number 446388 MUFG Fund S=
+ervices (Ireland) Limited is regulated by the Central Bank of Ireland.
+MUFG Investor Services is a registered business name of MUFG Fund Services =
+(Ireland) Limited.
+Registered Office: Ormonde House, 12/13, Lower Leeson Street, Dublin 2, Ire=
+land.
+Directors: Karen Cameron, Sarah Mears (British), Brian O=E2=80=99Hara, Davi=
+d Rochford and John Brian Wilkinson (British).
+
+
+-----Original Message-----
+From: Operations [mailto:ops@kirkoswald.com]
+Sent: Wednesday, November 18, 2020 8:55 AM
+To: ldnrepo@barclays.com; Bob Price <bob.price@kirkoswald.com>; Operations =
+<ops@kirkoswald.com>; kirkoswald.middleoffice@mfsadmin.com; Kirkoswald@mfsa=
+dmin.com
+Cc: Warren Cole <warren.cole@kirkoswald.com>; Wesley Dodd <wesley.dodd@kirk=
+oswald.com>
+Subject: RE: Margin Call Notice for Kirkoswald Global Macro Master Fund Lim=
+ited (GMRA) as of COB 17 Nov 2020
+
+
+Email received from outside MFS - Think before clicking links, opening atta=
+chments or responding.
+If perceived suspicious raise a ticket with IT Helpdesk, or email phishing@=
+mfsadmin.com<mailto:phishing@mfsadmin.com>
+
+
+
+Hi,
+
+Agreed - USD1,026,000 VD 18/11/20.
+
+Hi MUFG,
+
+Please set this up on Matrix.
+
+Regards,
+Pin
+
+-----Original Message-----
+From: ldnrepo@barclays.com <ldnrepo@barclays.com>
+Sent: 18 November 2020 08:33
+To: Bob Price <bob.price@kirkoswald.com>; Operations <ops@kirkoswald.com>; =
+Kirkoswald Middleoffice <kirkoswald.middleoffice@mfsadmin.com>; Kirkoswald@=
+mfsadmin.com
+Cc: ldnrepo@barclays.com
+Subject: Margin Call Notice for Kirkoswald Global Macro Master Fund Limited=
+ (GMRA) as of COB 17 Nov 2020
+
+Dear Sir/Madam,
+
+Please find your Margin Call Notice per attached. Contact Barclays Collater=
+al Team to confirm your agreement by replying to this email.
+
+As per the calculations for COB 17 Nov 2020, Barclays Bank PLC is calling f=
+or USD 1,026,000.
+
+Best Regards,
+Barclays Collateral Management
+
+
+
+
+___________________________________________________________________________=
+___________________________________________________________________________=
+___________________________________________________________________________
+?This message is for information purposes only, it is not a recommendation,=
+ advice, offer or solicitation to buy or sell a product or service nor an o=
+fficial confirmation of any transaction. It is directed at persons who are =
+professionals and is not intended for retail customer use. Intended for rec=
+ipient only. This message is subject to the terms at: https://urldefense.pr=
+oofpoint.com/v2/url?u=3Dhttps-3A__clicktime.symantec.com_3Rb1YGoWHYgTbQctDB=
+2qjxF6H2-3Fu-3Dwww.barclays.com-252Femaildisclaimer&d=3DDwIGAw&c=3Ddpn1WjMM=
+QGUYKOlM1k1w3OIaMfTHNTwPoUrrILOsxvs&r=3D-zJgZJliT2lTAJxL6GuHqU2qWNLXozchr18=
+fzuv_orc&m=3DH4HBqa1iLIRuy3q9iStbVGc8KVPuWcgCHN3DEncnwNI&s=3DAlmztHpmBbtcU-=
+vBUcvnoPy7wOEgZQvvsh3m-VHp6mg&e=3D .
+
+For important disclosures, please see: https://urldefense.proofpoint.com/v2=
+/url?u=3Dhttps-3A__clicktime.symantec.com_357zwbB9cVFmHiERx4LndBB6H2-3Fu-3D=
+www.barclays.com-252Fsalesandtradingdisclaimer&d=3DDwIGAw&c=3Ddpn1WjMMQGUYK=
+OlM1k1w3OIaMfTHNTwPoUrrILOsxvs&r=3D-zJgZJliT2lTAJxL6GuHqU2qWNLXozchr18fzuv_=
+orc&m=3DH4HBqa1iLIRuy3q9iStbVGc8KVPuWcgCHN3DEncnwNI&s=3DHZeBdwfkJ93lRD-NrM9=
+-2S6RhUbpnSLMKIv5w1NaLzE&e=3D  regarding market commentary from Barclays Sa=
+les and/or Trading, who are active market participants; https://urldefense.=
+proofpoint.com/v2/url?u=3Dhttps-3A__clicktime.symantec.com_34tP8xmF431qatcn=
+9zoFyrB6H2-3Fu-3Dhttps-253A-252F-252Furldefense.proofpoint.com-252Fv2-252Fu=
+rl-253Fu-253Dhttps-2D3A-5F-5Fwww.investmentbank.barclays.com-5Fdisclosures-=
+5Fbarclays-2D2Dglobal-2D2Dmarkets-2D2Ddisclosures.html-2526d-253DDwIF-2Dg-2=
+526c-253Ddpn1WjMMQGUYKOlM1k1w3OIaMfTHNTwPoUrrILOsxvs-2526r-253DryqPGn58iJo-=
+5FeGaN9j9IgI0XFYvG66oJtaT0DoFnFJM-2526m-253DEvN-2DkTjn8-2DRpcY-2DcpUhKbSNGh=
+DFhIHRz17necryyVl4-2526s-253DllxsoE7zp09-2DST53-5FhrGCzDZrTm64Dg87HAjCeQYc1=
+M-2526e-253D&d=3DDwIGAw&c=3Ddpn1WjMMQGUYKOlM1k1w3OIaMfTHNTwPoUrrILOsxvs&r=
+=3D-zJgZJliT2lTAJxL6GuHqU2qWNLXozchr18fzuv_orc&m=3DH4HBqa1iLIRuy3q9iStbVGc8=
+KVPuWcgCHN3DEncnwNI&s=3Dp8-rIP2-8E6misoP2btsWkI_injU6cBSvYzcgAY4YV0&e=3D   =
+regarding our standard terms for the Investment Bank of Barclays where we t=
+rade with you in principal-to-principal wholesale markets transactions; and=
+ in respect of Barclays Research, including disclosures relating to specifi=
+c issuers, please see https://urldefense.proofpoint.com/v2/url?u=3Dhttps-3A=
+__clicktime.symantec.com_3Vs8egYPGAkVGSLH2fQC7zA6H2-3Fu-3Dhttps-253A-252F-2=
+52Furldefense.proofpoint.com-252Fv2-252Furl-253Fu-253Dhttp-2D3A-5F-5Fpublic=
+research.barclays.com-2526d-253DDwIF-2Dg-2526c-253Ddpn1WjMMQGUYKOlM1k1w3OIa=
+MfTHNTwPoUrrILOsxvs-2526r-253DryqPGn58iJo-5FeGaN9j9IgI0XFYvG66oJtaT0DoFnFJM=
+-2526m-253DEvN-2DkTjn8-2DRpcY-2DcpUhKbSNGhDFhIHRz17necryyVl4-2526s-253DZn3f=
+Sk1VbBBxW-2DT-2D6kk0FTSybYS7SppCPYJcpmqZsCU-2526e-253D&d=3DDwIGAw&c=3Ddpn1W=
+jMMQGUYKOlM1k1w3OIaMfTHNTwPoUrrILOsxvs&r=3D-zJgZJliT2lTAJxL6GuHqU2qWNLXozch=
+r18fzuv_orc&m=3DH4HBqa1iLIRuy3q9iStbVGc8KVPuWcgCHN3DEncnwNI&s=3DE3h1aSdB3IV=
+zfCictuBRS-p-ig70dX3QPiyuUgMYhOE&e=3D  .?
+___________________________________________________________________________=
+___________________________________________________________________________=
+___________________________________________________________________________
+If you are incorporated or operating in Australia, please see https://urlde=
+fense.proofpoint.com/v2/url?u=3Dhttps-3A__clicktime.symantec.com_3VPqwk8Zr6=
+5d3yHyUixrB586H2-3Fu-3Dhttps-253A-252F-252Furldefense.proofpoint.com-252Fv2=
+-252Furl-253Fu-253Dhttps-2D3A-5F-5Fwww.home.barclays-5Fdisclosures-5Fimport=
+antapacdisclosures.html-2526d-253DDwIF-2Dg-2526c-253Ddpn1WjMMQGUYKOlM1k1w3O=
+IaMfTHNTwPoUrrILOsxvs-2526r-253DryqPGn58iJo-5FeGaN9j9IgI0XFYvG66oJtaT0DoFnF=
+JM-2526m-253DEvN-2DkTjn8-2DRpcY-2DcpUhKbSNGhDFhIHRz17necryyVl4-2526s-253DAc=
+XO4ewb0TIeCcEVWO1ivB2P6LeAy82-2D6qNqu4ENWGk-2526e-253D&d=3DDwIGAw&c=3Ddpn1W=
+jMMQGUYKOlM1k1w3OIaMfTHNTwPoUrrILOsxvs&r=3D-zJgZJliT2lTAJxL6GuHqU2qWNLXozch=
+r18fzuv_orc&m=3DH4HBqa1iLIRuy3q9iStbVGc8KVPuWcgCHN3DEncnwNI&s=3D2-OIbo0BYYM=
+bcab8GEo4EXuae9WJ8bSzKv0Gu8a6zHU&e=3D   for important disclosure.
+___________________________________________________________________________=
+___________________________________________________________________________=
+___________________________________________________________________________
+How we use personal information  see our privacy notice https://urldefense.=
+proofpoint.com/v2/url?u=3Dhttps-3A__clicktime.symantec.com_32aSxMkpsw28SVvn=
+be5KB8T6H2-3Fu-3Dhttps-253A-252F-252Furldefense.proofpoint.com-252Fv2-252Fu=
+rl-253Fu-253Dhttps-2D3A-5F-5Fwww.investmentbank.barclays.com-5Fdisclosures-=
+5Fpersonalinformationuse.html-2526d-253DDwIF-2Dg-2526c-253Ddpn1WjMMQGUYKOlM=
+1k1w3OIaMfTHNTwPoUrrILOsxvs-2526r-253DryqPGn58iJo-5FeGaN9j9IgI0XFYvG66oJtaT=
+0DoFnFJM-2526m-253DEvN-2DkTjn8-2DRpcY-2DcpUhKbSNGhDFhIHRz17necryyVl4-2526s-=
+253DqfyX6UcmQcf9-2DoPY6AyHj9bKW-5FGyY0R5TwVyXbct3A0-2526e-253D&d=3DDwIGAw&c=
+=3Ddpn1WjMMQGUYKOlM1k1w3OIaMfTHNTwPoUrrILOsxvs&r=3D-zJgZJliT2lTAJxL6GuHqU2q=
+WNLXozchr18fzuv_orc&m=3DH4HBqa1iLIRuy3q9iStbVGc8KVPuWcgCHN3DEncnwNI&s=3DvJK=
+jn3GuhnHdoo9BnXcXK5ofxcPzH1QQiLbGsc3aEkY&e=3D=20
+___________________________________________________________________________=
+___________________________________________________________________________=
+___________________________________________________________________________
+
+________________________________
+
+This communication, including any attachment, is confidential and may be pr=
+ivileged. This email is for use by the intended recipient only. If you rece=
+ive it in error, please notify the sender and delete it. You should not use=
+ or disclose all or part of this email. This email does not constitute, and=
+ should not be construed as investment advice, or as an offer or solicitati=
+on for the purchase or sale of any financial or investment product, nor as =
+an official confirmation of any transaction. This communication is provided=
+ for information only and neither it, any attachment to it, nor any part of=
+ its contents should be relied on by any person for any purpose. Prospectiv=
+e investors should request offering materials and consult their own adviser=
+s with respect to investment decisions and inform themselves as to applicab=
+le legal requirements, exchange control regulations and taxes in the countr=
+ies of their citizenship, residence or domicile. Past performance is not in=
+dicative of future results and investors may receive back less than the amo=
+unt invested. All data and other information in this email are not warrante=
+d as to completeness or accuracy and are subject to change without notice. =
+The views expressed in this e-mail may not be those of Kirkoswald, but the =
+personal views of the originator. Email communications may not be secure an=
+d may contain errors. Where possible, data should be sent to us in encrypte=
+d form. This e-mail will have been scanned by our anti-virus software befor=
+e transmission. We cannot, however, warrant that this e-mail is free from v=
+iruses. Kirkoswald does not accept liability for the consequences of any vi=
+ruses that may inadvertently be attached to this email. You must carry out =
+your own virus checks before opening any attachment. To satisfy legal and r=
+egulatory obligations, Kirkoswald may record and store telephone conversati=
+ons and electronic communications. Kirkoswald Capital Partners LLP (=E2=80=
+=98Kirkoswald UK=E2=80=99) is a limited liability partnership registered in=
+ England and Wales (no. OC387588) with its registered offices at 4th Floor,=
+ 39 Sloane Street London SW1X 9LP, United Kingdom. Kirkoswald Capital Partn=
+ers LLP is authorised and regulated by the Financial Conduct Authority in t=
+he United Kingdom (FRN 607529) and is registered as a Commodity Pool Operat=
+or with the U.S. Commodity Futures Trading Commission (=E2=80=98CFTC=E2=80=
+=99) and is a member of the National Futures Association (=E2=80=98NFA=E2=
+=80=99). Kirkoswald Asset Management LLC (=E2=80=98Kirkoswald US=E2=80=99) =
+is a Delaware limited liability company with its principal office at, 520 M=
+adison Avenue, Floor 25, New York, NY 10022, USA. Kirkoswald US is register=
+ed as a Registered Investment Adviser with the U.S. Securities Exchange Com=
+mission and as a Commodity Pool Operator and a Commodity Trading Advisor wi=
+th CFTC and is a member of the NFA. Kirkoswald=E2=80=99s Privacy Policy can=
+ be reviewed on the website here <https://urldefense.proofpoint.com/v2/url?=
+u=3Dhttps-3A__clicktime.symantec.com_346NiWGnLovQXdeyCgz1TZm6H2-3Fu-3Dhttp-=
+253A-252F-252Fkirkoswald.com&d=3DDwIGAw&c=3Ddpn1WjMMQGUYKOlM1k1w3OIaMfTHNTw=
+PoUrrILOsxvs&r=3D-zJgZJliT2lTAJxL6GuHqU2qWNLXozchr18fzuv_orc&m=3DH4HBqa1iLI=
+Ruy3q9iStbVGc8KVPuWcgCHN3DEncnwNI&s=3D9ytxeaqHBWe3tTxwzx9EuVlWBH1n9INVhdmkY=
+crx4RM&e=3D >
+
+
+The information contained in this e-mail message and any attachments hereto=
+ is confidential and may be legally privileged. It is intended solely for t=
+he person to whom it is addressed and review by anyone else is unauthorized=
+. Any use, disclosure, reproduction, modification or distribution of the co=
+ntents of this e-mail, or any part thereof, other than by the intended reci=
+pient, is strictly prohibited. Any unauthorized use or dissemination of thi=
+s message in whole or in part is strictly prohibited. If you are not the in=
+tended recipient or have received this message in error, please notify the =
+sender of this e-mail immediately by either return e-mail and destroy the m=
+essage and all copies in your possession.
+
+WARNING: Computer viruses can be transmitted via email. The recipient shoul=
+d check this email and any attachments for the presence of viruses. The com=
+pany accepts no liability for any damage caused by any virus transmitted by=
+ this email.
+
+https://urldefense.proofpoint.com/v2/url?u=3Dhttps-3A__clicktime.symantec.c=
+om_36mb1o1tRziEFoNLD6H615S6H2-3Fu-3Dwww.mfsadmin.com&d=3DDwIGAw&c=3Ddpn1WjM=
+MQGUYKOlM1k1w3OIaMfTHNTwPoUrrILOsxvs&r=3D-zJgZJliT2lTAJxL6GuHqU2qWNLXozchr1=
+8fzuv_orc&m=3DH4HBqa1iLIRuy3q9iStbVGc8KVPuWcgCHN3DEncnwNI&s=3DiUMhY4Wdv3DjQ=
+_Uct0w8QxbRs0jsS2K2FNXw9dIw6l0&e=3D=20
+
+PLEASE NOTE: The MUFG logo and name is a service mark of Mitsubishi UFJ Fin=
+ancial Group, Inc. (=E2=80=9CMUFG=E2=80=9D) and may be used by it or other =
+Group companies for marketing purposes, including MUFG Americas Holdings Co=
+rporation affiliates and subsidiaries. Lending, deposit, securities, invest=
+ment banking, and other banking services are provided by banking and/or bro=
+ker-dealer affiliates of MUFG, including, The Bank of Tokyo-Mitsubishi UFJ,=
+ Ltd. (=E2=80=9CBTMU=E2=80=9D), MUFG Union Bank, N.A. (=E2=80=9CMUB=E2=80=
+=9D), MUFG Securities Americas Inc. (=E2=80=9CMUSA=E2=80=9D), and MUFG Secu=
+rities (Canada), Ltd. (=E2=80=9CMUS(CAN)=E2=80=9D). MUB is an FDIC-insured =
+bank. MUSA is a member of FINRA and SIPC. MUS(CAN) is a member of FINRA and=
+ IIROC.
+
+This message is intended for the named addressee(s) only. It may contain co=
+nfidential, proprietary or legally privileged information. No confidentiali=
+ty or privilege is waived or lost by any mis-transmission. If you receive t=
+his message in error, please delete it and all copies from your system, des=
+troy any hard copies and notify the sender. You must not, directly or indir=
+ectly, use, disclose, distribute, print or copy any part of this message if=
+ you are not the intended recipient. MUFG, its affiliates and subsidiaries =
+reserve the right to monitor all electronic communications through their re=
+spective networks. Any views expressed in this message are those of the ind=
+ividual sender and do not constitute investment advice or recommendation, e=
+xcept where the message expressly states otherwise and the sender is author=
+ized to furnish the same. MUFG (and its subsidiaries) shall (will) not be l=
+iable for the message if modified.
+
+___________________________________________________________________________=
+___________________________________________________________________________=
+___________________________________________________________________________
+=93This message is for information purposes only, it is not a recommendatio=
+n, advice, offer or solicitation to buy or sell a product or service nor an=
+ official confirmation of any transaction. It is directed at persons who ar=
+e professionals and is not intended for retail customer use. Intended for r=
+ecipient only. This message is subject to the terms at: www.barclays.com/em=
+aildisclaimer.
+
+For important disclosures, please see: www.barclays.com/salesandtradingdisc=
+laimer regarding market commentary from Barclays Sales and/or Trading, who =
+are active market participants; https://urldefense.proofpoint.com/v2/url?u=
+=3Dhttps-3A__www.investmentbank.barclays.com_disclosures_barclays-2Dglobal-=
+2Dmarkets-2Ddisclosures.html&d=3DDwIGAw&c=3Ddpn1WjMMQGUYKOlM1k1w3OIaMfTHNTw=
+PoUrrILOsxvs&r=3D-zJgZJliT2lTAJxL6GuHqU2qWNLXozchr18fzuv_orc&m=3DH4HBqa1iLI=
+Ruy3q9iStbVGc8KVPuWcgCHN3DEncnwNI&s=3DGoXeeKiQvHwF6sftQDgiIamcdAlJf7BlqKIc3=
+GpYX8Y&e=3D  regarding our standard terms for the Investment Bank of Barcla=
+ys where we trade with you in principal-to-principal wholesale markets tran=
+sactions; and in respect of Barclays Research, including disclosures relati=
+ng to specific issuers, please see https://urldefense.proofpoint.com/v2/url=
+?u=3Dhttp-3A__publicresearch.barclays.com&d=3DDwIGAw&c=3Ddpn1WjMMQGUYKOlM1k=
+1w3OIaMfTHNTwPoUrrILOsxvs&r=3D-zJgZJliT2lTAJxL6GuHqU2qWNLXozchr18fzuv_orc&m=
+=3DH4HBqa1iLIRuy3q9iStbVGc8KVPuWcgCHN3DEncnwNI&s=3D6eDcgF8qnr6OzPVHK0G1OzVF=
+hm6vfx8O720Mb_9D9wk&e=3D .=94=20=20
+___________________________________________________________________________=
+___________________________________________________________________________=
+___________________________________________________________________________
+If you are incorporated or operating in Australia, please see https://urlde=
+fense.proofpoint.com/v2/url?u=3Dhttps-3A__www.home.barclays_disclosures_imp=
+ortantapacdisclosures.html&d=3DDwIGAw&c=3Ddpn1WjMMQGUYKOlM1k1w3OIaMfTHNTwPo=
+UrrILOsxvs&r=3D-zJgZJliT2lTAJxL6GuHqU2qWNLXozchr18fzuv_orc&m=3DH4HBqa1iLIRu=
+y3q9iStbVGc8KVPuWcgCHN3DEncnwNI&s=3DZqDpc6EjAcDlF0hX8iUT9MzXq4e5FTnEhIBama8=
+riNY&e=3D  for important disclosure.
+___________________________________________________________________________=
+___________________________________________________________________________=
+___________________________________________________________________________
+How we use personal information  see our privacy notice https://urldefense.=
+proofpoint.com/v2/url?u=3Dhttps-3A__www.investmentbank.barclays.com_disclos=
+ures_personalinformationuse.html&d=3DDwIGAw&c=3Ddpn1WjMMQGUYKOlM1k1w3OIaMfT=
+HNTwPoUrrILOsxvs&r=3D-zJgZJliT2lTAJxL6GuHqU2qWNLXozchr18fzuv_orc&m=3DH4HBqa=
+1iLIRuy3q9iStbVGc8KVPuWcgCHN3DEncnwNI&s=3D0I0kaOqRvboiYQ9iQqxHKST55WGEcBjEE=
+ubuo5LZHRE&e=3D=20=20
+___________________________________________________________________________=
+___________________________________________________________________________=
+___________________________________________________________________________
+
+--_8e2a6aa6-54f8-43cb-a52f-4ed76d799d8f_--

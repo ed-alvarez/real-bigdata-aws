@@ -1,0 +1,27 @@
+aws-lambda-context
+aws_lambda_logging
+# aws-secretsmanager-caching
+boto3
+botocore
+# for slack export
+bs4
+certifi
+ciso8601
+elasticsearch
+elasticsearch_dsl
+methodtools
+mock
+mypy_boto3_ssm
+psycopg2-binary
+Pympler
+pyotp
+pytest
+pytest-cov
+pytest-profiling
+python-dotenv
+requests
+selenium
+slackclient
+sqlalchemy
+tika
+vaderSentiment

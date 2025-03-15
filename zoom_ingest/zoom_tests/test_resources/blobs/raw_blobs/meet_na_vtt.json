@@ -1,0 +1,40 @@
+{
+    "cdr": {
+        "source": {
+            "source_id": 87284402535,
+            "source_type": "meet"
+        },
+        "date_of_action": "2022-09-09 08:15:28",
+        "origin_to": {
+            "persona_id": "eScqSrDyRpW_Mq5GKa2MFg",
+            "persona_first_name": "Graham",
+            "persona_second_name": "Robinson",
+            "persona_number": "",
+            "persona_email": "graham.robinson@melqart.com",
+            "persona_department": "Marketing"
+        },
+        "destination_from": null,
+        "participants": null
+    },
+    "transcript": {
+        "type": "AWS-Transcript-Needed",
+        "source": {
+            "source_id": 87284402535,
+            "source_type": "meet"
+        },
+        "recording_id": 87284402535,
+        "start_time": "N/A",
+        "end_time": "N/A",
+        "content": {}
+    },
+    "recording": {
+        "source": {
+            "source_id": 87284402535,
+            "source_type": "meet"
+        },
+        "type": "M4A",
+        "play_url": "https://melqart.zoom.us/rec/play/MyAqx0E9yHA-JXnbO3-yc6E_fimpV1I6Dji_Io60k7rKgvAE5TDgQnLFMMDQkIjJUB74ixDp7wfXCflQ.-GYp4NNkxBkHpQBS",
+        "recording_id": "80895cc9-f6cd-46a2-9f62-473f6b763499",
+        "download_url": "https://melqart.zoom.us/rec/download/MyAqx0E9yHA-JXnbO3-yc6E_fimpV1I6Dji_Io60k7rKgvAE5TDgQnLFMMDQkIjJUB74ixDp7wfXCflQ.-GYp4NNkxBkHpQBS"
+    }
+}

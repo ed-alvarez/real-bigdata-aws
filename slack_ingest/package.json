@@ -1,0 +1,16 @@
+{
+  "name": "slack-ingest",
+  "description": "",
+  "version": "0.1.0",
+  "scripts": {
+    "postinstall": "./sls-cicd-post-npm-install.sh",
+    "testls": "du -hs $(ls -A)",
+    "test": "STAGE=dev CIBUILD=1 make test "
+  },
+  "devDependencies": {
+    "serverless": "^3.25.1",
+    "serverless-python-requirements": "^6.0.0",
+    "serverless-stage-manager": "^1.0.5",
+    "serverless-step-functions": "^3.11.1"
+  }
+}

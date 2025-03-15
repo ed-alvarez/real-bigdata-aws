@@ -1,0 +1,706 @@
+Return-Path: <journaling@abbevillellp.com>
+Received: from EUR05-AM6-obe.outbound.protection.outlook.com (mail-am6eur05lp2107.outbound.protection.outlook.com [104.47.18.107])
+ by inbound-smtp.eu-west-1.amazonaws.com with SMTP id qtf8sq56p83b8rtco7u4i916aqrvt8f3o4eorco1
+ for kirkoswald@ip-sentinel.net;
+ Mon, 16 Nov 2020 10:10:53 +0000 (UTC)
+Received-SPF: pass (spfCheck: domain of abbevillellp.com designates 104.47.18.107 as permitted sender) client-ip=104.47.18.107; envelope-from=journaling@abbevillellp.com; helo=mail-am6eur05lp2107.outbound.protection.outlook.com;
+Authentication-Results: amazonses.com;
+ spf=pass (spfCheck: domain of abbevillellp.com designates 104.47.18.107 as permitted sender) client-ip=104.47.18.107; envelope-from=journaling@abbevillellp.com; helo=mail-am6eur05lp2107.outbound.protection.outlook.com;
+ dmarc=fail header.from=citi.com;
+X-SES-RECEIPT: AEFBQUFBQUFBQUFIOUVXZWE3ckhYYWtwTHRNeEtDTnhjQ0I5WmlHVXkwZUtpRmdqQmwrdW9EOWZyREcwelZ0VTRpMXlWbm9TWGRMTk9XcXhIVEYzZ25KdTBXbU1TU0ljbnAyMUZuKytLVnJ4OGpuTDNPWVhSelpXUGVKeUhPblZmWGdTZmNuQ2crVXNIVzF6cmlnanN1YTR3TURKS0ZlYzM2NlNhSGhYVHo1cTFqd3RQTUo1SlA5RnRkU3JNNDlNVk5QT0VSNUd4Z0YvR1lwNUFNSWQ2OTh0NVgrUm9aaHU2TXJhaWJwSnVNUVdBb2dRN3EzT3Q5VHRGYzNNQlVwdW5WQTlWeU5ac2JiaEpEQU96a2YreEJkWXIwTjZkakx2bjFQSmlaTUJYU1lPdmZ0ZmFnMTF5NTF4QVlIZlpEY2UwZXIwWEJxbXFYRkE9
+X-SES-DKIM-SIGNATURE: a=rsa-sha256; q=dns/txt; b=CxXijyzazB8NoHrefguhqrybhVBVKrUK6gVHvK9MSm+2GG/CmgKjXc/AKfZ+MY/4oiAM0b1iEHQ17AWCMLpjcZMPThA+TxsUL7Gg0FgOAiuVEMGFihRW7dUwaTP9IYBykiG7KjXcMFYq36jtjXhvlpMrdULTlMAMo88GvKI8vho=; c=relaxed/simple; s=shh3fegwg5fppqsuzphvschd53n6ihuv; d=amazonses.com; t=1605521454; v=1; bh=q2GKHzj+sxQGosEX+iz7SkrHR6JzAaRaIOfzC2kSSAY=; h=From:To:Cc:Bcc:Subject:Date:Message-ID:MIME-Version:Content-Type:X-SES-RECEIPT;
+Content-Type: multipart/mixed;
+	boundary="_7a25d0dd-ced1-4752-92d9-d22f53a94a6c_"
+Subject: FICSCORE - UNMATCHED CASH TRADES FUTURE VALUE
+CC: "bz76330@imceu.eu.ssmb.com" <beata.dominika.zak@citi.com>
+To: "OPS@KIRKOSWALD.COM" <OPS@KIRKOSWALD.COM>,
+        "PBMO.NA.FIXED.INCOME.PREMATCHING@JPMORGAN.COM"
+ <PBMO.NA.FIXED.INCOME.PREMATCHING@JPMORGAN.COM>
+From: emea.clientsettlements@citi.com
+MIME-Version: 1.0
+Sender:
+	<MicrosoftExchange329e71ec88ae4615bbc36ab6ce41109e@AbbevillePartnersLLP.onmicrosoft.com>
+Message-ID: <7e102d29-aec5-4a6c-95dc-047ecaa3d216@journal.report.generator>
+Date: Mon, 16 Nov 2020 10:10:53 +0000
+X-MS-PublicTrafficType: Email
+X-MS-Journal-Report:
+Return-Path: journaling@abbevillellp.com
+X-MS-Exchange-Parent-Message-Id:
+	<1621827056.10736.1605521158925@sd-10cb-50bf.nam.nsroot.net>
+Auto-Submitted: auto-generated
+X-MS-Exchange-Generated-Message-Source: Journal Agent
+X-MS-TrafficTypeDiagnostic: AM4PR0301MB2243:JournalingReport
+X-LD-Processed: b4126aba-d698-403e-a36b-2d797e7cd9b7,ExtAddr
+X-OriginatorOrg: AbbevillePartnersLLP.onmicrosoft.com
+X-MS-Exchange-CrossTenant-AuthSource:
+	AM4PR0301MB2243.eurprd03.prod.outlook.com
+X-MS-Exchange-CrossTenant-AuthAs: Internal
+X-MS-Exchange-CrossTenant-OriginalArrivalTime: 16 Nov 2020 10:10:53.3019 (UTC)
+X-MS-Exchange-CrossTenant-Network-Message-Id:
+	28092c5d-8031-4bfd-3044-08d88a17e6be
+X-MS-Exchange-CrossTenant-FromEntityHeader: Hosted
+X-MS-Exchange-Transport-CrossTenantHeadersStamped: AM4PR0301MB2243
+
+--_7a25d0dd-ced1-4752-92d9-d22f53a94a6c_
+Content-Type: text/plain; charset="us-ascii"
+Content-Transfer-Encoding: 7bit
+
+Sender: emea.clientsettlements@citi.com
+Subject: FICSCORE - UNMATCHED CASH TRADES FUTURE VALUE
+Message-Id: <1621827056.10736.1605521158925@sd-10cb-50bf.nam.nsroot.net>
+Recipient: ops@kirkoswald.com
+
+--_7a25d0dd-ced1-4752-92d9-d22f53a94a6c_
+Content-Type: message/rfc822
+
+Received: from AM5PR1001CA0069.EURPRD10.PROD.OUTLOOK.COM
+ (2603:10a6:206:15::46) by AM4PR0301MB2243.eurprd03.prod.outlook.com
+ (2603:10a6:200:4d::13) with Microsoft SMTP Server (version=TLS1_2,
+ cipher=TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384) id 15.20.3564.28; Mon, 16 Nov
+ 2020 10:10:52 +0000
+Received: from AM5EUR03FT023.eop-EUR03.prod.protection.outlook.com
+ (2603:10a6:206:15:cafe::a3) by AM5PR1001CA0069.outlook.office365.com
+ (2603:10a6:206:15::46) with Microsoft SMTP Server (version=TLS1_2,
+ cipher=TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384) id 15.20.3564.25 via Frontend
+ Transport; Mon, 16 Nov 2020 10:10:52 +0000
+Authentication-Results: spf=softfail (sender IP is 199.192.67.9)
+ smtp.mailfrom=citi.com; kirkoswald.com; dkim=pass (signature was verified)
+ header.d=citi.com;kirkoswald.com; dmarc=pass action=none
+ header.from=citi.com;compauth=pass reason=100
+Received-SPF: SoftFail (protection.outlook.com: domain of transitioning
+ citi.com discourages use of 199.192.67.9 as permitted sender)
+Received: from mailgwny01.accessabacus.com (199.192.67.9) by
+ AM5EUR03FT023.mail.protection.outlook.com (10.152.16.169) with Microsoft SMTP
+ Server (version=TLS1_2, cipher=TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384) id
+ 15.20.3564.22 via Frontend Transport; Mon, 16 Nov 2020 10:10:51 +0000
+Received: from pps.filterd (mailgwny01.accessabacus.com [127.0.0.1])
+	by mailgwny01.accessabacus.com (8.16.0.43/8.16.0.43) with SMTP id 0AG9wcMt011661
+	for <ops@kirkoswald.com>; Mon, 16 Nov 2020 05:10:49 -0500
+Received: from pps.reinject (localhost [127.0.0.1])
+	by mailgwny01.accessabacus.com with ESMTP id 34td3q8qbs-1
+	(version=TLSv1.2 cipher=ECDHE-RSA-AES256-GCM-SHA384 bits=256 verify=NOT)
+	for <ops@kirkoswald.com>; Mon, 16 Nov 2020 05:10:49 -0500
+Received: from pps.reinject (mailgwny01.accessabacus.com [127.0.0.1])
+	by pps.reinject (8.16.0.36/8.16.0.36) with SMTP id 0AGA8J8Q022087
+	for <ops@kirkoswald.com>; Mon, 16 Nov 2020 05:10:49 -0500
+Received: from appmailout1.citi.com (appmailout1.citi.com [67.231.145.227])
+	by mailgwny01.accessabacus.com with ESMTP id 34td3q8pph-1
+	(version=TLSv1.2 cipher=ECDHE-RSA-AES256-GCM-SHA384 bits=256 verify=NOT)
+	for <OPS@KIRKOSWALD.COM>; Mon, 16 Nov 2020 05:06:03 -0500
+Received: from pps.filterd (m0120832.ppops.net [127.0.0.1])
+	by mx0a-00123c010.pphosted.com (8.16.0.42/8.16.0.42) with SMTP id 0AG9xaZd156110;
+	Mon, 16 Nov 2020 10:06:01 GMT
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=citi.com; h=date : from : sender :
+ to : cc : message-id : references : subject : mime-version : content-type;
+ s=maila; bh=4JCEzPj/pakg5NNAZIkViCrnq/ITGBKCpShtZYiT0vs=;
+ b=BVWJ+aPiURmWddaFAB+jP4me8+NX+gX5yNF37INWUcpdlfwpZQY7+peYNoo4PYysIcVF
+ 3BF8gYkoNs6G53ighyOJXAQQcnFX+ukvxBU0qgzaFaSb9FRTurZdYBZbjE0F4FS6YvYt
+ iuEDteWlLHzOgX3RbMAxVJXXK/+SNdm7hS2fZviSYXz4W0eCbozzFV522h6u74wRx6Lp
+ 21BkZeIxTzoRz0mmGNeb+1I9wb+AlDdbVzyxRbzcQNYm6x6fTOqgPHZp6CVmXTXtI5dT
+ ll9OPads3CKske96xxSfgNja0AXk/XUtkJTD1cDzQaCEqIB74YSDVtDhbuF4kNLa7YC+ yA==
+Received: from mail.citigroup.com (2._spf.citigroup.com [192.193.193.89])
+	by mx0a-00123c010.pphosted.com with ESMTP id 34t5e0yt48-1
+	(version=TLSv1.2 cipher=AES256-GCM-SHA384 bits=256 verify=NOT);
+	Mon, 16 Nov 2020 10:06:00 +0000
+Received: from imbhub-mw52.nam.nsroot.net (imbhub-mw52.nam.nsroot.net [159.17.254.30])
+	by smtpinbound.citigroup.com (Sentrion-MTA-4.4.0/Sentrion-MTA-4.4.0) with ESMTPS id 0AGA5xuD053157
+	(version=TLSv1.2 cipher=ECDHE-RSA-AES256-GCM-SHA384 bits=256 verify=OK);
+	Mon, 16 Nov 2020 10:05:59 GMT
+Received: from sd-10cb-50bf.nam.nsroot.net (sd-10cb-50bf.nam.nsroot.net [159.17.214.35])
+	by imbhub-mw52.nam.nsroot.net (Sentrion-MTA-4.4.0/Sentrion-MTA-4.4.0) with ESMTPS id 0AGA5wtJ189872
+	(version=TLSv1.2 cipher=ECDHE-RSA-AES256-GCM-SHA384 bits=256 verify=NO);
+	Mon, 16 Nov 2020 10:05:59 GMT
+Received: from sd-10cb-50bf.nam.nsroot.net (localhost [127.0.0.1])
+	by sd-10cb-50bf.nam.nsroot.net (8.14.4/8.13.8/MAILclnt/5.10/$Rev: 20722 $) with ESMTP id 0AGA5wmb021134;
+	Mon, 16 Nov 2020 05:05:58 -0500
+Date: Mon, 16 Nov 2020 05:05:58 -0500 (EST)
+From: emea.clientsettlements@citi.com
+Sender: emea.clientsettlements@citi.com
+To: "OPS@KIRKOSWALD.COM" <OPS@KIRKOSWALD.COM>,
+        "PBMO.NA.FIXED.INCOME.PREMATCHING@JPMORGAN.COM"
+ <PBMO.NA.FIXED.INCOME.PREMATCHING@JPMORGAN.COM>
+CC: "bz76330@imceu.eu.ssmb.com" <beata.dominika.zak@citi.com>
+Message-ID: <1621827056.10736.1605521158925@sd-10cb-50bf.nam.nsroot.net>
+References: <763005836.17.10000000000000573450827.JavaMail.bpmgxm@bpmswdev01>
+Subject: FICSCORE - UNMATCHED CASH TRADES FUTURE VALUE
+MIME-Version: 1.0
+Content-Type: multipart/related;
+	boundary="_280aa778-dceb-49e0-856b-5c5bf2b274e3_"
+X-Proofpoint-Virus-Version: vendor=fsecure engine=2.50.10434:6.0.312,18.0.737
+ definitions=2020-11-16_03:2020-11-13,2020-11-16 signatures=0
+X-CLX-Shades: MLX
+X-CLX-Response: 1TFkXGBocEQpMehcbHh8RCllEF29rHWkaaH5GRn1cEQpYWBdhEnl9Zn59Hh5 mSxEKeE4XYkNsWgFpc11NXFARCnlMF21CX19IeWYYXW5iEQpDSBcHHREKQ1kXBxgbGhEKQ0kXGg QaGhoRCllNF2dmchEKWUkXGnEaEBp3BhsSHHEbHhgQGncGGBoGGhEKWV4XaG55EQpJRhdLSEtJX
+ 1lNWEVfWnVaWEVOX0leQ0VEB1xHEQpDThdwQxl6Zhh/aG1FelBfQltAXmh5a2RLU0FsWxhyYnhT axEKWFwXHwQaBBgbEgUbGgQbGxoEHxoEGx4fEBseGh8aEQpeWRd9HwV+bxEKTVwXHx8dEQpMWhd 7aU1NaxEKRVkXb2tpEQpMXxd6BQUFBQUFBQUFRBEKTEYXb2toEQpCTxdha2VaXBJ6U1tYbBEKQ1
+ oXGxMYBBsTGQQbExkEEhMRCkJeFxsRCkReFx4RCkRJFxgRCkJFF2ESeX1mfn0eHmZLEQpCThdiQ 2xaAWlzXU1cUBEKQkwXYRJ5fWZ+fR4eZksRCkJsF2ESeX1mfn0eHmZLEQpCQBdhcE9PfEcaH3p7 WREKQlgXZwFaQGxAZmZ+ZkcRClpYFxkRCnlDF2dvXEJzTlJ8ZBtMEQpZSxcdExMZEQpwZxdoRRN
+ nR2B6T0ZhGRAbGBkRCnBoF21ffHtCR1N7GgVHEBkaEQpwaBdreW4cekx8RmZ/bxAZGhEKcGgXbk RyY2FrfkVnZEMQGx8dEQpwaBdoWBtvZU9+eGN7aBAZGhEKcGgXemJJXk0cGmMbe1IQGRoRCnBDF 2l6fW9wAXJ5W0tMEBsSGhEKbX4XGhEKWE0XSxEg
+X-Barracuda-Envelope-From: Proofpoint
+X-Proofpoint-Spam-Details: rule=inbound_notspam policy=inbound score=0 suspectscore=5 clxscore=206
+ priorityscore=145 phishscore=0 impostorscore=0 bulkscore=0 malwarescore=0
+ lowpriorityscore=0 spamscore=0 mlxscore=0 mlxlogscore=999 adultscore=0
+ classifier=spam adjust=0 reason=mlx scancount=2 engine=8.12.0-2009150000
+ definitions=main-2011160058
+Return-Path: emea.clientsettlements@citi.com
+X-MS-Exchange-Organization-OriginalArrivalTime: 16 Nov 2020 10:10:51.9844
+ (UTC)
+X-MS-Exchange-Organization-ExpirationStartTime: 16 Nov 2020 10:10:52.3033
+ (UTC)
+X-MS-Exchange-Organization-ExpirationStartTimeReason: OriginalSubmit
+X-MS-Exchange-Organization-ExpirationInterval: 1:00:00:00.0000000
+X-MS-Exchange-Organization-ExpirationIntervalReason: OriginalSubmit
+X-MS-Exchange-Organization-Network-Message-Id: 73b3d79d-8945-4379-a799-08d88a17e625
+X-MS-Exchange-Organization-OriginalClientIPAddress: 199.192.67.9
+X-MS-Exchange-Organization-OriginalServerIPAddress: 10.152.16.169
+X-MS-Exchange-Organization-MessageScope: bd5b9f03-9e37-4636-bc3f-a0d6d5f3149a
+X-EOPAttributedMessage: 0
+X-EOPTenantAttributedMessage: b4126aba-d698-403e-a36b-2d797e7cd9b7:0
+X-MS-Exchange-Organization-TargetResourceForest: eurprd03.prod.outlook.com
+X-MS-Exchange-Organization-OrgEopForest: EUR03
+X-MS-Exchange-Organization-MessageDirectionality: Incoming
+X-MS-Exchange-Organization-Id: b4126aba-d698-403e-a36b-2d797e7cd9b7
+X-MS-Exchange-Organization-MessageInboundConnectorType: Partner
+X-MS-Exchange-Organization-MessageInboundConnectorName: Inbound Email from
+ Proofpoint
+X-MS-Exchange-Organization-Base64-MessageInboundConnectorData: TgBhAG0AZQA9AEkAbgBiAG8AdQBuAGQAIABFAG0AYQBpAGwAIABmAHIAbwBtACAAUAByAG8AbwBmAHAAbwBpAG4AdAA7AEMAbwBuAG4AZQBjAHQAbwByAFQAeQBwAGUAPQBQAGEAcgB0AG4AZQByADsAVABlAG4AYQBuAHQASQBkAD0AYgA0ADEAMgA2AGEAYgBhAC0AZAA2ADkAOAAtADQAMAAzAGUALQBhADMANgBiAC0AMgBkADcAOQA3AGUANwBjAGQAOQBiADcA
+X-MS-Exchange-Organization-MessageInboundConnectorData: Name=Inbound Email
+ from
+ Proofpoint;ConnectorType=Partner;TenantId=b4126aba-d698-403e-a36b-2d797e7cd9b7
+X-MS-Exchange-Organization-InboundConnector-Attributes: id=03746255-66f1-4e52-079d-08d723d74211;ty=2;idh=9b8a637c-27fd-66c5-f2ee-57aa6d6e05e0;cr=455;ch=287;tl=1;mi=0;
+X-MS-Exchange-Organization-FFO-ServiceTag: EUR03B
+X-MS-Exchange-Organization-SkipListedRecipientPilot: True
+X-MS-Exchange-Organization-Cross-Premises-Headers-Processed: AM5EUR03FT023.eop-EUR03.prod.protection.outlook.com
+X-MS-Exchange-Organization-ConnectingIP: 199.192.67.9
+X-MS-Exchange-Organization-ConnectingEHLO: mailgwny01.accessabacus.com
+X-MS-Exchange-Organization-AS-LastExternalIp: 199.192.67.9
+X-MS-Exchange-Organization-Originating-Country: US
+X-MS-Exchange-Organization-P2SenderPII: <PII:H101(ScdrdSiZBTlXzZAk9rFWhVkvkaTSRktHmSkQbuqk3hs=)>@citi.com
+X-MS-Exchange-Organization-OriginalEnvelopeRecipients: ops@kirkoswald.com
+X-MS-Exchange-Organization-PtrDomains: mailgwny01.accessabacus.com
+X-MS-Exchange-Organization-EhloAndPtrDomain: mailgwny01.accessabacus.com;mailgwny01.accessabacus.com
+X-MS-Exchange-Organization-MxPointsToUs: false
+X-MS-Exchange-Organization-RecipientMxInfo-PFAFD: kirkoswald.com#mailgwny01.accessabacus.com;mailgwsf01.accessabacus.com
+X-MS-Exchange-Organization-CompAuthRes: pass
+X-MS-Exchange-Organization-CompAuthReason: 100
+X-MS-Exchange-Organization-SpoofDetection-Frontdoor-DisplayDomainName: citi.com
+X-MS-Exchange-Organization-SenderRep-Score: 3
+X-MS-Exchange-Organization-SenderRep-Data: IpClassLargeGrayOther_GrayOther_GrayBest
+X-MS-Exchange-Organization-VBR-Class: GrayOther
+X-MS-Exchange-Organization-HMATPModel-Spf: 3
+X-MS-Exchange-Organization-HMATPModel-Recipient: <PII:H101(imI4fFzeTOAYo+FWBgkJ0nauKTO5KKiXi+5Thy4PDSs=)>@kirkoswald.com
+X-MS-Exchange-Organization-ASND: true
+X-MS-Exchange-Organization-TransportTrafficType: Email
+X-MS-PublicTrafficType: Email
+X-MS-Exchange-Organization-OrderedPrecisionLatencyInProgress: LSRV=AM5PR1001CA0069.EURPRD10.PROD.OUTLOOK.COM:TOTAL-FE=0.005|SMR-PEN=0.012(SMRPROXY-PEN=0.000);2020-11-16T10:10:52.833Z
+X-MS-Exchange-Organization-MessageLatency: SRV=AM5EUR03FT023.eop-EUR03.prod.protection.outlook.com:TOTAL-FE=0.859|SMR-PEN=0.859(RENV=0.106(SMRRC=0.022)|REOH=0.753(SMREH=0.539(SMREH-Protocol
+ Filter Agent=0.536 ))|SMRPROXY-PEN=0.000)
+X-MS-Exchange-Organization-MessageLatency:
+	SRV=AM5PR1001CA0069.EURPRD10.PROD.OUTLOOK.COM:TOTAL-FE=0.035|SMR-PEN=0.012(SMRPROXY-PEN=0.000)|SMS=0.030
+X-MS-Exchange-Forest-ArrivalHubServer:
+	AM4PR0301MB2243.eurprd03.prod.outlook.com
+X-MS-Exchange-Organization-AuthSource:
+	AM5EUR03FT023.eop-EUR03.prod.protection.outlook.com
+X-MS-Exchange-Organization-AuthAs: Anonymous
+X-MS-Exchange-Organization-FromEntityHeader: Internet
+X-MS-Exchange-Forest-MessageScope: bd5b9f03-9e37-4636-bc3f-a0d6d5f3149a
+X-MS-Exchange-Organization-Antispam-ProtocolFilterHub-ScanContext:
+	ProtocolFilterHub:SmtpOnEndOfData;
+X-MS-Office365-Filtering-Correlation-Id: 73b3d79d-8945-4379-a799-08d88a17e625
+X-MS-Exchange-Organization-Auth-DmarcStatus: Pass
+X-MS-Exchange-Organization-VerifiedDkimDomainsList: citi.com
+X-MS-Exchange-Organization-OriginalSize: 29834
+X-MS-TrafficTypeDiagnostic: AM4PR0301MB2243:
+X-MS-Exchange-Organization-HygienePolicy: Premium
+X-MS-Exchange-Organization-ReplicationInfo:
+	ReplicaId=053edfd8-a786-4cd2-4178-7ae6178ad808;ReplicatingServerFqdn=HE1PR0301MB2252.eurprd03.prod.outlook.com
+X-MS-Exchange-Forest-Language: en
+X-MS-Exchange-Forest-IndexAgent-0:
+	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 HfRaDP4DtCaBe7oLAAA=
+X-MS-Exchange-Forest-IndexAgent: 1 1553
+X-MS-Exchange-Forest-EmailMessageHash: 28CF94F7,E1300CBB,E700E517
+X-MS-Exchange-Organization-IsPotentialIntraOrgMail: False
+X-MS-Exchange-Organization-Antispam-PreContentFilter-PolicyLoadTime:
+	MAOSUB:2;MAOSUBLOAD:1;SAORES:2;SAORESLOAD:1;SLORES:1;SLORESLOAD:1;
+X-MS-Exchange-Organization-AttachmentDetailsHeaderStamp-Success: 1.0
+X-MS-Exchange-Organization-AttachmentDetailsInfo-ChunkCount: 1
+X-MS-Exchange-Organization-AttachmentDetailsInfo-0:
+	[{"ID":0,"FN":"BmwData_16784_1605521158316.xlsx","FS":5192,"HFH":"zRk61JaSLbeZVJG+UoX8bbe7g9KvIlN1fyc1j3KT6WM=","FT":["XlsxOfficePackage","Text","Zip"],"EXT":"xlsx","AF":0},{"ID":1,"FN":"citi_email_logo.png","FS":2101,"HFH":"94vMAA5X/4fQuT5DpEi42IHzvV1jBgJDFdhIXOIN0eM=","FT":["Png","Text"],"EXT":"png","AF":0}]
+X-MS-Exchange-Organization-AttachmentDetails:
+	0:zRk61JaSLbeZVJG+UoX8bbe7g9KvIlN1fyc1j3KT6WM=:U:XlsxOfficePackage|Text|Zip:Qm13RGF0YV8xNjc4NF8xNjA1NTIxMTU4MzE2Lnhsc3g=::#:True:::N:::N::N:None;1:94vMAA5X/4fQuT5DpEi42IHzvV1jBgJDFdhIXOIN0eM=:U:Png|Text:Y2l0aV9lbWFpbF9sb2dvLnBuZw==::#:False:::N:::N::N:None
+X-MS-Exchange-Organization-MessageFingerprint:
+	EF78CAD9.AFF31B11.30E093B7.48E9FACD.20355
+X-MS-Exchange-Organization-UrlMinimumDomainAge: citi.com#7993
+X-MS-Exchange-Organization-URLFeatureReduction:
+	66;3;0;12;0;0;0;0;8;3;1;290;0;0;0
+X-MS-Exchange-Organization-Persisted-Urls-ChunkCount: 1
+X-MS-Exchange-Organization-Persisted-Urls-0:
+	=?us-ascii?Q?[{"ID":1,"OU":"https://icg.citi.com/icg/data/documents/Marke?=
+ =?us-ascii?Q?tCommentaryDisclaimeremea.pdf","U":"https://icg.citi.com/icg?=
+ =?us-ascii?Q?/data/documents/MarketCommentaryDisclaimeremea.pdf","IAR":fa?=
+ =?us-ascii?Q?lse,"LI":{"BF":1,"SI":-1,"EndIndex":-1},"SRCI":1,"IU":null,"?=
+ =?us-ascii?Q?NU":"icg.citi.com/icg/data/documents/MarketCommentaryDisclai?=
+ =?us-ascii?Q?meremea.pdf","UFT":"{101:66,102:3,105:12,108:3,110:4,111:8,1?=
+ =?us-ascii?Q?12:2,114:4,115:3,116:1,118:3,119:4,121:3,122:3,123:1,125:3,1?=
+ =?us-ascii?Q?28:34,129:1,131:290,135:\"30CA5155,92ED20B5,2016856D,AAD9A18?=
+ =?us-ascii?Q?C,D8F8DE4C,3FA4AC41,F81BA15B,3ADCA724,426496CA,5AC74334,2176?=
+ =?us-ascii?Q?AA95,6C90F2AC,9D9EC242,D811875,15955F99,72E02EB3,F4A534CD,93?=
+ =?us-ascii?Q?822587,A12CB46B,5E55B854,46F4BEEE,168A20FC,8B9EA5EC,A4283BF6?=
+ =?us-ascii?Q?,239575A3,A60C0B9A,A08EE021,E80E10A1,C6B12B30,2D185E1B,624D6?=
+ =?us-ascii?Q?FDB,6761E613,3761B9BC,B8FC49D8,157697B1,5D87E0B3,7EC6A9B1,6D?=
+ =?us-ascii?Q?994304,2276AC28,5EF786F7\",201:7993,202:615,203:772,204:8766?=
+ =?us-ascii?Q?,205:27,206:1,207:27,208:1,209:27,210:1,211:27,212:1,213:17,?=
+ =?us-ascii?Q?214:2,215:14,216:1,217:34,218:1,219:14,220:1,221:52,222:3,22?=
+ =?us-ascii?Q?3:52,224:3,225:52,226:3,227:51,228:3,229:17,230:2,231:14,232?=
+ =?us-ascii?Q?:1,233:36,234:2,235:14,236:1,237:14,238:1,239:14,240:1,241:3?=
+ =?us-ascii?Q?4,242:1,243:14,244:1,245:14,246:1,247:14,248:1,249:11,250:1,?=
+ =?us-ascii?Q?251:9,252:1}","DPD":{"UF":"4352","OCH":"1654435822758599689"?=
+ =?us-ascii?Q?,"SCHM":"Https","CNT":"1","SL":"1","LOG":"1"},"PROC":[]}]?=
+X-MS-Exchange-Organization-PersistedUrlCount: 1
+X-MS-Exchange-Organization-Antispam-PreContentFilter-ScanContext:
+	CategorizerOnSubmitted;CategorizerOnResolved;
+X-MS-Exchange-Organization-AVScannedByV2: Command;Symantec;Microsoft
+X-MS-Exchange-Organization-AVScanComplete: true
+X-MS-Exchange-Organization-IsAnyAttachmentAtpSupported: true
+X-MS-Exchange-Organization-UrlSelected: 1
+X-MS-Exchange-Organization-UrlLogged: 1
+X-MS-Exchange-Organization-Recipient-Limit-Verified: True
+X-MS-Exchange-Organization-TotalRecipientCount: 1
+X-MS-Exchange-Organization-ASDirectionalityType: 1
+X-MS-Exchange-Organization-Boomerang-Verdict: None
+X-MS-Exchange-Organization-HMATPModel-DkimAuthStatus: 1
+X-MS-Exchange-Organization-HMATPModel-DmarcAuthStatus: 1
+X-MS-Exchange-Organization-Rules-Execution-History:
+	77b6d8b7-48ee-4e10-b406-0856d3083c78%%%424fd4ec-04e7-4bac-a103-491fa9037eea
+X-MS-Exchange-Forest-RulesExecuted: AM4PR0301MB2243
+X-MS-Exchange-Organization-RulesExecuted: AM4PR0301MB2243
+X-MS-Exchange-Organization-SenderRecipientCommunicationState: EST
+X-MS-Exchange-Organization-Antispam-ContentFilter-ScanContext:
+	CategorizerOnResolved;
+X-MS-Exchange-Organization-CommunicationStateSummary: EST
+X-MS-Exchange-Organization-FirstContactSummary:
+	ST=1;MRG=0;EXT=0;UN=1;ORCT=1;EV=1;FC=0;NESI=0;NES=0;ESTI=0;EST=1;INS=0;ERR=0
+X-MS-Exchange-Organization-CFA-UserOption: 0
+X-MS-Exchange-Organization-Antispam-SFASkipFiltering: true
+X-MS-Exchange-Organization-CompAuth-Eop: compauth=pass reason=100
+X-MS-Exchange-Organization-ContainsAttachments: true
+X-MS-Exchange-Organization-Feature-Long: 0	201:5493	202:1908	203:1	205:24
+	206:1	207:1	208:200	210:155	213:137	215:5338	220:3	221:1	224:1	227:1	228:1
+	235:2	236:1	238:1	241:3	243:1	244:4	246:1	247:1	248:3	252:1	255:1	256:2
+	257:32
+	1006:attach,confirm,alert,contact,limit,notif,delete,secur,click,access
+	1007:Latn	1014:citi.com	1015:citi.com	1020:citi.com	1030:citi.com
+	1033:xlsx,png	1034:B822999B@kirkoswald.com	1035:citi.com
+X-MS-Exchange-Organization-HDRFeatureV2:
+	9;6;1;1;1;0;3;2;0;0;2;2;0;1;2;0;96;60;11;17;15;1;19;17;5;1;6;6;0;12;6;0;1;1;3;-1;-1;-1;-1;-1;-1;1;8;1;1
+X-MS-Exchange-Organization-ExtractionAttachmentNames: 0;1
+X-MS-Exchange-Organization-ExtractionTags: SUB64;1IMG;LINK;
+X-MS-Exchange-Organization-ExtractionTagsSubject: FICSCORE - UNMATCHED CASH
+ TRADES FUTURE VALUE
+X-MS-Exchange-Organization-ExtractionTagsFrom: emea.clientsettlements@citi.com
+X-MS-Exchange-Organization-ExtractionTagsSubjectNormalized: flcscore
+ unrnatched cash trades future value
+X-MS-Oob-TLC-OOBClassifiers: OLM:9508;
+X-MS-Exchange-Organization-DetonationSkipEnforcementScenarios: FilterAllow
+X-MS-Exchange-Organization-Antispam-PostContentFilter-ScanContext:
+	CategorizerOnResolved;CategorizerOnRouted;
+X-MS-Exchange-Organization-SCL: -1
+X-Microsoft-Antispam: BCL:0;
+X-Microsoft-Antispam-Message-Info:
+	=?us-ascii?Q?HfXQfWEAts5BgHlhCbrEbOo1rYL0XQza4dknv61TTHZNNXjtxTwG3HjfR8uP?=
+ =?us-ascii?Q?FdSt5gr7XzEUUSJZFZVcSNrFO6QydQyjEGmN+aAqVUNvyxdyW+pw563HBj37?=
+ =?us-ascii?Q?NlVMgoo+eKfsPOkCt5anK7dHjB04RiBupXIiYow84XcXL8P7hsbb8e8Cmd3Z?=
+ =?us-ascii?Q?D7lZAU/7S9e3+Fe7WZ9fKYug9egLu2Uxdb/89mYKBtJemz54ftSS88Bdr+11?=
+ =?us-ascii?Q?p26I+7o0C3F7snmEoE6OD7p06s9JFit9wIL2x6goX4CDzy68+nGi7Y7nrftn?=
+ =?us-ascii?Q?9tnzN0grB/YWe/q7p3dfr76yqq5piIsEEc9zsf0pDK1UAFALJ/iB/FqFM78C?=
+ =?us-ascii?Q?fqywVojBajSpnCrdFcRRIXH84AWwy2F8aKbPvVXWYh1OmU1A/lf0K3wuEEUX?=
+ =?us-ascii?Q?I3lnGHgEkSdS+BlcjXaT+zrlLojPKAEhK24abb20Y/hgNtUGntBdmAtpWrZI?=
+ =?us-ascii?Q?c/SMJGSAyqcba7Y4qIIXoMoiCKByzxXKgg5eUj5W/SIds52+4Kg86hGfaYcI?=
+ =?us-ascii?Q?Rn2jB68j7jdaw6kMK3YJ5QvQYS4cxK3qeHrDGOhW2ZWeg/5+VVN+c0GUkVZP?=
+ =?us-ascii?Q?7cCFUS9KD6IIOs3j0NkEP1lv7jqWVnvFeQMdlNFkdhJeoCsbHRb+fyuBgu+g?=
+ =?us-ascii?Q?+vtfnwvMih/3jiuPgGvWUzhIoWFq/Vmer8CigP1y69vMB5dfUZb59d/fUusk?=
+ =?us-ascii?Q?KMLULpRidvCK5uu6pDH9JEDywdE+s4g9M+g4vsvkuH77RcddB1rx4jMRIbfg?=
+ =?us-ascii?Q?+7aQ5r1Wknd8ukjyivbR/4zAn0X+P1NcNLcyWW/LZ1t07sOxQmPiflQkWPgK?=
+ =?us-ascii?Q?W+LCOA8nx4/MjpOutxdXFIIc82VJCdBeuYubmPRSeyQzkiyJsllnkiSRX+8c?=
+ =?us-ascii?Q?P6DbZXeS3R4O1iyd/7iUM9L7pm02zTQBbzvGfSlDPDE9iBlYLNiNLJw+vEeh?=
+ =?us-ascii?Q?w5VvPFWLaEG5S+21XjYqTzg1796f/TXrqxjh9WdOY3rQWTPa3CF6GF29JhAd?=
+ =?us-ascii?Q?tTcNUO4OE72+nCatBf6mYbM92Yi3JeCjEjr5H1AjV4ahpuDjJ8HgWKGSWeeN?=
+ =?us-ascii?Q?2sB0YutyFktyggM+3/rajL4mGx4Cx0DLh4s6repYAxRnhiyARGy8dt01vsjI?=
+ =?us-ascii?Q?RBXi+x0Q2XjluqoE2YNy4lZ1nfdfNQlm0SLIsCjM9Zd52GU47LWjdZQvtRUb?=
+ =?us-ascii?Q?ym9IG3yjHx2N9iun91FBnZgfFHS0ZpCPrCA1OCe0d1syBiRZ0/17blrOCkWA?=
+ =?us-ascii?Q?/0cI2tmQqSq+xlbGa+GsLe9/QukbOG5bz//0pwKJ8Op0l3M/7ovF74v/y3Vr?=
+ =?us-ascii?Q?GGGSfu5tMe92C0NmlaGAOuQs3D+GswDotz593xn6vwLdlhxvnKBrSSsus25g?=
+ =?us-ascii?Q?CKYRJ5Sf8WSF1GL0z0U/C0ZeWb5/Dgg/cD1HCKh1DK4RaqmkhQ=3D=3D?=
+X-Forefront-Antispam-Report:
+	CIP:199.192.67.9;CTRY:US;LANG:en;SCL:-1;SRV:;IPV:CAL;SFV:SKN;H:mailgwny01.accessabacus.com;PTR:mailgwny01.accessabacus.com;CAT:NONE;SFS:;DIR:INB;
+X-MS-Exchange-Organization-GroupForkPerf: VCL=0;VL=4
+X-MS-Exchange-Organization-Cross-Session-Cache:
+	=?us-ascii?Q?00CIP=3D199.192.67.9;EIPC0=3D2004,2055,950,951,2005,2006,200?=
+ =?us-ascii?Q?7,2008,2009,2010,2011,2012,2013,2014,2000,2050,2051,2052,952?=
+ =?us-ascii?Q?,902,2054,2016,903,901,907,905,904,2001,3000,2003,2002,967,2?=
+ =?us-ascii?Q?058,2059,2060,531,2017,5080,5011,5051,5001,5057,5055,5058,50?=
+ =?us-ascii?Q?56,5052,5054,906,5010,5059,5053,5002,5003,5005,5070;MIPC0=3D?=
+ =?us-ascii?Q?950,952;REP=3D01,1,0\;01,2,0\;01,3,0\;01,4,0\;01,5,182\;01,6?=
+ =?us-ascii?Q?,0\;01,7,0\;01,8,20\;01,9,0\;01,10,0\;01,11,0\;01,12,20\;02,?=
+ =?us-ascii?Q?1,0\;02,2,0\;02,3,0\;02,4,0\;02,5,0\;02,6,0\;02,7,0;SL=3D3;E?=
+ =?us-ascii?Q?MSL=3D1;SCL=3D-1;BL=3D0;RL=3D1;PID=3D0;EXPID=3D;IsIncomingMa?=
+ =?us-ascii?Q?il=3Dtrue;TIP=3DAllowList;TP=5FCPIP=3DAllow;IPV=3DCAL;IPB=5F?=
+ =?us-ascii?Q?Skip=3D1;IPT=5FSkip=3D1;CIPCRY=3DUS;SAUTHOP=3D1;RMX=3DUnknow?=
+ =?us-ascii?Q?n;EIPC1=3D2004,2055,950,951,2005,2006,2007,2008,2009,2010,20?=
+ =?us-ascii?Q?11,2012,2013,2014,2000,2050,2051,2052,952,902,2054,2016,903,?=
+ =?us-ascii?Q?901,907,905,904,2001,3000,2003,2002,967,2058,2059,2060,531,2?=
+ =?us-ascii?Q?017,5080,5011,5051,5001,5057,5055,5058,5056,5052,5054,906,50?=
+ =?us-ascii?Q?10,5059,5053,5002,5003,5005,5070;MIPC1=3D950,952,951,902,200?=
+ =?us-ascii?Q?3,2004,3000,5011,5051;A=3D00;MX=3D00;PTR=3D00mailgwny01.acce?=
+ =?us-ascii?Q?ssabacus.com;SPF=3D031ZW1lYS5jbGllbnRzZXR0bGVtZW50c0BjaXRpLm?=
+ =?us-ascii?Q?NvbQ=3D=3D;DKIM=3D00bWFpbGEuX2RvbWFpbmtleS5jaXRpLmNvbQ=3D=3D?=
+ =?us-ascii?Q?\;dj1ES0lNMTsgaz1yc2E7IHA9TUlJQklqQU5CZ2txaGtpRzl3MEJBUUVGQU?=
+ =?us-ascii?Q?FPQ0FROEFNSUlCQ2dLQ0FRRUF0YzRldlJiNFhtR0tiNXRhSmM0MVFsTzBINk?=
+ =?us-ascii?Q?srZWdWdUJyRzRJYVZrV2VBRjhjczI4bWs4aGxESk5VNTNMb1ROYVk3cmNLT0?=
+ =?us-ascii?Q?J3YlEwK0FtNjBRemw4U3drTU5LRXNlb2JjSEtqS1JUeUdhZnlYUU96eWpFYk?=
+ =?us-ascii?Q?xRZW9hMVZCaVM1UjRaekZGTTN5T29rcXBXYld2czFxSEh1WVdKelMxbmRtL0?=
+ =?us-ascii?Q?02YTN0S2RuRUVrYWxwVnRIaUNWVE9ScmcwZW9iVHFiQ0taMXlvTTRwem5lRE?=
+ =?us-ascii?Q?9GM1dkS2lXZ1BqVEQ2ZXl1MDJYTkE4cG0va0c3ejJ6YW9GNWZYa2RXeVRiS0?=
+ =?us-ascii?Q?1aWTdWYUVvS1o2SVFqVE9va3Z1TnNpU1JNSXdEQXAxSjMwY2d1NGswMmN6TE?=
+ =?us-ascii?Q?szQnJiWlA0OVRqMnJqSXRxZmVHWXFHUHdEcTJzNU9iMVl6dEc3RjdrVWRLRX?=
+ =?us-ascii?Q?dJREFRQUI=3D;DMARC=3D00Y2l0aS5jb20=3D\;dj1ETUFSQzE7IHA9cmVqZ?=
+ =?us-ascii?Q?WN0OyBydWE9bWFpbHRvOmNpdGlAcnVhLmFnYXJpLmNvbSxtYWlsdG86ZG1hc?=
+ =?us-ascii?Q?mMucmVwb3J0cy5ydWFAY2l0aS5jb20=3D;AUTHRES=3D[mx.microsoft.co?=
+ =?us-ascii?Q?m,1]{5,3,UwBvAGYAdABGAGEAaQBsAA=3D=3D,cwBlAG4AZABlAHIAIABJAF?=
+ =?us-ascii?Q?AAIABpAHMAIAAxADkAOQAuADEAOQAyAC4ANgA3AC4AOQA=3D,cwBtAHQAcAA?=
+ =?us-ascii?Q?uAHIAYwBwAHQAVABvAEQAbwBtAGEAaQBuAA=3D=3D|awBpAHIAawBvAHMAdw?=
+ =?us-ascii?Q?BhAGwAZAAuAGMAbwBtAA=3D=3D,cwBtAHQAcAAuAE0AYQBpAGwARgByAG8Ab?=
+ =?us-ascii?Q?QA=3D|YwBpAHQAaQAuAGMAbwBtAA=3D=3D}{9,1,UABhAH?=
+X-MS-Exchange-Organization-Cross-Session-Cache:
+	=?us-ascii?Q?01MAcwA=3D,cAA9AHIAZQBqAGUAYwB0ACAAcwBwAD0AcgBlAGoAZQBjAHQAI?=
+ =?us-ascii?Q?ABwAGMAdAA9ADEAMAAwAA=3D=3D,YQBjAHQAaQBvAG4A|TgBvAG4AZQA=3D,?=
+ =?us-ascii?Q?aABlAGEAZABlAHIALgBmAHIAbwBtAA=3D=3D|YwBpAHQAaQAuAGMAbwBtAA?=
+ =?us-ascii?Q?=3D=3D}{2,1,UABhAHMAcwA=3D,cwBpAGcAbgBhAHQAdQByAGUAIAB3AGEAc?=
+ =?us-ascii?Q?wAgAHYAZQByAGkAZgBpAGUAZAA=3D,aABlAGEAZABlAHIALgBkAA=3D=3D|Y?=
+ =?us-ascii?Q?wBpAHQAaQAuAGMAbwBtAA=3D=3D}{12,7,TgBvAG4AZQA=3D,MAA=3D};Spf?=
+ =?us-ascii?Q?Result=3D3;DkimStatus=3D1;DkimSS=3D0;DmarcStatus=3D1;DmarcAc?=
+ =?us-ascii?Q?tion=3D0;ARCRES=3Dv10000000000000000000000000000000000000000?=
+ =?us-ascii?Q?0;CAuthExp=3Dtrue;DNL=5FDNF=3D1;MFP=3D9c8eaf1c-ad63-4b5b-aa8?=
+ =?us-ascii?Q?2-b04654917d1e;PReRC=3D1;FPR=3DEF78CAD9.AFF31B11.30E093B7.48?=
+ =?us-ascii?Q?E9FACD.20355;URLC=5FBE=3D1;URLC=5FBEC=3D1;URLC=5FAE=3D0;UMGP?=
+ =?us-ascii?Q?V=3D9986;UMEPV=3D9999;NoDLx=3D1;CGDLxSupported=3D1;BR=5FV=3D?=
+ =?us-ascii?Q?None;DIR=3D1;PTRO=3Daccessabacus.com;P2O=3Dciti.com;P=5FCAUT?=
+ =?us-ascii?Q?H=3Dpass;P=5FCAUTHR=3D100;CFP=3Ddbce25f0-38c8-49ec-a9ab-8383?=
+ =?us-ascii?Q?0e92a239;HCFP=3D351d152b-f4aa-469c-96a0-53633749c8d6;APP=3D4?=
+ =?us-ascii?Q?1a1d9f6-c11a-4e52-b557-2ed4219dee95;GWS=5FRead=3DV2;SRCS=3DE?=
+ =?us-ascii?Q?ST;CAUTH=3Dpass;CAUTHR=3D100;CAUTH=5FCAT=3DAD;IVB=5FDBG=3DD2?=
+ =?us-ascii?Q?;HMEPV=3D10000;HMEPV2=3D8382;HMESV=3D7966;HMESV2=3D9999;SRES?=
+ =?us-ascii?Q?V=3D7152;BMASV=3D3712;BMESV=3D5551;BMAPV=3D4602;BMEPV=3D1000?=
+ =?us-ascii?Q?0;CMASV=3D2047;CMAPV=3D10000;CBEBV=3D10000;CBEBV2=3D10000;CL?=
+ =?us-ascii?Q?EPV=3D185;URLF=5FDBG=3DDS:7;AV=5FFV=3DAllow;AV=5FFC=3DDNFLis?=
+ =?us-ascii?Q?t;FFV=3DAllow;FV=5FSCL=3D1;TP=5FFV=3DAllow;TP=5FFC=3DConnPol?=
+ =?us-ascii?Q?icy;TPV=5FSCL=3D-1;FV=3DAllow;FVS=3DTenant;FSCL=3D-1;TAP=5FE?=
+ =?us-ascii?Q?P=3D?=
+X-MS-Exchange-Organization-Processed-By-Gcc-Journaling: Journal Agent
+
+--_280aa778-dceb-49e0-856b-5c5bf2b274e3_
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+<!doctype html>
+
+<html lang=3D"en">
+
+<head>
+    <meta charset=3D"UTF-8">
+    <meta name=3D"viewport" content=3D"width=3Ddevice-width, initial-scale=
+=3D1">
+    <title>Email Template</title>
+    <style>
+        div > p {
+            padding:0;
+            margin:0;
+        }
+    </style>
+</head>
+
+<body style=3D"margin: 15px; font-family: Arial, Helvetica, sans-serif">
+    <table align=3D"center" style=3D"width: 1080px; background-color: white=
+;" cellpadding=3D"15">
+        <tbody>
+            <tr>
+                <td>
+                    <table>
+                        <tbody>
+                            <tr>
+                                <td>
+
+                                    <img src=3D"cid:citi_email_logo.png" al=
+ign=3D"left" />
+                                    <p style=3D"font-size: 12px; font-weigh=
+t: bold; text-align: right; font-family: Arial, Helvetica, sans-serif ">
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09<span style=
+=3D"font-size: 12px; font-weight: bold; font-family: Arial, Helvetica, sans=
+-serif ">Report Date
+=09=09=09=09=09=09=09=09=09=09=09=09<br>16 Nov 2020</span>=09=09=09=09=09=
+=09=09=09=09=09=09
+                                    </p>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <hr style=3D"width: 100%">
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <!-- <p style=3D" font-family: Arial, H=
+elvetica, sans-serif ; text-align: left; font-size: 14px;">Dear <span style=
+=3D" font-weight:bold;">Client name,</span> </p> -->
+
+                                        <div style=3D" font-family: Arial, =
+Helvetica, sans-serif ; text-align: left; font-size: 12px;"><p>Hi,</p><p><b=
+r></p><p>Please find attached a list of all cash trades which are currently=
+ <strong>unmatched</strong> for next market settlement date.</p><p><br></p>=
+<p>Can you please kindly review and confirm if you recognise. </p><p><br></=
+p><p>You can find our SSI on alert with the following acronyms; please loca=
+te Citi entity in column A of attachment for guidance.</p><p><br></p><p> <s=
+trong>Entity ID     Citi Entity      Alert Acronym</strong></p><p>  01     =
+             CGMI            SALBRONY</p><p>  02                  CGML     =
+      SALBROLN</p><p>  CG                 CGME          SALBROLN Model:CGME=
+</p><p>  </p><p>We would appreciate your prompt response to ensure timely s=
+ettlement.</p><p><br></p><p><br></p><p>Many Thanks,</p><p>Citi Client Servi=
+ce Team</p><p><strong>&nbsp;</strong></p><p>Group Contact: <a href=3D"mailt=
+o:emea.clientsettlements@citi.com" target=3D"_blank" style=3D"color: blue;"=
+>emea.clientsettlements@citi.com</a><span style=3D"color: rgb(31, 73, 125);=
+"> </span>+44(0)2895955922&nbsp;</p></div>
+                                    <P></P>
+                                    <p style=3D" font-family: Arial, Helvet=
+ica, sans-serif ; text-align: left; font-size:11px;">
+
+
+
+Citigroup Global Markets Limited Registered in England with number 1763297 =
+Registered office: Citigroup Centre, Canada Square, London E14 5LB Authoris=
+ed by the Prudential Regulation Authority and regulated by the Financial Co=
+nduct Authority and the Prudential Regulation Authority. If this communicat=
+ion is market commentary please go to the following URL: https://icg.citi.c=
+om/icg/data/documents/MarketCommentaryDisclaimeremea.pdf. The information c=
+ontained in this electronic message and any attachments (the "Message") is =
+intended for one or more specific individuals or entities and may be confid=
+ential, proprietary, privileged or otherwise protected by law. If you are n=
+ot the intended recipient, please notify the sender immediately, delete thi=
+s Message and do not disclose, distribute or copy it to any third party or =
+otherwise use this Message. Electronic messages are not secure or error fre=
+e and can contain viruses or may be delayed and the sender is not liable fo=
+r any of these occurrences. The sender reserves the right to monitor, recor=
+d and retain electronic messages</p>
+                                </td>
+                            </tr>
+=09=09=09=09=09=09=09=09<tr>
+=09=09=09=09=09=09=09=09=09<td>
+=09=09=09=09=09=09=09=09=09=09<p style=3D"font-size: 12px; font-family: Ari=
+al, Helvetica, sans-serif; ">
+=09=09=09=09=09=09=09=09=09=09=09</br>WorkflowName - FICS Core Unmatched
+=09=09=09=09=09=09=09=09=09=09=09</br>Schedule Id - 16784
+=09=09=09=09=09=09=09=09=09=09</p>
+=09=09=09=09=09=09=09=09=09</td>
+=09=09=09=09=09=09=09=09</tr>
+                            <tr>
+                                <td>
+                                    <hr>
+                                    <p style=3D"font-size: 11px; font-famil=
+y: Arial, Helvetica, sans-serif; color: black; text-align: center;">
+                                        <span>To stop receiving this email =
+please click to <a href=3D"mailto:MarketOps_Clc@imcnam.ssmb.com?subject=3DU=
+nsubscribe&body=3DUnsubscribe">Unsubscribe</a>. Citigroup.com is the global=
+ source of information and access to financial services provided by the
+                                            Citi family of companies. &copy=
+; 2020 Citigroup Inc. All rights reserved.</span>
+                                    </p>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </td>
+            </tr>
+
+        </tbody>
+    </table>
+
+</body>
+
+</html><br /><br /><p id=3D"inquiryRefId" style=3D"font-size:11pt;font-fami=
+ly:Calibri;"><em>*Inquiry Reference Id: 573450827</em></span></p>
+--_280aa778-dceb-49e0-856b-5c5bf2b274e3_
+Content-Type: text/html; charset=UTF-8;
+	name=BmwData_16784_1605521158316.xlsx
+Content-Transfer-Encoding: base64
+Content-Disposition: attachment; filename=BmwData_16784_1605521158316.xlsx
+
+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
+EQAAAAA=
+--_280aa778-dceb-49e0-856b-5c5bf2b274e3_
+Content-Type: text/html; charset=UTF-8; name=citi_email_logo.png
+Content-Transfer-Encoding: base64
+Content-Disposition: attachment; filename=citi_email_logo.png
+
+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
+--_280aa778-dceb-49e0-856b-5c5bf2b274e3_--
+
+--_7a25d0dd-ced1-4752-92d9-d22f53a94a6c_--

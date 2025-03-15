@@ -1,0 +1,477 @@
+Return-Path: <Info@melqart.com>
+Received: from GBR01-CWL-obe.outbound.protection.outlook.com (mail-cwlgbr01lp2053.outbound.protection.outlook.com [104.47.20.53])
+ by inbound-smtp.eu-west-1.amazonaws.com with SMTP id f4f6a1durag4io6qmr4omlm613kq1ph2bqq286g1
+ for melqart@ip-sentinel.net;
+ Sat, 14 Nov 2020 23:20:32 +0000 (UTC)
+Received-SPF: softfail (spfCheck: transitioning domain of melqart.com does not designate 104.47.20.53 as permitted sender) client-ip=104.47.20.53; envelope-from=Info@melqart.com; helo=mail-cwlgbr01lp2053.outbound.protection.outlook.com;
+Authentication-Results: amazonses.com;
+ spf=softfail (spfCheck: transitioning domain of melqart.com does not designate 104.47.20.53 as permitted sender) client-ip=104.47.20.53; envelope-from=Info@melqart.com; helo=mail-cwlgbr01lp2053.outbound.protection.outlook.com;
+ dmarc=fail header.from=bloomberg.net;
+X-SES-RECEIPT: AEFBQUFBQUFBQUFHYU9VYWQ3eEF1cjMyTUhYREtPR0RKVTNqWXFVcGxhaFdUemVZT1JXV2ZJR1dvaFZTWlkrOVhpZStMNCtyWmF0b2lrM0U3Y2ZGWjBSeU1wcG9oMjhod2l4OEd3akdnSnlYR2dIR0xsUHZvWlBQZjVPNnc5Y3c3M3N6aFlRVW9JS0xyMHpOcTBuMVBObG4wc1hFYzVINjIwblJQaFY3VmJwY05tTjFSVVFBUVk5WHdkS2RrcVdaU0ZuTE5qcVJ5czdYWnNJVzQxYkVZYlE4ckFobFNDSk9KZFFyYkNVc1hvQXBKOVcxQnNDN3BpWFRjREZTVGlGNk9MMi9RampOeHBFSEJGUFUvSmhtL21uTjN2bjdMenlKOTlmSkpyS2V1WHBjNHJHeWpHbDQ5VEE9PQ==
+X-SES-DKIM-SIGNATURE: a=rsa-sha256; q=dns/txt; b=BV6oD2goDMdJluxAe6gwCwTzVKupiyhAhk3rpVm3xjH9LNnjq6UvgmVffqdLkveA3WnPOH2+wO3PrRA8sYE6oXfmxtE+zi3WtycSjZTUAD+MrCkKjUn34FyTvyClZ1n/WN5lXITzc2tvf3pf/QlXBqCscq7CQeX1tVKmtXE6iXU=; c=relaxed/simple; s=shh3fegwg5fppqsuzphvschd53n6ihuv; d=amazonses.com; t=1605396032; v=1; bh=kZW9okqAJbGJKQrA+nJ2F+hrRTUYC/L+XbDFkqbTn+0=; h=From:To:Cc:Bcc:Subject:Date:Message-ID:MIME-Version:Content-Type:X-SES-RECEIPT;
+Content-Type: multipart/mixed;
+	boundary="_1ec55305-67bc-4635-8090-687f6c06cc7d_"
+Subject: =?UTF-8?B?TmV3IFlvcmsgUG9zdDogTmV0ZmxpeCBkcm9wcyBjYXJvbHMgb24gZmlyZXBsYWNlIHZpZA==?=
+	=?UTF-8?B?ZW8sIHJ1aW5zIENocmlzdG1hcyBmb3IgYmxvZ2dlcg==?=
+To: undisclosed-recipients:
+From: "News Alert (BLOOMBERG/ 731 LEX G)" <nlrt@bloomberg.net>
+MIME-Version: 1.0
+Sender:
+	<MicrosoftExchange329e71ec88ae4615bbc36ab6ce41109e@Melqart365.onmicrosoft.com>
+Message-ID: <51c56ddc-2047-4c24-a67d-e55261e3e957@journal.report.generator>
+Date: Sat, 14 Nov 2020 23:20:32 +0000
+X-MS-PublicTrafficType: Email
+X-MS-Journal-Report:
+Return-Path: Info@melqart.com
+X-MS-Exchange-Parent-Message-Id:
+	<5FB06639000141C732F70044_0_126769@msclnjpmsgsv01>
+Auto-Submitted: auto-generated
+X-MS-Exchange-Generated-Message-Source: Journal Agent
+X-MS-TrafficTypeDiagnostic: CWXP123MB1718:JournalingReport
+X-LD-Processed: 6fed32bf-cc6b-4b02-9c29-cc91d7807f71,ExtAddr
+X-OriginatorOrg: Melqart365.onmicrosoft.com
+X-MS-Exchange-CrossTenant-AuthSource: CWXP123MB1718.GBRP123.PROD.OUTLOOK.COM
+X-MS-Exchange-CrossTenant-AuthAs: Internal
+X-MS-Exchange-CrossTenant-OriginalArrivalTime: 14 Nov 2020 23:20:32.0522 (UTC)
+X-MS-Exchange-CrossTenant-Network-Message-Id:
+	56d1abac-c16e-42af-6733-08d888f3e1da
+X-MS-Exchange-CrossTenant-FromEntityHeader: Hosted
+X-MS-Exchange-Transport-CrossTenantHeadersStamped: CWXP123MB1718
+
+--_1ec55305-67bc-4635-8090-687f6c06cc7d_
+Content-Type: text/plain; charset="us-ascii"
+Content-Transfer-Encoding: 7bit
+
+Sender: nlrt@bloomberg.net
+Subject: New York Post: Netflix drops carols on fireplace video, ruins Christmas for blogger
+Message-Id: <5FB06639000141C732F70044_0_126769@msclnjpmsgsv01>
+Recipient: can.ozdemir@melqart.com
+
+--_1ec55305-67bc-4635-8090-687f6c06cc7d_
+Content-Type: message/rfc822
+
+Received: from AM5PR0701CA0066.eurprd07.prod.outlook.com (2603:10a6:203:2::28)
+ by CWXP123MB1718.GBRP123.PROD.OUTLOOK.COM (2603:10a6:401:78::16) with
+ Microsoft SMTP Server (version=TLS1_2,
+ cipher=TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384) id 15.20.3541.25; Sat, 14 Nov
+ 2020 23:20:31 +0000
+Received: from VE1EUR03FT055.eop-EUR03.prod.protection.outlook.com
+ (2603:10a6:203:2:cafe::41) by AM5PR0701CA0066.outlook.office365.com
+ (2603:10a6:203:2::28) with Microsoft SMTP Server (version=TLS1_2,
+ cipher=TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384) id 15.20.3589.15 via Frontend
+ Transport; Sat, 14 Nov 2020 23:20:31 +0000
+Authentication-Results: spf=fail (sender IP is 195.130.217.76)
+ smtp.mailfrom=bloomberg.net; melqart.com; dkim=fail (signature did not
+ verify) header.d=bloomberg.net;melqart.com; dmarc=fail action=none
+ header.from=bloomberg.net;compauth=softpass reason=201
+Received-SPF: Fail (protection.outlook.com: domain of bloomberg.net does not
+ designate 195.130.217.76 as permitted sender)
+ receiver=protection.outlook.com; client-ip=195.130.217.76;
+ helo=eu-smtp-1.mimecast.com;
+Received: from eu-smtp-1.mimecast.com (195.130.217.76) by
+ VE1EUR03FT055.mail.protection.outlook.com (10.152.19.158) with Microsoft SMTP
+ Server (version=TLS1_2, cipher=TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384) id
+ 15.20.3564.22 via Frontend Transport; Sat, 14 Nov 2020 23:20:30 +0000
+Received: from mgnj17.bloomberg.net (mgnj17.bloomberg.net [69.191.244.239])
+ (Using TLS) by relay.mimecast.com with ESMTP id
+ uk-mta-176-Obs5EsmDOAS1BArYJz6OqQ-1; Sat, 14 Nov 2020 23:20:26 +0000
+X-MC-Unique: Obs5EsmDOAS1BArYJz6OqQ-1
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+  d=bloomberg.net; l=2969; q=dns/txt; s=20181022;
+  t=1605396026; x=1605482426;
+  h=date:from:reply-to:to:mime-version:message-id:subject;
+  bh=7VzgTQfcgxQY9mKsdleLPCyHQlSZxPAYbwULgw3zGJ4=;
+  b=U2WUWnV9SrcvuCUeUzz8dpGxv9EL7a6SGPHv/RCNSxSIBBnvIQ7/YV+k
+   1u0U++r8QYPJ3rt8UcUfaZjRmUCr+GX9x7ayD60Lq3jq1+89DwAE5p8qJ
+   E5MtqH2TodOuCedC4+KKoqeuA8MzGLzZIWRJcWdf5t62Bz5rFXRHFISdO
+   SGEmGKGaNpcZvReAQ7LMP0tOmwmLQ8QM/U/yvB9Dm7YtGhzwtdNQLfe7U
+   XLPcYtsZmrYTpQuAgO0TRoYjbbtBNv8LVT8WXfyrMoFIP+9tpfGo0EBFw
+   d0UFJW2LuAIl8tacA5smSRZgzNQ9RMSxviWkPqb0dsAYrysnUoJ7Zo0XN
+   A==
+X-BB-Reception-Complete: 14 Nov 2020 18:20:25 -0500
+X-IP-Listener: Outgoing Mail
+X-IP-MID: 188938941
+Received: from msclnjpmsgsv01.bloomberg.com (HELO msclnjpmsgsv01) ([10.126.173.96])
+  by mgnj17.bloomberg.net with SMTP; 14 Nov 2020 18:20:25 -0500
+X-BLP-INETSVC: version=BLP_APP_S_INETSVC_1.0.1; host=mgnj17:25; conid=266
+Date: Sat, 14 Nov 2020 23:20:25 -0000
+From: "News Alert (BLOOMBERG/ 731 LEX G)" <nlrt@bloomberg.net>
+Reply-To: "News Alert" <nlrt@bloomberg.net>
+To: undisclosed-recipients:
+BCC: can.ozdemir@melqart.com
+MIME-Version: 1.0
+Message-ID: <5FB06639000141C732F70044_0_126769@msclnjpmsgsv01>
+X-BLP-GUID: 5FB06639000141C732F700440000
+Subject: =?UTF-8?B?TmV3IFlvcmsgUG9zdDogTmV0ZmxpeCBkcm9wcyBjYXJvbHMgb24gZmlyZXBsYWNlIHZpZA==?=
+	=?UTF-8?B?ZW8sIHJ1aW5zIENocmlzdG1hcyBmb3IgYmxvZ2dlcg==?=
+X-Mimecast-Spam-Score: 0
+Content-Type: multipart/mixed;
+	boundary="_a3d420c8-f730-4bcd-bbef-8b58e2b26d33_"
+Return-Path: nlrt@bloomberg.net
+X-MS-Exchange-Organization-OriginalArrivalTime: 14 Nov 2020 23:20:30.4532
+ (UTC)
+X-MS-Exchange-Organization-ExpirationStartTime: 14 Nov 2020 23:20:30.6341
+ (UTC)
+X-MS-Exchange-Organization-ExpirationStartTimeReason: OriginalSubmit
+X-MS-Exchange-Organization-ExpirationInterval: 1:00:00:00.0000000
+X-MS-Exchange-Organization-ExpirationIntervalReason: OriginalSubmit
+X-MS-Exchange-Organization-Network-Message-Id: 0237753c-4af0-4736-b601-08d888f3e101
+X-MS-Exchange-Organization-OriginalClientIPAddress: 195.130.217.76
+X-MS-Exchange-Organization-OriginalServerIPAddress: 10.152.19.158
+X-MS-Exchange-Organization-MessageScope: a8d77647-ab82-4f73-83f3-4d6243b4b84c
+X-EOPAttributedMessage: 0
+X-EOPTenantAttributedMessage: 6fed32bf-cc6b-4b02-9c29-cc91d7807f71:0
+X-MS-Exchange-Organization-TargetResourceForest: GBRP123.PROD.OUTLOOK.COM
+X-MS-Exchange-Organization-OrgEopForest: EUR03
+X-MS-Exchange-Organization-MessageDirectionality: Incoming
+X-MS-Exchange-Organization-Id: 6fed32bf-cc6b-4b02-9c29-cc91d7807f71
+X-MS-Exchange-Organization-FFO-ServiceTag: EUR03B
+X-MS-Exchange-Organization-TenantServiceProvider: Mimecast
+X-MS-Exchange-Organization-Cross-Premises-Headers-Processed: VE1EUR03FT055.eop-EUR03.prod.protection.outlook.com
+X-MS-Exchange-Organization-ConnectingIP: 195.130.217.76
+X-MS-Exchange-Organization-ConnectingEHLO: eu-smtp-1.mimecast.com
+X-MS-Exchange-Organization-AS-LastExternalIp: 195.130.217.76
+X-MS-Exchange-Organization-Originating-Country: GB
+X-MS-Exchange-Organization-P2SenderPII: <PII:H101(o2YwDJXEsFSpg0vU39E6DVoXUZ6j+UJARyosPe65U/8=)>@bloomberg.net
+X-MS-Exchange-Organization-P2SenderDisplayNamePII: H101(ubEpFBqKVD4Anf5tAMptt6HHPVHJnCkksJngfox5HZw=)
+X-MS-Exchange-Organization-OriginalEnvelopeRecipients: can.ozdemir@melqart.com
+X-MS-Exchange-Organization-PtrDomains: eu-smtp-2.mimecast.com;eu-smtp-1.mimecast.com
+X-MS-Exchange-Organization-EhloAndPtrDomain: eu-smtp-1.mimecast.com;eu-smtp-2.mimecast.com
+X-MS-Exchange-Organization-MxPointsToUs: false
+X-MS-Exchange-Organization-RecipientMxInfo-PFAFD: melqart.com#eu-smtp-inbound-1.mimecast.com;eu-smtp-inbound-2.mimecast.com
+X-MS-Exchange-Organization-CompAuthRes: softpass
+X-MS-Exchange-Organization-CompAuthReason: 201
+X-MS-Exchange-Organization-SpoofDetection-Frontdoor-DisplayDomainName: bloomberg.net
+X-MS-Exchange-Organization-SenderRep-Score: 3
+X-MS-Exchange-Organization-SenderRep-Data: IpClassLargeGrayOther_GrayOther_GrayBest
+X-MS-Exchange-Organization-VBR-Class: GrayOther
+X-MS-Exchange-Organization-HMATPModel-Spf: 4
+X-MS-Exchange-Organization-HMATPModel-Recipient: <PII:H101(iXCxGGXLD+GjnVm/UHVGp/RImZdWWOutLqlaEGGZqwY=)>@melqart.com
+X-MS-Exchange-Organization-TransportTrafficType: Email
+X-MS-PublicTrafficType: Email
+X-MS-Exchange-Organization-OrderedPrecisionLatencyInProgress: LSRV=AM5PR0701CA0066.eurprd07.prod.outlook.com:TOTAL-FE=0.071|SMR-PEN=0.113(RENV=0.086|REOH=0.025|SMRPROXY-PEN=0.000);2020-11-14T23:20:31.446Z
+X-MS-Exchange-Organization-MessageLatency: SRV=VE1EUR03FT055.eop-EUR03.prod.protection.outlook.com:TOTAL-FE=0.920|SMR-PEN=0.824(RENV=0.127(SMRRC=0.078(SMRRC-TenantAttributionAndInboundConnectorAgent=0.068
+ ))|REOH=0.695(SMREH=0.642(SMREH-Protocol Filter
+ Agent=0.639))|SMRPROXY-PEN=0.000)|SMS=0.097
+X-MS-Exchange-Organization-MessageLatency:
+	SRV=AM5PR0701CA0066.eurprd07.prod.outlook.com:TOTAL-FE=0.222|SMR-PEN=0.113(RENV=0.086|REOH=0.025|SMRPROXY-PEN=0.000)|SMS=0.151(SMSC=0.157)
+X-MS-Exchange-Forest-ArrivalHubServer: CWXP123MB1718.GBRP123.PROD.OUTLOOK.COM
+X-MS-Exchange-Organization-AuthSource:
+	VE1EUR03FT055.eop-EUR03.prod.protection.outlook.com
+X-MS-Exchange-Organization-AuthAs: Anonymous
+X-MS-Exchange-Organization-FromEntityHeader: Internet
+X-MS-Exchange-Forest-MessageScope: a8d77647-ab82-4f73-83f3-4d6243b4b84c
+X-MS-Exchange-Organization-Antispam-ProtocolFilterHub-ScanContext:
+	ProtocolFilterHub:SmtpOnEndOfData;
+X-MS-Office365-Filtering-Correlation-Id: 0237753c-4af0-4736-b601-08d888f3e101
+X-MS-Exchange-Organization-OriginalSize: 12751
+X-MS-TrafficTypeDiagnostic: CWXP123MB1718:
+X-MS-Exchange-Organization-HygienePolicy: Premium
+X-MS-Exchange-Organization-ReplicationInfo:
+	ReplicaId=7817a6b1-3c67-194b-ea40-94e1f388d808;ReplicatingServerFqdn=LNXP123MB1721.GBRP123.PROD.OUTLOOK.COM
+X-MS-Exchange-Forest-Language: en
+X-MS-Exchange-Forest-IndexAgent-0:
+	AQ0CZW4BHyxhMTkyZDhkYy1lMTkxLTQ5ZTMtODJjMC02NGI1ZDFiOW
+ U2M2E6dHh0OmJscAABkgEAAA8AAAMfiwgAAAAAAAQAdU/bTttAEJ21
+ 1xcc/A/zSCWKklShlzdIU8kUAsVBKq36sDgTZ8Xai3YNlL/tp3RsWq
+ k8VNqHM2fOZfZXsKRHvLbuFi+s7z7gkrqN0T9x7eydx0o5azzaFjfa
+ 0Z1RFeGDXpPdR3evW4/zrdO+a5THjXV4Y2xdk8uzI0OOw8rF/OqyWB
+ WLEr8f/siz0t67irjk+gL3XhS/yrOVrm7J+Txbfjr9ildlr3i+pWir
+ fm9xTa9V1ekH1RF2W+1R9T37WBn24pYcDbLGrvXm6f+Knm/Ie1UTPv
+ Lp1ulat8qYJ/TUdthZnB8t8fzbx8VZcckfVpxFeGysbW7I1bgi1/SG
+ gzybjWfvpm/e4/QQv5ys3haTs+NpefIZJ+PJFGcTHAOEICVEEuIE0g
+ jiGJIAwh3IIkh4ZMCCBHZ4zMSuABAgY0hDiP4aE94yCHoZ8zHbAwEj
+ CNOBf86RA8/h/zKMB4vMYDQkhOGfEMmPq1MxSgASkQYAvN0VuQSQIu pHEfbH/AbSE7IHIgIAAA==
+X-MS-Exchange-Forest-IndexAgent: 1 460
+X-MS-Exchange-Forest-EmailMessageHash: FEE783F3,2B2A6960
+X-MS-Exchange-Organization-IsPotentialIntraOrgMail: False
+X-MS-Exchange-Organization-Antispam-PreContentFilter-PolicyLoadTime:
+	MAOSUB:2;MAOSUBLOAD:0;SAORES:2;SAORESLOAD:1;SLORES:1;SLORESLOAD:1;
+X-MS-Exchange-Organization-AttachmentDetailsHeaderStamp-Success: 1.0
+X-MS-Exchange-Organization-AttachmentDetails:
+	0:d2fJ1oGYOZ91a95idWJFnvxMGEFTebBs+MnVGiG9ZAE=:U:Text:eC1yaW1kZXZpY2UtYmxvb21iZXJnLW5ld3MtbmxydC5ibHA=::#:False:::N:::N::N:None
+X-MS-Exchange-Organization-AttachmentDetailsInfo-ChunkCount: 1
+X-MS-Exchange-Organization-AttachmentDetailsInfo-0:
+	[{"ID":0,"FN":"x-rimdevice-bloomberg-news-nlrt.blp","FS":33,"HFH":"d2fJ1oGYOZ91a95idWJFnvxMGEFTebBs+MnVGiG9ZAE=","FT":["Text"],"EXT":"blp","AF":0}]
+X-MS-Exchange-Organization-MessageFingerprint:
+	EC21443C.FD754EA.89F5A569.D8A0E079.200C8
+X-MS-Exchange-Organization-UrlMinimumDomainAge: mimecast.com#6477
+X-MS-Exchange-Organization-URLFeatureReduction:
+	46;2;0;23;0;0;0;0;12;3;1;10000000;0;0;0
+X-MS-Exchange-Organization-Persisted-Urls-ChunkCount: 1
+X-MS-Exchange-Organization-Persisted-Urls-0:
+	=?us-ascii?Q?[{"ID":1,"OU":"https://protect-eu.mimecast.com/s/690HCvolRi3?=
+ =?us-ascii?Q?nNlUQ8BJ4","U":"https://protect-eu.mimecast.com/s/690HCvolRi?=
+ =?us-ascii?Q?3nNlUQ8BJ4","IAR":false,"LI":{"TN":"a","IC":true,"BF":2,"SI"?=
+ =?us-ascii?Q?:-1,"EndIndex":-1},"SRCI":1,"IU":null,"NU":"protect-eu.mimec?=
+ =?us-ascii?Q?ast.com/s/690HCvolRi3nNlUQ8BJ4","UFT":"{101:46,102:2,105:23,?=
+ =?us-ascii?Q?108:3,109:1,110:8,111:12,112:2,114:8,115:10,116:1,117:1,118:?=
+ =?us-ascii?Q?10,119:8,121:7,122:3,123:1,125:3,128:20,131:10000000,135:\"E?=
+ =?us-ascii?Q?2F58CB3,C6D6BE65,A0574632,891EC5C0,4938C3D8,BCF35016,BFD0733?=
+ =?us-ascii?Q?A,ACB296E1,AA6CB204,1005231C,C86253E2,1B64769E,9C00B698,6C03?=
+ =?us-ascii?Q?AF79,4E69FBE2,E0B9A5BA,BA5D9874,2625CE4C,6067049B,E5889770,2?=
+ =?us-ascii?Q?FF25C22,8741C4C8,50E4765B,D450A367,4809B840,94D4CE11,A7D9692?=
+ =?us-ascii?Q?8,77457D2F,80BE50F,E3E06B6C,4CE03E6D,7839F2C9\",201:6477,202?=
+ =?us-ascii?Q?:205,203:1489,204:7967,205:37,206:2,207:38,208:2,209:38,210:?=
+ =?us-ascii?Q?2,211:38,212:2,213:58,214:3,215:23,216:1,217:23,218:1,219:23?=
+ =?us-ascii?Q?,220:1,221:52,222:3,223:52,224:3,225:52,226:3,227:51,228:2,2?=
+ =?us-ascii?Q?29:56,230:3,231:23,232:1,233:27,234:1,235:23,236:1,239:23,24?=
+ =?us-ascii?Q?0:1,241:23,242:1,243:23,244:1,245:23,246:1,247:23,248:1,249:?=
+ =?us-ascii?Q?23,250:1,251:22,252:1}","DPD":{"UF":"256","OCH":"13336793637?=
+ =?us-ascii?Q?138666183","SCHM":"Https","CNT":"1","SL":"1","LOG":"1"},"PRO?=
+ =?us-ascii?Q?C":[]},{"ID":2,"OU":"https://protect-eu.mimecast.com/s/9LB2C?=
+ =?us-ascii?Q?wmV2hWE8NHqgRmE","U":"https://protect-eu.mimecast.com/s/9LB2?=
+ =?us-ascii?Q?CwmV2hWE8NHqgRmE","IAR":false,"LI":{"TN":"a","IC":true,"BF":?=
+ =?us-ascii?Q?2,"SI":-1,"EndIndex":-1},"SRCI":1,"IU":null,"NU":"protect-eu?=
+ =?us-ascii?Q?.mimecast.com/s/9LB2CwmV2hWE8NHqgRmE","UFT":"{101:46,102:2,1?=
+ =?us-ascii?Q?05:23,108:3,109:1,110:8,111:12,112:2,114:8,115:10,116:1,117:?=
+ =?us-ascii?Q?1,118:10,119:8,121:7,122:3,123:1,125:3,128:20,131:10000000,1?=
+ =?us-ascii?Q?35:\"E2F58CB3,C6D6BE65,A0574632,891EC5C0,4938C3D8,BCF35016,B?=
+ =?us-ascii?Q?FD0733A,ACB296E1,AA6CB204,1005231C,C86253E2,1B64769E,9C00B69?=
+ =?us-ascii?Q?8,6C03AF79,BE111218,3269E169,D99C3214,CD3BB141,3E690DAC,74AC?=
+ =?us-ascii?Q?22CB,439733C6,C6CEC0F9,CD55F4BE,39440149,32BF429D,85D9B2F4,2?=
+ =?us-ascii?Q?2E8F6AB,93D04F50,47489481,F6C13E6F,ADE823A9,A6DA7061\",201:6?=
+ =?us-ascii?Q?477,202:205,203:1489,204:7967,205:37,206:2,207:38,208:2,209:?=
+ =?us-ascii?Q?38,210:2,211:38,212:2,213:58,214:3,215:23,216:1,217:23,218:1?=
+ =?us-ascii?Q?,219:23,220:1,221:52,222:3,223:52,224:3,225:52,226:3,227:51,?=
+ =?us-ascii?Q?228:2,229:56,230:3,231:23,232:1,233:27,234:1,235:23,236:1,23?=
+ =?us-ascii?Q?9:23,240:1,241:23,242:1,243:23,244:1,245:23,246:1,247:23,248?=
+ =?us-ascii?Q?:1,249:23,250:1,251:22,252:1}","DPD":{"UF":"256","OCH":"8230?=
+ =?us-ascii?Q?493391340164224","SCHM":"Https","CNT":"1","SL":"1","LOG":"1"?=
+ =?us-ascii?Q?},"PROC":[]},{"ID":3,"OU":"https://protect-eu.mimecast.com/s?=
+ =?us-ascii?Q?/8UP6Cxvn8U35MXUYLS12","U":"https://protect-eu.mimecast.com/?=
+ =?us-ascii?Q?s/8UP6Cxvn8U35MXUYLS12","IAR":false,"LI":{"TN":"a","IC":true?=
+ =?us-ascii?Q?,"BF":2,"SI":-1,"EndIndex":-1},"SRCI":1,"IU":null,"NU":"prot?=
+ =?us-ascii?Q?ect-eu.mimecast.com/s/8UP6Cxvn8U35MXUYLS12","UFT":"{101:46,1?=
+ =?us-ascii?Q?02:2,105:23,108:3,109:1,110:8,111:12,112:2,114:8,115:10,116:?=
+ =?us-ascii?Q?1,117:1,118:10,119:8,121:7,122:3,123:1,125:3,128:20,131:1000?=
+ =?us-ascii?Q?0000,135:\"E2F58CB3,C6D6BE65,A0574632,891EC5C0,4938C3D8,BCF3?=
+ =?us-ascii?Q?5016,BFD0733A,ACB296E1,AA6CB204,1005231C,C86253E2,1B64769E,9?=
+ =?us-ascii?Q?C00B698,6C03AF79,28A61A30,C09ACC4,4986B4C6,A01DA10,477EE226,?=
+ =?us-ascii?Q?103E3395,1F8B3155,984716EC,6BA683A9,7FA5F3F6,6A2DB5DA,7AB056?=
+ =?us-ascii?Q?73,1AB9857D,F937539B,53F8D4FB,96A2581B,CB3FF13D,EB8A3A57\",2?=
+ =?us-ascii?Q?01:6477,202:205,203:1489,204:7967,205:37,206:2,207:38,208:2,?=
+ =?us-ascii?Q?209:38,210:2,211:38,212:2,213:58,214:3,215:23,216:1,217:23,2?=
+ =?us-ascii?Q?18:1,219:23,220:1,221:52,222:3,223:52,224:3,225:52,226:3,227?=
+ =?us-ascii?Q?:51,228:2,229:56,230:3,231:23,232:1,233:27,234:1,235:23,236:?=
+ =?us-ascii?Q?1,239:23,240:1,241:23,242:1,243:23,244:1,245:23,246:1,247:23?=
+ =?us-ascii?Q?,248:1,249:23,250:1,251:22,252:1}","DPD":{"UF":"256","OCH":"?=
+ =?us-ascii?Q?14582373920588197448","SCHM":"Https","CNT":"1","SL":"1","LOG?=
+ =?us-ascii?Q?":"1"},"PROC":[]},{"ID":4,"OU":"https://protect-eu.mimecast.?=
+ =?us-ascii?Q?com/s/MROaCyro7URPX4fRuj1b","U":"https://protect-eu.mimecast?=
+ =?us-ascii?Q?.com/s/MROaCyro7URPX4fRuj1b","IAR":false,"LI":{"TN":"a","IC"?=
+ =?us-ascii?Q?:true,"BF":2,"SI":-1,"EndIndex":-1},"SRCI":1,"IU":null,"NU":?=
+ =?us-ascii?Q?"protect-eu.mimecast.com/s/MROaCyro7URPX4fRuj1b","UFT":"{101?=
+ =?us-ascii?Q?:46,102:2,105:23,108:3,109:1,110:8,111:12,112:2,114:8,115:10?=
+ =?us-ascii?Q?,116:1,117:1,118:10,119:8,121:7,122:3,123:1,125:3,128:20,131?=
+ =?us-ascii?Q?:10000000,135:\"E2F58CB3,C6D6BE65,A0574632,891EC5C0,4938C3D8?=
+ =?us-ascii?Q?,BCF35016,BFD0733A,ACB296E1,AA6CB204,1005231C,C86253E2,1B647?=
+ =?us-ascii?Q?69E,9C00B698,6C03AF79,20A18A09,9ED5E69B,38D826D0,2770AB16,4D?=
+ =?us-ascii?Q?82BD2F,A2A6E82D,54D5721D,2BABFB80,A1570ECF,3E03EB4C,8FFA9FD7?=
+ =?us-ascii?Q?,B1161D21,79A460F,E922D295,14EF3C8A,9FEDED14,EC90A27,48CBA7B?=
+ =?us-ascii?Q?8\",201:6477,202:205,203:1489,204:7967,205:37,206:2,207:38,2?=
+ =?us-ascii?Q?08:2,209:38,210:2,211:38,212:2,213:58,214:3,215:23,216:1,217?=
+ =?us-ascii?Q?:23,218:1,219:23,220:1,221:52,222:3,223:52,224:3,225:52,226:?=
+ =?us-ascii?Q?3,227:51,228:2,229:56,230:3,231:23,232:1,233:27,234:1,235:23?=
+ =?us-ascii?Q?,236:1,239:23,240:1,241:23,242:1,243:23,244:1,245:23,246:1,2?=
+ =?us-ascii?Q?47:23,248:1,249:23,250:1,251:22,252:1}","DPD":{"UF":"256","O?=
+ =?us-ascii?Q?CH":"45365990638810206","SCHM":"Https","CNT":"1","SL":"1","L?=
+ =?us-ascii?Q?OG":"1"},"PROC":[]}]?=
+X-MS-Exchange-Organization-PersistedUrlCount: 4
+X-MS-Exchange-Organization-Antispam-PreContentFilter-ScanContext:
+	CategorizerOnSubmitted;CategorizerOnResolved;
+X-MS-Exchange-Organization-AVScannedByV2: Symantec;Command;Microsoft
+X-MS-Exchange-Organization-AVScanComplete: true
+X-MS-Exchange-Organization-UrlSelected: 1
+X-MS-Exchange-Organization-UrlLogged: 1
+X-MS-Exchange-Organization-Recipient-Limit-Verified: True
+X-MS-Exchange-Organization-TotalRecipientCount: 1
+X-MS-Exchange-Organization-ReplyAllBlocker-Verdict: Allow
+X-MS-Exchange-Organization-ASDirectionalityType: 1
+X-MS-Exchange-Organization-Boomerang-Verdict: None
+X-MS-Exchange-Organization-HMATPModel-DkimAuthStatus: 2
+X-MS-Exchange-Organization-HMATPModel-DmarcAuthStatus: 3
+X-MS-Exchange-Organization-IP-Bulk-Level: 1
+X-MS-Exchange-Organization-BCL: 1
+X-MS-Exchange-Organization-BCL-Source: P2Bulk
+X-MS-Exchange-Organization-Rules-Execution-History:
+	dab331b5-6cbe-4551-904a-f74c18231a4b%%%bd609b88-b16a-45d6-9900-df94a8e55a81%%%90d8fc8a-c84e-4a47-a95c-b18b0af66712
+X-MS-Exchange-Forest-RulesExecuted: CWXP123MB1718
+X-MS-Exchange-Organization-RulesExecuted: CWXP123MB1718
+X-MS-Exchange-Organization-SenderRecipientCommunicationState: EST
+X-MS-Exchange-Organization-Antispam-ContentFilter-ScanContext:
+	CategorizerOnResolved;
+X-MS-Exchange-Organization-Antiphish-V2: SKP-BLK-NOSAVE
+X-MS-Exchange-Organization-CommunicationStateSummary: EST
+X-MS-Exchange-Organization-FirstContactSummary:
+	ST=1;MRG=0;EXT=0;UN=1;ORCT=1;EV=1;FC=0;NESI=0;NES=0;ESTI=0;EST=1;INS=0;ERR=0
+X-MS-Exchange-Organization-CFA-UserOption: 0
+X-MS-Exchange-Organization-Antispam-SFASkipFiltering: true
+X-MS-Exchange-Organization-CompAuth-Eop: compauth=softpass reason=201
+X-MS-Exchange-Organization-ContainsAttachments: true
+X-MS-Exchange-Organization-Feature-Long: 0	201:874	202:199	203:1	205:8	208:34
+	215:868	220:4	221:4	223:4	227:1	228:1	235:2	236:2	238:3	239:1	240:1	241:1
+	243:2	244:5	245:1	246:1	247:1	248:4	253:1	256:1	257:35	260:4	261:500	262:8
+	263:2	264:1050	265:20	1006:alert,activat,click	1007:Latn	1014:bloomberg.net
+	1015:bloomberg.net	1020:bloomberg.net	1030:bloomberg.net	1033:blp
+	1034:FC637629@melqart.com	1035:bloomberg.net
+X-MS-Exchange-Organization-HDRFeatureV2:
+	10;0;4;1;1;0;1;1;1;0;1;1;1;4;1;1;119;18;33;38;39;17;37;37;31;16;4;4;2;33;4;2;2;3;4;-1;-1;-1;-1;-1;-1;4;32;1;38
+X-MS-Exchange-Organization-ExtractionAttachmentNames: 0
+X-MS-Exchange-Organization-ExtractionTags: SUB64;LINK;
+X-MS-Exchange-Organization-ExtractionTagsSubject: New York Post: Netflix drops
+ carols on fireplace video, ruins Christmas for blogger
+X-MS-Exchange-Organization-ExtractionTagsFrom: "News Alert (BLOOMBERG/ 731 LEX
+ G)" <nlrt@bloomberg.net>
+X-MS-Exchange-Organization-ExtractionTagsSubjectNormalized: nevv york post
+ netfllx drops carols on flreplace vldeo rulns chrlstrnas for bloger
+X-MS-Oob-TLC-OOBClassifiers: OLM:5797;
+X-MS-Exchange-Organization-DetonationSkipEnforcementScenarios: TenantAllow
+X-MS-Exchange-Organization-Antispam-PostContentFilter-ScanContext:
+	CategorizerOnResolved;CategorizerOnRouted;
+X-MS-Exchange-Organization-SCL: -1
+X-Microsoft-Antispam: BCL:1;
+X-Microsoft-Antispam-Message-Info:
+	=?us-ascii?Q?+7dkbLuujPItdrDbBxDHHm9swrz2NhmOJ6yBjb5UpoZ7jBm3vGKAQ852Q0H9?=
+ =?us-ascii?Q?6QQf8oFZYNCUnMRjDyDPdJDe0wNZZsQtnTIFLJF8SS257hUWo3FwWfjXmflR?=
+ =?us-ascii?Q?CsNsRF+32/7sTKGwzczX0yvo4H6WiOZPvZzAXd8m22woN3hz/CTuPIDe5UJC?=
+ =?us-ascii?Q?ot985hlUrqcx6ytcp47abACE/h9naHrfB4x7uYrbjbjO8qB1JzlA38IFrycP?=
+ =?us-ascii?Q?RuvciIwSLeGjcgNH40jaCA4yZZ2s4D04kxYAfx9k8ArRvb6x664WdIAUNmtA?=
+ =?us-ascii?Q?Cy5fwmbJmjip6rzBfBCSIuXi1y0nrZlKkvc2bJocGONHa1DLjiRyIGcHD5pe?=
+ =?us-ascii?Q?6HlFJ0xBUpW0Vxz2KtI3pNFoRHU8YNPMcYRp6MA2tk5YTxQUtCcn5DoMvA1Y?=
+ =?us-ascii?Q?tHkm/a5QynHmodpe9K/OJw2B9ZdT7UkmL30c3md4DPVPoMBsZEho8TFAz+zp?=
+ =?us-ascii?Q?CnaYiony6baVW3Xok1CvlWvDxqGePw9DilR/M4CbUdQr4OXYvl/MWY3ojpC8?=
+ =?us-ascii?Q?vsLnyBdwc1LTgdQIGWc0jTwyoIHTv221Ea5MhrbSiHKHSYa+db6JVuEA4Dy6?=
+ =?us-ascii?Q?pL2x0/QviPq3zYYYZ2Rp9TqBEHZ8UR2p0cBpmW4gHKI2mVTBG1iY5bucziSa?=
+ =?us-ascii?Q?6UT6n/EtPqnyP+FTrftdcLncf+zMHvFzldc4a7U2AFe7J+RMh6ngWYTkDIuG?=
+ =?us-ascii?Q?JC6haO2rtz/unGFbPT5T/2Y0FGrHzyNO7GOiIExO1FHcdBzjBjvPliMIk62R?=
+ =?us-ascii?Q?o4oIKRCCJb+Zi305T4HXH52otMLjqYarZdET7rZxaYRix8JonDxv6uulWnJl?=
+ =?us-ascii?Q?UKh4eMiWLhMQSzzC4u+U/Ijnayda2Nx4gRlVmgmCHQvoNRC2wGPaAnREhhkp?=
+ =?us-ascii?Q?TXFX+dSnoNS+kl1bsLTcSpZmr1RYiHZ85aItgj01s6xG2+mhVqogMj8vFzd9?=
+ =?us-ascii?Q?EIsw1U6md3W5XazLZWBd2FpA6egbZYa49lFljcgjv+ce/KROFrgXmgRZyAhb?=
+ =?us-ascii?Q?aincdSbJ+UOaPLAbWKuSxwGbDivsdsWARbtBDYmIIwsXcaoZX8eOYMSyfLl1?=
+ =?us-ascii?Q?9g43kEWWST23exUm/bLLx5OVrrF2gMYoQ/L2KqGHYJcOJLjS6FxpjzEYEjEE?=
+ =?us-ascii?Q?TAPlzYnxx6M5EhQ+439pkqsN4uwK73kdxrbNDeCq6MZ0SERWhN+Gp6NAgqwa?=
+ =?us-ascii?Q?ocwzrpke34ySFfAhilUT7alCo8ZUxB3Tf6ygBrQbH9BHXvA2+1BBMfZb0GT4?=
+ =?us-ascii?Q?sGj+YZd4nMpgjtKx4QOMuVyl5ZpH4Ej2UYVSh/Q621xxwCtbRap76EwsZHlx?=
+ =?us-ascii?Q?BvKnpa0efLih/w9T5qebLJSEC8G4LCrfx7bpYBvMbMMbR9tx1dyQxp1OPVsJ?=
+ =?us-ascii?Q?zcOMzM4C3a9oDO1jpQBWsygAneIv?=
+X-Forefront-Antispam-Report:
+	CIP:195.130.217.76;CTRY:GB;LANG:en;SCL:-1;SRV:;IPV:CAL;SFV:SKN;H:eu-smtp-1.mimecast.com;PTR:eu-smtp-2.mimecast.com;CAT:NONE;SFS:;DIR:INB;
+X-MS-Exchange-Organization-GroupForkPerf: VCL=0;VL=3
+X-MS-Exchange-Organization-Cross-Session-Cache:
+	=?us-ascii?Q?00CIP=3D195.130.217.76;EIPC0=3D2004,2055,950,951,2005,2006,2?=
+ =?us-ascii?Q?007,2008,2009,2010,2011,2012,2013,2014,2000,2050,2051,2052,9?=
+ =?us-ascii?Q?52,902,2054,2016,903,901,907,905,904,2001,3000,2003,2002,967?=
+ =?us-ascii?Q?,2058,2059,2060,531,2017,5080,5011,5051,5001,5057,5058,5052,?=
+ =?us-ascii?Q?5056,906,5054,5010,5055,5059,5053,5002,5003,5005,5070;MIPC0?=
+ =?us-ascii?Q?=3D2003,2004,950,952,951,5011;REP=3D01,1,0\;01,2,0\;01,3,0\;?=
+ =?us-ascii?Q?01,4,0\;01,5,183\;01,6,0\;01,7,0\;01,8,26978\;01,9,0\;01,10,?=
+ =?us-ascii?Q?0\;01,11,183\;01,12,26978\;02,1,0\;02,2,0\;02,3,0\;02,4,0\;0?=
+ =?us-ascii?Q?2,5,183\;02,6,0\;02,7,0;SL=3D3;EMSL=3D1;SCL=3D-1;BL=3D1;RL?=
+ =?us-ascii?Q?=3D1;PID=3D0;EXPID=3D;IsIncomingMail=3Dtrue;TIP=3DAllowList;?=
+ =?us-ascii?Q?TP=5FCPIP=3DAllow;IPV=3DCAL;IPB=5FSkip=3D1;IPT=5FSkip=3D1;CI?=
+ =?us-ascii?Q?PCRY=3DGB;SAUTHOP=3D1;RMX=3DMimecast;EIPC1=3D2004,2055,950,9?=
+ =?us-ascii?Q?51,2005,2006,2007,2008,2009,2010,2011,2012,2013,2014,2000,20?=
+ =?us-ascii?Q?50,2051,2052,952,902,2054,2016,903,901,907,905,904,2001,3000?=
+ =?us-ascii?Q?,2003,2002,967,2058,2059,2060,531,2017,5080,5011,5051,5001,5?=
+ =?us-ascii?Q?057,5058,5052,5056,906,5054,5010,5055,5059,5053,5002,5003,50?=
+ =?us-ascii?Q?05,5070;MIPC1=3D2003,2004,950,952,951,5011,5051;A=3D00;MX=3D?=
+ =?us-ascii?Q?00;PTR=3D00eu-smtp-2.mimecast.com\;eu-smtp-1.mimecast.com;SP?=
+ =?us-ascii?Q?F=3D041bmxydEBibG9vbWJlcmcubmV0;DKIM=3D00MjAxODEwMjIuX2RvbWF?=
+ =?us-ascii?Q?pbmtleS5ibG9vbWJlcmcubmV0\;dj1ES0lNMTsgcD1NSUlCSWpBTkJna3Foa?=
+ =?us-ascii?Q?2lHOXcwQkFRRUZBQU9DQVE4QU1JSUJDZ0tDQVFFQXN4THg2ZUdUZkVYSlZMW?=
+ =?us-ascii?Q?FVRcmV4enlTd1hWR1ZZUGUwTGpFRWdkSkNVcGlwQTJsRXlYQTE1R1VxeWhnb?=
+ =?us-ascii?Q?0d5Q2NBOWdUUXoxeXEyeDBkRE5nQUcrNjd5blEwVnI0SXlyYWM0bHlyYkR1L?=
+ =?us-ascii?Q?29obUdqeGpoMG5LSHBUb20xbjAyaTB5WSs2OEordWgvc3FjUkFYRlE3c3hmV?=
+ =?us-ascii?Q?1hzK2VwSHdMOUFTS1lJWkRrOENkelQ4eVBMRGVNLzRoc1JjQ2tGMG1aRGZYV?=
+ =?us-ascii?Q?kR1WnZaMHRQSXh2WWlJaWJkTTdXaVJkaStmU0pjVVJ5dm14bFJIeVBUV3pRd?=
+ =?us-ascii?Q?EJmWXdsWmVkMjZTMmNRYjc1YkVPTm5wdWVDRC94NXRqUmJuc3FuTm0wdDVjM?=
+ =?us-ascii?Q?HhVK1ZRUlpxUUV4LzFoa05OamJTZjg0ajl2czNhbGh6WE1kOEVidXB0U05tV?=
+ =?us-ascii?Q?kpBVlFqYTVOWEdIUUlEQVFBQg=3D=3D;DMARC=3D00Ymxvb21iZXJnLm5ldA?=
+ =?us-ascii?Q?=3D=3D\;dj1ETUFSQzE7IHA9bm9uZTsgYWRraW09cjsgYXNwZj1yOyBydWY9?=
+ =?us-ascii?Q?bWFpbHRvOmRtYXJjLXJ1ZkBkbWFyYy1ibG9vbWJlcmcuY29tLG1haWx0bzpk?=
+ =?us-ascii?Q?bWFyY19ydWZAZW1haWxkZWZlbnNlLnByb29mcG9pbnQuY29tOyBmbz0xOyBy?=
+ =?us-ascii?Q?dWE9bWFpbHRvOmRtYXJjLXJ1YUBkbWFyYy1ibG9vbWJlcmcuY29tLG1haWx0?=
+ =?us-ascii?Q?bzpkbWFyY19ydWFAZW1haWxkZWZlbnNlLnByb29mcG9pbnQuY29t;AUTHRES?=
+ =?us-ascii?Q?=3D[mx.microsoft.com,1]{5,8,RgBhAGkAbAA=3D,cwBlAG4AZABlAHIAI?=
+ =?us-ascii?Q?ABJAFAAIABpAHMAIAAxADkANQ?=
+X-MS-Exchange-Organization-Cross-Session-Cache:
+	=?us-ascii?Q?01AuADEAMwAwAC4AMgAxADcALgA3ADYA,cwBtAHQAcAAuAHIAYwBwAHQAVAB?=
+ =?us-ascii?Q?vAEQAbwBtAGEAaQBuAA=3D=3D|bQBlAGwAcQBhAHIAdAAuAGMAbwBtAA=3D?=
+ =?us-ascii?Q?=3D,cwBtAHQAcAAuAE0AYQBpAGwARgByAG8AbQA=3D|YgBsAG8AbwBtAGIAZ?=
+ =?us-ascii?Q?QByAGcALgBuAGUAdAA=3D}{9,8,RgBhAGkAbAA=3D,cAA9AG4AbwBuAGUAIA?=
+ =?us-ascii?Q?BzAHAAPQBuAG8AbgBlACAAcABjAHQAPQAxADAAMAA=3D,YQBjAHQAaQBvAG4?=
+ =?us-ascii?Q?A|TgBvAG4AZQA=3D,aABlAGEAZABlAHIALgBmAHIAbwBtAA=3D=3D|YgBsAG?=
+ =?us-ascii?Q?8AbwBtAGIAZQByAGcALgBuAGUAdAA=3D}{2,8,RgBhAGkAbAA=3D,cwBpAGc?=
+ =?us-ascii?Q?AbgBhAHQAdQByAGUAIABkAGkAZAAgAG4AbwB0ACAAdgBlAHIAaQBmAHkA,aA?=
+ =?us-ascii?Q?BlAGEAZABlAHIALgBkAA=3D=3D|YgBsAG8AbwBtAGIAZQByAGcALgBuAGUAd?=
+ =?us-ascii?Q?AA=3D}{12,7,TgBvAG4AZQA=3D,MAA=3D};SpfResult=3D4;DkimStatus?=
+ =?us-ascii?Q?=3D2;DkimSS=3D12;DmarcStatus=3D3;DmarcAction=3D0;ARCRES=3Dv1?=
+ =?us-ascii?Q?00000000000000000000000000000000000000000;MFP=3D5ad961dd-822?=
+ =?us-ascii?Q?0-43de-b5e4-bc88b0aab076;PReRC=3D1;FPR=3DEC21443C.FD754EA.89?=
+ =?us-ascii?Q?F5A569.D8A0E079.200C8;URLC=5FBE=3D4;URLC=5FBEC=3D4;URLC=5FAE?=
+ =?us-ascii?Q?=3D0;UMGPV=3D2263;UMEPV=3D9999;NoDLx=3D1;CGDLxSupported=3D1;?=
+ =?us-ascii?Q?BR=5FV=3DNone;DIR=3D1;PTRO=3Dmimecast.com;P2O=3Dbloomberg.ne?=
+ =?us-ascii?Q?t;P=5FCAUTH=3Dsoftpass;P=5FCAUTHR=3D201;P2BCL=3D1;BCL=3D1;CF?=
+ =?us-ascii?Q?P=3Dde3eb1cc-3e56-4210-beda-30d924425a90;HCFP=3D79b94c53-c05?=
+ =?us-ascii?Q?e-478c-8fb5-fe0ca0d50cb4;APP=3D8a1ec482-cff2-4190-b598-3d75f?=
+ =?us-ascii?Q?a19957a;GWS=5FRead=3DV2;SRCS=3DEST;CAUTH=3Dsoftpass;CAUTHR?=
+ =?us-ascii?Q?=3D201;CAUTH=5FCAT=3DAD;IVB=5FDBG=3DD2;HMEPV=3D10000;HMEPV2?=
+ =?us-ascii?Q?=3D2247;HMESV=3D3282;HMESV2=3D9999;SRESV=3D8174;BMASV=3D1106?=
+ =?us-ascii?Q?;BMESV=3D8928;BMAPV=3D537;BMEPV=3D7871;CMASV=3D829;CMAPV=3D2?=
+ =?us-ascii?Q?022;CBEBV=3D4473;CBEBV2=3D6780;CLEPV=3D132;URLF=5FDBG=3DDS:7?=
+ =?us-ascii?Q?;FFV=3DNSPM;FV=5FSCL=3D1;TP=5FFV=3DAllow;TP=5FFC=3DConnPolic?=
+ =?us-ascii?Q?y;TPV=5FSCL=3D-1;FV=3DAllow;FVS=3DTenant;FSCL=3D-1;TAP=5FEP?=
+ =?us-ascii?Q?=3D?=
+X-MS-Exchange-Organization-Processed-By-Gcc-Journaling: Journal Agent
+
+--_a3d420c8-f730-4bcd-bbef-8b58e2b26d33_
+Content-Type: multipart/alternative;
+	boundary="_32b5d79d-98be-43cc-9003-d8689f4944ac_"
+Content-ID: <ID_5FB06639000141C732F70044_0_108012@msclnjpmsgsv01>
+
+--_32b5d79d-98be-43cc-9003-d8689f4944ac_
+Content-Type: text/plain; charset=UTF-8
+Content-Disposition: inline
+Content-Transfer-Encoding: base64
+
+e05TTiBRSlQ3STFNQjJTSksgPEdPPn0KTmV3IFlvcmsgUG9zdDogTmV0ZmxpeCBkcm9wcyBjYXJv
+bHMgb24gZmlyZXBsYWNlIHZpZGVvLCBydWlucyBDaHJpc3RtYXMgZm9yIGJsb2dnZXIKCkFsZXJ0
+OiBTRUNVUklUSUVTIFs2XQpTb3VyY2U6IE5ZUCAoTmV3IFlvcmsgUG9zdCkKClRpY2tlcnMKICBO
+RkxYIFVTIChOZXRmbGl4IEluYykKClRvIGRlLWFjdGl2YXRlIHRoaXMgYWxlcnQsIGNsaWNrIGhl
+cmUKVG8gbW9kaWZ5IHRoaXMgYWxlcnQsIGNsaWNrIGhlcmUKClRoaXMgbWVzc2FnZSB3YXMgb3Jp
+Z2luYWxseSBzZW50IHRvIENBTiBPWkRFTUlSIHZpYSB0aGUgQmxvb21iZXJnIFRlcm1pbmFsLgoK
+
+--_32b5d79d-98be-43cc-9003-d8689f4944ac_
+Content-Type: text/html; charset=UTF-8
+Content-Disposition: inline
+Content-Transfer-Encoding: base64
+
+PGh0bWw+PGhlYWQ+PHRpdGxlPjwvdGl0bGU+PC9oZWFkPjxib2R5PjxhIGhyZWY9Imh0dHBzOi8v
+cHJvdGVjdC1ldS5taW1lY2FzdC5jb20vcy82OTBIQ3ZvbFJpM25ObFVROEJKNCIgdGl0bGU9IkNs
+aWNrIHRvIG9wZW4gdGhpcyBuZXdzIHN0b3J5IiA+TmV3IFlvcmsgUG9zdDogTmV0ZmxpeCBkcm9w
+cyBjYXJvbHMgb24gZmlyZXBsYWNlIHZpZGVvLCBydWlucyBDaHJpc3RtYXMgZm9yIGJsb2dnZXI8
+L2E+PGJyPjxicj5BbGVydDogPGEgaHJlZj0iaHR0cHM6Ly9wcm90ZWN0LWV1Lm1pbWVjYXN0LmNv
+bS9zLzlMQjJDd21WMmhXRThOSHFnUm1FIiB0aXRsZT0iQ2xpY2sgdG8gdmlldyB0aGUgbmV3cyBz
+dG9yaWVzIGZyb20gdGhpcyBmaWx0ZXIvdG9waWMiID5TRUNVUklUSUVTIFs2XTwvYT48YnI+U291
+cmNlOiBOWVAgKE5ldyBZb3JrIFBvc3QpPGJyPjxicj48Yj5UaWNrZXJzPC9iPjxicj4gIE5GTFgg
+VVMgKE5ldGZsaXggSW5jKTxicj48YnI+VG8gZGUtYWN0aXZhdGUgdGhpcyBhbGVydCwgY2xpY2sg
+PGEgaHJlZj0iaHR0cHM6Ly9wcm90ZWN0LWV1Lm1pbWVjYXN0LmNvbS9zLzhVUDZDeHZuOFUzNU1Y
+VVlMUzEyIiB0aXRsZT0iQ2xpY2sgdG8gZGVhY3RpdmF0ZSB0aGlzIGFsZXJ0IiA+aGVyZTwvYT48
+YnI+VG8gbW9kaWZ5IHRoaXMgYWxlcnQsIGNsaWNrIDxhIGhyZWY9Imh0dHBzOi8vcHJvdGVjdC1l
+dS5taW1lY2FzdC5jb20vcy9NUk9hQ3lybzdVUlBYNGZSdWoxYiIgdGl0bGU9IkNsaWNrIHRvIG1v
+ZGlmeSB0aGlzIGFsZXJ0IiA+aGVyZTwvYT48YnI+PGJyPlRoaXMgbWVzc2FnZSB3YXMgb3JpZ2lu
+YWxseSBzZW50IHRvIENBTiBPWkRFTUlSIHZpYSB0aGUgQmxvb21iZXJnIFRlcm1pbmFsLjxicj48
+YnI+PC9ib2R5PjwvaHRtbD4NCg==
+--_32b5d79d-98be-43cc-9003-d8689f4944ac_--
+
+--_a3d420c8-f730-4bcd-bbef-8b58e2b26d33_
+Content-Type: application/x-rimdevice-bloomberg-news-nlrt; name="x-rimdevice-bloomberg-news-nlrt.blp"
+Content-Disposition: attachment; filename="x-rimdevice-bloomberg-news-nlrt.blp"; size=33
+Content-Transfer-Encoding: base64
+
+NTA1ODIzOSAyNiBRSlQ3STFNQjJTSksgMTAxMiA1MSAw
+--_a3d420c8-f730-4bcd-bbef-8b58e2b26d33_--
+
+--_1ec55305-67bc-4635-8090-687f6c06cc7d_--

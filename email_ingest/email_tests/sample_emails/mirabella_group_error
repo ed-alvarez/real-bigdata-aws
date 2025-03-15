@@ -1,0 +1,204 @@
+Return-Path: <JournalFail@mirabella.uk>
+Received: from GBR01-LO2-obe.outbound.protection.outlook.com (mail-lo2gbr01lp2052.outbound.protection.outlook.com [104.47.21.52])
+ by inbound-smtp.eu-west-1.amazonaws.com with SMTP id dmsdso7a7muf8vij995in2sg2fpbnv7gcgirb2o1
+ for mirabella@ip-sentinel.net;
+ Sat, 14 Nov 2020 22:02:00 +0000 (UTC)
+Received-SPF: pass (spfCheck: domain of mirabella.uk designates 104.47.21.52 as permitted sender) client-ip=104.47.21.52; envelope-from=JournalFail@mirabella.uk; helo=mail-lo2gbr01lp2052.outbound.protection.outlook.com;
+Authentication-Results: amazonses.com;
+ spf=pass (spfCheck: domain of mirabella.uk designates 104.47.21.52 as permitted sender) client-ip=104.47.21.52; envelope-from=JournalFail@mirabella.uk; helo=mail-lo2gbr01lp2052.outbound.protection.outlook.com;
+ dmarc=none header.from=mirabella.onmicrosoft.com;
+X-SES-RECEIPT: AEFBQUFBQUFBQUFFdkloazFJZjhsMmdrNmhJbEdrZUVldnBKTkhsaVAvcUE1NTZ6LzJaYVRpS2tPMURWOVhoM0ROZHl4UnIwa3IyclZvN21sSGxMYUsyVXlsWHd6NGtJTlloWVRhYkxRdjR0UUlmVXViZ2VlZTlmNWYyMzNPZVN6OGpTN25OTkNVTmYyclBENmwrR24wZkoySVJudG5WQjBBakQ5R1R4RlByKzVkTTJDLzNNSFFZODI4L3lDNWsxdFM4Q2NXR3UveHI2L2lyNUFNbWpYWmg0RmNlNGdGK3pCcEtRa1ZWazJSY1kvZWlRRG8vVXl6NmFwaTAvRWl6NnhDMmhlZFlUVlpLRW52MlhBZ3V3UEtVUVhNZ1FTRDBMQ2NKZjgweUhyMG5qR3VhSGdaQzZRTk5xd0RRRWRoSUtlQXBTTnNzQ2tleHM9
+X-SES-DKIM-SIGNATURE: a=rsa-sha256; q=dns/txt; b=hc383CRS/EcpT3Hjo+W9j1E+9XjZvTanYecZJwr1kK/ewA5S4aktbKbUr4jP5lA3Dv9p2rkmoXffolwb4BS4PHhgHL3YwYZAo5S2oMjirzwaTtvTJaC+9t8SLGyNhuy2fYcm30L/Z9EjAdJCZjY6y5yiMU5AsE00qFLgNwnaT4Q=; c=relaxed/simple; s=shh3fegwg5fppqsuzphvschd53n6ihuv; d=amazonses.com; t=1605391320; v=1; bh=QYKRgKxBHCFWr0q4O4f++Ww3EC/PCsEBKnEXCrnSmo4=; h=From:To:Cc:Bcc:Subject:Date:Message-ID:MIME-Version:Content-Type:X-SES-RECEIPT;
+Content-Type: multipart/mixed;
+	boundary="_dffe5443-b24b-42c1-8888-7d5267691425_"
+Subject: HierarchySync_Ping_242569_26ece4c7-756d-44d2-b7a8-c7a9692d60b6
+To: PublicFolderMailboxes.924dc51ab5c24245a8f60fafa82bdbc1
+	<PublicFolderMailboxes.924dc51ab5c24245a8f60fafa82bdbc1@mirabella.onmicrosoft.com>
+From: Engagement Letters
+	<EngagementLetters_f84a3e12@mirabella.onmicrosoft.com>
+Sender: <MicrosoftExchange329e71ec88ae4615bbc36ab6ce41109e@mirabella.onmicrosoft.com>
+Message-ID: <87490aba-cf6d-4e7a-8059-82dbfacc3855@journal.report.generator>
+Date: Sat, 14 Nov 2020 22:01:59 +0000
+X-MS-PublicTrafficType: Email
+X-MS-Journal-Report:
+Return-Path: JournalFail@mirabella.uk
+X-MS-Exchange-Parent-Message-Id: <LNXP265MB068220BD422BC56F1EACD102EEE50@LNXP265MB0682.GBRP265.PROD.OUTLOOK.COM>
+Auto-Submitted: auto-generated
+X-MS-Exchange-Generated-Message-Source: Journal Agent
+X-MS-TrafficTypeDiagnostic: LOYP265MB2384:JournalingReport
+X-LD-Processed: 2e3cadcd-0cf8-419d-86a0-e17d7f408117,ExtAddr
+X-MS-Exchange-Transport-Forked: True
+Keywords:
+MIME-Version: 1.0
+X-OriginatorOrg: mirabella.onmicrosoft.com
+X-MS-Exchange-CrossTenant-AuthSource: LOYP265MB2384.GBRP265.PROD.OUTLOOK.COM
+X-MS-Exchange-CrossTenant-AuthAs: Internal
+X-MS-Exchange-CrossTenant-OriginalArrivalTime: 14 Nov 2020 22:01:59.3839
+ (UTC)
+X-MS-Exchange-CrossTenant-Network-Message-Id: 0ae8d360-71ae-4819-21b0-08d888e8e8e2
+X-MS-Exchange-CrossTenant-FromEntityHeader: Hosted
+X-MS-Exchange-Transport-CrossTenantHeadersStamped: LOYP265MB2384
+
+--_dffe5443-b24b-42c1-8888-7d5267691425_
+Content-Type: text/plain; charset="us-ascii"
+Content-Transfer-Encoding: 7bit
+
+Sender: EngagementLetters_f84a3e12@mirabella.onmicrosoft.com
+Subject: HierarchySync_Ping_242569_26ece4c7-756d-44d2-b7a8-c7a9692d60b6
+Message-Id: <LNXP265MB068220BD422BC56F1EACD102EEE50@LNXP265MB0682.GBRP265.PROD.OUTLOOK.COM>
+To: MNCCProposalCommunication_338d8bdb@mirabella.onmicrosoft.com, Expanded: PublicFolderMailboxes.924dc51ab5c24245a8f60fafa82bdbc1@mirabella.onmicrosoft.com
+To: EngagementLetters_f84a3e12@mirabella.onmicrosoft.com, Expanded: PublicFolderMailboxes.924dc51ab5c24245a8f60fafa82bdbc1@mirabella.onmicrosoft.com
+To: ClientPublicFolders_e3ec6686@mirabella.onmicrosoft.com, Expanded: PublicFolderMailboxes.924dc51ab5c24245a8f60fafa82bdbc1@mirabella.onmicrosoft.com
+
+--_dffe5443-b24b-42c1-8888-7d5267691425_
+Content-Type: message/rfc822
+
+Received: from LNXP265MB0682.GBRP265.PROD.OUTLOOK.COM (2603:10a6:600:15::22)
+ by LOYP265MB2384.GBRP265.PROD.OUTLOOK.COM (2603:10a6:600:121::5) with
+ Microsoft SMTP Server (version=TLS1_2,
+ cipher=TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384) id 15.20.3564.25; Sat, 14 Nov
+ 2020 22:01:59 +0000
+Received: from LNXP265MB0682.GBRP265.PROD.OUTLOOK.COM
+ ([fe80::5868:7e40:f1d2:fbab]) by LNXP265MB0682.GBRP265.PROD.OUTLOOK.COM
+ ([fe80::5868:7e40:f1d2:fbab%7]) with mapi id 15.20.3541.025; Sat, 14 Nov 2020
+ 22:01:59 +0000
+From: Engagement Letters
+	<EngagementLetters_f84a3e12@mirabella.onmicrosoft.com>
+To: PublicFolderMailboxes.924dc51ab5c24245a8f60fafa82bdbc1
+	<PublicFolderMailboxes.924dc51ab5c24245a8f60fafa82bdbc1@mirabella.onmicrosoft.com>
+Subject: HierarchySync_Ping_242569_26ece4c7-756d-44d2-b7a8-c7a9692d60b6
+Thread-Topic: HierarchySync_Ping_242569_26ece4c7-756d-44d2-b7a8-c7a9692d60b6
+Thread-Index: AQHWutHG45ATF/LrNUyk0IZg2y60ZQ==
+Date: Sat, 14 Nov 2020 22:01:59 +0000
+Message-ID:
+ <LNXP265MB068220BD422BC56F1EACD102EEE50@LNXP265MB0682.GBRP265.PROD.OUTLOOK.COM>
+Content-Language: en-US
+X-MS-Exchange-Organization-AuthAs: Internal
+X-MS-Exchange-Organization-AuthMechanism: 04
+X-MS-Exchange-Organization-AuthSource: LNXP265MB0682.GBRP265.PROD.OUTLOOK.COM
+X-MS-Exchange-Organization-TransportTrafficType: Email
+X-MS-Has-Attach:
+X-MS-Exchange-Organization-Network-Message-Id:
+ a0f52321-89ea-4145-de0c-08d888e8e8ba
+X-MS-Exchange-Organization-SCL: -1
+X-MS-TNEF-Correlator:
+X-MS-Exchange-Organization-RecordReviewCfmType: 0
+authentication-results: mirabella.onmicrosoft.com; dkim=none (message not
+ signed) header.d=none;mirabella.onmicrosoft.com; dmarc=none action=none
+ header.from=mirabella.onmicrosoft.com;
+x-ms-exchange-organization-recordreviewcfmtype: 0
+x-ms-exchange-organization-mapi-admin-submission:
+x-ms-exchange-organization-originalsize: 5217
+x-ms-exchange-organization-originalarrivaltime: 14 Nov 2020 22:01:59.0286
+ (UTC)
+x-ms-exchange-organization-messagesource: StoreDriver
+x-ms-exchange-organization-fromentityheader: Hosted
+x-ms-exchange-organization-messagedirectionality: Originating
+x-ms-exchange-organization-id: 2e3cadcd-0cf8-419d-86a0-e17d7f408117
+x-ms-exchange-organization-clientrequestedsendrichinfo: True
+x-ms-exchange-organization-bcc:
+x-ms-exchange-organization-submissionrecipientcount: 1
+x-ms-exchange-organization-orgeopforest: EUR03
+x-ms-exchange-organization-transporttraffictype: Email
+x-ms-publictraffictype: Email
+x-ms-exchange-organization-antispam-mailboxsubmissionfilter-policyloadtime:
+ MSFAPolicyLoadTime:0;
+x-ms-exchange-organization-usermbx-cpev: 14
+x-ms-exchange-organization-usermbx-24hrsusalrts: 0
+x-ms-exchange-organization-usermbx-24hrblockcnt: 0
+x-ms-exchange-organization-usermbx-24hrmsgssent: 0
+x-ms-exchange-organization-usermbx-minutesfromclientipfirstseentonow:
+ 1062349801
+x-ms-exchange-organization-usermbx-minutesfromclientiplastseentonow:
+ 1062349801
+x-ms-exchange-organization-usermbx-minutesfromcountryfirstseentonow:
+ 1062349801
+x-ms-exchange-organization-usermbx-minutesfromcountrylastseentonow: 1062349801
+x-ms-exchange-organization-usermbx-minutesfromclienttypefirstseentonow:
+ 1062349801
+x-ms-exchange-organization-usermbx-minutesfromclienttypelastseentonow:
+ 1062349801
+x-ms-exchange-organization-usermbx-currentmsgexternalrcptcount: 0
+x-ms-exchange-organization-aadsender-passwordlastset: 637189437979646528
+x-ms-exchange-organization-aadsender-creationtime: 637189437970000000
+x-ms-exchange-organization-orderedprecisionlatencyinprogress:
+ LSRV=LNXP265MB0682.GBRP265.PROD.OUTLOOK.COM:TOTAL-SUB=0.136|SA=0.046|MTSS-PEN=0.090(MTSSD-PEN=0.090(MTSSDSOS=0.020|MTSSDC=0.024|MTSSDSDM=0.037
+ (MTSSDSDM-Mailbox Submission Filter Agent=0.036)));2020-11-14T22:01:59.165Z
+x-ms-exchange-forest-arrivalhubserver: LOYP265MB2384.GBRP265.PROD.OUTLOOK.COM
+x-ms-exchange-organization-expirationstarttime: 14 Nov 2020 22:01:59.2077
+ (UTC)
+x-ms-exchange-organization-expirationstarttimereason: OriginalSubmit
+x-ms-exchange-organization-expirationinterval: 1:00:00:00.0000000
+x-ms-exchange-organization-expirationintervalreason: OriginalSubmit
+x-ms-exchange-organization-originalclientipaddress: 2603:10a6:600:15::22
+x-ms-exchange-organization-originalserveripaddress: 2603:10a6:600:121::5
+x-ms-exchange-organization-messagescope: 7f9ca305-828b-4006-a716-336d78258d1e
+x-ms-exchange-forest-messagescope: 7f9ca305-828b-4006-a716-336d78258d1e
+x-ms-exchange-organization-cross-premises-headers-processed:
+ LOYP265MB2384.GBRP265.PROD.OUTLOOK.COM
+x-ms-exchange-organization-antispam-protocolfilterhub-scancontext:
+ ProtocolFilterHub:SmtpOnEndOfData;
+x-ms-exchange-organization-accepteddomain: True
+x-ms-office365-filtering-correlation-id: a0f52321-89ea-4145-de0c-08d888e8e8ba
+x-ms-traffictypediagnostic: LOYP265MB2384:
+x-ms-exchange-organization-hygienepolicy: Premium
+x-ms-exchange-organization-replicationinfo:
+ ReplicaId=6b8eee44-3d81-3b82-3a88-c2e8e888d808;ReplicatingServerFqdn=CWLP265MB2369.GBRP265.PROD.OUTLOOK.COM
+x-ms-exchange-organization-messagelatency:
+ SRV=LNXP265MB0682.GBRP265.PROD.OUTLOOK.COM:TOTAL-SUB=0.144|SA=0.046|MTSS-PEN=0.098(MTSSD-PEN=0.098(MTSSDSOS=0.020|MTSSDC=0.024|MTSSDSDM=0.037
+ (MTSSDSDM-Mailbox Submission Filter
+ Agent=0.036)|SDSSO-PEN=0.008(SMSC-PEN=0.008)))
+x-ms-exchange-forest-language: en
+x-ms-exchange-forest-indexagent-0:
+ AQ0CZW4AARkAAAAPAAADH4sIAAAAAAAEAGMAAI3vAtIBAAAA
+x-ms-exchange-forest-indexagent: 1 36
+x-ms-exchange-forest-emailmessagehash: 00000000
+x-ms-exchange-organization-ispotentialintraorgmail: True
+x-ms-exchange-organization-antispam-precontentfilter-policyloadtime:
+ MAOSUB:0;MAOSUBLOAD:0;SAORES:0;SAORESLOAD:0;SLORES:0;SLORESLOAD:0;
+x-ms-exchange-organization-messagefingerprint:
+x-ms-exchange-organization-antispam-precontentfilter-scancontext:
+ CategorizerOnSubmitted;CategorizerOnResolved;
+x-ms-exchange-organization-avstamp-service: 1.0
+x-ms-exchange-organization-antimalware-tenantaction: 6
+x-ms-exchange-organization-recipient-limit-verified: True
+x-ms-exchange-organization-totalrecipientcount: 3
+x-ms-exchange-organization-replyallblocker-verdict: Allow
+x-ms-exchange-organization-asdirectionalitytype: 3
+x-ms-exchange-organization-rules-execution-history:
+ eb06ab76-43d2-4ea0-b027-bb80a7c6dbc3%%%19ffb971-43e2-4353-ac82-3ca4af1149c3
+x-ms-exchange-forest-rulesexecuted: LOYP265MB2384
+x-ms-exchange-organization-rulesexecuted: LOYP265MB2384
+x-ms-exchange-organization-antispam-contentfilter-scancontext:
+ CategorizerOnResolved;
+x-ms-exchange-organization-antiphish-v2: SKP-DLX-BLK-NOSAVESKP-INTRA-ORG
+x-ms-exchange-organization-extractiontags: SUBU;SUB64;
+x-ms-exchange-organization-extractiontagssubject:
+ HierarchySync_Ping_242569_26ece4c7-756d-44d2-b7a8-c7a9692d60b6
+x-ms-exchange-organization-extractiontagsfrom: Engagement Letters
+ <EngagementLetters_f84a3e12@mirabella.onmicrosoft.com>
+x-ms-exchange-organization-extractiontagssubjectnormalized: hlerarchysync plng
+ 242sb9 2bece4c7 7sbd 4d2 b7a8 c7a9b92dbobb
+x-ms-oob-tlc-oobclassifiers: OLM:1728;
+x-ms-exchange-organization-client-country: IPV6
+x-ms-exchange-organization-antispam-scancontext:
+ DIR:Originating;SFV:SKI;SKIP:0;
+x-ms-exchange-organization-antispam-postcontentfilter-scancontext:
+ CategorizerOnResolved;CategorizerOnRouted;
+x-microsoft-antispam: BCL:0;
+x-microsoft-antispam-message-info:
+ SILfye9x1Zp8Lz6bsVBVA5zS1VZ4BUhpAsuH22wZBM2W7MCErg8fIghulHVIfmlHeMTMNgw5OcniBucr865FK4t5C0PWg5WHJD1TZ/2/BIcrc3Q/2li7QrpHBMdjXXB34uPBtJPoLTFiorExr4tR4g==
+x-forefront-antispam-report:
+ CIP:255.255.255.255;CTRY:;LANG:en;SCL:-1;SRV:;IPV:NLI;SFV:SKI;H:LNXP265MB0682.GBRP265.PROD.OUTLOOK.COM;PTR:;CAT:NONE;SFS:;DIR:INB;
+x-ms-exchange-antispam-messagedata:
+ PZlirHyyD6wdeAUXrnF4h2oxet7FZotfJJhoD03B2gez00ezo3OGYCa/ctDtOB+lLmfZ8L/MyJSJ4B4aLwyu03xmS67HxGFH5EcAI6zUQQxj/duFPyPHpIs3/Md76DvbbDmmZ1OPgom8HyLox0HN2Z7/3HRhzmmpYU8jh7cjQcBgmGRYBmkDURXZbEudqxYmnikFZsxAzZwDihuIBxizHqOLROTKQwHZ70LSklBfbWp/65mN+8W0/nzqVl3bJGt+sV8xbmjp/ttvxaM5Z/+N8ihrTL6L2s6D/MxTfzqF4EZl/JOO+gzp7cb5ODY4yD2mktUs7Y8r2iv5N+NFO6t6l3eUUUqgVUzhX48F1BsyzCxc+F0JwwmW2r25x51doyheKiSdVjOv4hpeYi87+dmUQoZZWNFDlhzHKe3TX40N3/eSWISEm1w0dLatd19tFaZsUR5+YR5sx5luQN9qG5p55e3eirwFt9ik5sWau9aCdK0/1hMZlyFUf+RicIQ0FqzzAzqQ1hLYXLYEfCjgkO7pOymK00RXNrHPrb+8NYjc254=
+x-ms-exchange-organization-groupforkperf: VCL=0;VL=0
+x-ms-exchange-organization-cross-session-cache:
+ 00HOSFP=d0681ce4-c167-425f-9e79-dd6fef59d64b;CPEPV=14;SL=1;EMSL=1;SCL=-1;BL=0;RL=1;PID=0;EXPID=;EIPC2=1904,1607,1609,1803,1608,1903,796;MIPC2=;SpfResult=-1;SAUTHOP=1;DkimStatus=7;DkimSS=0;DmarcStatus=4;DmarcAction=0;AUTHRES=[mx.microsoft.com,1]{5,7,TgBvAG4AZQA=,}{9,7,TgBvAG4AZQA=,,YQBjAHQAaQBvAG4A|TgBvAG4AZQA=,aABlAGEAZABlAHIALgBmAHIAbwBtAA==|bQBpAHIAYQBiAGUAbABsAGEALgBvAG4AbQBpAGMAcgBvAHMAbwBmAHQALgBjAG8AbQA=}{2,7,TgBvAG4AZQA=,bQBlAHMAcwBhAGcAZQAgAG4AbwB0ACAAcwBpAGcAbgBlAGQA};MFP=fce6d704-5010-4199-a856-633770a348b4;PReRC=1;FPR=;URLC_BE=0;URLC_BEC=0;URLC_AE=0;CGDLxSupported=1;RMX=;DIR=3;GWS_Read=V2;EIO=9;ASC=0;HCFP=8f0fcf65-5c28-46bc-8576-0e2dea587c24;FFV=NSPM;FV_SCL=-1;FSCL=-1
+x-ms-exchange-organization-processed-by-gcc-journaling: Journal Agent
+Content-Type: text/plain; charset="us-ascii"
+Content-Transfer-Encoding: quoted-printable
+MIME-Version: 1.0
+
+
+--_dffe5443-b24b-42c1-8888-7d5267691425_--

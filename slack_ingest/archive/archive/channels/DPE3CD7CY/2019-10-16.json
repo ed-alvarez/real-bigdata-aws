@@ -1,0 +1,9 @@
+[
+ {
+  "type": "message",
+  "text": "Your Slack export has completed! You can download the file from <https://ipsentinel.slack.com/services/export|your export page>.",
+  "user": "USLACKBOT",
+  "ts": "1571295840.000100",
+  "team": "TP2JMH5U3"
+ }
+]

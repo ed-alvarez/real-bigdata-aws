@@ -1,0 +1,304 @@
+{
+    "cdr": {
+        "source": {
+            "source_id": "25d84204-364f-4975-b38c-ef2fbe7a8c1d",
+            "source_type": "call"
+        },
+        "date_of_action": "2022-09-09 10:47:23",
+        "origin_to": {
+            "persona_id": "25d84204-364f-4975-b38c-ef2fbe7a8c1d",
+            "persona_first_name": "Liz",
+            "persona_second_name": "Newton",
+            "persona_number": "+442038264491",
+            "persona_email": "liz.newton@melqart.com",
+            "persona_department": "Business Management"
+        },
+        "destination_from": {
+            "persona_id": "Unknown",
+            "persona_first_name": "Unknown",
+            "persona_second_name": "Unknown",
+            "persona_number": "800",
+            "persona_email": "Unknown",
+            "persona_department": "Unknown"
+        },
+        "participants": null
+    },
+    "transcript": {
+        "type": "zoom_transcript",
+        "source": {
+            "source_id": "25d84204-364f-4975-b38c-ef2fbe7a8c1d",
+            "source_type": "call"
+        },
+        "recording_id": "25d84204364f4975b38cef2fbe7a8c1d",
+        "start_time": "2022-09-09 10:47:27",
+        "end_time": "2022-09-09 10:48:39",
+        "content": [
+            {
+                "text": "Thank you for calling sk coaches. Please hold a line while we connect your call.",
+                "end_ts": "00:00:05.479",
+                "ts": "00:00:00.020",
+                "users": [
+                    {
+                        "username": "+442036736773",
+                        "multiple_people": false,
+                        "user_id": "+442036736773",
+                        "zoom_userid": "Unknown Speaker",
+                        "client_type": 0
+                    },
+                    {
+                        "username": "Melqart Asset Management UK Ltd",
+                        "multiple_people": false,
+                        "user_id": "85180477870493817096",
+                        "zoom_userid": "XD5VZiZVTMCrBnaw7Dw0iw",
+                        "client_type": 0
+                    }
+                ]
+            },
+            {
+                "text": "Six, seven,",
+                "end_ts": "00:00:07.890",
+                "ts": "00:00:06.640",
+                "users": []
+            },
+            {
+                "text": "I",
+                "end_ts": "00:00:08.760",
+                "ts": "00:00:07.900",
+                "users": [
+                    {
+                        "username": "+442036736773",
+                        "multiple_people": false,
+                        "user_id": "+442036736773",
+                        "zoom_userid": "Unknown Speaker",
+                        "client_type": 0
+                    }
+                ]
+            },
+            {
+                "text": "nine, ten, eleven, twelve,",
+                "end_ts": "00:00:11.090",
+                "ts": "00:00:09.060",
+                "users": []
+            },
+            {
+                "text": "I'm. A",
+                "end_ts": "00:00:19.490",
+                "ts": "00:00:18.420",
+                "users": []
+            },
+            {
+                "text": "Hello,",
+                "end_ts": "00:00:20.369",
+                "ts": "00:00:19.500",
+                "users": [
+                    {
+                        "username": "+442036736773",
+                        "multiple_people": false,
+                        "user_id": "+442036736773",
+                        "zoom_userid": "Unknown Speaker",
+                        "client_type": 0
+                    }
+                ]
+            },
+            {
+                "text": "Hello! Speak to Jasmine, please. He asked me him",
+                "end_ts": "00:00:25.250",
+                "ts": "00:00:20.950",
+                "users": [
+                    {
+                        "username": "+442036736773",
+                        "multiple_people": false,
+                        "user_id": "+442036736773",
+                        "zoom_userid": "Unknown Speaker",
+                        "client_type": 0
+                    },
+                    {
+                        "username": "Melqart Asset Management UK Ltd",
+                        "multiple_people": false,
+                        "user_id": "85180477870493817096",
+                        "zoom_userid": "XD5VZiZVTMCrBnaw7Dw0iw",
+                        "client_type": 0
+                    }
+                ]
+            },
+            {
+                "text": "last minutes, Liz Newton from Melcott. Yet",
+                "end_ts": "00:00:29.369",
+                "ts": "00:00:25.260",
+                "users": [
+                    {
+                        "username": "Melqart Asset Management UK Ltd",
+                        "multiple_people": false,
+                        "user_id": "85180477870493817096",
+                        "zoom_userid": "XD5VZiZVTMCrBnaw7Dw0iw",
+                        "client_type": 0
+                    }
+                ]
+            },
+            {
+                "text": "I spoke to you yesterday about the minibus from um from St. James's Square to the Lensbury Hotel in Teddington. I've made the booking, and I paid by credit card. Yes. Debit card yesterday.",
+                "end_ts": "00:00:44.599",
+                "ts": "00:00:29.620",
+                "users": [
+                    {
+                        "username": "Melqart Asset Management UK Ltd",
+                        "multiple_people": false,
+                        "user_id": "85180477870493817096",
+                        "zoom_userid": "XD5VZiZVTMCrBnaw7Dw0iw",
+                        "client_type": 0
+                    }
+                ]
+            },
+            {
+                "text": "Okay,",
+                "end_ts": "00:00:46.270",
+                "ts": "00:00:45.060",
+                "users": [
+                    {
+                        "username": "+442036736773",
+                        "multiple_people": false,
+                        "user_id": "+442036736773",
+                        "zoom_userid": "Unknown Speaker",
+                        "client_type": 0
+                    }
+                ]
+            },
+            {
+                "text": "Um. Do you want my booking reference.",
+                "end_ts": "00:00:49.739",
+                "ts": "00:00:46.580",
+                "users": [
+                    {
+                        "username": "Melqart Asset Management UK Ltd",
+                        "multiple_people": false,
+                        "user_id": "85180477870493817096",
+                        "zoom_userid": "XD5VZiZVTMCrBnaw7Dw0iw",
+                        "client_type": 0
+                    }
+                ]
+            },
+            {
+                "text": "Oh, no, I got to tell my hope.",
+                "end_ts": "00:00:52.389",
+                "ts": "00:00:50.070",
+                "users": [
+                    {
+                        "username": "+442036736773",
+                        "multiple_people": false,
+                        "user_id": "+442036736773",
+                        "zoom_userid": "Unknown Speaker",
+                        "client_type": 0
+                    }
+                ]
+            },
+            {
+                "text": "And",
+                "end_ts": "00:00:53.630",
+                "ts": "00:00:52.400",
+                "users": [
+                    {
+                        "username": "Melqart Asset Management UK Ltd",
+                        "multiple_people": false,
+                        "user_id": "85180477870493817096",
+                        "zoom_userid": "XD5VZiZVTMCrBnaw7Dw0iw",
+                        "client_type": 0
+                    }
+                ]
+            },
+            {
+                "text": "the minibus that I've booked. How many people can it take, please?",
+                "end_ts": "00:00:59.060",
+                "ts": "00:00:53.650",
+                "users": [
+                    {
+                        "username": "Melqart Asset Management UK Ltd",
+                        "multiple_people": false,
+                        "user_id": "85180477870493817096",
+                        "zoom_userid": "XD5VZiZVTMCrBnaw7Dw0iw",
+                        "client_type": 0
+                    }
+                ]
+            },
+            {
+                "text": "Sixteen,",
+                "end_ts": "00:01:00.890",
+                "ts": "00:00:59.700",
+                "users": [
+                    {
+                        "username": "+442036736773",
+                        "multiple_people": false,
+                        "user_id": "+442036736773",
+                        "zoom_userid": "Unknown Speaker",
+                        "client_type": 0
+                    }
+                ]
+            },
+            {
+                "text": "sixteen",
+                "end_ts": "00:01:02.520",
+                "ts": "00:01:00.900",
+                "users": [
+                    {
+                        "username": "Melqart Asset Management UK Ltd",
+                        "multiple_people": false,
+                        "user_id": "85180477870493817096",
+                        "zoom_userid": "XD5VZiZVTMCrBnaw7Dw0iw",
+                        "client_type": 0
+                    }
+                ]
+            },
+            {
+                "text": "fabulous. All right. That's wonderful.",
+                "end_ts": "00:01:05.190",
+                "ts": "00:01:02.590",
+                "users": [
+                    {
+                        "username": "+442036736773",
+                        "multiple_people": false,
+                        "user_id": "+442036736773",
+                        "zoom_userid": "Unknown Speaker",
+                        "client_type": 0
+                    },
+                    {
+                        "username": "Melqart Asset Management UK Ltd",
+                        "multiple_people": false,
+                        "user_id": "85180477870493817096",
+                        "zoom_userid": "XD5VZiZVTMCrBnaw7Dw0iw",
+                        "client_type": 0
+                    }
+                ]
+            },
+            {
+                "text": "Okay, that's all I wanted to know. Thank you so much for being the roof. All right. Perfect, Thank you. Bye-bye,",
+                "end_ts": "00:01:12.060",
+                "ts": "00:01:05.200",
+                "users": [
+                    {
+                        "username": "+442036736773",
+                        "multiple_people": false,
+                        "user_id": "+442036736773",
+                        "zoom_userid": "Unknown Speaker",
+                        "client_type": 0
+                    },
+                    {
+                        "username": "Melqart Asset Management UK Ltd",
+                        "multiple_people": false,
+                        "user_id": "85180477870493817096",
+                        "zoom_userid": "XD5VZiZVTMCrBnaw7Dw0iw",
+                        "client_type": 0
+                    }
+                ]
+            }
+        ]
+    },
+    "recording": {
+        "source": {
+            "source_id": "25d84204-364f-4975-b38c-ef2fbe7a8c1d",
+            "source_type": "call"
+        },
+        "type": "mp3",
+        "play_url": "https://file.zoom.us/file?jwt=eyJhbGciOiJIUzI1NiJ9.eyJoZGlnIjpmYWxzZSwiYXVkIjoiZmlsZSIsImlhdCI6MTY2MjkzMTk1OSwiZGlnIjoiODE5NTUxYmE2MDJiODdjNGJhN2RjNWRiODUxZDg5ZGRkNGFmNDU0ZWZlNjJhNjEzNTUwYmUzNjYyMjhjZjBiZSIsImlzcyI6ImNyb3NzZmlsZSIsImV4cCI6MTY2MjkzMzc1OCwib3JpIjoicGJ4d2ViIiwiaWljIjoiYXcxIn0.YjsXmIHjMPC3iel9VfrTk96TwGAcAFxHGGZ-5INibjg&path=zoomfs%3A%2F%2Fzoom-pbx%2Frecording%2F2022%2F9%2F9%2F23vOATmyRHmTaj4vhE2Usg%2FR_YTRIFsQjGIEoPiY2DmQw%2F25d84204-364f-4975-b38c-ef2fbe7a8c1d%2Fcall_recording_25d84204-364f-4975-b38c-ef2fbe7a8c1d_20220909104727.mp3",
+        "recording_id": "25d84204364f4975b38cef2fbe7a8c1d",
+        "download_url": "https://zoom.us/v2/phone/recording/download/bW5dR35BS-ObB9NfZh6L2w"
+    }
+}

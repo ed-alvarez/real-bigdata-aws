@@ -1,0 +1,260 @@
+Return-Path: <JournalFail@mirabella.uk>
+Received: from EUR01-DB5-obe.outbound.protection.outlook.com (mail-db5eur01lp0182.outbound.protection.outlook.com [213.199.154.182])
+ by inbound-smtp.eu-west-1.amazonaws.com with SMTP id cqssoem7aqkeseb1mvqgcvf0fedfs1i744cojdo1
+ for mirabella@ip-sentinel.net;
+ Fri, 18 Nov 2016 13:05:12 +0000 (UTC)
+X-SES-Spam-Verdict: PASS
+X-SES-Virus-Verdict: PASS
+Received-SPF: pass (spfCheck: domain of mirabella.uk designates 213.199.154.182 as permitted sender) client-ip=213.199.154.182; envelope-from=JournalFail@mirabella.uk; helo=mail-db5eur01lp0182.outbound.protection.outlook.com;
+Authentication-Results: amazonses.com;
+ spf=pass (spfCheck: domain of mirabella.uk designates 213.199.154.182 as permitted sender) client-ip=213.199.154.182; envelope-from=JournalFail@mirabella.uk; helo=mail-db5eur01lp0182.outbound.protection.outlook.com;
+X-SES-RECEIPT: AEFBQUFBQUFBQUFGSXU2dUxvK3Z4V0xtNm5HMjdpaDdQank4VlNsTXNndWUrUGJlN0E3ck5ITmxreHE1N01SY2JUbzN4S2ZYU1lhcU5hSERlazNKYWIxNW1Qcm1mY0dsU1F1azFQNWhUYjdzMEkrcElWMDFad2xOcjNnWjU0S3VTZlFkM3BPdGk5di9ZOGlFUVhGNWZVa0lJdm9ReWVQY000TU9MamVYRUdkcmpTOERBWE56dTJib09YMlV3NDBqSU5kYm9hR1pmMEV2RkRHemkxTVIxUFlqTTNEMXdleEozc2M0TDh0MElzb0F0THNEdS9lWFhSYjM2d1p2cUdqenZBVEFsZzFkN044UytXRzNNQ2ZIYjhiUGtzWWg3NUJDTQ==
+X-SES-DKIM-SIGNATURE: v=1; a=rsa-sha256; q=dns/txt; c=relaxed/simple;
+	s=ihchhvubuqgjsxyuhssfvqohv7z3u4hn; d=amazonses.com; t=1479474311;
+	h=X-SES-RECEIPT:Content-Type:Subject:CC:To:From:Message-ID:Date:MIME-Version;
+	bh=3sssWKprlMA7sgrlBfdeGAmd1jqfzNVpUzyQPGRHbWk=;
+	b=CwQ55hh7EDB8z8QJqSnpXQV29a3eeBCNK10oUSeyjqzYKF29oQ1ylv7HOC9u6gbF
+	T4Fi6ZvBxeiHafthv1fDiIXn/w27hb0Mm5glkOBpOmTfo26S08wnGQ+5DJ3VtgOUMMg
+	eYm3EMbyNkjS6GTG4f+/SJxDua7o6KlyMX9kij1w=
+Content-Type: multipart/mixed;
+	boundary="_cf07eb17-bcaa-4960-a219-252946e26555_"
+Subject: Joe Vittoria has invited you to 'On-boarding Master'
+CC: Joe Vittoria <joe@mirabella.uk>
+To: Agis Karzis-Anastasiou <agis@mirabella.uk>
+From: Joe Vittoria <joe@mirabella.uk>
+Sender:
+	<MicrosoftExchange329e71ec88ae4615bbc36ab6ce41109e@mirabella.onmicrosoft.com>
+Message-ID: <bbc3b70d-f236-4e74-9b97-af297f29179c@journal.report.generator>
+Date: Fri, 18 Nov 2016 13:05:11 +0000
+X-MS-Journal-Report:
+X-MS-Exchange-Parent-Message-Id: <DBXPR04MB160A0D827055D57C5DD80A7DBB00@DBXPR04MB160.eurprd04.prod.outlook.com>
+Auto-Submitted: auto-generated
+X-MS-Exchange-Generated-Message-Source: Journal Agent
+Keywords:
+MIME-Version: 1.0
+X-OriginatorOrg: mirabella.onmicrosoft.com
+
+--_cf07eb17-bcaa-4960-a219-252946e26555_
+Content-Type: text/plain; charset="us-ascii"
+Content-Transfer-Encoding: 7bit
+
+Sender: joe@mirabella.uk
+Subject: Joe Vittoria has invited you to 'On-boarding Master'
+Message-Id: <DBXPR04MB160A0D827055D57C5DD80A7DBB00@DBXPR04MB160.eurprd04.prod.outlook.com>
+To: agis@mirabella.uk
+Cc: joe@mirabella.uk
+
+--_cf07eb17-bcaa-4960-a219-252946e26555_
+Content-Type: message/rfc822
+
+Received: from DBXPR04MB160.eurprd04.prod.outlook.com (10.242.140.28) by
+ DBXPR04MB157.eurprd04.prod.outlook.com (10.242.140.14) with Microsoft SMTP
+ Server (version=TLS1_2, cipher=TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA384_P384) id
+ 15.1.721.10; Fri, 18 Nov 2016 13:05:10 +0000
+Received: from DBXPR04MB160.eurprd04.prod.outlook.com ([169.254.1.252]) by
+ DBXPR04MB160.eurprd04.prod.outlook.com ([169.254.1.252]) with mapi id
+ 15.01.0734.007; Fri, 18 Nov 2016 13:05:09 +0000
+From: Joe Vittoria <joe@mirabella.uk>
+To: Agis Karzis-Anastasiou <agis@mirabella.uk>
+CC: Joe Vittoria <joe@mirabella.uk>
+Subject: Joe Vittoria has invited you to 'On-boarding Master'
+Thread-Topic: Joe Vittoria has invited you to 'On-boarding Master'
+Thread-Index: AQHSQZxjA721UR7hxkC21+wIjP2/Mg==
+Date: Fri, 18 Nov 2016 13:05:09 +0000
+Message-ID: <DBXPR04MB160A0D827055D57C5DD80A7DBB00@DBXPR04MB160.eurprd04.prod.outlook.com>
+Reply-To: Joe Vittoria <joe@mirabella.uk>
+Accept-Language: en-GB, en-US
+Content-Language: en-US
+X-MS-Exchange-Organization-AuthAs: Internal
+X-MS-Exchange-Organization-AuthMechanism: 04
+X-MS-Exchange-Organization-AuthSource: DBXPR04MB160.eurprd04.prod.outlook.com
+X-MS-Has-Attach: yes
+X-MS-Exchange-Organization-Network-Message-Id: e24691b6-6bb2-4b10-3463-08d40fb38692
+X-MS-Exchange-Organization-SCL: -1
+X-MS-TNEF-Correlator:
+x-sprequestguid: 739bb89d-c04c-3000-bfa5-a47ee6080fa7
+x-spmailmessageid: 62d2c587-6945-495e-b58f-7130ea4e678d
+authentication-results: mirabella.uk; dkim=none (message not signed)
+ header.d=none;mirabella.uk; dmarc=none action=none header.from=mirabella.uk;
+x-ms-exchange-messagesentrepresentingtype: 1
+x-ms-exchange-organization-originalsize: 10257
+x-ms-exchange-organization-originalarrivaltime: 18 Nov 2016 13:05:09.6223
+ (UTC)
+x-ms-exchange-organization-messagesource: StoreDriver
+x-ms-exchange-organization-fromentityheader: Hosted
+x-ms-exchange-organization-messagedirectionality: Originating
+x-ms-exchange-organization-id: 2e3cadcd-0cf8-419d-86a0-e17d7f408117
+x-ms-exchange-organization-clientrequestedsendrichinfo: True
+X-MS-Exchange-Organization-BCC:
+x-ms-exchange-organization-originalclientipaddress: 104.146.182.206
+x-originating-ip: [104.146.182.206]
+x-ms-exchange-organization-originalserveripaddress: 10.141.241.143
+x-ms-exchange-organization-submissionrecipientcount: 2
+x-ms-exchange-organization-mailboxtype: HOSTED
+x-ms-exchange-organization-avstamp-service: 1.0
+x-ms-exchange-organization-antispam-report: SFV:SKI;SCL:-1
+x-forefront-antispam-report: SFV:SKI;SCL:-1SFV:SKI;SFS:;DIR:INB;SFP:;SCL:-1;SRVR:DBXPR04MB157;H:DBXPR04MB160.eurprd04.prod.outlook.com;FPR:;SPF:None;LANG:en;
+x-ms-exchange-organization-orderedprecisionlatencyinprogress: LSRV=DBXPR04MB160.eurprd04.prod.outlook.com:TOTAL-SUB=1.133|SA=0.054|MTSS-PEN=1.079(MTSSD-PEN=1.079(MTSSDC=0.033|MTSCAT=1.015(MTSCATSM=0.257
+ (MTSCATSM-Submission Malware=0.257)|MTSCATRM=0.044(MTSCATRM-Submission DLP
+ Policy Agent=0.043
+ (X-DLPLD=0.043))|MTSCATHD=0.710)));2016-11-18T13:05:10.755Z
+x-ms-exchange-forest-arrivalhubserver: DBXPR04MB157.eurprd04.prod.outlook.com
+x-ms-exchange-organization-cross-premises-headers-processed: DBXPR04MB157.eurprd04.prod.outlook.com
+x-ms-exchange-organization-exchange-diagnostics-stage-securedatacontainer: 0
+x-microsoft-exchange-diagnostics: 1;DBXPR04MB157;7:fHZ2kRLvK55+wlmnyffNJcccy2g59kiywuw9Xr9fxuGrn3KdR0hkOdY/50TfJCCUlmFC5t3aTJ15EZc+cKanP42Vm3PBrpyJEIOBo1eHgYWokemrgt4PWVS0DwLp2sIs4qzKwUgACvTGGrBz6+wXEWNoUkuGjzBGHuyJOqzb6aVznu26yAPepekkk8QEDvViNYIpf8D8mnkk2wHjQIFBp35FmqJ6tHoZkaU84JE5mE/Z0xfBURxC6YcjaJyiLZhDFKHOynuT+bLvFqegAE8aScGuo2k2YWES6zhV0gC5RBqD1zyP0WAB0V6AvqjXYwMxaiz3A4IeudcCtkm5VimQXT8pbzFE2er9OGI+jc6ZqnQ=;20:gDP4Rzm7eCnl6AyzxN7/LrgVxnFHAdRxb00zteTLqB4jAqnty67mHu4P6ACYzkenAKg/1lbLx7I2Mn1vIU8LS4+L98vEIzVGKlmFLPOl76z7M27LFJPJQ8diHqu+PlVcXGs+UKCf8cYQjhPkfVCoUzN702B5+pOlgWeR4hPf25s=
+x-ms-exchange-organization-antispam-protocolfilterhub-scancontext: SmtpOnEndOfData;ProtocolFilterHub:SmtpOnEndOfData;
+x-ms-office365-filtering-correlation-id: e24691b6-6bb2-4b10-3463-08d40fb38692
+x-microsoft-antispam: UriScan:;BCL:0;PCL:0;RULEID:(22001);SRVR:DBXPR04MB157;
+x-ms-exchange-organization-hygienepolicy: Premium
+x-ms-exchange-organization-messagelatency: SRV=DBXPR04MB160.eurprd04.prod.outlook.com:TOTAL-SUB=1.146|SA=0.054|MTSS-PEN=1.092(MTSSD-PEN=1.092(MTSSDC=0.033|MTSCAT=1.015(MTSCATSM=0.257
+ (MTSCATSM-Submission Malware=0.257)|MTSCATRM=0.044(MTSCATRM-Submission DLP
+ Policy Agent=0.043
+ (X-DLPLD=0.043))|MTSCATHD=0.710)|SDSSO-PEN=0.013(MTSSDM-PEN=0.013)))
+x-ms-exchange-organization-attachmentdetailsheaderstamp-success: 1.0
+x-ms-exchange-organization-attachmentdetails: 0:2Zyk3LPeGOBJS+QUeYGPw1n9j0tF53soH7xlFwZmpHc=:U:Png:QWR2ZXJ0aXNpbmdCcmFuZGluZw==::#:False:::N::
+x-ms-exchange-organization-messagefingerprint: 5CCAD87B.8F82174F.6475B3BB.C4E97EEC.20078
+x-ms-exchange-organization-antispam-precontentfilter-scancontext: CategorizerOnSubmitted;CategorizerOnResolved;
+x-ms-exchange-organization-recipient-limit-verified: True
+x-ms-exchange-organization-totalrecipientcount: 2
+x-ms-exchange-organization-transport-properties: DeliveryPriority=Normal
+x-ms-exchange-organization-prioritization: 1
+x-ms-exchange-organization-antispam-contentfilter-scancontext: CategorizerOnResolved;CategorizerOnRouted;
+x-ms-exchange-organization-tt-fingerprint: 5CCAD87B.8F82174F.6475B3BB.C4E97EEC.20078
+x-ms-exchange-organization-asdirectionalitytype: 3
+x-ms-exchange-organization-helordns: DBXPR04MB160.eurprd04.prod.outlook.com;
+x-exchange-antispam-report-test: UriScan:(156600954879566);
+x-exchange-antispam-report-cfa-test: BCL:0;PCL:0;RULEID:(102415395)(9101524098)(601004)(2401047)(8121501046)(3002001)(10201501046);SRVR:DBXPR04MB157;BCL:0;PCL:0;RULEID:;SRVR:DBXPR04MB157;
+x-ms-exchange-organization-antispam-scancontext: DIR:Originating;SFV:SKI;SKIP:0;
+x-ms-exchange-organization-antispam-postcontentfilter-scancontext: CategorizerOnResolved;CategorizerOnRouted;
+x-ms-exchange-organization-groupforkperf: VCL=0;VL=24
+x-ms-exchange-forest-indexagent-0: AQ0CZW4AAd0AAAAPAAADH4sIAAAAAAAEAD2NTU7DQAyFHaYlP1Xv4K
+ 5Y0TsgIUBIVXfdO4rbWArjaMZNxLG4IU6LkN7ivWf7809Rb5sPTvyU
+ 0XrGLMZuyPBTGU9ipkkIc0+JO5zFevzW696P3hVN8RifW6XUSbzggb
+ Jx2jZvOgw6O0XyH0/xwobXsSPjjBIXRsLIcz4zd3uH+Xh5f4z8mmRi
+ /NJWBkYaxx2+TCQDtR7P6ngIj1AGWK1g7XJTQe3NzZcPEBYVsIFw66
+ v7yOW9L5dQufFYwcbj/3mAdQ1N+AVzf9suEAEAAAEOzgFSZXRyaWV2
+ ZXJPcGVyYXRvciwxMCwyO1JldHJpZXZlck9wZXJhdG9yLDExLDI7UG
+ 9zdERvY1BhcnNlck9wZXJhdG9yLDEwLDA7UG9zdERvY1BhcnNlck9w
+ ZXJhdG9yLDExLDA7UG9zdFdvcmRCcmVha2VyRGlhZ25vc3RpY09wZX
+ JhdG9yLDEwLDA7UG9zdFdvcmRCcmVha2VyRGlhZ25vc3RpY09wZXJh
+ dG9yLDExLDA7VHJhbnNwb3J0V3JpdGVyUHJvZHVjZXIsMjAsNw==
+x-ms-exchange-forest-indexagent: 1 442
+x-ms-exchange-forest-emailmessagehash: 25E30957,E4EFA899
+x-ms-exchange-forest-language: en
+spamdiagnosticoutput: 1:0
+x-ms-exchange-organization-cross-session-cache: 00SL=1;EMSL=1;SCL=0;BL=0;RL=1;PID=0;PL=0;EXPID=;SAUTHOP=1;PReRC=2;NoDLx=1;EIO=9;EIPC1=2018,2055,2019,2056,2050,2051,2052,2054,2057,2053;MIPC1=;EIPC2=2018,2055,2019,2056,2050,2051,2052,2054,2057,2053;MIPC2=
+x-ms-exchange-organization-processed-by-gcc-journaling: Journal Agent
+Content-Type: multipart/related;
+	boundary="_004_DBXPR04MB160A0D827055D57C5DD80A7DBB00DBXPR04MB160eurprd_";
+	type="multipart/alternative"
+MIME-Version: 1.0
+
+--_004_DBXPR04MB160A0D827055D57C5DD80A7DBB00DBXPR04MB160eurprd_
+Content-Type: multipart/alternative;
+	boundary="_000_DBXPR04MB160A0D827055D57C5DD80A7DBB00DBXPR04MB160eurprd_"
+
+--_000_DBXPR04MB160A0D827055D57C5DD80A7DBB00DBXPR04MB160eurprd_
+Content-Type: text/plain; charset="us-ascii"
+Content-Transfer-Encoding: quoted-printable
+
+Here's the site that Joe Vittoria shared with you.
+Go to On-boarding Master<https://mirabella.sharepoint.com/onboarding/onboar=
+dingmaster?e=3D1%3A55ae8d88228544e0bea6b232247f7eab>
+Follow<https://mirabella.sharepoint.com/onboarding/onboardingmaster?FollowS=
+ite=3D1&SiteName=3DOn%2Dboarding%20Master> this site to get updates in your=
+ newsfeed.
+________________________________
+Get the OneDrive mobile app!<https://go.microsoft.com/fwlink/?linkid=3D8292=
+62> Available for [Android, iOS or Windows Phone] <https://go.microsoft.com=
+/fwlink/?linkid=3D829262>
+
+
+
+--_000_DBXPR04MB160A0D827055D57C5DD80A7DBB00DBXPR04MB160eurprd_
+Content-Type: text/html; charset="us-ascii"
+Content-Transfer-Encoding: quoted-printable
+
+<html>
+<head>
+<meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dus-ascii"=
+>
+<style type=3D"text/css">a { color: #0072bc; text-decoration: none; }</styl=
+e>
+</head>
+<body>
+<table border=3D"0" cellspacing=3D"0" cellpadding=3D"8" width=3D"600" dir=
+=3D"ltr">
+<tbody>
+<tr>
+<td align=3D"left" valign=3D"top">
+<div style=3D"font-family: 'Segoe UI Semilight', 'Segoe UI', Verdana, sans-=
+serif; color: #444444;">
+<div style=3D"margin-bottom: 21px; font-size: 18px;">Here's the site that J=
+oe Vittoria shared with you.</div>
+<div style=3D"font-size: 14px;">
+<table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" dir=3D"ltr">
+<tbody>
+<tr>
+<td align=3D"left" valign=3D"top">
+<div style=3D"margin-bottom: 8px; font-size: 28px; font-family: 'Segoe UI L=
+ight', 'Segoe UI', Verdana, sans-serif; color: #444444;">
+Go to <a href=3D"https://mirabella.sharepoint.com/onboarding/onboardingmast=
+er?e=3D1%3A55ae8d88228544e0bea6b232247f7eab">
+On-boarding Master</a></div>
+<div></div>
+<div id=3D"Follow" style=3D"font-size: 14px; font-family: 'Segoe UI', Verda=
+na, sans-serif; color: #444444;">
+<a href=3D"https://mirabella.sharepoint.com/onboarding/onboardingmaster?Fol=
+lowSite=3D1&amp;SiteName=3DOn%2Dboarding%20Master">Follow</a> this site to =
+get updates in your newsfeed.</div>
+<hr style=3D"width:100%;size:2;color:" #444444?=3D"">
+<div style=3D"font-size: 14px; font-family: 'Segoe UI', Verdana, sans-serif=
+; color: #444444;">
+<a href=3D"https://go.microsoft.com/fwlink/?linkid=3D829262">Get the OneDri=
+ve mobile app!</a> Available for
+<a href=3D"https://go.microsoft.com/fwlink/?linkid=3D829262"><img src=3D"ci=
+d:AdvertisingBranding" alt=3D"Android, iOS or Windows Phone"></a></div>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+</body>
+</html>
+
+--_000_DBXPR04MB160A0D827055D57C5DD80A7DBB00DBXPR04MB160eurprd_--
+
+--_004_DBXPR04MB160A0D827055D57C5DD80A7DBB00DBXPR04MB160eurprd_
+Content-Type: image/png; name="AdvertisingBranding"
+Content-Description: AdvertisingBranding
+Content-Disposition: inline; filename="AdvertisingBranding"; size=912;
+	creation-date="Fri, 18 Nov 2016 13:05:08 GMT";
+	modification-date="Fri, 18 Nov 2016 13:05:08 GMT"
+Content-ID: <AdvertisingBranding>
+Content-Transfer-Encoding: base64
+
+iVBORw0KGgoAAAANSUhEUgAAAH8AAAAWCAYAAADpRkOBAAAACXBIWXMAAAsTAAALEwEAmpwYAAAA
+GXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAx1JREFUeNrsWk2OmzAU9kTsE3U1
+u3CDsOwudFmp6nCDoSdoeoLSXVcVNyhzA09VqV0yJyi5AdyAniB9T/pQLBeG/8gm8ySLxGBsf+//
+mZvT6SR0+vHzl/f+3dtM1BDdc+leLhZGvGe6lLbujda/oYuHvxnto2wbs2roj/Cy/xhPl3hpTKfG
+gv6HWmgj06lJZjjWzy3tMtZp6E/4ZfRSlp4d+v6yZswNEM0ZktQmFwLOBVDrSmNmtCqiyZqOpAMs
+lou5fO6j61e6vmZlpXuyk+ZjoazdW4XxAgBxn8QEc5F7QcWJFMYXTSBNQBu0OcjHPph3B/COXddv
+/A47mX1FE5jJRc3zBcCSeNZ2ulesWmDrJpQ4JUAr0S9VodN5ppv9QNGEbc08W8UKRLb5SFisUjG/
+T9CSb9Re4X6nYMlkQaB9sALfwhLkiGl2wOAJbl3qzA97mhtbouBY0XLuKwBADIE/amMe2W9aEvkn
+EFpPZ3QD7dFcB+BwkBUj4Ml6gnuxAG0g49MaMNiCfX5m6B0LN9La0rA9eVA8D2039F1OBQ78wX3P
+hTAwH1nyCCQTXUA8AhxpqKbH0NzR5CjgeAPGe0rgFBqmIb2FWaGjocLchQrEMRlc2rZvnr8EGhOT
+RBYxunLXHoLVVHMRV8n8wanojPn+1JQjVmNG9x68Ei90teS8QFAbLwSWaL9La41US6dVX9025nN1
+az1w8ioNOhoITNqSzrX5fBuYz2Y/Upmu+Xz/OZ+/QpT+ODBa5zEPwsyCz5hDFE5907qTzUWZfZg3
+CUnpYwUKFECMTIl4bajU3Q18xR64+Abzb49aSyXoOQS2VC1AV5/vw+SpKUJl0ndaHnmwQLjlCOYz
+JRbscS3ORZ99VdvoEv2vNG3hPDHQNn3QGJ3QM/5MZ9NTa38yIh4pTC1bT0XXkOoNdUuBoQLN1vkN
+tU+ItwYH211SvbLl/xxR+pRg8RdJH+jn9x7Dvkxs2fKJ95TqOCkne10PfMqbhg84Nwgi0qrGTX0J
+Jg5tVH8+fRTn7w8l3FcK0EJx/ggirqpmC6hX6AKxUfae/RNgAA4YUyIv6v79AAAAAElFTkSuQmCC
+
+--_004_DBXPR04MB160A0D827055D57C5DD80A7DBB00DBXPR04MB160eurprd_--
+
+--_cf07eb17-bcaa-4960-a219-252946e26555_--

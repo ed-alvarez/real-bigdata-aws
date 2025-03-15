@@ -1,0 +1,4 @@
+aws_lambda_logging
+elasticsearch==7.17.6
+elasticsearch-dsl==7.4.0
+python_dotenv

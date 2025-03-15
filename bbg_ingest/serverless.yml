@@ -1,0 +1,591 @@
+service: bloomberg
+org: hogbinj
+app: ingest
+variablesResolutionMode: 20210326
+configValidationMode: error
+
+# https://theburningmonk.com/cloudformation-ref-and-getatt-cheatsheet/
+
+provider:
+  name: aws
+  runtime: python3.8
+  stage: ${opt:stage,"dev"}
+  lambdaHashingVersion: 20201221
+  deploymentBucket:
+    name: ${self:provider.stage}-deployment-serverless-ips
+  deploymentPrefix: ${self:provider.stage}-${self:service}
+  iam:
+    role:
+      name: ${self:provider.stage}-${self:service}-role
+      statements:
+        - Effect: "Allow"
+          Action:
+            - "states:StartExecution"
+            - "states:DescribeExecution"
+          Resource:
+            - !Sub 'arn:aws:states:${AWS::Region}:${AWS::AccountId}:stateMachine:${self:provider.stage}-parseBBGFiles'
+            - !Sub 'arn:aws:states:${AWS::Region}:${AWS::AccountId}:stateMachine:${self:provider.stage}-historicBBGFiles'
+#            - Fn::GetAtt: [parseBloombergFiles, Arn]
+#            - Fn::GetAtt: [historicBloombergFiles, Arn]
+#            - !Ref parseBloombergFiles
+#            - !Ref historicBloombergFiles
+        - Effect: "Allow"
+          Action:
+            - "s3:ListBucket"
+          Resource:
+            - "arn:aws:s3:::*"
+        - Effect: "Allow"
+          Action:
+            - "s3:*Object"
+          Resource:
+            - "arn:aws:s3:::*"
+        - Effect: "Allow"
+          Action:
+            - "kms:Decrypt"
+            - "kms:GenerateDataKey"
+          Resource:
+            - "*"
+        - Effect: "Allow"
+          Action:
+            - "ssm:GetParameter"
+          Resource:
+            - "*"
+        - Effect: 'Allow'
+          Action:
+            - "sns:Publish"
+          Resource:
+            - !Ref AlarmTopic
+  region: eu-west-1
+  environment:
+    STAGE: ${self:provider.stage}
+    LOGGING_LEVEL: ${self:custom.LOGGING_LEVEL.${self:provider.stage}}
+
+functions:
+  fnStepLaunch:
+    handler: bbg_src/step_function_launch/handler.lambda_handler
+    name: ${self:provider.stage}-bbgParse-step-function-launch
+    description: Launch Daily Download Step Function
+    memorySize: ${self:custom.launch_step_function_memory.${self:provider.stage}}
+    timeout: ${self:custom.launch_step_function_timeout.${self:provider.stage}}
+    environment:
+      STEP_FN_ARN: !Sub 'arn:aws:states:${AWS::Region}:${AWS::AccountId}:stateMachine:${self:provider.stage}-parseBBGFiles'
+    package:
+      patterns:
+        - "../shared/shared_src/**"
+        - "!node_modules/**"
+        - "!bbg_tests/**"
+        - "!bbg_src/**"
+        - "bbg_src/step_function_launch/**"
+
+  fnFileDownload:
+    handler: bbg_src/file_download_lambda/handler.lambda_handler
+    name: ${self:provider.stage}-bbgParse-file-download
+    onError: !Ref AlarmTopic
+    description: Download Daily Archive from Bloomberg
+    memorySize: ${self:custom.download_lambda_memory.${self:provider.stage}}
+    timeout: ${self:custom.download_lambda_timeout.${self:provider.stage}}
+    vpc:
+      securityGroupIds:
+        - sg-04e9bad922c54367e
+      subnetIds:
+        - subnet-03b8bedf3b9ae9814
+        - subnet-0d00a216c4ab6159e
+    environment:
+      STORE_TYPE: ssm
+      SSH_HOST: ftpcom.bloomberg.com
+      SSH_PORT: 30206
+      SSH_FILE_KEY: bbgsshkey.pem
+      SSH_PASSPHRASE_KEY: bbgsshkeypass
+      SSH_PASSWORD_KEY: bbgsshpass
+    package:
+      patterns:
+        - "../shared/shared_src/**"
+        - "!node_modules/**"
+        - "!bbg_tests/**"
+        - "!bbg_src/**"
+        - "bbg_src/file_download_lambda/**"
+
+  fnFileDecode:
+    handler: bbg_src/files_to_decode_lambda/handler.lambda_handler
+    name: ${self:provider.stage}-bbgParse-file-decode
+    description: Decode Downloaded BBG Files
+    memorySize: ${self:custom.decode_lambda_memory.${self:provider.stage}}
+    timeout: ${self:custom.decode_lambda_timeout.${self:provider.stage}}
+    environment:
+      STORE_TYPE: ssm
+      PGP_BINARY: gpg
+      PGP_PEMFILE_KEY: bbgprivkey.pem
+      PGP_PASSPHRASE_KEY: bbgprivkeypass
+    package:
+      patterns:
+        - "../shared/shared_src/**"
+        - "!node_modules/**"
+        - "!bbg_tests/**"
+        - "!bbg_src/**"
+        - "bbg_src/files_to_decode_lambda/**"
+
+  fnBBGIBUpload:
+    handler: bbg_src/ib_upload_lambda/handler.lambda_handler
+    name: ${self:provider.stage}-bbgParse-ib-upload
+    description: Parse BBG IB XML, Create json and upload to ES
+    memorySize: ${self:custom.ib_lambda_memory.${self:provider.stage}}
+    timeout: ${self:custom.ib_lambda_timeout.${self:provider.stage}}
+    environment:
+      UPLOAD_TO_ES: True
+      AWS_TIMEOUT_MILLISECONDS: ${self:custom.IB_AWS_TIMEOUT_MILLISECONDS.${self:provider.stage}}
+      ES_INDEX: ${ssm:/elastic_app/${self:provider.stage}/bbg_ib/index}
+      LOGGING_LEVEL: ${self:custom.LOGGING_LEVEL.${self:provider.stage}}
+      ES_HOST: ${ssm:/elastic_cluster/${self:provider.stage}}
+      ES_PASSWORD: ${ssm:/elastic_app/${self:provider.stage}/bbg_ib/password}
+      ES_PORT: 9243
+      ES_URL: "https:"
+      ES_USER: ${ssm:/elastic_app/${self:provider.stage}/bbg_ib/user}
+      TIKA_SERVER_JAR: "file:///opt/tika-server.jar"
+      TIKA_JAVA: "/opt/lib/jvm/java-1.8.0-openjdk-1.8.0.252.b09-2.lambda2.0.1.x86_64/jre/bin/java"
+    package:
+      patterns:
+        - "../shared/shared_src/**"
+        - "!node_modules/**"
+        - "!bbg_tests/**"
+        - "!bbg_src/**"
+        - "bbg_src/ib_upload_lambda/**"
+    layers:
+      - ${cf:layers-${self:provider.stage}.ApacheTikaLayer}
+      - ${cf:layers-${self:provider.stage}.Java8Layer}
+
+  fnBBGMSGUpload:
+    handler: bbg_src/msg_upload_lambda/handler.lambda_handler
+    name: ${self:provider.stage}-bbgParse-msg-upload
+    description: Parse BBG MSG XML, Create json and upload to ES
+    memorySize: ${self:custom.msg_lambda_memory.${self:provider.stage}}
+    timeout: ${self:custom.msg_lambda_timeout.${self:provider.stage}}
+    environment:
+      UPLOAD_TO_ES: True
+      BATCH_UPLOAD: True
+      MSG_BATCH_SIZE: 1000
+      MSG_LIST_SIZE: 10000000
+      MSG_AWS_TIMEOUT_MILLISECONDS: ${self:custom.MSG_AWS_TIMEOUT_MILLISECONDS.${self:provider.stage}}
+      ES_INDEX: ${ssm:/elastic_app/${self:provider.stage}/bbg_msg/index}
+      LOGGING_LEVEL: ${self:custom.LOGGING_LEVEL.${self:provider.stage}}
+      ES_HOST: ${ssm:/elastic_cluster/${self:provider.stage}}
+      ES_PASSWORD: ${ssm:/elastic_app/${self:provider.stage}/bbg_msg/password}
+      ES_PORT: 9243
+      ES_URL: "https:"
+      ES_USER: ${ssm:/elastic_app/${self:provider.stage}/bbg_msg/user}
+      TIKA_SERVER_JAR: "file:///opt/tika-server.jar"
+      TIKA_JAVA: "/opt/lib/jvm/java-1.8.0-openjdk-1.8.0.252.b09-2.lambda2.0.1.x86_64/jre/bin/java"
+    package:
+      patterns:
+        - "../shared/shared_src/**"
+        - "!node_modules/**"
+        - "!bbg_tests/**"
+        - "!bbg_src/**"
+        - "bbg_src/msg_upload_lambda/**"
+    layers:
+      - ${cf:layers-${self:provider.stage}.ApacheTikaLayer}
+      - ${cf:layers-${self:provider.stage}.Java8Layer}
+
+  fnFileArchive:
+    handler: bbg_src/file_archive_lambda/file_archive.lambda_handler
+    name: ${self:provider.stage}-bbgParse-file-archive
+    description: Tidy up files and move to Archive
+    memorySize: ${self:custom.file_archive_lambda_memory.${self:provider.stage}}
+    timeout: ${self:custom.file_archive_lambda_timeout.${self:provider.stage}}
+    package:
+      patterns:
+        - "../shared/shared_src/**"
+        - "!node_modules/**"
+        - "!bbg_tests/**"
+        - "!bbg_src/**"
+        - "./bbg_src/file_archive_lambda/**"
+
+stepFunctions:
+  stateMachines:
+    parseBloombergFiles:
+      name: ${self:provider.stage}-parseBBGFiles
+      loggingConfig:
+        level: ALL
+        includeExecutionData: true
+        destinations:
+          - Fn::GetAtt: [StepFunctionLogs, Arn]
+      definition:
+        Comment: Orchestrate the Bloomberg ingestion process
+        StartAt: fnFileDownload
+        States:
+          fnFileDownload:
+            Type: Task
+            Resource:
+              Fn::GetAtt: [fnFileDownload, Arn]
+            Retry:
+            - ErrorEquals:
+              - States.Timeout
+              - Lambda.ServiceException
+              IntervalSeconds: 1800
+              MaxAttempts: 3
+              BackoffRate: 3
+            Catch:
+            - ErrorEquals: [ "States.Runtime" ]
+              Next: RunTimeErrorFallback
+            - ErrorEquals: [ "States.TaskFailed" ]
+              Next: TaskFailedErrorFallback
+            - ErrorEquals: [ "States.Timeout" ]
+              Next: TimeoutErrorFallback
+            TimeoutSeconds: ${self:custom.download_lambda_timeout.${self:provider.stage}}
+            ResultPath: "$"
+            Next: ChooseDecodeOrWait
+
+          ChooseDecodeOrWait:
+            Type: Choice
+            Choices:
+            - Variable: "$.error"
+              BooleanEquals: true
+              Next: WaitAndRetry
+            Default: IterateOverDownloadFiles
+
+          WaitAndRetry:
+            Type: Wait
+            TimestampPath: "$.wait_until"
+            Next: fnFileDownload
+
+          IterateOverDownloadFiles:
+            Type: Choice
+            Choices:
+            - Variable: "$.has_files"
+              BooleanEquals: true
+              Next: fnFileDecode
+            Default: BBG_IB_Check
+
+          fnFileDecode:
+            Type: Task
+            Resource:
+              Fn::GetAtt: [fnFileDecode,Arn]
+            Catch:
+            - ErrorEquals: [ "States.Runtime" ]
+              Next: RunTimeErrorFallback
+            - ErrorEquals: [ "States.TaskFailed" ]
+              Next: TaskFailedErrorFallback
+            - ErrorEquals: [ "States.Timeout" ]
+              Next: TimeoutErrorFallback
+            TimeoutSeconds: ${self:custom.decode_lambda_timeout.${self:provider.stage}}
+            ResultPath: "$"
+            Next: IterateOverDownloadFiles
+
+          BBG_IB_Check:
+            Type: Choice
+            Choices:
+            - Variable: "$.bbg_files.IB_XML_to_process"
+              BooleanEquals: true
+              Next: fnIterateIBUpload
+            Default: BBG_MSG_Check
+
+          fnIterateIBUpload:
+            Type: Choice
+            Choices:
+            - Variable: "$.bbg_files.IB_XML_to_process"
+              BooleanEquals: true
+              Next: fnIBUpload
+            Default: BBG_MSG_Check
+
+          fnIBUpload:
+            Type: Task
+            Resource:
+              Fn::GetAtt: [ fnBBGIBUpload,Arn ]
+            ResultPath: "$"
+            Catch:
+              - ErrorEquals: [ "States.ALL" ]
+                Next: BBG_IB_Error_Handler
+            TimeoutSeconds: ${self:custom.ib_lambda_timeout.${self:provider.stage}}
+            Next: fnIterateIBUpload
+
+          BBG_MSG_Check:
+            Type: Choice
+            Choices:
+            - Variable: "$.bbg_files.MSG_XML_to_process"
+              BooleanEquals: true
+              Next: fnIterateMSGUpload
+            Default: fnFileArchive
+
+          fnIterateMSGUpload:
+            Type: Choice
+            Choices:
+            - Variable: "$.bbg_files.MSG_XML_to_process"
+              BooleanEquals: true
+              Next: fnMSGUpload
+            Default: fnFileArchive
+
+          fnMSGUpload:
+            Type: Task
+            Resource:
+              Fn::GetAtt: [ fnBBGMSGUpload,Arn ]
+            ResultPath: "$"
+            Catch:
+              - ErrorEquals: [ "States.ALL" ]
+                Next: BBG_MSG_Error_Handler
+            TimeoutSeconds: ${self:custom.msg_lambda_timeout.${self:provider.stage}}
+            Next: fnIterateMSGUpload
+
+          fnFileArchive:
+            Type: Task
+            Resource:
+              Fn::GetAtt: [ fnFileArchive,Arn ]
+            Parameters:
+              "client_name.$": "$.client_name"
+              "bbg_files.$": "$.bbg_files"
+            ResultPath: "$"
+            Next: Done
+
+          BBG_IB_Error_Handler:
+            Type: Task
+            Resource: arn:aws:states:::sns:publish
+            Parameters:
+              "TopicArn": !Ref AlarmTopic
+              "Message.$": "$.input.message"
+            Next: BBG_MSG_Check
+
+          BBG_MSG_Error_Handler:
+            Type: Task
+            Resource: arn:aws:states:::sns:publish
+            Parameters:
+              "TopicArn": !Ref AlarmTopic
+              "Message.$": "$.input.message"
+            Next: Done
+
+          RunTimeErrorFallback:
+            Type: Fail
+            Cause: "This is a fallback from a Run Time lambda function exception"
+            Error: "RunTimeError"
+
+          TaskFailedErrorFallback:
+            Type: Fail
+            Cause: "This is a fallback from a Task Failed lambda function exception"
+            Error: "TaskFailedError"
+
+          TimeoutErrorFallback:
+            Type: Fail
+            Cause: "This is a fallback from a Timeout exception"
+            Error: "TimeoutError"
+
+          Done:
+            Type: Pass
+            End: true
+
+    historicBloombergFiles:
+      name: ${self:provider.stage}-historicBBGFiles
+      loggingConfig:
+        level: ALL
+        includeExecutionData: true
+        destinations:
+          - Fn::GetAtt: [StepFunctionLogs, Arn]
+      definition:
+        Comment: Orchestrate the Historic Bloomberg ingestion process
+        StartAt: BBG_IB_Check
+        States:
+          BBG_IB_Check:
+            Type: Choice
+            Choices:
+              - Variable: "$.bbg_files.IB_XML_to_process"
+                BooleanEquals: true
+                Next: fnIterateIBUpload
+            Default: BBG_MSG_Check
+
+          fnIterateIBUpload:
+            Type: Choice
+            Choices:
+              - Variable: "$.bbg_files.IB_XML_to_process"
+                BooleanEquals: true
+                Next: fnIBUpload
+            Default: BBG_MSG_Check
+
+          fnIBUpload:
+            Type: Task
+            Resource:
+              Fn::GetAtt: [ fnBBGIBUpload,Arn ]
+            ResultPath: "$"
+            Catch:
+              - ErrorEquals: [ "States.ALL" ]
+                Next: BBG_IB_Error_Handler
+            TimeoutSeconds: ${self:custom.ib_lambda_timeout.${self:provider.stage}}
+            Next: fnIterateIBUpload
+
+          BBG_MSG_Check:
+            Type: Choice
+            Choices:
+              - Variable: "$.bbg_files.MSG_XML_to_process"
+                BooleanEquals: true
+                Next: fnIterateMSGUpload
+            Default: fnFileArchive
+
+          fnIterateMSGUpload:
+            Type: Choice
+            Choices:
+              - Variable: "$.bbg_files.MSG_XML_to_process"
+                BooleanEquals: true
+                Next: fnMSGUpload
+            Default: fnFileArchive
+
+          fnMSGUpload:
+            Type: Task
+            Resource:
+              Fn::GetAtt: [ fnBBGMSGUpload,Arn ]
+            ResultPath: "$"
+            Catch:
+              - ErrorEquals: [ "States.ALL" ]
+                Next: BBG_MSG_Error_Handler
+            TimeoutSeconds: ${self:custom.msg_lambda_timeout.${self:provider.stage}}
+            Next: fnIterateMSGUpload
+
+          fnFileArchive:
+            Type: Task
+            Resource:
+              Fn::GetAtt: [ fnFileArchive,Arn ]
+            Parameters:
+              "client_name.$": "$.client_name"
+              "bbg_files.$": "$.bbg_files"
+            ResultPath: "$"
+            Next: Done
+
+          BBG_IB_Error_Handler:
+            Type: Task
+            Resource: arn:aws:states:::sns:publish
+            Parameters:
+              "TopicArn": !Ref AlarmTopic
+              "Message.$": "$.input.message"
+            Next: BBG_MSG_Check
+
+          BBG_MSG_Error_Handler:
+            Type: Task
+            Resource: arn:aws:states:::sns:publish
+            Parameters:
+              "TopicArn": !Ref AlarmTopic
+              "Message.$": "$.input.message"
+            Next: Done
+
+
+          Done:
+            Type: Pass
+            End: true
+
+resources:
+  Resources:
+    StepFunctionLogs:
+      Type: AWS::Logs::LogGroup
+      Properties:
+        LogGroupName: /stepfunction/${self:provider.stage}-parseBBGFiles
+    AlarmTopic:
+      Type: AWS::SNS::Topic
+      Properties:
+        TopicName: ${self:custom.alertDispatchTopic}
+
+package:
+  individually: true
+
+
+plugins:
+  - serverless-stage-manager
+  - serverless-step-functions
+  - serverless-python-requirements
+  - serverless-plugin-aws-alerts
+
+custom:
+
+  pythonRequirements:
+    dockerizePip: non-linux
+    slim: true
+    useDownloadCache: false
+    useStaticCache: false
+    invalidateCaches: true
+    noDeploy:
+      - pytest
+      - mock
+      - moto[sns]
+      - moto[s3]
+
+  alerts:
+    dashboards: true
+    topics:
+      stepFnAlert:
+        alarm:
+          topic: !Ref AlarmTopic
+          notifications:
+          - protocol: email
+            endpoint: james@ip-sentinel.com
+
+    definitions:  # these defaults are merged with your definitions
+      stepFnTimeout:
+        namespace: 'AWS/States'
+        metric: executionsTimedOut
+        threshold: 1
+        statistic: Sum
+        period: 60
+        evaluationPeriods: 1
+        datapointsToAlarm: 1
+        comparisonOperator: GreaterThanOrEqualToThreshold
+        treatMissingData: ignore
+        alarmActions:
+          - stepFnAlert
+
+    alarms:
+      - stepFnTimeout
+
+#        topics:
+#          ok: ${self:custom.step_alarm_sns}
+#          alarm: ${self:custom.step_alarm_sns}
+#          insufficientData: ${self:custom.step_alarm_sns}
+#        metrics:
+#          - executionsTimedOut
+#          - executionsFailed
+#          - executionsAborted
+#          - executionThrottled
+#        treatMissingData: ignore
+
+  stages:
+    - dev
+    - prod
+
+  alertDispatchTopic: "${self:service}-alert-dispatch-${self:provider.stage}"
+
+  launch_step_function_timeout:
+    dev: 60
+    prod: 60
+  launch_step_function_memory:
+      dev: 1792
+      prod: 1792
+  download_lambda_timeout:
+    dev: 600
+    prod: 600
+  download_lambda_memory:
+    dev: 1792
+    prod: 1792
+  decode_lambda_timeout:
+    dev: 300
+    prod: 300
+  decode_lambda_memory:
+    dev: 3008
+    prod: 3008
+  ib_lambda_timeout:
+    dev: 900
+    prod: 900
+  ib_lambda_memory:
+    dev: 3538
+    prod: 3538
+  msg_lambda_timeout:
+    dev: 900
+    prod: 900
+  msg_lambda_memory:
+    dev: 5307
+    prod: 5307
+  file_archive_lambda_timeout:
+    dev: 300
+    prod: 300
+  file_archive_lambda_memory:
+    dev: 1792
+    prod: 1792
+  MSG_AWS_TIMEOUT_MILLISECONDS:
+    dev: 240000
+    prod: 240000
+  IB_AWS_TIMEOUT_MILLISECONDS:
+    dev: 240000
+    prod: 240000
+  LOGGING_LEVEL:
+    dev: INFO
+    prod: INFO

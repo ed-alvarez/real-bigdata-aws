@@ -1,0 +1,48 @@
+[
+ {
+  "type": "message",
+  "text": "Your Corporate Export application has been approved, and you can now <https://ipsentinel.slack.com/services/export|perform Corporate Exports> for your workspace.",
+  "user": "USLACKBOT",
+  "ts": "1571157827.000400",
+  "team": "TP2JMH5U3"
+ },
+ {
+  "type": "message",
+  "text": "At the moment, anyone in your workspace can invite a new member. If you like, you can restrict that to just administrators.\n<slack-action://BSLACKBOT/users-invites/invites-only-admins/restrict/|Only allow administrators to invite>",
+  "user": "USLACKBOT",
+  "ts": "1571156306.000300",
+  "team": "TP2JMH5U3"
+ },
+ {
+  "type": "message",
+  "text": "At the moment anyone in your workspace can invite a new member. If you like, you can change that so invitations require admin approval. To turn it on, head over to the *<https://my.slack.com/admin/settings#invites|settings & permission page>*.",
+  "user": "USLACKBOT",
+  "ts": "1571156270.000200",
+  "team": "TP2JMH5U3"
+ },
+ {
+  "type": "message",
+  "subtype": "bot_message",
+  "text": "You\u2019ve upgraded your Slack workspace :tada:. Now\u2019s a good time to make sure your whole team is here.",
+  "ts": "1571156270.000100",
+  "user": "USLACKBOT",
+  "username": "slackbot",
+  "bot_id": "B01",
+  "attachments": [
+   {
+    "callback_id": "inviteusers_",
+    "id": 1,
+    "actions": [
+     {
+      "id": "1",
+      "text": "Invite new members",
+      "type": "button",
+      "style": "primary",
+      "url": "https://app.slack.com/t/ipsentinel/welcome/invite_members?source=admin_slackbot_invite_msg"
+     }
+    ],
+    "fallback": "[no preview available]"
+   }
+  ]
+ }
+]

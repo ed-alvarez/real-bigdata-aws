@@ -1,0 +1,14 @@
+{
+  "name": "bbg_ingest",
+  "version": "1.0.0",
+  "dependencies": {
+    "bluebird": "latest",
+    "serverless": "^3.10.0"
+},
+  "devDependencies": {
+    "serverless-python-requirements": "^6.0.0",
+    "serverless-stage-manager": "^1.0.5",
+    "serverless-step-functions": "^3.11.0",
+    "serverless-plugin-aws-alerts": "^1.7.5"
+  }
+}

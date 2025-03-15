@@ -1,0 +1,9 @@
+{
+  "name": "zoom_ingest",
+  "version": "1.0.0",
+  "devDependencies": {
+    "serverless-python-requirements": "^6.0.0",
+    "serverless-stage-manager": "^1.0.5",
+    "serverless-step-functions": "^3.11.0"
+  }
+}

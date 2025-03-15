@@ -1,0 +1,1578 @@
+{
+    "type": "zoom_transcript",
+    "ver": 1,
+    "recording_id": "bfeb65746eb845adb818f0ca4f904b08",
+    "meeting_id": "bfeb65746eb845adb818f0ca4f904b08",
+    "account_id": "23vOATmyRHmTaj4vhE2Usg",
+    "host_id": "T-jubzaJR0mrMxPpLibTCg",
+    "recording_start": "2022-08-15T16:43:03Z",
+    "recording_end": "2022-08-15T16:58:33Z",
+    "timeline": [
+        {
+            "text": "Hello this call may be monitored.",
+            "end_ts": "00:00:02.340",
+            "ts": "00:00:00.089",
+            "users": [
+                {
+                    "username": "+442073307500",
+                    "multiple_people": false,
+                    "user_id": "+442073307500",
+                    "zoom_userid": "Unknown Speaker",
+                    "client_type": 0
+                }
+            ]
+        },
+        {
+            "text": "or recorded for quality purposes.",
+            "end_ts": "00:00:07.890",
+            "ts": "00:00:04.980",
+            "users": [
+                {
+                    "username": "+442073307500",
+                    "multiple_people": false,
+                    "user_id": "+442073307500",
+                    "zoom_userid": "Unknown Speaker",
+                    "client_type": 0
+                }
+            ]
+        },
+        {
+            "text": "she's done that for victory is already in the books just want a comment after.",
+            "end_ts": "00:00:15.960",
+            "ts": "00:00:11.610",
+            "users": [
+                {
+                    "username": "+442073307500",
+                    "multiple_people": false,
+                    "user_id": "+442073307500",
+                    "zoom_userid": "Unknown Speaker",
+                    "client_type": 0
+                }
+            ]
+        },
+        {
+            "text": "it's like.",
+            "end_ts": "00:00:18.960",
+            "ts": "00:00:18.660",
+            "users": [
+                {
+                    "username": "+442073307500",
+                    "multiple_people": false,
+                    "user_id": "+442073307500",
+                    "zoom_userid": "Unknown Speaker",
+                    "client_type": 0
+                }
+            ]
+        },
+        {
+            "text": "latest polls.",
+            "end_ts": "00:00:25.920",
+            "ts": "00:00:25.020",
+            "users": [
+                {
+                    "username": "+442073307500",
+                    "multiple_people": false,
+                    "user_id": "+442073307500",
+                    "zoom_userid": "Unknown Speaker",
+                    "client_type": 0
+                }
+            ]
+        },
+        {
+            "text": "yeah please, I have a user key.",
+            "end_ts": "00:00:39.690",
+            "ts": "00:00:37.980",
+            "users": [
+                {
+                    "username": "Fehmi Karagulla",
+                    "multiple_people": false,
+                    "user_id": "+442038264483",
+                    "zoom_userid": "ohsXGpVhS6-qZ7js6Mbd7w",
+                    "client_type": 0
+                }
+            ]
+        },
+        {
+            "text": "i'm installing a new Bloomberg software and my new PC.",
+            "end_ts": "00:00:44.490",
+            "ts": "00:00:40.740",
+            "users": [
+                {
+                    "username": "Fehmi Karagulla",
+                    "multiple_people": false,
+                    "user_id": "+442038264483",
+                    "zoom_userid": "ohsXGpVhS6-qZ7js6Mbd7w",
+                    "client_type": 0
+                }
+            ]
+        },
+        {
+            "text": "They have an access key so would like a Bloomberg access key.",
+            "end_ts": "00:00:50.730",
+            "ts": "00:00:46.320",
+            "users": [
+                {
+                    "username": "Fehmi Karagulla",
+                    "multiple_people": false,
+                    "user_id": "+442038264483",
+                    "zoom_userid": "ohsXGpVhS6-qZ7js6Mbd7w",
+                    "client_type": 0
+                }
+            ]
+        },
+        {
+            "text": "place.",
+            "end_ts": "00:00:53.850",
+            "ts": "00:00:53.580",
+            "users": []
+        },
+        {
+            "text": "F K.",
+            "end_ts": "00:00:59.700",
+            "ts": "00:00:58.500",
+            "users": [
+                {
+                    "username": "Fehmi Karagulla",
+                    "multiple_people": false,
+                    "user_id": "+442038264483",
+                    "zoom_userid": "ohsXGpVhS6-qZ7js6Mbd7w",
+                    "client_type": 0
+                }
+            ]
+        },
+        {
+            "text": "F K ra G you a tree.",
+            "end_ts": "00:01:08.850",
+            "ts": "00:01:02.640",
+            "users": [
+                {
+                    "username": "Fehmi Karagulla",
+                    "multiple_people": false,
+                    "user_id": "+442038264483",
+                    "zoom_userid": "ohsXGpVhS6-qZ7js6Mbd7w",
+                    "client_type": 0
+                }
+            ]
+        },
+        {
+            "text": "tree.",
+            "end_ts": "00:01:13.290",
+            "ts": "00:01:12.990",
+            "users": [
+                {
+                    "username": "Fehmi Karagulla",
+                    "multiple_people": false,
+                    "user_id": "+442038264483",
+                    "zoom_userid": "ohsXGpVhS6-qZ7js6Mbd7w",
+                    "client_type": 0
+                }
+            ]
+        },
+        {
+            "text": "i'm calling from Malcolm asset management.",
+            "end_ts": "00:01:17.040",
+            "ts": "00:01:14.670",
+            "users": [
+                {
+                    "username": "Fehmi Karagulla",
+                    "multiple_people": false,
+                    "user_id": "+442038264483",
+                    "zoom_userid": "ohsXGpVhS6-qZ7js6Mbd7w",
+                    "client_type": 0
+                }
+            ]
+        },
+        {
+            "text": "The first one is F like frank or s like Sam.",
+            "end_ts": "00:01:27.210",
+            "ts": "00:01:24.390",
+            "users": [
+                {
+                    "username": "+442073307500",
+                    "multiple_people": false,
+                    "user_id": "+442073307500",
+                    "zoom_userid": "Unknown Speaker",
+                    "client_type": 0
+                }
+            ]
+        },
+        {
+            "text": "Yes, frank.",
+            "end_ts": "00:01:32.370",
+            "ts": "00:01:31.080",
+            "users": [
+                {
+                    "username": "Fehmi Karagulla",
+                    "multiple_people": false,
+                    "user_id": "+442038264483",
+                    "zoom_userid": "ohsXGpVhS6-qZ7js6Mbd7w",
+                    "client_type": 0
+                }
+            ]
+        },
+        {
+            "text": "Can you please confirm your full name.",
+            "end_ts": "00:01:46.380",
+            "ts": "00:01:44.880",
+            "users": []
+        },
+        {
+            "text": "From your full name.",
+            "end_ts": "00:01:53.550",
+            "ts": "00:01:52.740",
+            "users": [
+                {
+                    "username": "+442073307500",
+                    "multiple_people": false,
+                    "user_id": "+442073307500",
+                    "zoom_userid": "Unknown Speaker",
+                    "client_type": 0
+                }
+            ]
+        },
+        {
+            "text": "from home.",
+            "end_ts": "00:02:01.860",
+            "ts": "00:02:01.230",
+            "users": [
+                {
+                    "username": "+442073307500",
+                    "multiple_people": false,
+                    "user_id": "+442073307500",
+                    "zoom_userid": "Unknown Speaker",
+                    "client_type": 0
+                }
+            ]
+        },
+        {
+            "text": "Are you accessing from home.",
+            "end_ts": "00:02:11.820",
+            "ts": "00:02:10.410",
+            "users": [
+                {
+                    "username": "+442073307500",
+                    "multiple_people": false,
+                    "user_id": "+442073307500",
+                    "zoom_userid": "Unknown Speaker",
+                    "client_type": 0
+                }
+            ]
+        },
+        {
+            "text": "at work.",
+            "end_ts": "00:02:22.410",
+            "ts": "00:02:21.930",
+            "users": [
+                {
+                    "username": "Fehmi Karagulla",
+                    "multiple_people": false,
+                    "user_id": "+442038264483",
+                    "zoom_userid": "ohsXGpVhS6-qZ7js6Mbd7w",
+                    "client_type": 0
+                }
+            ]
+        },
+        {
+            "text": "PC.",
+            "end_ts": "00:02:27.570",
+            "ts": "00:02:27.090",
+            "users": []
+        },
+        {
+            "text": "PC.",
+            "end_ts": "00:02:29.580",
+            "ts": "00:02:29.130",
+            "users": [
+                {
+                    "username": "Fehmi Karagulla",
+                    "multiple_people": false,
+                    "user_id": "+442038264483",
+                    "zoom_userid": "ohsXGpVhS6-qZ7js6Mbd7w",
+                    "client_type": 0
+                }
+            ]
+        },
+        {
+            "text": "Can you please provide me with the software version that is on the Left bottom corner, please.",
+            "end_ts": "00:02:37.080",
+            "ts": "00:02:33.090",
+            "users": [
+                {
+                    "username": "+442073307500",
+                    "multiple_people": false,
+                    "user_id": "+442073307500",
+                    "zoom_userid": "Unknown Speaker",
+                    "client_type": 0
+                }
+            ]
+        },
+        {
+            "text": "97.3.",
+            "end_ts": "00:02:45.240",
+            "ts": "00:02:43.980",
+            "users": [
+                {
+                    "username": "Fehmi Karagulla",
+                    "multiple_people": false,
+                    "user_id": "+442038264483",
+                    "zoom_userid": "ohsXGpVhS6-qZ7js6Mbd7w",
+                    "client_type": 0
+                }
+            ]
+        },
+        {
+            "text": "Excellent Thank you.",
+            "end_ts": "00:02:47.370",
+            "ts": "00:02:46.530",
+            "users": []
+        },
+        {
+            "text": "that's the latest one.",
+            "end_ts": "00:02:49.800",
+            "ts": "00:02:48.660",
+            "users": [
+                {
+                    "username": "Fehmi Karagulla",
+                    "multiple_people": false,
+                    "user_id": "+442038264483",
+                    "zoom_userid": "ohsXGpVhS6-qZ7js6Mbd7w",
+                    "client_type": 0
+                }
+            ]
+        },
+        {
+            "text": "Is the latest one absolutely i'll just open up a ticket, so we can exchange the keys with you one moment please.",
+            "end_ts": "00:02:57.660",
+            "ts": "00:02:51.450",
+            "users": [
+                {
+                    "username": "+442073307500",
+                    "multiple_people": false,
+                    "user_id": "+442073307500",
+                    "zoom_userid": "Unknown Speaker",
+                    "client_type": 0
+                }
+            ]
+        },
+        {
+            "text": "Can you please actually look.",
+            "end_ts": "00:03:04.410",
+            "ts": "00:03:02.940",
+            "users": [
+                {
+                    "username": "Fehmi Karagulla",
+                    "multiple_people": false,
+                    "user_id": "+442038264483",
+                    "zoom_userid": "ohsXGpVhS6-qZ7js6Mbd7w",
+                    "client_type": 0
+                },
+                {
+                    "username": "+442073307500",
+                    "multiple_people": false,
+                    "user_id": "+442073307500",
+                    "zoom_userid": "Unknown Speaker",
+                    "client_type": 0
+                }
+            ]
+        },
+        {
+            "text": "If you can relaunch your software, please, I do see that email you're accessing on your have access to the Bloomberg routers when they go through the automation instead, which is faster.",
+            "end_ts": "00:03:15.930",
+            "ts": "00:03:05.460",
+            "users": [
+                {
+                    "username": "+442073307500",
+                    "multiple_people": false,
+                    "user_id": "+442073307500",
+                    "zoom_userid": "Unknown Speaker",
+                    "client_type": 0
+                }
+            ]
+        },
+        {
+            "text": "yeah I have my user key if you want So what do I do I cancel it.",
+            "end_ts": "00:03:21.750",
+            "ts": "00:03:17.850",
+            "users": [
+                {
+                    "username": "Fehmi Karagulla",
+                    "multiple_people": false,
+                    "user_id": "+442038264483",
+                    "zoom_userid": "ohsXGpVhS6-qZ7js6Mbd7w",
+                    "client_type": 0
+                }
+            ]
+        },
+        {
+            "text": "Can you please relaunch software, please.",
+            "end_ts": "00:03:24.810",
+            "ts": "00:03:22.980",
+            "users": [
+                {
+                    "username": "+442073307500",
+                    "multiple_people": false,
+                    "user_id": "+442073307500",
+                    "zoom_userid": "Unknown Speaker",
+                    "client_type": 0
+                }
+            ]
+        },
+        {
+            "text": "Okay.",
+            "end_ts": "00:03:26.910",
+            "ts": "00:03:26.400",
+            "users": [
+                {
+                    "username": "Fehmi Karagulla",
+                    "multiple_people": false,
+                    "user_id": "+442038264483",
+                    "zoom_userid": "ohsXGpVhS6-qZ7js6Mbd7w",
+                    "client_type": 0
+                }
+            ]
+        },
+        {
+            "text": "hasn't launched yet.",
+            "end_ts": "00:03:49.740",
+            "ts": "00:03:48.750",
+            "users": [
+                {
+                    "username": "+442073307500",
+                    "multiple_people": false,
+                    "user_id": "+442073307500",
+                    "zoom_userid": "Unknown Speaker",
+                    "client_type": 0
+                }
+            ]
+        },
+        {
+            "text": "Okay now.",
+            "end_ts": "00:04:01.350",
+            "ts": "00:04:00.810",
+            "users": [
+                {
+                    "username": "Fehmi Karagulla",
+                    "multiple_people": false,
+                    "user_id": "+442038264483",
+                    "zoom_userid": "ohsXGpVhS6-qZ7js6Mbd7w",
+                    "client_type": 0
+                }
+            ]
+        },
+        {
+            "text": "Can you please select again our advanced options, but on the next screen could be an option for you.",
+            "end_ts": "00:04:08.580",
+            "ts": "00:04:03.270",
+            "users": [
+                {
+                    "username": "+442073307500",
+                    "multiple_people": false,
+                    "user_id": "+442073307500",
+                    "zoom_userid": "Unknown Speaker",
+                    "client_type": 0
+                }
+            ]
+        },
+        {
+            "text": "Pre installed.",
+            "end_ts": "00:04:11.340",
+            "ts": "00:04:09.630",
+            "users": [
+                {
+                    "username": "+442073307500",
+                    "multiple_people": false,
+                    "user_id": "+442073307500",
+                    "zoom_userid": "Unknown Speaker",
+                    "client_type": 0
+                }
+            ]
+        },
+        {
+            "text": "know their seat number.",
+            "end_ts": "00:04:17.880",
+            "ts": "00:04:16.380",
+            "users": [
+                {
+                    "username": "Fehmi Karagulla",
+                    "multiple_people": false,
+                    "user_id": "+442038264483",
+                    "zoom_userid": "ohsXGpVhS6-qZ7js6Mbd7w",
+                    "client_type": 0
+                }
+            ]
+        },
+        {
+            "text": "You do not have a Bloomberg serial number installed there's.",
+            "end_ts": "00:04:22.470",
+            "ts": "00:04:19.350",
+            "users": [
+                {
+                    "username": "Fehmi Karagulla",
+                    "multiple_people": false,
+                    "user_id": "+442038264483",
+                    "zoom_userid": "ohsXGpVhS6-qZ7js6Mbd7w",
+                    "client_type": 0
+                }
+            ]
+        },
+        {
+            "text": "yeah usually it's.",
+            "end_ts": "00:04:27.000",
+            "ts": "00:04:25.320",
+            "users": [
+                {
+                    "username": "Fehmi Karagulla",
+                    "multiple_people": false,
+                    "user_id": "+442038264483",
+                    "zoom_userid": "ohsXGpVhS6-qZ7js6Mbd7w",
+                    "client_type": 0
+                }
+            ]
+        },
+        {
+            "text": "verify with access, you can okay.",
+            "end_ts": "00:04:33.420",
+            "ts": "00:04:30.570",
+            "users": [
+                {
+                    "username": "Fehmi Karagulla",
+                    "multiple_people": false,
+                    "user_id": "+442038264483",
+                    "zoom_userid": "ohsXGpVhS6-qZ7js6Mbd7w",
+                    "client_type": 0
+                }
+            ]
+        },
+        {
+            "text": "So let's just go verify with your access given, and please provide me with a user keys, and then, if it doesn't go if it doesn't pop up on your end.",
+            "end_ts": "00:04:41.850",
+            "ts": "00:04:34.020",
+            "users": [
+                {
+                    "username": "+442073307500",
+                    "multiple_people": false,
+                    "user_id": "+442073307500",
+                    "zoom_userid": "Unknown Speaker",
+                    "client_type": 0
+                }
+            ]
+        },
+        {
+            "text": "yeah it just popping up 194951879 to.",
+            "end_ts": "00:04:52.470",
+            "ts": "00:04:43.080",
+            "users": [
+                {
+                    "username": "Fehmi Karagulla",
+                    "multiple_people": false,
+                    "user_id": "+442038264483",
+                    "zoom_userid": "ohsXGpVhS6-qZ7js6Mbd7w",
+                    "client_type": 0
+                }
+            ]
+        },
+        {
+            "text": "59458.",
+            "end_ts": "00:04:56.310",
+            "ts": "00:04:53.700",
+            "users": [
+                {
+                    "username": "Fehmi Karagulla",
+                    "multiple_people": false,
+                    "user_id": "+442038264483",
+                    "zoom_userid": "ohsXGpVhS6-qZ7js6Mbd7w",
+                    "client_type": 0
+                }
+            ]
+        },
+        {
+            "text": "Thank you i'm going to provide you with access key in the moment it's generating still.",
+            "end_ts": "00:05:02.490",
+            "ts": "00:04:58.800",
+            "users": [
+                {
+                    "username": "+442073307500",
+                    "multiple_people": false,
+                    "user_id": "+442073307500",
+                    "zoom_userid": "Unknown Speaker",
+                    "client_type": 0
+                }
+            ]
+        },
+        {
+            "text": "it's two zero.",
+            "end_ts": "00:05:05.370",
+            "ts": "00:05:03.780",
+            "users": [
+                {
+                    "username": "+442073307500",
+                    "multiple_people": false,
+                    "user_id": "+442073307500",
+                    "zoom_userid": "Unknown Speaker",
+                    "client_type": 0
+                }
+            ]
+        },
+        {
+            "text": "yeah 609848977.",
+            "end_ts": "00:05:25.980",
+            "ts": "00:05:06.690",
+            "users": [
+                {
+                    "username": "Fehmi Karagulla",
+                    "multiple_people": false,
+                    "user_id": "+442038264483",
+                    "zoom_userid": "ohsXGpVhS6-qZ7js6Mbd7w",
+                    "client_type": 0
+                }
+            ]
+        },
+        {
+            "text": "Can you please click submit.",
+            "end_ts": "00:05:28.440",
+            "ts": "00:05:27.330",
+            "users": []
+        },
+        {
+            "text": "And let's just wait until the to the lunches itself back I don't see the connection yet, just in case, if something goes wrong.",
+            "end_ts": "00:05:44.880",
+            "ts": "00:05:39.720",
+            "users": [
+                {
+                    "username": "+442073307500",
+                    "multiple_people": false,
+                    "user_id": "+442073307500",
+                    "zoom_userid": "Unknown Speaker",
+                    "client_type": 0
+                }
+            ]
+        },
+        {
+            "text": "It hasn't been launched, yet right.",
+            "end_ts": "00:05:57.510",
+            "ts": "00:05:55.860",
+            "users": [
+                {
+                    "username": "+442073307500",
+                    "multiple_people": false,
+                    "user_id": "+442073307500",
+                    "zoom_userid": "Unknown Speaker",
+                    "client_type": 0
+                }
+            ]
+        },
+        {
+            "text": "what's the northern okay I don't see the connection yet.",
+            "end_ts": "00:06:02.370",
+            "ts": "00:05:58.770",
+            "users": [
+                {
+                    "username": "Fehmi Karagulla",
+                    "multiple_people": false,
+                    "user_id": "+442038264483",
+                    "zoom_userid": "ohsXGpVhS6-qZ7js6Mbd7w",
+                    "client_type": 0
+                }
+            ]
+        },
+        {
+            "text": "i'll let you know once I see it.",
+            "end_ts": "00:06:03.840",
+            "ts": "00:06:02.490",
+            "users": [
+                {
+                    "username": "+442073307500",
+                    "multiple_people": false,
+                    "user_id": "+442073307500",
+                    "zoom_userid": "Unknown Speaker",
+                    "client_type": 0
+                }
+            ]
+        },
+        {
+            "text": "should be within the 1015 seconds.",
+            "end_ts": "00:06:08.940",
+            "ts": "00:06:06.900",
+            "users": [
+                {
+                    "username": "+442073307500",
+                    "multiple_people": false,
+                    "user_id": "+442073307500",
+                    "zoom_userid": "Unknown Speaker",
+                    "client_type": 0
+                }
+            ]
+        },
+        {
+            "text": "it's taking so much time to load, but I think it's gonna work like.",
+            "end_ts": "00:06:33.570",
+            "ts": "00:06:30.450",
+            "users": [
+                {
+                    "username": "Fehmi Karagulla",
+                    "multiple_people": false,
+                    "user_id": "+442038264483",
+                    "zoom_userid": "ohsXGpVhS6-qZ7js6Mbd7w",
+                    "client_type": 0
+                }
+            ]
+        },
+        {
+            "text": "don't see it yet.",
+            "end_ts": "00:06:38.580",
+            "ts": "00:06:37.500",
+            "users": []
+        },
+        {
+            "text": "20 megabits per second.",
+            "end_ts": "00:06:49.140",
+            "ts": "00:06:47.700",
+            "users": [
+                {
+                    "username": "Fehmi Karagulla",
+                    "multiple_people": false,
+                    "user_id": "+442038264483",
+                    "zoom_userid": "ohsXGpVhS6-qZ7js6Mbd7w",
+                    "client_type": 0
+                }
+            ]
+        },
+        {
+            "text": "It may be due to the Internet connection but let's just wait for a couple of milliseconds just to make sure, because if if there is some error messages popping up on your side.",
+            "end_ts": "00:07:01.470",
+            "ts": "00:06:51.660",
+            "users": [
+                {
+                    "username": "+442073307500",
+                    "multiple_people": false,
+                    "user_id": "+442073307500",
+                    "zoom_userid": "Unknown Speaker",
+                    "client_type": 0
+                }
+            ]
+        },
+        {
+            "text": "Or is it still says loading, we may need to escalate it to the technical support team, so you can connect and login.",
+            "end_ts": "00:07:07.980",
+            "ts": "00:07:01.470",
+            "users": [
+                {
+                    "username": "+442073307500",
+                    "multiple_people": false,
+                    "user_id": "+442073307500",
+                    "zoom_userid": "Unknown Speaker",
+                    "client_type": 0
+                }
+            ]
+        },
+        {
+            "text": "The loading showing loading two dots.",
+            "end_ts": "00:07:10.860",
+            "ts": "00:07:08.280",
+            "users": [
+                {
+                    "username": "Fehmi Karagulla",
+                    "multiple_people": false,
+                    "user_id": "+442038264483",
+                    "zoom_userid": "ohsXGpVhS6-qZ7js6Mbd7w",
+                    "client_type": 0
+                }
+            ]
+        },
+        {
+            "text": "understood, thank you.",
+            "end_ts": "00:07:14.910",
+            "ts": "00:07:14.040",
+            "users": []
+        },
+        {
+            "text": "i'm counting down five seconds.",
+            "end_ts": "00:07:19.800",
+            "ts": "00:07:18.360",
+            "users": []
+        },
+        {
+            "text": "No, I still don't see it please allow me one moment i'm taking a look at that serial number that are installed.",
+            "end_ts": "00:07:31.620",
+            "ts": "00:07:25.980",
+            "users": [
+                {
+                    "username": "+442073307500",
+                    "multiple_people": false,
+                    "user_id": "+442073307500",
+                    "zoom_userid": "Unknown Speaker",
+                    "client_type": 0
+                }
+            ]
+        },
+        {
+            "text": "is trying to connect between the Internet and the private IP or you're losing the vpn right now.",
+            "end_ts": "00:07:48.570",
+            "ts": "00:07:43.110",
+            "users": [
+                {
+                    "username": "+442073307500",
+                    "multiple_people": false,
+                    "user_id": "+442073307500",
+                    "zoom_userid": "Unknown Speaker",
+                    "client_type": 0
+                }
+            ]
+        },
+        {
+            "text": "No, no public IP.",
+            "end_ts": "00:07:51.000",
+            "ts": "00:07:49.680",
+            "users": [
+                {
+                    "username": "Fehmi Karagulla",
+                    "multiple_people": false,
+                    "user_id": "+442038264483",
+                    "zoom_userid": "ohsXGpVhS6-qZ7js6Mbd7w",
+                    "client_type": 0
+                }
+            ]
+        },
+        {
+            "text": "Just a is it by the wi fi you mean or the routers.",
+            "end_ts": "00:07:57.300",
+            "ts": "00:07:53.640",
+            "users": [
+                {
+                    "username": "+442073307500",
+                    "multiple_people": false,
+                    "user_id": "+442073307500",
+                    "zoom_userid": "Unknown Speaker",
+                    "client_type": 0
+                }
+            ]
+        },
+        {
+            "text": "No, no, so I have an Internet cable but i'm not using a vpn i'm using my public Internet not private.",
+            "end_ts": "00:08:07.440",
+            "ts": "00:07:59.340",
+            "users": [
+                {
+                    "username": "Fehmi Karagulla",
+                    "multiple_people": false,
+                    "user_id": "+442038264483",
+                    "zoom_userid": "ohsXGpVhS6-qZ7js6Mbd7w",
+                    "client_type": 0
+                }
+            ]
+        },
+        {
+            "text": "understood so you're using the Internet understood, please want me one moment, they have to escalate it to the technical support team.",
+            "end_ts": "00:08:14.790",
+            "ts": "00:08:08.940",
+            "users": [
+                {
+                    "username": "+442073307500",
+                    "multiple_people": false,
+                    "user_id": "+442073307500",
+                    "zoom_userid": "Unknown Speaker",
+                    "client_type": 0
+                }
+            ]
+        },
+        {
+            "text": "To support the parties in general, starting with the supreme court's decision around.",
+            "end_ts": "00:08:23.580",
+            "ts": "00:08:18.690",
+            "users": [
+                {
+                    "username": "+442073307500",
+                    "multiple_people": false,
+                    "user_id": "+442073307500",
+                    "zoom_userid": "Unknown Speaker",
+                    "client_type": 0
+                }
+            ]
+        },
+        {
+            "text": "Reversing row there's been a real migration back to the Democratic Party, from where it started.",
+            "end_ts": "00:08:30.060",
+            "ts": "00:08:24.660",
+            "users": [
+                {
+                    "username": "+442073307500",
+                    "multiple_people": false,
+                    "user_id": "+442073307500",
+                    "zoom_userid": "Unknown Speaker",
+                    "client_type": 0
+                }
+            ]
+        },
+        {
+            "text": "At the very beginning of these elections, what was originally going to be red wave now within the party is being seen as can we hold on long enough to win the House and you know get lucky maybe in the Senate, so I do from.",
+            "end_ts": "00:08:44.100",
+            "ts": "00:08:30.630",
+            "users": [
+                {
+                    "username": "+442073307500",
+                    "multiple_people": false,
+                    "user_id": "+442073307500",
+                    "zoom_userid": "Unknown Speaker",
+                    "client_type": 0
+                }
+            ]
+        },
+        {
+            "text": "This i've been talking to point out that this is just or week we're not talking to employees we're not talking about the economy, talking about Biden we're talking about Donald trump on anybody's ballot in 2022 but gee I my sense is the for President he loves being the Center of attention.",
+            "end_ts": "00:09:05.130",
+            "ts": "00:08:45.090",
+            "users": [
+                {
+                    "username": "+442073307500",
+                    "multiple_people": false,
+                    "user_id": "+442073307500",
+                    "zoom_userid": "Unknown Speaker",
+                    "client_type": 0
+                }
+            ]
+        },
+        {
+            "text": "He does you know who doesn't love it so much are Republicans in purple states, these are Republicans running in two years rick said they.",
+            "end_ts": "00:09:14.070",
+            "ts": "00:09:06.240",
+            "users": [
+                {
+                    "username": "+442073307500",
+                    "multiple_people": false,
+                    "user_id": "+442073307500",
+                    "zoom_userid": "Unknown Speaker",
+                    "client_type": 0
+                }
+            ]
+        },
+        {
+            "text": "want to be talking about inflation, they going to be talking about getting the.",
+            "end_ts": "00:09:18.660",
+            "ts": "00:09:15.150",
+            "users": [
+                {
+                    "username": "+442073307500",
+                    "multiple_people": false,
+                    "user_id": "+442073307500",
+                    "zoom_userid": "Unknown Speaker",
+                    "client_type": 0
+                }
+            ]
+        },
+        {
+            "text": "Joe Biden Joe Biden health they don't like talking about former President trump and so you see a really stark difference between the full throated defensive Donald trump.",
+            "end_ts": "00:09:30.390",
+            "ts": "00:09:19.470",
+            "users": [
+                {
+                    "username": "+442073307500",
+                    "multiple_people": false,
+                    "user_id": "+442073307500",
+                    "zoom_userid": "Unknown Speaker",
+                    "client_type": 0
+                }
+            ]
+        },
+        {
+            "text": "By Republicans that are unsafe for seats versus those in more carefully seats, we were just talking for instance about.",
+            "end_ts": "00:09:36.780",
+            "ts": "00:09:30.600",
+            "users": [
+                {
+                    "username": "+442073307500",
+                    "multiple_people": false,
+                    "user_id": "+442073307500",
+                    "zoom_userid": "Unknown Speaker",
+                    "client_type": 0
+                }
+            ]
+        },
+        {
+            "text": "US Senate candidate Oz Mehmet Oz in Pennsylvania, he did not come out the way under pressure he came out with a call for transparency.",
+            "end_ts": "00:09:45.870",
+            "ts": "00:09:37.410",
+            "users": [
+                {
+                    "username": "+442073307500",
+                    "multiple_people": false,
+                    "user_id": "+442073307500",
+                    "zoom_userid": "Unknown Speaker",
+                    "client_type": 0
+                }
+            ]
+        },
+        {
+            "text": "So we've seen that in North Carolina we've seen that in Pennsylvania, the way in which does benefit Republicans that's in fundraising they have been fundraising.",
+            "end_ts": "00:09:54.720",
+            "ts": "00:09:46.320",
+            "users": [
+                {
+                    "username": "+442073307500",
+                    "multiple_people": false,
+                    "user_id": "+442073307500",
+                    "zoom_userid": "Unknown Speaker",
+                    "client_type": 0
+                }
+            ]
+        },
+        {
+            "text": "Particularly for small dollars, they can raise big small dollar numbers off of this but they've got to be very careful in the swing state what they say, particularly because we haven't seen the affidavit don't look in those sets of boxes.",
+            "end_ts": "00:10:11.280",
+            "ts": "00:09:55.380",
+            "users": [
+                {
+                    "username": "+442073307500",
+                    "multiple_people": false,
+                    "user_id": "+442073307500",
+                    "zoom_userid": "Unknown Speaker",
+                    "client_type": 0
+                }
+            ]
+        },
+        {
+            "text": "rick that's just where I was gonna go call for transparency, but sometimes you have to be careful what you wish for.",
+            "end_ts": "00:10:17.130",
+            "ts": "00:10:12.600",
+            "users": [
+                {
+                    "username": "+442073307500",
+                    "multiple_people": false,
+                    "user_id": "+442073307500",
+                    "zoom_userid": "Unknown Speaker",
+                    "client_type": 0
+                }
+            ]
+        },
+        {
+            "text": "Because, to some extent, it depends on what's in the documents right if really they are not anything too controversial that goes one way.",
+            "end_ts": "00:10:24.060",
+            "ts": "00:10:17.610",
+            "users": [
+                {
+                    "username": "+442073307500",
+                    "multiple_people": false,
+                    "user_id": "+442073307500",
+                    "zoom_userid": "Unknown Speaker",
+                    "client_type": 0
+                }
+            ]
+        },
+        {
+            "text": "On the other hand, there are things like, for example, has been talked about nuclear grades I would think that that would really persuade even a lot of things it's not appropriate, will you saw David the initial reaction before anyone saw.",
+            "end_ts": "00:10:36.390",
+            "ts": "00:10:24.360",
+            "users": [
+                {
+                    "username": "+442073307500",
+                    "multiple_people": false,
+                    "user_id": "+442073307500",
+                    "zoom_userid": "Unknown Speaker",
+                    "client_type": 0
+                }
+            ]
+        },
+        {
+            "text": "Was that Republicans rollin gas oh my God, this is such an overreach historical thing to search out, former Presidents home, and then they see the list of items.",
+            "end_ts": "00:10:49.380",
+            "ts": "00:10:39.300",
+            "users": [
+                {
+                    "username": "+442073307500",
+                    "multiple_people": false,
+                    "user_id": "+442073307500",
+                    "zoom_userid": "Unknown Speaker",
+                    "client_type": 0
+                }
+            ]
+        },
+        {
+            "text": "That me thank you so much for holding.",
+            "end_ts": "00:10:52.740",
+            "ts": "00:10:51.240",
+            "users": [
+                {
+                    "username": "+442073307500",
+                    "multiple_people": false,
+                    "user_id": "+442073307500",
+                    "zoom_userid": "Unknown Speaker",
+                    "client_type": 0
+                }
+            ]
+        },
+        {
+            "text": "We appreciate your patience.",
+            "end_ts": "00:10:54.300",
+            "ts": "00:10:52.770",
+            "users": [
+                {
+                    "username": "Fehmi Karagulla",
+                    "multiple_people": false,
+                    "user_id": "+442038264483",
+                    "zoom_userid": "ohsXGpVhS6-qZ7js6Mbd7w",
+                    "client_type": 0
+                },
+                {
+                    "username": "+442073307500",
+                    "multiple_people": false,
+                    "user_id": "+442073307500",
+                    "zoom_userid": "Unknown Speaker",
+                    "client_type": 0
+                }
+            ]
+        },
+        {
+            "text": "I have my colleague on the line from the technical support team joshua.",
+            "end_ts": "00:10:57.750",
+            "ts": "00:10:54.630",
+            "users": [
+                {
+                    "username": "+442073307500",
+                    "multiple_people": false,
+                    "user_id": "+442073307500",
+                    "zoom_userid": "Unknown Speaker",
+                    "client_type": 0
+                }
+            ]
+        },
+        {
+            "text": "To assist you further with a connection.",
+            "end_ts": "00:10:59.370",
+            "ts": "00:10:57.900",
+            "users": [
+                {
+                    "username": "Fehmi Karagulla",
+                    "multiple_people": false,
+                    "user_id": "+442038264483",
+                    "zoom_userid": "ohsXGpVhS6-qZ7js6Mbd7w",
+                    "client_type": 0
+                },
+                {
+                    "username": "+442073307500",
+                    "multiple_people": false,
+                    "user_id": "+442073307500",
+                    "zoom_userid": "Unknown Speaker",
+                    "client_type": 0
+                }
+            ]
+        },
+        {
+            "text": "Thanks.",
+            "end_ts": "00:11:03.330",
+            "ts": "00:11:02.970",
+            "users": []
+        },
+        {
+            "text": "hi can you hear me.",
+            "end_ts": "00:11:12.960",
+            "ts": "00:11:12.240",
+            "users": [
+                {
+                    "username": "Fehmi Karagulla",
+                    "multiple_people": false,
+                    "user_id": "+442038264483",
+                    "zoom_userid": "ohsXGpVhS6-qZ7js6Mbd7w",
+                    "client_type": 0
+                },
+                {
+                    "username": "+442073307500",
+                    "multiple_people": false,
+                    "user_id": "+442073307500",
+                    "zoom_userid": "Unknown Speaker",
+                    "client_type": 0
+                }
+            ]
+        },
+        {
+            "text": "Yes.",
+            "end_ts": "00:11:14.370",
+            "ts": "00:11:14.100",
+            "users": [
+                {
+                    "username": "Fehmi Karagulla",
+                    "multiple_people": false,
+                    "user_id": "+442038264483",
+                    "zoom_userid": "ohsXGpVhS6-qZ7js6Mbd7w",
+                    "client_type": 0
+                }
+            ]
+        },
+        {
+            "text": "I can hear you.",
+            "end_ts": "00:11:19.740",
+            "ts": "00:11:19.080",
+            "users": [
+                {
+                    "username": "Fehmi Karagulla",
+                    "multiple_people": false,
+                    "user_id": "+442038264483",
+                    "zoom_userid": "ohsXGpVhS6-qZ7js6Mbd7w",
+                    "client_type": 0
+                }
+            ]
+        },
+        {
+            "text": "Okay, so very good, so you try to connect do you get any error message at all.",
+            "end_ts": "00:11:23.670",
+            "ts": "00:11:20.340",
+            "users": [
+                {
+                    "username": "+442073307500",
+                    "multiple_people": false,
+                    "user_id": "+442073307500",
+                    "zoom_userid": "Unknown Speaker",
+                    "client_type": 0
+                }
+            ]
+        },
+        {
+            "text": "No, I just got loading.",
+            "end_ts": "00:11:26.700",
+            "ts": "00:11:25.410",
+            "users": [
+                {
+                    "username": "Fehmi Karagulla",
+                    "multiple_people": false,
+                    "user_id": "+442038264483",
+                    "zoom_userid": "ohsXGpVhS6-qZ7js6Mbd7w",
+                    "client_type": 0
+                }
+            ]
+        },
+        {
+            "text": "In.",
+            "end_ts": "00:11:33.480",
+            "ts": "00:11:33.270",
+            "users": [
+                {
+                    "username": "+442073307500",
+                    "multiple_people": false,
+                    "user_id": "+442073307500",
+                    "zoom_userid": "Unknown Speaker",
+                    "client_type": 0
+                }
+            ]
+        },
+        {
+            "text": "As an administrator and I guess the other question is.",
+            "end_ts": "00:11:38.100",
+            "ts": "00:11:34.230",
+            "users": [
+                {
+                    "username": "+442073307500",
+                    "multiple_people": false,
+                    "user_id": "+442073307500",
+                    "zoom_userid": "Unknown Speaker",
+                    "client_type": 0
+                }
+            ]
+        },
+        {
+            "text": "Are you.",
+            "end_ts": "00:11:38.790",
+            "ts": "00:11:38.190",
+            "users": [
+                {
+                    "username": "Fehmi Karagulla",
+                    "multiple_people": false,
+                    "user_id": "+442038264483",
+                    "zoom_userid": "ohsXGpVhS6-qZ7js6Mbd7w",
+                    "client_type": 0
+                },
+                {
+                    "username": "+442073307500",
+                    "multiple_people": false,
+                    "user_id": "+442073307500",
+                    "zoom_userid": "Unknown Speaker",
+                    "client_type": 0
+                }
+            ]
+        },
+        {
+            "text": "Are you home are you in the office.",
+            "end_ts": "00:11:40.620",
+            "ts": "00:11:39.120",
+            "users": [
+                {
+                    "username": "+442073307500",
+                    "multiple_people": false,
+                    "user_id": "+442073307500",
+                    "zoom_userid": "Unknown Speaker",
+                    "client_type": 0
+                }
+            ]
+        },
+        {
+            "text": "home.",
+            "end_ts": "00:11:42.270",
+            "ts": "00:11:41.880",
+            "users": [
+                {
+                    "username": "Fehmi Karagulla",
+                    "multiple_people": false,
+                    "user_id": "+442038264483",
+                    "zoom_userid": "ohsXGpVhS6-qZ7js6Mbd7w",
+                    "client_type": 0
+                }
+            ]
+        },
+        {
+            "text": "I always am able to connect from home.",
+            "end_ts": "00:11:47.550",
+            "ts": "00:11:45.450",
+            "users": [
+                {
+                    "username": "Fehmi Karagulla",
+                    "multiple_people": false,
+                    "user_id": "+442038264483",
+                    "zoom_userid": "ohsXGpVhS6-qZ7js6Mbd7w",
+                    "client_type": 0
+                }
+            ]
+        },
+        {
+            "text": "And when you connect from home, do you connect to the office first like over vpn.",
+            "end_ts": "00:12:03.810",
+            "ts": "00:12:00.090",
+            "users": [
+                {
+                    "username": "+442073307500",
+                    "multiple_people": false,
+                    "user_id": "+442073307500",
+                    "zoom_userid": "Unknown Speaker",
+                    "client_type": 0
+                }
+            ]
+        },
+        {
+            "text": "Normal.",
+            "end_ts": "00:12:05.610",
+            "ts": "00:12:05.010",
+            "users": [
+                {
+                    "username": "Fehmi Karagulla",
+                    "multiple_people": false,
+                    "user_id": "+442038264483",
+                    "zoom_userid": "ohsXGpVhS6-qZ7js6Mbd7w",
+                    "client_type": 0
+                }
+            ]
+        },
+        {
+            "text": "is on a laptop that you take back and forth between home and work or the desktop.",
+            "end_ts": "00:12:24.150",
+            "ts": "00:12:19.980",
+            "users": [
+                {
+                    "username": "+442073307500",
+                    "multiple_people": false,
+                    "user_id": "+442073307500",
+                    "zoom_userid": "Unknown Speaker",
+                    "client_type": 0
+                }
+            ]
+        },
+        {
+            "text": "desktop it's a new.",
+            "end_ts": "00:12:26.700",
+            "ts": "00:12:25.770",
+            "users": [
+                {
+                    "username": "Fehmi Karagulla",
+                    "multiple_people": false,
+                    "user_id": "+442038264483",
+                    "zoom_userid": "ohsXGpVhS6-qZ7js6Mbd7w",
+                    "client_type": 0
+                }
+            ]
+        },
+        {
+            "text": "it's a new desktop.",
+            "end_ts": "00:12:29.550",
+            "ts": "00:12:28.260",
+            "users": [
+                {
+                    "username": "+442073307500",
+                    "multiple_people": false,
+                    "user_id": "+442073307500",
+                    "zoom_userid": "Unknown Speaker",
+                    "client_type": 0
+                }
+            ]
+        },
+        {
+            "text": "Okay, so if it's if it's home and is a new desktop and is not going to be traveling from place to place and you're not connected to the vpn in the office I would assume that this desktop should be connecting over the public Internet.",
+            "end_ts": "00:12:43.380",
+            "ts": "00:12:32.040",
+            "users": [
+                {
+                    "username": "+442073307500",
+                    "multiple_people": false,
+                    "user_id": "+442073307500",
+                    "zoom_userid": "Unknown Speaker",
+                    "client_type": 0
+                }
+            ]
+        },
+        {
+            "text": "Yes, yes.",
+            "end_ts": "00:12:45.360",
+            "ts": "00:12:44.550",
+            "users": [
+                {
+                    "username": "Fehmi Karagulla",
+                    "multiple_people": false,
+                    "user_id": "+442038264483",
+                    "zoom_userid": "ohsXGpVhS6-qZ7js6Mbd7w",
+                    "client_type": 0
+                }
+            ]
+        },
+        {
+            "text": "yeah Yes, he told me that when they make sure.",
+            "end_ts": "00:12:49.050",
+            "ts": "00:12:47.370",
+            "users": [
+                {
+                    "username": "+442073307500",
+                    "multiple_people": false,
+                    "user_id": "+442073307500",
+                    "zoom_userid": "Unknown Speaker",
+                    "client_type": 0
+                }
+            ]
+        },
+        {
+            "text": "So Okay, so it looks like right now.",
+            "end_ts": "00:12:50.580",
+            "ts": "00:12:49.260",
+            "users": [
+                {
+                    "username": "Fehmi Karagulla",
+                    "multiple_people": false,
+                    "user_id": "+442038264483",
+                    "zoom_userid": "ohsXGpVhS6-qZ7js6Mbd7w",
+                    "client_type": 0
+                },
+                {
+                    "username": "+442073307500",
+                    "multiple_people": false,
+                    "user_id": "+442073307500",
+                    "zoom_userid": "Unknown Speaker",
+                    "client_type": 0
+                }
+            ]
+        },
+        {
+            "text": "is trying over the over the routers that it can't read so i'm going to switch it over to public Internet permanently hold on a second.",
+            "end_ts": "00:12:56.730",
+            "ts": "00:12:50.580",
+            "users": [
+                {
+                    "username": "+442073307500",
+                    "multiple_people": false,
+                    "user_id": "+442073307500",
+                    "zoom_userid": "Unknown Speaker",
+                    "client_type": 0
+                }
+            ]
+        },
+        {
+            "text": "The blue living an advocate the Bloomberg application and trying again.",
+            "end_ts": "00:13:53.880",
+            "ts": "00:13:49.980",
+            "users": [
+                {
+                    "username": "+442073307500",
+                    "multiple_people": false,
+                    "user_id": "+442073307500",
+                    "zoom_userid": "Unknown Speaker",
+                    "client_type": 0
+                }
+            ]
+        },
+        {
+            "text": "Still loading.",
+            "end_ts": "00:14:09.540",
+            "ts": "00:14:08.670",
+            "users": [
+                {
+                    "username": "Fehmi Karagulla",
+                    "multiple_people": false,
+                    "user_id": "+442038264483",
+                    "zoom_userid": "ohsXGpVhS6-qZ7js6Mbd7w",
+                    "client_type": 0
+                }
+            ]
+        },
+        {
+            "text": "Then i'll give it a second give it a SEC let's see if it's any changes on my fat so for my side, it looks like you just got connected over the Internet so give it a second and you should get to the login page.",
+            "end_ts": "00:15:11.820",
+            "ts": "00:15:02.550",
+            "users": [
+                {
+                    "username": "+442073307500",
+                    "multiple_people": false,
+                    "user_id": "+442073307500",
+                    "zoom_userid": "Unknown Speaker",
+                    "client_type": 0
+                }
+            ]
+        },
+        {
+            "text": "you're a genius.",
+            "end_ts": "00:15:20.250",
+            "ts": "00:15:19.350",
+            "users": [
+                {
+                    "username": "Fehmi Karagulla",
+                    "multiple_people": false,
+                    "user_id": "+442038264483",
+                    "zoom_userid": "ohsXGpVhS6-qZ7js6Mbd7w",
+                    "client_type": 0
+                }
+            ]
+        },
+        {
+            "text": "All right, very good, very good, I will update the ticket and close it out.",
+            "end_ts": "00:15:25.800",
+            "ts": "00:15:22.620",
+            "users": [
+                {
+                    "username": "+442073307500",
+                    "multiple_people": false,
+                    "user_id": "+442073307500",
+                    "zoom_userid": "Unknown Speaker",
+                    "client_type": 0
+                }
+            ]
+        },
+        {
+            "text": "Thank you.",
+            "end_ts": "00:15:27.810",
+            "ts": "00:15:27.240",
+            "users": [
+                {
+                    "username": "Fehmi Karagulla",
+                    "multiple_people": false,
+                    "user_id": "+442038264483",
+                    "zoom_userid": "ohsXGpVhS6-qZ7js6Mbd7w",
+                    "client_type": 0
+                }
+            ]
+        },
+        {
+            "text": "Thanks.",
+            "end_ts": "00:15:29.340",
+            "ts": "00:15:29.070",
+            "users": [
+                {
+                    "username": "+442073307500",
+                    "multiple_people": false,
+                    "user_id": "+442073307500",
+                    "zoom_userid": "Unknown Speaker",
+                    "client_type": 0
+                }
+            ]
+        }
+    ]
+}

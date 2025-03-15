@@ -1,0 +1,23 @@
+PUT _ingest/pipeline/email-v2
+{
+  "description": "parse an email message into a client data index",
+  "processors": [
+    {
+      "set": {
+        "field": "_index",
+        "value": "email-v2-{{{fingerprint.client}}}",
+        "media_type": "text/plain"
+      }
+    },
+    {
+      "date": {
+        "field": "date",
+        "formats": [
+          "yyyy-MM-dd HH:mm:ss"
+        ]
+      }
+    }
+  ]
+}
+
+

@@ -1,0 +1,20 @@
+[
+    {
+        "user_id": "UPFUKHWS3",
+        "user_name": "sean",
+        "date": "1571218522",
+        "change_type": "added",
+        "app_type": "Gif Keyboard",
+        "app_id": "A0FLZ2GVB",
+        "scope": "identify,bot,commands,users:read,users:read.email"
+    },
+    {
+        "user_id": "UPG9G6D38",
+        "user_name": "james",
+        "date": "1571156304",
+        "change_type": "added",
+        "app_type": "Microsoft OneDrive",
+        "app_id": "AJBCW09GU",
+        "scope": "identify,bot,commands,channels:read,groups:read,im:read,mpim:read,users:read,users:read.email,chat:write:bot,links:read,links:write,remote_files:share,remote_files:read"
+    }
+]

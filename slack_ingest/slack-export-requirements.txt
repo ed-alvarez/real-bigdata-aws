@@ -1,0 +1,6 @@
+aws_lambda_logging
+boto3
+bs4
+python-dotenv
+# chromedriver-binary==89.0.4389.23.0
+selenium==3.141.0

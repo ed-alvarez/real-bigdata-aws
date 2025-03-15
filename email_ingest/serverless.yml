@@ -1,0 +1,188 @@
+service: email
+org: hogbinj
+app: ingest
+configValidationMode: error
+frameworkVersion: '3'
+
+provider:
+  name: aws
+  runtime: python3.8
+  stage: ${opt:stage,'dev'}
+  deploymentBucket:
+    name: ${sls:stage}-deployment-serverless-ips
+  deploymentPrefix: ${sls:stage}-${self:service}
+  memorySize: ${param:lambda_memory}
+  timeout: ${param:lambda_timeout}
+  iam:
+    role:
+      name: ${sls:stage}-emailIngest-role
+      statements:
+        - Effect: "Allow"
+          Action:
+            - "s3:ListBucket"
+          Resource:
+            - "arn:aws:s3:::*"
+        - Effect: "Allow"
+          Action:
+            - "s3:*Object"
+          Resource:
+            - "arn:aws:s3:::*"
+        - Effect: "Allow"
+          Action:
+            - "kms:Decrypt"
+            - "kms:GenerateDataKey"
+          Resource:
+            - "*"
+        - Effect: "Allow"
+          Action:
+            - "logs:CreateLogGroup"
+            - "logs:CreateLogStream"
+            - "logs:PutLogEvents"
+          Resource:
+            - "*"
+        - Effect: "Allow"
+          Action:
+            - "cloudwatch:PutMetricData"
+          Resource:
+            - "*"
+        - Effect: "Allow"
+          Action:
+            - "ssm:GetParameter"
+          Resource:
+            - "*"
+        - Effect: "Allow"
+          Action:
+            - "dynamodb:GetShardIterator"
+            - "dynamodb:Scan"
+            - "dynamodb:Query"
+            - "dynamodb:DescribeStream"
+            - "dynamodb:GetRecords"
+            - "dynamodb:ListStreams"
+          Resource:
+            - !Sub 'arn:aws:dynamodb:${AWS::Region}:${AWS::AccountId}:table/${param:dynamo_db_table}/index/*'
+            - !Sub 'arn:aws:dynamodb:${AWS::Region}:${AWS::AccountId}:table/${param:dynamo_db_table}/stream/*'
+        - Effect: "Allow"
+          Action:
+            - "dynamodb:BatchGetItem"
+            - "dynamodb:BatchWriteItem"
+            - "dynamodb:ConditionCheckItem"
+            - "dynamodb:PutItem"
+            - "dynamodb:DescribeTable"
+            - "dynamodb:DeleteItem"
+            - "dynamodb:GetItem"
+            - "dynamodb:Scan"
+            - "dynamodb:Query"
+            - "dynamodb:UpdateItem"
+          Resource:
+            - !Sub 'arn:aws:dynamodb:${AWS::Region}:${AWS::AccountId}:table/${param:dynamo_db_table}'
+        - Effect: "Allow"
+          Action:
+            - "dynamodb:DescribeLimits"
+          Resource:
+            - !Sub 'arn:aws:dynamodb:${AWS::Region}:${AWS::AccountId}:table/${param:dynamo_db_table}'
+            - !Sub 'arn:aws:dynamodb:${AWS::Region}:${AWS::AccountId}:table/${param:dynamo_db_table}/index/*'
+  region: ${AWS::Region, env:AWS_Region, 'eu-west-1'}
+  environment:
+    STAGE: ${sls:stage}
+    LOGGING_LEVEL: ${param:LOGGING_LEVEL}
+
+functions:
+  fnEmailIngest:
+    handler: email_src/email_ingest_handler.lambda_handler
+    name: ${sls:stage}-email
+    description: Ingest Email
+    layers:
+      - ${cf:layers-${sls:stage}.ApacheTikaLayer}
+      - ${cf:layers-${sls:stage}.Java8Layer}
+
+    environment:
+      ES_HOST: ${param:ES_HOST}
+      ES_PASSWORD: ${param:ES_PASSWORD}
+      ES_USER: ${param:ES_USER}
+      ES_INDEX: ${param:ES_INDEX}
+      DYNAMO_DB: ${param:DYNAMO_DB}
+      DYNAMO_DB_TABLE: ${param:dynamo_db_table}
+      MOVE_FILES: ${param:MOVE_FILES}
+      TIKA_SERVER_JAR: "file:///opt/tika-server.jar"
+      TIKA_JAVA: "/opt/lib/jvm/java-1.8.0-openjdk-1.8.0.252.b09-2.lambda2.0.1.x86_64/jre/bin/java"
+
+    package:
+      patterns:
+        - "./email_src/**"
+        - "./email_helpers/**"
+        - "email_settings.py"
+
+package:
+  individually: true
+  patterns:
+    - "!node_modules/**"
+    - "!email_tests/**"
+    - "!*.json"
+    - "!*.txt"
+    - "!conftest.py"
+    - "../shared/shared_src/**"
+
+plugins:
+  - serverless-stage-manager
+  - serverless-python-requirements
+  - serverless-plugin-lambda-insights
+
+resources: # CloudFormation template syntax from here on.
+  Resources:
+    EmailIngestDynamoDBTable:
+      Type: AWS::DynamoDB::Table
+      Properties:
+        TableName: ${param:dynamo_db_table}
+        AttributeDefinitions:
+          - AttributeName: messageId
+            AttributeType: S
+        KeySchema:
+          - AttributeName: messageId
+            KeyType: HASH
+        ProvisionedThroughput:
+          ReadCapacityUnits: 1
+          WriteCapacityUnits: 3
+
+params:
+  default:
+    dynamo_db_table: ${sls:stage}_inbound_email
+    lambda_timeout: 300
+    lambda_memory: 1792
+  dev:
+    LOGGING_LEVEL: DEBUG
+    DYNAMO_DB : true
+    MOVE_FILES : true
+  prod:
+    LOGGING_LEVEL: INFO
+    DYNAMO_DB : False
+    MOVE_FILES : true
+  prod-us:
+    LOGGING_LEVEL: INFO
+    DYNAMO_DB : false
+    MOVE_FILES : true
+
+
+custom:
+  lambdaInsights:
+    defaultLambdaInsights: true #enables Lambda Insights for all functions
+
+  pythonRequirements:
+    dockerizePip: non-linux
+    slim: true
+    useDownloadCache: false
+    useStaticCache: false
+    invalidateCaches: true
+    noDeploy:
+      - pytest
+      - mock
+      - boto3
+      - botocore
+      - moto[sns]
+      - moto[s3]
+      - moto[dynamodb2]
+
+  stages:
+    - dev
+    - prod
+    - prod-us
+

@@ -1,0 +1,1056 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Data provided by Bloomberg LP. -->
+<FileDump>
+    <Version>1.9</Version>
+    <Conversation Perspective=" " RoomType="P">
+        <RoomID>PCHAT-0x100000282B7CA</RoomID>
+        <StartTime>03/01/2021 20:36:48</StartTime>
+        <StartTimeUTC>1614631008</StartTimeUTC>
+        <Message InteractionType="N" DeviceType="M">
+            <User>
+                <LoginName>tfluckiger</LoginName>
+                <FirstName>THOMAS</FirstName>
+                <LastName>FLUCKIGER</LastName>
+                <CompanyName>BRIDPORT &amp; CIE SA</CompanyName>
+                <EmailAddress>tfluckiger@bloomberg.net</EmailAddress>
+                <CorporateEmailAddress></CorporateEmailAddress>
+            </User>
+            <DateTime>03/01/2021 20:36:48</DateTime>
+            <DateTimeUTC>1614631008</DateTimeUTC>
+            <Content>[Bloomberg created note: Remains as a participant of the room.]</Content>
+            <ConversationID>PCHAT-0x100000282B7CA</ConversationID>
+        </Message>
+        <Message InteractionType="N" DeviceType="M">
+            <User>
+                <LoginName>fconti2</LoginName>
+                <FirstName>FABRIZIO</FirstName>
+                <LastName>CONTI</LastName>
+                <CompanyName>BRIDPORT &amp; CIE SA</CompanyName>
+                <EmailAddress>fconti2@bloomberg.net</EmailAddress>
+                <CorporateEmailAddress></CorporateEmailAddress>
+            </User>
+            <DateTime>03/01/2021 20:36:48</DateTime>
+            <DateTimeUTC>1614631008</DateTimeUTC>
+            <Content>[Bloomberg created note: Remains as a participant of the room.]</Content>
+            <ConversationID>PCHAT-0x100000282B7CA</ConversationID>
+        </Message>
+        <Message InteractionType="N" DeviceType="M">
+            <User>
+                <LoginName>acoia2</LoginName>
+                <FirstName>ANDREA</FirstName>
+                <LastName>COIA</LastName>
+                <UUID>25867559</UUID>
+                <FirmNumber>908067</FirmNumber>
+                <AccountNumber>30281119</AccountNumber>
+                <CompanyName>VALEUR CAPITAL LIMITED</CompanyName>
+                <EmailAddress>acoia2@bloomberg.net</EmailAddress>
+                <CorporateEmailAddress>andrea.coia@valeur.eu</CorporateEmailAddress>
+            </User>
+            <DateTime>03/01/2021 20:36:48</DateTime>
+            <DateTimeUTC>1614631008</DateTimeUTC>
+            <Content>[Bloomberg created note: Remains as a participant of the room.]</Content>
+            <ConversationID>PCHAT-0x100000282B7CA</ConversationID>
+        </Message>
+        <Message InteractionType="N" DeviceType="M">
+            <User>
+                <LoginName>twanglin2</LoginName>
+                <FirstName>TRISTAN</FirstName>
+                <LastName>WANGLIN</LastName>
+                <CompanyName>BRIDPORT &amp; CIE SA</CompanyName>
+                <EmailAddress>twanglin2@bloomberg.net</EmailAddress>
+                <CorporateEmailAddress></CorporateEmailAddress>
+            </User>
+            <DateTime>03/01/2021 20:36:48</DateTime>
+            <DateTimeUTC>1614631008</DateTimeUTC>
+            <Content>[Bloomberg created note: Remains logged in.]</Content>
+            <ConversationID>PCHAT-0x100000282B7CA</ConversationID>
+        </Message>
+        <Message InteractionType="N" DeviceType="M">
+            <User>
+                <LoginName>jbini4</LoginName>
+                <FirstName>JACOPO</FirstName>
+                <LastName>BINI</LastName>
+                <UUID>16169454</UUID>
+                <FirmNumber>908067</FirmNumber>
+                <AccountNumber>30335685</AccountNumber>
+                <CompanyName>VALEUR SECURITIES SA</CompanyName>
+                <EmailAddress>jbini4@bloomberg.net</EmailAddress>
+                <CorporateEmailAddress>jacopo.bini@valeur.ch</CorporateEmailAddress>
+            </User>
+            <DateTime>03/01/2021 20:36:48</DateTime>
+            <DateTimeUTC>1614631008</DateTimeUTC>
+            <Content>[Bloomberg created note: Remains as a participant of the room.]</Content>
+            <ConversationID>PCHAT-0x100000282B7CA</ConversationID>
+        </Message>
+        <Message InteractionType="N" DeviceType="M">
+            <User>
+                <LoginName>educrocq1</LoginName>
+                <FirstName>ERIC</FirstName>
+                <LastName>DUCROCQ</LastName>
+                <CompanyName>BRIDPORT &amp; CIE SA</CompanyName>
+                <EmailAddress>educrocq1@bloomberg.net</EmailAddress>
+                <CorporateEmailAddress></CorporateEmailAddress>
+            </User>
+            <DateTime>03/01/2021 20:36:48</DateTime>
+            <DateTimeUTC>1614631008</DateTimeUTC>
+            <Content>[Bloomberg created note: Remains as a participant of the room.]</Content>
+            <ConversationID>PCHAT-0x100000282B7CA</ConversationID>
+        </Message>
+        <Message InteractionType="N" DeviceType="M">
+            <User>
+                <LoginName>tneuraz1</LoginName>
+                <FirstName>THEO</FirstName>
+                <LastName>NEURAZ</LastName>
+                <CompanyName>BRIDPORT &amp; CIE SA</CompanyName>
+                <EmailAddress>tneuraz1@bloomberg.net</EmailAddress>
+                <CorporateEmailAddress></CorporateEmailAddress>
+            </User>
+            <DateTime>03/01/2021 20:36:48</DateTime>
+            <DateTimeUTC>1614631008</DateTimeUTC>
+            <Content>[Bloomberg created note: Remains logged in.]</Content>
+            <ConversationID>PCHAT-0x100000282B7CA</ConversationID>
+        </Message>
+        <Message InteractionType="N" DeviceType="M">
+            <User>
+                <LoginName>ggiannuzzo1</LoginName>
+                <FirstName>GIUSEPPE</FirstName>
+                <LastName>GIANNUZZO</LastName>
+                <CompanyName>BRIDPORT &amp; CIE SA</CompanyName>
+                <EmailAddress>ggiannuzzo1@bloomberg.net</EmailAddress>
+                <CorporateEmailAddress></CorporateEmailAddress>
+            </User>
+            <DateTime>03/01/2021 20:36:48</DateTime>
+            <DateTimeUTC>1614631008</DateTimeUTC>
+            <Content>[Bloomberg created note: Remains as a participant of the room.]</Content>
+            <ConversationID>PCHAT-0x100000282B7CA</ConversationID>
+        </Message>
+        <Message InteractionType="N" DeviceType="M">
+            <User>
+                <LoginName>fredtaisne</LoginName>
+                <FirstName>FREDERIC</FirstName>
+                <LastName>TAISNE</LastName>
+                <CompanyName>BRIDPORT &amp; CIE SA</CompanyName>
+                <EmailAddress>fredtaisne@bloomberg.net</EmailAddress>
+                <CorporateEmailAddress></CorporateEmailAddress>
+            </User>
+            <DateTime>03/01/2021 20:36:48</DateTime>
+            <DateTimeUTC>1614631008</DateTimeUTC>
+            <Content>[Bloomberg created note: Remains logged in.]</Content>
+            <ConversationID>PCHAT-0x100000282B7CA</ConversationID>
+        </Message>
+        <Message InteractionType="N" DeviceType="M">
+            <User>
+                <LoginName>mfaulhaber5</LoginName>
+                <FirstName>MARKUS</FirstName>
+                <LastName>FAULHABER</LastName>
+                <UUID>27351545</UUID>
+                <FirmNumber>908067</FirmNumber>
+                <AccountNumber>30335685</AccountNumber>
+                <CompanyName>VALEUR SECURITIES SA</CompanyName>
+                <EmailAddress>mfaulhaber5@bloomberg.net</EmailAddress>
+                <CorporateEmailAddress>markus.faulhaber@valeur.ch</CorporateEmailAddress>
+            </User>
+            <DateTime>03/01/2021 20:36:48</DateTime>
+            <DateTimeUTC>1614631008</DateTimeUTC>
+            <Content>[Bloomberg created note: Remains logged in.]</Content>
+            <ConversationID>PCHAT-0x100000282B7CA</ConversationID>
+        </Message>
+        <Message InteractionType="N" DeviceType="M">
+            <User>
+                <LoginName>xcornaz</LoginName>
+                <FirstName>XAVIER</FirstName>
+                <LastName>CORNAZ</LastName>
+                <CompanyName>BRIDPORT &amp; CIE SA</CompanyName>
+                <EmailAddress>xcornaz@bloomberg.net</EmailAddress>
+                <CorporateEmailAddress></CorporateEmailAddress>
+            </User>
+            <DateTime>03/01/2021 20:36:48</DateTime>
+            <DateTimeUTC>1614631008</DateTimeUTC>
+            <Content>[Bloomberg created note: Remains as a participant of the room.]</Content>
+            <ConversationID>PCHAT-0x100000282B7CA</ConversationID>
+        </Message>
+        <Message InteractionType="N" DeviceType="M">
+            <User>
+                <LoginName>bgopalan88</LoginName>
+                <FirstName>BHARATH</FirstName>
+                <LastName>GOPALAN</LastName>
+                <CompanyName>BRIDPORT &amp; CIE SA</CompanyName>
+                <EmailAddress>bgopalan88@bloomberg.net</EmailAddress>
+                <CorporateEmailAddress></CorporateEmailAddress>
+            </User>
+            <DateTime>03/01/2021 20:36:48</DateTime>
+            <DateTimeUTC>1614631008</DateTimeUTC>
+            <Content>[Bloomberg created note: Remains as a participant of the room.]</Content>
+            <ConversationID>PCHAT-0x100000282B7CA</ConversationID>
+        </Message>
+        <Message InteractionType="N" DeviceType="M">
+            <User>
+                <LoginName>odaiuto</LoginName>
+                <FirstName>ORLANDO</FirstName>
+                <LastName>DAIUTO</LastName>
+                <CompanyName>BRIDPORT &amp; CIE SA</CompanyName>
+                <EmailAddress>odaiuto@bloomberg.net</EmailAddress>
+                <CorporateEmailAddress></CorporateEmailAddress>
+            </User>
+            <DateTime>03/01/2021 20:36:48</DateTime>
+            <DateTimeUTC>1614631008</DateTimeUTC>
+            <Content>[Bloomberg created note: Remains as a participant of the room.]</Content>
+            <ConversationID>PCHAT-0x100000282B7CA</ConversationID>
+        </Message>
+        <Message InteractionType="N" DeviceType="M">
+            <User>
+                <LoginName>mbotta5</LoginName>
+                <FirstName>MATTIA</FirstName>
+                <LastName>BOTTA</LastName>
+                <UUID>21161150</UUID>
+                <FirmNumber>908067</FirmNumber>
+                <AccountNumber>30335685</AccountNumber>
+                <CompanyName>VALEUR SECURITIES SA</CompanyName>
+                <EmailAddress>mbotta5@bloomberg.net</EmailAddress>
+                <CorporateEmailAddress>mattia.botta@valeur.ch</CorporateEmailAddress>
+            </User>
+            <DateTime>03/01/2021 20:36:48</DateTime>
+            <DateTimeUTC>1614631008</DateTimeUTC>
+            <Content>[Bloomberg created note: Remains logged in.]</Content>
+            <ConversationID>PCHAT-0x100000282B7CA</ConversationID>
+        </Message>
+        <ParticipantLeft InteractionType="N" DeviceType="M">
+            <User>
+                <LoginName>tfluckiger</LoginName>
+                <FirstName>THOMAS</FirstName>
+                <LastName>FLUCKIGER</LastName>
+                <CompanyName>BRIDPORT &amp; CIE SA</CompanyName>
+                <EmailAddress>tfluckiger@bloomberg.net</EmailAddress>
+                <CorporateEmailAddress></CorporateEmailAddress>
+            </User>
+            <DateTime>03/01/2021 20:36:48</DateTime>
+            <DateTimeUTC>1614631008</DateTimeUTC>
+            <ConversationID>PCHAT-0x100000282B7CA</ConversationID>
+        </ParticipantLeft>
+        <ParticipantLeft InteractionType="N">
+            <User>
+                <LoginName>mfaulhaber5</LoginName>
+                <FirstName>MARKUS</FirstName>
+                <LastName>FAULHABER</LastName>
+                <UUID>27351545</UUID>
+                <FirmNumber>908067</FirmNumber>
+                <AccountNumber>30335685</AccountNumber>
+                <CompanyName>VALEUR SECURITIES SA</CompanyName>
+                <EmailAddress>mfaulhaber5@bloomberg.net</EmailAddress>
+                <CorporateEmailAddress>markus.faulhaber@valeur.ch</CorporateEmailAddress>
+            </User>
+            <DateTime>03/01/2021 20:40:15</DateTime>
+            <DateTimeUTC>1614631215</DateTimeUTC>
+            <ConversationID>PCHAT-0x100000282B7CA</ConversationID>
+        </ParticipantLeft>
+        <ParticipantLeft InteractionType="N" DeviceType="M">
+            <User>
+                <LoginName>twanglin2</LoginName>
+                <FirstName>TRISTAN</FirstName>
+                <LastName>WANGLIN</LastName>
+                <CompanyName>BRIDPORT &amp; CIE SA</CompanyName>
+                <EmailAddress>twanglin2@bloomberg.net</EmailAddress>
+                <CorporateEmailAddress></CorporateEmailAddress>
+            </User>
+            <DateTime>03/01/2021 21:07:16</DateTime>
+            <DateTimeUTC>1614632836</DateTimeUTC>
+            <ConversationID>PCHAT-0x100000282B7CA</ConversationID>
+        </ParticipantLeft>
+        <ParticipantLeft InteractionType="N">
+            <User>
+                <LoginName>acoia2</LoginName>
+                <FirstName>ANDREA</FirstName>
+                <LastName>COIA</LastName>
+                <UUID>25867559</UUID>
+                <FirmNumber>908067</FirmNumber>
+                <AccountNumber>30281119</AccountNumber>
+                <CompanyName>VALEUR CAPITAL LIMITED</CompanyName>
+                <EmailAddress>acoia2@bloomberg.net</EmailAddress>
+                <CorporateEmailAddress>andrea.coia@valeur.eu</CorporateEmailAddress>
+            </User>
+            <DateTime>03/01/2021 22:43:14</DateTime>
+            <DateTimeUTC>1614638594</DateTimeUTC>
+            <ConversationID>PCHAT-0x100000282B7CA</ConversationID>
+        </ParticipantLeft>
+        <ParticipantLeft InteractionType="N" DeviceType="M">
+            <User>
+                <LoginName>bgopalan88</LoginName>
+                <FirstName>BHARATH</FirstName>
+                <LastName>GOPALAN</LastName>
+                <CompanyName>BRIDPORT &amp; CIE SA</CompanyName>
+                <EmailAddress>bgopalan88@bloomberg.net</EmailAddress>
+                <CorporateEmailAddress></CorporateEmailAddress>
+            </User>
+            <DateTime>03/01/2021 22:51:14</DateTime>
+            <DateTimeUTC>1614639074</DateTimeUTC>
+            <ConversationID>PCHAT-0x100000282B7CA</ConversationID>
+        </ParticipantLeft>
+        <ParticipantEntered InteractionType="N" DeviceType="M">
+            <User>
+                <LoginName>mbotta5</LoginName>
+                <FirstName>MATTIA</FirstName>
+                <LastName>BOTTA</LastName>
+                <UUID>21161150</UUID>
+                <FirmNumber>908067</FirmNumber>
+                <AccountNumber>30335685</AccountNumber>
+                <CompanyName>VALEUR SECURITIES SA</CompanyName>
+                <EmailAddress>mbotta5@bloomberg.net</EmailAddress>
+                <CorporateEmailAddress>mattia.botta@valeur.ch</CorporateEmailAddress>
+            </User>
+            <DateTime>03/01/2021 22:53:01</DateTime>
+            <DateTimeUTC>1614639181</DateTimeUTC>
+            <ConversationID>PCHAT-0x100000282B7CA</ConversationID>
+        </ParticipantEntered>
+        <ParticipantLeft InteractionType="N">
+            <User>
+                <LoginName>odaiuto</LoginName>
+                <FirstName>ORLANDO</FirstName>
+                <LastName>DAIUTO</LastName>
+                <CompanyName>BRIDPORT &amp; CIE SA</CompanyName>
+                <EmailAddress>odaiuto@bloomberg.net</EmailAddress>
+                <CorporateEmailAddress></CorporateEmailAddress>
+            </User>
+            <DateTime>03/01/2021 22:57:04</DateTime>
+            <DateTimeUTC>1614639424</DateTimeUTC>
+            <ConversationID>PCHAT-0x100000282B7CA</ConversationID>
+        </ParticipantLeft>
+        <ParticipantLeft InteractionType="N">
+            <User>
+                <LoginName>tneuraz1</LoginName>
+                <FirstName>THEO</FirstName>
+                <LastName>NEURAZ</LastName>
+                <CompanyName>BRIDPORT &amp; CIE SA</CompanyName>
+                <EmailAddress>tneuraz1@bloomberg.net</EmailAddress>
+                <CorporateEmailAddress></CorporateEmailAddress>
+            </User>
+            <DateTime>03/01/2021 22:57:07</DateTime>
+            <DateTimeUTC>1614639427</DateTimeUTC>
+            <ConversationID>PCHAT-0x100000282B7CA</ConversationID>
+        </ParticipantLeft>
+        <ParticipantEntered InteractionType="N" DeviceType="M">
+            <User>
+                <LoginName>mbotta5</LoginName>
+                <FirstName>MATTIA</FirstName>
+                <LastName>BOTTA</LastName>
+                <UUID>21161150</UUID>
+                <FirmNumber>908067</FirmNumber>
+                <AccountNumber>30335685</AccountNumber>
+                <CompanyName>VALEUR SECURITIES SA</CompanyName>
+                <EmailAddress>mbotta5@bloomberg.net</EmailAddress>
+                <CorporateEmailAddress>mattia.botta@valeur.ch</CorporateEmailAddress>
+            </User>
+            <DateTime>03/01/2021 23:25:37</DateTime>
+            <DateTimeUTC>1614641137</DateTimeUTC>
+            <ConversationID>PCHAT-0x100000282B7CA</ConversationID>
+        </ParticipantEntered>
+        <ParticipantEntered InteractionType="N">
+            <User>
+                <LoginName>twanglin2</LoginName>
+                <FirstName>TRISTAN</FirstName>
+                <LastName>WANGLIN</LastName>
+                <CompanyName>BRIDPORT &amp; CIE SA</CompanyName>
+                <EmailAddress>twanglin2@bloomberg.net</EmailAddress>
+                <CorporateEmailAddress></CorporateEmailAddress>
+            </User>
+            <DateTime>03/02/2021 06:36:44</DateTime>
+            <DateTimeUTC>1614667004</DateTimeUTC>
+            <ConversationID>PCHAT-0x100000282B7CA</ConversationID>
+        </ParticipantEntered>
+        <ParticipantEntered InteractionType="N">
+            <User>
+                <LoginName>ggiannuzzo1</LoginName>
+                <FirstName>GIUSEPPE</FirstName>
+                <LastName>GIANNUZZO</LastName>
+                <CompanyName>BRIDPORT &amp; CIE SA</CompanyName>
+                <EmailAddress>ggiannuzzo1@bloomberg.net</EmailAddress>
+                <CorporateEmailAddress></CorporateEmailAddress>
+            </User>
+            <DateTime>03/02/2021 07:05:24</DateTime>
+            <DateTimeUTC>1614668724</DateTimeUTC>
+            <ConversationID>PCHAT-0x100000282B7CA</ConversationID>
+        </ParticipantEntered>
+        <ParticipantEntered InteractionType="N">
+            <User>
+                <LoginName>educrocq1</LoginName>
+                <FirstName>ERIC</FirstName>
+                <LastName>DUCROCQ</LastName>
+                <CompanyName>BRIDPORT &amp; CIE SA</CompanyName>
+                <EmailAddress>educrocq1@bloomberg.net</EmailAddress>
+                <CorporateEmailAddress></CorporateEmailAddress>
+            </User>
+            <DateTime>03/02/2021 07:11:59</DateTime>
+            <DateTimeUTC>1614669119</DateTimeUTC>
+            <ConversationID>PCHAT-0x100000282B7CA</ConversationID>
+        </ParticipantEntered>
+        <ParticipantEntered InteractionType="N">
+            <User>
+                <LoginName>fredtaisne</LoginName>
+                <FirstName>FREDERIC</FirstName>
+                <LastName>TAISNE</LastName>
+                <CompanyName>BRIDPORT &amp; CIE SA</CompanyName>
+                <EmailAddress>fredtaisne@bloomberg.net</EmailAddress>
+                <CorporateEmailAddress></CorporateEmailAddress>
+            </User>
+            <DateTime>03/02/2021 07:18:51</DateTime>
+            <DateTimeUTC>1614669531</DateTimeUTC>
+            <ConversationID>PCHAT-0x100000282B7CA</ConversationID>
+        </ParticipantEntered>
+        <ParticipantLeft InteractionType="N">
+            <User>
+                <LoginName>fredtaisne</LoginName>
+                <FirstName>FREDERIC</FirstName>
+                <LastName>TAISNE</LastName>
+                <CompanyName>BRIDPORT &amp; CIE SA</CompanyName>
+                <EmailAddress>fredtaisne@bloomberg.net</EmailAddress>
+                <CorporateEmailAddress></CorporateEmailAddress>
+            </User>
+            <DateTime>03/02/2021 07:19:30</DateTime>
+            <DateTimeUTC>1614669570</DateTimeUTC>
+            <ConversationID>PCHAT-0x100000282B7CA</ConversationID>
+        </ParticipantLeft>
+        <ParticipantEntered InteractionType="N">
+            <User>
+                <LoginName>fredtaisne</LoginName>
+                <FirstName>FREDERIC</FirstName>
+                <LastName>TAISNE</LastName>
+                <CompanyName>BRIDPORT &amp; CIE SA</CompanyName>
+                <EmailAddress>fredtaisne@bloomberg.net</EmailAddress>
+                <CorporateEmailAddress></CorporateEmailAddress>
+            </User>
+            <DateTime>03/02/2021 07:19:38</DateTime>
+            <DateTimeUTC>1614669578</DateTimeUTC>
+            <ConversationID>PCHAT-0x100000282B7CA</ConversationID>
+        </ParticipantEntered>
+        <ParticipantEntered InteractionType="N">
+            <User>
+                <LoginName>mfaulhaber5</LoginName>
+                <FirstName>MARKUS</FirstName>
+                <LastName>FAULHABER</LastName>
+                <UUID>27351545</UUID>
+                <FirmNumber>908067</FirmNumber>
+                <AccountNumber>30335685</AccountNumber>
+                <CompanyName>VALEUR SECURITIES SA</CompanyName>
+                <EmailAddress>mfaulhaber5@bloomberg.net</EmailAddress>
+                <CorporateEmailAddress>markus.faulhaber@valeur.ch</CorporateEmailAddress>
+            </User>
+            <DateTime>03/02/2021 07:21:53</DateTime>
+            <DateTimeUTC>1614669713</DateTimeUTC>
+            <ConversationID>PCHAT-0x100000282B7CA</ConversationID>
+        </ParticipantEntered>
+        <ParticipantEntered InteractionType="N">
+            <User>
+                <LoginName>bgopalan88</LoginName>
+                <FirstName>BHARATH</FirstName>
+                <LastName>GOPALAN</LastName>
+                <CompanyName>BRIDPORT &amp; CIE SA</CompanyName>
+                <EmailAddress>bgopalan88@bloomberg.net</EmailAddress>
+                <CorporateEmailAddress></CorporateEmailAddress>
+            </User>
+            <DateTime>03/02/2021 07:22:42</DateTime>
+            <DateTimeUTC>1614669762</DateTimeUTC>
+            <ConversationID>PCHAT-0x100000282B7CA</ConversationID>
+        </ParticipantEntered>
+        <ParticipantLeft InteractionType="N">
+            <User>
+                <LoginName>mfaulhaber5</LoginName>
+                <FirstName>MARKUS</FirstName>
+                <LastName>FAULHABER</LastName>
+                <UUID>27351545</UUID>
+                <FirmNumber>908067</FirmNumber>
+                <AccountNumber>30335685</AccountNumber>
+                <CompanyName>VALEUR SECURITIES SA</CompanyName>
+                <EmailAddress>mfaulhaber5@bloomberg.net</EmailAddress>
+                <CorporateEmailAddress>markus.faulhaber@valeur.ch</CorporateEmailAddress>
+            </User>
+            <DateTime>03/02/2021 07:24:28</DateTime>
+            <DateTimeUTC>1614669868</DateTimeUTC>
+            <ConversationID>PCHAT-0x100000282B7CA</ConversationID>
+        </ParticipantLeft>
+        <ParticipantEntered InteractionType="N">
+            <User>
+                <LoginName>tfluckiger</LoginName>
+                <FirstName>THOMAS</FirstName>
+                <LastName>FLUCKIGER</LastName>
+                <CompanyName>BRIDPORT &amp; CIE SA</CompanyName>
+                <EmailAddress>tfluckiger@bloomberg.net</EmailAddress>
+                <CorporateEmailAddress></CorporateEmailAddress>
+            </User>
+            <DateTime>03/02/2021 07:25:26</DateTime>
+            <DateTimeUTC>1614669926</DateTimeUTC>
+            <ConversationID>PCHAT-0x100000282B7CA</ConversationID>
+        </ParticipantEntered>
+        <ParticipantLeft InteractionType="N">
+            <User>
+                <LoginName>tfluckiger</LoginName>
+                <FirstName>THOMAS</FirstName>
+                <LastName>FLUCKIGER</LastName>
+                <CompanyName>BRIDPORT &amp; CIE SA</CompanyName>
+                <EmailAddress>tfluckiger@bloomberg.net</EmailAddress>
+                <CorporateEmailAddress></CorporateEmailAddress>
+            </User>
+            <DateTime>03/02/2021 07:25:33</DateTime>
+            <DateTimeUTC>1614669933</DateTimeUTC>
+            <ConversationID>PCHAT-0x100000282B7CA</ConversationID>
+        </ParticipantLeft>
+        <ParticipantEntered InteractionType="N">
+            <User>
+                <LoginName>tfluckiger</LoginName>
+                <FirstName>THOMAS</FirstName>
+                <LastName>FLUCKIGER</LastName>
+                <CompanyName>BRIDPORT &amp; CIE SA</CompanyName>
+                <EmailAddress>tfluckiger@bloomberg.net</EmailAddress>
+                <CorporateEmailAddress></CorporateEmailAddress>
+            </User>
+            <DateTime>03/02/2021 07:25:42</DateTime>
+            <DateTimeUTC>1614669942</DateTimeUTC>
+            <ConversationID>PCHAT-0x100000282B7CA</ConversationID>
+        </ParticipantEntered>
+        <ParticipantEntered InteractionType="N">
+            <User>
+                <LoginName>xcornaz</LoginName>
+                <FirstName>XAVIER</FirstName>
+                <LastName>CORNAZ</LastName>
+                <CompanyName>BRIDPORT &amp; CIE SA</CompanyName>
+                <EmailAddress>xcornaz@bloomberg.net</EmailAddress>
+                <CorporateEmailAddress></CorporateEmailAddress>
+            </User>
+            <DateTime>03/02/2021 07:27:40</DateTime>
+            <DateTimeUTC>1614670060</DateTimeUTC>
+            <ConversationID>PCHAT-0x100000282B7CA</ConversationID>
+        </ParticipantEntered>
+        <ParticipantEntered InteractionType="N">
+            <User>
+                <LoginName>odaiuto</LoginName>
+                <FirstName>ORLANDO</FirstName>
+                <LastName>DAIUTO</LastName>
+                <CompanyName>BRIDPORT &amp; CIE SA</CompanyName>
+                <EmailAddress>odaiuto@bloomberg.net</EmailAddress>
+                <CorporateEmailAddress></CorporateEmailAddress>
+            </User>
+            <DateTime>03/02/2021 07:29:24</DateTime>
+            <DateTimeUTC>1614670164</DateTimeUTC>
+            <ConversationID>PCHAT-0x100000282B7CA</ConversationID>
+        </ParticipantEntered>
+        <ParticipantEntered InteractionType="N">
+            <User>
+                <LoginName>tneuraz1</LoginName>
+                <FirstName>THEO</FirstName>
+                <LastName>NEURAZ</LastName>
+                <CompanyName>BRIDPORT &amp; CIE SA</CompanyName>
+                <EmailAddress>tneuraz1@bloomberg.net</EmailAddress>
+                <CorporateEmailAddress></CorporateEmailAddress>
+            </User>
+            <DateTime>03/02/2021 07:29:52</DateTime>
+            <DateTimeUTC>1614670192</DateTimeUTC>
+            <ConversationID>PCHAT-0x100000282B7CA</ConversationID>
+        </ParticipantEntered>
+        <ParticipantEntered InteractionType="N">
+            <User>
+                <LoginName>jbini4</LoginName>
+                <FirstName>JACOPO</FirstName>
+                <LastName>BINI</LastName>
+                <UUID>16169454</UUID>
+                <FirmNumber>908067</FirmNumber>
+                <AccountNumber>30335685</AccountNumber>
+                <CompanyName>VALEUR SECURITIES SA</CompanyName>
+                <EmailAddress>jbini4@bloomberg.net</EmailAddress>
+                <CorporateEmailAddress>jacopo.bini@valeur.ch</CorporateEmailAddress>
+            </User>
+            <DateTime>03/02/2021 07:34:45</DateTime>
+            <DateTimeUTC>1614670485</DateTimeUTC>
+            <ConversationID>PCHAT-0x100000282B7CA</ConversationID>
+        </ParticipantEntered>
+        <ParticipantEntered InteractionType="N">
+            <User>
+                <LoginName>mfaulhaber5</LoginName>
+                <FirstName>MARKUS</FirstName>
+                <LastName>FAULHABER</LastName>
+                <UUID>27351545</UUID>
+                <FirmNumber>908067</FirmNumber>
+                <AccountNumber>30335685</AccountNumber>
+                <CompanyName>VALEUR SECURITIES SA</CompanyName>
+                <EmailAddress>mfaulhaber5@bloomberg.net</EmailAddress>
+                <CorporateEmailAddress>markus.faulhaber@valeur.ch</CorporateEmailAddress>
+            </User>
+            <DateTime>03/02/2021 07:35:07</DateTime>
+            <DateTimeUTC>1614670507</DateTimeUTC>
+            <ConversationID>PCHAT-0x100000282B7CA</ConversationID>
+        </ParticipantEntered>
+        <ParticipantEntered InteractionType="N">
+            <User>
+                <LoginName>fconti2</LoginName>
+                <FirstName>FABRIZIO</FirstName>
+                <LastName>CONTI</LastName>
+                <CompanyName>BRIDPORT &amp; CIE SA</CompanyName>
+                <EmailAddress>fconti2@bloomberg.net</EmailAddress>
+                <CorporateEmailAddress></CorporateEmailAddress>
+            </User>
+            <DateTime>03/02/2021 07:40:14</DateTime>
+            <DateTimeUTC>1614670814</DateTimeUTC>
+            <ConversationID>PCHAT-0x100000282B7CA</ConversationID>
+        </ParticipantEntered>
+        <ParticipantLeft InteractionType="N">
+            <User>
+                <LoginName>jbini4</LoginName>
+                <FirstName>JACOPO</FirstName>
+                <LastName>BINI</LastName>
+                <UUID>16169454</UUID>
+                <FirmNumber>908067</FirmNumber>
+                <AccountNumber>30335685</AccountNumber>
+                <CompanyName>VALEUR SECURITIES SA</CompanyName>
+                <EmailAddress>jbini4@bloomberg.net</EmailAddress>
+                <CorporateEmailAddress>jacopo.bini@valeur.ch</CorporateEmailAddress>
+            </User>
+            <DateTime>03/02/2021 08:59:55</DateTime>
+            <DateTimeUTC>1614675595</DateTimeUTC>
+            <ConversationID>PCHAT-0x100000282B7CA</ConversationID>
+        </ParticipantLeft>
+        <ParticipantEntered InteractionType="N">
+            <User>
+                <LoginName>jbini4</LoginName>
+                <FirstName>JACOPO</FirstName>
+                <LastName>BINI</LastName>
+                <UUID>16169454</UUID>
+                <FirmNumber>908067</FirmNumber>
+                <AccountNumber>30335685</AccountNumber>
+                <CompanyName>VALEUR SECURITIES SA</CompanyName>
+                <EmailAddress>jbini4@bloomberg.net</EmailAddress>
+                <CorporateEmailAddress>jacopo.bini@valeur.ch</CorporateEmailAddress>
+            </User>
+            <DateTime>03/02/2021 09:00:09</DateTime>
+            <DateTimeUTC>1614675609</DateTimeUTC>
+            <ConversationID>PCHAT-0x100000282B7CA</ConversationID>
+        </ParticipantEntered>
+        <ParticipantEntered InteractionType="N">
+            <User>
+                <LoginName>mbotta5</LoginName>
+                <FirstName>MATTIA</FirstName>
+                <LastName>BOTTA</LastName>
+                <UUID>21161150</UUID>
+                <FirmNumber>908067</FirmNumber>
+                <AccountNumber>30335685</AccountNumber>
+                <CompanyName>VALEUR SECURITIES SA</CompanyName>
+                <EmailAddress>mbotta5@bloomberg.net</EmailAddress>
+                <CorporateEmailAddress>mattia.botta@valeur.ch</CorporateEmailAddress>
+            </User>
+            <DateTime>03/02/2021 09:03:58</DateTime>
+            <DateTimeUTC>1614675838</DateTimeUTC>
+            <ConversationID>PCHAT-0x100000282B7CA</ConversationID>
+        </ParticipantEntered>
+        <ParticipantEntered InteractionType="N" DeviceType="M">
+            <User>
+                <LoginName>tfluckiger</LoginName>
+                <FirstName>THOMAS</FirstName>
+                <LastName>FLUCKIGER</LastName>
+                <CompanyName>BRIDPORT &amp; CIE SA</CompanyName>
+                <EmailAddress>tfluckiger@bloomberg.net</EmailAddress>
+                <CorporateEmailAddress></CorporateEmailAddress>
+            </User>
+            <DateTime>03/02/2021 09:25:35</DateTime>
+            <DateTimeUTC>1614677135</DateTimeUTC>
+            <ConversationID>PCHAT-0x100000282B7CA</ConversationID>
+        </ParticipantEntered>
+        <ParticipantLeft InteractionType="N">
+            <User>
+                <LoginName>educrocq1</LoginName>
+                <FirstName>ERIC</FirstName>
+                <LastName>DUCROCQ</LastName>
+                <CompanyName>BRIDPORT &amp; CIE SA</CompanyName>
+                <EmailAddress>educrocq1@bloomberg.net</EmailAddress>
+                <CorporateEmailAddress></CorporateEmailAddress>
+            </User>
+            <DateTime>03/02/2021 10:10:49</DateTime>
+            <DateTimeUTC>1614679849</DateTimeUTC>
+            <ConversationID>PCHAT-0x100000282B7CA</ConversationID>
+        </ParticipantLeft>
+        <ParticipantEntered InteractionType="N">
+            <User>
+                <LoginName>educrocq1</LoginName>
+                <FirstName>ERIC</FirstName>
+                <LastName>DUCROCQ</LastName>
+                <CompanyName>BRIDPORT &amp; CIE SA</CompanyName>
+                <EmailAddress>educrocq1@bloomberg.net</EmailAddress>
+                <CorporateEmailAddress></CorporateEmailAddress>
+            </User>
+            <DateTime>03/02/2021 10:10:55</DateTime>
+            <DateTimeUTC>1614679855</DateTimeUTC>
+            <ConversationID>PCHAT-0x100000282B7CA</ConversationID>
+        </ParticipantEntered>
+        <ParticipantEntered InteractionType="N" DeviceType="M">
+            <User>
+                <LoginName>educrocq1</LoginName>
+                <FirstName>ERIC</FirstName>
+                <LastName>DUCROCQ</LastName>
+                <CompanyName>BRIDPORT &amp; CIE SA</CompanyName>
+                <EmailAddress>educrocq1@bloomberg.net</EmailAddress>
+                <CorporateEmailAddress></CorporateEmailAddress>
+            </User>
+            <DateTime>03/02/2021 11:13:19</DateTime>
+            <DateTimeUTC>1614683599</DateTimeUTC>
+            <ConversationID>PCHAT-0x100000282B7CA</ConversationID>
+        </ParticipantEntered>
+        <ParticipantEntered InteractionType="N" DeviceType="M">
+            <User>
+                <LoginName>educrocq1</LoginName>
+                <FirstName>ERIC</FirstName>
+                <LastName>DUCROCQ</LastName>
+                <CompanyName>BRIDPORT &amp; CIE SA</CompanyName>
+                <EmailAddress>educrocq1@bloomberg.net</EmailAddress>
+                <CorporateEmailAddress></CorporateEmailAddress>
+            </User>
+            <DateTime>03/02/2021 11:31:44</DateTime>
+            <DateTimeUTC>1614684704</DateTimeUTC>
+            <ConversationID>PCHAT-0x100000282B7CA</ConversationID>
+        </ParticipantEntered>
+        <ParticipantEntered InteractionType="N" DeviceType="M">
+            <User>
+                <LoginName>bgopalan88</LoginName>
+                <FirstName>BHARATH</FirstName>
+                <LastName>GOPALAN</LastName>
+                <CompanyName>BRIDPORT &amp; CIE SA</CompanyName>
+                <EmailAddress>bgopalan88@bloomberg.net</EmailAddress>
+                <CorporateEmailAddress></CorporateEmailAddress>
+            </User>
+            <DateTime>03/02/2021 11:35:53</DateTime>
+            <DateTimeUTC>1614684953</DateTimeUTC>
+            <ConversationID>PCHAT-0x100000282B7CA</ConversationID>
+        </ParticipantEntered>
+        <ParticipantEntered InteractionType="N" DeviceType="M">
+            <User>
+                <LoginName>mbotta5</LoginName>
+                <FirstName>MATTIA</FirstName>
+                <LastName>BOTTA</LastName>
+                <UUID>21161150</UUID>
+                <FirmNumber>908067</FirmNumber>
+                <AccountNumber>30335685</AccountNumber>
+                <CompanyName>VALEUR SECURITIES SA</CompanyName>
+                <EmailAddress>mbotta5@bloomberg.net</EmailAddress>
+                <CorporateEmailAddress>mattia.botta@valeur.ch</CorporateEmailAddress>
+            </User>
+            <DateTime>03/02/2021 11:37:46</DateTime>
+            <DateTimeUTC>1614685066</DateTimeUTC>
+            <ConversationID>PCHAT-0x100000282B7CA</ConversationID>
+        </ParticipantEntered>
+        <ParticipantEntered InteractionType="N" DeviceType="M">
+            <User>
+                <LoginName>twanglin2</LoginName>
+                <FirstName>TRISTAN</FirstName>
+                <LastName>WANGLIN</LastName>
+                <CompanyName>BRIDPORT &amp; CIE SA</CompanyName>
+                <EmailAddress>twanglin2@bloomberg.net</EmailAddress>
+                <CorporateEmailAddress></CorporateEmailAddress>
+            </User>
+            <DateTime>03/02/2021 11:59:33</DateTime>
+            <DateTimeUTC>1614686373</DateTimeUTC>
+            <ConversationID>PCHAT-0x100000282B7CA</ConversationID>
+        </ParticipantEntered>
+        <ParticipantEntered InteractionType="N" DeviceType="M">
+            <User>
+                <LoginName>twanglin2</LoginName>
+                <FirstName>TRISTAN</FirstName>
+                <LastName>WANGLIN</LastName>
+                <CompanyName>BRIDPORT &amp; CIE SA</CompanyName>
+                <EmailAddress>twanglin2@bloomberg.net</EmailAddress>
+                <CorporateEmailAddress></CorporateEmailAddress>
+            </User>
+            <DateTime>03/02/2021 12:07:52</DateTime>
+            <DateTimeUTC>1614686872</DateTimeUTC>
+            <ConversationID>PCHAT-0x100000282B7CA</ConversationID>
+        </ParticipantEntered>
+        <ParticipantEntered InteractionType="N" DeviceType="M">
+            <User>
+                <LoginName>twanglin2</LoginName>
+                <FirstName>TRISTAN</FirstName>
+                <LastName>WANGLIN</LastName>
+                <CompanyName>BRIDPORT &amp; CIE SA</CompanyName>
+                <EmailAddress>twanglin2@bloomberg.net</EmailAddress>
+                <CorporateEmailAddress></CorporateEmailAddress>
+            </User>
+            <DateTime>03/02/2021 12:08:35</DateTime>
+            <DateTimeUTC>1614686915</DateTimeUTC>
+            <ConversationID>PCHAT-0x100000282B7CA</ConversationID>
+        </ParticipantEntered>
+        <ParticipantEntered InteractionType="N" DeviceType="M">
+            <User>
+                <LoginName>twanglin2</LoginName>
+                <FirstName>TRISTAN</FirstName>
+                <LastName>WANGLIN</LastName>
+                <CompanyName>BRIDPORT &amp; CIE SA</CompanyName>
+                <EmailAddress>twanglin2@bloomberg.net</EmailAddress>
+                <CorporateEmailAddress></CorporateEmailAddress>
+            </User>
+            <DateTime>03/02/2021 12:15:43</DateTime>
+            <DateTimeUTC>1614687343</DateTimeUTC>
+            <ConversationID>PCHAT-0x100000282B7CA</ConversationID>
+        </ParticipantEntered>
+        <ParticipantEntered InteractionType="N" DeviceType="M">
+            <User>
+                <LoginName>twanglin2</LoginName>
+                <FirstName>TRISTAN</FirstName>
+                <LastName>WANGLIN</LastName>
+                <CompanyName>BRIDPORT &amp; CIE SA</CompanyName>
+                <EmailAddress>twanglin2@bloomberg.net</EmailAddress>
+                <CorporateEmailAddress></CorporateEmailAddress>
+            </User>
+            <DateTime>03/02/2021 12:15:55</DateTime>
+            <DateTimeUTC>1614687355</DateTimeUTC>
+            <ConversationID>PCHAT-0x100000282B7CA</ConversationID>
+        </ParticipantEntered>
+        <ParticipantEntered InteractionType="N" DeviceType="M">
+            <User>
+                <LoginName>bgopalan88</LoginName>
+                <FirstName>BHARATH</FirstName>
+                <LastName>GOPALAN</LastName>
+                <CompanyName>BRIDPORT &amp; CIE SA</CompanyName>
+                <EmailAddress>bgopalan88@bloomberg.net</EmailAddress>
+                <CorporateEmailAddress></CorporateEmailAddress>
+            </User>
+            <DateTime>03/02/2021 13:25:46</DateTime>
+            <DateTimeUTC>1614691546</DateTimeUTC>
+            <ConversationID>PCHAT-0x100000282B7CA</ConversationID>
+        </ParticipantEntered>
+        <ParticipantEntered InteractionType="N" DeviceType="M">
+            <User>
+                <LoginName>tfluckiger</LoginName>
+                <FirstName>THOMAS</FirstName>
+                <LastName>FLUCKIGER</LastName>
+                <CompanyName>BRIDPORT &amp; CIE SA</CompanyName>
+                <EmailAddress>tfluckiger@bloomberg.net</EmailAddress>
+                <CorporateEmailAddress></CorporateEmailAddress>
+            </User>
+            <DateTime>03/02/2021 14:25:59</DateTime>
+            <DateTimeUTC>1614695159</DateTimeUTC>
+            <ConversationID>PCHAT-0x100000282B7CA</ConversationID>
+        </ParticipantEntered>
+        <ParticipantEntered InteractionType="N" DeviceType="M">
+            <User>
+                <LoginName>bgopalan88</LoginName>
+                <FirstName>BHARATH</FirstName>
+                <LastName>GOPALAN</LastName>
+                <CompanyName>BRIDPORT &amp; CIE SA</CompanyName>
+                <EmailAddress>bgopalan88@bloomberg.net</EmailAddress>
+                <CorporateEmailAddress></CorporateEmailAddress>
+            </User>
+            <DateTime>03/02/2021 14:50:03</DateTime>
+            <DateTimeUTC>1614696603</DateTimeUTC>
+            <ConversationID>PCHAT-0x100000282B7CA</ConversationID>
+        </ParticipantEntered>
+        <Message InteractionType="N">
+            <User>
+                <LoginName>mbotta5</LoginName>
+                <FirstName>MATTIA</FirstName>
+                <LastName>BOTTA</LastName>
+                <UUID>21161150</UUID>
+                <FirmNumber>908067</FirmNumber>
+                <AccountNumber>30335685</AccountNumber>
+                <CompanyName>VALEUR SECURITIES SA</CompanyName>
+                <EmailAddress>mbotta5@bloomberg.net</EmailAddress>
+                <CorporateEmailAddress>mattia.botta@valeur.ch</CorporateEmailAddress>
+            </User>
+            <DateTime>03/02/2021 15:20:58</DateTime>
+            <DateTimeUTC>1614698458</DateTimeUTC>
+            <Content>Ciao Tristan</Content>
+            <ConversationID>PCHAT-0x100000282B7CA</ConversationID>
+        </Message>
+        <Message InteractionType="N">
+            <User>
+                <LoginName>mbotta5</LoginName>
+                <FirstName>MATTIA</FirstName>
+                <LastName>BOTTA</LastName>
+                <UUID>21161150</UUID>
+                <FirmNumber>908067</FirmNumber>
+                <AccountNumber>30335685</AccountNumber>
+                <CompanyName>VALEUR SECURITIES SA</CompanyName>
+                <EmailAddress>mbotta5@bloomberg.net</EmailAddress>
+                <CorporateEmailAddress>mattia.botta@valeur.ch</CorporateEmailAddress>
+            </User>
+            <DateTime>03/02/2021 15:21:07</DateTime>
+            <DateTimeUTC>1614698467</DateTimeUTC>
+            <Content>XS2123784295, waiting for 200k UBS 600k JB</Content>
+            <ConversationID>PCHAT-0x100000282B7CA</ConversationID>
+        </Message>
+        <Message InteractionType="N">
+            <User>
+                <LoginName>twanglin2</LoginName>
+                <FirstName>TRISTAN</FirstName>
+                <LastName>WANGLIN</LastName>
+                <CompanyName>BRIDPORT &amp; CIE SA</CompanyName>
+                <EmailAddress>twanglin2@bloomberg.net</EmailAddress>
+                <CorporateEmailAddress></CorporateEmailAddress>
+            </User>
+            <DateTime>03/02/2021 15:21:11</DateTime>
+            <DateTimeUTC>1614698471</DateTimeUTC>
+            <Content>hello</Content>
+            <ConversationID>PCHAT-0x100000282B7CA</ConversationID>
+        </Message>
+        <Message InteractionType="N">
+            <User>
+                <LoginName>twanglin2</LoginName>
+                <FirstName>TRISTAN</FirstName>
+                <LastName>WANGLIN</LastName>
+                <CompanyName>BRIDPORT &amp; CIE SA</CompanyName>
+                <EmailAddress>twanglin2@bloomberg.net</EmailAddress>
+                <CorporateEmailAddress></CorporateEmailAddress>
+            </User>
+            <DateTime>03/02/2021 15:21:14</DateTime>
+            <DateTimeUTC>1614698474</DateTimeUTC>
+            <Content>Ok noted</Content>
+            <ConversationID>PCHAT-0x100000282B7CA</ConversationID>
+        </Message>
+        <Message InteractionType="N">
+            <User>
+                <LoginName>twanglin2</LoginName>
+                <FirstName>TRISTAN</FirstName>
+                <LastName>WANGLIN</LastName>
+                <CompanyName>BRIDPORT &amp; CIE SA</CompanyName>
+                <EmailAddress>twanglin2@bloomberg.net</EmailAddress>
+                <CorporateEmailAddress></CorporateEmailAddress>
+            </User>
+            <DateTime>03/02/2021 15:21:17</DateTime>
+            <DateTimeUTC>1614698477</DateTimeUTC>
+            <Content>Sure thanks</Content>
+            <ConversationID>PCHAT-0x100000282B7CA</ConversationID>
+        </Message>
+        <ParticipantLeft InteractionType="N">
+            <User>
+                <LoginName>bgopalan88</LoginName>
+                <FirstName>BHARATH</FirstName>
+                <LastName>GOPALAN</LastName>
+                <CompanyName>BRIDPORT &amp; CIE SA</CompanyName>
+                <EmailAddress>bgopalan88@bloomberg.net</EmailAddress>
+                <CorporateEmailAddress></CorporateEmailAddress>
+            </User>
+            <DateTime>03/02/2021 16:47:11</DateTime>
+            <DateTimeUTC>1614703631</DateTimeUTC>
+            <ConversationID>PCHAT-0x100000282B7CA</ConversationID>
+        </ParticipantLeft>
+        <ParticipantLeft InteractionType="N">
+            <User>
+                <LoginName>fconti2</LoginName>
+                <FirstName>FABRIZIO</FirstName>
+                <LastName>CONTI</LastName>
+                <CompanyName>BRIDPORT &amp; CIE SA</CompanyName>
+                <EmailAddress>fconti2@bloomberg.net</EmailAddress>
+                <CorporateEmailAddress></CorporateEmailAddress>
+            </User>
+            <DateTime>03/02/2021 16:49:25</DateTime>
+            <DateTimeUTC>1614703765</DateTimeUTC>
+            <ConversationID>PCHAT-0x100000282B7CA</ConversationID>
+        </ParticipantLeft>
+        <ParticipantLeft InteractionType="N">
+            <User>
+                <LoginName>xcornaz</LoginName>
+                <FirstName>XAVIER</FirstName>
+                <LastName>CORNAZ</LastName>
+                <CompanyName>BRIDPORT &amp; CIE SA</CompanyName>
+                <EmailAddress>xcornaz@bloomberg.net</EmailAddress>
+                <CorporateEmailAddress></CorporateEmailAddress>
+            </User>
+            <DateTime>03/02/2021 16:53:38</DateTime>
+            <DateTimeUTC>1614704018</DateTimeUTC>
+            <ConversationID>PCHAT-0x100000282B7CA</ConversationID>
+        </ParticipantLeft>
+        <ParticipantLeft InteractionType="N">
+            <User>
+                <LoginName>ggiannuzzo1</LoginName>
+                <FirstName>GIUSEPPE</FirstName>
+                <LastName>GIANNUZZO</LastName>
+                <CompanyName>BRIDPORT &amp; CIE SA</CompanyName>
+                <EmailAddress>ggiannuzzo1@bloomberg.net</EmailAddress>
+                <CorporateEmailAddress></CorporateEmailAddress>
+            </User>
+            <DateTime>03/02/2021 17:02:05</DateTime>
+            <DateTimeUTC>1614704525</DateTimeUTC>
+            <ConversationID>PCHAT-0x100000282B7CA</ConversationID>
+        </ParticipantLeft>
+        <ParticipantLeft InteractionType="N">
+            <User>
+                <LoginName>educrocq1</LoginName>
+                <FirstName>ERIC</FirstName>
+                <LastName>DUCROCQ</LastName>
+                <CompanyName>BRIDPORT &amp; CIE SA</CompanyName>
+                <EmailAddress>educrocq1@bloomberg.net</EmailAddress>
+                <CorporateEmailAddress></CorporateEmailAddress>
+            </User>
+            <DateTime>03/02/2021 17:05:39</DateTime>
+            <DateTimeUTC>1614704739</DateTimeUTC>
+            <ConversationID>PCHAT-0x100000282B7CA</ConversationID>
+        </ParticipantLeft>
+        <ParticipantLeft InteractionType="N">
+            <User>
+                <LoginName>jbini4</LoginName>
+                <FirstName>JACOPO</FirstName>
+                <LastName>BINI</LastName>
+                <UUID>16169454</UUID>
+                <FirmNumber>908067</FirmNumber>
+                <AccountNumber>30335685</AccountNumber>
+                <CompanyName>VALEUR SECURITIES SA</CompanyName>
+                <EmailAddress>jbini4@bloomberg.net</EmailAddress>
+                <CorporateEmailAddress>jacopo.bini@valeur.ch</CorporateEmailAddress>
+            </User>
+            <DateTime>03/02/2021 17:06:33</DateTime>
+            <DateTimeUTC>1614704793</DateTimeUTC>
+            <ConversationID>PCHAT-0x100000282B7CA</ConversationID>
+        </ParticipantLeft>
+        <ParticipantEntered InteractionType="N" DeviceType="M">
+            <User>
+                <LoginName>tneuraz1</LoginName>
+                <FirstName>THEO</FirstName>
+                <LastName>NEURAZ</LastName>
+                <CompanyName>BRIDPORT &amp; CIE SA</CompanyName>
+                <EmailAddress>tneuraz1@bloomberg.net</EmailAddress>
+                <CorporateEmailAddress></CorporateEmailAddress>
+            </User>
+            <DateTime>03/02/2021 17:14:27</DateTime>
+            <DateTimeUTC>1614705267</DateTimeUTC>
+            <ConversationID>PCHAT-0x100000282B7CA</ConversationID>
+        </ParticipantEntered>
+        <ParticipantEntered InteractionType="N">
+            <User>
+                <LoginName>acoia2</LoginName>
+                <FirstName>ANDREA</FirstName>
+                <LastName>COIA</LastName>
+                <UUID>25867559</UUID>
+                <FirmNumber>908067</FirmNumber>
+                <AccountNumber>30281119</AccountNumber>
+                <CompanyName>VALEUR CAPITAL LIMITED</CompanyName>
+                <EmailAddress>acoia2@bloomberg.net</EmailAddress>
+                <CorporateEmailAddress>andrea.coia@valeur.eu</CorporateEmailAddress>
+            </User>
+            <DateTime>03/02/2021 18:11:53</DateTime>
+            <DateTimeUTC>1614708713</DateTimeUTC>
+            <ConversationID>PCHAT-0x100000282B7CA</ConversationID>
+        </ParticipantEntered>
+        <ParticipantLeft InteractionType="N">
+            <User>
+                <LoginName>odaiuto</LoginName>
+                <FirstName>ORLANDO</FirstName>
+                <LastName>DAIUTO</LastName>
+                <CompanyName>BRIDPORT &amp; CIE SA</CompanyName>
+                <EmailAddress>odaiuto@bloomberg.net</EmailAddress>
+                <CorporateEmailAddress></CorporateEmailAddress>
+            </User>
+            <DateTime>03/02/2021 19:07:53</DateTime>
+            <DateTimeUTC>1614712073</DateTimeUTC>
+            <ConversationID>PCHAT-0x100000282B7CA</ConversationID>
+        </ParticipantLeft>
+        <ParticipantLeft InteractionType="N">
+            <User>
+                <LoginName>acoia2</LoginName>
+                <FirstName>ANDREA</FirstName>
+                <LastName>COIA</LastName>
+                <UUID>25867559</UUID>
+                <FirmNumber>908067</FirmNumber>
+                <AccountNumber>30281119</AccountNumber>
+                <CompanyName>VALEUR CAPITAL LIMITED</CompanyName>
+                <EmailAddress>acoia2@bloomberg.net</EmailAddress>
+                <CorporateEmailAddress>andrea.coia@valeur.eu</CorporateEmailAddress>
+            </User>
+            <DateTime>03/02/2021 20:10:45</DateTime>
+            <DateTimeUTC>1614715845</DateTimeUTC>
+            <ConversationID>PCHAT-0x100000282B7CA</ConversationID>
+        </ParticipantLeft>
+        <EndTime>03/02/2021 20:10:45</EndTime>
+        <EndTimeUTC>1614715845</EndTimeUTC>
+    </Conversation>
+</FileDump>

@@ -1,0 +1,30 @@
+[
+ {
+  "user": "UP2JNQM9R",
+  "type": "message",
+  "subtype": "channel_join",
+  "ts": "1571153992.000800",
+  "text": "<@UP2JNQM9R> has joined the channel"
+ },
+ {
+  "user": "UP19VS2E6",
+  "type": "message",
+  "subtype": "channel_join",
+  "ts": "1571153991.000600",
+  "text": "<@UP19VS2E6> has joined the channel"
+ },
+ {
+  "user": "UPFUKHWS3",
+  "type": "message",
+  "subtype": "channel_join",
+  "ts": "1571153990.000400",
+  "text": "<@UPFUKHWS3> has joined the channel"
+ },
+ {
+  "user": "UPG9G6D38",
+  "type": "message",
+  "subtype": "channel_join",
+  "ts": "1571153950.000200",
+  "text": "<@UPG9G6D38> has joined the channel"
+ }
+]

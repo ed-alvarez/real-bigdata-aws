@@ -1,0 +1,49 @@
+service: layers
+app: ingest
+
+configValidationMode: error
+frameworkVersion: '3'
+
+provider:
+  name: aws
+  stage: ${opt:stage,'dev'}
+
+  deploymentBucket:
+    name: dev-layers.ips
+
+  region: ${env:AWS_Region, 'eu-west-1'}
+
+layers:
+  ApacheTika:
+    package:
+      artifact: tika/apache-tika.zip
+    name: apache-tika-layer
+    description: Apache Tika 1.24.1
+  Java8:
+    package:
+      artifact: java8/java.zip
+    name: Java-8-layer
+    description: Java 8
+
+resources:
+  Outputs:
+    ApacheTikaLayer:
+      Value:
+        Ref: ApacheTikaLambdaLayer
+      Export:
+        Name: ApacheTikaLayer
+    Java8Layer:
+      Value:
+        Ref: Java8LambdaLayer
+      Export:
+        Name: Java8Layer
+
+plugins:
+  - serverless-stage-manager
+  - serverless-step-functions
+
+custom:
+  stages:
+    - dev
+    - prod
+    - prod-us

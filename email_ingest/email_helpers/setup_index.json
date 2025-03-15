@@ -1,0 +1,395 @@
+PUT _component_template/email-v2-settings
+{
+  "template": {
+    "settings": {
+      "index.lifecycle.name": "email-v2",
+      "index.number_of_shards": "1",
+      "index.number_of_replicas": "1"
+
+    }
+  },
+  "_meta": {
+    "description": "Settings for email-v2 indices"
+  }
+}
+
+PUT _component_template/email-v2-mappings
+{
+  "template": {
+    "settings" :{
+        "index.analysis.analyzer": {
+            "email_addr": {
+              "filter": [
+                  "lowercase",
+                  "stop"
+                  ],
+              "type": "custom",
+              "tokenizer": "uax_url_email"
+        }
+      }
+    },
+    "mappings": {
+        "properties": {
+            "@timestamp": {
+                "type": "date",
+                "format": "date_optional_time||epoch_millis"
+              },
+            "attachments": {
+              "properties": {
+                "attachment_size": {
+                  "type": "integer"
+                },
+                "content": {
+                  "type": "text",
+                  "term_vector": "with_positions_offsets",
+                  "analyzer": "english"
+                },
+                "error": {
+                  "type": "text"
+                },
+                "filename": {
+                  "type": "keyword"
+                }
+              }
+            },
+            "attachments_detail": {
+              "properties": {
+                "has_attachment": {
+                  "type": "boolean"
+                }
+              }
+            },
+            "bcc": {
+              "type": "text",
+              "fields": {
+                "keyword": {
+                  "type": "keyword"
+                }
+              },
+              "analyzer": "email_addr"
+            },
+            "bcc_detail": {
+              "properties": {
+                "corporateemailaddress": {
+                  "type": "text",
+                  "fields": {
+                    "keyword": {
+                      "type": "keyword"
+                    }
+                  },
+                  "analyzer": "email_addr"
+                },
+                "domain": {
+                  "type": "text",
+                  "fields": {
+                    "keyword": {
+                      "type": "keyword"
+                    }
+                  }
+                },
+                "firstname": {
+                  "type": "text",
+                  "fields": {
+                    "keyword": {
+                      "type": "keyword"
+                    }
+                  }
+                },
+                "lastname": {
+                  "type": "text",
+                  "fields": {
+                    "keyword": {
+                      "type": "keyword"
+                    }
+                  }
+                }
+              }
+            },
+            "body": {
+              "type": "text",
+              "term_vector": "with_positions_offsets",
+              "analyzer": "english"
+            },
+            "body_detail": {
+              "properties": {
+                "body_sentiment": {
+                  "properties": {
+                    "compound": {
+                      "type": "integer"
+                    },
+                    "neg": {
+                      "type": "integer"
+                    },
+                    "neu": {
+                      "type": "integer"
+                    },
+                    "pos": {
+                      "type": "integer"
+                    }
+                  }
+                },
+                "body_size": {
+                  "type": "integer"
+                },
+                "full_body": {
+                  "type": "text",
+                  "term_vector": "with_positions_offsets",
+                  "analyzer": "english"
+                },
+                "has_body": {
+                  "type": "boolean"
+                }
+              }
+            },
+            "cc": {
+              "type": "text",
+              "fields": {
+                "keyword": {
+                  "type": "keyword"
+                }
+              },
+              "analyzer": "email_addr"
+            },
+            "cc_detail": {
+              "properties": {
+                "corporateemailaddress": {
+                  "type": "text",
+                  "fields": {
+                    "keyword": {
+                      "type": "keyword"
+                    }
+                  },
+                  "analyzer": "email_addr"
+                },
+                "domain": {
+                  "type": "text",
+                  "fields": {
+                    "keyword": {
+                      "type": "keyword"
+                    }
+                  }
+                },
+                "firstname": {
+                  "type": "text",
+                  "fields": {
+                    "keyword": {
+                      "type": "keyword"
+                    }
+                  }
+                },
+                "lastname": {
+                  "type": "text",
+                  "fields": {
+                    "keyword": {
+                      "type": "keyword"
+                    }
+                  }
+                }
+              }
+            },
+            "date": {
+              "type": "date",
+              "format": "yyyy-MM-dd HH:mm:ss"
+            },
+            "fingerprint": {
+              "properties": {
+                "aws_lambda_id": {
+                  "type": "keyword"
+                },
+                "bucket": {
+                  "type": "keyword"
+                },
+                "client": {
+                  "type": "keyword"
+                },
+                "key": {
+                  "type": "keyword"
+                },
+                "processed_time": {
+                  "type": "date",
+                  "format": "yyyy-MM-dd HH:mm:ss||E, dd MMM yyyy HH:mm:ss Z"
+                },
+                "schema": {
+                  "type": "integer"
+                },
+                "ses_message_id": {
+                  "type": "keyword"
+                },
+                "time": {
+                  "type": "date",
+                  "format": "yyyy-MM-dd HH:mm:ss||E, dd MMM yyyy HH:mm:ss Z"
+                },
+                "type": {
+                  "type": "keyword"
+                }
+              }
+            },
+            "from_": {
+              "type": "text",
+              "fields": {
+                "keyword": {
+                  "type": "keyword"
+                }
+              },
+              "analyzer": "email_addr"
+            },
+            "from_detail": {
+              "properties": {
+                "corporateemailaddress": {
+                  "type": "text",
+                  "fields": {
+                    "keyword": {
+                      "type": "keyword"
+                    }
+                  },
+                  "analyzer": "email_addr"
+                },
+                "domain": {
+                  "type": "text",
+                  "fields": {
+                    "keyword": {
+                      "type": "keyword"
+                    }
+                  }
+                },
+                "firstname": {
+                  "type": "text",
+                  "fields": {
+                    "keyword": {
+                      "type": "keyword"
+                    }
+                  }
+                },
+                "lastname": {
+                  "type": "text",
+                  "fields": {
+                    "keyword": {
+                      "type": "keyword"
+                    }
+                  }
+                }
+              }
+            },
+            "message_id": {
+              "type": "keyword"
+            },
+            "message_id_detail": {
+              "properties": {
+                "has_thread": {
+                  "type": "boolean"
+                },
+                "thread_index": {
+                  "type": "keyword"
+                },
+                "thread_topic": {
+                  "type": "keyword"
+                }
+              }
+            },
+            "subject": {
+              "type": "text",
+              "fields": {
+                "keyword": {
+                  "type": "keyword"
+                }
+              },
+              "analyzer": "email_addr"
+            },
+            "subject_detail": {
+              "properties": {
+                "has_subject": {
+                  "type": "boolean"
+                },
+                "subject_sentiment": {
+                  "properties": {
+                    "compound": {
+                      "type": "integer"
+                    },
+                    "neg": {
+                      "type": "integer"
+                    },
+                    "neu": {
+                      "type": "integer"
+                    },
+                    "pos": {
+                      "type": "integer"
+                    }
+                  }
+                }
+              }
+            },
+            "to": {
+              "type": "text",
+              "fields": {
+                "keyword": {
+                  "type": "keyword"
+                }
+              },
+              "analyzer": "email_addr"
+            },
+            "to_detail": {
+              "properties": {
+                "corporateemailaddress": {
+                  "type": "text",
+                  "fields": {
+                    "keyword": {
+                      "type": "keyword"
+                    }
+                  },
+                  "analyzer": "email_addr"
+                },
+                "domain": {
+                  "type": "text",
+                  "fields": {
+                    "keyword": {
+                      "type": "keyword"
+                    }
+                  }
+                },
+                "firstname": {
+                  "type": "text",
+                  "fields": {
+                    "keyword": {
+                      "type": "keyword"
+                    }
+                  }
+                },
+                "lastname": {
+                  "type": "text",
+                  "fields": {
+                    "keyword": {
+                      "type": "keyword"
+                    }
+                  }
+                }
+              }
+            }
+          }
+    }
+  },
+  "_meta": {
+    "description": "Mappings for email-v2 indices"
+  }
+}
+
+PUT _component_template/email-v2-aliases
+{
+    "template": {
+"aliases": {
+    "ips_data_email": {}
+}
+    },
+    "_meta": {
+      "description": "Aliases for email-v2 indices"
+    }
+}
+PUT _index_template/email-v2-template
+{
+  "index_patterns": ["email-v2-*"],
+  "data_stream": { },
+  "composed_of": [ "email-v2-mappings", "email-v2-settings", "email-v2-aliases" ],
+  "priority": 500,
+  "_meta": {
+    "description": "Template for client email data"
+  }
+}

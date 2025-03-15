@@ -1,0 +1,155 @@
+service: whatsapp
+org: hogbinj
+app: ingest
+configValidationMode: error
+variablesResolutionMode: 20210326
+frameworkVersion: '2'
+
+provider:
+  lambdaHashingVersion: 20201221
+  name: aws
+  runtime: python3.8
+  stage: ${opt:stage,'dev'}
+  deploymentBucket:
+    name: ${self:provider.stage}-deployment-serverless-ips
+  deploymentPrefix: ${self:provider.stage}-${self:service}
+  memorySize: 704
+  timeout: 300
+  iam:
+    role:
+      name: ${self:provider.stage}-whatsapp-role
+      statements:
+        - Effect: "Allow"
+          Action:
+            - "s3:ListBucket"
+          Resource:
+            - "arn:aws:s3:::*"
+        - Effect: "Allow"
+          Action:
+            - "s3:*Object"
+          Resource:
+            - "arn:aws:s3:::*"
+        - Effect: "Allow"
+          Action:
+            - "kms:Decrypt"
+            - "kms:GenerateDataKey"
+          Resource:
+            - "*"
+        - Effect: "Allow"
+          Action:
+            - "ssm:GetParameter"
+          Resource:
+            - "*"
+        - Effect: "Allow"
+          Action:
+            - "dynamodb:GetShardIterator"
+            - "dynamodb:Scan"
+            - "dynamodb:Query"
+            - "dynamodb:DescribeStream"
+            - "dynamodb:GetRecords"
+            - "dynamodb:ListStreams"
+          Resource:
+            - !Sub 'arn:aws:dynamodb:${AWS::Region}:${AWS::AccountId}:table/${self:provider.stage}_inbound_email/index/*'
+            - !Sub 'arn:aws:dynamodb:${AWS::Region}:${AWS::AccountId}:table/${self:provider.stage}_inbound_email/stream/*'
+        - Effect: "Allow"
+          Action:
+            - "dynamodb:BatchGetItem"
+            - "dynamodb:BatchWriteItem"
+            - "dynamodb:ConditionCheckItem"
+            - "dynamodb:PutItem"
+            - "dynamodb:DescribeTable"
+            - "dynamodb:DeleteItem"
+            - "dynamodb:GetItem"
+            - "dynamodb:Scan"
+            - "dynamodb:Query"
+            - "dynamodb:UpdateItem"
+          Resource:
+            - !Sub 'arn:aws:dynamodb:${AWS::Region}:${AWS::AccountId}:table/${self:provider.stage}_inbound_email'
+        - Effect: "Allow"
+          Action:
+            - "dynamodb:DescribeLimits"
+          Resource:
+            - !Sub 'arn:aws:dynamodb:${AWS::Region}:${AWS::AccountId}:table/${self:provider.stage}_inbound_email'
+            - !Sub 'arn:aws:dynamodb:${AWS::Region}:${AWS::AccountId}:table/${self:provider.stage}_inbound_email/index/*'
+  region: eu-west-1
+
+  environment:
+    STAGE: ${opt:stage}
+    LOGGING_LEVEL: ${self:custom.LOGGING_LEVEL.${self:provider.stage}}
+
+functions:
+  fnWhatsAppIngest:
+    handler: whatsapp_src/whatsapp_handler.lambda_handler
+    name: ${self:provider.stage}-${self:service}
+    description: ${self:provider.stage} Telemessage Ingest Whatsapp
+    environment:
+      ES_HOST: ${ssm:/elastic_cluster/${self:provider.stage}}
+      ES_PASSWORD: ${ssm:/elastic_app/${self:provider.stage}/whatsapp/password}
+      ES_USER: ${ssm:/elastic_app/${self:provider.stage}/whatsapp/user}
+      DYNAMO_DB: ${self:custom.DYNAMO_DB.${self:provider.stage}}
+      DYNAMO_DB_TABLE: ${self:provider.stage}_inbound_email
+      MOVE_FILES: ${self:custom.MOVE_FILES.${self:provider.stage}}
+      TIKA_SERVER_JAR: "file:///opt/tika-server.jar"
+      TIKA_JAVA: "/opt/lib/jvm/java-1.8.0-openjdk-1.8.0.252.b09-2.lambda2.0.1.x86_64/jre/bin/java"
+
+    layers:
+      - ${cf:layers-${self:provider.stage}.ApacheTikaLayer}
+      - ${cf:layers-${self:provider.stage}.Java8Layer}
+
+    package:
+      patterns:
+        - "./whatsapp_src/**"
+        - "./whatsapp_helpers/**"
+        - "whatsapp_settings.py"
+
+
+package:
+  individually: true
+  patterns:
+    - "!node_modules/**"
+    - "!whatsapp_tests/**"
+    - "!venv"
+    - "!*.json"
+    - "!*txt"
+    - "!launch_whatsapp_ingest_lambda.py"
+
+
+plugins:
+  - serverless-stage-manager
+  - serverless-python-requirements
+
+custom:
+  pythonRequirements:
+    dockerizePip: non-linux
+    slim: true
+    slimPatterns:
+      - '**/*.egg-info*'
+    #layer: true
+    noDeploy:
+      - pytest
+      - mock
+      - boto3
+      - botocore
+      - moto
+      - docutils
+      - jmespath
+      - pip
+      - python-dateutil
+      - s3transfer
+      - setuptools
+      - six
+
+  stages:
+    - dev
+    - prod
+
+  LOGGING_LEVEL:
+    dev: INFO
+    prod: INFO
+  DYNAMO_DB:
+    dev: False
+    prod: False
+  MOVE_FILES:
+    dev: True
+    prod: True
+

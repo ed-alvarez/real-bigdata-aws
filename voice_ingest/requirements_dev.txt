@@ -1,0 +1,6 @@
+-r requirements.txt
+pytest==7.1.2
+moto[ssm]
+moto[s3]
+moto[dynamodb2]
+mock>=4.0.2

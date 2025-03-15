@@ -1,0 +1,188 @@
+{
+    "uuid": "yD2c50fcSdeelbD6ZFei7Q==",
+    "id": 85064714475,
+    "host_id": "XD5VZiZVTMCrBnaw7Dw0iw",
+    "host_email": "liz.newton@melqart.com",
+    "assistant_id": "",
+    "topic": "Zoom Meeting: Max Jaffe & Gabriel Sod Hoffs of Blackstone/Graham Robinson of Melqart Asset Management",
+    "type": 2,
+    "status": "waiting",
+    "start_time": "2022-08-08T15:30:00Z",
+    "duration": 60,
+    "timezone": "Europe/London",
+    "agenda": "",
+    "created_at": "2022-08-04T16:54:47Z",
+    "start_url": "https://melqart.zoom.us/s/85064714475?zak=eyJ0eXAiOiJKV1QiLCJzdiI6IjAwMDAwMSIsInptX3NrbSI6InptX28ybSIsImFsZyI6IkhTMjU2In0.eyJhdWQiOiJjbGllbnRzbSIsInVpZCI6IlhENVZaaVpWVE1DckJuYXc3RHcwaXciLCJpc3MiOiJ3ZWIiLCJzayI6IjgzNDc2MTU0OTk2OTQ5OTk0MTciLCJzdHkiOjEwMCwid2NkIjoidXMwMiIsImNsdCI6MCwibW51bSI6Ijg1MDY0NzE0NDc1IiwiZXhwIjoxNjYyNDI2NDg3LCJpYXQiOjE2NjI0MTkyODcsImFpZCI6ImFOZzZ2aGxGUjNxUUtocXVxMU5PN1EiLCJjaWQiOiIifQ.SH-297CMRqSpJLW3j8ZRBFktUQZabkIRboa3qLnku_k",
+    "join_url": "https://melqart.zoom.us/j/85064714475?pwd=L3g5bE5uMGU4UEdBbzFEc3J1SE5iUT09",
+    "password": "325783",
+    "h323_password": "325783",
+    "pstn_password": "325783",
+    "encrypted_password": "L3g5bE5uMGU4UEdBbzFEc3J1SE5iUT09",
+    "settings": {
+        "host_video": false,
+        "participant_video": false,
+        "cn_meeting": false,
+        "in_meeting": false,
+        "join_before_host": true,
+        "jbh_time": 0,
+        "mute_upon_entry": false,
+        "watermark": false,
+        "use_pmi": false,
+        "approval_type": 2,
+        "audio": "both",
+        "auto_recording": "cloud",
+        "enforce_login": false,
+        "enforce_login_domains": "",
+        "alternative_hosts": "",
+        "alternative_host_update_polls": false,
+        "close_registration": false,
+        "show_share_button": false,
+        "allow_multiple_devices": false,
+        "registrants_confirmation_email": true,
+        "waiting_room": false,
+        "request_permission_to_unmute_participants": false,
+        "global_dial_in_countries": [
+            "GB",
+            "US"
+        ],
+        "global_dial_in_numbers": [
+            {
+                "country_name": "United Kingdom",
+                "number": "+44 2034815237",
+                "type": "toll",
+                "country": "GB"
+            },
+            {
+                "country_name": "United Kingdom",
+                "number": "+44 2034815240",
+                "type": "toll",
+                "country": "GB"
+            },
+            {
+                "country_name": "United Kingdom",
+                "number": "+44 2039017895",
+                "type": "toll",
+                "country": "GB"
+            },
+            {
+                "country_name": "United Kingdom",
+                "number": "+44 2080806591",
+                "type": "toll",
+                "country": "GB"
+            },
+            {
+                "country_name": "United Kingdom",
+                "number": "+44 2080806592",
+                "type": "toll",
+                "country": "GB"
+            },
+            {
+                "country_name": "United Kingdom",
+                "number": "+44 3300885830",
+                "type": "toll",
+                "country": "GB"
+            },
+            {
+                "country_name": "United Kingdom",
+                "number": "+44 1314601196",
+                "type": "toll",
+                "country": "GB"
+            },
+            {
+                "country_name": "US",
+                "city": "San Jose",
+                "number": "+1 6699006833",
+                "type": "toll",
+                "country": "US"
+            },
+            {
+                "country_name": "US",
+                "number": "+1 7193594580",
+                "type": "toll",
+                "country": "US"
+            },
+            {
+                "country_name": "US",
+                "city": "New York",
+                "number": "+1 9292056099",
+                "type": "toll",
+                "country": "US"
+            },
+            {
+                "country_name": "US",
+                "city": "Tacoma",
+                "number": "+1 2532158782",
+                "type": "toll",
+                "country": "US"
+            },
+            {
+                "country_name": "US",
+                "city": "Washington DC",
+                "number": "+1 3017158592",
+                "type": "toll",
+                "country": "US"
+            },
+            {
+                "country_name": "US",
+                "number": "+1 3092053325",
+                "type": "toll",
+                "country": "US"
+            },
+            {
+                "country_name": "US",
+                "city": "Chicago",
+                "number": "+1 3126266799",
+                "type": "toll",
+                "country": "US"
+            },
+            {
+                "country_name": "US",
+                "city": "Houston",
+                "number": "+1 3462487799",
+                "type": "toll",
+                "country": "US"
+            },
+            {
+                "country_name": "US",
+                "number": "+1 3863475053",
+                "type": "toll",
+                "country": "US"
+            },
+            {
+                "country_name": "US",
+                "number": "+1 5642172000",
+                "type": "toll",
+                "country": "US"
+            },
+            {
+                "country_name": "US",
+                "number": "+1 6469313860",
+                "type": "toll",
+                "country": "US"
+            },
+            {
+                "country_name": "US",
+                "number": "+1 6694449171",
+                "type": "toll",
+                "country": "US"
+            }
+        ],
+        "registrants_email_notification": true,
+        "meeting_authentication": false,
+        "encryption_type": "enhanced_encryption",
+        "approved_or_denied_countries_or_regions": {
+            "enable": false
+        },
+        "breakout_room": {
+            "enable": false
+        },
+        "alternative_hosts_email_notification": true,
+        "device_testing": false,
+        "focus_mode": false,
+        "private_meeting": false,
+        "calendar_type": 1,
+        "email_notification": true,
+        "host_save_video_order": false
+    },
+    "pre_schedule": false
+}

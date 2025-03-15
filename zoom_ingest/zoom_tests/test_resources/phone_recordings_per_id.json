@@ -1,0 +1,25 @@
+{
+    "id": "c606738e04cb42c2b3f31e4d6d1a05b3",
+    "caller_number": "813",
+    "caller_number_type": 1,
+    "caller_name": "James Austin",
+    "callee_number": "808",
+    "callee_number_type": 1,
+    "callee_name": "Ben Sharp",
+    "direction": "inbound",
+    "duration": 470,
+    "download_url": "https://zoom.us/v2/phone/recording/download/EDtvMxUuSaefWv8eXPrCQg",
+    "file_url": "https://file.zoom.us/file?jwt=eyJhbGciOiJIUzI1NiJ9.eyJpaWMiOiJhdzEiLCJleHAiOjE2NjI0MDU3NzQsImlhdCI6MTY2MjQwMzk3NSwiZGlnIjoiMDExNDAyYzRmYzUxNmM3MTMwNTEyMmIxZTIzMjRlOGFjMmUwYmMyY2I3MTE5NzM1NTA4MjM0NTE5NTMxZTNlZiIsImlzcyI6ImNyb3NzZmlsZSIsImhkaWciOmZhbHNlLCJvcmkiOiJwYnh3ZWIiLCJhdWQiOiJmaWxlIn0.3L2JwmfZX6npiw9UO_-xrArTt_be8zcC4DxN0OvT4o4&path=zoomfs%3A%2F%2Fzoom-pbx%2Frecording%2F2022%2F8%2F18%2F23vOATmyRHmTaj4vhE2Usg%2FAznRYjUDTUKtz-VMd5tC0A%2Fc606738e-04cb-42c2-b3f3-1e4d6d1a05b3%2Fcall_recording_c606738e-04cb-42c2-b3f3-1e4d6d1a05b3_20220818111954.mp3",
+    "date_time": "2022-08-18T11:19:54Z",
+    "recording_type": "Automatic",
+    "call_log_id": "c606738e-04cb-42c2-b3f3-1e4d6d1a05b3",
+    "call_id": "7133174417850657200",
+    "owner": {
+        "type": "user",
+        "id": "SbXrRGh6TlS24SnkvbLrCw",
+        "name": "Ben Sharp",
+        "extension_number": 808
+    },
+    "site": {},
+    "end_time": "2022-08-18T11:27:45Z"
+}

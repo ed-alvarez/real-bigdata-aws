@@ -1,0 +1,1850 @@
+Return-Path: <JournalError@hanetf.com>
+Received: from GBR01-LO2-obe.outbound.protection.outlook.com (mail-lo2gbr01lp2059.outbound.protection.outlook.com [104.47.21.59])
+ by inbound-smtp.eu-west-1.amazonaws.com with SMTP id 48c7ep42m1me0rbfflad3tur3vvbfqfq5lhv7j81
+ for hanetf@ip-sentinel.net;
+ Mon, 16 Nov 2020 16:17:26 +0000 (UTC)
+Received-SPF: pass (spfCheck: domain of hanetf.com designates 104.47.21.59 as permitted sender) client-ip=104.47.21.59; envelope-from=JournalError@hanetf.com; helo=mail-lo2gbr01lp2059.outbound.protection.outlook.com;
+Authentication-Results: amazonses.com;
+ spf=pass (spfCheck: domain of hanetf.com designates 104.47.21.59 as permitted sender) client-ip=104.47.21.59; envelope-from=JournalError@hanetf.com; helo=mail-lo2gbr01lp2059.outbound.protection.outlook.com;
+ dmarc=none header.from=hanetf.com;
+X-SES-RECEIPT: AEFBQUFBQUFBQUFIMnpmQVNkaEo1bXVKM2JlbVpTTFg2a3p3eUUwd0F6bHBLMUlaU09hY3Ivb0VVbiswK0NiYlQxTERKQ1IvVjNJbXJIWHJuQU5YYUt5aFZ6bE1LaGROZjNmdmN1aWY1V2tCNm1nSFZqNXZwOFZGWjlJYy90SXNseDZ3ckF0NXpYYWxTdTdEa3k2TGJROFpJMlVlT0Q0Ui8xYjZhZVVyQmlVNmt3Y2l5TlRwamJTdXNraTRDa3BibWd6bHFmNkMvMHVKSXE2ZDJKS3F1VEpOM1lPRmN0RktNeXZIWGpLaWgyZ1puOElNWjVBZzFXZG9vaE9lTksvRTRUWkQxSlVaano0Sk1CTW9MdHlodVlNQy9IWG1VS2V4QWQ5K3FVVmdHUkR1aDY5Z2JJRDhJMW10TWtqN3RocFdNU2prSXl2ZTdtYkk9
+X-SES-DKIM-SIGNATURE: a=rsa-sha256; q=dns/txt; b=MQdrdb4E0x/ESqIZJxWhFjpT7+xbytNHwQHDhdmPX3Ty4RT/gEud55a5bYsnrp3JQdMKJatBnCRyqAQrIqQI02izAS0kDqKmRAn6BTHkmNR8tDhOCHv1QObrYiHGqeWaqZMbb/2+/RTM03iIYNbGijA2P8XNDk0pGFA+RVbbpj4=; c=relaxed/simple; s=shh3fegwg5fppqsuzphvschd53n6ihuv; d=amazonses.com; t=1605543446; v=1; bh=gWp4k/MGxFQz92AdyDWos58Z0smqNZfD7RpHHTiJs4o=; h=From:To:Cc:Bcc:Subject:Date:Message-ID:MIME-Version:Content-Type:X-SES-RECEIPT;
+Content-Type: multipart/mixed;
+	boundary="_7036eac0-151f-448c-a99d-0f2177819834_"
+Subject: Undeliverable: Partnership for impact indices: your expertise, our
+ impact data
+To: <bounce-496565-426-94855-ian.hector=hanetf.com@s1.asa1.acemsb3.com>
+From: <postmaster@hanetf.com>
+MIME-Version: 1.0
+Sender:
+	<MicrosoftExchange329e71ec88ae4615bbc36ab6ce41109e@hanetf.onmicrosoft.com>
+Message-ID: <fe566f78-4e64-4378-a2a7-6779cc0263c3@journal.report.generator>
+Date: Mon, 16 Nov 2020 16:17:25 +0000
+X-MS-PublicTrafficType: Email
+X-MS-Journal-Report:
+Return-Path: JournalError@hanetf.com
+X-MS-Exchange-Parent-Message-Id:
+	<f2c57594-9e9c-4eef-8c10-d6ec24ff2325@LNXP123MB2217.GBRP123.PROD.OUTLOOK.COM>
+X-MS-Exchange-Message-Is-Ndr:
+Auto-Submitted: auto-generated
+X-MS-Exchange-Generated-Message-Source: Journal Agent
+X-MS-TrafficTypeDiagnostic: LNXP123MB2217:JournalingReport
+X-OriginatorOrg: hanetf.onmicrosoft.com
+X-MS-Exchange-CrossTenant-AuthSource: LNXP123MB2217.GBRP123.PROD.OUTLOOK.COM
+X-MS-Exchange-CrossTenant-AuthAs: Internal
+X-MS-Exchange-CrossTenant-OriginalArrivalTime: 16 Nov 2020 16:17:25.9182 (UTC)
+X-MS-Exchange-CrossTenant-Network-Message-Id:
+	088381f1-4d89-4341-4532-08d88a4b1b5d
+X-MS-Exchange-CrossTenant-FromEntityHeader: Hosted
+X-MS-Exchange-Transport-CrossTenantHeadersStamped: LNXP123MB2217
+
+--_7036eac0-151f-448c-a99d-0f2177819834_
+Content-Type: text/plain; charset="us-ascii"
+Content-Transfer-Encoding: 7bit
+
+Sender: postmaster@hanetf.com
+Subject: Undeliverable: Partnership for impact indices: your expertise, our impact data
+Message-Id: <f2c57594-9e9c-4eef-8c10-d6ec24ff2325@LNXP123MB2217.GBRP123.PROD.OUTLOOK.COM>
+Recipient: bounce-496565-426-94855-ian.hector=hanetf.com@s1.asa1.acemsb3.com
+
+--_7036eac0-151f-448c-a99d-0f2177819834_
+Content-Type: message/rfc822
+
+MIME-Version: 1.0
+From: <postmaster@hanetf.com>
+To: <bounce-496565-426-94855-ian.hector=hanetf.com@s1.asa1.acemsb3.com>
+Date: Mon, 16 Nov 2020 16:17:24 +0000
+Content-Type: multipart/report; report-type=delivery-status;
+	boundary="_c4d8514d-c31f-4f87-807f-fe84c4baac57_"
+X-MS-Exchange-Organization-OriginalArrivalTime: 16 Nov 2020 16:17:24.1022
+ (UTC)
+X-MS-Exchange-Organization-SCL: 1
+X-MS-Exchange-Message-Is-Ndr:
+X-MS-Exchange-Organization-Message-Is-Ndr:
+X-MS-Exchange-Organization-Dsn-Version: 12
+Content-Language: en-US
+Message-ID: <f2c57594-9e9c-4eef-8c10-d6ec24ff2325@LNXP123MB2217.GBRP123.PROD.OUTLOOK.COM>
+In-Reply-To: <20201116161717.29365.483748030.swift@impakfinance.activehosted.com>
+References: <20201116161717.29365.483748030.swift@impakfinance.activehosted.com>
+Subject: Undeliverable: Partnership for impact indices: your expertise, our
+ impact data
+Auto-Submitted: auto-replied
+X-MS-Exchange-Organization-TransportTrafficType: Email
+X-MS-Exchange-Organization-TransportTrafficSubType:
+X-MS-PublicTrafficType: Email
+X-MS-Exchange-Organization-FromEntityHeader: Hosted
+X-MS-Exchange-Organization-Transport-Properties: DeliveryPriority=Normal
+X-MS-Exchange-Organization-Prioritization: 1
+X-MS-Exchange-Organization-Spam-Filter-Enumerated-Risk: High
+X-MS-Exchange-Organization-AuthSource: LNXP123MB2217.GBRP123.PROD.OUTLOOK.COM
+X-MS-Exchange-Organization-AuthAs: Internal
+X-MS-Exchange-Organization-AuthMechanism: 05
+X-MS-Exchange-Organization-Network-Message-Id:
+	e7c99632-f2f4-4624-2b6e-08d88a4b1a48
+X-MS-TrafficTypeDiagnostic: LNXP123MB2217:
+X-MS-Exchange-Organization-ExpirationStartTime: 16 Nov 2020 16:17:24.1002
+ (UTC)
+X-MS-Exchange-Organization-ExpirationStartTimeReason: SideEffectMessage
+X-MS-Exchange-Organization-ExpirationInterval: 1:00:00:00.0000000
+X-MS-Exchange-Organization-ExpirationIntervalReason: SideEffectMessage
+X-MS-Exchange-Organization-HygienePolicy: Premium
+X-MS-Exchange-Forest-Language: en
+X-MS-Exchange-Forest-IndexAgent-0:
+	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
+ EW6vtYMEcbJ1Dxe7R7zw5ICaqr2TJ6Txzn7zjaBV5Pcp3y/n4Px1fM
+ j5eDLLe7hd2qB6Tz9m7QaEGDqzXf9yp7jz4kgv7Z5gR4HgXUB/4Kv2
+ oeCoNjtYG7V4ynbH3NGIu/jysLhxsn9cPC1horGGGLvo8nRna/vJzu
+ nRcfOUlD1t7hyflqprp4+3WqfHT5rlWoVsUg6kL8+Uvqykn5ZTOsM8
+ X5KwnZslbrbWDo/0ylZT14uV6JnDYUlR+bPoVfkxvaYllCN36Hb0il
+ JrWpcPR+E/Rp2/zshgT6SBdORxBpHIiZ26mvQ/UCtxt7Sml+tF3VgD
+ TNv1jVK9Xlq/h6Q2Fh+mbpzCmq7XO5V6vVi9x+XkQy2xnPtJphDoSI
+ rVAlBYrq5VCqXqfYxSGK6Ka+KZc4EgpKSNlK2c/KWOP9fs83egeTl3
+ 3Vim0ZX1+lr3HuWzD8D6LBpkcFV9fxZr1bgD3EU/jemng0yIztajlD
+ 9lRTHTiM0RDd4Y47l254+kN+r7KDPesNsYoicTd4MRce+Quu/iRqlA
+ n/VCtQJMeQN/yAmOPNCYkQ3vx97/3Redc2sQUkWzxh0qvTBczsEgVt
+ eSnXuYhgn+hc5MalPEBoZrNmwanwz2LP9ezgUEWCIqjOddhBfKOe+a
+ oCZ/fLhbF4cszGx01MMGCFPZDGGWcxhkWQs5bReaCFCeB5ZP5U6Z7x
+ 51V8TXbcxmBsnMPpXZvDVsxKndp/cDzkxrXAuBGYvE3SmXAdQ/oT5h
+ s14oVkuFIj56aSamqX/6f0iGwDQyegzUpSlQiw/AtB5ievvpXit/HA
+ KsLi4axfvCaLiekfd6BhjfF2bDlX3jreysBv/eF16jcw5U3WDpXuPE
+ qUOaQT3s1bitbKHFyL9Uite3WFY/fzIeyskFCd6Vbn7HRierZnrVcd
+ bpHVz+he2N2p7pWm1QUyUgv7cNjtY0eg2egtRbmJvaTuxq9xqb7YMt
+ 75V8sauf+G/0g631XbN1tHrYe+e9O9Zf1kznRXmv+/ibjf0zs0E7Gl
+ 8//XLj8ZttvbJ7eXI+/rq9/q75uHRRu1h9XD0vv/xm0ys+997tPm8/
+ 7Rpn31a+LF7sH7tjr/2t81rf3XvtHLzq7m5fyiP7rLa5AXrHY/ltT3
+ 9irO48H7/pXb46ePnOvjTfvXvyTH/uv24975ZHZ9+MqsfvXhaff7u2
+ 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 1wuVhzkAAA==
+X-MS-Exchange-Forest-IndexAgent: 1 5839
+X-MS-Exchange-Forest-EmailMessageHash: 57A129B2,8CE42621,A51725B7
+X-MS-Exchange-Organization-IsPotentialIntraOrgMail: False
+X-MS-Exchange-Organization-Antispam-PreContentFilter-PolicyLoadTime:
+	MAOSUB:0;MAOSUBLOAD:0;SAORES:2;SAORESLOAD:1;SAORESRUN:0;SAORESCOUNT:1;SLORES:0;SLORESLOAD:0;
+X-MS-Exchange-Organization-AttachmentDetailsHeaderStamp-Success: 1.0
+X-MS-Exchange-Organization-AttachmentDetails:
+	0:zkL6ldTdSJ2M8goXLmK7ji4CUX0nvASy3GMctO2Zxyg=:U:Text:QVRUMDAwMDM=::#:False:::N:::N::N:None;1:nHw0dZSs+V9Zt1+GDN+5OjHdTY9RLOPMl+cnh2BK2Jk=:U:Mime|Text:UGFydG5lcnNoaXAgZm9yIGltcGFjdCBpbmRpY2VzIHlvdXIgZXhwZXJ0aXNlLCBvdXIgaW1wYWN0IGRhdGE=::#:False:::N:::N::N:None
+X-MS-Exchange-Organization-AttachmentDetailsInfo-ChunkCount: 1
+X-MS-Exchange-Organization-AttachmentDetailsInfo-0:
+	[{"ID":0,"FN":"ATT00003","FS":392,"HFH":"zkL6ldTdSJ2M8goXLmK7ji4CUX0nvASy3GMctO2Zxyg=","FT":["Text"],"EXT":"","AF":0},{"ID":1,"FN":"Partnership
+ for impact indices your expertise, our impact
+ data","FS":29457,"HFH":"nHw0dZSs+V9Zt1+GDN+5OjHdTY9RLOPMl+cnh2BK2Jk=","FT":["Mime","Text"],"EXT":"","AF":0}]
+X-MS-Exchange-Organization-MessageFingerprint:
+	E41EF4E7.ACE693F9.AFDA7D97.42EBFF0C.207D2
+X-MS-Exchange-Organization-UrlMinimumDomainAge: impakfinance.com#1662
+X-MS-Exchange-Organization-URLFeatureReduction:
+	69;3;0;24;0;0;0;0;16;3;6;10000000;0;0;0
+X-MS-Exchange-Organization-Persisted-Urls-ChunkCount: 2
+X-MS-Exchange-Organization-Persisted-Urls-0:
+	=?us-ascii?Q?[{"ID":9,"OU":"https://calendly.com/francois=5Flebel/30min",?=
+ =?us-ascii?Q?"U":"https://calendly.com/francois=5Flebel/30min","IAR":fals?=
+ =?us-ascii?Q?e,"LI":{"BF":1,"SI":-1,"EndIndex":-1},"SRCI":2,"IU":null,"NU?=
+ =?us-ascii?Q?":"calendly.com/francois=5Flebel/30min","UFT":"{101:33,102:1?=
+ =?us-ascii?Q?,105:12,108:3,110:8,111:12,112:2,114:8,116:1,119:8,121:7,122?=
+ =?us-ascii?Q?:3,123:1,125:3,127:1,128:5,131:10000000,135:\"AB00CE35,7B109?=
+ =?us-ascii?Q?309,1A0C224A,1A57A918,3F0334F7,902FA86E,20EF4F6E,9BD164B4,25?=
+ =?us-ascii?Q?63DBFD,B1B4A80D,5A55B208,38EBAE88,D5B142CD,141A7557,886CA762?=
+ =?us-ascii?Q?,7DAF2283,CE1EA3AE,463438F3,885210CB,2194BFA9\",201:2820,202?=
+ =?us-ascii?Q?:628,203:2292,204:5113,205:74,206:2,207:73,208:2,209:74,210:?=
+ =?us-ascii?Q?2,211:75,212:2,213:83,214:3,215:83,216:3,217:83,218:3,219:84?=
+ =?us-ascii?Q?,220:1,221:52,222:3,223:52,224:3,225:52,226:3,227:51,228:3,2?=
+ =?us-ascii?Q?29:83,230:3,231:85,232:3,233:100,234:3,235:84,236:1,237:83,2?=
+ =?us-ascii?Q?38:3,239:83,240:3,241:83,242:3,243:84,244:1,245:78,246:1,247?=
+ =?us-ascii?Q?:93,248:1,249:84,250:1,251:101,252:1}","DPD":{"UF":"256","OC?=
+ =?us-ascii?Q?H":"12987802921569685227","SCHM":"Https","CNT":"1","SL":"1",?=
+ =?us-ascii?Q?"LOG":"1"},"PROC":[]},{"ID":5,"OU":"https://impakfinance.ace?=
+ =?us-ascii?Q?mlnc.com/box.php=3Fnl=3D43&c=3D426&m=3D20985&s=3Dd3be7a49435?=
+ =?us-ascii?Q?91f363220945540b07b1e&funcml=3Dunsub2&luha=3D1","U":"https:/?=
+ =?us-ascii?Q?/impakfinance.acemlnc.com/box.php=3Fnl=3D43&c=3D426&m=3D2098?=
+ =?us-ascii?Q?5&s=3Dd3be7a4943591f363220945540b07b1e&funcml=3Dunsub2&luha?=
+ =?us-ascii?Q?=3D1","IAR":false,"LI":{"BF":1,"SI":-1,"EndIndex":-1},"SRCI"?=
+ =?us-ascii?Q?:1,"IU":null,"NU":"impakfinance.acemlnc.com/box.php=3Fnl=3D4?=
+ =?us-ascii?Q?3&c=3D426&m=3D20985&s=3Dd3be7a4943591f363220945540b07b1e&fun?=
+ =?us-ascii?Q?cml=3Dunsub2&luha=3D1","UFT":"{101:32,102:3,105:24,108:3,110?=
+ =?us-ascii?Q?:7,111:11,112:2,114:7,115:12,116:1,118:12,119:7,121:6,122:3,?=
+ =?us-ascii?Q?123:1,125:3,128:7,129:1,131:133341,135:\"2DECDEDE,F781AA54,D?=
+ =?us-ascii?Q?ECAA560,764D7C92,F40E88AC,C1777455,16EA7C12,3AF3E2C5,AB5908F?=
+ =?us-ascii?Q?4,33EF5A92,5B2AA426,8A0B279E,145FEE6B,CB73A1BC,2F2686D6,B62D?=
+ =?us-ascii?Q?8870,74EEAF3D\",201:1887,202:425,203:304,204:2192,205:101,20?=
+ =?us-ascii?Q?6:7,207:123,208:10,209:123,210:10,211:113,212:10,213:159,214?=
+ =?us-ascii?Q?:10,215:148,216:8,217:158,218:10,219:357,220:2,221:52,222:3,?=
+ =?us-ascii?Q?223:52,224:3,225:52,226:3,227:51,228:3,229:159,230:10,231:18?=
+ =?us-ascii?Q?4,232:16,233:188,234:18,235:357,236:2,237:159,238:10,239:148?=
+ =?us-ascii?Q?,240:8,241:158,242:10,243:357,244:2,245:238,246:2,247:354,24?=
+ =?us-ascii?Q?8:2,249:357,250:2,251:38,252:0}","DPD":{"UF":"256","OCH":"13?=
+ =?us-ascii?Q?489223227253384844","SCHM":"Https","CNT":"2","SL":"1","LOG":?=
+ =?us-ascii?Q?"1"},"PROC":[]},{"ID":1,"OU":"https://impakfinance.acemlnc.c?=
+ =?us-ascii?Q?om/lt.php=3Fs=3Dd3be7a4943591f363220945540b07b1e&i=3D426A209?=
+ =?us-ascii?Q?85A43A19392","U":"https://impakfinance.acemlnc.com/lt.php=3F?=
+ =?us-ascii?Q?s=3Dd3be7a4943591f363220945540b07b1e&i=3D426A20985A43A19392"?=
+ =?us-ascii?Q?,"IAR":false,"LI":{"TN":"a","IC":true,"BF":2,"SI":-1,"EndInd?=
+ =?us-ascii?Q?ex":-1},"SRCI":2,"IU":null,"NU":"impakfinance.acemlnc.com/lt?=
+ =?us-ascii?Q?.php=3Fs=3Dd3be7a4943591f363220945540b07b1e&i=3D426A20985A43?=
+ =?us-ascii?Q?A19392","UFT":"{101:31,102:3,105:24,108:3,110:7,111:11,112:2?=
+ =?us-ascii?Q?,114:7,115:12,116:1,118:12,119:7,121:6,122:3,123:1,125:3,128?=
+ =?us-ascii?Q?:6,129:1,131:133341,135:\"2DECDEDE,F781AA54,DECAA560,764D7C9?=
+ =?us-ascii?Q?2,F40E88AC,C1777455,16EA7C12,3AF3E2C5,AB5908F4,33EF5A92,5B2A?=
+ =?us-ascii?Q?A426,8A0B279E,145FEE6B,CB73A1BC,2F2686D6,74EEAF3D\",201:1887?=
+ =?us-ascii?Q?,202:425,203:304,204:2192,205:101,206:7,207:123,208:10,209:1?=
+ =?us-ascii?Q?23,210:10,211:113,212:10,213:159,214:10,215:148,216:8,217:15?=
+ =?us-ascii?Q?8,218:10,219:357,220:2,221:52,222:3,223:52,224:3,225:52,226:?=
+ =?us-ascii?Q?3,227:51,228:3,229:159,230:10,231:184,232:16,233:188,234:18,?=
+ =?us-ascii?Q?235:357,236:2,237:159,238:10,239:148,240:8,241:158,242:10,24?=
+ =?us-ascii?Q?3:357,244:2,245:238,246:2,247:354,248:2,249:357,250:2,251:38?=
+ =?us-ascii?Q?,252:0}","DPD":{"UF":"256","OCH":"11691116611262532016","SCH?=
+ =?us-ascii?Q?M":"Https","CNT":"1","SL":"1","LOG":"1"},"PROC":[]},{"ID":3,?=
+ =?us-ascii?Q?"OU":"https://impakfinance.acemlnc.com/lt.php=3Fs=3Dd3be7a49?=
+ =?us-ascii?Q?43591f363220945540b07b1e&i=3D426A20985A43A19386","U":"https:?=
+ =?us-ascii?Q?//impakfinance.acemlnc.com/lt.php=3Fs=3Dd3be7a4943591f363220?=
+ =?us-ascii?Q?945540b07b1e&i=3D426A20985A43A19386","IAR":false,"LI":{"TN":?=
+ =?us-ascii?Q?"a","IC":true,"BF":2,"SI":-1,"EndIndex":-1},"SRCI":2,"IU":nu?=
+ =?us-ascii?Q?ll,"NU":"impakfinance.acemlnc.com/lt.php=3Fs=3Dd3be7a4943591?=
+ =?us-ascii?Q?f363220945540b07b1e&i=3D426A20985A43A19386","UFT":"{101:31,1?=
+ =?us-ascii?Q?02:3,105:24,108:3,110:7,111:11,112:2,114:7,115:12,116:1,118:?=
+ =?us-ascii?Q?12,119:7,121:6,122:3,123:1,125:3,128:6,129:1,131:133341,135:?=
+ =?us-ascii?Q?\"2DECDEDE,F781AA54,DECAA560,764D7C92,F40E88AC,C1777455,16EA?=
+ =?us-ascii?Q?7C12,3AF3E2C5,AB5908F4,33EF5A92,5B2AA426,8A0B279E,145FEE6B,C?=
+ =?us-ascii?Q?B73A1BC,2F2686D6,74EEAF3D\",201:1887,202:425,203:304,204:219?=
+ =?us-ascii?Q?2,205:101,206:7,207:123,208:10,209:123,210:10,211:113,212:10?=
+ =?us-ascii?Q?,213:159,214:10,215:148,216:8,217:158,218:10,219:357,220:2,2?=
+ =?us-ascii?Q?21:52,222:3,223:52,224:3,225:52,226:3,227:51,228:3,229:159,2?=
+ =?us-ascii?Q?30:10,231:184,232:16,233:188,234:18,235:357,236:2,237:159,23?=
+ =?us-ascii?Q?8:10,239:148,240:8,241:158,242:10,243:357,244:2,245:238,246:?=
+ =?us-ascii?Q?2,247:354,248:2,249:357,250:2,251:38,252:0}","DPD":{"UF":"25?=
+ =?us-ascii?Q?6","OCH":"11692108370750989113","SCHM":"Https","CNT":"1","SL?=
+ =?us-ascii?Q?":"1","LOG":"1"},"PROC":[]},{"ID":4,"OU":"https://impakfinan?=
+ =?us-ascii?Q?ce.acemlnc.com/lt.php=3Fs=3Dd3be7a4943591f363220945540b07b1e?=
+ =?us-ascii?Q?&i=3D426A20985A43A19387","U":"https://impakfinance.acemlnc.c?=
+ =?us-ascii?Q?om/lt.php=3Fs=3Dd3be7a4943591f363220945540b07b1e&i=3D426A209?=
+ =?us-ascii?Q?85A43A19387","IAR":false,"LI":{"TN":"a","IC":true,"BF":2,"SI?=
+ =?us-ascii?Q?":-1,"EndIndex":-1},"SRCI":2,"IU":null,"NU":"impakfinance.ac?=
+ =?us-ascii?Q?emlnc.com/lt.php=3Fs=3Dd3be7a4943591f363220945540b07b1e&i=3D?=
+ =?us-ascii?Q?426A20985A43A19387","UFT":"{101:31,102:3,105:24,108:3,110:7,?=
+ =?us-ascii?Q?111:11,112:2,114:7,115:12,116:1,118:12,119:7,121:6,122:3,123?=
+ =?us-ascii?Q?:1,125:3,128:6,129:1,131:133341,135:\"2DECDEDE,F781AA54,DECA?=
+ =?us-ascii?Q?A560,764D7C92,F40E88AC,C1777455,16EA7C12,3AF3E2C5,AB5908F4,3?=
+ =?us-ascii?Q?3EF5A92,5B2AA426,8A0B279E,145FEE6B,CB73A1BC,2F2686D6,74EEAF3?=
+ =?us-ascii?Q?D\",201:1887,202:425,203:304,204:2192,205:101,206:7,207:123,?=
+ =?us-ascii?Q?208:10,209:123,210:10,211:113,212:10,213:159,214:10,215:148,?=
+ =?us-ascii?Q?216:8,217:158,218:10,219:357,220:2,221:52,222:3,223:52,224:3?=
+ =?us-ascii?Q?,225:52,226:3,227:51,228:3,229:159,230:10,231:184,232:16,233?=
+ =?us-ascii?Q?:188,234:18,235:357,236:2,237:159,238:10,239:148,240:8,241:1?=
+ =?us-ascii?Q?58,242:10,243:357,244:2,245:238,246:2,247:354,248:2,249:357,?=
+ =?us-ascii?Q?250:2,251:38,252:0}","DPD":{"UF":"256","OCH":"11692107271239?=
+ =?us-ascii?Q?360902","SCHM":"Https","CNT":"1","SL":"1","LOG":"1"},"PROC":?=
+ =?us-ascii?Q?[]},{"ID":5,"OU":"https://impakfinance.acemlnc.com/lt.php=3F?=
+ =?us-ascii?Q?s=3Dd3be7a4943591f363220945540b07b1e&i=3D426A20985A43A19388"?=
+ =?us-ascii?Q?,"U":"https://impakfinance.acemlnc.com/lt.php=3Fs=3Dd3be7a49?=
+ =?us-ascii?Q?43591f363220945540b07b1e&i=3D426A20985A43A19388","IAR":false?=
+ =?us-ascii?Q?,"LI":{"TN":"a","IC":true,"BF":2,"SI":-1,"EndIndex":-1},"SRC?=
+ =?us-ascii?Q?I":2,"IU":null,"NU":"impakfinance.acemlnc.com/lt.php=3Fs=3Dd?=
+ =?us-ascii?Q?3be7a4943591f363220945540b07b1e&i=3D426A20985A43A19388","UFT?=
+ =?us-ascii?Q?":"{101:31,102:3,105:24,108:3,110:7,111:11,112:2,114:7,115:1?=
+ =?us-ascii?Q?2,116:1,118:12,119:7,121:6,122:3,123:1,125:3,128:6,129:1,131?=
+ =?us-ascii?Q?:133341,135:\"2DECDEDE,F781AA54,DECAA560,764D7C92,F40E88AC,C?=
+ =?us-ascii?Q?1777455,16EA7C12,3AF3E2C5,AB5908F4,33EF5A92,5B2AA426,8A0B279?=
+ =?us-ascii?Q?E,145FEE6B,CB73A1BC,2F2686D6,74EEAF3D\",201:1887,202:425,203?=
+ =?us-ascii?Q?:304,204:2192,205:101,206:7,207:123,208:10,209:123,210:10,21?=
+ =?us-ascii?Q?1:113,212:10,213:159,214:10,215:148,216:8,217:158,218:10,219?=
+ =?us-ascii?Q?:357,220:2,221:52,222:3,223:52,224:3,225:52,226:3,227:51,228?=
+ =?us-ascii?Q?:3,229:159,230:10,231:184,232:16,233:188,234:18,235:357,236:?=
+ =?us-ascii?Q?2,237:159,238:10,239:148,240:8,241:158,242:10,243:357,244:2,?=
+ =?us-ascii?Q?245:238,246:2,247:354,248:2,249:357,250:2,251:38,252:0}","DP?=
+ =?us-ascii?Q?D":{"UF":"256","OCH":"11692119365867271223","SCHM":"Https","?=
+ =?us-ascii?Q?CNT":"1","SL":"1","LOG":"1"},"PROC":[]},{"ID":6,"OU":"https:?=
+ =?us-ascii?Q?//impakfinance.acemlnc.com/lt.php=3Fs=3Dd3be7a4943591f363220?=
+ =?us-ascii?Q?945540b07b1e&i=3D426A20985A43A19389","U":"https://impakfinan?=
+ =?us-ascii?Q?ce.acemlnc.com/lt.php=3Fs=3Dd3be7a4943591f363220945540b07b1e?=
+ =?us-ascii?Q?&i=3D426A20985A43A19389","IAR":false,"LI":{"TN":"a","IC":tru?=
+ =?us-ascii?Q?e,"BF":2,"SI":-1,"EndIndex":-1},"SRCI":2,"IU":null,"NU":"imp?=
+ =?us-ascii?Q?akfinance.acemlnc.com/lt.php=3Fs=3Dd3be7a4943591f36322094554?=
+ =?us-ascii?Q?0b07b1e&i=3D426A20985A43A19389","UFT":"{101:31,102:3,105:24,?=
+ =?us-ascii?Q?108:3,110:7,111:11,112:2,114:7,115:12,116:1,118:12,119:7,121?=
+ =?us-ascii?Q?:6,122:3,123:1,125:3,128:6,129:1,131:133341,135:\"2DECDEDE,F?=
+ =?us-ascii?Q?781AA54,DECAA560,764D7C92,F40E88AC,C1777455,16EA7C12,3AF3E2C?=
+ =?us-ascii?Q?5,AB5908F4,33EF5A92,5B2AA426,8A0B279E,145FEE6B,CB73A1BC,2F26?=
+ =?us-ascii?Q?86D6,74EEAF3D\",201:1887,202:425,203:304,204:2192,205:101,20?=
+ =?us-ascii?Q?6:7,207:123,208:10,209:123,210:10,211:113,212:10,213:159,214?=
+ =?us-ascii?Q?:10,215:148,216:8,217:158,218:10,219:357,220:2,221:52,222:3,?=
+ =?us-ascii?Q?223:52,224:3,225:52,226:3,227:51,228:3,229:159,230:10,231:18?=
+ =?us-ascii?Q?4,232:16,233:188,234:18,235:357,236:2,237:159,238:10,239:148?=
+ =?us-ascii?Q?,240:8,241:158,242:10,243:357,244:2,245:238,246:2,247:354,24?=
+ =?us-ascii?Q?8:2,249:357,250:2,251:38,252:0}","DPD":{"UF":"256","OCH":"11?=
+ =?us-ascii?Q?692118266355643012","SCHM":"Https","CNT":"1","SL":"1","LOG":?=
+ =?us-ascii?Q?"1"},"PROC":[]},{"ID":1,"OU":"https://impakfinance.acemlnc.c?=
+ =?us-ascii?Q?om/box.php=3Fnl=3D43&c=3D426&m=3D20985&s=3Dd3be7a4943591f363?=
+ =?us-ascii?Q?220945540b07b1e&funcml=3Dunsub2&luha=3D1","U":"https://impak?=
+ =?us-ascii?Q?finance.acemlnc.com/box.php=3Fnl=3D43&c=3D426&m=3D20985&s=3D?=
+ =?us-ascii?Q?d3be7a4943591f363220945540b07b1e&funcml=3Dunsub2&luha=3D1","?=
+ =?us-ascii?Q?IAR":false,"LI":{"BF":1,"SI":-1,"EndIndex":-1},"SRCI":2,"IU"?=
+ =?us-ascii?Q?:null,"NU":"impakfinance.acemlnc.com/box.php=3Fnl=3D43&c=3D4?=
+ =?us-ascii?Q?26&m=3D20985&s=3Dd3be7a4943591f363220945540b07b1e&funcml=3Du?=
+ =?us-ascii?Q?nsub2&luha=3D1","UFT":"{101:32,102:3,105:24,108:3,110:7,111:?=
+ =?us-ascii?Q?11,112:2,114:7,115:12,116:1,118:12,119:7,121:6,122:3,123:1,1?=
+ =?us-ascii?Q?25:3,128:7,129:1,131:133341,135:\"2DECDEDE,F781AA54,DECAA560?=
+ =?us-ascii?Q?,764D7C92,F40E88AC,C1777455,16EA7C12,3AF3E2C5,AB5908F4,33EF5?=
+ =?us-ascii?Q?A92,5B2AA426,8A0B279E,145FEE6B,CB73A1BC,2F2686D6,B62D8870,74?=
+ =?us-ascii?Q?EEAF3D\",201:1887,202:425,203:304,204:2192,205:101,206:7,207?=
+ =?us-ascii?Q?:123,208:10,209:123,210:10,211:113,212:10,213:159,214:10,215?=
+ =?us-ascii?Q?:148,216:8,217:158,218:10,219:357,220:2,221:52,222:3,223:52,?=
+ =?us-ascii?Q?224:3,225:52,226:3,227:51,228:3,229:159,230:10,231:184,232:1?=
+ =?us-ascii?Q?6,233:188,234:18,235:357,236:2,237:159,238:10,239:148,240:8,?=
+ =?us-ascii?Q?241:158,242:10,243:357,244:2,245:238,246:2,247:354,248:2,249?=
+ =?us-ascii?Q?:357,250:2,251:38,252:0}","DPD":{"UF":"256","OCH":"134892232?=
+ =?us-ascii?Q?27253384844","SCHM":"Https","CNT":"1","SL":"1","LOG":"1"},"P?=
+ =?us-ascii?Q?ROC":[]},{"ID":8,"OU":"https://impakfinance.acemlnc.com/proc?=
+ =?us-ascii?Q?.php=3Fnl=3D43&c=3D426&m=3D20985&s=3Dd3be7a4943591f363220945?=
+ =?us-ascii?Q?540b07b1e&act=3Dunsub","U":"https://impakfinance.acemlnc.com?=
+ =?us-ascii?Q?/proc.php=3Fnl=3D43&c=3D426&m=3D20985&s=3Dd3be7a4943591f3632?=
+ =?us-ascii?Q?20945540b07b1e&act=3Dunsub","IAR":false,"LI":{"TN":"a","IC":?=
+ =?us-ascii?Q?true,"BF":2,"SI":-1,"EndIndex":-1},"SRCI":2,"IU":null,"NU":"?=
+ =?us-ascii?Q?impakfinance.acemlnc.com/proc.php=3Fnl=3D43&c=3D426&m=3D2098?=
+ =?us-ascii?Q?5&s=3Dd3be7a4943591f363220945540b07b1e&act=3Dunsub","UFT":"{?=
+ =?us-ascii?Q?101:33,102:3,105:24,108:3,110:7,111:11,112:2,114:7,115:12,11?=
+ =?us-ascii?Q?6:1,118:12,119:7,121:6,122:3,123:1,125:3,128:8,129:1,131:133?=
+ =?us-ascii?Q?341,135:\"2DECDEDE,F781AA54,DECAA560,764D7C92,F40E88AC,C1777?=
+ =?us-ascii?Q?455,16EA7C12,3AF3E2C5,AB5908F4,33EF5A92,5B2AA426,8A0B279E,14?=
+ =?us-ascii?Q?5FEE6B,CB73A1BC,2F2686D6,562F25C6,A0D5E9C1,74EEAF3D\",201:18?=
+ =?us-ascii?Q?87,202:425,203:304,204:2192,205:101,206:7,207:123,208:10,209?=
+ =?us-ascii?Q?:123,210:10,211:1?=
+X-MS-Exchange-Organization-Persisted-Urls-1:
+	=?us-ascii?Q?13,212:10,213:159,214:10,215:148,216:8,217:158,218:10,219:35?=
+ =?us-ascii?Q?7,220:2,221:52,222:3,223:52,224:3,225:52,226:3,227:51,228:3,?=
+ =?us-ascii?Q?229:159,230:10,231:184,232:16,233:188,234:18,235:357,236:2,2?=
+ =?us-ascii?Q?37:159,238:10,239:148,240:8,241:158,242:10,243:357,244:2,245?=
+ =?us-ascii?Q?:238,246:2,247:354,248:2,249:357,250:2,251:38,252:0}","DPD":?=
+ =?us-ascii?Q?{"UF":"256","OCH":"16500161342246254540","SCHM":"Https","CNT?=
+ =?us-ascii?Q?":"1","SL":"1","LOG":"1"},"PROC":[]},{"ID":10,"OU":"https://?=
+ =?us-ascii?Q?www.impakfinance.com/ratings/","U":"https://www.impakfinance?=
+ =?us-ascii?Q?.com/ratings/","IAR":false,"LI":{"BF":1,"SI":-1,"EndIndex":-?=
+ =?us-ascii?Q?1},"SRCI":2,"IU":null,"NU":"www.impakfinance.com/ratings","U?=
+ =?us-ascii?Q?FT":"{101:29,102:2,105:20,108:3,110:12,111:16,112:2,114:12,1?=
+ =?us-ascii?Q?15:3,116:1,118:3,119:12,121:9,122:3,123:1,125:3,128:8,131:10?=
+ =?us-ascii?Q?000000,135:\"F538357B,FD050533,AA2E4945,991C0911,6A17340B,3E?=
+ =?us-ascii?Q?D8DAA1,C5B624BC,1BFCE73B,5F0BB61C,750A7969,560597C3,85D14212?=
+ =?us-ascii?Q?,37A49FA9,C03BEFC2,CAF41769,ADBD9C1D\",201:1662,202:200,203:?=
+ =?us-ascii?Q?528,204:2191,205:74,206:2,207:73,208:2,209:74,210:2,211:75,2?=
+ =?us-ascii?Q?12:2,213:83,214:3,215:83,216:3,217:83,218:3,219:11,220:0,221?=
+ =?us-ascii?Q?:52,222:3,223:52,224:3,225:52,226:3,227:51,228:3,229:83,230:?=
+ =?us-ascii?Q?3,231:85,232:3,233:100,234:3,235:11,236:0,237:83,238:3,239:8?=
+ =?us-ascii?Q?3,240:3,241:83,242:3,243:11,244:0,245:136,246:22,247:43,248:?=
+ =?us-ascii?Q?3,249:11,250:0,251:11,252:0}","DPD":{"UF":"256","OCH":"22885?=
+ =?us-ascii?Q?90050258864140","SCHM":"Https","CNT":"1","SL":"1","LOG":"1"}?=
+ =?us-ascii?Q?,"PROC":[]},{"ID":2,"OU":"https://go.microsoft.com/fwlink/?=
+ =?us-ascii?Q?=3FLinkId=3D532972","U":"https://go.microsoft.com/fwlink/=3F?=
+ =?us-ascii?Q?LinkId=3D532972","IAR":false,"LI":{"TN":"a","IC":true,"BF":2?=
+ =?us-ascii?Q?,"SI":-1,"EndIndex":-1},"SRCI":1,"IU":null,"NU":"go.microsof?=
+ =?us-ascii?Q?t.com/fwlink/=3FLinkId=3D532972","UFT":"{101:24,102:2,105:16?=
+ =?us-ascii?Q?,108:3,110:9,111:13,112:2,114:9,115:2,116:1,118:2,119:9,121:?=
+ =?us-ascii?Q?8,122:3,123:1,125:3,128:7,131:8,135:\"A06CA246,16F62397,A7DB?=
+ =?us-ascii?Q?F8A3,DE0204FD,D3562666,4E29DCB9,EC22725E,17F79008,5DA9BFFF,8?=
+ =?us-ascii?Q?C4E989A,D6F42A4D\",201:10791,202:180,203:167,204:10959,205:3?=
+ =?us-ascii?Q?7,206:2,207:38,208:2,209:38,210:2,211:38,212:2,213:24,214:2,?=
+ =?us-ascii?Q?215:23,216:2,217:30,218:2,219:20,220:2,221:52,222:3,223:52,2?=
+ =?us-ascii?Q?24:3,225:52,226:3,227:51,228:3,229:23,230:2,231:23,232:2,233?=
+ =?us-ascii?Q?:30,234:2,235:20,236:2,237:23,238:2,239:23,240:2,241:29,242:?=
+ =?us-ascii?Q?3,243:24,244:2,245:20,246:2,247:20,248:2,249:20,250:2,251:45?=
+ =?us-ascii?Q?,252:1}","DPD":{"UF":"256","OCH":"585180713264256766","SCHM"?=
+ =?us-ascii?Q?:"Https","CNT":"4","SL":"1","LOG":"1"},"PROC":[]},{"ID":3,"O?=
+ =?us-ascii?Q?U":"https://go.microsoft.com/fwlink/=3FLinkId=3D525921","U":?=
+ =?us-ascii?Q?"https://go.microsoft.com/fwlink/=3FLinkId=3D525921","IAR":f?=
+ =?us-ascii?Q?alse,"LI":{"TN":"a","IC":true,"BF":2,"SI":-1,"EndIndex":-1},?=
+ =?us-ascii?Q?"SRCI":1,"IU":null,"NU":"go.microsoft.com/fwlink/=3FLinkId?=
+ =?us-ascii?Q?=3D525921","UFT":"{101:24,102:2,105:16,108:3,110:9,111:13,11?=
+ =?us-ascii?Q?2:2,114:9,115:2,116:1,118:2,119:9,121:8,122:3,123:1,125:3,12?=
+ =?us-ascii?Q?8:7,131:8,135:\"A06CA246,16F62397,A7DBF8A3,DE0204FD,D3562666?=
+ =?us-ascii?Q?,4E29DCB9,EC22725E,17F79008,5DA9BFFF,8C4E989A,D6F42A4D\",201?=
+ =?us-ascii?Q?:10791,202:180,203:167,204:10959,205:37,206:2,207:38,208:2,2?=
+ =?us-ascii?Q?09:38,210:2,211:38,212:2,213:24,214:2,215:23,216:2,217:30,21?=
+ =?us-ascii?Q?8:2,219:20,220:2,221:52,222:3,223:52,224:3,225:52,226:3,227:?=
+ =?us-ascii?Q?51,228:3,229:23,230:2,231:23,232:2,233:30,234:2,235:20,236:2?=
+ =?us-ascii?Q?,237:23,238:2,239:23,240:2,241:29,242:3,243:24,244:2,245:20,?=
+ =?us-ascii?Q?246:2,247:20,248:2,249:20,250:2,251:45,252:1}","DPD":{"UF":"?=
+ =?us-ascii?Q?256","OCH":"12437009184957366810","SCHM":"Https","CNT":"2","?=
+ =?us-ascii?Q?SL":"1","LOG":"1"},"PROC":[]},{"ID":1,"OU":"https://products?=
+ =?us-ascii?Q?.office.com/en-us/CMSImages/Office365Logo=5FOrange.png=3Fver?=
+ =?us-ascii?Q?sion=3Db8d100a9-0a8b-8e6a-88e1-ef488fee0470","U":"https://pr?=
+ =?us-ascii?Q?oducts.office.com/en-us/CMSImages/Office365Logo=5FOrange.png?=
+ =?us-ascii?Q?=3Fversion=3Db8d100a9-0a8b-8e6a-88e1-ef488fee0470","IAR":fal?=
+ =?us-ascii?Q?se,"LI":{"TN":"img","IC":false,"BF":2,"SI":-1,"EndIndex":-1}?=
+ =?us-ascii?Q?,"SRCI":1,"IU":null,"NU":"products.office.com/en-us/CMSImage?=
+ =?us-ascii?Q?s/Office365Logo=5FOrange.png=3Fversion=3Db8d100a9-0a8b-8e6a-?=
+ =?us-ascii?Q?88e1-ef488fee0470","UFT":"{101:60,102:3,105:19,108:3,110:6,1?=
+ =?us-ascii?Q?11:10,112:2,114:6,115:8,116:1,118:8,119:6,121:5,122:3,123:1,?=
+ =?us-ascii?Q?125:3,127:1,128:24,129:1,130:1,131:55,135:\"E2F58CB3,D6D6D79?=
+ =?us-ascii?Q?5,B02EBCF2,BB7A36A0,166691A8,76F2E1E4,FA228868,A4959D1E,CAB6?=
+ =?us-ascii?Q?2C9B,23F6380E,C5917EC7,AC75019D,4D0E0D4E,54512B68,6A39FB2,10?=
+ =?us-ascii?Q?273AFE,BCFC5024,F880F766,3379B856,98175F3C,3BE3647C,20D2CD5A?=
+ =?us-ascii?Q?,F6B6B4BF,ACD9A4B2,843C5C40,AFEB3E33,122F69E9,2879952,6FAE06?=
+ =?us-ascii?Q?8B,655D65BF,24E711DE,AC08742E,41FAC73D,43018495,9BD164B4,216?=
+ =?us-ascii?Q?3D5B1,B7BDABDB,7DE8AD3A\",201:7881,202:140,203:154,204:8036,?=
+ =?us-ascii?Q?205:37,206:2,207:38,208:2,209:38,210:2,211:38,212:2,213:24,2?=
+ =?us-ascii?Q?14:2,215:23,216:2,217:30,218:2,219:32,220:3,221:52,222:3,223?=
+ =?us-ascii?Q?:52,224:3,225:52,226:3,227:51,228:3,229:23,230:2,231:23,232:?=
+ =?us-ascii?Q?2,233:30,234:2,235:26,236:3,237:23,238:2,239:23,240:2,241:29?=
+ =?us-ascii?Q?,242:3,243:24,244:2,245:93,246:2,247:93,248:2,249:92,250:2,2?=
+ =?us-ascii?Q?51:163,252:3}","DPD":{"UF":"65792","OCH":"511094207338351635?=
+ =?us-ascii?Q?","SCHM":"Https","CNT":"2","SL":"1","LOG":"1"},"PROC":[]},{"?=
+ =?us-ascii?Q?ID":2,"OU":"https://impakfinance.imgus11.com/public//86c84d2?=
+ =?us-ascii?Q?0a79ab2ebde884b959a5ed8fc.png=3Fr=3D19908300","U":"https://i?=
+ =?us-ascii?Q?mpakfinance.imgus11.com/public//86c84d20a79ab2ebde884b959a5e?=
+ =?us-ascii?Q?d8fc.png=3Fr=3D19908300","IAR":false,"LI":{"TN":"img","IC":f?=
+ =?us-ascii?Q?alse,"BF":2,"SI":-1,"EndIndex":-1},"SRCI":2,"IU":null,"NU":"?=
+ =?us-ascii?Q?impakfinance.imgus11.com/public/86c84d20a79ab2ebde884b959a5e?=
+ =?us-ascii?Q?d8fc.png=3Fr=3D19908300","UFT":"{101:69,102:3,105:24,108:3,1?=
+ =?us-ascii?Q?10:7,111:11,112:2,114:7,115:12,116:1,118:12,119:7,121:6,122:?=
+ =?us-ascii?Q?3,123:1,125:3,128:36,129:1,131:10000000,135:\"2DECDEDE,F781A?=
+ =?us-ascii?Q?A54,DECAA560,764D7C92,F40E88AC,C1777455,16EA7C12,3AF3E2C5,AB?=
+ =?us-ascii?Q?5908F4,33EF5A92,12052642,C65DD38E,3DDE0910,390983AE,ABF55F7E?=
+ =?us-ascii?Q?,591DE15E,31DCC8F8,A7342C98,814E8749,4C4C70CE,4A023ED0,61DDE?=
+ =?us-ascii?Q?00,4347E575,B91E09D7,A63A6B2B,D008E35C,D66F0DA9,704089FA,8AD?=
+ =?us-ascii?Q?83946,DFF70421,EC6E0F9E,D79C2EEE,B037066C,7CAF20F0,B320B7C4,?=
+ =?us-ascii?Q?A50319CC,B3D9FB5E,F3657C99,3D47DC03,2618A540,87B30A4D,DC6B88?=
+ =?us-ascii?Q?4,89443A1C,90F687C4,20461C38,86C3F10F,3CAA3F02,DC49CAB7,2BD5?=
+ =?us-ascii?Q?7D1E,7DE8AD3A\"}","DPD":{"UF":"65536","OCH":"441144999833293?=
+ =?us-ascii?Q?3143","SCHM":"Https","CNT":"1","LOG":"1"},"PROC":[]},{"ID":7?=
+ =?us-ascii?Q?,"OU":"https://impakfinance.acemlnc.com/lt.php=3Fnl=3D43&c?=
+ =?us-ascii?Q?=3D426&m=3D20985&s=3Dd3be7a4943591f363220945540b07b1e&l=3Dop?=
+ =?us-ascii?Q?en","U":"https://impakfinance.acemlnc.com/lt.php=3Fnl=3D43&c?=
+ =?us-ascii?Q?=3D426&m=3D20985&s=3Dd3be7a4943591f363220945540b07b1e&l=3Dop?=
+ =?us-ascii?Q?en","IAR":false,"LI":{"TN":"img","IC":false,"BF":2,"SI":-1,"?=
+ =?us-ascii?Q?EndIndex":-1},"SRCI":2,"IU":null,"NU":"impakfinance.acemlnc.?=
+ =?us-ascii?Q?com/lt.php=3Fnl=3D43&c=3D426&m=3D20985&s=3Dd3be7a4943591f363?=
+ =?us-ascii?Q?220945540b07b1e&l=3Dopen","UFT":"{101:31,102:3,105:24,108:3,?=
+ =?us-ascii?Q?110:7,111:11,112:2,114:7,115:12,116:1,118:12,119:7,121:6,122?=
+ =?us-ascii?Q?:3,123:1,125:3,128:6,129:1,131:133341,135:\"2DECDEDE,F781AA5?=
+ =?us-ascii?Q?4,DECAA560,764D7C92,F40E88AC,C1777455,16EA7C12,3AF3E2C5,AB59?=
+ =?us-ascii?Q?08F4,33EF5A92,5B2AA426,8A0B279E,145FEE6B,CB73A1BC,2F2686D6,7?=
+ =?us-ascii?Q?4EEAF3D\"}","DPD":{"UF":"65536","OCH":"16389482174343566101"?=
+ =?us-ascii?Q?,"SCHM":"Https","CNT":"1"},"PROC":[]}]?=
+X-MS-Exchange-Organization-PersistedUrlCount: 15
+X-MS-Exchange-Organization-Antispam-PreContentFilter-ScanContext:
+	CategorizerOnSubmitted;CategorizerOnResolved;
+X-MS-Exchange-Organization-AVScannedByV2: Symantec;Microsoft;Command
+X-MS-Exchange-Organization-AVScanComplete: true
+X-MS-Exchange-Organization-UrlSelected: 1
+X-MS-Exchange-Organization-UrlLogged: 1
+X-MS-Exchange-Organization-OriginalSize: 85181
+X-MS-Exchange-Organization-Recipient-Limit-Verified: True
+X-MS-Exchange-Organization-TotalRecipientCount: 1
+X-MS-Exchange-Organization-ASDirectionalityType: 2
+X-Microsoft-Antispam-PRVS:
+	<LNXP123MB221739CC19B8CF7788BF0B8DB8E30@LNXP123MB2217.GBRP123.PROD.OUTLOOK.COM>
+X-MS-Exchange-Organization-Antispam-ContentFilter-ScanContext:
+	CategorizerOnResolved;
+X-MS-Exchange-Organization-OldTenant: True
+X-MS-Exchange-Organization-RepStatus: 1
+X-MS-Exchange-Organization-TenantAge: 1339
+X-MS-Exchange-Organization-IsTrial: False
+X-MS-Exchange-Organization-PaidSeats: 33
+X-MS-Exchange-Organization-MessageSent24: 34
+X-MS-Exchange-Organization-MailTier: 3
+X-MS-Exchange-Organization-BrandPhish: MicrosoftPhishKeywordList;
+X-MS-Exchange-Organization-ContainsAttachments: true
+X-MS-Exchange-Organization-ExtractionAttachmentNames: 0;1
+X-MS-Exchange-Organization-ExtractionTags: SUB64;1IMG;LINK;
+X-MS-Exchange-Organization-ExtractionTagsURLFound: URL
+X-MS-Exchange-Organization-ExtractionTagsSubject: Undeliverable: Partnership
+ for impact indices: your expertise, our impact data
+X-MS-Exchange-Organization-ExtractionTagsFrom: <postmaster@hanetf.com>
+X-MS-Exchange-Organization-ExtractionTagsSubjectNormalized: undellverable
+ partnershlp for lrnpact lndlces your expertlse our lrnpact data
+X-MS-Oob-TLC-OOBClassifiers: OLM:4303;
+X-MS-Exchange-Organization-SpamScore: 0
+X-MS-Exchange-Organization-Antispam-AnalystRuleHits:
+	(50650200002)(366004)(39830400003)(136003)(346002)(396003)(376002)(1930700014)(78496005)(66946007)(66576008)(83380400001)(9686003)(2876002)(45080400002)(166002)(42882007)(31686004)(16799955002)(5660300002)(30864003)(32400700002)(498600001)(52230400001)(316002)(8676002)(42186006)(78352004)(2906002)(31696002)(579004)
+X-MS-Exchange-Organization-MarkAsHighRisk: true
+X-MS-Exchange-Organization-Antispam-ScanContext:
+	DIR:Originating;SFV:NSPM;SKIP:0;
+X-MS-Exchange-Organization-Antispam-PostContentFilter-ScanContext:
+	CategorizerOnResolved;CategorizerOnRouted;
+X-MS-Exchange-SenderADCheck: 1
+X-MS-Exchange-Organization-Antispam-OutboundIPPartition: 1501
+X-Microsoft-Antispam: BCL:0;
+X-Microsoft-Antispam-Message-Info:
+	Gk5ugnHjhyYH9JuZY0F2823TIBZ9vc5pSmHXD7t5/f7hY8yCU69dRxyrujtB5I9NLwxMcKWs4AXuDTEtBzjne0iS/KeB2gJLeO6sMXgPlk+FINo4CRuX3/8+YtPcmaVRp4zzjGCjyplyACj6IGDXnS607UeE0ecDEBnB7ETmIDtFbTcIETdG9Lsklgtcc35dLzV+h4TRriDii0dpH3MIUDvl0nTtjJSoNlPqaWxLhLpPHlNE0WD/EIcpuFkTIH/JBSthwOvlQVxp31jw9SXk6Yx41UhnJtCeLNHmrGEPoLNIOD8MRCanNXqX+jnRc0KbpUs9MNbuxErMF1/HLjkLH7Jkr3u4KNk/ODHQsCdMIIUpdOJ5Np/kVMdjKoFqU5YyDq8HEKhW7m4GdhqUxjbUZ94xSq9rptFtzDC9EAsnQYAI1fZdY6yWtmbBH4qF7TGyWXwbbNLgo7ExMptiG0Kql7ZxwbP9Q+8e+upsqWWQBy0=
+X-Forefront-Antispam-Report:
+	CIP:255.255.255.255;CTRY:;LANG:en;SCL:1;SRV:;IPV:NLI;SFV:NSPM;H:;PTR:;CAT:NONE;SFS:(50650200002)(366004)(39830400003)(136003)(346002)(396003)(376002)(1930700014)(78496005)(66946007)(66576008)(83380400001)(9686003)(2876002)(45080400002)(166002)(42882007)(31686004)(16799955002)(5660300002)(30864003)(32400700002)(498600001)(52230400001)(316002)(8676002)(42186006)(78352004)(2906002)(31696002)(579004);DIR:OUT;SFP:1501;
+X-MS-Exchange-Organization-GroupForkPerf: VCL=0;VL=0
+X-MS-Exchange-Organization-Cross-Session-Cache:
+	00MFP=5967dc50-83ae-44d5-99bf-5517618a6c39;PReRC=1;FPR=E41EF4E7.ACE693F9.AFDA7D97.42EBFF0C.207D2;URLC_BE=10;URLC_BEC=9;URLC_B=4;URLC_BC=4;URLC_AE=11;UMGPV=750;UMEPV=361;SL=3;EMSL=1;SCL=1;BL=0;RL=1;PID=1501;EXPID=;NoDLx=1;CGDLxSupported=1;RMX=;DIR=2;StampedBoomerangHeader=true;HOSFP=05f73703-66da-46ef-9834-330a9c8b9b73;ASC=0;AV_FV=Allow;AV_FC=NDR;FFV=Allow;FV_SCL=1;FV=Allow;FVS=Filters;FSCL=1;TAP_EP=
+X-MS-Exchange-Organization-Processed-By-Gcc-Journaling: Journal Agent
+
+--_c4d8514d-c31f-4f87-807f-fe84c4baac57_
+Content-Type: multipart/alternative; differences=Content-Type;
+	boundary="_6a6d4533-a84a-4880-ad69-3b3bdb83e2dd_"
+
+--_6a6d4533-a84a-4880-ad69-3b3bdb83e2dd_
+Content-Type: text/plain; charset="us-ascii"
+Content-Transfer-Encoding: quoted-printable
+
+[https://products.office.com/en-us/CMSImages/Office365Logo_Orange.png?versi=
+on=3Db8d100a9-0a8b-8e6a-88e1-ef488fee0470]
+Your message to ian.hector@hanetf.com couldn't be delivered.
+ian.hector wasn't found at hanetf.com.
+bounce-496565-426-94. . .       Office 365      ian.hector
+Action Required                 Recipient
+Unknown To address
+
+How to Fix It
+The address may be misspelled or may not exist. Try one or more of the foll=
+owing:
+
+  *   Send the message again following these steps: In Outlook, open this n=
+on-delivery report (NDR) and choose Send Again from the Report ribbon. In O=
+utlook on the web, select this NDR, then select the link "To send this mess=
+age again, click here." Then delete and retype the entire recipient address=
+. If prompted with an Auto-Complete List suggestion don't select it. After =
+typing the complete address, click Send.
+  *   Contact the recipient (by phone, for example) to check that the addre=
+ss exists and is correct.
+  *   The recipient may have set up email forwarding to an incorrect addres=
+s. Ask them to check that any forwarding they've set up is working correctl=
+y.
+  *   Clear the recipient Auto-Complete List in Outlook or Outlook on the w=
+eb by following the steps in this article: Fix email delivery issues for er=
+ror code 5.1.10 in Office 365<https://go.microsoft.com/fwlink/?LinkId=3D532=
+972>, and then send the message again. Retype the entire recipient address =
+before selecting Send.
+
+If the problem continues, forward this message to your email admin. If you'=
+re an email admin, refer to the More Info for Email Admins section below.
+
+Was this helpful? Send feedback to Microsoft<https://go.microsoft.com/fwlin=
+k/?LinkId=3D525921>.
+________________________________
+
+More Info for Email Admins
+Status code: 550 5.1.10
+
+This error occurs because the sender sent a message to an email address hos=
+ted by Office 365 but the address is incorrect or doesn't exist at the dest=
+ination domain. The error is reported by the recipient domain's email serve=
+r, but most often it must be fixed by the person who sent the message. If t=
+he steps in the How to Fix It section above don't fix the problem, and you'=
+re the email admin for the recipient, try one or more of the following:
+
+The email address exists and is correct - Confirm that the recipient addres=
+s exists, is correct, and is accepting messages.
+
+Synchronize your directories - If you have a hybrid environment and are usi=
+ng directory synchronization make sure the recipient's email address is syn=
+ced correctly in both Office 365 and in your on-premises directory.
+
+Errant forwarding rule - Check for forwarding rules that aren't behaving as=
+ expected. Forwarding can be set up by an admin via mail flow rules or mail=
+box forwarding address settings, or by the recipient via the Inbox Rules fe=
+ature.
+
+Recipient has a valid license - Make sure the recipient has an Office 365 l=
+icense assigned to them. The recipient's email admin can use the Office 365=
+ admin center to assign a license (Users > Active Users > select the recipi=
+ent > Assigned License > Edit).
+
+Mail flow settings and MX records are not correct - Misconfigured mail flow=
+ or MX record settings can cause this error. Check your Office 365 mail flo=
+w settings to make sure your domain and any mail flow connectors are set up=
+ correctly. Also, work with your domain registrar to make sure the MX recor=
+ds for your domain are configured correctly.
+
+For more information and additional tips to fix this issue, see Fix email d=
+elivery issues for error code 5.1.10 in Office 365<https://go.microsoft.com=
+/fwlink/?LinkId=3D532972>.
+
+Original Message Details
+Created Date:   11/16/2020 4:16:48 PM
+Sender Address: bounce-496565-426-94855-ian.hector=3Dhanetf.com@s1.asa1.ace=
+msb3.com
+Recipient Address:      ian.hector@hanetf.com
+Subject:        Partnership for impact indices: your expertise, our impact =
+data
+
+Error Details
+Reported error: 550 5.1.10 RESOLVER.ADR.RecipientNotFound; Recipient ian.he=
+ctor@hanetf.com not found by SMTP address lookup
+DSN generated by:       LNXP123MB2217.GBRP123.PROD.OUTLOOK.COM
+
+Message Hops
+HOP     TIME (UTC)      FROM    TO      WITH    RELAY TIME
+1       11/16/2020
+4:17:17 PM              s1.asa1.acemsb3.com             29 sec
+2       11/16/2020
+4:17:20 PM      s1.asa1.acemsb3.com     VE1EUR02FT020.mail.protection.outlo=
+ok.com       Microsoft SMTP Server (version=3DTLS1_2, cipher=3DTLS_ECDHE_RS=
+A_WITH_AES_256_GCM_SHA384)    3 sec
+3       11/16/2020
+4:17:23 PM      VE1EUR02FT020.eop-EUR02.prod.protection.outlook.com     AM6=
+PR04CA0014.outlook.office365.com     Microsoft SMTP Server (version=3DTLS1_=
+2, cipher=3DTLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384)    3 sec
+4       11/16/2020
+4:17:23 PM      AM6PR04CA0014.eurprd04.prod.outlook.com LNXP123MB2217.GBRP1=
+23.PROD.OUTLOOK.COM  Microsoft SMTP Server (version=3DTLS1_2, cipher=3DTLS_=
+ECDHE_RSA_WITH_AES_256_GCM_SHA384)    *
+
+Original Message Headers
+
+Received: from AM6PR04CA0014.eurprd04.prod.outlook.com (2603:10a6:20b:92::2=
+7)
+ by LNXP123MB2217.GBRP123.PROD.OUTLOOK.COM (2603:10a6:600:d4::15) with
+ Microsoft SMTP Server (version=3DTLS1_2,
+ cipher=3DTLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384) id 15.20.3564.25; Mon, 16 =
+Nov
+ 2020 16:17:23 +0000
+Received: from VE1EUR02FT020.eop-EUR02.prod.protection.outlook.com
+ (2603:10a6:20b:92:cafe::6f) by AM6PR04CA0014.outlook.office365.com
+ (2603:10a6:20b:92::27) with Microsoft SMTP Server (version=3DTLS1_2,
+ cipher=3DTLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384) id 15.20.3564.28 via Front=
+end
+ Transport; Mon, 16 Nov 2020 16:17:23 +0000
+Authentication-Results: spf=3Dpass (sender IP is 192.92.97.54)
+ smtp.mailfrom=3Ds1.asa1.acemsb3.com; hanetf.com; dkim=3Dpass (signature wa=
+s
+ verified) header.d=3Ds1.asa1.acemsb3.com;hanetf.com; dmarc=3Dnone action=
+=3Dnone
+ header.from=3Dimpakfinance.com;
+Received-SPF: Pass (protection.outlook.com: domain of s1.asa1.acemsb3.com
+ designates 192.92.97.54 as permitted sender) receiver=3Dprotection.outlook=
+.com;
+ client-ip=3D192.92.97.54; helo=3Ds1.asa1.acemsb3.com;
+Received: from s1.asa1.acemsb3.com (192.92.97.54) by
+ VE1EUR02FT020.mail.protection.outlook.com (10.152.12.102) with Microsoft S=
+MTP
+ Server (version=3DTLS1_2, cipher=3DTLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384) =
+id
+ 15.20.3564.22 via Frontend Transport; Mon, 16 Nov 2020 16:17:20 +0000
+DKIM-Signature: v=3D1; a=3Drsa-sha256; c=3Drelaxed/relaxed; s=3Ddk; d=3Ds1.=
+asa1.acemsb3.com;
+ h=3DTo:From:Subject:Date:MIME-Version:Content-Type:Content-Transfer-Encodi=
+ng:
+ Sender:List-Unsubscribe:Message-ID;
+ i=3Dimpakfinance.activehosted.com@s1.asa1.acemsb3.com;
+ bh=3DBbOCsWeUF0TtY0OC7FcMR/PhzszS0V8coU3IfGZ9Lgc=3D;
+ b=3DJK+9GYD04FwTkyJb7zAG2v8v/G5k3VZBs1QszFQbKfagj4+1vLSrysbjoX0FIXoOWfFDwe=
+Rng8B9
+   bSyejh0Ha/EQyYhwWOVznwczzHN0QtXMQf3ugZu5SzV1Qj6ERvCpWQIZOvpO5n8fh6cMBrIB=
+t3UR
+   WohKOJnihNvS+l2axA0=3D
+Received: by s1.asa1.acemsb3.com id hmaj0q2p4doe for <ian.hector@hanetf.com=
+>; Mon, 16 Nov 2020 16:17:17 +0000 (envelope-from <bounce-496565-426-94855-=
+ian.hector=3Dhanetf.com@s1.asa1.acemsb3.com>)
+To: "Ian McNeil" <ian.hector@hanetf.com>
+From: =3D?utf-8?Q?Fran=3DC3=3DA7ois_Lebel_|_impak?=3D
+ <francois.lebel@impakfinance.com>
+Subject: Partnership for impact indices: your expertise, our impact data
+Date: Mon, 16 Nov 2020 10:16:48 -0600
+MIME-Version: 1.0
+Content-Type: multipart/alternative;
+ boundary=3D"_=3D_swift-1651003985fb2a5f109ed29.72633901_=3D_"
+Content-Transfer-Encoding: 7bit
+Sender: <impakfinance.activehosted.com@s1.asa1.acemsb3.com>
+X-Sender: <impakfinance.activehosted.com@s1.asa1.acemsb3.com>
+X-Report-Abuse: Please report abuse to abuse@activecampaign.com
+X-mid: aWFuLmhlY3RvckBoYW5ldGYuY29tICwgYzQyNiAsIG0yMDk4NSAsIHMzNDM2
+Feedback-ID: 496565:activecampaign
+X-250ok-CID: 496565-426
+List-Unsubscribe: <mailto:unsubscribe-bef087b31d4f903c2ee051ff293965e8-426-=
+d3be7a4943591f363220945540b07b1e@s1.asa1.acemsb3.com>,
+ <https://impakfinance.acemlnc.com/box.php?nl=3D43&c=3D426&m=3D20985&s=3Dd3=
+be7a4943591f363220945540b07b1e&funcml=3Dunsub2&luha=3D1>
+Message-ID: <20201116161717.29365.483748030.swift@impakfinance.activehosted=
+.com>
+Return-Path: bounce-496565-426-94855-ian.hector=3Dhanetf.com@s1.asa1.acemsb=
+3.com
+X-EOPAttributedMessage: 0
+X-EOPTenantAttributedMessage: 87d200da-44e4-4d6b-8faa-beb9f609f811:0
+X-MS-PublicTrafficType: Email
+X-MS-Office365-Filtering-Correlation-Id: 248c1493-1895-41a5-de42-08d88a4b18=
+92
+X-MS-TrafficTypeDiagnostic: LNXP123MB2217:
+
+
+--_6a6d4533-a84a-4880-ad69-3b3bdb83e2dd_
+Content-Type: text/html; charset="us-ascii"
+Content-Transfer-Encoding: quoted-printable
+
+<html>
+  <meta name=3D"viewport" content=3D"width=3Ddevice-width, initial-scale=3D=
+1" />
+  <head>
+    <title>
+          DSN
+        </title>
+  </head>
+  <body style=3D"        background-color: white;      ">
+    <table style=3D"        background-color: white;         max-width: 548=
+px;         color: black;         border-spacing: 0px 0px;         padding-=
+top: 0px;         padding-bottom: 0px;        border-collapse: collapse;   =
+   " width=3D"548" cellspacing=3D"0" cellpadding=3D"0">
+      <tbody>
+        <tr>
+          <td style=3D"        text-align: left;        padding-bottom: 20p=
+x;      ">
+            <img height=3D"28" width=3D"126" style=3D"        max-width: 10=
+0%;      " src=3D"https://products.office.com/en-us/CMSImages/Office365Logo=
+_Orange.png?version=3Db8d100a9-0a8b-8e6a-88e1-ef488fee0470" />
+          </td>
+        </tr>
+        <tr>
+          <td style=3D"        font-family: 'Segoe UI', Frutiger, Arial, sa=
+ns-serif;        font-size: 16px;         padding-bottom: 10px;         -ms=
+-text-size-adjust: 100%;        text-align: left;      ">Your message to <s=
+pan style=3D"        color: #0072c6;      ">ian.hector@hanetf.com</span> co=
+uldn't be delivered.<br /></td>
+        </tr>
+        <tr>
+          <td style=3D"        font-family: 'Segoe UI', Frutiger, Arial, sa=
+ns-serif;         font-size: 24px;         padding-top: 0px;         paddin=
+g-bottom: 20px;         text-align: center;         -ms-text-size-adjust: 1=
+00%;      ">
+            <span style=3D"        color: #0072c6;      ">ian.hector</span>=
+ wasn't found at <span style=3D"        color: #0072c6;      ">hanetf.com</=
+span>.<br /></td>
+        </tr>
+        <tr>
+          <td style=3D"        padding-bottom: 15px;         padding-left: =
+0px;         padding-right: 0px;         border-spacing: 0px 0px;      ">
+            <table style=3D"        max-width: 548px;         font-weight: =
+600;        border-spacing: 0px 0px;         padding-top: 0px;         padd=
+ing-bottom: 0px;        border-collapse: collapse;      ">
+              <tbody>
+                <tr>
+                  <td style=3D"        font-family: 'Segoe UI', Frutiger, A=
+rial, sans-serif;        font-size: 15px;        font-weight: 600;        t=
+ext-align: left;        width: 181px;        -ms-text-size-adjust: 100%;   =
+     vertical-align: bottom;      ">
+                    <font color=3D"#ffffff">
+                      <span style=3D"color:#000000">bounce-496565-426-94. .=
+ .</span>
+                    </font>
+                  </td>
+                  <td style=3D"        font-family: 'Segoe UI', Frutiger, A=
+rial, sans-serif;        font-size: 15px;        font-weight: 600;        t=
+ext-align: center;        width: 186px;        -ms-text-size-adjust: 100%; =
+       vertical-align: bottom;      ">
+                    <font color=3D"#ffffff">
+                      <span style=3D"color:#000000">Office 365</span>
+                    </font>
+                  </td>
+                  <td style=3D"        font-family: 'Segoe UI', Frutiger, A=
+rial, sans-serif;         -ms-text-size-adjust: 100%;         font-size: 15=
+px;         font-weight: 600;        text-align: right;         width: 181p=
+x;         vertical-align: bottom;      ">
+                    <font color=3D"#ffffff">
+                      <span style=3D"color:#000000">ian.hector</span>
+                    </font>
+                  </td>
+                </tr>
+                <tr>
+                  <td style=3D"        font-family: 'Segoe UI', Frutiger, A=
+rial, sans-serif;        -ms-text-size-adjust: 100%;        font-size: 14px=
+;        font-weight: 400;        text-align: left;        padding-top: 0px=
+;        padding-bottom: 0px;        vertical-align: middle;        width: =
+181px;      ">
+                    <font color=3D"#ffffff">
+                      <span style=3D"        color: #c00000;      ">
+                        <b>Action Required</b>
+                      </span>
+                    </font>
+                  </td>
+                  <td style=3D"        font-family: 'Segoe UI', Frutiger, A=
+rial, sans-serif;        -ms-text-size-adjust: 100%;        font-size: 14px=
+;        font-weight: 400;        text-align: center;        padding-top: 0=
+px;        padding-bottom: 0px;        vertical-align: middle;        width=
+: 186px;      " />
+                  <td style=3D"        font-family: 'Segoe UI', Frutiger, A=
+rial, sans-serif;        -ms-text-size-adjust: 100%;        font-size: 14px=
+;        font-weight: 400;        text-align: right;        padding-top: 0p=
+x;        padding-bottom: 0px;        vertical-align: middle;        width:=
+ 181px;      ">
+                    <font color=3D"#ffffff">
+                      <span style=3D"color:#000000">Recipient</span>
+                    </font>
+                  </td>
+                </tr>
+                <tr>
+                  <td colspan=3D"3" style=3D"        padding-top:0;        =
+padding-bottom:0;        padding-left:0;        padding-right:0      ">
+                    <table cellspacing=3D"0" cellpadding=3D"0" style=3D"   =
+     border-spacing: 0px 0px;        padding-top: 0px;        padding-botto=
+m: 0px;        padding-left: 0px;        padding-right: 0px;        border-=
+collapse: collapse;      ">
+                      <tbody>
+                        <tr height=3D"10">
+                          <td width=3D"180" height=3D"10" bgcolor=3D"#c0000=
+0" style=3D"        width: 180px;        line-height: 10px;        height: =
+10px;        font-size: 6px;        padding-top: 0;        padding-bottom: =
+0;        padding-left: 0;        padding-right: 0;      "><!--[if gte mso =
+15]>&nbsp;<![endif]--></td>
+                          <td width=3D"4" height=3D"10" bgcolor=3D"#ffffff"=
+ style=3D"        width: 4px;        line-height: 10px;        height: 10px=
+;        font-size: 6px;        padding-top: 0;        padding-bottom: 0;  =
+      padding-left: 0;        padding-right: 0;      "><!--[if gte mso 15]>=
+&nbsp;<![endif]--></td>
+                          <td width=3D"180" height=3D"10" bgcolor=3D"#ccccc=
+c" style=3D"        width: 180px;        line-height: 10px;        height: =
+10px;        font-size: 6px;        padding-top: 0;        padding-bottom: =
+0;        padding-left: 0;        padding-right: 0;      "><!--[if gte mso =
+15]>&nbsp;<![endif]--></td>
+                          <td width=3D"4" height=3D"10" bgcolor=3D"#ffffff"=
+ style=3D"        width: 4px;        line-height: 10px;        height: 10px=
+;        font-size: 6px;        padding-top: 0;        padding-bottom: 0;  =
+      padding-left: 0;        padding-right: 0;      "><!--[if gte mso 15]>=
+&nbsp;<![endif]--></td>
+                          <td width=3D"180" height=3D"10" bgcolor=3D"#ccccc=
+c" style=3D"        width: 180px;        line-height: 10px;        height: =
+10px;        font-size: 6px;        padding-top: 0;        padding-bottom: =
+0;        padding-left: 0;        padding-right: 0;      "><!--[if gte mso =
+15]>&nbsp;<![endif]--></td>
+                        </tr>
+                      </tbody>
+                    </table>
+                  </td>
+                </tr>
+                <tr>
+                  <td style=3D"        font-family: 'Segoe UI', Frutiger, A=
+rial, sans-serif;        -ms-text-size-adjust: 100%;        font-size: 14px=
+;        text-align: left;        width: 181px;        line-height: 20px;  =
+      font-weight: 400;        padding-top: 0px;        padding-left: 0px; =
+       padding-right: 0px;        padding-bottom: 0px;      ">
+                    <font color=3D"#ffffff">
+                      <span style=3D"        color: #c00000;      ">Unknown=
+ To address</span>
+                    </font>
+                  </td>
+                  <td style=3D"        font-family: 'Segoe UI', Frutiger, A=
+rial, sans-serif;        -ms-text-size-adjust: 100%;        font-size: 14px=
+;        text-align: center;        width: 186px;        line-height: 20px;=
+        font-weight: 400;        padding-top: 0px;        padding-left: 0px=
+;        padding-right: 0px;        padding-bottom: 0px;      " />
+                  <td style=3D"        font-family: 'Segoe UI', Frutiger, A=
+rial, sans-serif;        -ms-text-size-adjust: 100%;        font-size: 14px=
+;        text-align: right;        width: 181px;        line-height: 20px; =
+       font-weight: 400;        padding-top: 0px;        padding-left: 0px;=
+        padding-right: 0px;        padding-bottom: 0px;      " />
+                </tr>
+              </tbody>
+            </table>
+          </td>
+        </tr>
+        <tr>
+          <td style=3D"        width: 100%;        padding-top: 0px;       =
+ padding-right: 10px;        padding-left: 10px;      ">
+            <br />
+            <table style=3D"        width: 100%;        padding-right: 0px;=
+        padding-left: 0px;        padding-top: 0px;        padding-bottom: =
+0px;        background-color: #f2f5fa;        margin-left: 0px;      ">
+              <tbody>
+                <tr>
+                  <td style=3D"        font-family: 'Segoe UI', Frutiger, A=
+rial, sans-serif;        -ms-text-size-adjust: 100%;        font-size: 21px=
+;        font-weight: 500;        background-color: #f2f5fa;        padding=
+-top: 0px;        padding-bottom: 0px;        padding-left: 10px;        pa=
+dding-right: 10px;      ">How to Fix It</td>
+                </tr>
+                <tr>
+                  <td style=3D"        font-family: 'Segoe UI', Frutiger, A=
+rial, sans-serif;        -ms-text-size-adjust: 100%;        font-size: 16px=
+;        font-weight: 400;        padding-top: 0px;        padding-bottom: =
+6px;        padding-left: 10px;        padding-right: 10px;        backgrou=
+nd-color: #f2f5fa;      ">The address may be misspelled or may not exist. T=
+ry one or more of the following:</td>
+                </tr>
+                <tr>
+                  <td style=3D"         padding-top: 0px;         padding-b=
+ottom: 0px;         padding-left: 0px;         padding-right: 0px;        b=
+order-spacing: 0px 0px;      ">
+                    <ul style=3D"        font-family: 'Segoe UI', Frutiger,=
+ Arial, sans-serif;        -ms-text-size-adjust: 100%;        font-size: 16=
+px;        font-weight: 400;        margin-left: 40px;        margin-bottom=
+: 5px;        background-color: #f2f5fa;        padding-top: 0px;        pa=
+dding-bottom: 0px;        padding-left: 6px;        padding-right: 6px;    =
+  ">
+                      <li>Send the message again following these steps: In =
+Outlook, open this non-delivery report (NDR) and choose <b>Send Again</b> f=
+rom the Report ribbon. In Outlook on the web, select this NDR, then select =
+the link "<b>To send this message again, click here.</b>" Then delete and r=
+etype the entire recipient address. If prompted with an Auto-Complete List =
+suggestion don't select it. After typing the complete address, click <b>Sen=
+d</b>.</li>
+                      <li>Contact the recipient (by phone, for example) to =
+check that the address exists and is correct.</li>
+                      <li>The recipient may have set up email forwarding to=
+ an incorrect address. Ask them to check that any forwarding they've set up=
+ is working correctly.</li>
+                      <li>Clear the recipient Auto-Complete List in Outlook=
+ or Outlook on the web by following the steps in this article: <a href=3D"h=
+ttps://go.microsoft.com/fwlink/?LinkId=3D532972">Fix email delivery issues =
+for error code 5.1.10 in Office 365</a>, and then send the message again. R=
+etype the entire recipient address before selecting <b>Send</b>.</li>
+                    </ul>
+                  </td>
+                </tr>
+                <tr>
+                  <td style=3D"        font-family: 'Segoe UI', Frutiger, A=
+rial, sans-serif;        -ms-text-size-adjust: 100%;        font-size: 16px=
+;        font-weight: 400;        padding-top: 0px;        padding-bottom: =
+6px;        padding-left: 10px;        padding-right: 10px;        backgrou=
+nd-color: #f2f5fa;      ">If the problem continues, forward this message to=
+ your email admin. If you're an email admin, refer to the <b>More Info for =
+Email Admins</b> section below.</td>
+                </tr>
+              </tbody>
+            </table>
+          </td>
+        </tr>
+        <tr>
+          <td style=3D"        font-family: 'Segoe UI', Frutiger, Arial, sa=
+ns-serif;        -ms-text-size-adjust: 100%;        font-size: 14px;       =
+ font-weight: 400;        padding-top: 10px;        padding-bottom: 0px;   =
+     padding-bottom: 4px;      ">
+            <br />
+            <em>Was this helpful? <a href=3D"https://go.microsoft.com/fwlin=
+k/?LinkId=3D525921">Send feedback to Microsoft</a>.</em>
+          </td>
+        </tr>
+        <tr>
+          <td style=3D"        -ms-text-size-adjust: 100%;        font-size=
+: 0px;        line-height: 0px;        padding-top: 0px;        padding-bot=
+tom: 0px;      ">
+            <hr />
+          </td>
+        </tr>
+        <tr>
+          <td style=3D"        font-family: 'Segoe UI', Frutiger, Arial, sa=
+ns-serif;        -ms-text-size-adjust: 100%;        font-size: 21px;       =
+ font-weight: 500;      ">
+            <br />More Info for Email Admins</td>
+        </tr>
+        <tr>
+          <td style=3D"        font-family: 'Segoe UI', Frutiger, Arial, sa=
+ns-serif;        -ms-text-size-adjust: 100%;        font-size: 14px;      "=
+>
+            <em>Status code: 550 5.1.10</em>
+            <br />
+            <br />This error occurs because the sender sent a message to an=
+ email address hosted by Office 365 but the address is incorrect or doesn't=
+ exist at the destination domain. The error is reported by the recipient do=
+main's email server, but most often it must be fixed by the person who sent=
+ the message. If the steps in the <b>How to Fix It</b> section above don't =
+fix the problem, and you're the email admin for the recipient, try one or m=
+ore of the following:<br /><br /><b>The email address exists and is correct=
+</b> - Confirm that the recipient address exists, is correct, and is accept=
+ing messages.<br /><br /><b>Synchronize your directories</b> - If you have =
+a hybrid environment and are using directory synchronization make sure the =
+recipient's email address is synced correctly in both Office 365 and in you=
+r on-premises directory.<br /><br /><b>Errant forwarding rule</b> - Check f=
+or forwarding rules that aren't behaving as expected. Forwarding can be set=
+ up by an admin via mail flow rules or mailbox forwarding address settings,=
+ or by the recipient via the Inbox Rules feature.<br /><br /><b>Recipient h=
+as a valid license</b> - Make sure the recipient has an Office 365 license =
+assigned to them. The recipient's email admin can use the Office 365 admin =
+center to assign a license (Users &gt; Active Users &gt; select the recipie=
+nt &gt; Assigned License &gt; Edit).<br /><br /><b>Mail flow settings and M=
+X records are not correct</b> - Misconfigured mail flow or MX record settin=
+gs can cause this error. Check your Office 365 mail flow settings to make s=
+ure your domain and any mail flow connectors are set up correctly. Also, wo=
+rk with your domain registrar to make sure the MX records for your domain a=
+re configured correctly.<br /><br />For more information and additional tip=
+s to fix this issue, see <a href=3D"https://go.microsoft.com/fwlink/?LinkId=
+=3D532972">Fix email delivery issues for error code 5.1.10 in Office 365</a=
+>.<br /><br /></td>
+        </tr>
+        <tr>
+          <td style=3D"        font-family: 'Segoe UI', Frutiger, Arial, sa=
+ns-serif;        -ms-text-size-adjust: 100%;        font-size: 17px;       =
+ font-weight: 500;      ">Original Message Details</td>
+        </tr>
+        <tr>
+          <td style=3D"        font-size: 14px;        line-height: 20px;  =
+      font-family: 'Segoe UI', Frutiger, Arial, sans-serif;        -ms-text=
+-size-adjust: 100%;        font-weight: 500;      ">
+            <table style=3D"        width: 100%;        border-collapse: co=
+llapse;        margin-left: 10px;      ">
+              <tbody>
+                <tr>
+                  <td valign=3D"top" style=3D"        font-family: 'Segoe U=
+I', Frutiger, Arial, sans-serif;        font-size: 14px;        -ms-text-si=
+ze-adjust: 100%;        white-space: nowrap;        font-weight: 500;      =
+  width: 140px;      ">Created Date:</td>
+                  <td style=3D"        font-family: 'Segoe UI', Frutiger, A=
+rial, sans-serif;        -ms-text-size-adjust: 100%;        font-size: 14px=
+;        font-weight: 400;      ">11/16/2020 4:16:48 PM</td>
+                </tr>
+                <tr>
+                  <td valign=3D"top" style=3D"        font-family: 'Segoe U=
+I', Frutiger, Arial, sans-serif;        font-size: 14px;        -ms-text-si=
+ze-adjust: 100%;        white-space: nowrap;        font-weight: 500;      =
+  width: 140px;      ">Sender Address:</td>
+                  <td style=3D"        font-family: 'Segoe UI', Frutiger, A=
+rial, sans-serif;        -ms-text-size-adjust: 100%;        font-size: 14px=
+;        font-weight: 400;      ">bounce-496565-426-94855-ian.hector=3Dhane=
+tf.com@s1.asa1.acemsb3.com</td>
+                </tr>
+                <tr>
+                  <td style=3D"        font-family: 'Segoe UI', Frutiger, A=
+rial, sans-serif;        font-size: 14px;        -ms-text-size-adjust: 100%=
+;        white-space: nowrap;        font-weight: 500;        width: 140px;=
+      ">Recipient Address:</td>
+                  <td style=3D"        font-family: 'Segoe UI', Frutiger, A=
+rial, sans-serif;        -ms-text-size-adjust: 100%;        font-size: 14px=
+;        font-weight: 400;      ">ian.hector@hanetf.com</td>
+                </tr>
+                <tr>
+                  <td style=3D"        font-family: 'Segoe UI', Frutiger, A=
+rial, sans-serif;        font-size: 14px;        -ms-text-size-adjust: 100%=
+;        white-space: nowrap;        font-weight: 500;        width: 140px;=
+      ">Subject:</td>
+                  <td style=3D"        font-family: 'Segoe UI', Frutiger, A=
+rial, sans-serif;        -ms-text-size-adjust: 100%;        font-size: 14px=
+;        font-weight: 400;      ">Partnership for impact indices: your expe=
+rtise, our impact data</td>
+                </tr>
+              </tbody>
+            </table>
+          </td>
+        </tr>
+        <tr>
+          <td style=3D"        font-family: 'Segoe UI', Frutiger, Arial, sa=
+ns-serif;        -ms-text-size-adjust: 100%;        font-size: 17px;       =
+ font-weight: 500;      ">
+            <br />Error Details</td>
+        </tr>
+        <tr>
+          <td style=3D"        font-size: 14px;        line-height: 20px;  =
+      font-family: 'Segoe UI', Frutiger, Arial, sans-serif;        -ms-text=
+-size-adjust: 100%;        font-weight: 500;      ">
+            <table style=3D"        width: 100%;        border-collapse: co=
+llapse;        margin-left: 10px;      ">
+              <tbody>
+                <tr>
+                  <td valign=3D"top" style=3D"        font-family: 'Segoe U=
+I', Frutiger, Arial, sans-serif;        font-size: 14px;        -ms-text-si=
+ze-adjust: 100%;        white-space: nowrap;        font-weight: 500;      =
+  width: 140px;      ">Reported error:</td>
+                  <td style=3D"        font-family: 'Segoe UI', Frutiger, A=
+rial, sans-serif;        -ms-text-size-adjust: 100%;        font-size: 14px=
+;        font-weight: 400;      ">
+                    <em>550 5.1.10 RESOLVER.ADR.RecipientNotFound; Recipien=
+t ian.hector@hanetf.com not found by SMTP address lookup</em>
+                  </td>
+                </tr>
+                <tr>
+                  <td style=3D"        font-family: 'Segoe UI', Frutiger, A=
+rial, sans-serif;        font-size: 14px;        -ms-text-size-adjust: 100%=
+;        white-space: nowrap;        font-weight: 500;        width: 140px;=
+      ">DSN generated by:</td>
+                  <td style=3D"        font-family: 'Segoe UI', Frutiger, A=
+rial, sans-serif;        -ms-text-size-adjust: 100%;        font-size: 14px=
+;        font-weight: 400;      ">LNXP123MB2217.GBRP123.PROD.OUTLOOK.COM</t=
+d>
+                </tr>
+              </tbody>
+            </table>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+    <br />
+    <table style=3D"width: 880px;" cellspacing=3D"0">
+      <tr>
+        <td colspan=3D"6" style=3D"        padding-top: 4px;        border-=
+bottom: 1px solid #999999;        padding-bottom: 4px;        line-height: =
+120%;        font-size: 17px;        font-family: 'Segoe UI', Frutiger, Ari=
+al, sans-serif;        -ms-text-size-adjust: 100%;        font-weight: 500;=
+      ">Message Hops</td>
+      </tr>
+      <tr>
+        <td style=3D"        font-size: 12px;        font-family: 'Segoe UI=
+', Frutiger, Arial, sans-serif;        -ms-text-size-adjust: 100%;        f=
+ont-weight: 500;        background-color: #f2f5fa;        border-bottom: 1p=
+x solid #999999;        white-space: nowrap;        padding: 8px;      ">HO=
+P</td>
+        <td style=3D"        font-size: 12px;        font-family: 'Segoe UI=
+', Frutiger, Arial, sans-serif;        -ms-text-size-adjust: 100%;        f=
+ont-weight: 500;        background-color: #f2f5fa;        border-bottom: 1p=
+x solid #999999;        white-space: nowrap;        padding: 8px;        wi=
+dth: 80px;      ">TIME (UTC)</td>
+        <td style=3D"        font-size: 12px;        font-family: 'Segoe UI=
+', Frutiger, Arial, sans-serif;        -ms-text-size-adjust: 100%;        f=
+ont-weight: 500;        background-color: #f2f5fa;        border-bottom: 1p=
+x solid #999999;        white-space: nowrap;        padding: 8px;      ">FR=
+OM</td>
+        <td style=3D"        font-size: 12px;        font-family: 'Segoe UI=
+', Frutiger, Arial, sans-serif;        -ms-text-size-adjust: 100%;        f=
+ont-weight: 500;        background-color: #f2f5fa;        border-bottom: 1p=
+x solid #999999;        white-space: nowrap;        padding: 8px;      ">TO=
+</td>
+        <td style=3D"        font-size: 12px;        font-family: 'Segoe UI=
+', Frutiger, Arial, sans-serif;        -ms-text-size-adjust: 100%;        f=
+ont-weight: 500;        background-color: #f2f5fa;        border-bottom: 1p=
+x solid #999999;        white-space: nowrap;        padding: 8px;      ">WI=
+TH</td>
+        <td style=3D"        font-size: 12px;        font-family: 'Segoe UI=
+', Frutiger, Arial, sans-serif;        -ms-text-size-adjust: 100%;        f=
+ont-weight: 500;        background-color: #f2f5fa;        border-bottom: 1p=
+x solid #999999;        white-space: nowrap;        padding: 8px;      ">RE=
+LAY TIME</td>
+      </tr>
+      <tr>
+        <td style=3D"        font-size: 12px;        font-family: 'Segoe UI=
+', Frutiger, Arial, sans-serif;        -ms-text-size-adjust: 100%;        f=
+ont-weight: 500;        border-bottom: 1px solid #999999;        padding: 8=
+px;        text-align: center;      ">1</td>
+        <td style=3D"        font-size: 12px;        font-family: 'Segoe UI=
+', Frutiger, Arial, sans-serif;        -ms-text-size-adjust: 100%;        f=
+ont-weight: 500;        border-bottom: 1px solid #999999;        padding: 8=
+px;        text-align: left;        width: 80px;      ">11/16/2020<br />4:1=
+7:17 PM</td>
+        <td style=3D"        font-size: 12px;        font-family: 'Segoe UI=
+', Frutiger, Arial, sans-serif;        -ms-text-size-adjust: 100%;        f=
+ont-weight: 500;        border-bottom: 1px solid #999999;        padding: 8=
+px;        text-align: left;      "></td>
+        <td style=3D"        font-size: 12px;        font-family: 'Segoe UI=
+', Frutiger, Arial, sans-serif;        -ms-text-size-adjust: 100%;        f=
+ont-weight: 500;        border-bottom: 1px solid #999999;        padding: 8=
+px;        text-align: left;      ">s1.asa1.acemsb3.com</td>
+        <td style=3D"        font-size: 12px;        font-family: 'Segoe UI=
+', Frutiger, Arial, sans-serif;        -ms-text-size-adjust: 100%;        f=
+ont-weight: 500;        border-bottom: 1px solid #999999;        padding: 8=
+px;        text-align: left;      "></td>
+        <td style=3D"        font-size: 12px;        font-family: 'Segoe UI=
+', Frutiger, Arial, sans-serif;        -ms-text-size-adjust: 100%;        f=
+ont-weight: 500;        border-bottom: 1px solid #999999;        padding: 8=
+px;        text-align: left;      ">29&nbsp;sec</td>
+      </tr>
+      <tr>
+        <td style=3D"        font-size: 12px;        font-family: 'Segoe UI=
+', Frutiger, Arial, sans-serif;        -ms-text-size-adjust: 100%;        f=
+ont-weight: 500;        border-bottom: 1px solid #999999;        padding: 8=
+px;        text-align: center;      ">2</td>
+        <td style=3D"        font-size: 12px;        font-family: 'Segoe UI=
+', Frutiger, Arial, sans-serif;        -ms-text-size-adjust: 100%;        f=
+ont-weight: 500;        border-bottom: 1px solid #999999;        padding: 8=
+px;        text-align: left;        width: 80px;      ">11/16/2020<br />4:1=
+7:20 PM</td>
+        <td style=3D"        font-size: 12px;        font-family: 'Segoe UI=
+', Frutiger, Arial, sans-serif;        -ms-text-size-adjust: 100%;        f=
+ont-weight: 500;        border-bottom: 1px solid #999999;        padding: 8=
+px;        text-align: left;      ">s1.asa1.acemsb3.com</td>
+        <td style=3D"        font-size: 12px;        font-family: 'Segoe UI=
+', Frutiger, Arial, sans-serif;        -ms-text-size-adjust: 100%;        f=
+ont-weight: 500;        border-bottom: 1px solid #999999;        padding: 8=
+px;        text-align: left;      ">VE1EUR02FT020.mail.protection.outlook.c=
+om</td>
+        <td style=3D"        font-size: 12px;        font-family: 'Segoe UI=
+', Frutiger, Arial, sans-serif;        -ms-text-size-adjust: 100%;        f=
+ont-weight: 500;        border-bottom: 1px solid #999999;        padding: 8=
+px;        text-align: left;      ">Microsoft SMTP Server (version=3DTLS1_2=
+, cipher=3DTLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384)</td>
+        <td style=3D"        font-size: 12px;        font-family: 'Segoe UI=
+', Frutiger, Arial, sans-serif;        -ms-text-size-adjust: 100%;        f=
+ont-weight: 500;        border-bottom: 1px solid #999999;        padding: 8=
+px;        text-align: left;      ">3&nbsp;sec</td>
+      </tr>
+      <tr>
+        <td style=3D"        font-size: 12px;        font-family: 'Segoe UI=
+', Frutiger, Arial, sans-serif;        -ms-text-size-adjust: 100%;        f=
+ont-weight: 500;        border-bottom: 1px solid #999999;        padding: 8=
+px;        text-align: center;      ">3</td>
+        <td style=3D"        font-size: 12px;        font-family: 'Segoe UI=
+', Frutiger, Arial, sans-serif;        -ms-text-size-adjust: 100%;        f=
+ont-weight: 500;        border-bottom: 1px solid #999999;        padding: 8=
+px;        text-align: left;        width: 80px;      ">11/16/2020<br />4:1=
+7:23 PM</td>
+        <td style=3D"        font-size: 12px;        font-family: 'Segoe UI=
+', Frutiger, Arial, sans-serif;        -ms-text-size-adjust: 100%;        f=
+ont-weight: 500;        border-bottom: 1px solid #999999;        padding: 8=
+px;        text-align: left;      ">VE1EUR02FT020.eop-EUR02.prod.protection=
+.outlook.com</td>
+        <td style=3D"        font-size: 12px;        font-family: 'Segoe UI=
+', Frutiger, Arial, sans-serif;        -ms-text-size-adjust: 100%;        f=
+ont-weight: 500;        border-bottom: 1px solid #999999;        padding: 8=
+px;        text-align: left;      ">AM6PR04CA0014.outlook.office365.com</td=
+>
+        <td style=3D"        font-size: 12px;        font-family: 'Segoe UI=
+', Frutiger, Arial, sans-serif;        -ms-text-size-adjust: 100%;        f=
+ont-weight: 500;        border-bottom: 1px solid #999999;        padding: 8=
+px;        text-align: left;      ">Microsoft SMTP Server (version=3DTLS1_2=
+, cipher=3DTLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384)</td>
+        <td style=3D"        font-size: 12px;        font-family: 'Segoe UI=
+', Frutiger, Arial, sans-serif;        -ms-text-size-adjust: 100%;        f=
+ont-weight: 500;        border-bottom: 1px solid #999999;        padding: 8=
+px;        text-align: left;      ">3&nbsp;sec</td>
+      </tr>
+      <tr>
+        <td style=3D"        font-size: 12px;        font-family: 'Segoe UI=
+', Frutiger, Arial, sans-serif;        -ms-text-size-adjust: 100%;        f=
+ont-weight: 500;        border-bottom: 1px solid #999999;        padding: 8=
+px;        text-align: center;      ">4</td>
+        <td style=3D"        font-size: 12px;        font-family: 'Segoe UI=
+', Frutiger, Arial, sans-serif;        -ms-text-size-adjust: 100%;        f=
+ont-weight: 500;        border-bottom: 1px solid #999999;        padding: 8=
+px;        text-align: left;        width: 80px;      ">11/16/2020<br />4:1=
+7:23 PM</td>
+        <td style=3D"        font-size: 12px;        font-family: 'Segoe UI=
+', Frutiger, Arial, sans-serif;        -ms-text-size-adjust: 100%;        f=
+ont-weight: 500;        border-bottom: 1px solid #999999;        padding: 8=
+px;        text-align: left;      ">AM6PR04CA0014.eurprd04.prod.outlook.com=
+</td>
+        <td style=3D"        font-size: 12px;        font-family: 'Segoe UI=
+', Frutiger, Arial, sans-serif;        -ms-text-size-adjust: 100%;        f=
+ont-weight: 500;        border-bottom: 1px solid #999999;        padding: 8=
+px;        text-align: left;      ">LNXP123MB2217.GBRP123.PROD.OUTLOOK.COM<=
+/td>
+        <td style=3D"        font-size: 12px;        font-family: 'Segoe UI=
+', Frutiger, Arial, sans-serif;        -ms-text-size-adjust: 100%;        f=
+ont-weight: 500;        border-bottom: 1px solid #999999;        padding: 8=
+px;        text-align: left;      ">Microsoft SMTP Server (version=3DTLS1_2=
+, cipher=3DTLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384)</td>
+        <td style=3D"        font-size: 12px;        font-family: 'Segoe UI=
+', Frutiger, Arial, sans-serif;        -ms-text-size-adjust: 100%;        f=
+ont-weight: 500;        border-bottom: 1px solid #999999;        padding: 8=
+px;        text-align: left;      ">*</td>
+      </tr>
+    </table>
+    <p style=3D"        font-family: 'Segoe UI', Frutiger, Arial, sans-seri=
+f;        -ms-text-size-adjust: 100%;        font-size: 17px;        font-w=
+eight: 500;        padding-top: 4px;        padding-bottom: 0;        margi=
+n-top: 19px;        margin-bottom: 5px;      ">Original Message Headers</p>
+    <pre style=3D"        color: gray;        white-space: pre;        padd=
+ing-top: 0;        margin-top: 5px;      ">Received: from AM6PR04CA0014.eur=
+prd04.prod.outlook.com (2603:10a6:20b:92::27)
+ by LNXP123MB2217.GBRP123.PROD.OUTLOOK.COM (2603:10a6:600:d4::15) with
+ Microsoft SMTP Server (version=3DTLS1_2,
+ cipher=3DTLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384) id 15.20.3564.25; Mon, 16 =
+Nov
+ 2020 16:17:23 +0000
+Received: from VE1EUR02FT020.eop-EUR02.prod.protection.outlook.com
+ (2603:10a6:20b:92:cafe::6f) by AM6PR04CA0014.outlook.office365.com
+ (2603:10a6:20b:92::27) with Microsoft SMTP Server (version=3DTLS1_2,
+ cipher=3DTLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384) id 15.20.3564.28 via Front=
+end
+ Transport; Mon, 16 Nov 2020 16:17:23 +0000
+Authentication-Results: spf=3Dpass (sender IP is 192.92.97.54)
+ smtp.mailfrom=3Ds1.asa1.acemsb3.com; hanetf.com; dkim=3Dpass (signature wa=
+s
+ verified) header.d=3Ds1.asa1.acemsb3.com;hanetf.com; dmarc=3Dnone action=
+=3Dnone
+ header.from=3Dimpakfinance.com;
+Received-SPF: Pass (protection.outlook.com: domain of s1.asa1.acemsb3.com
+ designates 192.92.97.54 as permitted sender) receiver=3Dprotection.outlook=
+.com;
+ client-ip=3D192.92.97.54; helo=3Ds1.asa1.acemsb3.com;
+Received: from s1.asa1.acemsb3.com (192.92.97.54) by
+ VE1EUR02FT020.mail.protection.outlook.com (10.152.12.102) with Microsoft S=
+MTP
+ Server (version=3DTLS1_2, cipher=3DTLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384) =
+id
+ 15.20.3564.22 via Frontend Transport; Mon, 16 Nov 2020 16:17:20 +0000
+DKIM-Signature: v=3D1; a=3Drsa-sha256; c=3Drelaxed/relaxed; s=3Ddk; d=3Ds1.=
+asa1.acemsb3.com;
+ h=3DTo:From:Subject:Date:MIME-Version:Content-Type:Content-Transfer-Encodi=
+ng:
+ Sender:List-Unsubscribe:Message-ID;
+ i=3Dimpakfinance.activehosted.com@s1.asa1.acemsb3.com;
+ bh=3DBbOCsWeUF0TtY0OC7FcMR/PhzszS0V8coU3IfGZ9Lgc=3D;
+ b=3DJK+9GYD04FwTkyJb7zAG2v8v/G5k3VZBs1QszFQbKfagj4+1vLSrysbjoX0FIXoOWfFDwe=
+Rng8B9
+   bSyejh0Ha/EQyYhwWOVznwczzHN0QtXMQf3ugZu5SzV1Qj6ERvCpWQIZOvpO5n8fh6cMBrIB=
+t3UR
+   WohKOJnihNvS+l2axA0=3D
+Received: by s1.asa1.acemsb3.com id hmaj0q2p4doe for &lt;ian.hector@hanetf.=
+com&gt;; Mon, 16 Nov 2020 16:17:17 +0000 (envelope-from &lt;bounce-496565-4=
+26-94855-ian.hector=3Dhanetf.com@s1.asa1.acemsb3.com&gt;)
+To: "Ian McNeil" &lt;ian.hector@hanetf.com&gt;
+From: =3D?utf-8?Q?Fran=3DC3=3DA7ois_Lebel_|_impak?=3D
+ &lt;francois.lebel@impakfinance.com&gt;
+Subject: Partnership for impact indices: your expertise, our impact data
+Date: Mon, 16 Nov 2020 10:16:48 -0600
+MIME-Version: 1.0
+Content-Type: multipart/alternative;
+ boundary=3D"_=3D_swift-1651003985fb2a5f109ed29.72633901_=3D_"
+Content-Transfer-Encoding: 7bit
+Sender: &lt;impakfinance.activehosted.com@s1.asa1.acemsb3.com&gt;
+X-Sender: &lt;impakfinance.activehosted.com@s1.asa1.acemsb3.com&gt;
+X-Report-Abuse: Please report abuse to abuse@activecampaign.com
+X-mid: aWFuLmhlY3RvckBoYW5ldGYuY29tICwgYzQyNiAsIG0yMDk4NSAsIHMzNDM2
+Feedback-ID: 496565:activecampaign
+X-250ok-CID: 496565-426
+List-Unsubscribe: &lt;mailto:unsubscribe-bef087b31d4f903c2ee051ff293965e8-4=
+26-d3be7a4943591f363220945540b07b1e@s1.asa1.acemsb3.com&gt;,
+ &lt;https://impakfinance.acemlnc.com/box.php?nl=3D43&amp;c=3D426&amp;m=3D2=
+0985&amp;s=3Dd3be7a4943591f363220945540b07b1e&amp;funcml=3Dunsub2&amp;luha=
+=3D1&gt;
+Message-ID: &lt;20201116161717.29365.483748030.swift@impakfinance.activehos=
+ted.com&gt;
+Return-Path: bounce-496565-426-94855-ian.hector=3Dhanetf.com@s1.asa1.acemsb=
+3.com
+X-EOPAttributedMessage: 0
+X-EOPTenantAttributedMessage: 87d200da-44e4-4d6b-8faa-beb9f609f811:0
+X-MS-PublicTrafficType: Email
+X-MS-Office365-Filtering-Correlation-Id: 248c1493-1895-41a5-de42-08d88a4b18=
+92
+X-MS-TrafficTypeDiagnostic: LNXP123MB2217:
+</pre>
+  </body>
+</html>=
+
+--_6a6d4533-a84a-4880-ad69-3b3bdb83e2dd_--
+
+--_c4d8514d-c31f-4f87-807f-fe84c4baac57_
+Content-Type: message/delivery-status
+
+Reporting-MTA: dns;LNXP123MB2217.GBRP123.PROD.OUTLOOK.COM
+Received-From-MTA: dns;s1.asa1.acemsb3.com
+Arrival-Date: Mon, 16 Nov 2020 16:17:23 +0000
+
+Final-Recipient: rfc822;ian.hector@hanetf.com
+Action: failed
+Status: 5.1.10
+Diagnostic-Code: smtp;550 5.1.10 RESOLVER.ADR.RecipientNotFound; Recipient ian.hector@hanetf.com not found by SMTP address lookup
+X-Display-Name: Ian McNeil
+
+
+--_c4d8514d-c31f-4f87-807f-fe84c4baac57_
+Content-Type: message/rfc822
+
+Received: from AM6PR04CA0014.eurprd04.prod.outlook.com (2603:10a6:20b:92::27)
+ by LNXP123MB2217.GBRP123.PROD.OUTLOOK.COM (2603:10a6:600:d4::15) with
+ Microsoft SMTP Server (version=TLS1_2,
+ cipher=TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384) id 15.20.3564.25; Mon, 16 Nov
+ 2020 16:17:23 +0000
+Received: from VE1EUR02FT020.eop-EUR02.prod.protection.outlook.com
+ (2603:10a6:20b:92:cafe::6f) by AM6PR04CA0014.outlook.office365.com
+ (2603:10a6:20b:92::27) with Microsoft SMTP Server (version=TLS1_2,
+ cipher=TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384) id 15.20.3564.28 via Frontend
+ Transport; Mon, 16 Nov 2020 16:17:23 +0000
+Authentication-Results: spf=pass (sender IP is 192.92.97.54)
+ smtp.mailfrom=s1.asa1.acemsb3.com; hanetf.com; dkim=pass (signature was
+ verified) header.d=s1.asa1.acemsb3.com;hanetf.com; dmarc=none action=none
+ header.from=impakfinance.com;
+Received-SPF: Pass (protection.outlook.com: domain of s1.asa1.acemsb3.com
+ designates 192.92.97.54 as permitted sender) receiver=protection.outlook.com;
+ client-ip=192.92.97.54; helo=s1.asa1.acemsb3.com;
+Received: from s1.asa1.acemsb3.com (192.92.97.54) by
+ VE1EUR02FT020.mail.protection.outlook.com (10.152.12.102) with Microsoft SMTP
+ Server (version=TLS1_2, cipher=TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384) id
+ 15.20.3564.22 via Frontend Transport; Mon, 16 Nov 2020 16:17:20 +0000
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; s=dk; d=s1.asa1.acemsb3.com;
+ h=To:From:Subject:Date:MIME-Version:Content-Type:Content-Transfer-Encoding:
+ Sender:List-Unsubscribe:Message-ID;
+ i=impakfinance.activehosted.com@s1.asa1.acemsb3.com;
+ bh=BbOCsWeUF0TtY0OC7FcMR/PhzszS0V8coU3IfGZ9Lgc=;
+ b=JK+9GYD04FwTkyJb7zAG2v8v/G5k3VZBs1QszFQbKfagj4+1vLSrysbjoX0FIXoOWfFDweRng8B9
+   bSyejh0Ha/EQyYhwWOVznwczzHN0QtXMQf3ugZu5SzV1Qj6ERvCpWQIZOvpO5n8fh6cMBrIBt3UR
+   WohKOJnihNvS+l2axA0=
+Received: by s1.asa1.acemsb3.com id hmaj0q2p4doe for <ian.hector@hanetf.com>; Mon, 16 Nov 2020 16:17:17 +0000 (envelope-from <bounce-496565-426-94855-ian.hector=hanetf.com@s1.asa1.acemsb3.com>)
+To: "Ian McNeil" <ian.hector@hanetf.com>
+From: =?utf-8?Q?Fran=C3=A7ois_Lebel_|_impak?=
+ <francois.lebel@impakfinance.com>
+Subject: Partnership for impact indices: your expertise, our impact data
+Date: Mon, 16 Nov 2020 10:16:48 -0600
+MIME-Version: 1.0
+Content-Type: multipart/alternative;
+	boundary="_73716061-32d7-4f29-ba00-6cce005c7cf0_"
+Content-Transfer-Encoding: 7bit
+Sender: <impakfinance.activehosted.com@s1.asa1.acemsb3.com>
+X-Sender: <impakfinance.activehosted.com@s1.asa1.acemsb3.com>
+X-Report-Abuse: Please report abuse to abuse@activecampaign.com
+X-mid: aWFuLmhlY3RvckBoYW5ldGYuY29tICwgYzQyNiAsIG0yMDk4NSAsIHMzNDM2
+Feedback-ID: 496565:activecampaign
+X-250ok-CID: 496565-426
+List-Unsubscribe: <mailto:unsubscribe-bef087b31d4f903c2ee051ff293965e8-426-d3be7a4943591f363220945540b07b1e@s1.asa1.acemsb3.com>,
+ <https://impakfinance.acemlnc.com/box.php?nl=43&c=426&m=20985&s=d3be7a4943591f363220945540b07b1e&funcml=unsub2&luha=1>
+Message-ID: <20201116161717.29365.483748030.swift@impakfinance.activehosted.com>
+Return-Path: bounce-496565-426-94855-ian.hector=hanetf.com@s1.asa1.acemsb3.com
+X-EOPAttributedMessage: 0
+X-EOPTenantAttributedMessage: 87d200da-44e4-4d6b-8faa-beb9f609f811:0
+X-MS-PublicTrafficType: Email
+X-MS-Office365-Filtering-Correlation-Id: 248c1493-1895-41a5-de42-08d88a4b1892
+X-MS-TrafficTypeDiagnostic: LNXP123MB2217:
+
+--_73716061-32d7-4f29-ba00-6cce005c7cf0_
+Content-Type: text/plain; charset=utf-8
+
+ 
+
+https://impakfinance.acemlnc.com/lt.php?s=d3be7a4943591f363220945540b07b1e&i=426A20985A43A19392
+
+ 
+
+Hi Ian,
+
+We are looking for a partner to create a new brand of ESG indices :
+impact indices. We would like to talk to you about it.
+
+impak is an independent impact rating agency that focuses, in its
+analyses, on the positive impacts that companies generate in addition to
+how they mitigate their negative impacts, which goes further than ESG.
+This allows for the creation of indices and ETFs that are unique and
+differentiated from what is currently in the market and avoid the
+pitfalls of greenwashing.
+
+Would you be available for a call soon? Here is my calendar :
+https://impakfinance.acemlnc.com/lt.php?s=d3be7a4943591f363220945540b07b1e&i=426A20985A43A19386
+
+See our IMPAK French 40 index : https://impakfinance.acemlnc.com/lt.php?s=d3be7a4943591f363220945540b07b1e&i=426A20985A43A19387
+
+Best Regards,
+F.
+
+François Le Bel, ing., M.Sc.A.
+Chief Business Development Officer
+
+The independent impact rating agency™
+
++1 514 975 0138
+francois.lebel@impakfinance.com
+
+  Our most recent publication:
+ESG is not the answer to social inequalities
+
+L'ESG n'est pas la réponse aux inégalités sociales
+
+_________________
+
+Sent to ian.hector@hanetf.com
+
+Unsubscribe:
+https://impakfinance.acemlnc.com/proc.php?nl=43&c=426&m=20985&s=d3be7a4943591f363220945540b07b1e&act=unsub
+
+impak Finance, 5605 Avenue de Gaspé, #201, Montréal, Québec, Canada
+--_73716061-32d7-4f29-ba00-6cce005c7cf0_
+Content-Type: text/html; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE html><html>=0A<head><!--[if !mso]><meta http-equiv=3D"X-UA-Compat=
+ible" content=3D"IE=3Dedge"><!--<![endif]--><meta http-equiv=3D"Content-Typ=
+e" content=3D"text/html; charset=3Dutf-8"><meta http-equiv=3D"Content-Langu=
+age" content=3D"en-us"><meta name=3D"format-detection" content=3D"telephone=
+=3Dno"><meta name=3D"format-detection" content=3D"date=3Dno"><meta name=3D"=
+format-detection" content=3D"address=3Dno"><meta name=3D"format-detection" =
+content=3D"email=3Dno"><style data-ac-keep=3D"true"> .ExternalClass { width=
+: 100%; background: inherit; background-color: inherit; } .ExternalClass p,=
+ .ExternalClass ul, .ExternalClass ol { Margin: 0; } .undoreset div p, .und=
+oreset p { margin-bottom: 20px; } div[class^=3D"aolmail_divbody"] { overflo=
+w: auto; } [owa] #ac-footer { padding: 20px 0px !important; background: inh=
+erit; background-color: inherit; } </style><style data-ac-keep=3D"true">=0A=
+@media only screen and (max-width: 600px) { /*-----------------------------=
+--------------------------------------------*\ Abandoned Cart widget \*----=
+--------------------------------------------------------------------*/ .td_=
+abandoned-cart img {display: block;padding-right: 0 !important;padding-bott=
+om: 0 !important;width: 100% !important;max-width: 100% !important;height: =
+auto !important;} body { padding: 0!important; font-size:1em!important; } *=
+ { -webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing:=
+ border-box; } *[class].divbody {-webkit-text-size-adjust:none !important; =
+width:auto !important;} *[class].td_picture img {width:auto !important;} *[=
+class].td_text { line-height: 110%; } *[class].td_button { width: auto; } /=
+* Collapse all block elements */ :not(.body) table { display: block!importa=
+nt; float:none!important; border-collapse:collapse !important; width:100% !=
+important; min-width:100% !important; clear:both!important; } :not(.body) t=
+head,=0A:not(.body) tbody, :not(.body) tr { display:block!important; float:=
+none!important; width:100% !important; } :not(.body) th, :not(.body) td, :n=
+ot(.body) p { display:block!important; float:none!important; width:100% !im=
+portant; clear:both!important; } /* Remove browser default styling for elem=
+ents */ ul, ol { margin-left: 20px; margin-bottom: 10px; margin-top: 10px; =
+-webkit-margin-before: 0; -webkit-margin-after: 0; -webkit-padding-start: 0=
+; } /* Set default height for spacer once collapse */ *[class].spacer { hei=
+ght: auto!important; } a[href^=3Ddate]{ color:inherit !important; text-deco=
+ration:none !important;} a[href^=3Dtelephone]{ color:inherit !important; te=
+xt-decoration:none !important;} a[href^=3Daddress]{ color:inherit !importan=
+t; text-decoration:none !important;} a[href^=3Demail]{ color:inherit !impor=
+tant; text-decoration:none !important;} /* Default table cell height */ td[=
+height=3D"12"]{height:12px!important;font-size:12px!important;line-height:1=
+2px!important;}=0Atd[height=3D"14"]{height:14px!important;font-size:14px!im=
+portant;line-height:14px!important;} /*------------------------------------=
+-------------------------------------*\ Product Widget \*------------------=
+-------------------------------------------------------*/ .td_product > div=
+ { float: none !important; width: 100% !important; margin-bottom: 20px !imp=
+ortant; } .td_product > div img { width: 75% !important; } /* Default socia=
+l icons */ *[class].ac-social-icon-16 {width:16px !important; height:16px !=
+important;} *[class].ac-social-icon-24 {width:24px !important; height:24px =
+!important;} *[class].ac-social-icon-28 {width:28px !important; height:28px=
+ !important;} *[class].__ac_social_icons { margin-right: 0px !important; } =
+}=0A</style><style data-ac-keep=3D"true"> @media only screen and (max-width=
+: 320px) { #layout-row5225 img { width: 100% !important; height: auto !impo=
+rtant; max-width: 320px !important; } #layout-row5227 { max-height: 0px!imp=
+ortant; font-size: 0px!important; display: none!important; visibility: hidd=
+en!important; } div.divbody { padding: 20px !important; } .td_rss .rss-item=
+ img.iphone_large_image { width: auto !important; } u + .body { display: ta=
+ble !important; width: 100vw !important; min-width: 100vw !important; } u +=
+ .body table { display: table !important; width: 100% !important; min-width=
+: 100% !important; } u + .body td { display: block !important; width: 100% =
+!important; min-width: 100% !important; } u + .body img { display: inline-b=
+lock !important; margin: auto !important; width: auto !important; vertical-=
+align: bottom !important; } u + .body center { display: block !important; m=
+argin: auto !important; width: 100% !important; min-width: 100% !important;=
+=0Atext-align: center !important; } u + .body table._ac_social_table, u + .=
+body table._ac_social_table td, u + .body table._ac_social_table div, u + .=
+body table._ac_social_table a { display: inline-block !important; margin: a=
+uto !important; width: auto !important; min-width: auto !important; text-al=
+ign: center !important; } u + .body table._ac_social_table img { display: i=
+nline-block !important; margin: auto !important; width: 32px !important; mi=
+n-width: 32px !important; max-width: 32px !important; }=0A}=0A@media only s=
+creen and (max-width: 375px) { #layout-row5225 img { width: 100% !important=
+; height: auto !important; max-width: 375px !important; } #layout-row5227 {=
+ max-height: 0px!important; font-size: 0px!important; display: none!importa=
+nt; visibility: hidden!important; } div.divbody { padding: 20px !important;=
+ } .td_rss .rss-item img.iphone_large_image { width: auto !important; } u +=
+ .body { display: table !important; width: 100vw !important; min-width: 100=
+vw !important; } u + .body table { display: table !important; width: 100% !=
+important; min-width: 100% !important; } u + .body td { display: block !imp=
+ortant; width: 100% !important; min-width: 100% !important; } u + .body img=
+ { display: inline-block !important; margin: auto !important; width: auto !=
+important; vertical-align: bottom !important; } u + .body center { display:=
+ block !important; margin: auto !important; width: 100% !important; min-wid=
+th: 100% !important; text-align: center !important; } u + .body=0Atable._ac=
+_social_table, u + .body table._ac_social_table td, u + .body table._ac_soc=
+ial_table div, u + .body table._ac_social_table a { display: inline-block !=
+important; margin: auto !important; width: auto !important; min-width: auto=
+ !important; text-align: center !important; } u + .body table._ac_social_ta=
+ble img { display: inline-block !important; margin: auto !important; width:=
+ 32px !important; min-width: 32px !important; max-width: 32px !important; }=
+=0A}=0A@media only screen and (max-width: 414px) { #layout-row5225 img { wi=
+dth: 100% !important; height: auto !important; max-width: 414px !important;=
+ } #layout-row5227 { max-height: 0px!important; font-size: 0px!important; d=
+isplay: none!important; visibility: hidden!important; } div.divbody { paddi=
+ng: 20px !important; } .td_rss .rss-item img.iphone_large_image { width: au=
+to !important; } u + .body { display: table !important; width: 100vw !impor=
+tant; min-width: 100vw !important; } u + .body table { display: table !impo=
+rtant; width: 100% !important; min-width: 100% !important; } u + .body td {=
+ display: block !important; width: 100% !important; min-width: 100% !import=
+ant; } u + .body img { display: inline-block !important; margin: auto !impo=
+rtant; width: auto !important; vertical-align: bottom !important; } u + .bo=
+dy center { display: block !important; margin: auto !important; width: 100%=
+ !important; min-width: 100% !important; text-align: center !important; } u=
+ + .body=0Atable._ac_social_table, u + .body table._ac_social_table td, u +=
+ .body table._ac_social_table div, u + .body table._ac_social_table a { dis=
+play: inline-block !important; margin: auto !important; width: auto !import=
+ant; min-width: auto !important; text-align: center !important; } u + .body=
+ table._ac_social_table img { display: inline-block !important; margin: aut=
+o !important; width: 32px !important; min-width: 32px !important; max-width=
+: 32px !important; }=0A}=0A@media only screen and (max-width: 667px) { #lay=
+out-row5225 img { width: 100% !important; height: auto !important; max-widt=
+h: 576px !important; } #layout-row5227 { max-height: 0px!important; font-si=
+ze: 0px!important; display: none!important; visibility: hidden!important; }=
+ div.divbody { padding: 20px !important; } .td_rss .rss-item img.iphone_lar=
+ge_image { width: auto !important; } u + .body { display: table !important;=
+ width: 100vw !important; min-width: 100vw !important; } u + .body table { =
+display: table !important; width: 100% !important; min-width: 100% !importa=
+nt; } u + .body td { display: block !important; width: 100% !important; min=
+-width: 100% !important; } u + .body img { display: inline-block !important=
+; margin: auto !important; width: auto !important; vertical-align: bottom !=
+important; } u + .body center { display: block !important; margin: auto !im=
+portant; width: 100% !important; min-width: 100% !important; text-align: ce=
+nter !important; } u + .body=0Atable._ac_social_table, u + .body table._ac_=
+social_table td, u + .body table._ac_social_table div, u + .body table._ac_=
+social_table a { display: inline-block !important; margin: auto !important;=
+ width: auto !important; min-width: auto !important; text-align: center !im=
+portant; } u + .body table._ac_social_table img { display: inline-block !im=
+portant; margin: auto !important; width: 32px !important; min-width: 32px !=
+important; max-width: 32px !important; }=0A} </style><!--[if !mso]><!-- web=
+fonts --><!--<![endif]--><!--[if lt mso 12]> <![endif]--></head><body id=3D=
+"ac-designer" class=3D"body" style=3D"font-family: Arial; line-height: 1.1;=
+ margin: 0px; background-color: #FFFFFF; width: 100%; text-align: center;">=
+<div class=3D"divbody" style=3D"margin: 0px; outline: none; padding: 0px; c=
+olor: #000000; font-family: arial; line-height: 1.1; width: 100%; backgroun=
+d-color: #FFFFFF; background: #FFFFFF; text-align: center;"><table class=3D=
+"template-table" border=3D"0" cellpadding=3D"0" cellspacing=3D"0" width=3D"=
+100%" align=3D"left" style=3D"font-size: 14px; min-width: auto; mso-table-l=
+space: 0pt; mso-table-rspace: 0pt; background-color: #FFFFFF; background: #=
+FFFFFF;"><tr><td align=3D"center" valign=3D"top" width=3D"100%"><table clas=
+s=3D"template-table" border=3D"0" cellpadding=3D"0" cellspacing=3D"0" width=
+=3D"650" bgcolor=3D"#FFFFFF" style=3D"font-size: 14px; min-width: auto; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt; max-width: 650px;"><tr><td=0Aid=
+=3D"layout_table_7ecc4082e8d9d20792b627685eeaa8db910881b5" valign=3D"top" a=
+lign=3D"center" width=3D"650"><table cellpadding=3D"0" cellspacing=3D"0" bo=
+rder=3D"0" class=3D"layout layout-table root-table" width=3D"650" style=3D"=
+font-size: 14px; min-width: 100%; mso-table-lspace: 0pt; mso-table-rspace: =
+0pt;"><tr><td id=3D"layout-row-margin5227" valign=3D"top"><table width=3D"1=
+00%" border=3D"0" cellpadding=3D"0" cellspacing=3D"0" style=3D"font-size: 1=
+4px; min-width: 100%; mso-table-lspace: 0pt; mso-table-rspace: 0pt;"><tr id=
+=3D"layout-row5227" class=3D"layout layout-row widget _widget_spacer "><td =
+id=3D"layout-row-padding5227" valign=3D"top"><table width=3D"100%" border=
+=3D"0" cellpadding=3D"0" cellspacing=3D"0" style=3D"font-size: 14px; min-wi=
+dth: 100%; mso-table-lspace: 0pt; mso-table-rspace: 0pt;"><tr><td valign=3D=
+"top" height=3D"30"><div class=3D"spacer" style=3D"margin: 0; outline: none=
+; padding: 0; height: 30px;"><table cellpadding=3D"0" cellspacing=3D"0" bor=
+der=3D"0" width=3D"100%" style=3D"font-size: 14px; min-width: 100%;=0Amso-t=
+able-lspace: 0pt; mso-table-rspace: 0pt;"><tr><td class=3D"spacer-body" val=
+ign=3D"top" height=3D"30" width=3D"650">=C2=A0</td>=0A</tr>=0A</table>=0A</=
+div>=0A</td>=0A</tr>=0A</table>=0A</td>=0A</tr>=0A</table>=0A</td>=0A</tr>=
+=0A<tr><td id=3D"layout-row-margin5225" valign=3D"top"><table width=3D"100%=
+" border=3D"0" cellpadding=3D"0" cellspacing=3D"0" style=3D"font-size: 14px=
+; min-width: 100%; mso-table-lspace: 0pt; mso-table-rspace: 0pt;"><tr id=3D=
+"layout-row5225" class=3D"layout layout-row widget _widget_picture " align=
+=3D"left"><td id=3D"layout-row-padding5225" valign=3D"top"><table width=3D"=
+100%" border=3D"0" cellpadding=3D"0" cellspacing=3D"0" style=3D"font-size: =
+14px; min-width: 100%; mso-table-lspace: 0pt; mso-table-rspace: 0pt;"><tr><=
+td class=3D"image-td" align=3D"left" valign=3D"top" width=3D"650"><a href=
+=3D"https://impakfinance.acemlnc.com/lt.php?s=3Dd3be7a4943591f363220945540b=
+07b1e&i=3D426A20985A43A19392" style=3D"margin: 0; outline: none; padding: 0=
+; color: #045FB4; display: block; min-width: 100%;"><img src=3D"https://imp=
+akfinance.imgus11.com/public//86c84d20a79ab2ebde884b959a5ed8fc.png?r=3D1990=
+8300" alt=3D"" width=3D"196" style=3D"border: none; display: block; outline=
+: none; width: 196px; opacity: 1; max-width: 100%;"></a></td>=0A</tr>=0A</t=
+able>=0A</td>=0A</tr>=0A</table>=0A</td>=0A</tr>=0A<tr><td id=3D"layout-row=
+-margin5226" valign=3D"top"><table width=3D"100%" border=3D"0" cellpadding=
+=3D"0" cellspacing=3D"0" style=3D"font-size: 14px; min-width: 100%; mso-tab=
+le-lspace: 0pt; mso-table-rspace: 0pt;"><tr id=3D"layout-row5226" class=3D"=
+layout layout-row widget _widget_spacer "><td id=3D"layout-row-padding5226"=
+ valign=3D"top"><table width=3D"100%" border=3D"0" cellpadding=3D"0" cellsp=
+acing=3D"0" style=3D"font-size: 14px; min-width: 100%; mso-table-lspace: 0p=
+t; mso-table-rspace: 0pt;"><tr><td valign=3D"top" height=3D"30"><div class=
+=3D"spacer" style=3D"margin: 0; outline: none; padding: 0; height: 30px;"><=
+table cellpadding=3D"0" cellspacing=3D"0" border=3D"0" width=3D"100%" style=
+=3D"font-size: 14px; min-width: 100%; mso-table-lspace: 0pt; mso-table-rspa=
+ce: 0pt;"><tr><td class=3D"spacer-body" valign=3D"top" height=3D"30" width=
+=3D"650">=C2=A0</td>=0A</tr>=0A</table>=0A</div>=0A</td>=0A</tr>=0A</table>=
+=0A</td>=0A</tr>=0A</table>=0A</td>=0A</tr>=0A<tr><td id=3D"layout-row-marg=
+in5224" valign=3D"top"><table width=3D"100%" border=3D"0" cellpadding=3D"0"=
+ cellspacing=3D"0" style=3D"font-size: 14px; min-width: 100%; mso-table-lsp=
+ace: 0pt; mso-table-rspace: 0pt;"><tr id=3D"layout-row5224" class=3D"layout=
+ layout-row widget _widget_text " style=3D"margin: 0; padding: 0;"><td id=
+=3D"layout-row-padding5224" valign=3D"top"><table width=3D"100%" border=3D"=
+0" cellpadding=3D"0" cellspacing=3D"0" style=3D"font-size: 14px; min-width:=
+ 100%; mso-table-lspace: 0pt; mso-table-rspace: 0pt;"><tr><td id=3D"text_di=
+v4758" class=3D"td_text td_block" valign=3D"top" align=3D"left" width=3D"65=
+0" style=3D"line-height: 140%; margin: 0; outline: none; padding: 0; color:=
+ inherit; font-size: 12px; font-weight: inherit; line-height: 1.4; text-dec=
+oration: inherit; font-family: Arial; mso-line-height-rule: exactly;"> <div=
+ style=3D"line-height: 140%; margin: 0; outline: none; padding: 0; font-siz=
+e: 12px; line-height: 1.4; mso-line-height-rule: exactly;" data-line-height=
+=3D"1.4"> <div=0Astyle=3D"margin: 0; outline: none; padding: 0;"> <p style=
+=3D"margin: 0; outline: none; padding: 0; color: inherit; font-size: inheri=
+t; font-weight: inherit; line-height: inherit; text-decoration: inherit;"><=
+/p>=0A<span style=3D"color: inherit; font-size: 14px; font-weight: inherit;=
+ line-height: inherit; text-decoration: inherit;" class=3D""><b style=3D"ma=
+rgin: 0; outline: none; padding: 0; font-weight: normal;"><span style=3D"co=
+lor: #000000; font-size: inherit; font-weight: 400; line-height: inherit; t=
+ext-decoration: inherit; font-family: arial; font-style: normal;">Hi </span=
+></b><span style=3D"color: #000000; font-size: inherit; font-weight: inheri=
+t; line-height: inherit; text-decoration: inherit; text-align: inherit;">Ia=
+n</span><span style=3D"color: #000000; font-size: inherit; font-weight: 400=
+; line-height: inherit; text-decoration: inherit; text-align: inherit; font=
+-family: arial;">,</span></span></div>=0A<div style=3D"margin: 0; outline: =
+none; padding: 0;"><b style=3D"margin: 0; outline: none; padding: 0; font-w=
+eight: normal;"><span style=3D"color: inherit; font-size: 14px; font-weight=
+: inherit; line-height: inherit; text-decoration: inherit;" class=3D""><br>=
+<span style=3D"color: #000000; font-size: inherit; font-weight: 400; line-h=
+eight: inherit; text-decoration: inherit; font-family: arial; font-style: n=
+ormal;">We are looking for a partner to create a new brand of ESG indices :=
+ impact indices. We would like to talk to you about it.</span><br><br><span=
+ style=3D"color: #000000; font-size: inherit; font-weight: 400; line-height=
+: inherit; text-decoration: inherit; font-family: arial; font-style: normal=
+;">impak is an independent impact rating agency that focuses, in its analys=
+es, on the positive impacts that companies generate in addition to how they=
+ mitigate their negative impacts, which goes further than ESG. This allows =
+for the creation of indices and ETFs that are unique and=0Adifferentiated f=
+rom what is currently in the market and avoid the pitfalls of greenwashing.=
+</span><br><br><span style=3D"color: #000000; font-size: inherit; font-weig=
+ht: 400; line-height: inherit; text-decoration: inherit; font-family: arial=
+; font-style: normal;">Would you be available for a call soon? Here is my c=
+alendar : </span><a href=3D"https://impakfinance.acemlnc.com/lt.php?s=3Dd3b=
+e7a4943591f363220945540b07b1e&i=3D426A20985A43A19386" data-ac-default-color=
+=3D"1" style=3D"margin: 0; outline: none; padding: 0; color: #045FB4; text-=
+decoration: underline; font-family: arial; font-weight: 400; font-style: no=
+rmal;"><span style=3D"color: ; font-size: inherit; font-weight: inherit; li=
+ne-height: inherit; text-decoration: inherit;">https://calendly.com/francoi=
+s_lebel/30min</span></a><br><br><span style=3D"color: #000000; font-size: i=
+nherit; font-weight: 400; line-height: inherit; text-decoration: inherit; f=
+ont-family: arial; font-style: normal;">See our IMPAK French 40 index : </s=
+pan><a=0Ahref=3D"https://impakfinance.acemlnc.com/lt.php?s=3Dd3be7a4943591f=
+363220945540b07b1e&i=3D426A20985A43A19387" data-ac-default-color=3D"1" styl=
+e=3D"margin: 0; outline: none; padding: 0; color: #045FB4; text-decoration:=
+ underline; font-family: arial; font-weight: 400; font-style: normal;"><spa=
+n style=3D"color: ; font-size: inherit; font-weight: inherit; line-height: =
+inherit; text-decoration: inherit;">https://www.impakfinance.com/ratings/</=
+span></a><br><br><span style=3D"color: #000000; font-size: inherit; font-we=
+ight: 400; line-height: inherit; text-decoration: inherit; font-family: ari=
+al; font-style: normal;">Best Regards,</span><br><span style=3D"color: #000=
+000; font-size: inherit; font-weight: 400; line-height: inherit; text-decor=
+ation: inherit; font-family: arial; font-style: normal;">F.</span></span><b=
+r><br><span style=3D"color: #000000; font-size: 12px; font-weight: 700; lin=
+e-height: inherit; text-decoration: inherit; font-family: arial; font-style=
+: normal;">Fran=C3=A7ois Le Bel, ing.,=0AM.Sc.A.</span><br><span style=3D"c=
+olor: #000000; font-size: 12px; font-weight: 400; line-height: inherit; tex=
+t-decoration: inherit; font-family: arial; font-style: italic;">Chief Busin=
+ess Development Officer</span><br><span style=3D"color: #000000; font-size:=
+ 12px; font-weight: 400; line-height: inherit; text-decoration: inherit; fo=
+nt-family: arial; font-style: normal;"> </span><br><span style=3D"color: #0=
+00000; font-size: 12px; font-weight: 700; line-height: inherit; text-decora=
+tion: inherit; font-family: arial; font-style: normal;">The independent imp=
+act rating agency=E2=84=A2</span><br><span style=3D"color: #000000; font-si=
+ze: 12px; font-weight: 400; line-height: inherit; text-decoration: inherit;=
+ font-family: arial; font-style: normal;"> </span><br><span style=3D"color:=
+ #000000; font-size: 12px; font-weight: 400; line-height: inherit; text-dec=
+oration: inherit; font-family: arial; font-style: normal;">+1 514 975 0138<=
+/span><br><span style=3D"color: #000000; font-size: 12px;=0Afont-weight: 40=
+0; line-height: inherit; text-decoration: inherit; font-family: arial; font=
+-style: normal;">francois.lebel@impakfinance.com</span><br><span style=3D"c=
+olor: #000000; font-size: 12px; font-weight: 400; line-height: inherit; tex=
+t-decoration: inherit; font-family: arial; font-style: normal;"> </span><br=
+><span style=3D"color: #000000; font-size: 12px; font-weight: 400; line-hei=
+ght: inherit; text-decoration: inherit; font-family: arial; font-style: nor=
+mal;"> </span><br><span style=3D"color: #000000; font-size: 12px; font-weig=
+ht: 400; line-height: inherit; text-decoration: inherit; font-family: arial=
+; font-style: normal;">&#128075;</span><span style=3D"color: #000000; font-=
+size: 12px; font-weight: 400; line-height: inherit; text-decoration: inheri=
+t; font-family: arial; font-style: normal;">=C2=A0 Our most recent publicat=
+ion:</span><br><a href=3D"https://impakfinance.acemlnc.com/lt.php?s=3Dd3be7=
+a4943591f363220945540b07b1e&i=3D426A20985A43A19388" style=3D"margin: 0; out=
+line: none;=0Apadding: 0; color: #045FB4; text-decoration: underline;" data=
+-ac-default-color=3D"1" target=3D"_blank"><span style=3D"color: inherit; fo=
+nt-size: 12px; font-weight: 400; line-height: inherit; text-decoration: inh=
+erit; font-family: arial; font-style: normal;">ESG is not the answer to soc=
+ial inequalities</span></a><br><a href=3D"https://impakfinance.acemlnc.com/=
+lt.php?s=3Dd3be7a4943591f363220945540b07b1e&i=3D426A20985A43A19389" style=
+=3D"margin: 0; outline: none; padding: 0; color: #045FB4; text-decoration: =
+underline;" data-ac-default-color=3D"1" target=3D"_blank"><span style=3D"co=
+lor: inherit; font-size: 12px; font-weight: 400; line-height: inherit; text=
+-decoration: inherit; font-family: arial; font-style: normal;">L'ESG n'est =
+pas la r=C3=A9ponse aux in=C3=A9galit=C3=A9s sociales</span></a></b><br><p =
+style=3D"margin: 0; outline: none; padding: 0; color: inherit; font-size: i=
+nherit; font-weight: inherit; line-height: inherit; text-decoration: inheri=
+t;"></p>=0A </div>=0A </div>=0A<!--[if (gte mso 12)&(lte mso 15) ]>=0A<styl=
+e data-ac-keep=3D"true" data-ac-inline=3D"false"> #text_div4758, #text_div4=
+758 div { line-height: 140% !important; };=0A</style>=0A<![endif]--></td>=
+=0A</tr>=0A</table>=0A</td>=0A</tr>=0A</table>=0A</td>=0A</tr>=0A</table>=
+=0A</td>=0A</tr>=0A</table>=0A</td>=0A</tr>=0A</table>=0A</div>=0A<img src=
+=3D"https://impakfinance.acemlnc.com/lt.php?nl=3D43&c=3D426&m=3D20985&s=3Dd=
+3be7a4943591f363220945540b07b1e&l=3Dopen" border=3D"0" width=3D"1" height=
+=3D"1" style=3D"display:block;width:1px!important;min-width:1px!important;m=
+ax-width:1px!important;height:1px!important;border:0;overflow:hidden;" /><d=
+iv id=3D"ac-footer" style=3D"clear:both;background-color:inherit;background=
+:inherit;min-width:100%;mso-table-lspace:0pt;mso-table-rspace:0pt;padding:2=
+0px;color:#000000;font-size:11px;font-family:arial,helvetica,sans-serif;lin=
+e-height:140%;line-height:1.4;text-align:center;box-sizing:border-box;">=0A=
+=09<center>=0A=09=09Sent to: <span style=3D"font-size:11px;font-family:aria=
+l,helvetica,sans-serif;font-weight:normal;text-decoration:none;outline:none=
+;">ian.hector@hanetf.com</span>=0A=09=09<br>=0A=09=09<br>=0A=09=09<a href=
+=3D"https://impakfinance.acemlnc.com/proc.php?nl=3D43&c=3D426&m=3D20985&s=
+=3Dd3be7a4943591f363220945540b07b1e&act=3Dunsub" style=3D"font-size:11px;fo=
+nt-family:arial,helvetica,sans-serif;font-weight:bold;text-decoration:under=
+line;"><span style=3D"font-weight:bold;text-decoration:underline;">Unsubscr=
+ibe</span></a>=0A=09=09<br>=0A=09=09<br> impak Finance, 5605 Avenue de Gasp=
+=C3=A9, #201, Montr=C3=A9al, Qu=C3=A9bec, Canada=0A=09</center>=0A</div>=0A=
+<br clear=3D"all" /></body>=0A</html>
+--_73716061-32d7-4f29-ba00-6cce005c7cf0_--
+
+--_c4d8514d-c31f-4f87-807f-fe84c4baac57_--
+
+--_7036eac0-151f-448c-a99d-0f2177819834_--

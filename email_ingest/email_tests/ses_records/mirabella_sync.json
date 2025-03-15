@@ -1,0 +1,185 @@
+{
+        "Records": [
+            {
+                "eventSource": "aws:ses",
+                "eventVersion": "1.0",
+                "ses": {
+                    "mail": {
+                        "timestamp": "2020-11-15T11:47:25.716Z",
+                        "source": "JournalFail@mirabella.uk",
+                        "messageId": "09n868if3b9ches90cso35fb6jappm58htfcts01",
+                        "destination": [
+                            "PublicFolderMailboxes.924dc51ab5c24245a8f60fafa82bdbc1@mirabella.onmicrosoft.com"
+                        ],
+                        "headersTruncated": False,
+                        "headers": [
+                            {
+                                "name": "Return-Path",
+                                "value": "<JournalFail@mirabella.uk>"
+                            },
+                            {
+                                "name": "Received",
+                                "value": "from GBR01-LO2-obe.outbound.protection.outlook.com (mail-lo2gbr01lp2058.outbound.protection.outlook.com [104.47.21.58]) by inbound-smtp.eu-west-1.amazonaws.com with SMTP id 09n868if3b9ches90cso35fb6jappm58htfcts01 for mirabella@ip-sentinel.net; Sun, 15 Nov 2020 11:47:25 +0000 (UTC)"
+                            },
+                            {
+                                "name": "Received-SPF",
+                                "value": "pass (spfCheck: domain of mirabella.uk designates 104.47.21.58 as permitted sender) client-ip=104.47.21.58; envelope-from=JournalFail@mirabella.uk; helo=mail-lo2gbr01lp2058.outbound.protection.outlook.com;"
+                            },
+                            {
+                                "name": "Authentication-Results",
+                                "value": "amazonses.com; spf=pass (spfCheck: domain of mirabella.uk designates 104.47.21.58 as permitted sender) client-ip=104.47.21.58; envelope-from=JournalFail@mirabella.uk; helo=mail-lo2gbr01lp2058.outbound.protection.outlook.com; dmarc=none header.from=mirabella.onmicrosoft.com;"
+                            },
+                            {
+                                "name": "X-SES-RECEIPT",
+                                "value": "AEFBQUFBQUFBQUFGZ2Rxb3g3Q012Wk45dzh6YjNROEFQWndaeXBaM1R6c0tYZ2xmZlU5VVhHS01VczhnU3NabVBMT09OdUpseVI2NmZZN2tYUXB0d2NaUWViSmZIbWtkZ21Ja1RaOEhFY2VUTTRkQWdmVlJ3VGluSFIrRU1uYnhtZXZxMTV3N2pUcWpOalVPM2lTUDlWSVJpeDdqbDFUZEIvWjQwTGpsT1M1cUNXVkVrMjFTMGovdVYyS1pnbmh6ekRIY1hkMVNuQ3F3MDNtSWh4L1FoM3Nma1VaM21wTFdlS3pzOW4xZGg0aklkU2cwbi90TDhkcC9PWFVWakpFWElvbldTM1M0T2JMYjQ3OUhVblA3YVh3QVFLTkE5WS9qSXNZK2xHaldQUU1IL08rR0p5Q29lRUxGaHVqd1FiNUVVT2Y3OUtWK3BCR0E9"
+                            },
+                            {
+                                "name": "X-SES-DKIM-SIGNATURE",
+                                "value": "a=rsa-sha256; q=dns/txt; b=ZDwgminWva6mN9JpJN6CJwU3D3UxgXvtXV44I1mbR8THGqLwtzkNvSDJPfTcGmFFZ6glbnICS06t7zfTp2u2BGNAnsRyQC8USwajOOn3OHXi5rgX+aMAS6NApkZAduWwkqXIJrr+tQxRQ7jkpAX5lOevsWZ/eyPfapBTqapzaRo=; c=relaxed/simple; s=shh3fegwg5fppqsuzphvschd53n6ihuv; d=amazonses.com; t=1605440845; v=1; bh=FYgQvGeaLNSYKD4FPjpySld73uZQXCX3VG8SBQz/Lwg=; h=From:To:Cc:Bcc:Subject:Date:Message-ID:MIME-Version:Content-Type:X-SES-RECEIPT;"
+                            },
+                            {
+                                "name": "Content-Type",
+                                "value": "multipart/mixed; boundary=\"_75d9bead-ca2e-4eaa-990c-49a48e8e9a35_\""
+                            },
+                            {
+                                "name": "Subject",
+                                "value": "HierarchySync_IncrementalSync_242706_26ece4c7-756d-44d2-b7a8-c7a9692d60b6"
+                            },
+                            {
+                                "name": "To",
+                                "value": "PublicFolderMailboxes.924dc51ab5c24245a8f60fafa82bdbc1 <PublicFolderMailboxes.924dc51ab5c24245a8f60fafa82bdbc1@mirabella.onmicrosoft.com>"
+                            },
+                            {
+                                "name": "From",
+                                "value": "Engagement Letters <EngagementLetters_f84a3e12@mirabella.onmicrosoft.com>"
+                            },
+                            {
+                                "name": "Sender",
+                                "value": "<MicrosoftExchange329e71ec88ae4615bbc36ab6ce41109e@mirabella.onmicrosoft.com>"
+                            },
+                            {
+                                "name": "Message-ID",
+                                "value": "<d38e2c08-cfa5-4f6a-90ec-65fcb7d21267@journal.report.generator>"
+                            },
+                            {
+                                "name": "Date",
+                                "value": "Sun, 15 Nov 2020 11:47:25 +0000"
+                            },
+                            {
+                                "name": "X-MS-PublicTrafficType",
+                                "value": "Email"
+                            },
+                            {
+                                "name": "X-MS-Journal-Report",
+                                "value": ""
+                            },
+                            {
+                                "name": "Return-Path",
+                                "value": "JournalFail@mirabella.uk"
+                            },
+                            {
+                                "name": "X-MS-Exchange-Parent-Message-Id",
+                                "value": "<LNXP265MB06828DC6C783877723EE61B9EEE40@LNXP265MB0682.GBRP265.PROD.OUTLOOK.COM>"
+                            },
+                            {
+                                "name": "Auto-Submitted",
+                                "value": "auto-generated"
+                            },
+                            {
+                                "name": "X-MS-Exchange-Generated-Message-Source",
+                                "value": "Journal Agent"
+                            },
+                            {
+                                "name": "X-MS-TrafficTypeDiagnostic",
+                                "value": "LO0P265MB2924:JournalingReport"
+                            },
+                            {
+                                "name": "X-LD-Processed",
+                                "value": "2e3cadcd-0cf8-419d-86a0-e17d7f408117,ExtAddr"
+                            },
+                            {
+                                "name": "X-MS-Exchange-Transport-Forked",
+                                "value": "True"
+                            },
+                            {
+                                "name": "Keywords",
+                                "value": ""
+                            },
+                            {
+                                "name": "MIME-Version",
+                                "value": "1.0"
+                            },
+                            {
+                                "name": "X-OriginatorOrg",
+                                "value": "mirabella.onmicrosoft.com"
+                            },
+                            {
+                                "name": "X-MS-Exchange-CrossTenant-AuthSource",
+                                "value": "LO0P265MB2924.GBRP265.PROD.OUTLOOK.COM"
+                            },
+                            {
+                                "name": "X-MS-Exchange-CrossTenant-AuthAs",
+                                "value": "Internal"
+                            },
+                            {
+                                "name": "X-MS-Exchange-CrossTenant-OriginalArrivalTime",
+                                "value": "15 Nov 2020 11:47:25.1234 (UTC)"
+                            },
+                            {
+                                "name": "X-MS-Exchange-CrossTenant-Network-Message-Id",
+                                "value": "71bef772-70e0-4a47-9067-08d8895c3886"
+                            },
+                            {
+                                "name": "X-MS-Exchange-CrossTenant-FromEntityHeader",
+                                "value": "Hosted"
+                            },
+                            {
+                                "name": "X-MS-Exchange-Transport-CrossTenantHeadersStamped",
+                                "value": "LO0P265MB2924"
+                            }
+                        ],
+                        "commonHeaders": {
+                            "returnPath": "JournalFail@mirabella.uk",
+                            "from": [
+                                "Engagement Letters <EngagementLetters_f84a3e12@mirabella.onmicrosoft.com>"
+                            ],
+                            "sender": "MicrosoftExchange329e71ec88ae4615bbc36ab6ce41109e@mirabella.onmicrosoft.com",
+                            "date": "Sun, 15 Nov 2020 11:47:25 +0000",
+                            "to": [
+                                "\"PublicFolderMailboxes.924dc51ab5c24245a8f60fafa82bdbc1\" <PublicFolderMailboxes.924dc51ab5c24245a8f60fafa82bdbc1@mirabella.onmicrosoft.com>"
+                            ],
+                            "messageId": "<d38e2c08-cfa5-4f6a-90ec-65fcb7d21267@journal.report.generator>",
+                            "subject": "HierarchySync_IncrementalSync_242706_26ece4c7-756d-44d2-b7a8-c7a9692d60b6"
+                        }
+                    },
+                    "receipt": {
+                        "timestamp": "2020-11-15T11:47:25.716Z",
+                        "processingTimeMillis": 356,
+                        "recipients": [
+                            "mirabella@ip-sentinel.net"
+                        ],
+                        "spamVerdict": {
+                            "status": "DISABLED"
+                        },
+                        "virusVerdict": {
+                            "status": "DISABLED"
+                        },
+                        "spfVerdict": {
+                            "status": "PASS"
+                        },
+                        "dkimVerdict": {
+                            "status": "GRAY"
+                        },
+                        "dmarcVerdict": {
+                            "status": "GRAY"
+                        },
+                        "action": {
+                            "type": "Lambda",
+                            "functionArn": "arn:aws:lambda:eu-west-1:955323147179:function:prod-email-ingest-v2",
+                            "invocationType": "Event"
+                        }
+                    }
+                }
+            }
+        ]
+    }

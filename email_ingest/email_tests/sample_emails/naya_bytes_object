@@ -1,0 +1,458 @@
+Return-Path: <Journaling@nayafund.com>
+Received: from GBR01-CWL-obe.outbound.protection.outlook.com (mail-cwlgbr01lp2054.outbound.protection.outlook.com [104.47.20.54])
+ by inbound-smtp.eu-west-1.amazonaws.com with SMTP id 2h37gieem3hsdl7metqf86lvj5s32savi0d8ld01
+ for naya@ip-sentinel.net;
+ Mon, 16 Nov 2020 07:12:30 +0000 (UTC)
+Received-SPF: none (spfCheck: 104.47.20.54 is neither permitted nor denied by domain of nayafund.com) client-ip=104.47.20.54; envelope-from=Journaling@nayafund.com; helo=mail-cwlgbr01lp2054.outbound.protection.outlook.com;
+Authentication-Results: amazonses.com;
+ spf=none (spfCheck: 104.47.20.54 is neither permitted nor denied by domain of nayafund.com) client-ip=104.47.20.54; envelope-from=Journaling@nayafund.com; helo=mail-cwlgbr01lp2054.outbound.protection.outlook.com;
+ dmarc=fail header.from=bofa.com;
+X-SES-RECEIPT: AEFBQUFBQUFBQUFHOUV4OXhaNE9HQ3RDYlhaMG50dXRMZWFMSEFJUktQRld1bDdMczhPRG44a01lR3ZlRmlhODdaMGhpYWZ1QTRSaU8yb3Qxdm5zTm5YeHN3YTJIM1JCM3Nqc0djMG9iQm9sWnpnenQ0WWFQVEdoR1ErNjZDNlZXTGw0YlFWa29YdGsxeWVGVTZTNDdheTJJam04RTEvY0ZuYUdHemtNV0lLb3pmSFZuZ21FUzhsTU9JOUt3aFFCcnpZcWkyN3gzM2hTdFFncXhCMExQSnpObmdZQ2JyUUNVRkptQTRPYUdlSlVsc0JKMy9zaTBBckpSRlowM1dDTm05MkU5SEFHdWduVFhnMlFIcnk4RDlRZnZrMHFWanQ0RFRjZ0tsaHJJRkV6T3BJQkUvM0RhN1NpV2tIbEgxWUx4ejR3bW1PV3FqTUU9
+X-SES-DKIM-SIGNATURE: a=rsa-sha256; q=dns/txt; b=M3EqW7tE09C+ZzeyhCVmi8tFY2cFEHzVFMISftizOrJWuI9mZxZvpiNo+GE1bKIABBm8fPanwuWOcq7366wYnZsutFryaYEcgu3+jJnkbY8qqrJtFsyyKSxevZXbHk44uCkmUWgOoUlkyw4w+e0vspJ9tEPKOBf8ElmeyaZ0AGg=; c=relaxed/simple; s=shh3fegwg5fppqsuzphvschd53n6ihuv; d=amazonses.com; t=1605510750; v=1; bh=7SQjRxW6Iu+dOi02UWVNTldFZeCJRm2/85X/RBshFOU=; h=From:To:Cc:Bcc:Subject:Date:Message-ID:MIME-Version:Content-Type:X-SES-RECEIPT;
+Content-Type: multipart/mixed;
+	boundary="_43030d0b-d225-46f8-b179-4775db5b43ac_"
+Subject: 2:NAYA_emap_loc_res_20201116.csv
+To: ops@nayafund.com
+From: gsl.amrs.app@bofa.com
+MIME-Version: 1.0
+Sender:
+	<MicrosoftExchange329e71ec88ae4615bbc36ab6ce41109e@nayafund.onmicrosoft.com>
+Message-ID: <7eb600ef-01bd-4c1e-82df-c7a9ed8cc815@journal.report.generator>
+Date: Mon, 16 Nov 2020 07:12:29 +0000
+X-MS-PublicTrafficType: Email
+X-MS-Journal-Report:
+Return-Path: Journaling@nayafund.com
+X-MS-Exchange-Parent-Message-Id:
+	<0QJV00G17O0MWQ00@smtp_mail.bankofamerica.com>
+Auto-Submitted: auto-generated
+X-MS-Exchange-Generated-Message-Source: Journal Agent
+X-MS-TrafficTypeDiagnostic: LO2P123MB3613:JournalingReport
+X-LD-Processed: b47761fe-9cec-4236-9646-1b8f909406a2,ExtAddr
+X-OriginatorOrg: nayafund.onmicrosoft.com
+X-MS-Exchange-CrossTenant-AuthSource: LO2P123MB3613.GBRP123.PROD.OUTLOOK.COM
+X-MS-Exchange-CrossTenant-AuthAs: Internal
+X-MS-Exchange-CrossTenant-OriginalArrivalTime: 16 Nov 2020 07:12:29.7971 (UTC)
+X-MS-Exchange-CrossTenant-Network-Message-Id:
+	5e125397-a372-4cdd-f47f-08d889fefaf4
+X-MS-Exchange-CrossTenant-FromEntityHeader: Hosted
+X-MS-Exchange-Transport-CrossTenantHeadersStamped: LO2P123MB3613
+
+--_43030d0b-d225-46f8-b179-4775db5b43ac_
+Content-Type: text/plain; charset="us-ascii"
+Content-Transfer-Encoding: 7bit
+
+Sender: gsl.amrs.app@bofa.com
+Subject: 2:NAYA_emap_loc_res_20201116.csv
+Message-Id: <0QJV00G17O0MWQ00@smtp_mail.bankofamerica.com>
+Recipient: ian.wylie@nayafund.com
+Recipient: hartej.jagdev@nayafund.com
+Recipient: Joe.Liang@nayafund.com
+Recipient: Ella@nayafund.com
+
+--_43030d0b-d225-46f8-b179-4775db5b43ac_
+Content-Type: message/rfc822
+
+Received: from LO2P123CA0101.GBRP123.PROD.OUTLOOK.COM (2603:10a6:600:139::16)
+ by LO2P123MB3613.GBRP123.PROD.OUTLOOK.COM (2603:10a6:600:129::12) with
+ Microsoft SMTP Server (version=TLS1_2,
+ cipher=TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384) id 15.20.3564.25; Mon, 16 Nov
+ 2020 07:12:29 +0000
+Received: from CWLGBR01FT007.eop-gbr01.prod.protection.outlook.com
+ (2603:10a6:600:139:cafe::d5) by LO2P123CA0101.outlook.office365.com
+ (2603:10a6:600:139::16) with Microsoft SMTP Server (version=TLS1_2,
+ cipher=TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384) id 15.20.3564.25 via Frontend
+ Transport; Mon, 16 Nov 2020 07:12:29 +0000
+Authentication-Results: spf=none (sender IP is 185.84.92.69)
+ smtp.mailfrom=nayafund.com; nayafund.mail.onmicrosoft.com; dkim=fail (body
+ hash did not verify) header.d=bofa.com;nayafund.mail.onmicrosoft.com;
+ dmarc=fail action=oreject header.from=bofa.com;
+Received-SPF: None (protection.outlook.com: nayafund.com does not designate
+ permitted sender hosts)
+Received: from mail.nayafund.com (185.84.92.69) by
+ CWLGBR01FT007.mail.protection.outlook.com (10.152.40.96) with Microsoft SMTP
+ Server (version=TLS1_2, cipher=TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA384) id
+ 15.20.3564.22 via Frontend Transport; Mon, 16 Nov 2020 07:12:28 +0000
+Resent-From: <ops@nayafund.com>
+Received: from NML-LON-SRV-03.nayafund.com (10.241.2.3) by
+ NML-LON-SRV-03.nayafund.com (10.241.2.3) with Microsoft SMTP Server (TLS) id
+ 15.0.1497.2; Mon, 16 Nov 2020 07:12:28 +0000
+Received: from eu-smtp-1.mimecast.com (91.220.42.227) by
+ NML-LON-SRV-03.nayafund.com (10.241.2.3) with Microsoft SMTP Server id
+ 15.0.1497.2 via Frontend Transport; Mon, 16 Nov 2020 07:12:28 +0000
+Received: from bankofamerica.com (rdnemail.bankofamerica.com
+ [171.161.147.155]) (Using TLS) by relay.mimecast.com with ESMTP id
+ uk-mta-111-RsRRmXwWNdqjx48xPsd98A-1; Mon, 16 Nov 2020 07:12:26 +0000
+X-MC-Unique: RsRRmXwWNdqjx48xPsd98A-1
+Received: from txdmzmailmx07.bankofamerica.com ([171.180.168.234])
+	by lrdna0mzxepmx04.bankofamerica.com (8.15.2/8.15.2) with ESMTP id 0AG7COMc033170
+	for <ops@nayafund.com>; Mon, 16 Nov 2020 07:12:24 GMT
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=bofa.com;
+	s=corp1903; t=1605510744;
+	bh=XS/C8M6vICHjKKR0hDBp0VKsunkF9Lmn+sc+D+mjeGA=;
+	h=Date:From:Subject:To:Message-id:MIME-version:Content-type;
+	b=nhgNZUNrsEhL2jDy/t8WomBKhDH3hxnZi1U2TaudwCmXQDYgo/uBEWk7q5WBel8rm
+	 z3hRZyRr+mIV/mcut+ir+3qVdiA86MkswzPrjpAHxhKz5cktbDZpG2lBZ6SLbXOkvN
+	 jBFSQ2DqT2n9Qagx2x/VAYrpo48twL+QwEmKZKp4=
+Received: from ah-1031360-003.sdi.corp.bankofamerica.com (ah-1031360-003.sdi.corp.bankofamerica.com [171.196.88.177])
+	by txdmzmailmx07.bankofamerica.com (8.15.2/8.15.2) with ESMTP id 0AG7CNpJ005449
+	for <ops@nayafund.com>; Mon, 16 Nov 2020 07:12:24 GMT
+Date: Mon, 16 Nov 2020 02:12:22 -0500
+From: gsl.amrs.app@bofa.com
+Subject: 2:NAYA_emap_loc_res_20201116.csv
+To: ops@nayafund.com
+Message-ID: <0QJV00G17O0MWQ00@smtp_mail.bankofamerica.com>
+MIME-Version: 1.0
+X-TM-SNTS-SMTP: 2FF656C5904F5DB2E9F03DAD78DD6D0725EDEF212A1C874DF2FDF0AF42D3DB382000:8
+X-Mimecast-Spam-Score: 0
+X-Mimecast-Impersonation-Protect: Policy=NAYA - Impersonation Protect - Default;Similar Internal Domain=false;Similar Monitored External Domain=false;Custom External Domain=false;Mimecast External Domain=false;Newly Observed Domain=false;Internal User Name=false;Custom Display Name List=false;Reply-to Address Mismatch=false;Targeted Threat Dictionary=false;Mimecast Threat Dictionary=false;Custom Threat Dictionary=false
+Content-Type: multipart/mixed;
+	boundary="_ffaf3cc0-ad5a-4e11-9aa8-4a94a3dd66d0_"
+Return-Path: ops@nayafund.com
+X-Auto-Response-Suppress: DR, OOF, AutoReply
+X-OrganizationHeadersPreserved: NML-LON-SRV-03.nayafund.com
+X-MS-Exchange-Organization-OriginalArrivalTime: 16 Nov 2020 07:12:28.9792
+ (UTC)
+X-MS-Exchange-Organization-ExpirationStartTime: 16 Nov 2020 07:12:29.0246
+ (UTC)
+X-MS-Exchange-Organization-ExpirationStartTimeReason: OriginalSubmit
+X-MS-Exchange-Organization-ExpirationInterval: 1:00:00:00.0000000
+X-MS-Exchange-Organization-ExpirationIntervalReason: OriginalSubmit
+X-MS-Exchange-Organization-Network-Message-Id: cd0790a3-f312-4929-efb2-08d889fefa7e
+X-MS-Exchange-Organization-OriginalServerIPAddress: 10.152.40.96
+X-MS-Exchange-Organization-MessageScope: 656a526e-4477-4aa5-b351-77e3c51555ac
+X-EOPAttributedMessage: 0
+X-MS-Exchange-Organization-TargetResourceForest: GBRP123.PROD.OUTLOOK.COM
+X-MS-Exchange-Organization-OrgEopForest: GBR01
+X-MS-Exchange-Organization-MessageDirectionality: Originating
+X-MS-Exchange-Organization-Id: b47761fe-9cec-4236-9646-1b8f909406a2
+X-MS-Exchange-Organization-MessageInboundConnectorType: OnPremises
+X-MS-Exchange-Organization-MessageInboundConnectorName: Inbound from
+ 96813388-53bf-4981-852d-233c37875a50
+X-MS-Exchange-Organization-Base64-MessageInboundConnectorData: TgBhAG0AZQA9AEkAbgBiAG8AdQBuAGQAIABmAHIAbwBtACAAOQA2ADgAMQAzADMAOAA4AC0ANQAzAGIAZgAtADQAOQA4ADEALQA4ADUAMgBkAC0AMgAzADMAYwAzADcAOAA3ADUAYQA1ADAAOwBDAG8AbgBuAGUAYwB0AG8AcgBUAHkAcABlAD0ATwBuAFAAcgBlAG0AaQBzAGUAcwA7AFQAZQBuAGEAbgB0AEkAZAA9AGIANAA3ADcANgAxAGYAZQAtADkAYwBlAGMALQA0ADIAMwA2AC0AOQA2ADQANgAtADEAYgA4AGYAOQAwADkANAAwADYAYQAyAA==
+X-MS-Exchange-Organization-MessageInboundConnectorData: Name=Inbound from
+ 96813388-53bf-4981-852d-233c37875a50;ConnectorType=OnPremises;TenantId=b47761fe-9cec-4236-9646-1b8f909406a2
+X-MS-Exchange-Organization-InboundConnector-Attributes: id=1f85efbc-8a67-4aed-7f08-08d7c053c827;ty=1;idh=380f833c-4dd0-e1ff-76e3-58476ec28465;cr=256;ch=256;tl=1;mi=0;
+X-MS-Exchange-Organization-OriginalAttributedTenantConnectingIp: TenantId=b47761fe-9cec-4236-9646-1b8f909406a2;Ip=[185.84.92.69];Helo=[mail.nayafund.com]
+X-MS-Exchange-Organization-SkipListedRecipientPilot: True
+X-MS-Exchange-Organization-OriginalClientIPAddress: 91.220.42.227
+X-MS-Exchange-Organization-Processed-By-Journaling: Journal Agent
+X-CrossPremisesHeadersPromoted: CWLGBR01FT007.eop-gbr01.prod.protection.outlook.com
+X-MS-Exchange-Organization-Cross-Premises-Headers-Promoted: CWLGBR01FT007.eop-gbr01.prod.protection.outlook.com
+X-CrossPremisesHeadersFiltered: CWLGBR01FT007.eop-gbr01.prod.protection.outlook.com
+X-MS-Exchange-Organization-Cross-Premises-Headers-Processed: CWLGBR01FT007.eop-gbr01.prod.protection.outlook.com
+X-MS-Exchange-Organization-ConnectingIP: 185.84.92.69
+X-MS-Exchange-Organization-ConnectingEHLO: mail.nayafund.com
+X-MS-Exchange-Organization-AS-LastExternalIp: 185.84.92.69
+X-MS-Exchange-Organization-IsAtpTenant: true
+X-MS-Exchange-Organization-Originating-Country: GB
+X-MS-Exchange-Organization-P2SenderPII: <PII:H101(RBJpFgWwo/slX8umKPrniYAeHD6dcgI7dN4IQOVOD4M=)>@bofa.com
+X-MS-Exchange-Organization-OriginalEnvelopeRecipients: iwylie@nayafund.mail.onmicrosoft.com;hjagdev@nayafund.mail.onmicrosoft.com;jliang@nayafund.mail.onmicrosoft.com;ESibley@nayafund.mail.onmicrosoft.com
+X-MS-Exchange-Organization-EhloAndPtrDomain: mail.nayafund.com;
+X-MS-Exchange-Organization-MxPointsToUs: true
+X-MS-Exchange-Organization-RecipientMxInfo-PFAFD: nayafund.mail.onmicrosoft.com#nayafund-mail-onmicrosoft-com.mail.protection.outlook.com
+X-MS-Exchange-Organization-HMATPModel-Spf: 5
+X-MS-Exchange-Organization-HMATPModel-Recipient: <PII:H101(yePnnGIZ3eS5u+7XLiXX2goCgIHQth0GgOXlPZ/aAFY=)>@nayafund.mail.onmicrosoft.com
+X-MS-Exchange-Organization-ASNIPLDA: true
+X-MS-Exchange-Organization-TransportTrafficType: Email
+X-MS-PublicTrafficType: Email
+X-MS-Exchange-Organization-OrderedPrecisionLatencyInProgress: LSRV=LO2P123CA0101.GBRP123.PROD.OUTLOOK.COM:TOTAL-FE=0.015|SMR-PEN=0.021(SMRPROXY-PEN=0.000);2020-11-16T07:12:29.197Z
+X-MS-Exchange-Organization-MessageLatency: SRV=CWLGBR01FT007.eop-gbr01.prod.protection.outlook.com:TOTAL-FE=0.204|SMR-PEN=0.204(RENV=0.037|REOH=0.140(SMREH=0.131(SMREH-Protocol
+ Filter Agent=0.128 ))|SMRPROXY-PEN=0.026(SMS-PEN=0.016))
+X-MS-Exchange-Organization-MessageLatency:
+	SRV=LO2P123CA0101.GBRP123.PROD.OUTLOOK.COM:TOTAL-FE=0.020|SMR-PEN=0.021(SMRPROXY-PEN=0.000)
+X-MS-Exchange-Forest-ArrivalHubServer: LO2P123MB3613.GBRP123.PROD.OUTLOOK.COM
+X-MS-Exchange-Organization-AuthSource: NML-LON-SRV-03.nayafund.com
+X-MS-Exchange-Organization-AuthAs: Anonymous
+X-MS-Exchange-Organization-FromEntityHeader: HybridOnPrem
+X-MS-Exchange-Forest-MessageScope: 656a526e-4477-4aa5-b351-77e3c51555ac
+X-MS-Exchange-Organization-OriginatorOrganization: nayafund.com
+X-OriginatorOrg: nayafund.com
+X-MS-Exchange-Organization-Antispam-ProtocolFilterHub-ScanContext:
+	ProtocolFilterHub:SmtpOnEndOfData;
+X-MS-Exchange-Organization-AcceptedDomain: True
+X-MS-Office365-Filtering-Correlation-Id: cd0790a3-f312-4929-efb2-08d889fefa7e
+X-MS-Exchange-Organization-OriginalSize: 16249
+X-MS-TrafficTypeDiagnostic: LO2P123MB3613:
+X-MS-Exchange-Organization-HygienePolicy: Premium
+X-MS-Exchange-Organization-ReplicationInfo:
+	ReplicaId=6c5f0cd8-3112-74da-e658-99fafe89d808;ReplicatingServerFqdn=CWXP123MB3607.GBRP123.PROD.OUTLOOK.COM
+X-MS-Exchange-Forest-Language: en
+X-MS-Exchange-Forest-IndexAgent-0:
+	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 4FA8HqVZkZAAA=
+X-MS-Exchange-Forest-IndexAgent: 1 1508
+X-MS-Exchange-Forest-EmailMessageHash: 06E49879,27CF8EEA
+X-MS-Exchange-Organization-IsPotentialIntraOrgMail: False
+X-MS-Exchange-Organization-Antispam-PreContentFilter-PolicyLoadTime:
+	MAOSUB:4;MAOSUBLOAD:2;SAORES:4;SAORESLOAD:2;SLORES:2;SLORESLOAD:2;
+X-MS-Exchange-Organization-AttachmentDetailsHeaderStamp-Success: 1.0
+X-MS-Exchange-Organization-AttachmentDetails:
+	0:fDYXtFhlVz4vxGCILf3QNBptxiHQFtV33IQOmajgp0I=:U:Text:TkFZQV9FTUFQX2xvY19yZXNfMjAyMDExMTYuY3N2::#:False:::N:::N::N:None
+X-MS-Exchange-Organization-AttachmentDetailsInfo-ChunkCount: 1
+X-MS-Exchange-Organization-AttachmentDetailsInfo-0:
+	[{"ID":0,"FN":"NAYA_EMAP_loc_res_20201116.csv","FS":3436,"HFH":"fDYXtFhlVz4vxGCILf3QNBptxiHQFtV33IQOmajgp0I=","FT":["Text"],"EXT":"csv","AF":0}]
+X-MS-Exchange-Organization-MessageFingerprint:
+	EF886019.AC926411.4EE61A78.C8C9FA7C.200F5
+X-MS-Exchange-Organization-UrlMinimumDomainAge: mimecast.com#6479
+X-MS-Exchange-Organization-URLFeatureReduction:
+	46;2;0;23;0;0;0;0;12;3;1;10000000;0;0;0
+X-MS-Exchange-Organization-Persisted-Urls-ChunkCount: 1
+X-MS-Exchange-Organization-Persisted-Urls-0:
+	=?us-ascii?Q?[{"ID":1,"OU":"https://protect-eu.mimecast.com/s/NczKCWnEzfm?=
+ =?us-ascii?Q?nZ2h6PqT8","U":"https://protect-eu.mimecast.com/s/NczKCWnEzf?=
+ =?us-ascii?Q?mnZ2h6PqT8","IAR":false,"LI":{"BF":1,"SI":-1,"EndIndex":-1},?=
+ =?us-ascii?Q?"SRCI":1,"IU":null,"NU":"protect-eu.mimecast.com/s/NczKCWnEz?=
+ =?us-ascii?Q?fmnZ2h6PqT8","UFT":"{101:46,102:2,105:23,108:3,109:1,110:8,1?=
+ =?us-ascii?Q?11:12,112:2,114:8,115:10,116:1,117:1,118:10,119:8,121:7,122:?=
+ =?us-ascii?Q?3,123:1,125:3,128:20,131:10000000,135:\"E2F58CB3,C6D6BE65,A0?=
+ =?us-ascii?Q?574632,891EC5C0,4938C3D8,BCF35016,BFD0733A,ACB296E1,AA6CB204?=
+ =?us-ascii?Q?,1005231C,C86253E2,1B64769E,9C00B698,6C03AF79,9CB486FE,5C851?=
+ =?us-ascii?Q?363,1FA65EFD,F1B43A9E,41691265,75AE62F5,9CC39188,6E72E0BE,15?=
+ =?us-ascii?Q?B31B32,19C17934,B8353E6,66A2E8DB,1B82909D,E565B11,32E5989B,2?=
+ =?us-ascii?Q?E17B60,5B26DEE0,B69C08D6\",201:6479,202:207,203:1487,204:796?=
+ =?us-ascii?Q?7,205:37,206:2,207:38,208:2,209:38,210:2,211:38,212:2,213:58?=
+ =?us-ascii?Q?,214:3,215:23,216:1,217:23,218:1,219:23,220:1,221:52,222:3,2?=
+ =?us-ascii?Q?23:52,224:3,225:52,226:3,227:51,228:3,229:57,230:3,231:23,23?=
+ =?us-ascii?Q?2:1,233:27,234:1,235:23,236:1,239:23,240:1,241:23,242:1,243:?=
+ =?us-ascii?Q?23,244:1,245:23,246:1,247:23,248:1,249:23,250:1,251:22,252:1?=
+ =?us-ascii?Q?}","DPD":{"UF":"256","OCH":"2536413681700575177","SCHM":"Htt?=
+ =?us-ascii?Q?ps","CNT":"1","SL":"1","LOG":"1"},"PROC":[]}]?=
+X-MS-Exchange-Organization-PersistedUrlCount: 1
+X-MS-Exchange-Organization-Antispam-PreContentFilter-ScanContext:
+	CategorizerOnSubmitted;CategorizerOnResolved;
+X-MS-Exchange-Organization-AVScannedByV2: Symantec;Command;Microsoft
+X-MS-Exchange-Organization-AVScanComplete: true
+X-MS-Exchange-Organization-UrlSelected: 1
+X-MS-Exchange-Organization-UrlLogged: 1
+X-MS-Exchange-Organization-Recipient-Limit-Verified: True
+X-MS-Exchange-Organization-TotalRecipientCount: 4
+X-MS-Exchange-Organization-ReplyAllBlocker-Verdict: Allow
+X-MS-Exchange-Organization-ASDirectionalityType: 1
+X-MS-Exchange-Organization-Boomerang-Verdict: None
+X-MS-Exchange-Organization-HMATPModel-DkimAuthStatus: 2
+X-MS-Exchange-Organization-HMATPModel-DmarcAuthStatus: 3
+X-MS-Exchange-Organization-SenderRecipientCommunicationState: EST
+X-MS-Exchange-Organization-Antispam-ContentFilter-ScanContext:
+	CategorizerOnResolved;
+X-MS-Exchange-Organization-CommunicationStateSummary: EST
+X-MS-Exchange-Organization-FirstContactSummary:
+	ST=1;MRG=1;EXT=0;UN=1;ORCT=4;EV=4;FC=0;NESI=0;NES=0;ESTI=0;EST=4;INS=0;ERR=0
+X-MS-Exchange-Organization-CFA-UserOption: 0
+X-MS-Exchange-Organization-Via-In-From: nayafund.com
+X-MS-Exchange-Organization-ContainsAttachments: true
+X-MS-Exchange-Organization-Feature-Long: 0	201:798	202:782	220:1	221:1	224:1
+	227:1	228:1	235:1	236:2	237:5	238:3	240:1	243:1	244:3	245:1	246:1	247:4	248:5
+	252:1	256:1	257:30	258:1	1006:attach,importan,delete	1007:Latn
+	1013:185.84.92.69	1014:bofa.com	1015:bofa.com	1019:mail.nayafund.com
+	1020:nayafund.com	1030:nayafund.com	1033:csv
+	1034:7373AC83@nayafund.com,72EC52AE@nayafund.com,1B980722@nayafund.com,32F49E1B@nayafund.com
+	1035:bofa.com
+X-MS-Exchange-Organization-HDRFeatureV2:
+	9;6;1;0;0;0;5;6;0;5;1;1;1;1;1;1;1;3;1;88;60;11;8;8;1;22;18;0;8;11;11;12;11;11;12;8;8;5;2;3;5;-1;-1;-1;-1;-1;-1;1;11;52;85
+X-MS-Exchange-Organization-ExtractionAttachmentNames: 0
+X-MS-Exchange-Organization-ExtractionTags: SUBU;SUB64;LINK;
+X-MS-Exchange-Organization-ExtractionTagsSubject:
+	2:NAYA_emap_loc_res_20201116.csv
+X-MS-Exchange-Organization-ExtractionTagsFrom: gsl.amrs.app@bofa.com
+X-MS-Exchange-Organization-ExtractionTagsSubjectNormalized: 2 naya ernap loc
+ res 2o2olb csv
+X-MS-Oob-TLC-OOBClassifiers: OLM:4125;
+X-MS-Exchange-Organization-SpamScore: 0
+X-MS-Exchange-Organization-Antispam-AnalystRuleHits:
+	(4636009)(81166007)(356005)(83170400001)(83380400001)(26005)(1096003)(956004)(9686003)(82310400003)(966005)(336012)(186003)(42882007)(8676002)(34206002)(156005)(450100002)(21480400003)(5660300002)(8936002)(33656002)(36906005)
+X-MS-Exchange-Organization-Antispam-ScanContext:
+	DIR:Originating;SFV:NSPM;SKIP:0;
+X-MS-Exchange-Organization-Antispam-PostContentFilter-ScanContext:
+	CategorizerOnResolved;CategorizerOnRouted;
+X-MS-Exchange-Organization-SCL: 1
+X-Microsoft-Antispam: BCL:0;
+X-Microsoft-Antispam-Message-Info:
+	=?us-ascii?Q?VClk3IZ8uFXtgmmSO0aN4wAjmIx4dUcJ9a5WU/8IyYfz0j+kOKVjaAskbvGV?=
+ =?us-ascii?Q?XfBEuqKHnMGFrWsTF2Jd8h0djLckzYBH44aYChMeOWOYj22Y77K0hU5TzBgg?=
+ =?us-ascii?Q?412KYsnTvZNppnSjIbajG6D5NZI96yjvjGHp6gTHD9E0qaiSCVBFKFRtvsjL?=
+ =?us-ascii?Q?aW615eosx5fq+rnWN5NCequDUQTLAHLtwvsWov+WsrHTV5grIJP5w3NJjU8H?=
+ =?us-ascii?Q?mTwoXXymJ25t12IlhR+jqCJlkvpbOsbwh+ny4M/TjiSzZUHzTo/Lz46VHRVf?=
+ =?us-ascii?Q?xvjCB205gdKhc3baldoSt/Nwsw2FBovKXIvkWy3oa8HpWLgnKQFgNJAB9mfc?=
+ =?us-ascii?Q?5ZgEv8bpUaNB+vVOEpScGAQ9+zeKTrDc4DXNzzdf4Be3m06a7QtWOtNphHpU?=
+ =?us-ascii?Q?UyuW5FjCZb6Wwm0M/USfs8YmZVkNcuNEAj95w6WdQoawNTBjC175tl9M/F7e?=
+ =?us-ascii?Q?CJyhgVF4NT3aWKSoi0U8sZgdkazzPQx3xCH7oSifom5HJcJ+o0nW8a2JCcDf?=
+ =?us-ascii?Q?TalvzYshySF1Vl42KX9V16o/eCDFCXNZAr+OaxUl5k+hAczeit/kt5KBP2tL?=
+ =?us-ascii?Q?ImvKVFSwNrIzJYFAbLb3Nwp0+ZmBQ92jTz6s7FVApV+1xFaLL729kuPLDFZy?=
+ =?us-ascii?Q?33vNPVvwLT4ajqFUvgJIE+LXMZN8YGiC9vQ8zlZcnrEB9iM4oQKBTDfXdyAn?=
+ =?us-ascii?Q?E7HR5oMimNJFUIM89KoLmXloDk2xgJXuUj7e4uUbIpFLNC4ypcKwILq67xhs?=
+ =?us-ascii?Q?bvc5sk8Zzzbyc+oT6qpiQsX6ymes87GpWEFrqlpyuu3zZMmSFxR59s5t4vfJ?=
+ =?us-ascii?Q?ubZF8C/OyOaIQSFNVSUh3KOaiI0XLnx7bszPGPWanvN5RioXItRHZ+8MJl2W?=
+ =?us-ascii?Q?oKxoFnyNr7nmEBAsA5PtBpzzrMvHrP77pNx8+f8I8XHzRHDQmxRd2X336hOi?=
+ =?us-ascii?Q?73a1mwK6kvL/4REKsUIAcvYrbG6cxRGdfALWquKO8DPlmuCYU77ZrezMUVPF?=
+ =?us-ascii?Q?uqPWBEX9Vviipe2+WSGG7PWJQjy9yco2NrsD7VZbHdrFqgBumkwGjpxxHDav?=
+ =?us-ascii?Q?xj6qKH/Ro+I+JwTHDKP0t2bi2YxchktlaoQ6x9dTKbrydmyXetKwN+DvVTlk?=
+ =?us-ascii?Q?Y03BMumjT5T8VX6supP+mDwos68qAYdsZOmhfXD8cRO/iguv2cU2AtY=3D?=
+X-Forefront-Antispam-Report:
+	CIP:185.84.92.69;CTRY:GB;LANG:en;SCL:1;SRV:;IPV:NLI;SFV:NSPM;H:mail.nayafund.com;PTR:InfoDomainNonexistent;CAT:NONE;SFS:(4636009)(81166007)(356005)(83170400001)(83380400001)(26005)(1096003)(956004)(9686003)(82310400003)(966005)(336012)(186003)(42882007)(8676002)(34206002)(156005)(450100002)(21480400003)(5660300002)(8936002)(33656002)(36906005);DIR:INB;
+X-MS-Exchange-Organization-GroupForkPerf: VCL=0;VL=4
+X-MS-Exchange-Organization-Cross-Session-Cache:
+	=?us-ascii?Q?00CIP=3D185.84.92.69;EIPC0=3D2004,2055,950,951,2005,2006,200?=
+ =?us-ascii?Q?7,2008,2009,2010,2011,2012,2013,2014,2000,2050,2051,2052,952?=
+ =?us-ascii?Q?,902,2054,2016,903,901,905,904,907,2001,3000,2003,2002,967,2?=
+ =?us-ascii?Q?058,2059,2060,531,2017,5080,5011,5051,5001,5057,5058,5056,50?=
+ =?us-ascii?Q?52,906,5054,5010,5055,5059,5053,5002,5003,5005,5070;MIPC0=3D?=
+ =?us-ascii?Q?;REP=3D01,1,0\;01,2,0\;01,3,0\;01,4,0\;01,5,0\;01,6,0\;01,7,?=
+ =?us-ascii?Q?0\;01,8,175\;01,9,0\;01,10,0\;01,11,0\;01,12,175\;02,1,0\;02?=
+ =?us-ascii?Q?,2,0\;02,3,0\;02,4,0\;02,5,177\;02,6,0\;02,7,0;SL=3D1;EMSL?=
+ =?us-ascii?Q?=3D1;SCL=3D1;BL=3D0;RL=3D1;PID=3D0;EXPID=3D;TIP=3DNotListed;?=
+ =?us-ascii?Q?CIPCRY=3DGB;SAUTHOP=3D1;RMX=3DMimecast;A=3D00;MX=3D00;PTR=3D?=
+ =?us-ascii?Q?02;SPF=3D051b3BzQG5heWFmdW5kLmNvbQ=3D=3D;DKIM=3D00Y29ycDE5MD?=
+ =?us-ascii?Q?MuX2RvbWFpbmtleS5ib2ZhLmNvbQ=3D=3D\;dj1ES0lNMTtrPXJzYTtwPU1J?=
+ =?us-ascii?Q?R2ZNQTBHQ1NxR1NJYjNEUUVCQVFVQUE0R05BRENCaVFLQmdRRFhuT0ErV2I0?=
+ =?us-ascii?Q?U2VvK0R6RVQxbVJhYnFaa0JmZ0Q5UUlsZlJIMTZqMVpxZW00a0xlVmxHaU1L?=
+ =?us-ascii?Q?ajZuSDc5ZW8xZDNHS3dVTTJDcnh0ei9vbDE2d09yK3FKV2ZOdjVXdjNiY3Zl?=
+ =?us-ascii?Q?Q2N2ZHRpeUZjWHh3L0xUTUdMOURUcU14elpES0JWc2phNDZUaVRDRmlTZ0Fl?=
+ =?us-ascii?Q?ME1uMVhGUmtmY3IwTFNOSUg0RDVTclI1aWFOd0lEQVFBQg=3D=3D;DMARC?=
+ =?us-ascii?Q?=3D00Ym9mYS5jb20=3D\;dj1ETUFSQzE7IHA9cmVqZWN0OyBmbz0xOyBydWE?=
+ =?us-ascii?Q?9bWFpbHRvOmF1dGgucmVwb3J0X25zQGJhbmtvZmFtZXJpY2EuY29tOyBydWY?=
+ =?us-ascii?Q?9bWFpbHRvOmF1dGgucnVmQGJhbmtvZmFtZXJpY2EuY29t;AUTHRES=3D[mx.?=
+ =?us-ascii?Q?microsoft.com,1]{5,7,TgBvAG4AZQA=3D,cwBlAG4AZABlAHIAIABJAFAA?=
+ =?us-ascii?Q?IABpAHMAIAAxADgANQAuADgANAAuADkAMgAuADYAOQA=3D,cwBtAHQAcAAuA?=
+ =?us-ascii?Q?HIAYwBwAHQAVABvAEQAbwBtAGEAaQBuAA=3D=3D|bgBhAHkAYQBmAHUAbgBk?=
+ =?us-ascii?Q?AC4AbQBhAGkAbAAuAG8AbgBtAGkAYwByAG8AcwBvAGYAdAAuAGMAbwBtAA?=
+ =?us-ascii?Q?=3D=3D,cwBtAHQAcAAuAE0AYQBpAGwARgByAG8AbQA=3D|bgBhAHkAYQBmAH?=
+ =?us-ascii?Q?UAbgBkAC4AYwBvAG0A}{9,8,RgBhAGkAbAA=3D,cAA9AHIAZQBqAGUAYwB0A?=
+ =?us-ascii?Q?CAAcwBwAD0AcgBlAGoAZQBjAHQAIABwAGMAdAA9ADEAMAAwAA=3D=3D,YQBj?=
+ =?us-ascii?Q?AHQAaQBvAG4A|TwBSAGUAagBlAGMAdAA=3D,aABlAGEAZABlAHIALgBmAHIA?=
+ =?us-ascii?Q?bwBtAA=3D=3D|YgBvAGYAYQAuAGMAbwBtAA=3D=3D}{2,8,RgBhAGkAbAA?=
+ =?us-ascii?Q?=3D,YgBvAGQAeQAgAGgAYQBzAGgAIABkAGkAZAAgAG4AbwB0ACAAdgBlAHIA?=
+ =?us-ascii?Q?aQBmAHkA,aABlAGEAZABlAHIALgBkAA=3D=3D|YgBvAGYAYQAuAGMAbwBtAA?=
+ =?us-ascii?Q?=3D=3D};EIPC2=3D1904,1607,1609,1803,1608,1903,796;MIPC2=3D;S?=
+ =?us-ascii?Q?pfResult=3D5;DkimStatus=3D2;DkimSS=3D10;DmarcStatus=3D3;Dmar?=
+ =?us-ascii?Q?cAction=3D5;DmarcSkip=3D450;MFP=3D3d4fa067-f295-4094-97d2-9c?=
+ =?us-ascii?Q?7fa133481d;PReRC=3D4;FPR=3DEF886019.AC926411.4EE61A78.C8C9FA?=
+ =?us-ascii?Q?7C.200F5;URLC=5FBE=3D1;URLC=5FBEC=3D1;URLC=5FAE=3D0;UMGPV=3D?=
+ =?us-ascii?Q?2263;UMEPV=3D9999;NoDLx=3D1;CGDLxS?=
+X-MS-Exchange-Organization-Cross-Session-Cache:
+	01upported=1;BR_V=None;DIR=1;HOSFP=2107f2b4-c436-4503-b7d9-4aad971edc93;GWS_Read=V2;GUIMP_SUM=R4E4S4;SRCS=EST;HCFP=4f8a4f6e-98cc-4c57-a76b-915b81717a1c;APP=92eac53d-0540-4be3-b459-04b5ea774a64;EIO=2;IVB_DBG=D2;HMEPV=676;HMEPV2=362;HMESV=3282;HMESV2=185;SRESV=4645;BMASV=5822;BMESV=4143;BMAPV=5143;BMEPV=4886;CMASV=152;CMAPV=794;CBEBV=3362;CBEBV2=5828;CLEPV=47;URLF_DBG=DS:8;ASC=0;FFV=NSPM;FV_SCL=1;FV=NSPM;FVS=Filters;FSCL=1;TAP_EP=
+X-MS-Exchange-Organization-Processed-By-Gcc-Journaling: Journal Agent
+
+--_ffaf3cc0-ad5a-4e11-9aa8-4a94a3dd66d0_
+Content-Type: text/plain; charset=WINDOWS-1252
+Content-Transfer-Encoding: quoted-printable
+
+Please see locate response file attached.=20
+
+
+---------------------------------------------------------------------------=
+-----------------------------------------------------------------
+This is a system generated file. Please do not respond.
+---------------------------------------------------------------------------=
+-----------------------------------------------------------------
+
+----------------------------------------------------------------------
+This message, and any attachments, is for the intended recipient(s) only, m=
+ay contain information that is privileged, confidential and/or proprietary =
+and subject to important terms and conditions available at https://protect-=
+eu.mimecast.com/s/NczKCWnEzfmnZ2h6PqT8.   If you are not the intended recip=
+ient, please delete this message.
+
+--_ffaf3cc0-ad5a-4e11-9aa8-4a94a3dd66d0_
+Content-Type: application/octet-stream; name=NAYA_EMAP_loc_res_20201116.csv
+Content-Transfer-Encoding: base64
+Content-Disposition: attachment; filename="NAYA_EMAP_loc_res_20201116.csv"
+
+U0VDLFFUWV9SRVEsUkFURSxRVFlfTE9DLENPTU1FTlQNCk1FTyBHUiwyMDAwMDAwLCwsQ0FMTA0K
+QUhUIExOLDEwMDAwMDAsMC4zMDAwLDEwMDAwMDAsUGxlYXNlIHJlZmVyIHRvIExpcXVpZCBTaGFy
+ZXMgTm90aWNlDQpUQUxLIExOLDMwMDAwMDAsMC43NTAwLDMwMDAwMDAsUGxlYXNlIHJlZmVyIHRv
+IElsbGlxdWlkIFNoYXJlcyBOb3RpY2UNClVOQSBOQSwxNTAwMDAwLDAuMzUwMCwxNTAwMDAwLFBs
+ZWFzZSByZWZlciB0byBJbGxpcXVpZCBTaGFyZXMgTm90aWNlDQpJTEQgRlAsMjAwMDAwLDAuMzUw
+MCwyMDAwMDAsUGxlYXNlIHJlZmVyIHRvIExpcXVpZCBTaGFyZXMgTm90aWNlDQpMU0UgTE4sNTAw
+MDAwLDAuMzAwMCw1MDAwMDAsUGxlYXNlIHJlZmVyIHRvIExpcXVpZCBTaGFyZXMgTm90aWNlDQpF
+U05UIExOLDEwMDAwMDAsMC4zMDAwLDEwMDAwMDAsUGxlYXNlIHJlZmVyIHRvIExpcXVpZCBTaGFy
+ZXMgTm90aWNlDQpURUNOIFNXLDUwMDAwMCwwLjM1MDAsMjc2NzY1LFBsZWFzZSByZWZlciB0byBJ
+bGxpcXVpZCBTaGFyZXMgTm90aWNlDQpBTEZBIFNTLDEwMDAwMDAsMC4zNTAwLDEwMDAwMDAsUGxl
+YXNlIHJlZmVyIHRvIExpcXVpZCBTaGFyZXMgTm90aWNlIDsgUmVzdHJpY3RlZCBmb3IgU3ludGhl
+dGljIFRyYWRpbmcNCkJSQlkgTE4sMzAwMDAwMCwwLjMwMDAsMzAwMDAwMCxQbGVhc2UgcmVmZXIg
+dG8gTGlxdWlkIFNoYXJlcyBOb3RpY2UNCkRTViBEQywyMDAwMDAwLDAuMzUwMCwxNzMzOTMwLFBs
+ZWFzZSByZWZlciB0byBMaXF1aWQgU2hhcmVzIE5vdGljZQ0KR1RPIE5BLDU5MDAwMCwsLENBTEwN
+Ck1LUyBMTiwxMDAwMDAwMCwwLjMwMDAsMTAwMDAwMDAsUGxlYXNlIHJlZmVyIHRvIExpcXVpZCBT
+aGFyZXMgTm90aWNlDQpHUkYgU00sMTUwMDAwLDAuMzUwMCwxNTAwMDAsUGxlYXNlIHJlZmVyIHRv
+IExpcXVpZCBTaGFyZXMgTm90aWNlDQpBSVIgRlAsMzAwMDAwLDAuMzUwMCwzMDAwMDAsUGxlYXNl
+IHJlZmVyIHRvIExpcXVpZCBTaGFyZXMgTm90aWNlDQpLTkVCViBGSCwxMTAwMDAsMC4zNTAwLDEx
+MDAwMCxQbGVhc2UgcmVmZXIgdG8gTGlxdWlkIFNoYXJlcyBOb3RpY2UNCklDQSBTUywyMDAwMDAs
+MC4zNTAwLDIwMDAwMCxQbGVhc2UgcmVmZXIgdG8gTGlxdWlkIFNoYXJlcyBOb3RpY2UNCkRNR1Qg
+TE4sNDAwMDAwMCwwLjMwMDAsNDY2OTkwLFBsZWFzZSByZWZlciB0byBMaXF1aWQgU2hhcmVzIE5v
+dGljZQ0KQ0FWMVYgRkgsNjAwMDAwMCwwLjM1MDAsNTk2NjcwLFBsZWFzZSByZWZlciB0byBMaXF1
+aWQgU2hhcmVzIE5vdGljZQ0KU0JSWSBMTiwyMDAwMDAwMCwwLjMwMDAsMjAwMDAwMDAsUGxlYXNl
+IHJlZmVyIHRvIExpcXVpZCBTaGFyZXMgTm90aWNlDQpWQ1QgTE4sMjAwMDAwMCwwLjMwMDAsODgz
+MDk1LFBsZWFzZSByZWZlciB0byBMaXF1aWQgU2hhcmVzIE5vdGljZQ0KTVRPIExOLDk1MDAwLDAu
+NzUwMCw5NTAwMCxQbGVhc2UgcmVmZXIgdG8gSWxsaXF1aWQgU2hhcmVzIE5vdGljZQ0KRFNZIEZQ
+LDgwMDAwMCwwLjM1MDAsODAwMDAwLFBsZWFzZSByZWZlciB0byBMaXF1aWQgU2hhcmVzIE5vdGlj
+ZQ0KRUtUQUIgU1MsMzMwMDAwLDAuMzUwMCwzMzAwMDAsUGxlYXNlIHJlZmVyIHRvIExpcXVpZCBT
+aGFyZXMgTm90aWNlDQpTSUUgR1IsNjAwMDAwLDAuMzUwMCw2MDAwMDAsUGxlYXNlIHJlZmVyIHRv
+IExpcXVpZCBTaGFyZXMgTm90aWNlDQpTQUYgRlAsMjc1MDAwLDAuMzUwMCwyNzUwMDAsUGxlYXNl
+IHJlZmVyIHRvIExpcXVpZCBTaGFyZXMgTm90aWNlDQpBTFYgR1IsMjUwMDAwLDAuMzUwMCwyNTAw
+MDAsUGxlYXNlIHJlZmVyIHRvIExpcXVpZCBTaGFyZXMgTm90aWNlDQpIRVhBQiBTUywxNzAwMDAw
+LDAuMzUwMCwxNzAwMDAwLFBsZWFzZSByZWZlciB0byBMaXF1aWQgU2hhcmVzIE5vdGljZQ0KR04g
+REMsMjIwMDAwMCwwLjM1MDAsMTg3NDA2NSxQbGVhc2UgcmVmZXIgdG8gTGlxdWlkIFNoYXJlcyBO
+b3RpY2UNClRJVCBJTSwyMDAwMDAwMCwwLjM1MDAsMjAwMDAwMDAsUGxlYXNlIHJlZmVyIHRvIExp
+cXVpZCBTaGFyZXMgTm90aWNlDQpUS0EgR1IsOTAwMDAwLCwsQ0FMTCA7IFBsZWFzZSByZWZlciB0
+byBJbGxpcXVpZCBTaGFyZXMgTm90aWNlDQpURUYgU00sNTAwMDAwMCwwLjM1MDAsNTAwMDAwMCxQ
+bGVhc2UgcmVmZXIgdG8gTGlxdWlkIFNoYXJlcyBOb3RpY2UNClNBTkQgU1MsMjAwMDAwMCwwLjM1
+MDAsMjAwMDAwMCxQbGVhc2UgcmVmZXIgdG8gTGlxdWlkIFNoYXJlcyBOb3RpY2UNClNBWiBHUiwx
+NTAwMDAwLCwsQ0FMTA0KVUhSIFZYLDE1MDAwMCwsLENBTEwNClJEU0IgTE4sMzAwMDAwMCwwLjMw
+MDAsMzAwMDAwMCxQbGVhc2UgcmVmZXIgdG8gTGlxdWlkIFNoYXJlcyBOb3RpY2UNCkFSWU4gVlgs
+MTAwMDAwMCwsLENBTEwNCkNMTE4gTE4sMTAwMDAwMCwsLENBTEwgOyBQbGVhc2UgcmVmZXIgdG8g
+SWxsaXF1aWQgU2hhcmVzIE5vdGljZSA7IFJlc3RyaWN0ZWQgZm9yIFN5bnRoZXRpYyBUcmFkaW5n
+DQpUSVRSIElNLDIwMDAwMDAwLDAuMzUwMCwyMDAwMDAwMCxQbGVhc2UgcmVmZXIgdG8gTGlxdWlk
+IFNoYXJlcyBOb3RpY2UNCkFUQyBOQSwxMjAwMDAwLDAuMzUwMCwxMjAwMDAwLFBsZWFzZSByZWZl
+ciB0byBMaXF1aWQgU2hhcmVzIE5vdGljZQ0KU1RMIE5PLDIwMDAwMDAsLCxDQUxMDQpVQk0gTE4s
+NzUwMDAwMCwsLENBTEwNCk5FU1RFIEZILDIyMDAwMDAsMC4zNTAwLDIyMDAwMDAsUGxlYXNlIHJl
+ZmVyIHRvIExpcXVpZCBTaGFyZXMgTm90aWNlDQpCTUUgU00sMTAwMDAwLCwsQ0FMTCA7IFJlc3Ry
+aWN0ZWQgZm9yIFN5bnRoZXRpYyBUcmFkaW5nDQpQRkMgTE4sMTAwMDAwMCwwLjc1MDAsOTYwNzU2
+LFBsZWFzZSByZWZlciB0byBJbGxpcXVpZCBTaGFyZXMgTm90aWNlDQpBVE8gRlAsODAwMDAwLDAu
+MzUwMCw4MDAwMDAsUGxlYXNlIHJlZmVyIHRvIExpcXVpZCBTaGFyZXMgTm90aWNlDQpWT0QgU0os
+NjAwMDAwLDAuNzUwMCw2MDAwMDAsR0MNCk1MIEZQLDQwMDAwMCwwLjM1MDAsNDAwMDAwLFBsZWFz
+ZSByZWZlciB0byBMaXF1aWQgU2hhcmVzIE5vdGljZQ0KVE9EIElNLDExMDAwMCw5LjI1MDAsMzEy
+NSxQbGVhc2UgcmVmZXIgdG8gSWxsaXF1aWQgU2hhcmVzIE5vdGljZQ0KQk4gRlAsMTEwMDAwMCww
+LjM1MDAsMTEwMDAwMCxQbGVhc2UgcmVmZXIgdG8gTGlxdWlkIFNoYXJlcyBOb3RpY2UNCldPVyBB
+VSwyMDAwMDAsMC4zNTAwLDIwMDAwMCxHQw0KV0RJIEdSLDEwMDAwMCwsLENBTEwgOyBQbGVhc2Ug
+cmVmZXIgdG8gSWxsaXF1aWQgU2hhcmVzIE5vdGljZQ0KRUkgRlAsNjAwMDAwLCwsQ0FMTA0KSFBI
+VCBTUCw0NTAwMDAwMCwwLjcwMDAsNzE4NTQ0NywzDQpWSVYgRlAsMTAwMDAwMCwwLjM1MDAsMTAw
+MDAwMCxQbGVhc2UgcmVmZXIgdG8gTGlxdWlkIFNoYXJlcyBOb3RpY2UNCktFUiBGUCw0MDAwMCww
+LjM1MDAsNDAwMDAsUGxlYXNlIHJlZmVyIHRvIExpcXVpZCBTaGFyZXMgTm90aWNlDQpUREMgREMs
+MzYwMDAwMCwsLENBTEwNCg==
+--_ffaf3cc0-ad5a-4e11-9aa8-4a94a3dd66d0_--
+
+--_43030d0b-d225-46f8-b179-4775db5b43ac_--

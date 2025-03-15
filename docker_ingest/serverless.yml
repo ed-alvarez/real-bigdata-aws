@@ -1,0 +1,109 @@
+service: docker
+configValidationMode: error
+frameworkVersion: "3"
+
+provider:
+  name: aws
+  runtime: python3.8
+  lambdaHashingVersion: 20201221
+  stage: ${opt:stage,'dev'}
+  deploymentBucket:
+    name: big-data-aws-test-bucket
+  ecr:
+    images:
+      tika-python-app:
+        path: ./
+  deploymentPrefix: ${sls:stage}-${self:service}
+  region: ${env:AWS_Region, 'eu-west-1'}
+
+  iamRoleStatements:
+  - Effect: Allow
+    Action:
+    - s3:*
+    Resource:
+    - "arn:aws:s3:::*"
+
+  - Effect: "Allow"
+    Action:
+    - sns:Publish
+    Resource:
+    - !Sub "arn:aws:sns:${self:provider.region}:${AWS::AccountId}:${param:alertDispatchTopic}"
+
+  - Effect: "Allow"
+    Action:
+    - states:StartExecution
+    - states:DescribeExecution
+    Resource:
+    - !Sub "arn:aws:states:${self:provider.region}:${AWS::AccountId}:stateMachine:${sls:stage}-ingest-${self:service}-state-machine"
+
+params:
+  default:
+    alertDispatchTopic: ${self:service}-alert-dispatch-${sls:stage}
+    LOGGING_LEVEL: DEBUG
+    STAGE: ${sls:stage}
+
+functions:
+  fnGetIDs:
+    name: ${sls:stage}-docker-fn-get-ids
+    handler: src.get_ids.lambda_handler
+    onError: !Sub "arn:aws:sns:${AWS::Region}:${AWS::AccountId}:${param:alertDispatchTopic}"
+    environment:
+      LOGGING_LEVEL: ${param:LOGGING_LEVEL}
+      STAGE: ${param:STAGE}
+    package:
+      patterns:
+      - "./src/**"
+
+  fnProcess:
+    name: ${sls:stage}-docker-fn-process-ids
+    image:
+      name: tika-python-app
+      command:
+      - src.process.lambda_handler
+    onError: !Sub "arn:aws:sns:${AWS::Region}:${AWS::AccountId}:${param:alertDispatchTopic}"
+    environment:
+      LOGGING_LEVEL: ${param:LOGGING_LEVEL}
+      STAGE: ${param:STAGE}
+      TIKA_SERVER_JAR: "file:///opt/tika-server.jar"
+      TIKA_JAVA: "/opt/lib/jvm/java-1.8.0-openjdk-1.8.0.252.b09-2.lambda2.0.1.x86_64/jre/bin/java"
+    package:
+      patterns:
+      - "./src/**"
+
+resources: # CloudFormation template syntax from here on.
+  Resources:
+    AlarmTopic:
+      Type: AWS::SNS::Topic
+      Properties:
+        DisplayName: "${sls:stage} MS Teams Alerts"
+        TopicName: ${param:alertDispatchTopic}
+
+    EmailSubscription:
+      Type: AWS::SNS::Subscription
+      Properties:
+        Protocol: email
+        TopicArn: !Ref AlarmTopic
+        Endpoint: adrian@fingerprint-supervision.com
+
+package:
+  individually: true
+  patterns:
+  - "!/venv"
+  - "./**"
+
+plugins:
+- serverless-stage-manager
+- serverless-python-requirements
+- serverless-step-functions
+
+custom:
+  pythonRequirements:
+    dockerizePip: non-linux
+    layer: false
+    usePipenv: false
+    useStaticCache: false
+    useDownloadCache: false
+    slim: false
+
+  stages:
+  - dev

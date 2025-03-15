@@ -1,0 +1,1039 @@
+Return-Path: <JournalFail@mirabella.uk>
+Received: from GBR01-CWL-obe.outbound.protection.outlook.com (mail-cwlgbr01lp2057.outbound.protection.outlook.com [104.47.20.57])
+ by inbound-smtp.eu-west-1.amazonaws.com with SMTP id vv795335m9fr38mcmjjiob4cll608f0t0dnftg01
+ for mirabella@ip-sentinel.net;
+ Tue, 22 Sep 2020 22:23:23 +0000 (UTC)
+Received-SPF: pass (spfCheck: domain of mirabella.uk designates 104.47.20.57 as permitted sender) client-ip=104.47.20.57; envelope-from=JournalFail@mirabella.uk; helo=mail-cwlgbr01lp2057.outbound.protection.outlook.com;
+Authentication-Results: amazonses.com;
+ spf=pass (spfCheck: domain of mirabella.uk designates 104.47.20.57 as permitted sender) client-ip=104.47.20.57; envelope-from=JournalFail@mirabella.uk; helo=mail-cwlgbr01lp2057.outbound.protection.outlook.com;
+ dmarc=none header.from=enfusionsystems.com;
+X-SES-RECEIPT: AEFBQUFBQUFBQUFGK0QwRU91R0Fkam1FV09sMDdXZFJIYkJuUGUraGZ5OGRtSUoxOHJLbmYyM2NId3huaE85Vm5YdUdpckNuSmZRMlJ6bzl6S2ZuMkRsZVBYNGUvdnJrdThDTGhhRU1jWTl1VTMxSlFaUGNUa0JtWFU2amhOU0RDT25DbHV4c3QrL2lhK2VJRWRhcXkxSWRvbW1wSXNRb2EwYlZ0aEZLYTRxSmZ1ZFBJRkhxbzNnRnJXNCtFelVPNzk3S2FtUCtJVDM1UG0wS1hwY1hvR1RHR1NMZnJjNE1hNmxxZ1VPWUEySDExczJWV0NibVpocVhiSG41ZnlSVCthWCtWaTNIVEY4RGtYd1B6Qm1RTTFXMUdwU29LeEtOOTJja0lFOEkrdEd6NTgrWEpPUW5MQW4ydEZpWTh3MHB3T1FhNW5UWFEyV0U9
+X-SES-DKIM-SIGNATURE: a=rsa-sha256; q=dns/txt; b=k74c2HZ/5/vR1VCmoZnvdQNYOW6Hsi7+uwWRtkkLYpNqSN1bobtP6+0r29rICOMK0em9Tszmu1q54lccLUaOpSetp3SHpm96R/lrnV+wPdVoZ31m9OhgUE4bBrGOUGmU7PE6xcpW48SWmU4W7I4bHt8FA0u44F5jBtjvunWF/Qs=; c=relaxed/simple; s=shh3fegwg5fppqsuzphvschd53n6ihuv; d=amazonses.com; t=1600813403; v=1; bh=sXWrjifNfDNgoDFu2g/UWqEy/PCbHY+EOH4/Xldg/5k=; h=From:To:Cc:Bcc:Subject:Date:Message-ID:MIME-Version:Content-Type:X-SES-RECEIPT;
+Content-Type: multipart/mixed;
+	boundary="_0a7a14cb-ae72-4fe1-b3f4-508ddf67b7cd_"
+Subject: [EXTERNAL] System 2 - Mirabella Equity & Credit Limits Report
+To: zshah@enfusionsystems.com, risk@mirabella.co.uk,
+	luke.macdonald@system2capital.com, max.veneziani@system2capital.com
+From: No Reply <noreply@enfusionsystems.com>
+MIME-Version: 1.0
+Sender:
+	<MicrosoftExchange329e71ec88ae4615bbc36ab6ce41109e@mirabella.onmicrosoft.com>
+Message-ID: <a9bf54ab-7c58-4898-b32e-38fe72a4b032@journal.report.generator>
+Date: Tue, 22 Sep 2020 22:23:23 +0000
+X-MS-PublicTrafficType: Email
+X-MS-Journal-Report:
+X-MS-Exchange-Parent-Message-Id:
+	<20200922222316.GA31540@jenkins-slave12.chi.enfusionsystems.com>
+Auto-Submitted: auto-generated
+X-MS-Exchange-Generated-Message-Source: Journal Agent
+X-MS-TrafficTypeDiagnostic: CWXP265MB1927:JournalingReport
+X-LD-Processed: 2e3cadcd-0cf8-419d-86a0-e17d7f408117,ExtAddr
+X-OriginatorOrg: mirabella.onmicrosoft.com
+X-MS-Exchange-CrossTenant-AuthSource: CWXP265MB1927.GBRP265.PROD.OUTLOOK.COM
+X-MS-Exchange-CrossTenant-AuthAs: Internal
+X-MS-Exchange-CrossTenant-Network-Message-Id:
+	052ec8b7-dd03-42ac-ac85-08d85f461e1c
+X-MS-Exchange-CrossTenant-FromEntityHeader: Hosted
+X-MS-Exchange-Transport-CrossTenantHeadersStamped: CWXP265MB1927
+
+--_0a7a14cb-ae72-4fe1-b3f4-508ddf67b7cd_
+Content-Type: text/plain; charset="us-ascii"
+Content-Transfer-Encoding: 7bit
+
+Sender: noreply@enfusionsystems.com
+Subject: [EXTERNAL] System 2 - Mirabella Equity & Credit Limits Report
+Message-Id: <20200922222316.GA31540@jenkins-slave12.chi.enfusionsystems.com>
+Recipient: elisap@mirabella.co.uk, Expanded: risk@mirabella.co.uk
+Recipient: MariaS@mirabella.co.uk, Expanded: risk@mirabella.co.uk
+Recipient: mariaab@mirabella.co.uk, Expanded: risk@mirabella.co.uk
+Recipient: MichelaS@mirabella.co.uk, Expanded: risk@mirabella.co.uk
+Recipient: petyab@mirabella.co.uk, Expanded: risk@mirabella.co.uk
+Recipient: ryanf@mirabella.co.uk, Expanded: risk@mirabella.co.uk
+Recipient: elizabethm@mirabella.co.uk, Expanded: risk@mirabella.co.uk
+Recipient: OwenC@mirabella.co.uk, Expanded: risk@mirabella.co.uk
+Recipient: AntonellaC@mirabella.co.uk, Expanded: risk@mirabella.co.uk
+Recipient: gabrielf@mirabella.co.uk, Expanded: risk@mirabella.co.uk
+Recipient: nicholaic@mirabella.co.uk, Expanded: risk@mirabella.co.uk
+Recipient: georgec@mirabella.co.uk, Expanded: risk@mirabella.co.uk
+Recipient: bravo@mirabella.co.uk, Expanded: risk@mirabella.co.uk
+
+--_0a7a14cb-ae72-4fe1-b3f4-508ddf67b7cd_
+Content-Type: message/rfc822
+
+Received: from DB6PR07CA0061.eurprd07.prod.outlook.com (2603:10a6:6:2a::23) by
+ CWXP265MB1927.GBRP265.PROD.OUTLOOK.COM (2603:10a6:400:7e::11) with Microsoft
+ SMTP Server (version=TLS1_2, cipher=TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384) id
+ 15.20.3391.11; Tue, 22 Sep 2020 22:23:21 +0000
+Received: from DB5EUR03FT052.eop-EUR03.prod.protection.outlook.com
+ (2603:10a6:6:2a:cafe::7e) by DB6PR07CA0061.outlook.office365.com
+ (2603:10a6:6:2a::23) with Microsoft SMTP Server (version=TLS1_2,
+ cipher=TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384) id 15.20.3412.4 via Frontend
+ Transport; Tue, 22 Sep 2020 22:23:21 +0000
+Authentication-Results: spf=softfail (sender IP is 195.130.217.221)
+ smtp.mailfrom=enfusionsystems.com; mirabella.co.uk; dkim=none (message not
+ signed) header.d=none;mirabella.co.uk; dmarc=none action=none
+ header.from=enfusionsystems.com;compauth=softpass reason=201
+Received-SPF: SoftFail (protection.outlook.com: domain of transitioning
+ enfusionsystems.com discourages use of 195.130.217.221 as permitted sender)
+Received: from eu-smtp-1.mimecast.com (195.130.217.221) by
+ DB5EUR03FT052.mail.protection.outlook.com (10.152.21.82) with Microsoft SMTP
+ Server (version=TLS1_2, cipher=TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384) id
+ 15.20.3391.15 via Frontend Transport; Tue, 22 Sep 2020 22:23:20 +0000
+ARC-Message-Signature: i=1; a=rsa-sha256; c=relaxed/relaxed;
+	d=dkim.mimecast.com; s=201903; t=1600813400;
+	h=from:from:reply-to:subject:subject:date:date:message-id:message-id:
+	 to:to:cc:mime-version:mime-version:content-type:content-type;
+	bh=zHC+LheYE2C1nHez028M4079HNdnG5eQAPhJQYRjUKc=;
+	b=qtG3BKLD3Z+/w2UywxdKH9GczXdJqWWKzbAQzbbE2CP8hXMEwlKLXqwAeYgjv5Foe0+17q
+	SsSIiWTKFgu4NkSo8wpLULGtzWLWLLWnemTNK+bpwuNszxRlRPmV3VshiLnOYvThOaSCul
+	X3KOWxrmlSdAxHJ5LdYG2i9boQB9s0D/60qzDyYfBdTwpd1s9u+H9UvVQqhBm8Z2XnMx8l
+	41GfPktBhKgr3DXtHVuS3tpPCh8LLY2M5uAJiQQplUGP0lOfZLGIaYt7MAfCiKz4JdEWxn
+	V7UJlomaUpUlkepw7IsmLF3kgzLVftbbt76oW54KDgLLiEpOGWcYR2HA3NJhmw==
+ARC-Seal: i=1; s=201903; d=dkim.mimecast.com; t=1600813400; a=rsa-sha256;
+	cv=none;
+	b=mxTcTwHjFoCnRdL845Vs6o+Wwn0+XWuOBI5FykyczHNNLbPLm4LZ035gDiSrCtWsKbgg6X
+	gOW1oAGa8Q5Wuzk+F7edWi1N4erRbD5X+T44jqQt/VDrlLIHn/OKxUEKghrWhXg/6md5HA
+	11E41CsJhbrgz5D1VWANGyhO+VISuEHtCQXQF8+hpAzIVwGxAGJUdKJRraJ9Wj6/Fu5gIM
+	HvE85NswNC2x0k8ehYcnLBpf9FE+79bGzD3DgzXTD6v0AQCVUVocx4wnqBdkCCk/1BKnpT
+	oV5AtqPRvhgBPFo/3P4VOnm9bVy9BZ33ItPy20VWLL3qVGuUDujvk+S9PMa4/A==
+ARC-Authentication-Results: i=1;
+	relay.mimecast.com;
+	dkim=none;
+	dmarc=none;
+	spf=softfail (relay.mimecast.com: 204.153.139.3 is neither permitted nor denied by domain of noreply@enfusionsystems.com) smtp.mailfrom=noreply@enfusionsystems.com
+Received: from jenkins-slave12.chi.enfusionsystems.com
+ (fw.chi.enfusionsystems.com [204.153.139.3]) (Using TLS) by
+ relay.mimecast.com with ESMTP id uk-mta-130-nIBcYR-6OTytAovGNFrCXw-1; Tue,
+ 22 Sep 2020 23:23:17 +0100
+X-MC-Unique: nIBcYR-6OTytAovGNFrCXw-1
+Received: by jenkins-slave12.chi.enfusionsystems.com (Postfix, from userid 500)
+	id 7BE3A200D85DD; Tue, 22 Sep 2020 17:23:16 -0500 (CDT)
+Date: Tue, 22 Sep 2020 23:23:16 +0100
+From: No Reply <noreply@enfusionsystems.com>
+To: zshah@enfusionsystems.com, risk@mirabella.co.uk,
+	luke.macdonald@system2capital.com, max.veneziani@system2capital.com
+Subject: [EXTERNAL] System 2 - Mirabella Equity & Credit Limits Report
+Message-ID: <20200922222316.GA31540@jenkins-slave12.chi.enfusionsystems.com>
+MIME-Version: 1.0
+User-Agent: Mutt/1.5.21 (2010-09-15)
+Authentication-Results-Original: relay.mimecast.com;	dkim=none;	dmarc=none;
+	spf=softfail (relay.mimecast.com: 204.153.139.3 is neither permitted nor
+ denied by domain of noreply@enfusionsystems.com)
+ smtp.mailfrom=noreply@enfusionsystems.com
+X-Mimecast-Spam-Score: 1
+Content-Type: multipart/mixed;
+	boundary="_9242e187-b114-4cb7-a70b-b09d66da8105_"
+Content-Disposition: inline
+Return-Path: noreply@enfusionsystems.com
+X-MS-Exchange-Organization-OriginalArrivalTime: 22 Sep 2020 22:23:20.7953
+ (UTC)
+X-MS-Exchange-Organization-ExpirationStartTime: 22 Sep 2020 22:23:20.8667
+ (UTC)
+X-MS-Exchange-Organization-ExpirationStartTimeReason: OriginalSubmit
+X-MS-Exchange-Organization-ExpirationInterval: 1:00:00:00.0000000
+X-MS-Exchange-Organization-ExpirationIntervalReason: OriginalSubmit
+X-MS-Exchange-Organization-Network-Message-Id: 057ca427-340f-491e-1120-08d85f461cd0
+X-MS-Exchange-Organization-OriginalClientIPAddress: 195.130.217.221
+X-MS-Exchange-Organization-OriginalServerIPAddress: 10.152.21.82
+X-MS-Exchange-Organization-MessageScope: 7f9ca305-828b-4006-a716-336d78258d1e
+X-EOPAttributedMessage: 0
+X-EOPTenantAttributedMessage: 2e3cadcd-0cf8-419d-86a0-e17d7f408117:0
+X-MS-Exchange-Organization-TargetResourceForest: GBRP265.PROD.OUTLOOK.COM
+X-MS-Exchange-Organization-OrgEopForest: EUR03
+X-MS-Exchange-Organization-MessageDirectionality: Incoming
+X-MS-Exchange-Organization-Id: 2e3cadcd-0cf8-419d-86a0-e17d7f408117
+X-MS-Exchange-Organization-MessageInboundConnectorType: Partner
+X-MS-Exchange-Organization-MessageInboundConnectorName: Mimecast to Office 365
+X-MS-Exchange-Organization-Base64-MessageInboundConnectorData: TgBhAG0AZQA9AE0AaQBtAGUAYwBhAHMAdAAgAHQAbwAgAE8AZgBmAGkAYwBlACAAMwA2ADUAOwBDAG8AbgBuAGUAYwB0AG8AcgBUAHkAcABlAD0AUABhAHIAdABuAGUAcgA7AFQAZQBuAGEAbgB0AEkAZAA9ADIAZQAzAGMAYQBkAGMAZAAtADAAYwBmADgALQA0ADEAOQBkAC0AOAA2AGEAMAAtAGUAMQA3AGQANwBmADQAMAA4ADEAMQA3AA==
+X-MS-Exchange-Organization-MessageInboundConnectorData: Name=Mimecast to
+ Office
+ 365;ConnectorType=Partner;TenantId=2e3cadcd-0cf8-419d-86a0-e17d7f408117
+X-MS-Exchange-Organization-InboundConnector-Attributes: id=c3bcf868-ff6c-4b8f-0c4b-08d5284caead;ty=2;idh=75ccae90-8f67-2d18-6aab-4136f051c510;cr=1047;ch=1043;tl=1;mi=0;
+X-MS-Exchange-Organization-FFO-ServiceTag: EUR03B
+X-MS-Exchange-Organization-TenantServiceProvider: Mimecast
+X-MS-Exchange-Organization-SkipListedRecipientPilot: True
+X-MS-Exchange-Organization-Cross-Premises-Headers-Processed: DB5EUR03FT052.eop-EUR03.prod.protection.outlook.com
+X-MS-Exchange-Organization-ConnectingIP: 195.130.217.221
+X-MS-Exchange-Organization-ConnectingEHLO: eu-smtp-1.mimecast.com
+X-MS-Exchange-Organization-AS-LastExternalIp: 195.130.217.221
+X-MS-Exchange-Organization-Originating-Country: GB
+X-MS-Exchange-Organization-P2SenderPII: <PII:H101(04rhTzukkjFBfNQ+eOEROCTyocMLSoPtm39VswS26uc=)>@enfusionsystems.com
+X-MS-Exchange-Organization-OriginalEnvelopeRecipients: risk@mirabella.co.uk
+X-MS-Exchange-Organization-PtrDomains: eu-smtp-delivery-1.mimecast.com
+X-MS-Exchange-Organization-EhloAndPtrDomain: eu-smtp-1.mimecast.com;eu-smtp-delivery-1.mimecast.com
+X-MS-Exchange-Organization-MxPointsToUs: false
+X-MS-Exchange-Organization-RecipientMxInfo-PFAFD: mirabella.co.uk#eu-smtp-inbound-1.mimecast.com
+X-MS-Exchange-Organization-CompAuthRes: none
+X-MS-Exchange-Organization-CompAuthReason: 300
+X-MS-Exchange-Organization-SpoofDetection-Frontdoor-DisplayDomainName: enfusionsystems.com
+X-MS-Exchange-Organization-SenderRep-Score: 3
+X-MS-Exchange-Organization-SenderRep-Data: IpClassLargeGrayOther_GrayOther_GrayBest
+X-MS-Exchange-Organization-VBR-Class: GrayOther
+X-MS-Exchange-Organization-HMATPModel-Spf: 3
+X-MS-Exchange-Organization-HMATPModel-Recipient: <PII:H101(YFZ1mF1U2/GbaUArXUivkSAC7aLEEWSAmN6mSUDh9iU=)>@mirabella.co.uk
+X-MS-Exchange-Organization-TransportTrafficType: Email
+X-MS-PublicTrafficType: Email
+X-MS-Exchange-Organization-OrderedPrecisionLatencyInProgress: LSRV=DB6PR07CA0061.eurprd07.prod.outlook.com:TOTAL-FE=0.020|SMR-PEN=0.056(RENV=0.052|SMRPROXY-PEN=0.000);2020-09-22T22:23:21.072Z
+X-MS-Exchange-Organization-MessageLatency: SRV=DB5EUR03FT052.eop-EUR03.prod.protection.outlook.com:TOTAL-FE=0.256|SMR-PEN=0.222(RENV=0.046(SMRRC=0.022)|REOH=0.175(SMREH=0.149(SMREH-Protocol
+ Filter Agent=0.147 ))|SMRPROXY-PEN=0.000)|SMS=0.034
+X-MS-Exchange-Organization-MessageLatency:
+	SRV=DB6PR07CA0061.eurprd07.prod.outlook.com:TOTAL-FE=0.109|SMR-PEN=0.056(RENV=0.052|SMRPROXY-PEN=0.000)|SMS=0.089(SMSC=0.032)
+X-MS-Exchange-Forest-ArrivalHubServer: CWXP265MB1927.GBRP265.PROD.OUTLOOK.COM
+X-MS-Exchange-Organization-AuthSource:
+	DB5EUR03FT052.eop-EUR03.prod.protection.outlook.com
+X-MS-Exchange-Organization-AuthAs: Anonymous
+X-MS-Exchange-Organization-FromEntityHeader: Internet
+X-MS-Exchange-Forest-MessageScope: 7f9ca305-828b-4006-a716-336d78258d1e
+X-MS-Exchange-Organization-Antispam-ProtocolFilterHub-ScanContext:
+	ProtocolFilterHub:SmtpOnEndOfData;
+X-MS-Office365-Filtering-Correlation-Id: 057ca427-340f-491e-1120-08d85f461cd0
+X-MS-Exchange-Organization-OriginalSize: 41744
+X-MS-TrafficTypeDiagnostic: CWXP265MB1927:
+X-MS-Exchange-Organization-HygienePolicy: Premium
+X-MS-Exchange-Organization-ReplicationInfo:
+	ReplicaId=55b14c0d-6e8c-6954-f329-f71c465fd808;ReplicatingServerFqdn=CWLP265MB1924.GBRP265.PROD.OUTLOOK.COM
+X-MS-Exchange-Forest-IndexAgent-0:
+	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
+ 6oYmV59NWX/dGFZENJ7ZFTtyTMWjKo7O5seWbnLD7MwZe5ES73gMHY
+ FSReFPrU6z95kCirPzrxUrzg+o03ClWeNpGrHzhps4T7gMIDTUY6bH
+ tQIPQXEni/3R2+PSe+vuFZseALpz9m1PqTlHIGA2mVXOSG94IWvGzq
+ IexEYdqTWXwmkaOt9KBQMIuCoOZ/lqtwtrNNzvD07O/P/H1DuEp5h9
+ ZyTnAtmty71kUTFbtA6+RI4iaq44M8KxPDKsVU979AFb05YkFd4ixb
+ gooe2sqvFwxoPz7yTDVI1EaovT+TZF/aANOslqpcOVmzZ1zOyIY06b
+ 8n/4Eynxz9N/5sGXlpKISmm1bd7rSQnOXBrb+CIWs6lD+E5HmMk0d/
+ qSpeU80tJcZuHrWA/IZfIjJhu0TzDBaBuEov+CCcQsZCXY1Nu3nj5t
+ PXvS+gSf37dePGs9D39+0nr6aet3uNhoPUH5J60Xz1ufouTpRuu/tp
+ 592foDbggfFD5v/REXuA3XuPhd6yVuxgV+4/Nko/XffP34FG35Jp5/
+ 1vr8ReszXIff+PZ3rd/jg6dCT0IluA3XKAnXeeEXuEbhkw3U1nrSep
+ pfPA/l+KAq9P/L1p/wyLON5+Fbum59GirHB+2iNnT+xcZnX7ZaX278
+ 4bNW67ONz//Uav1p48/h9x9brT9u/Clcv2i10NunG89CYfhNj1Anqc
+ VQZ7naL1qtLza+rFdb/l1U+4dW6w8bfwy/i2oxsGFsKx0Ot9GzG58t
+ rDna4Wd+QKLjUK62/Gz4Pb/DqC1IKki80uGmEa7UHO0wKvQKGe/z56
+ 3W5xsvF/Y5WnPobRhqqE29iSDHJZuIDsuzvJVytdMH1xBi6PDC0V51
+ TMJErlS7vnqgw7Ah0T7X52CoMNSwTJ+fbcB6tLxlIEHSJ7c5ZOI2nj
+ cM+F/mzMSscInKG6bkUpUHe7W8XVpeQ4L1qAz1+nbpafNooMXoUP+l
+ 1frLxn/xv/9jfp/DNH/mjcn9pnm0z8FVRWdiGJAlFTv0ZCqa+bq38d
+ R7nwdQkk9WV+/lx3xh/5vEGu1/kypGtXF9JW/Uxofr/ByFD1xoVfMy
+ o1Rz619fc54s0fmm+qfKs/F5+LZU+ctHGPk5hndO5//cav154z/mzN
+ ySYX++qikLna9U/rLVernxRaXzjSM/Oz7rCHdjDeEuU//T1ss5NQfU
+ ZbMcHZxwQ7XmNXo+x+Av2fMlxySqM0uq/TpN3NuhBM33v/+ygNI0jM
+ /DDP4Swm3gk39eZtr+Smx+g/OqDlG4YaUhWlUKgcM89hT7yMZn4Sx4
+ nFY+J0/3bK0m5tqiJi2tMLegbBXmsCRz+6jjsz5FWbKJe0Rwq1LcdY
+ z2R6XoCy3eI8+4j21aP55dwifM6IZAuAohsJdVHfTDsK/1fMT6TTTJ
+ OkozHlxv1yczoeYlBR3Y7IOMT1RXgwqtRFM/SlD5cK7hX2PxHoLd/W
+ tt9frs/QHVMqo8jePzgE7/IQK0dcxmPQCZM22rAYhfj0CFqOdpq0VJ
+ rQ3Ug2+zBa8wPvUmQi4lGiBMf5cWJsKKlR/5KhZ8VaTRyjWUGyoP10
+ brycbGkzocKvcZOfpsfJoZhw001drYwHC1qCcZumdF077wWfg26EN0
+ jcBfvyx3IAirqQOoZ/k+0HLhg/bhd63f4/qTjedzUIdMcnQZrj7mhY
+ moZIxpmTXveaSVjadBgeciqjZUBlXJuza1VSwv3gNRfbHycRBBRn71
+ +dN5YlquuTmWtowL9qRx9Daekoq2nhTqt45W3ANaU3NRbvaY0OptNY
+ EKSriwlWUQPfdL/LTK09AWaftyAxgFNV0q8l7g37s58j4N6rG8Hi6j
+ G4/W0L+3vB7ZejyyHf7Yzf1rTfETzz08ZY37UNKWB51xqOTRZvejtR
+ XW95vG0M/EB2vrkUX2yM39+o3Jb8d2ffqy9UVDQ88C0bq31Gat1r9h
+ Q0FSDTpPG0fXiSxCxi93oJ/OtR7PHtR6PGpbi0zHswc1HY8KLewKnt
+ NcccP9gtxZivV4aj9H5x+koQIRbbdrRrSm1a2Aesy2Hk1Sc6bVmqpe
+ 0b3HnFaPaXVXbWudMXzMthZFf88eNPpbAG1NnY9Ai/P5dcewoocrNV
+ Rf74g2FP6cXbJ5VMWYYwYf1mKE3Fpz5m0Fvx81udN11WyLxfPnrVZ4
+ 9+cjLTg+wprmA25OWG1BedHWtbA4uMzi5sPujotmYz7SjuhiPuL384
+ 1Ps/zzYxCh+yw3Ly2Rx4fzEY3MTEP/H+YYblR4rAAAAQreATw/eG1s
+ IHZlcnNpb249IjEuMCIgZW5jb2Rpbmc9InV0Zi0xNiI/Pg0KPEVtYW
+ lsU2V0Pg0KICA8VmVyc2lvbj4xNS4wLjAuMDwvVmVyc2lvbj4NCiAg
+ PEVtYWlscz4NCiAgICA8RW1haWwgU3RhcnRJbmRleD0iOTEiPg0KIC
+ AgICAgPEVtYWlsU3RyaW5nPmhlbHBAZW5mdXNpb25zeXN0ZW1zLmNv
+ bTwvRW1haWxTdHJpbmc+DQogICAgPC9FbWFpbD4NCiAgPC9FbWFpbH
+ M+DQo8L0VtYWlsU2V0PgEOzgFSZXRyaWV2ZXJPcGVyYXRvciwxMCww
+ O1JldHJpZXZlck9wZXJhdG9yLDExLDE7UG9zdERvY1BhcnNlck9wZX
+ JhdG9yLDEwLDE7UG9zdERvY1BhcnNlck9wZXJhdG9yLDExLDA7UG9z
+ dFdvcmRCcmVha2VyRGlhZ25vc3RpY09wZXJhdG9yLDEwLDg7UG9zdF
+ dvcmRCcmVha2VyRGlhZ25vc3RpY09wZXJhdG9yLDExLDA7VHJhbnNw
+ b3J0V3JpdGVyUHJvZHVjZXIsMjAsMw==
+X-MS-Exchange-Forest-IndexAgent: 1 9256
+X-MS-Exchange-Forest-EmailMessageHash: 73441637,C8135FD8
+X-MS-Exchange-Forest-Language: en
+X-MS-Exchange-Organization-IsPotentialIntraOrgMail: False
+X-MS-Exchange-Organization-Antispam-PreContentFilter-PolicyLoadTime:
+	MAOSUB:73;MAOSUBLOAD:36;SAORES:73;SAORESLOAD:36;SLORES:36;SLORESLOAD:36;
+X-MS-Exchange-Organization-AttachmentDetailsHeaderStamp-Success: 1.0
+X-MS-Exchange-Organization-AttachmentDetails:
+	0:Ts60mvyYX+strOk49p+Rp2S/H45vrd+VDbpBd2b2Kfk=:U:Text:TWFya2V0IGFuZCBDcmVkaXQgTGltaXRzIFYyXzA5XzIyXzIwMjBfMjNfMjNfMDcuY3N2::#:False:::N:::N::N:None
+X-MS-Exchange-Organization-MessageFingerprint:
+	7C96707F.F82BEE8.4DFDB3B3.40E950C2.200A3
+X-MS-Exchange-Organization-Antispam-PreContentFilter-ScanContext:
+	CategorizerOnSubmitted;CategorizerOnResolved;
+X-MS-Exchange-Organization-AVScannedByV2: Symantec;Microsoft;Command
+X-MS-Exchange-Organization-AVScanComplete: true
+X-MS-Exchange-Organization-Recipient-Limit-Verified: True
+X-MS-Exchange-Organization-TotalRecipientCount: 14
+X-MS-Exchange-Organization-ReplyAllBlocker-Verdict: Allow
+X-MS-Exchange-Organization-ASDirectionalityType: 1
+X-MS-Exchange-Organization-Boomerang-Verdict: None
+X-MS-Exchange-Organization-HMATPModel-DkimAuthStatus: 7
+X-MS-Exchange-Organization-HMATPModel-DmarcAuthStatus: 4
+X-MS-Exchange-Organization-IsKnownDomain: 1
+X-MS-Exchange-Organization-IP-Bulk-Level: 1
+X-MS-Exchange-Organization-BCL: 1
+X-MS-Exchange-Organization-BCL-Source: P2Bulk
+X-MS-Exchange-Organization-Disclaimer-Hash:
+	869f1dfb999a452f497a4cf7f44db2d6ee661f74a9e7e05251bc1420e50672d4
+X-MS-Exchange-Organization-Rules-Execution-History:
+	eb06ab76-43d2-4ea0-b027-bb80a7c6dbc3%%%19ffb971-43e2-4353-ac82-3ca4af1149c3
+X-MS-Exchange-Organization-Rules-Execution-Log:
+	19ffb971-43e2-4353-ac82-3ca4af1149c3
+X-MS-Exchange-Forest-RulesExecuted: CWXP265MB1927
+X-MS-Exchange-Organization-RulesExecuted: CWXP265MB1927
+X-MS-Exchange-Organization-SenderRecipientCommunicationState: 1
+X-MS-Exchange-Transport-Forked: True
+X-MS-Exchange-Organization-Antispam-ContentFilter-ScanContext:
+	CategorizerOnResolved;
+X-MS-Exchange-Organization-Antiphish-V2: SKP-DLX-BLK-NOSAVE
+X-MS-Exchange-Organization-CommunicationStateSummary: EST
+X-MS-Exchange-Organization-FirstContactSummary:
+	ST=1;MRG=1;EXT=1;UN=1;ORCT=14;EV=10;FC=0;NESI=0;NES=0;ESTI=0;EST=10;INS=0;ERR=0
+X-MS-Exchange-Organization-CFA-UserOption: 0
+X-MS-Exchange-Organization-Antispam-SFASkipFiltering: true
+X-MS-Exchange-Organization-CompAuth-Eop: compauth=softpass reason=201
+X-MS-Exchange-Organization-ContainsAttachments: true
+X-MS-Exchange-Organization-Feature-Long: 0	201:243	202:218	235:2	236:7	238:4
+	243:1	244:3	245:1	246:1	247:13	248:3	252:1	256:1	257:51	1004:cabelas.com
+	1005:credit,limit	1006:contact,attach,credit,limit	1007:Latn	1014:none
+	1015:enfusionsystems.com	1020:enfusionsystems.com	1030:enfusionsystems.com
+	1033:csv
+	1034:8D2E0CE5@mirabella.co.uk,4D78BAE2@mirabella.co.uk,41511EA@mirabella.co.uk,F43C92F9@mirabella.co.uk,1BD92E0A@mirabella.co.uk,D64D793F@mirabella.co.uk,568C46A2@mirabella.co.uk,8179827D@mirabella.co.uk,DAB7965A@mirabella.co.uk,DB2A3041@mirabella.co.uk,5343EAE7@mirabella.co.uk,D537F849@mirabella.co.uk,A20CEC43@mirabella.co.uk
+	1035:enfusionsystems.com
+X-MS-Exchange-Organization-HDRFeatureV2:
+	9;65;5;0;0;0;0;0;0;0;0;0;0;4;0;0;0;0;0;0;0;0;0;0;0;0;0;0;111;325;37;1;1;1;1;1;0;1;9;9;6;37;10;6;2;3;8;4;11;6;8;8;8;11;11;3;7;4;3;-1;-1;-1;-1;-1;-1;4;35;0;1
+X-MS-Exchange-Organization-ExtractionAttachmentNames: 0
+X-MS-Exchange-Organization-ExtractionTags: SUB64;
+X-MS-Exchange-Organization-ExtractionTagsSubject: [EXTERNAL] System 2 -
+ Mirabella Equity & Credit Limits Report
+X-MS-Exchange-Organization-ExtractionTagsFrom: No Reply
+ <noreply@enfusionsystems.com>
+X-MS-Exchange-Organization-ExtractionTagsSubjectNormalized: external systern 2
+ rnlrabela equlty credlt llrnlts report
+X-MS-Oob-TLC-OOBClassifiers: OLM:2582;
+X-MS-Exchange-Organization-Antispam-PostContentFilter-ScanContext:
+	CategorizerOnResolved;CategorizerOnRouted;
+X-MS-Exchange-Organization-SCL: -1
+X-Microsoft-Antispam: BCL:1;
+X-Microsoft-Antispam-Message-Info:
+	=?us-ascii?Q?DH7hflvEmggs3Upfit34HZqRhNY7DNtHUMgdQvO/iMhMICr9D5BLQAhZj7OY?=
+ =?us-ascii?Q?giCUggsYU1v49R+nUExx6ak9o/CUVI5oGLNeTmQmx68ieIOXVwi0NUds6ckx?=
+ =?us-ascii?Q?jzwd4ytX43WUF0SwE7lKWSGGOoL1+FftmaXVaniZBOls0iLQEr+7uP60O0dA?=
+ =?us-ascii?Q?15z8YUkxYaA9od+x0bIswhY/ZfFpm9+8ukS1xFbcts1uJOIJimlNgdzmsmsl?=
+ =?us-ascii?Q?Szf6e88ubxS0BvuKtxw9dmmv2PnzB3I0K7+mfIH4eqAV+TYMbCUFrhSGTG2Z?=
+ =?us-ascii?Q?hzSRS/w+O7iwR1seeBkByGblkk0G1PdvNNKD2dCaGuGrFm5mFAcuZg9kGxBh?=
+ =?us-ascii?Q?uonb7xmntdcP0LiG5agTnQZWGtf/MwF9ISLfQHGojvyUTQSlB8CKvbgF6zTf?=
+ =?us-ascii?Q?nYNgw1OhHCiC3//QQ8DoFHTigVS1mG67Z0iZvK08PnjwEgdLpcEjlrpsZDiV?=
+ =?us-ascii?Q?DwDbvWxi1Wm3gnhuCHNqOG448jIW+JHnjSU1q8oFcIXiFGMQYLCoi0gwGE3L?=
+ =?us-ascii?Q?IoY53ca2+xJs08G6NlkE6BNgGFLUwEVpvc9I9ga+pGVzotdEjq3w/ElCUYNp?=
+ =?us-ascii?Q?rqhGgF+kYbmzl7gPFchwL4qOqtlEtrtzbBvCTjBausz8g4QIQpw+GZQjRzdR?=
+ =?us-ascii?Q?Q8ZVpvvHcwJWb7/KkIuXcaMZBUciPY9HJEfGWAfJME/n9U/gsIxrIdy42+rI?=
+ =?us-ascii?Q?oeq50F6JKxRA2D1aCVhIrJvDqVNeXI+lV+hsluu/gwmj7Ujl9XNekjnNT+76?=
+ =?us-ascii?Q?BavVpTbpDrJOj+jZW3hrmDpi8w9MtXfYd9ZOx22ugLKOiWUngAPZwCkY5SLw?=
+ =?us-ascii?Q?CrryOis0ui1mW6Tx5X44bL8DlDj7xq4PvDWMXKGQIjAvxVsOcc4CImMCYn03?=
+ =?us-ascii?Q?1b/pOlhbXFzPptUKG+SbOqr5grTYKJeQLcWW3NzOGS/EhP8nbscCSss9eKUs?=
+ =?us-ascii?Q?FCMl4U2LtSDczxPhBDTdC8HGWI20NzI8de2/QaPzbp58okqqZviw975lNi8+?=
+ =?us-ascii?Q?ySqUH0zBbZwyiJsEGOidzvwZb1m53oAtm4v/NTwu3yfE5cdAGKMkMFJv7jVL?=
+ =?us-ascii?Q?yZVe890lvwRt5HD/5KR1qqyly0Sg/TvFUX7eKLiNhE9JfZ6qll1cIPSgH+S0?=
+ =?us-ascii?Q?JlnWT69R+/JMwJRjTmeYlLbFb7zfZ7/1lpGJA3xYGIuIqWS6dAhE6VMyXbhU?=
+ =?us-ascii?Q?lh93oOXCFSyiOv98S+2+MWupaE3531kv/J2w6a75AJR2CoU7YAkuyqBfMtGu?=
+ =?us-ascii?Q?ALfcf0vVpyITsvesXgy8PO0+qAW+riebI6i59srJnVLZALvBRdhJXXRrKgru?=
+ =?us-ascii?Q?Jl8=3D?=
+X-Forefront-Antispam-Report:
+	CIP:195.130.217.221;CTRY:GB;LANG:en;SCL:-1;SRV:;IPV:CAL;SFV:SKN;H:eu-smtp-1.mimecast.com;PTR:eu-smtp-delivery-1.mimecast.com;CAT:NONE;SFS:;DIR:INB;
+X-MS-Exchange-Organization-GroupForkPerf: VCL=0;VL=38
+X-MS-Exchange-Organization-Cross-Session-Cache:
+	=?us-ascii?Q?00CIP=3D195.130.217.221;EIPC0=3D2004,2055,950,951,2005,2006,?=
+ =?us-ascii?Q?2007,2008,2009,2010,2011,2012,2013,2014,2000,2050,2051,2052,?=
+ =?us-ascii?Q?952,902,2054,2016,903,901,905,907,904,2001,3000,2003,2002,96?=
+ =?us-ascii?Q?7,2058,2059,2060,531,2017,5080,5011,5056,5051,5001,5055,5054?=
+ =?us-ascii?Q?,5057,5058,5052,5010,906,5059,5053,5027,5028,5032,5031,5035,?=
+ =?us-ascii?Q?5033,5034,5002,5003,5005,5070;MIPC0=3D2003,2004,950,952,951,?=
+ =?us-ascii?Q?5011;REP=3D;SL=3D3;EMSL=3D1;SCL=3D-1;BL=3D1;RL=3D1;PID=3D0;E?=
+ =?us-ascii?Q?XPID=3D;IsIncomingMail=3Dtrue;TIP=3DAllowList;TP=5FCPIP=3DAl?=
+ =?us-ascii?Q?low;IPV=3DCAL;IPB=5FSkip=3D1;IPT=5FSkip=3D1;CIPCRY=3DGB;SAUT?=
+ =?us-ascii?Q?HOP=3D1;RMX=3DMimecast;EIPC1=3D2004,2055,950,951,2005,2006,2?=
+ =?us-ascii?Q?007,2008,2009,2010,2011,2012,2013,2014,2000,2050,2051,2052,9?=
+ =?us-ascii?Q?52,902,2054,2016,903,901,905,907,904,2001,3000,2003,2002,967?=
+ =?us-ascii?Q?,2058,2059,2060,531,2017,5080,5011,5056,5051,5001,5055,5054,?=
+ =?us-ascii?Q?5057,5058,5052,5010,906,5059,5053,5027,5028,5032,5031,5035,5?=
+ =?us-ascii?Q?033,5034,5002,5003,5005,5070;MIPC1=3D2003,2004,950,952,951,5?=
+ =?us-ascii?Q?011,5051;A=3D00;MX=3D00;PTR=3D00eu-smtp-delivery-1.mimecast.?=
+ =?us-ascii?Q?com;SPF=3D031bm9yZXBseUBlbmZ1c2lvbnN5c3RlbXMuY29t;DKIM=3D;DM?=
+ =?us-ascii?Q?ARC=3D02ZW5mdXNpb25zeXN0ZW1zLmNvbQ=3D=3D\;;ARC=3D00MjAxOTAzL?=
+ =?us-ascii?Q?l9kb21haW5rZXkuZGtpbS5taW1lY2FzdC5jb20=3D\;dj1ES0lNMTsgaz1yc?=
+ =?us-ascii?Q?2E7IHA9TUlJQklqQU5CZ2txaGtpRzl3MEJBUUVGQUFPQ0FROEFNSUlCQ2dLQ?=
+ =?us-ascii?Q?0FRRUFzWmhSOG5aQUFZL0NwYnNHODVvUmFkM0VEeWNBQmhJYjZSYS9YWHc5V?=
+ =?us-ascii?Q?DNCRmZ5RFJySjFpOHNENkZROFdGSC8xMXBhSkpKM0JaZDZSSjZhdEczSXg0e?=
+ =?us-ascii?Q?TZvdkc4RVF3WjN6OHlCMVIrQU85aXgvMEYvR3lkeG1KdGU2RkJGWlp5akhze?=
+ =?us-ascii?Q?m1OTmlRVzJta1BRekpVL1p6NW1oWmlqTnM1MXdjaDEwc0xySHNjY2svMzdJT?=
+ =?us-ascii?Q?DVVNTgxNkpIVlY2TjJLbDJDZncyOXkzdWIrbHE5SnRDMWIwWnAvZGdUOHJDW?=
+ =?us-ascii?Q?k0wS1NNM0JsVVhibStCYk5HUXExOGVTUlpab2ROaXZUMTNUdFpQcUtUM0dEY?=
+ =?us-ascii?Q?zl1N2w4ZG9iREpUdGpPNnhBa3dvS1RZMWszN28zVW1IK005T3VGbStYUlo1N?=
+ =?us-ascii?Q?DNGWUdYVGU2MnJjZWtlWWFCYkxFZm1mRG1ia3VxeXdJREFRQUI=3D;AUTHRE?=
+ =?us-ascii?Q?S=3D[mx.microsoft.com,1]{5,3,UwBvAGYAdABGAGEAaQBsAA=3D=3D,cw?=
+ =?us-ascii?Q?BlAG4AZABlAHIAIABJAFAAIABpAHMAIAAxADkANQAuADEAMwAwAC4AMgAxAD?=
+ =?us-ascii?Q?cALgAyADIAMQA=3D,cwBtAHQAcAAuAHIAYwBwAHQAVABvAEQAbwBtAGEAaQB?=
+ =?us-ascii?Q?uAA=3D=3D|bQBpAHIAYQBiAGUAbABsAGEALgBjAG8ALgB1AGsA,cwBtAHQAc?=
+ =?us-ascii?Q?AAuAE0AYQBpAGwARgByAG8AbQA=3D|ZQBuAGYAdQBzAGkAbwBuAHMAeQBzAH?=
+ =?us-ascii?Q?QAZQBtAHMALgBjAG8AbQA=3D}{9,7,TgBvAG4AZQA=3D,,YQBjAHQAaQBvAG?=
+ =?us-ascii?Q?4A|TgBvAG4AZQA=3D,aABlAGEAZABlAHIALgBmAHIAbwBtAA=3D=3D|ZQBuA?=
+ =?us-ascii?Q?GYAdQBzAGkAbwBuAHMAeQBzAHQAZQBtAHMALgBjAG8Ab?=
+X-MS-Exchange-Organization-Cross-Session-Cache:
+	=?us-ascii?Q?01QA=3D}{2,7,TgBvAG4AZQA=3D,bQBlAHMAcwBhAGcAZQAgAG4AbwB0ACAA?=
+ =?us-ascii?Q?cwBpAGcAbgBlAGQA}{12,8,RgBhAGkAbAA=3D,MwA=3D};SpfResult=3D3;?=
+ =?us-ascii?Q?DkimStatus=3D7;DkimSS=3D0;DmarcStatus=3D4;DmarcAction=3D0;AR?=
+ =?us-ascii?Q?CRES=3Dv110300000000000000000000000000000000000000;MFP=3Dfce?=
+ =?us-ascii?Q?6d704-5010-4199-a856-633770a348b4;PReRC=3D1;FPR=3D7C96707F.F?=
+ =?us-ascii?Q?82BEE8.4DFDB3B3.40E950C2.200A3;URLC=5FBE=3D0;URLC=5FBEC=3D0;?=
+ =?us-ascii?Q?URLC=5FAE=3D0;CGDLxSupported=3D1;BR=5FV=3DNone;DIR=3D1;PTRO?=
+ =?us-ascii?Q?=3Dmimecast.com;P2O=3Denfusionsystems.com;P=5FCAUTH=3Dsoftpa?=
+ =?us-ascii?Q?ss;P=5FCAUTHR=3D201;P=5FCAuthOSLookupFailed=3Dfalse;P=5FCAut?=
+ =?us-ascii?Q?hOSLookupPerformed=3Dtrue;P=5FOSCAUTH=3Dsoftpass;P=5FOSCAUTH?=
+ =?us-ascii?Q?R=3D201;KWND=3D1;P2BCL=3D1;BCL=3D1;CFP=3D10350772-b427-433f-?=
+ =?us-ascii?Q?ad45-5e77ce96162d;HCFP=3D8f0fcf65-5c28-46bc-8576-0e2dea587c2?=
+ =?us-ascii?Q?4;APP=3D487fbe2f-586d-40e4-a4cd-f0bc673205ec;GWS=5FRead=3DV2?=
+ =?us-ascii?Q?;SRCS=3DEST;CAUTH=3Dsoftpass;CAUTHR=3D201;CAUTH=5FCAT=3DAD;I?=
+ =?us-ascii?Q?VB=5FDBG=3DD2;HMEPV=3D2424;HMEPV2=3D1698;HMESV=3D6946;HMESV2?=
+ =?us-ascii?Q?=3D9999;SRESV=3D7742;BMASV=3D2492;BMESV=3D7358;BMAPV=3D1209;?=
+ =?us-ascii?Q?BMEPV=3D1219;CMASV=3D10000;CMAPV=3D10000;CBEBV=3D4796;CBEBV2?=
+ =?us-ascii?Q?=3D10000;CLEPV=3D160;URLF=5FDBG=3DDS:1;FFV=3DNSPM;FV=5FSCL?=
+ =?us-ascii?Q?=3D1;TP=5FFV=3DAllow;TP=5FFC=3DConnPolicy;TPV=5FSCL=3D-1;FV?=
+ =?us-ascii?Q?=3DAllow;FVS=3DTenant;FSCL=3D-1;TAP=5FEP=3D?=
+X-MS-Exchange-Organization-Processed-By-Gcc-Journaling: Journal Agent
+
+--_9242e187-b114-4cb7-a70b-b09d66da8105_
+Content-Type: text/plain; charset=WINDOWS-1252
+Content-Disposition: inline
+Content-Transfer-Encoding: quoted-printable
+
+    This is an automated email sent to you because of a scheduled job.
+    Please contact help@enfusionsystems.com for any related issues.
+
+
+    The following reports are attached:
+
+Market and Credit Limits V2_09_22_2020_23_23_07.csv
+
+
+--_9242e187-b114-4cb7-a70b-b09d66da8105_
+Content-Type: text/csv; charset=WINDOWS-1252
+Content-Disposition: attachment; filename="Market and Credit Limits V2_09_22_2020_23_23_07.csv"
+Content-Transfer-Encoding: quoted-printable
+
+Description,Instrument ID,Instrument ID Type,Notional Quantity,Market Price=
+,Fund GAV,Amount Outstanding,Free Float Shares Outstanding,All Shares Outst=
+anding,% Outstanding Limit EQ 20% FI 25%,% Outstanding Check,Delta Exposure=
+ $,MarketValueBook,% GAV Limit 25%,% GAV Check
+PUMA ORD,PUM GR Equity,Bloomberg Identifier,-17809.00000000,75.30000000,440=
+549551.49000000,150824640.00000000,82812851.00000000,150824640.00000000,0.0=
+0021505,PASS,-1341017.70000000,-1341017.70000000,-0.00304397,PASS
+MICHELIN ORD,ML FP Equity,Bloomberg Identifier,-1165.00000000,91.46000000,4=
+40549551.49000000,178641341.00000000,167872456.00000000,178641341.00000000,=
+0.00000694,PASS,-106550.90000000,-106550.90000000,-0.00024186,PASS
+TELEKOM AUSTRIA ORD,TKA AV Equity,Bloomberg Identifier,-162719.00000000,6.1=
+6000000,440549551.49000000,664500000.00000000,136313239.00000000,664500000.=
+00000000,0.00119371,PASS,-1002349.04000000,-1002349.04000000,-0.00227522,PA=
+SS
+FUGRO ORD,FUR NA Equity,Bloomberg Identifier,-39162.00000000,3.35000000,440=
+549551.49000000,92922525.00000000,89242102.00000000,92922525.00000000,0.000=
+43883,PASS,-131192.70000000,-131192.70000000,-0.00029779,PASS
+BE SEMICONDUCT ORD,BESI NA Equity,Bloomberg Identifier,-118805.00000000,36.=
+50000000,440549551.49000000,240203526.00000000,70424720.00000000,80067842.0=
+0000000,0.00068463,PASS,-4336382.50000000,-4336382.50000000,-0.00399466,PAS=
+S
+REMY COINTREAU ORD,RCO FP Equity,Bloomberg Identifier,-27622.00000000,150.8=
+0000000,440549551.49000000,50149787.00000000,21080184.00000000,50149787.000=
+00000,0.00131033,PASS,-4165397.60000000,-4165397.60000000,-0.00945500,PASS
+MTU AERO ENGINES HOLDING N ORD,MTX GR Equity,Bloomberg Identifier,-3518.000=
+00000,142.15000000,440549551.49000000,53095488.00000000,45163790.00000000,5=
+3095488.00000000,0.00007789,PASS,-500083.70000000,-500083.70000000,-0.00113=
+514,PASS
+SACYR ORD,SCYR SM Equity,Bloomberg Identifier,-1408808.00000000,1.99200000,=
+440549551.49000000,593986279.00000000,373343814.00000000,593986279.00000000=
+,0.00377349,PASS,-2806345.53600000,-2806345.53600000,-0.00637010,PASS
+DUFRY N ORD,DUFN SW Equity,Bloomberg Identifier,-249455.00000000,28.3800000=
+0,440549551.49000000,55567166.00000000,32044951.00000000,55567166.00000000,=
+0.00778453,PASS,-6576841.73566055,-6576841.73566055,-0.01492872,PASS
+GENFIT ORD,GNFT FP Equity,Bloomberg Identifier,-39574.00000000,3.34000000,4=
+40549551.49000000,38858617.00000000,36288252.00000000,38858617.00000000,0.0=
+0109055,PASS,-132177.16000000,-132177.16000000,-0.00030003,PASS
+COSMO PHARMACEUTICALS N ORD,COPN SW Equity,Bloomberg Identifier,-17163.0000=
+0000,87.20000000,440549551.49000000,15037483.00000000,6889419.00000000,1503=
+7483.00000000,0.00249121,PASS,-1390344.66336574,-1390344.66336574,-0.003155=
+93,PASS
+PACKH  8.375 04/15/27,880394AE1,CUSIP,10000000.00000000,1.11000000,44054955=
+1.49000000,200000000.00000000,,200000000.00000000,0.05000000,PASS,9480696.9=
+5934404,9480696.95934404,0.02152016,PASS
+PACKH  7.950 12/15/25,880394AB7,CUSIP,8000000.00000000,1.10828000,440549551=
+.49000000,276402000.00000000,,276402000.00000000,0.02894335,PASS,7572804.91=
+971302,7572804.91971302,0.01718945,PASS
+BRENNTAG N ORD,BNR GR Equity,Bloomberg Identifier,-75400.00000000,54.400000=
+00,440549551.49000000,154500000.00000000,154500000.00000000,154500000.00000=
+000,0.00048803,PASS,-4101760.00000000,-4101760.00000000,-0.00931055,PASS
+EDENRED ORD,EDEN FP Equity,Bloomberg Identifier,-6366.00000000,40.03000000,=
+440549551.49000000,246583351.00000000,245817083.00000000,246583351.00000000=
+,0.00002590,PASS,-254830.98000000,-254830.98000000,-0.00057844,PASS
+PTGV   5.650 02/15/24,BYY65W8,SEDOL,-1000000.00000000,1.20703000,440549551.=
+49000000,12711355069.51000000,,12711355069.51000000,0.00007867,PASS,-124171=
+4.05489071,-1207030.00000000,-0.00273983,PASS
+RECIPHARM ORD,RECIB SS Equity,Bloomberg Identifier,-13770.00000000,153.0000=
+0000,440549551.49000000,79803683.00000000,73886303.00000000,79803683.000000=
+00,0.00018637,PASS,-201925.81567512,-201925.81567512,-0.00045835,PASS
+SLM SOLUTIONS GROUP ORD,AM3D GR Equity,Bloomberg Identifier,-3663.00000000,=
+7.76000000,440549551.49000000,19778953.00000000,12156449.00000000,19778953.=
+00000000,0.00030132,PASS,-28424.88000000,-28424.88000000,-0.00006452,PASS
+MUINC  5.000 05/01/25 '25,66977WAP4,CUSIP,3000000.00000000,1.01500000,44054=
+9551.49000000,500000000.00000000,,500000000.00000000,0.00600000,PASS,260078=
+5.78749573,2600785.78749573,0.00590350,PASS
+UST    2.000 02/15/25,912828J27,CUSIP,-3000000.00000000,1.07742188,44054955=
+1.49000000,65988280000.00000000,,65988280000.00000000,0.00004546,PASS,-2766=
+653.59098712,-2760732.52476939,-0.00626657,PASS
+EDENX  1.375 03/10/25 '24,BW9PGZ6,SEDOL,-1500000.00000000,1.04136000,440549=
+551.49000000,500000000.00000000,,500000000.00000000,0.00300000,PASS,-156204=
+0.00000000,-1562040.00000000,-0.00354566,PASS
+CELLNEX TELECOM ORD,CLNX SM Equity,Bloomberg Identifier,-25463.00000000,51.=
+80000000,440549551.49000000,486708669.00000000,399623345.00000000,486708669=
+.00000000,0.00006372,PASS,-1318983.40000000,-1318983.40000000,-0.00299395,P=
+ASS
+SEBF   2.375 11/25/22 '22,BYM8MP8,SEDOL,-1000000.00000000,1.03897000,440549=
+551.49000000,500000000.00000000,,500000000.00000000,0.00200000,PASS,-103897=
+0.00000000,-1038970.00000000,-0.00235835,PASS
+BNRG   1.875 12/02/22 CVT,BYWKS67,SEDOL,19750000.00000000,1.03297000,440549=
+551.49000000,500000000.00000000,,154500000.00000000,0.03950000,PASS,3739913=
+.84156783,17424972.24120260,0.03955281,PASS
+NFLX   5.875 02/15/25,64110LAL0,CUSIP,3000000.00000000,1.13086000,440549551=
+.49000000,800000000.00000000,,800000000.00000000,0.00375000,PASS,2897659.71=
+984967,2897659.71984967,0.00657738,PASS
+BP     1.000 04/28/23 CVT,BDCCYR9,SEDOL,2000000.00000000,1.00620000,4405495=
+51.49000000,400000000.00000000,,20277092980.00000000,0.00500000,,0.00000000=
+,2188579.53536044,0.00496784,
+JCDX   1.000 06/01/23 '23,BZ6CSH7,SEDOL,-2000000.00000000,1.01297000,440549=
+551.49000000,750000000.00000000,,750000000.00000000,0.00266667,PASS,-202594=
+0.00000000,-2025940.00000000,-0.00459867,PASS
+RECXX  2.750 10/06/21 CVT,BYYHFN2,SEDOL,4000000.00000000,1.08072000,4405495=
+51.49000000,1000000000.00000000,,79803683.00000000,0.00400000,PASS,212010.3=
+1984610,414323.58402782,0.00094047,PASS
+FUGRX 4.000 10/26/21,BYQ6MC5,SEDOL,-1500000.00000000,0.86483000,440549551.4=
+9000000,150900000.00000000,,92922525.00000000,0.00994036,PASS,-590.97586081=
+,-1297245.00000000,-0.00294461,PASS
+OI     3.125 11/15/24 '24,BYNPLQ2,SEDOL,9500000.00000000,1.01905000,4405495=
+51.49000000,725000000.00000000,,725000000.00000000,0.01310345,PASS,9680975.=
+00000000,9680975.00000000,0.02197477,PASS
+C      0.500 08/04/23 CVT,BYQFS13,SEDOL,5000000.00000000,1.02547000,4405495=
+51.49000000,374200000.00000000,,664500000.00000000,0.01336184,PASS,1141525.=
+08950439,5127350.00000000,0.01163853,PASS
+SEBF         11/17/21 CVT,BYV99L7,SEDOL,6000.00000000,181.23000000,44054955=
+1.49000000,149999958.00000000,,50307064.00000000,0.00004000,PASS,828.086563=
+13,1087380.00000000,0.00246824,PASS
+BESI   2.500 12/02/23 CVT,BDDWBM2,SEDOL,1000000.00000000,1.82678000,4405495=
+51.49000000,118000000.00000000,,80067842.00000000,0.00847458,PASS,1725828.3=
+8793582,1826780.00000000,0.00414659,PASS
+MICP         01/10/22 CVT,BDRKDQ0,SEDOL,1000000.00000000,0.98640000,4405495=
+51.49000000,600000000.00000000,,178641341.00000000,0.00166667,PASS,649274.1=
+6044100,842500.85411684,0.00191239,PASS
+ARMK   3.125 04/01/25 '20,BD9C3S6,SEDOL,1000000.00000000,0.96614000,4405495=
+51.49000000,325000000.00000000,,325000000.00000000,0.00307692,PASS,966140.0=
+0000000,966140.00000000,0.00219303,PASS
+MUINC  4.875 06/01/24 '24,66977WAQ2,CUSIP,2000000.00000000,0.97972000,44054=
+9551.49000000,1050000000.00000000,,1050000000.00000000,0.00190476,PASS,1673=
+590.70720875,1673590.70720875,0.00379887,PASS
+ANROM        06/20/24 CVT PUT,BYZQW15,SEDOL,6700000.00000000,1.14064000,440=
+549551.49000000,200000000.00000000,,50149787.00000000,0.03350000,PASS,45205=
+28.65487294,7642288.00000000,0.01734717,PASS
+AMCD   5.500 10/11/22 CVT,BD6HMD2,SEDOL,700000.00000000,0.69000000,44054955=
+1.49000000,58500000.00000000,,19778953.00000000,0.01196581,PASS,128117.1356=
+4160,483000.00000000,0.00109636,PASS
+DUFN   2.500 10/15/24 '20,BF15FK3,SEDOL,-8100000.00000000,0.86883000,440549=
+551.49000000,800000000.00000000,,800000000.00000000,0.01012500,PASS,-703752=
+3.00000000,-7037523.00000000,-0.01597442,PASS
+GNFT   3.500 10/16/22 CVT,BYWHFM3,SEDOL,319849.00000000,10.31000000,4405495=
+51.49000000,179999998.00000000,,38858617.00000000,0.00177694,PASS,32.519274=
+35,3297643.19000000,0.00748529,PASS
+FUGR   4.500 11/02/24 CVT PUT,BD35RG7,SEDOL,3000000.00000000,0.75248000,440=
+549551.49000000,100000000.00000000,,92922525.00000000,0.03000000,PASS,59150=
+.26447247,2257440.00000000,0.00512415,PASS
+BESI   0.500 12/06/24 CVT,BF95259,SEDOL,7100000.00000000,1.03401000,4405495=
+51.49000000,175000000.00000000,,80067842.00000000,0.04057143,PASS,1964464.7=
+5352997,7341471.00000000,0.01666435,PASS
+CLNX   1.500 01/16/26 CVT,BF59T43,SEDOL,1000000.00000000,1.74955000,4405495=
+51.49000000,800000000.00000000,,486708669.00000000,0.00125000,PASS,1468937.=
+52257703,1749550.00000000,0.00397129,PASS
+SLCTG  5.375 02/01/24 '20 FRN,BF0Q2Z1,SEDOL,4400000.00000000,0.55232000,440=
+549551.49000000,375000000.00000000,,375000000.00000000,0.01173333,PASS,2430=
+208.00000000,2430208.00000000,0.00551631,PASS
+SLCTG  5.875 02/01/24 '20,XS1756356371,ISIN,4500000.00000000,0.55968000,440=
+549551.49000000,865000000.00000000,,865000000.00000000,0.00520231,PASS,2518=
+560.00000000,2518560.00000000,0.00571686,PASS
+GLENX        03/27/25 CVT,BF42WK0,SEDOL,15000000.00000000,0.88150000,440549=
+551.49000000,625000000.00000000,,13324312541.00000000,0.02400000,PASS,12500=
+0.51958964,11293559.95900239,0.02563516,PASS
+SASAC  4.892 04/24/25 '25,BFFZJ85,SEDOL,3406000.00000000,1.08740000,4405495=
+51.49000000,750000000.00000000,,750000000.00000000,0.00454133,PASS,3163379.=
+22787837,3163379.22787837,0.00718053,PASS
+SASAC  4.892 04/24/25 '25,87164KAG9,CUSIP,6700000.00000000,1.08409000,44054=
+9551.49000000,750000000.00000000,,750000000.00000000,0.00893333,PASS,620379=
+4.84113427,6203794.84113427,0.01408195,PASS
+SDRYI  7.500 05/01/25 '21,26963PAA2,CUSIP,-1350000.00000000,0.71625000,4405=
+49551.49000000,690000000.00000000,,690000000.00000000,0.00195652,PASS,-8258=
+77.60505637,-825877.60505637,-0.00187465,PASS
+SDRYI  5.375 05/01/23 '20,BD8ZDJ7,SEDOL,1200000.00000000,0.66520000,4405495=
+51.49000000,250000000.00000000,,250000000.00000000,0.00480000,PASS,798240.0=
+0000000,798240.00000000,0.00181192,PASS
+UST    2.875 05/31/25,9128284R8,CUSIP,-3000000.00000000,1.12226563,44054955=
+1.49000000,35211597100.00000000,,35211597100.00000000,0.00008520,PASS,-2899=
+652.45762980,-2875637.93132901,-0.00652739,PASS
+VLOF   1.500 06/18/25 '25 MTN,BF2G680,SEDOL,3000000.00000000,0.99507000,440=
+549551.49000000,600000000.00000000,,600000000.00000000,0.00500000,PASS,2985=
+210.00000000,2985210.00000000,0.00677610,PASS
+AMAXX  0.875 09/18/23 '23 MTN,BFY0F16,SEDOL,-3000000.00000000,1.00151000,44=
+0549551.49000000,500000000.00000000,,500000000.00000000,0.00600000,PASS,-30=
+04530.00000000,-3004530.00000000,-0.00681996,PASS
+COPN   2.500 12/05/23 CVT,BGDWFK9,SEDOL,4200000.00000000,0.98749000,4405495=
+51.49000000,175000000.00000000,,15037483.00000000,0.02400000,PASS,1541005.4=
+5179422,4147458.00000000,0.00941428,PASS
+AIRF   0.125 03/25/26 CVT PUT,FR0013410628,ISIN,67000.00000000,12.68900000,=
+440549551.49000000,499999987.00000000,,428634035.00000000,0.00013400,PASS,7=
+75.57148467,850163.00000000,0.00192978,PASS
+GEELY  2.125 04/02/24 '24 MTN,BJSFKB0,SEDOL,8500000.00000000,1.00189000,440=
+549551.49000000,600000000.00000000,,600000000.00000000,0.01416667,PASS,8516=
+065.00000000,8516065.00000000,0.01933055,PASS
+SCYR   3.750 04/25/24 CVT PUT,BHHP0P1,SEDOL,6600000.00000000,0.98498000,440=
+549551.49000000,175000000.00000000,,593986279.00000000,0.03771429,PASS,1363=
+662.33025097,6500868.00000000,0.01475627,PASS
+CYGV   0.625 12/03/24 MTN,BJK3YL0,SEDOL,-1000000.00000000,1.02120000,440549=
+551.49000000,1000000000.00000000,,1000000000.00000000,0.00100000,PASS,-1026=
+425.15329827,-1021200.00000000,-0.00231801,PASS
+RENA   1.250 06/24/25 '25 MTN,BK4Q4L2,SEDOL,2000000.00000000,0.93034000,440=
+549551.49000000,1000000000.00000000,,1000000000.00000000,0.00200000,PASS,18=
+60680.00000000,1860680.00000000,0.00422354,PASS
+EDENX        09/06/24 CVT,BJXC997,SEDOL,25000.00000000,61.44200000,44054955=
+1.49000000,499999998.00000000,,246583351.00000000,0.00005000,PASS,3855.4621=
+2551,1536050.00000000,0.00348667,PASS
+MTXG   0.050 03/18/27 CVT,BKFHGC9,SEDOL,10500000.00000000,0.91400000,440549=
+551.49000000,500000000.00000000,,53095488.00000000,0.02100000,PASS,870455.6=
+6549310,9597000.00000000,0.02178416,PASS
+GBLB         12/30/22 CVT,BHNG1R7,SEDOL,10800000.00000000,0.97830000,440549=
+551.49000000,750000000.00000000,,615929059.00000000,0.01440000,PASS,1087125=
+.05447856,10565640.00000000,0.02398286,PASS
+TAMO   5.875 11/15/24 '24,BK5V7Y0,SEDOL,6500000.00000000,0.91939000,4405495=
+51.49000000,500000000.00000000,,500000000.00000000,0.01300000,PASS,5976035.=
+00000000,5976035.00000000,0.01356496,PASS
+UST    0.500 03/31/25,912828ZF0,CUSIP,-4400000.00000000,1.01187500,44054955=
+1.49000000,46512283500.00000000,,46512283500.00000000,0.00009460,PASS,-3812=
+476.10753126,-3802741.71506662,-0.00863181,PASS
+JCDX   2.000 10/24/24,BMVF450,SEDOL,-7000000.00000000,1.04487000,440549551.=
+49000000,500000000.00000000,,500000000.00000000,0.01400000,PASS,-7314090.00=
+000000,-7314090.00000000,-0.01660220,PASS
+UST    0.375 04/30/25,912828ZL7,CUSIP,-2000000.00000000,1.00609375,44054955=
+1.49000000,46734370400.00000000,,46734370400.00000000,0.00004280,PASS,-1721=
+552.64598507,-1718643.23539460,-0.00390113,PASS
+ARMK   6.375 05/01/25 '22,038522AR9,CUSIP,2000000.00000000,1.04265000,44054=
+9551.49000000,1500000000.00000000,,1500000000.00000000,0.00133333,PASS,1781=
+089.85309190,1781089.85309190,0.00404288,PASS
+DUFN   1.000 05/04/23 CVT,BLD1K06,SEDOL,14600000.00000000,1.09325000,440549=
+551.49000000,350000000.00000000,,55567166.00000000,0.04171429,PASS,7202395.=
+23533088,14828087.10750665,0.03365816,PASS
+OLN    9.500 06/01/25 '25,680665AM8,CUSIP,6000000.00000000,1.17301000,44054=
+9551.49000000,500000000.00000000,,500000000.00000000,0.01200000,PASS,601132=
+5.58934062,6011325.58934062,0.01364506,PASS
+SLENA        06/25/25 CVT,BLB2JQ0,SEDOL,3700000.00000000,1.04863000,4405495=
+51.49000000,500000000.00000000,,150824640.00000000,0.00740000,PASS,1593300.=
+11017772,3879931.00000000,0.00880703,PASS
+BESI   0.750 08/05/27 CVT PUT,BK7YPG5,SEDOL,700000.00000000,1.02809000,4405=
+49551.49000000,150000000.00000000,,80067842.00000000,0.00466667,PASS,196262=
+.52429292,719663.00000000,0.00163356,PASS
+REMY COINTREAU SA DROIT 2020 18.09.2020,F7725A415,CUSIP,-13619.00000000,0.0=
+0000001,440549551.49000000,0.00000000,,50149787.00000000,0.00000000,PASS,-0=
+.00013619,-0.00013619,-0.00000000,PASS
+ADS DEC3 280C,ADS GR 12/15/23 C280 Equity,Bloomberg Identifier,35.00000000,=
+47.37000000,440549551.49000000,0.00000000,,200416186.00000000,0.00000000,N/=
+A,537490.04147993,165795.00000000,0.00037634,N/A
+iTraxx Europe Series 33 Version 1 - 100 2025-06-20,ITRX EUR CDSI S33 5Y,Blo=
+omberg Identifier,700000.00000000,1.02097928,440549551.49000000,0.00000000,=
+,,0.00000000,N/A,-700000.00000000,-14685.61974622,0.00000000,N/A
+iTraxx Europe Crossover Series 33 Version 1 - 500 2025-06-20,ITRX XOVER CDS=
+I S33 5Y,Bloomberg Identifier,960365.00000000,1.08669139,440549551.49000000=
+,0.00000000,,,0.00000000,N/A,-960365.00000000,-81036.47067199,0.00000000,N/=
+A
+MICHELIN LUXEMBOURG SCS - 100 2025-06-20,MICH CDS EUR,Bloomberg Identifier,=
+1000000.00000000,1.03293702,440549551.49000000,0.00000000,,300000000.000000=
+00,0.00333333,PASS,-1000000.00000000,-32937.29548298,-0.00007476,PASS
+LANXESS AG - 100 2025-06-20,LANX CDS 1 EUR,Bloomberg Identifier,500000.0000=
+0000,1.02512881,440549551.49000000,0.00000000,,500000000.00000000,0.0010000=
+0,PASS,-500000.00000000,-12564.51273836,-0.00002852,PASS
+Cellnex Telecom SA - 500 2025-06-20,CELLNEX CDS EUR,Bloomberg Identifier,10=
+00000.00000000,1.19795780,440549551.49000000,0.00000000,,600000000.00000000=
+,0.00166667,PASS,-1000000.00000000,-197959.46300433,-0.00044935,PASS
+LANXESS AG - 100 2025-06-20,LANX CDS 2 EUR,Bloomberg Identifier,500000.0000=
+0000,1.02512881,440549551.49000000,0.00000000,,500000000.00000000,0.0010000=
+0,PASS,-500000.00000000,-12564.51273836,-0.00002852,PASS
+GLENCORE FINANCE EUROPE LTD - 500 2025-06-20,GLEN CDS 1 EUR,Bloomberg Ident=
+ifier,900000.00000000,1.16959458,440549551.49000000,0.00000000,,1000000000.=
+00000000,0.00090000,PASS,-900000.00000000,-152636.40559941,-0.00034647,PASS
+ARAMARK CORP - 500 2025-06-20,ARAMARK CDS 1 US,Bloomberg Identifier,1000000=
+.00000000,1.11420232,440549551.49000000,0.00000000,,500000000.00000000,0.00=
+200000,PASS,-1000000.00000000,-97542.94190479,-0.00022141,PASS
+GLENCORE FINANCE EUROPE LTD - 500 2025-06-20,GLEN CDS 2 EUR,Bloomberg Ident=
+ifier,2000000.00000000,1.16959458,440549551.49000000,0.00000000,,1000000000=
+.00000000,0.00200000,PASS,-2000000.00000000,-339192.01244313,-0.00076993,PA=
+SS
+ARAMARK CORP - 500 2025-06-20,ARAMARK CDS 2 US,Bloomberg Identifier,2000000=
+.00000000,1.11420232,440549551.49000000,0.00000000,,500000000.00000000,0.00=
+400000,PASS,-2000000.00000000,-195085.88380958,-0.00044282,PASS
+Netflix Inc - 500 2025-06-20,NETFLIX CDS US,Bloomberg Identifier,3000000.00=
+000000,1.17813514,440549551.49000000,0.00000000,,1000000000.00000000,0.0030=
+0000,PASS,-3000000.00000000,-456448.51876458,-0.00103609,PASS
+JAGUAR LAND ROVER LTD - 500 2024-12-20,JAG CDS 1 EUR,Bloomberg Identifier,1=
+000000.00000000,0.92895450,440549551.49000000,0.00000000,,400000000.0000000=
+0,0.00250000,PASS,-1000000.00000000,19926.29647769,0.00004523,PASS
+JAGUAR LAND ROVER LTD - 500 2024-12-20,JAG CDS 2 EUR,Bloomberg Identifier,1=
+000000.00000000,0.92895450,440549551.49000000,0.00000000,,400000000.0000000=
+0,0.00250000,PASS,-1000000.00000000,19926.29647769,0.00004523,PASS
+JAGUAR LAND ROVER LTD - 500 2024-12-20,JAG CDS 3 EUR,Bloomberg Identifier,1=
+000000.00000000,0.92895450,440549551.49000000,0.00000000,,400000000.0000000=
+0,0.00250000,PASS,-1000000.00000000,19926.29647769,0.00004523,PASS
+Olin Corp - 500 2025-06-20,OLIN CDS 1 EUR,Bloomberg Identifier,3300000.0000=
+0000,1.06949955,440549551.49000000,0.00000000,,200000000.00000000,0.0165000=
+0,PASS,-3300000.00000000,-195892.07287858,-0.00044465,PASS
+Olin Corp - 500 2025-06-20,OLIN CDS 2 EUR,Bloomberg Identifier,3300000.0000=
+0000,1.06949955,440549551.49000000,0.00000000,,200000000.00000000,0.0165000=
+0,PASS,-3300000.00000000,-195892.07287858,-0.00044465,PASS
+JAGUAR LAND ROVER LTD - 500 2024-12-20,JAG CDS 4 EUR,Bloomberg Identifier,1=
+000000.00000000,0.92895450,440549551.49000000,0.00000000,,400000000.0000000=
+0,0.00250000,PASS,-1000000.00000000,19926.29647769,0.00004523,PASS
+JAGUAR LAND ROVER LTD - 500 2024-12-20,JAG CDS 5 EUR,Bloomberg Identifier,1=
+000000.00000000,0.92895450,440549551.49000000,0.00000000,,400000000.0000000=
+0,0.00250000,PASS,-1000000.00000000,19926.29647769,0.00004523,PASS
+GLENCORE FINANCE EUROPE LTD - 500 2025-06-20,GLEN CDS 4 EUR,Bloomberg Ident=
+ifier,1200000.00000000,1.16959458,440549551.49000000,0.00000000,,1000000000=
+.00000000,0.00120000,PASS,-1200000.00000000,-203515.20746588,-0.00046196,PA=
+SS
+GLENCORE FINANCE EUROPE LTD - 500 2025-06-20,GLEN CDS 3 EUR,Bloomberg Ident=
+ifier,900000.00000000,1.16959458,440549551.49000000,0.00000000,,1000000000.=
+00000000,0.00090000,PASS,-900000.00000000,-152636.40559941,-0.00034647,PASS
+GLENCORE FINANCE EUROPE LTD - 500 2025-06-20,GLEN CDS 5 EUR,Bloomberg Ident=
+ifier,500000.00000000,1.16959458,440549551.49000000,0.00000000,,1000000000.=
+00000000,0.00050000,PASS,-500000.00000000,-84798.00311078,-0.00019248,PASS
+GLENCORE FINANCE EUROPE LTD - 500 2025-06-20,GLEN CDS 6 EUR,Bloomberg Ident=
+ifier,1800000.00000000,1.16959458,440549551.49000000,0.00000000,,1000000000=
+.00000000,0.00180000,PASS,-1800000.00000000,-305272.81119882,-0.00069294,PA=
+SS
+OI EUROPEAN GROUP BV - 500 2024-12-20,OI CDS 1 EUR,Bloomberg Identifier,190=
+0000.00000000,1.14463855,440549551.49000000,0.00000000,,725000000.00000000,=
+0.00262069,PASS,-1900000.00000000,-274815.55603774,-0.00062380,PASS
+NOVA Chemicals Corp - 500 2025-06-20,NOVA CDS 1 USD,Bloomberg Identifier,30=
+00000.00000000,1.06672434,440549551.49000000,0.00000000,,500000000.00000000=
+,0.00600000,PASS,-3000000.00000000,-170972.57574677,-0.00038809,PASS
+NOVA Chemicals Corp - 500 2024-06-20,NOVA CDS 2 USD,Bloomberg Identifier,19=
+00000.00000000,1.06713773,440549551.49000000,0.00000000,,500000000.00000000=
+,0.00380000,PASS,-1900000.00000000,-108953.49571069,-0.00024731,PASS
+Volvo Car AB - 500 2024-06-20,VOLVO CDS 1 EUR,Bloomberg Identifier,2000000.=
+00000000,1.16187363,440549551.49000000,0.00000000,,600000000.00000000,0.003=
+33333,PASS,-2000000.00000000,-323749.98145600,-0.00073488,PASS
+OI EUROPEAN GROUP BV - 500 2024-12-20,OI CDS 3 EUR,Bloomberg Identifier,270=
+0000.00000000,1.14463855,440549551.49000000,0.00000000,,725000000.00000000,=
+0.00372414,PASS,-2700000.00000000,-390527.36910627,-0.00088646,PASS
+OI EUROPEAN GROUP BV - 500 2024-12-20,OI CDS 2 EUR,Bloomberg Identifier,280=
+0000.00000000,1.14463855,440549551.49000000,0.00000000,,725000000.00000000,=
+0.00386207,PASS,-2800000.00000000,-404991.34573983,-0.00091929,PASS
+GLENCORE FINANCE EUROPE LTD - 500 2025-06-20,GLEN CDS 7 EUR,Bloomberg Ident=
+ifier,1800000.00000000,1.16959458,440549551.49000000,0.00000000,,1000000000=
+.00000000,0.00180000,PASS,-1800000.00000000,-305272.80971065,-0.00069294,PA=
+SS
+GLENCORE FINANCE EUROPE LTD - 500 2025-06-20,GLEN CDS 8 EUR,Bloomberg Ident=
+ifier,2700000.00000000,1.16959458,440549551.49000000,0.00000000,,1000000000=
+.00000000,0.00270000,PASS,-2700000.00000000,-457909.21456598,-0.00103940,PA=
+SS
+GLENCORE FINANCE EUROPE LTD - 500 2025-06-20,GLEN CDS 9 EUR,Bloomberg Ident=
+ifier,900000.00000000,1.16959458,440549551.49000000,0.00000000,,1000000000.=
+00000000,0.00090000,PASS,-900000.00000000,-152636.40485533,-0.00034647,PASS
+"LafargeHolcim Ltd - 100 2025-06-20 ",LAFARGE CDS 1 EUR,Bloomberg Identifie=
+r,2000000.00000000,1.01988340,440549551.49000000,0.00000000,,450000000.0000=
+0000,0.00444444,PASS,-2000000.00000000,-39767.12490426,-0.00009027,PASS
+"LafargeHolcim Ltd - 100 2025-06-20 ",LAFARGE CDS 2 EUR,Bloomberg Identifie=
+r,2400000.00000000,1.01988340,440549551.49000000,0.00000000,,450000000.0000=
+0000,0.00533333,PASS,-2400000.00000000,-47720.54988512,-0.00010832,PASS
+"LafargeHolcim Ltd - 100 2025-06-20 ",LAFARGE CDS 3 EUR,Bloomberg Identifie=
+r,5000000.00000000,1.01988340,440549551.49000000,0.00000000,,450000000.0000=
+0000,0.01111111,PASS,-5000000.00000000,-99417.81226066,-0.00022567,PASS
+"SYNGENTA FINANCE NV - 100 2025-06-20 ",SYNGENTA CDS 1 EUR,Bloomberg Identi=
+fier,400000.00000000,0.98898524,440549551.49000000,0.00000000,,500000000.00=
+000000,0.00080000,PASS,-400000.00000000,4405.94011009,0.00001000,PASS
+"Volvo Car AB - 500 2024-06-20 ",VOLVO CDS 2 EUR,Bloomberg Identifier,20000=
+00.00000000,1.16187363,440549551.49000000,0.00000000,,600000000.00000000,0.=
+00333333,PASS,-2000000.00000000,-323749.97945818,-0.00073488,PASS
+"Volvo Car AB - 500 2024-06-20 ",VOLVO CDS 3 EUR,Bloomberg Identifier,10000=
+00.00000000,1.16187363,440549551.49000000,0.00000000,,600000000.00000000,0.=
+00166667,PASS,-1000000.00000000,-161874.98972909,-0.00036744,PASS
+"OI EUROPEAN GROUP BV - 500 2024-12-20 ",OI CDS 4 EUR,Bloomberg Identifier,=
+1400000.00000000,1.14463855,440549551.49000000,0.00000000,,725000000.000000=
+00,0.00193103,PASS,-1400000.00000000,-202495.67176789,-0.00045964,PASS
+"Volvo Car AB - 500 2024-06-20 ",VOLVO CDS 4 EUR,Bloomberg Identifier,15000=
+00.00000000,1.16187363,440549551.49000000,0.00000000,,600000000.00000000,0.=
+00250000,PASS,-1500000.00000000,-242812.48459363,-0.00055116,PASS
+"Air France KLM SA - 500 2024-06-20 ",AIR FRANCE CDS EUR,Bloomberg Identifi=
+er,1000000.00000000,0.90480555,440549551.49000000,0.00000000,,600000000.000=
+00000,0.00166667,PASS,-1000000.00000000,95195.24920879,0.00021608,PASS
+"LafargeHolcim Ltd - 100 2025-06-20 ",LAFARGE CDS 4 EUR,Bloomberg Identifie=
+r,2000000.00000000,1.01988340,440549551.49000000,0.00000000,,450000000.0000=
+0000,0.00444444,PASS,-2000000.00000000,-39767.12490426,-0.00009027,PASS
+"Renault SA - 100 2025-06-20 ",RENAULT CDS 1 EUR,Bloomberg Identifier,20000=
+00.00000000,0.94912870,440549551.49000000,0.00000000,,500000000.00000000,0.=
+00400000,PASS,-2000000.00000000,101743.46439082,0.00023095,PASS
+"Citigroup Inc - 100 2023-06-20 ",TELEKOM AUST CDS 1 EUR,Bloomberg Identifi=
+er,3000000.00000000,1.01463239,440549551.49000000,0.00000000,,2500000000.00=
+000000,0.00120000,PASS,-3000000.00000000,-37493.63679630,-0.00008511,PASS
+"Citigroup Inc - 100 2023-06-20 ",TELEKOM AUST CDS 2 EUR,Bloomberg Identifi=
+er,2000000.00000000,1.01463239,440549551.49000000,0.00000000,,2500000000.00=
+000000,0.00080000,PASS,-2000000.00000000,-24995.75786420,-0.00005674,PASS
+"LafargeHolcim Ltd - 100 2025-06-20 ",LAFARGE CDS 5 EUR,Bloomberg Identifie=
+r,3000000.00000000,1.01988340,440549551.49000000,0.00000000,,450000000.0000=
+0000,0.00666667,PASS,-3000000.00000000,-59650.68735640,-0.00013540,PASS
+"Valeo SA - 100 2025-06-20 ",VALEO CDS 1 EUR,Bloomberg Identifier,3000000.0=
+0000000,0.98176693,440549551.49000000,0.00000000,,700000000.00000000,0.0042=
+8571,PASS,-3000000.00000000,54699.66950118,0.00012416,PASS
+"Volvo Car AB - 500 2024-06-20 ",VOLVO CDS 5 EUR,Bloomberg Identifier,20000=
+00.00000000,1.16187363,440549551.49000000,0.00000000,,600000000.00000000,0.=
+00333333,PASS,-2000000.00000000,-323749.97945818,-0.00073488,PASS
+"SYNGENTA FINANCE NV - 100 2025-06-20 ",SYNGENTA CDS 2 EUR,Bloomberg Identi=
+fier,200000.00000000,0.98898524,440549551.49000000,0.00000000,,500000000.00=
+000000,0.00040000,PASS,-200000.00000000,2202.97005504,0.00000500,PASS
+"SYNGENTA FINANCE NV - 100 2025-06-20 ",SYNGENTA CDS 3 EUR,Bloomberg Identi=
+fier,1000000.00000000,0.98898524,440549551.49000000,0.00000000,,500000000.0=
+0000000,0.00200000,PASS,-1000000.00000000,11014.85027522,0.00002500,PASS
+"SYNGENTA FINANCE NV - 100 2025-06-20 ",SYNGENTA CDS 4 EUR,Bloomberg Identi=
+fier,2000000.00000000,0.98898524,440549551.49000000,0.00000000,,500000000.0=
+0000000,0.00400000,PASS,-2000000.00000000,22029.70055044,0.00005001,PASS
+"JAGUAR LAND ROVER LTD - 500 2024-12-20 ",JAG CDS 6 EUR,Bloomberg Identifie=
+r,1500000.00000000,0.92895450,440549551.49000000,0.00000000,,400000000.0000=
+0000,0.00375000,PASS,-1500000.00000000,29887.83215963,0.00006784,PASS
+"SYNGENTA FINANCE NV - 100 2025-06-20 ",SYGENTA CDS 5 EUR,Bloomberg Identif=
+ier,3000000.00000000,0.98898524,440549551.49000000,0.00000000,,500000000.00=
+000000,0.00600000,PASS,-3000000.00000000,33044.55082566,0.00007501,PASS
+"Pactiv Corp - 500 2025-12-20 ",REYNOLDS CDS 1 EUR,Bloomberg Identifier,800=
+0000.00000000,1.12825080,440549551.49000000,0.00000000,,276402000.00000000,=
+0.02894335,PASS,-8000000.00000000,-876336.68963663,-0.00198919,PASS
+"Pactiv Corp - 500 2025-12-20 ",REYNOLDS CDS 2 EUR,Bloomberg Identifier,100=
+00000.00000000,1.12825080,440549551.49000000,0.00000000,,276402000.00000000=
+,0.03617919,PASS,-10000000.00000000,-1095420.86204578,-0.00248649,PASS
+"SYNGENTA FINANCE NV - 100 2025-06-20 ",SYNGENTA CDS 6 EUR,Bloomberg Identi=
+fier,3000000.00000000,0.98898524,440549551.49000000,0.00000000,,500000000.0=
+0000000,0.00600000,PASS,-3000000.00000000,33044.55082566,0.00007501,PASS
+"Lagardere SCA - 100 2024-09-20 ",LAGER CDS 2 EUR,Bloomberg Identifier,1000=
+000.00000000,0.93736226,440549551.49000000,0.00000000,,500000000.00000000,0=
+.00200000,PASS,-1000000.00000000,62638.27043540,0.00014218,PASS
+"BP Capital Markets PLC - 100 2023-06-20 ",BP CDS 1 EUR,Bloomberg Identifie=
+r,2200000.00000000,1.01688175,440549551.49000000,0.00000000,,1000000000.000=
+00000,0.00220000,PASS,-2200000.00000000,-9213.74207965,-0.00002091,PASS
+GRFUL 11.000 11/01/23 '20,BYZV6W9,SEDOL,4500000.00000000,0.81209000,4405495=
+51.49000000,230000000.00000000,,230000000.00000000,0.01956522,PASS,3974337.=
+10838743,3974337.10838743,0.00902132,PASS
+LAGA   1.625 06/21/24 '24,BD5BFS1,SEDOL,5900000.00000000,0.92369000,4405495=
+51.49000000,600000000.00000000,,300000000.00000000,0.01633333,PASS,5449771.=
+00000000,5449771.00000000,0.01027372,PASS
+VLLP   4.125 10/04/22 CVT,BYWYX64,SEDOL,1920059.00000000,3.48100000,4405495=
+51.49000000,499999996.00000000,,11449694.00000000,0.00352224,PASS,2733.3435=
+4517,6683725.37900000,0.00695773,PASS
+VLLP   6.625 10/15/22 '20,BF09N79,SEDOL,-4800000.00000000,0.56631000,440549=
+551.49000000,1100000000.00000000,,550000000.00000000,0.00254545,PASS,-27182=
+88.00000000,-2718288.00000000,-0.00179965,PASS
+VLLP   6.375 10/15/23 '20,BFXYJ51,SEDOL,-1200000.00000000,0.56149000,440549=
+551.49000000,400000000.00000000,,400000000.00000000,0.00300000,PASS,-673788=
+.00000000,-673788.00000000,-0.00152943,PASS
+ADSG   0.050 09/12/23 CVT,BFXZC55,SEDOL,-1000000.00000000,1.21376000,440549=
+551.49000000,500000000.00000000,,200416186.00000000,0.00200000,PASS,-549945=
+.46624396,-1213760.00000000,-0.00275510,PASS
+"GARFUNKELUX HOLDCO 2 SA - 500 2025-12-20 ",GARFUNK CDS 2 EUR,Bloomberg Ide=
+ntifier,5000000.00000000,0.81905239,440549551.49000000,0.00000000,,23000000=
+0.00000000,0.02173913,PASS,-5000000.00000000,904745.64798565,0.00205368,PAS=
+S
+VLLP   2.250 09/30/24,BR308G7,SEDOL,-3600000.00000000,0.54132000,440549551.=
+49000000,1000000000.00000000,,500000000.00000000,0.00320000,PASS,-1196752.0=
+0000000,-1196752.00000000,-0.00025902,PASS
+"GARFUNKELUX HOLDCO 2 SA - 500 2023-12-20 ",GARFUNK CDS 1 EUR,Bloomberg Ide=
+ntifier,1000000.00000000,0.81905239,440549551.49000000,0.00000000,,23000000=
+0.00000000,0.00434783,PASS,-1000000.00000000,180949.12934040,0.00041074,PAS=
+S
+"Lagardere SCA - 100 2024-09-20 ",LAGER CDS 1 EUR,Bloomberg Identifier,5000=
+000.00000000,0.93736226,440549551.49000000,0.00000000,,500000000.00000000,0=
+.01000000,PASS,-5000000.00000000,313191.35217701,0.00071091,PASS
+
+--_9242e187-b114-4cb7-a70b-b09d66da8105_--
+
+--_0a7a14cb-ae72-4fe1-b3f4-508ddf67b7cd_--

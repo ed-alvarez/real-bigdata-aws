@@ -1,0 +1,74 @@
+<Message>
+    <MsgID>5E6F710C012601D600870105</MsgID>
+    <MsgTime>2020-03-16-08.29.00.000000</MsgTime>
+    <MsgTimeUTC>1584361740</MsgTimeUTC>
+    <MsgLang>CODE 65001</MsgLang>
+    <Sender>
+        <UserInfo>
+            <FirstName>SALVATORE A.</FirstName>
+            <LastName>IANNACI</LastName>
+            <AccountName>CLARKSONS PLATOU SEC</AccountName>
+            <BloombergEmailAddress>SIANNACI2@Bloomberg.net</BloombergEmailAddress>
+            <CorporateEmailAddress></CorporateEmailAddress>
+        </UserInfo>
+    </Sender>
+    <Recipient DeliveryType="BCC">
+        <UserInfo>
+            <FirstName>SEAN</FirstName>
+            <LastName>OLDFIELD</LastName>
+            <FirmNumber>848135</FirmNumber>
+            <AccountName>MIRABELLA FINANCIAL</AccountName>
+            <AccountNumber>30413594</AccountNumber>
+            <BloombergUUID>25813826</BloombergUUID>
+            <BloombergEmailAddress>SEANSYSTEM2@Bloomberg.net</BloombergEmailAddress>
+            <CorporateEmailAddress>sean@system2capital.com</CorporateEmailAddress>
+        </UserInfo>
+    </Recipient>
+    <Subject>
+        CLARKSONS - DAILY SPOT MARKET SNAPSHOT
+    </Subject>
+    <Attachment>
+        <FileName>DETAILED RATES.pdf</FileName>
+        <FileID>5E6F78550000354A07FBDB74.pdf</FileID>
+        <FileSize>439507</FileSize>
+    </Attachment>
+    <MsgBody>
+        PDF Attached w/Detailed Rates
+
+
+        Tankers: VLCC earnings were assessed at $279,400 per day on Friday. Suezmaxes are now $117,600/day, up 73% on
+        the day. Compared with October 2019 when the market was jolted when 5% of the fleet was removed (COSCO
+        sanctions) and charterers panicked and rates were unsustainable high, this time around it’s fundamentally
+        supported by an at least 3.5 mb/day increase in Middle East output during April, which will tie up 80 VLCCs
+        assuming an average 6,000 nautical mile voyage. However, as noted in our Shipping Weekly, approximately 10 VLCCs
+        are heading for the US Gulf which is more than 12,000 nautical miles. We assess fleet capacity utilization is
+        now close to 100%. This means that only refining margins will limit the potential upside. Fortunately, the way
+        Saudi Arabia prices their oil (a fixed $10/bbl discount to whatever Brent is for European customers), this means
+        for every dollar Brent drops, and product prices are unchanged, the freight component can increase by $35,000
+        per day. Although we are certainly at very high levels, the market could continue to go higher in the short
+        term, we argue. This could last as long as Saudi Arabia keeps up its current price policy, and the next
+        scheduled price change is April 5th for May sales prices. Even if rates correct from April onward, the current
+        strong rates are likely to result in 2Q20 showing the highest quarterly earnings since at least 2Q 2008.
+
+        LNG: Brokers marked up LNG headline rates to (TFDE) $38,500/day on Friday from $34,500/day last week. MEGI/XDF
+        ships were assessed at $49,000/day. As before, considerable waiting time means actual earnings are lower, with
+        the round voyage TFDE assessments in the $15,000-$24,000/day range. Brokers noted that activity picked up due to
+        more US Gulf cargoes for April. The rate increase reflects mostly that owners have pushed ballast bonuses
+        higher, which is needed to get ships positioned into the Atlantic. Sentiment appears steady in the Far East with
+        decreasing availability of tonnage. Interest for period coverage remains high with charterers willing to take
+        ships ahead of Winter 2020/21. The current 3-6 month charters also inched up $5,000/day on the week to
+        $45,000/day for TFDE and $60,000/day for 2-stroke vessels.
+
+        Dry Bulk: There weren’t major changes to headline Capesize rates which the Baltic Exchange put at $2,800/day.
+        However, as pointed out previously, we believe the real earnings are better reflected in the round voyage spot
+        rates from Brazil and Australia to China which are currently at $5,800/day and $4,200/day, respectively, when
+        assuming slower sailing speeds. The FFA markets are trading down 11% this morning with Capesize April contracts
+        now at $4,600/ day. 2Q20 contracts are trading at $7,300/day, 3Q20 at $12,400/day and 4Q20 at $14,800/day.
+
+
+    </MsgBody>
+    <DisclaimerReference>1013537</DisclaimerReference>
+    <Greeting>
+        DIRECT: +1-212-317-7087 MOBILE: +1-212-889-3774 {US}
+    </Greeting>
+</Message>

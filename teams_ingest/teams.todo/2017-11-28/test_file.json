@@ -1,0 +1,866 @@
+[
+    {
+        "@odata.type": "#microsoft.graph.chatMessage",
+        "id": "1608545752005",
+        "replyToId": null,
+        "etag": "1608545752005",
+        "messageType": "message",
+        "createdDateTime": "2020-12-21T10:15:52.005Z",
+        "lastModifiedDateTime": "2020-12-21T10:15:52.005Z",
+        "lastEditedDateTime": null,
+        "deletedDateTime": null,
+        "subject": null,
+        "summary": null,
+        "chatId": "19:221d5378ea6f47788539c1e8f9b090b5@thread.v2",
+        "importance": "normal",
+        "locale": "en-us",
+        "webUrl": null,
+        "channelIdentity": null,
+        "policyViolation": null,
+        "from": {
+            "application": null,
+            "device": null,
+            "conversation": null,
+            "user": {
+                "id": "30ae7014-45ce-44f3-9120-10ce89df14ce",
+                "displayName": "Robert Adler",
+                "userIdentityType": "aadUser"
+            }
+        },
+        "body": {
+            "contentType": "html",
+            "content": "<div><div>Hi Guys,&nbsp;</div>\n\n<div>I hope you both had a good weekend under these Tier 4 circustances.&nbsp;</div>\n</div>"
+        },
+        "attachments": [],
+        "mentions": [],
+        "reactions": []
+    },
+    {
+        "@odata.type": "#microsoft.graph.chatMessage",
+        "id": "1608545829562",
+        "replyToId": null,
+        "etag": "1608545829562",
+        "messageType": "message",
+        "createdDateTime": "2020-12-21T10:17:09.562Z",
+        "lastModifiedDateTime": "2020-12-21T10:17:09.562Z",
+        "lastEditedDateTime": null,
+        "deletedDateTime": null,
+        "subject": null,
+        "summary": null,
+        "chatId": "19:221d5378ea6f47788539c1e8f9b090b5@thread.v2",
+        "importance": "normal",
+        "locale": "en-us",
+        "webUrl": null,
+        "channelIdentity": null,
+        "policyViolation": null,
+        "from": {
+            "application": null,
+            "device": null,
+            "conversation": null,
+            "user": {
+                "id": "30ae7014-45ce-44f3-9120-10ce89df14ce",
+                "displayName": "Robert Adler",
+                "userIdentityType": "aadUser"
+            }
+        },
+        "body": {
+            "contentType": "html",
+            "content": "<div><div>Goldmans Consulting have got back to me about a chat and overview demo.&nbsp;</div>\n\n\n<div itemprop=\"copy-paste-block\">\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><span>Next week unfortunately doesn\u2019t work for them but what dates/time suit:</span></span></span></p>\n\n\n\n<ul>\n\n\t\n<li><span style=\"font-size:11pt\"><span><span style=\"font-family:Calibri,sans-serif\">Tuesday 12<sup>th</sup> Jan at 10am or 3:30pm</span></span></span>\n\t</li><li><span style=\"font-size:11pt\"><span><span style=\"font-family:Calibri,sans-serif\">Friday 15<sup>th</sup> Jan at 11am or 2pm</span></span></span>\n</li></ul>\n\n</div>\n</div>"
+        },
+        "attachments": [],
+        "mentions": [],
+        "reactions": []
+    },
+    {
+        "@odata.type": "#microsoft.graph.chatMessage",
+        "id": "1608547999840",
+        "replyToId": null,
+        "etag": "1608547999840",
+        "messageType": "message",
+        "createdDateTime": "2020-12-21T10:53:19.84Z",
+        "lastModifiedDateTime": "2020-12-21T10:53:19.84Z",
+        "lastEditedDateTime": null,
+        "deletedDateTime": null,
+        "subject": null,
+        "summary": null,
+        "chatId": "19:221d5378ea6f47788539c1e8f9b090b5@thread.v2",
+        "importance": "normal",
+        "locale": "en-us",
+        "webUrl": null,
+        "channelIdentity": null,
+        "policyViolation": null,
+        "from": {
+            "application": null,
+            "device": null,
+            "conversation": null,
+            "user": {
+                "id": "9a618be6-2988-4202-84cf-634ecc976bf2",
+                "displayName": "Sean Morgan",
+                "userIdentityType": "aadUser"
+            }
+        },
+        "body": {
+            "contentType": "html",
+            "content": "<div>\n<p>either of those dates work for me.</p>\n</div>"
+        },
+        "attachments": [],
+        "mentions": [],
+        "reactions": []
+    },
+    {
+        "@odata.type": "#microsoft.graph.chatMessage",
+        "id": "1608549335841",
+        "replyToId": null,
+        "etag": "1608549335841",
+        "messageType": "message",
+        "createdDateTime": "2020-12-21T11:15:35.841Z",
+        "lastModifiedDateTime": "2020-12-21T11:15:35.841Z",
+        "lastEditedDateTime": null,
+        "deletedDateTime": null,
+        "subject": null,
+        "summary": null,
+        "chatId": "19:28ad04f7-55d2-4fe8-b917-52f3c24ab13d_9a618be6-2988-4202-84cf-634ecc976bf2@unq.gbl.spaces",
+        "importance": "normal",
+        "locale": "en-us",
+        "webUrl": null,
+        "channelIdentity": null,
+        "policyViolation": null,
+        "from": {
+            "application": null,
+            "device": null,
+            "conversation": null,
+            "user": {
+                "id": "28ad04f7-55d2-4fe8-b917-52f3c24ab13d",
+                "displayName": "James Hogbin",
+                "userIdentityType": "aadUser"
+            }
+        },
+        "body": {
+            "contentType": "text",
+            "content": "happy with that variation order if you're in for 15% of any costs if we get sued for non delivery."
+        },
+        "attachments": [],
+        "mentions": [],
+        "reactions": []
+    },
+    {
+        "@odata.type": "#microsoft.graph.chatMessage",
+        "id": "1608549380108",
+        "replyToId": null,
+        "etag": "1608549380108",
+        "messageType": "message",
+        "createdDateTime": "2020-12-21T11:16:20.108Z",
+        "lastModifiedDateTime": "2020-12-21T11:16:20.108Z",
+        "lastEditedDateTime": null,
+        "deletedDateTime": null,
+        "subject": null,
+        "summary": null,
+        "chatId": "19:28ad04f7-55d2-4fe8-b917-52f3c24ab13d_9a618be6-2988-4202-84cf-634ecc976bf2@unq.gbl.spaces",
+        "importance": "normal",
+        "locale": "en-us",
+        "webUrl": null,
+        "channelIdentity": null,
+        "policyViolation": null,
+        "from": {
+            "application": null,
+            "device": null,
+            "conversation": null,
+            "user": {
+                "id": "9a618be6-2988-4202-84cf-634ecc976bf2",
+                "displayName": "Sean Morgan",
+                "userIdentityType": "aadUser"
+            }
+        },
+        "body": {
+            "contentType": "text",
+            "content": "what date do you forecast we will deliver?"
+        },
+        "attachments": [],
+        "mentions": [],
+        "reactions": []
+    },
+    {
+        "@odata.type": "#microsoft.graph.chatMessage",
+        "id": "1608549390891",
+        "replyToId": null,
+        "etag": "1608549390891",
+        "messageType": "message",
+        "createdDateTime": "2020-12-21T11:16:30.891Z",
+        "lastModifiedDateTime": "2020-12-21T11:16:30.891Z",
+        "lastEditedDateTime": null,
+        "deletedDateTime": null,
+        "subject": null,
+        "summary": null,
+        "chatId": "19:28ad04f7-55d2-4fe8-b917-52f3c24ab13d_9a618be6-2988-4202-84cf-634ecc976bf2@unq.gbl.spaces",
+        "importance": "normal",
+        "locale": "en-us",
+        "webUrl": null,
+        "channelIdentity": null,
+        "policyViolation": null,
+        "from": {
+            "application": null,
+            "device": null,
+            "conversation": null,
+            "user": {
+                "id": "28ad04f7-55d2-4fe8-b917-52f3c24ab13d",
+                "displayName": "James Hogbin",
+                "userIdentityType": "aadUser"
+            }
+        },
+        "body": {
+            "contentType": "text",
+            "content": "July 2021"
+        },
+        "attachments": [],
+        "mentions": [],
+        "reactions": []
+    },
+    {
+        "@odata.type": "#microsoft.graph.chatMessage",
+        "id": "1608549473542",
+        "replyToId": null,
+        "etag": "1608549473542",
+        "messageType": "message",
+        "createdDateTime": "2020-12-21T11:17:53.542Z",
+        "lastModifiedDateTime": "2020-12-21T11:17:53.542Z",
+        "lastEditedDateTime": null,
+        "deletedDateTime": null,
+        "subject": null,
+        "summary": null,
+        "chatId": "19:28ad04f7-55d2-4fe8-b917-52f3c24ab13d_9a618be6-2988-4202-84cf-634ecc976bf2@unq.gbl.spaces",
+        "importance": "normal",
+        "locale": "en-us",
+        "webUrl": null,
+        "channelIdentity": null,
+        "policyViolation": null,
+        "from": {
+            "application": null,
+            "device": null,
+            "conversation": null,
+            "user": {
+                "id": "9a618be6-2988-4202-84cf-634ecc976bf2",
+                "displayName": "Sean Morgan",
+                "userIdentityType": "aadUser"
+            }
+        },
+        "body": {
+            "contentType": "text",
+            "content": "so let's not do it as that's too far away and say we will only issue more licences if it excludes Teams."
+        },
+        "attachments": [],
+        "mentions": [],
+        "reactions": []
+    },
+    {
+        "@odata.type": "#microsoft.graph.chatMessage",
+        "id": "1608549497732",
+        "replyToId": null,
+        "etag": "1608549497732",
+        "messageType": "message",
+        "createdDateTime": "2020-12-21T11:18:17.732Z",
+        "lastModifiedDateTime": "2020-12-21T11:18:17.732Z",
+        "lastEditedDateTime": null,
+        "deletedDateTime": null,
+        "subject": null,
+        "summary": null,
+        "chatId": "19:28ad04f7-55d2-4fe8-b917-52f3c24ab13d_9a618be6-2988-4202-84cf-634ecc976bf2@unq.gbl.spaces",
+        "importance": "normal",
+        "locale": "en-us",
+        "webUrl": null,
+        "channelIdentity": null,
+        "policyViolation": null,
+        "from": {
+            "application": null,
+            "device": null,
+            "conversation": null,
+            "user": {
+                "id": "9a618be6-2988-4202-84cf-634ecc976bf2",
+                "displayName": "Sean Morgan",
+                "userIdentityType": "aadUser"
+            }
+        },
+        "body": {
+            "contentType": "text",
+            "content": "but that may draw a attention to the problem as it will be clear we dont want teams."
+        },
+        "attachments": [],
+        "mentions": [],
+        "reactions": []
+    },
+    {
+        "@odata.type": "#microsoft.graph.chatMessage",
+        "id": "1608549615826",
+        "replyToId": null,
+        "etag": "1608549615826",
+        "messageType": "message",
+        "createdDateTime": "2020-12-21T11:20:15.826Z",
+        "lastModifiedDateTime": "2020-12-21T11:20:15.826Z",
+        "lastEditedDateTime": null,
+        "deletedDateTime": null,
+        "subject": null,
+        "summary": null,
+        "chatId": "19:28ad04f7-55d2-4fe8-b917-52f3c24ab13d_9a618be6-2988-4202-84cf-634ecc976bf2@unq.gbl.spaces",
+        "importance": "normal",
+        "locale": "en-us",
+        "webUrl": null,
+        "channelIdentity": null,
+        "policyViolation": null,
+        "from": {
+            "application": null,
+            "device": null,
+            "conversation": null,
+            "user": {
+                "id": "9a618be6-2988-4202-84cf-634ecc976bf2",
+                "displayName": "Sean Morgan",
+                "userIdentityType": "aadUser"
+            }
+        },
+        "body": {
+            "contentType": "text",
+            "content": "why don't we discuss it after the sales meeting?"
+        },
+        "attachments": [],
+        "mentions": [],
+        "reactions": []
+    },
+    {
+        "@odata.type": "#microsoft.graph.chatMessage",
+        "id": "1608549674578",
+        "replyToId": null,
+        "etag": "1608549674578",
+        "messageType": "message",
+        "createdDateTime": "2020-12-21T11:21:14.578Z",
+        "lastModifiedDateTime": "2020-12-21T11:21:14.578Z",
+        "lastEditedDateTime": null,
+        "deletedDateTime": null,
+        "subject": null,
+        "summary": null,
+        "chatId": "19:28ad04f7-55d2-4fe8-b917-52f3c24ab13d_9a618be6-2988-4202-84cf-634ecc976bf2@unq.gbl.spaces",
+        "importance": "normal",
+        "locale": "en-us",
+        "webUrl": null,
+        "channelIdentity": null,
+        "policyViolation": null,
+        "from": {
+            "application": null,
+            "device": null,
+            "conversation": null,
+            "user": {
+                "id": "9a618be6-2988-4202-84cf-634ecc976bf2",
+                "displayName": "Sean Morgan",
+                "userIdentityType": "aadUser"
+            }
+        },
+        "body": {
+            "contentType": "text",
+            "content": "Teams constitutes \u00a35,178.24 of this years contract, of which 1/4 of a year to run."
+        },
+        "attachments": [],
+        "mentions": [],
+        "reactions": []
+    },
+    {
+        "@odata.type": "#microsoft.graph.chatMessage",
+        "id": "1608550002849",
+        "replyToId": null,
+        "etag": "1608550002849",
+        "messageType": "message",
+        "createdDateTime": "2020-12-21T11:26:42.849Z",
+        "lastModifiedDateTime": "2020-12-21T11:26:42.849Z",
+        "lastEditedDateTime": null,
+        "deletedDateTime": null,
+        "subject": null,
+        "summary": null,
+        "chatId": "19:28ad04f7-55d2-4fe8-b917-52f3c24ab13d_49e7c390-85fc-43ea-8d94-797e2c23f04f@unq.gbl.spaces",
+        "importance": "normal",
+        "locale": "en-us",
+        "webUrl": null,
+        "channelIdentity": null,
+        "policyViolation": null,
+        "from": {
+            "application": null,
+            "device": null,
+            "conversation": null,
+            "user": {
+                "id": "49e7c390-85fc-43ea-8d94-797e2c23f04f",
+                "displayName": "Tom Vavrechka",
+                "userIdentityType": "aadUser"
+            }
+        },
+        "body": {
+            "contentType": "text",
+            "content": "Just spoke to Microsoft re: eu domain and......."
+        },
+        "attachments": [],
+        "mentions": [],
+        "reactions": []
+    },
+    {
+        "@odata.type": "#microsoft.graph.chatMessage",
+        "id": "1608550035731",
+        "replyToId": null,
+        "etag": "1608550035731",
+        "messageType": "message",
+        "createdDateTime": "2020-12-21T11:27:15.731Z",
+        "lastModifiedDateTime": "2020-12-21T11:27:15.731Z",
+        "lastEditedDateTime": null,
+        "deletedDateTime": null,
+        "subject": null,
+        "summary": null,
+        "chatId": "19:28ad04f7-55d2-4fe8-b917-52f3c24ab13d_49e7c390-85fc-43ea-8d94-797e2c23f04f@unq.gbl.spaces",
+        "importance": "normal",
+        "locale": "en-us",
+        "webUrl": null,
+        "channelIdentity": null,
+        "policyViolation": null,
+        "from": {
+            "application": null,
+            "device": null,
+            "conversation": null,
+            "user": {
+                "id": "49e7c390-85fc-43ea-8d94-797e2c23f04f",
+                "displayName": "Tom Vavrechka",
+                "userIdentityType": "aadUser"
+            }
+        },
+        "body": {
+            "contentType": "text",
+            "content": "All good to go. Should not be a problem. Forwarding the email to you"
+        },
+        "attachments": [],
+        "mentions": [],
+        "reactions": []
+    },
+    {
+        "@odata.type": "#microsoft.graph.chatMessage",
+        "id": "1608550526775",
+        "replyToId": null,
+        "etag": "1608550526775",
+        "messageType": "message",
+        "createdDateTime": "2020-12-21T11:35:26.775Z",
+        "lastModifiedDateTime": "2020-12-21T11:35:26.775Z",
+        "lastEditedDateTime": null,
+        "deletedDateTime": null,
+        "subject": null,
+        "summary": null,
+        "chatId": "19:221d5378ea6f47788539c1e8f9b090b5@thread.v2",
+        "importance": "normal",
+        "locale": "en-us",
+        "webUrl": null,
+        "channelIdentity": null,
+        "policyViolation": null,
+        "from": {
+            "application": null,
+            "device": null,
+            "conversation": null,
+            "user": {
+                "id": "30ae7014-45ce-44f3-9120-10ce89df14ce",
+                "displayName": "Robert Adler",
+                "userIdentityType": "aadUser"
+            }
+        },
+        "body": {
+            "contentType": "text",
+            "content": "James ?"
+        },
+        "attachments": [],
+        "mentions": [],
+        "reactions": []
+    },
+    {
+        "@odata.type": "#microsoft.graph.chatMessage",
+        "id": "1608550704293",
+        "replyToId": null,
+        "etag": "1608550704293",
+        "messageType": "message",
+        "createdDateTime": "2020-12-21T11:38:24.293Z",
+        "lastModifiedDateTime": "2020-12-21T11:38:24.293Z",
+        "lastEditedDateTime": null,
+        "deletedDateTime": null,
+        "subject": null,
+        "summary": null,
+        "chatId": "19:221d5378ea6f47788539c1e8f9b090b5@thread.v2",
+        "importance": "normal",
+        "locale": "en-us",
+        "webUrl": null,
+        "channelIdentity": null,
+        "policyViolation": null,
+        "from": {
+            "application": null,
+            "device": null,
+            "conversation": null,
+            "user": {
+                "id": "9a618be6-2988-4202-84cf-634ecc976bf2",
+                "displayName": "Sean Morgan",
+                "userIdentityType": "aadUser"
+            }
+        },
+        "body": {
+            "contentType": "text",
+            "content": "From looking at his calendar, Robert either of those work for James."
+        },
+        "attachments": [],
+        "mentions": [],
+        "reactions": []
+    },
+    {
+        "@odata.type": "#microsoft.graph.chatMessage",
+        "id": "1608551014653",
+        "replyToId": null,
+        "etag": "1608551014653",
+        "messageType": "message",
+        "createdDateTime": "2020-12-21T11:43:34.653Z",
+        "lastModifiedDateTime": "2020-12-21T11:43:34.653Z",
+        "lastEditedDateTime": null,
+        "deletedDateTime": null,
+        "subject": null,
+        "summary": null,
+        "chatId": "19:28ad04f7-55d2-4fe8-b917-52f3c24ab13d_9a618be6-2988-4202-84cf-634ecc976bf2@unq.gbl.spaces",
+        "importance": "normal",
+        "locale": "en-us",
+        "webUrl": null,
+        "channelIdentity": null,
+        "policyViolation": null,
+        "from": {
+            "application": null,
+            "device": null,
+            "conversation": null,
+            "user": {
+                "id": "28ad04f7-55d2-4fe8-b917-52f3c24ab13d",
+                "displayName": "James Hogbin",
+                "userIdentityType": "aadUser"
+            }
+        },
+        "body": {
+            "contentType": "html",
+            "content": "<div>\n<p>Game changer on Teams from the 9th December!!</p>\n</div>"
+        },
+        "attachments": [],
+        "mentions": [],
+        "reactions": []
+    },
+    {
+        "@odata.type": "#microsoft.graph.chatMessage",
+        "id": "1608551022821",
+        "replyToId": null,
+        "etag": "1608551022821",
+        "messageType": "message",
+        "createdDateTime": "2020-12-21T11:43:42.821Z",
+        "lastModifiedDateTime": "2020-12-21T11:43:42.821Z",
+        "lastEditedDateTime": null,
+        "deletedDateTime": null,
+        "subject": null,
+        "summary": null,
+        "chatId": "19:28ad04f7-55d2-4fe8-b917-52f3c24ab13d_9a618be6-2988-4202-84cf-634ecc976bf2@unq.gbl.spaces",
+        "importance": "normal",
+        "locale": "en-us",
+        "webUrl": null,
+        "channelIdentity": null,
+        "policyViolation": null,
+        "from": {
+            "application": null,
+            "device": null,
+            "conversation": null,
+            "user": {
+                "id": "28ad04f7-55d2-4fe8-b917-52f3c24ab13d",
+                "displayName": "James Hogbin",
+                "userIdentityType": "aadUser"
+            }
+        },
+        "body": {
+            "contentType": "html",
+            "content": "<div>\n<p><a href=\"https://docs.microsoft.com/en-us/microsoftteams/export-teams-content?WT.mc_id=email\" title=\"https://docs.microsoft.com/en-us/microsoftteams/export-teams-content?wt.mc_id=email\" target=\"_blank\" rel=\"noreferrer noopener\">https://docs.microsoft.com/en-us/microsoftteams/export-teams-content?WT.mc_id=email</a></p>\n</div>"
+        },
+        "attachments": [],
+        "mentions": [],
+        "reactions": []
+    },
+    {
+        "@odata.type": "#microsoft.graph.chatMessage",
+        "id": "1608551061746",
+        "replyToId": null,
+        "etag": "1608551061746",
+        "messageType": "message",
+        "createdDateTime": "2020-12-21T11:44:21.746Z",
+        "lastModifiedDateTime": "2020-12-21T11:44:21.746Z",
+        "lastEditedDateTime": null,
+        "deletedDateTime": null,
+        "subject": null,
+        "summary": null,
+        "chatId": "19:28ad04f7-55d2-4fe8-b917-52f3c24ab13d_9a618be6-2988-4202-84cf-634ecc976bf2@unq.gbl.spaces",
+        "importance": "normal",
+        "locale": "en-us",
+        "webUrl": null,
+        "channelIdentity": null,
+        "policyViolation": null,
+        "from": {
+            "application": null,
+            "device": null,
+            "conversation": null,
+            "user": {
+                "id": "9a618be6-2988-4202-84cf-634ecc976bf2",
+                "displayName": "Sean Morgan",
+                "userIdentityType": "aadUser"
+            }
+        },
+        "body": {
+            "contentType": "text",
+            "content": "Thats good. so whats the revised date?"
+        },
+        "attachments": [],
+        "mentions": [],
+        "reactions": []
+    },
+    {
+        "@odata.type": "#microsoft.graph.chatMessage",
+        "id": "1608551081694",
+        "replyToId": null,
+        "etag": "1608551081694",
+        "messageType": "message",
+        "createdDateTime": "2020-12-21T11:44:41.694Z",
+        "lastModifiedDateTime": "2020-12-21T11:44:41.694Z",
+        "lastEditedDateTime": null,
+        "deletedDateTime": null,
+        "subject": null,
+        "summary": null,
+        "chatId": "19:28ad04f7-55d2-4fe8-b917-52f3c24ab13d_9a618be6-2988-4202-84cf-634ecc976bf2@unq.gbl.spaces",
+        "importance": "normal",
+        "locale": "en-us",
+        "webUrl": null,
+        "channelIdentity": null,
+        "policyViolation": null,
+        "from": {
+            "application": null,
+            "device": null,
+            "conversation": null,
+            "user": {
+                "id": "28ad04f7-55d2-4fe8-b917-52f3c24ab13d",
+                "displayName": "James Hogbin",
+                "userIdentityType": "aadUser"
+            }
+        },
+        "body": {
+            "contentType": "html",
+            "content": "<div><div>\n<div><span><img height=\"222\" src=\"https://graph.microsoft.com/beta/chats/19:28ad04f7-55d2-4fe8-b917-52f3c24ab13d_9a618be6-2988-4202-84cf-634ecc976bf2@unq.gbl.spaces/messages/1608551081694/hostedContents/aWQ9eF8wLXdldS1kNS1kZTNiYWNjZmU2MGJlNzExODJiZDAyMDUyYjNmMzI1Nyx0eXBlPTEsdXJsPWh0dHBzOi8vZXUtYXBpLmFzbS5za3lwZS5jb20vdjEvb2JqZWN0cy8wLXdldS1kNS1kZTNiYWNjZmU2MGJlNzExODJiZDAyMDUyYjNmMzI1Ny92aWV3cy9pbWdv/$value\" width=\"2706\" style=\"vertical-align:bottom; width:2706px; height:222px\"></span>\n\n</div>\n\n\n</div>\n</div>"
+        },
+        "attachments": [],
+        "mentions": [],
+        "reactions": []
+    },
+    {
+        "@odata.type": "#microsoft.graph.chatMessage",
+        "id": "1608551106206",
+        "replyToId": null,
+        "etag": "1608551106206",
+        "messageType": "message",
+        "createdDateTime": "2020-12-21T11:45:06.206Z",
+        "lastModifiedDateTime": "2020-12-21T11:45:06.206Z",
+        "lastEditedDateTime": null,
+        "deletedDateTime": null,
+        "subject": null,
+        "summary": null,
+        "chatId": "19:28ad04f7-55d2-4fe8-b917-52f3c24ab13d_9a618be6-2988-4202-84cf-634ecc976bf2@unq.gbl.spaces",
+        "importance": "normal",
+        "locale": "en-us",
+        "webUrl": null,
+        "channelIdentity": null,
+        "policyViolation": null,
+        "from": {
+            "application": null,
+            "device": null,
+            "conversation": null,
+            "user": {
+                "id": "28ad04f7-55d2-4fe8-b917-52f3c24ab13d",
+                "displayName": "James Hogbin",
+                "userIdentityType": "aadUser"
+            }
+        },
+        "body": {
+            "contentType": "text",
+            "content": "March"
+        },
+        "attachments": [],
+        "mentions": [],
+        "reactions": []
+    },
+    {
+        "@odata.type": "#microsoft.graph.chatMessage",
+        "id": "1608551109039",
+        "replyToId": null,
+        "etag": "1608551109039",
+        "messageType": "message",
+        "createdDateTime": "2020-12-21T11:45:09.039Z",
+        "lastModifiedDateTime": "2020-12-21T11:45:09.039Z",
+        "lastEditedDateTime": null,
+        "deletedDateTime": null,
+        "subject": null,
+        "summary": null,
+        "chatId": "19:28ad04f7-55d2-4fe8-b917-52f3c24ab13d_9a618be6-2988-4202-84cf-634ecc976bf2@unq.gbl.spaces",
+        "importance": "normal",
+        "locale": "en-us",
+        "webUrl": null,
+        "channelIdentity": null,
+        "policyViolation": null,
+        "from": {
+            "application": null,
+            "device": null,
+            "conversation": null,
+            "user": {
+                "id": "28ad04f7-55d2-4fe8-b917-52f3c24ab13d",
+                "displayName": "James Hogbin",
+                "userIdentityType": "aadUser"
+            }
+        },
+        "body": {
+            "contentType": "text",
+            "content": "latest"
+        },
+        "attachments": [],
+        "mentions": [],
+        "reactions": []
+    },
+    {
+        "@odata.type": "#microsoft.graph.chatMessage",
+        "id": "1608554270767",
+        "replyToId": null,
+        "etag": "1608554270767",
+        "messageType": "message",
+        "createdDateTime": "2020-12-21T12:37:50.767Z",
+        "lastModifiedDateTime": "2020-12-21T12:37:50.767Z",
+        "lastEditedDateTime": null,
+        "deletedDateTime": null,
+        "subject": null,
+        "summary": null,
+        "chatId": "19:28ad04f7-55d2-4fe8-b917-52f3c24ab13d_49e7c390-85fc-43ea-8d94-797e2c23f04f@unq.gbl.spaces",
+        "importance": "normal",
+        "locale": "en-us",
+        "webUrl": null,
+        "channelIdentity": null,
+        "policyViolation": null,
+        "from": {
+            "application": null,
+            "device": null,
+            "conversation": null,
+            "user": {
+                "id": "49e7c390-85fc-43ea-8d94-797e2c23f04f",
+                "displayName": "Tom Vavrechka",
+                "userIdentityType": "aadUser"
+            }
+        },
+        "body": {
+            "contentType": "text",
+            "content": "Do Turquoise need more than this as a disclaimer?"
+        },
+        "attachments": [],
+        "mentions": [],
+        "reactions": []
+    },
+    {
+        "@odata.type": "#microsoft.graph.chatMessage",
+        "id": "1608554273284",
+        "replyToId": null,
+        "etag": "1608554273284",
+        "messageType": "message",
+        "createdDateTime": "2020-12-21T12:37:53.284Z",
+        "lastModifiedDateTime": "2020-12-21T12:37:53.284Z",
+        "lastEditedDateTime": null,
+        "deletedDateTime": null,
+        "subject": null,
+        "summary": null,
+        "chatId": "19:28ad04f7-55d2-4fe8-b917-52f3c24ab13d_49e7c390-85fc-43ea-8d94-797e2c23f04f@unq.gbl.spaces",
+        "importance": "normal",
+        "locale": "en-us",
+        "webUrl": null,
+        "channelIdentity": null,
+        "policyViolation": null,
+        "from": {
+            "application": null,
+            "device": null,
+            "conversation": null,
+            "user": {
+                "id": "49e7c390-85fc-43ea-8d94-797e2c23f04f",
+                "displayName": "Tom Vavrechka",
+                "userIdentityType": "aadUser"
+            }
+        },
+        "body": {
+            "contentType": "html",
+            "content": "<div><div>\n<div><span><img height=\"250\" src=\"https://graph.microsoft.com/beta/chats/19:28ad04f7-55d2-4fe8-b917-52f3c24ab13d_49e7c390-85fc-43ea-8d94-797e2c23f04f@unq.gbl.spaces/messages/1608554273284/hostedContents/aWQ9eF8wLXdldS1kMTEtOTU2ZGQ5ODg0M2E2ODBjOGRiZjFmYTFlODAzZjBiN2IsdHlwZT0xLHVybD1odHRwczovL2V1LWFwaS5hc20uc2t5cGUuY29tL3YxL29iamVjdHMvMC13ZXUtZDExLTk1NmRkOTg4NDNhNjgwYzhkYmYxZmExZTgwM2YwYjdiL3ZpZXdzL2ltZ28=/$value\" width=\"686.1702127659574\" style=\"vertical-align:bottom; width:686px; height:250px\"></span>\n\n</div>\n\n\n</div>\n</div>"
+        },
+        "attachments": [],
+        "mentions": [],
+        "reactions": []
+    },
+    {
+        "@odata.type": "#microsoft.graph.chatMessage",
+        "id": "1608560429643",
+        "replyToId": null,
+        "etag": "1608560429643",
+        "messageType": "message",
+        "createdDateTime": "2020-12-21T14:20:29.643Z",
+        "lastModifiedDateTime": "2020-12-21T14:20:29.643Z",
+        "lastEditedDateTime": null,
+        "deletedDateTime": null,
+        "subject": null,
+        "summary": null,
+        "chatId": "19:meeting_NDVkYWZmYTgtNTMzOS00ZTI4LTk4NjQtMDYwZDNiOGQ0ZjQw@thread.v2",
+        "importance": "normal",
+        "locale": "en-us",
+        "webUrl": null,
+        "channelIdentity": null,
+        "policyViolation": null,
+        "from": {
+            "application": null,
+            "device": null,
+            "conversation": null,
+            "user": {
+                "id": "28ad04f7-55d2-4fe8-b917-52f3c24ab13d",
+                "displayName": "James Hogbin",
+                "userIdentityType": "aadUser"
+            }
+        },
+        "body": {
+            "contentType": "html",
+            "content": "<div>\n<pre style=\"background-color:#9ea84d; color:#cc87b1; font-size:10.5pt\"><em><span style=\"color:#cc87b1\"><a href=\"https://graph.microsoft.com/beta/users/%7Bid%7D/chats/allMessages?\" title=\"https://graph.microsoft.com/beta/users/%7bid%7d/chats/allmessages?\" target=\"_blank\" rel=\"noreferrer noopener\">https://graph.microsoft.com/beta/users/{\u200b\u200bid}\u200b\u200b/chats/allMessages?<br></a></span></em><br></pre>\n<p></p>\n<pre style=\"background-color:#9ea84d; color:#cc87b1; font-size:10.5pt\"><em><span style=\"color:#cc87b1\"><a href=\"https://graph.microsoft.com/beta/users/%7Bid%7D/chats/allMessages?\" title=\"https://graph.microsoft.com/beta/users/%7bid%7d/chats/allmessages?\" target=\"_blank\" rel=\"noreferrer noopener\"></a></span></em></pre>\n</div>"
+        },
+        "attachments": [],
+        "mentions": [],
+        "reactions": []
+    },
+    {
+        "@odata.type": "#microsoft.graph.chatMessage",
+        "id": "1608560442333",
+        "replyToId": null,
+        "etag": "1608560442333",
+        "messageType": "message",
+        "createdDateTime": "2020-12-21T14:20:42.333Z",
+        "lastModifiedDateTime": "2020-12-21T14:20:42.333Z",
+        "lastEditedDateTime": null,
+        "deletedDateTime": null,
+        "subject": null,
+        "summary": null,
+        "chatId": "19:meeting_NDVkYWZmYTgtNTMzOS00ZTI4LTk4NjQtMDYwZDNiOGQ0ZjQw@thread.v2",
+        "importance": "normal",
+        "locale": "en-us",
+        "webUrl": null,
+        "channelIdentity": null,
+        "policyViolation": null,
+        "from": {
+            "application": null,
+            "device": null,
+            "conversation": null,
+            "user": {
+                "id": "28ad04f7-55d2-4fe8-b917-52f3c24ab13d",
+                "displayName": "James Hogbin",
+                "userIdentityType": "aadUser"
+            }
+        },
+        "body": {
+            "contentType": "html",
+            "content": "<div>\n<p><a href=\"https://graph.microsoft.com/beta/users/%7Bid%7D/chats/allMessages?\" title=\"https://graph.microsoft.com/beta/users/%7bid%7d/chats/allmessages?\" target=\"_blank\" rel=\"noreferrer noopener\">https://graph.microsoft.com/beta/users/{\u200b\u200bid}\u200b\u200b/chats/allMessages?</a></p>\n</div>"
+        },
+        "attachments": [],
+        "mentions": [],
+        "reactions": []
+    }
+]

@@ -1,0 +1,80 @@
+{
+    "cdr": {
+        "source": {
+            "source_id": "a6df2784-9ec4-43ce-8845-13275c55da40",
+            "source_type": "call"
+        },
+        "date_of_action": "2022-09-09 17:03:39",
+        "origin_to": {
+            "persona_id": "a6df2784-9ec4-43ce-8845-13275c55da40",
+            "persona_first_name": "Jean-Baptiste",
+            "persona_second_name": "Hatt",
+            "persona_number": "+442038264484",
+            "persona_email": "jean-baptiste.hatt@melqart.com",
+            "persona_department": "Investment Management"
+        },
+        "destination_from": {
+            "persona_id": "Unknown",
+            "persona_first_name": "Unknown",
+            "persona_second_name": "Unknown",
+            "persona_number": "814",
+            "persona_email": "Unknown",
+            "persona_department": "Unknown"
+        },
+        "participants": None,
+        "key_uri": "processed.zoom/2022-09-12/cdr__call_a6df2784-9ec4-43ce-8845-13275c55da40_1662934815723"
+    },
+    "transcript": {
+        "type": "zoom_transcript",
+        "source": {
+            "source_id": "a6df2784-9ec4-43ce-8845-13275c55da40",
+            "source_type": "call"
+        },
+        "recording_id": "a6df27849ec443ce884513275c55da40",
+        "start_time": "2022-09-09 17:03:46",
+        "end_time": "2022-09-09 17:03:53",
+        "content": [
+            {
+                "text": "Thank you for calling.",
+                "end_ts": "00:00:02.290",
+                "ts": "00:00:00.800",
+                "users": [
+                    {
+                        "username": "+18008953361",
+                        "multiple_people": False,
+                        "user_id": "+18008953361",
+                        "zoom_userid": "Unknown Speaker",
+                        "client_type": 0
+                    }
+                ]
+            },
+            {
+                "text": "Please have your conference. Id ready, and a coordinator will be with you momentarily if you require assistant.",
+                "end_ts": "00:00:07.950",
+                "ts": "00:00:02.300",
+                "users": [
+                    {
+                        "username": "+18008953361",
+                        "multiple_people": False,
+                        "user_id": "+18008953361",
+                        "zoom_userid": "Unknown Speaker",
+                        "client_type": 0
+                    }
+                ]
+            }
+        ],
+        "key_uri": "processed.zoom/2022-09-12/transcript__call_a6df2784-9ec4-43ce-8845-13275c55da40_1662934816040"
+    },
+    "recording": {
+        "source": {
+            "source_id": "a6df2784-9ec4-43ce-8845-13275c55da40",
+            "source_type": "call"
+        },
+        "type": "mp3",
+        "play_url": "https://file.zoom.us/file?jwt=eyJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJjcm9zc2ZpbGUiLCJhdWQiOiJmaWxlIiwiaGRpZyI6ZmFsc2UsImRpZyI6IjA1OTJkMTY3NzMyMjdkNTJkZTUzZDZjNmM0NzI5OTQ4MGQxY2U5M2MwYjUxMmU4ZjYwYzJjZjAyZGUxODRjMTEiLCJpYXQiOjE2NjI5MDA0MDYsImlpYyI6ImF3MSIsIm9yaSI6InBieHdlYiIsImV4cCI6MTY2MjkwMjIwNX0._qURrAKcBGUvie50_vBT1R0ct4b828Shilh1EMtLsdE&path=zoomfs%3A%2F%2Fzoom-pbx%2Frecording%2F2022%2F9%2F9%2F23vOATmyRHmTaj4vhE2Usg%2F_DAoI2RqTDyjJLswsOqPCg%2Fa6df2784-9ec4-43ce-8845-13275c55da40%2Fcall_recording_a6df2784-9ec4-43ce-8845-13275c55da40_20220909170346.mp3",
+        "recording_id": "a6df27849ec443ce884513275c55da40",
+        "download_url": "todo.zoom/2022-09-11/audio_file_a6df2784-9ec4-43ce-8845-13275c55da40_1662901678055",
+        "key_uri": "processed.zoom/2022-09-12/transcript__call_a6df2784-9ec4-43ce-8845-13275c55da40_1662934816040"
+    },
+    "key_uri": "processed.zoom/2022-09-12/recording__call_a6df2784-9ec4-43ce-8845-13275c55da40_1662934816353"
+}

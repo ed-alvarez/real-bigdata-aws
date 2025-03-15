@@ -1,0 +1,12 @@
+{
+  "name": "whatsapp_ingest",
+  "version": "1.0.0",
+  "dependencies": {
+    "bluebird": "latest",
+    "serverless": "^3.10.0"
+  },
+  "devDependencies": {
+    "serverless-python-requirements": "^5.4.0",
+    "serverless-stage-manager": "^1.0.5"
+  }
+}

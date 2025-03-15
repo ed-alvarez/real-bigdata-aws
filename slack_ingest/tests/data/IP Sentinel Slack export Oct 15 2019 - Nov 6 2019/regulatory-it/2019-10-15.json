@@ -1,0 +1,72 @@
+[
+    {
+        "user": "UPG9G6D38",
+        "type": "message",
+        "subtype": "channel_join",
+        "ts": "1571153950.000200",
+        "text": "<@UPG9G6D38> has joined the channel"
+    },
+    {
+        "user": "UPFUKHWS3",
+        "type": "message",
+        "subtype": "channel_join",
+        "ts": "1571153990.000400",
+        "text": "<@UPFUKHWS3> has joined the channel"
+    },
+    {
+        "user": "UP19VS2E6",
+        "type": "message",
+        "subtype": "channel_join",
+        "ts": "1571153991.000600",
+        "text": "<@UP19VS2E6> has joined the channel"
+    },
+    {
+        "user": "UP2JNQM9R",
+        "type": "message",
+        "subtype": "channel_join",
+        "ts": "1571153992.000800",
+        "text": "<@UP2JNQM9R> has joined the channel"
+    },
+    {
+        "client_msg_id": "951933b8-c207-4a13-be1c-c5ab23e1f090",
+        "type": "message",
+        "text": "Welcome to the IPS slack channel",
+        "user": "UPG9G6D38",
+        "ts": "1571154236.001200",
+        "team": "TP2JMH5U3",
+        "user_team": "TP2JMH5U3",
+        "source_team": "TP2JMH5U3",
+        "user_profile": {
+            "avatar_hash": "gb154cdd974c",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/b154cdd974caad88b398684a2efe0c58.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0003-72.png",
+            "first_name": "James",
+            "real_name": "James Hogbin",
+            "display_name": "",
+            "team": "TP2JMH5U3",
+            "name": "james",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        }
+    },
+    {
+        "client_msg_id": "67305618-b60c-4987-9de9-0e19bba91d59",
+        "type": "message",
+        "text": "Am here",
+        "user": "UP2JNQM9R",
+        "ts": "1571154412.001400",
+        "team": "TP2JMH5U3",
+        "user_team": "TP2JMH5U3",
+        "source_team": "TP2JMH5U3",
+        "user_profile": {
+            "avatar_hash": "gc4495e38582",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/c4495e38582e03ae164ae4725fadff73.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0007-72.png",
+            "first_name": "Tom",
+            "real_name": "Tom Vavrechka",
+            "display_name": "Tom",
+            "team": "TP2JMH5U3",
+            "name": "tom",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        }
+    }
+]

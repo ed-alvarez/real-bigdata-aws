@@ -1,0 +1,71 @@
+{
+    "cdr": {
+        "source": {
+            "source_id": 6429324446,
+            "source_type": "meet"
+        },
+        "date_of_action": "2022-09-09 07:59:34",
+        "origin_to": {
+            "persona_id": "mf6M4ZvJQPeiGYGZznulUw",
+            "persona_first_name": "Alexandra",
+            "persona_second_name": "Robbins",
+            "persona_number": "",
+            "persona_email": "alexandra.robbins@melqart.com",
+            "persona_department": "Business Management"
+        },
+        "destination_from": null,
+        "participants": [
+            {
+                "id": "V2LX2go-Qna2_U7zLOZTzw",
+                "name": "Christen Thomson",
+                "user_email": ""
+            },
+            {
+                "id": "mf6M4ZvJQPeiGYGZznulUw",
+                "name": "Alexandra Robbins",
+                "user_email": "alexandra.robbins@melqart.com"
+            },
+            {
+                "id": "eScqSrDyRpW_Mq5GKa2MFg",
+                "name": "Graham Robinson",
+                "user_email": "graham.robinson@melqart.com"
+            },
+            {
+                "id": "j5R--gEMRxCvwvSwx8orkA",
+                "name": "Jessica Freckleton",
+                "user_email": "jessica.freckleton@melqart.com"
+            },
+            {
+                "id": "",
+                "name": "Isabella McCoy",
+                "user_email": ""
+            },
+            {
+                "id": "",
+                "name": "Isabella 's iPhone",
+                "user_email": ""
+            }
+        ]
+    },
+    "transcript": {
+        "type": "VTT",
+        "source": {
+            "source_id": 6429324446,
+            "source_type": "meet"
+        },
+        "recording_id": "bb4b4eb0-e94f-4b85-9dac-f5dca7e54d1b",
+        "start_time": "2022-09-09 07:59:36",
+        "end_time": "2022-09-09 08:15:13",
+        "content": "https://melqart.zoom.us/rec/download/Ihh3oEYMCP5g1qxS0hGS2bYZ55TFdoDF8zJA0ZCmbk4DJ4usAGZ5lx9GA5DUehNYkKLDQPvOoM_O3A.zKt1Xrm0ooRUQZMi"
+    },
+    "recording": {
+        "source": {
+            "source_id": 6429324446,
+            "source_type": "meet"
+        },
+        "type": "M4A",
+        "play_url": "https://melqart.zoom.us/rec/play/rLoWcIHPGbcccrjmfIcx43j8gio3M9RjyAqqmubWHFedzxmp22Ss730p0t-4ur9pMmKEiFYvEEaOnDWI.l6w8PW5BKmMYkpUw",
+        "recording_id": "de1829e6-73a2-4d75-a810-d284d81651cd",
+        "download_url": "https://melqart.zoom.us/rec/download/rLoWcIHPGbcccrjmfIcx43j8gio3M9RjyAqqmubWHFedzxmp22Ss730p0t-4ur9pMmKEiFYvEEaOnDWI.l6w8PW5BKmMYkpUw"
+    }
+}

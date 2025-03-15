@@ -1,0 +1,1024 @@
+Return-Path: <JournalError@valeurconcept.ch>
+Received: from EUR04-HE1-obe.outbound.protection.outlook.com (mail-he1eur04lp2051.outbound.protection.outlook.com [104.47.13.51])
+ by inbound-smtp.eu-west-1.amazonaws.com with SMTP id c12npdj5rt2qn22024afdrec3btr5qgt995dlp01
+ for valeur@ip-sentinel.net;
+ Tue, 17 Nov 2020 17:24:13 +0000 (UTC)
+Received-SPF: pass (spfCheck: domain of valeurconcept.ch designates 104.47.13.51 as permitted sender) client-ip=104.47.13.51; envelope-from=JournalError@valeurconcept.ch; helo=mail-he1eur04lp2051.outbound.protection.outlook.com;
+Authentication-Results: amazonses.com;
+ spf=pass (spfCheck: domain of valeurconcept.ch designates 104.47.13.51 as permitted sender) client-ip=104.47.13.51; envelope-from=JournalError@valeurconcept.ch; helo=mail-he1eur04lp2051.outbound.protection.outlook.com;
+ dmarc=none header.from=eurotherm.info;
+X-SES-RECEIPT: AEFBQUFBQUFBQUFId2g0aHdMRzlBRzB0MitPU2pIYndtTHYrVnNleFpneGdoRHFuMzl3MEtCaFFrL2ZyQzIwZzFzMzVvMzVMTWZ2UEtveVdUZktNT0xvaU1TZ1pDVU54SkxDYlVBQVdrUmRKSWIrOGpqRDgxcnRLQkE5NS9ENmR6RGtVTHpZaGJycElpQnpIczI5SEhjeStGK0tTdHJDejJWQWhMS1BwTnhyb2RhK3hvTXFhU0pqblRXRWpnVkdWcGV0YWpPUVJONHZ1bVpONWdDdGp0UVZ4M0RXMkloQitpR3QraTlkVnB6NVBab0lMck9kL0ppOEF1RkVSUnluODZ0L3I0NFUyT09XQnd6V1ZwWVByQnpnVWlqTzk4b2hPY1hQT1I4YmFzYURnSCt1eTRDdUdJNkMzTFo2QVhZK0RHWHpDTC8zaytZbk09
+X-SES-DKIM-SIGNATURE: a=rsa-sha256; q=dns/txt; b=RUayxGxxwxL34+26KsW/QVcLVLJyWBAJ1wdUfKslNqD3SeMAQQa6Tl93rarF9nxMAwy4vVOymHGQzivtwJ0p3CjQ0CXsz8zAtV5a0tCCuR6YkXOAuCoUMJHOLfrNFdkmdj2nZNQB/BTcMow+dUEjBVYGn6qiVdPESJ3ACKo6FvM=; c=relaxed/simple; s=shh3fegwg5fppqsuzphvschd53n6ihuv; d=amazonses.com; t=1605633853; v=1; bh=cTCc6dKPwlbULFBj/gYoXYJsvg6m/yEjOpMkuCk4wQA=; h=From:To:Cc:Bcc:Subject:Date:Message-ID:MIME-Version:Content-Type:X-SES-RECEIPT;
+Content-Type: multipart/mixed;
+	boundary="_53fa51f7-5b46-433f-9479-8a7f0bc424c7_"
+Subject: =?Windows-1252?Q?Il_tuo_webinar:_Qualit=E0_dell=92aria_interna:_dalla_fil?=
+ =?Windows-1252?Q?trazione_alla_sanificazione?=
+To: "gabriele.leandri@valeurconcept.ch" <gabriele.leandri@valeurconcept.ch>
+From: Eurotherm - Web Academy <Webacademy@eurotherm.info>
+MIME-Version: 1.0
+Sender:
+	<MicrosoftExchange329e71ec88ae4615bbc36ab6ce41109e@valeurconcept.onmicrosoft.com>
+Message-ID: <0a475b20-2cf9-48c6-8701-1936f482becf@journal.report.generator>
+Date: Tue, 17 Nov 2020 17:24:12 +0000
+X-MS-PublicTrafficType: Email
+X-MS-Journal-Report:
+Return-Path: JournalError@valeurconcept.ch
+X-MS-Exchange-Parent-Message-Id:
+	<AM0P193MB0436DBFBABC34AF9A2D60531B7E20@AM0P193MB0436.EURP193.PROD.OUTLOOK.COM>
+Auto-Submitted: auto-generated
+X-MS-Exchange-Generated-Message-Source: Journal Agent
+X-MS-TrafficTypeDiagnostic: HE1P193MB0009:JournalingReport
+X-OriginatorOrg: valeurconcept.onmicrosoft.com
+X-MS-Exchange-CrossTenant-AuthSource: HE1P193MB0009.EURP193.PROD.OUTLOOK.COM
+X-MS-Exchange-CrossTenant-AuthAs: Internal
+X-MS-Exchange-CrossTenant-OriginalArrivalTime: 17 Nov 2020 17:24:12.3664 (UTC)
+X-MS-Exchange-CrossTenant-Network-Message-Id:
+	85324238-90d2-41e0-7d3a-08d88b1d99ce
+X-MS-Exchange-CrossTenant-FromEntityHeader: Hosted
+X-MS-Exchange-Transport-CrossTenantHeadersStamped: HE1P193MB0009
+
+--_53fa51f7-5b46-433f-9479-8a7f0bc424c7_
+Content-Type: text/plain; charset="Windows-1252"
+Content-Transfer-Encoding: quoted-printable
+
+Sender: Webacademy@eurotherm.info
+Subject: Il tuo webinar: Qualit=E0 dell=92aria interna: dalla filtrazione a=
+lla sanificazione
+Message-Id: <AM0P193MB0436DBFBABC34AF9A2D60531B7E20@AM0P193MB0436.EURP193.P=
+ROD.OUTLOOK.COM>
+Recipient: gabriele.leandri@valeurconcept.ch
+
+--_53fa51f7-5b46-433f-9479-8a7f0bc424c7_
+Content-Type: message/rfc822
+
+ARC-Seal: i=2; a=rsa-sha256; s=arcselector9901; d=microsoft.com; cv=pass;
+ b=Hpb35/umTqGPaTLWjQtnm3QJiS1rz6/AAVm2VyXN+OK1cc2NECsoSY+rCWhzP7hgW8zPpB1ojVmBjTFJBm5WlxEf4qKlFQg//2yTuvr9V1Fr+J5zhAxjbwEoulDSst0M3E6cFHmA+vmi0KhWWXTY7IaW8Ci65ZZAe+LZG0wh53fi3yemV1JpZxbpMi+jiyzFDPSHPdc+6BMZq+Wr+ANFA00o6+Iy0ddeuIcHLx4vjKNT9TJUMSAEBY25DmjLF4uRu8eINKBB0Wf1EM5UnhmngFJzmAO34JFa1/ev6keMOzTbVP5U55pj1HMcPdsJ3sR9c/IJD5QDMJLMmbBDXhxN6w==
+ARC-Message-Signature: i=2; a=rsa-sha256; c=relaxed/relaxed; d=microsoft.com;
+ s=arcselector9901;
+ h=From:Date:Subject:Message-ID:Content-Type:MIME-Version:X-MS-Exchange-SenderADCheck;
+ bh=v7JdpPaYKyPDqsRfkk4wEt8vjZ1z+SvShO5AutlqLpQ=;
+ b=SXx31su0SYfwJTQI9/zaE8iFFX+3pwV6ANFGfjSxh4qM72wcNsFHRum9URNwxl8CmW+ccaDTVQ5lnChaTAhDFF32lDkWEbmMnOIarXXy2FcH7Bw1tSywdcu3ezLTwwpvthAOTb6jzYIE8sToRRrXvaNgZVH/BHyzPn5XMumSBrVXV1Pi7gV7eNzeBZBdFxm3mgpszsTSfNT/HkaHym44lR/fqBP65s+W2CTC5TNrRWx30RhWKmC00WtupfuWicOiZQQlwZVFpVgiK0cKHFQkIj3xJtV1bxVLfuByw6/wWdvTXiuPQzlOCqlTMMzdeosBax5hZf4nGV5praU75v1tjg==
+ARC-Authentication-Results: i=2; mx.microsoft.com 1; spf=pass (sender ip is
+ 40.107.0.54) smtp.rcpttodomain=valeurconcept.ch smtp.mailfrom=eurotherm.info;
+ dmarc=bestguesspass action=none header.from=eurotherm.info; dkim=pass
+ (signature was verified) header.d=egroupoffice.onmicrosoft.com; arc=pass (0
+ oda=1 ltdi=1 spf=[1,1,smtp.mailfrom=eurotherm.info]
+ dkim=[1,1,header.d=eurotherm.info] dmarc=[1,1,header.from=eurotherm.info])
+Received: from AM6PR04CA0021.eurprd04.prod.outlook.com (2603:10a6:20b:92::34)
+ by HE1P193MB0009.EURP193.PROD.OUTLOOK.COM (2603:10a6:3:102::20) with
+ Microsoft SMTP Server (version=TLS1_2,
+ cipher=TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384) id 15.20.3564.28; Tue, 17 Nov
+ 2020 17:24:10 +0000
+Received: from VE1EUR01FT031.eop-EUR01.prod.protection.outlook.com
+ (2603:10a6:20b:92:cafe::f0) by AM6PR04CA0021.outlook.office365.com
+ (2603:10a6:20b:92::34) with Microsoft SMTP Server (version=TLS1_2,
+ cipher=TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384) id 15.20.3589.20 via Frontend
+ Transport; Tue, 17 Nov 2020 17:24:10 +0000
+Authentication-Results: spf=pass (sender IP is 40.107.0.54)
+ smtp.mailfrom=eurotherm.info; valeurconcept.ch; dkim=pass (signature was
+ verified) header.d=egroupoffice.onmicrosoft.com;valeurconcept.ch;
+ dmarc=bestguesspass action=none header.from=eurotherm.info;compauth=pass
+ reason=109
+Received-SPF: Pass (protection.outlook.com: domain of eurotherm.info
+ designates 40.107.0.54 as permitted sender) receiver=protection.outlook.com;
+ client-ip=40.107.0.54; helo=EUR02-AM5-obe.outbound.protection.outlook.com;
+Received: from EUR02-AM5-obe.outbound.protection.outlook.com (40.107.0.54) by
+ VE1EUR01FT031.mail.protection.outlook.com (10.152.2.225) with Microsoft SMTP
+ Server (version=TLS1_2, cipher=TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384) id
+ 15.20.3564.22 via Frontend Transport; Tue, 17 Nov 2020 17:24:09 +0000
+ARC-Seal: i=1; a=rsa-sha256; s=arcselector9901; d=microsoft.com; cv=none;
+ b=dn1ZB3OsZ1fb0bwz+VDyNXel1w+Hr0AoQKTj4y9DQG4bmNrnMWo/HN1CyVTEy4ierwL3jm+DreR+VrRG3wpJpCQvyr3tCvSNJbPEGOmEBVAhJrNcGJPz/ywyM6rJDwc3sseBU77hipngZO6d+3CHfEPdlwkxGbqsKMJ5Pvnl3AR1oOaI1cTQwFvrmCiILlBJK/OpxjvQfd2jLTKDM5WaSr4/ZUv2kXd9wVwW2LADyX3sAT+WmelWFEcVCwWlr8iCWLyhvbEywajkecygugC41s6adg+FqIuui6nsHeXCJvOLQrBnum5kMZOFUbJpDldx8K/5dchV54iSIbRttyG8MA==
+ARC-Message-Signature: i=1; a=rsa-sha256; c=relaxed/relaxed; d=microsoft.com;
+ s=arcselector9901;
+ h=From:Date:Subject:Message-ID:Content-Type:MIME-Version:X-MS-Exchange-SenderADCheck;
+ bh=v7JdpPaYKyPDqsRfkk4wEt8vjZ1z+SvShO5AutlqLpQ=;
+ b=m2AvZVziRITgeuaK/LjZst/E7+mZxHgV/kJ27QjJzFNoksE7i2phJ0pkpiFsDIg4RNGa6Gl5YxTrU7UVg8qczFnosD2j+eNKe/u+sk3Wq5kCHXF+12rtDBGuhkojCTHXIquJ1Ea/J73hjJ72Eh1qeLI5MDs8Z1PLGAUp40KWpmSxMzfaTEzSyu23T+FhHPkjHjD6BkQqfrbmgm2AuoAghaiM8N1PSn4yC2XV/+8Yb6AdVfUsKp1RxHu6o8RoRPlNuNEqIJs7sS0og/CV+WSLbTRB1bdiEAQOKUlNMgSvHFk1A7lX+YExFeHKxlEh0b8/7zCBlDbp0BvB6vdnZJ4XIQ==
+ARC-Authentication-Results: i=1; mx.microsoft.com 1; spf=pass
+ smtp.mailfrom=eurotherm.info; dmarc=pass action=none
+ header.from=eurotherm.info; dkim=pass header.d=eurotherm.info; arc=none
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+ d=egroupoffice.onmicrosoft.com; s=selector2-egroupoffice-onmicrosoft-com;
+ h=From:Date:Subject:Message-ID:Content-Type:MIME-Version:X-MS-Exchange-SenderADCheck;
+ bh=v7JdpPaYKyPDqsRfkk4wEt8vjZ1z+SvShO5AutlqLpQ=;
+ b=KJyAzxGw+AAdYei3pZbeFAsIX3gbcjlFldO1p/B0t1oPUZ4p27CNgh3fJSMsj0knyt5jgGGYWzJTzo0EDTbIql7GzVmdRVi5ToWmJMcWXGTvVOpd6Q3nQKrWEoCC2szHDSnRP1NmBLGGtENe5tbl4ogrU9OIyF0O2w1hWh4dEfk=
+Received: from AM0P193MB0436.EURP193.PROD.OUTLOOK.COM (2603:10a6:208:58::10)
+ by AM0P193MB0659.EURP193.PROD.OUTLOOK.COM (2603:10a6:20b:16f::8) with
+ Microsoft SMTP Server (version=TLS1_2,
+ cipher=TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384) id 15.20.3564.25; Tue, 17 Nov
+ 2020 17:24:07 +0000
+Received: from AM0P193MB0436.EURP193.PROD.OUTLOOK.COM
+ ([fe80::a4a8:674a:7c9e:6c03]) by AM0P193MB0436.EURP193.PROD.OUTLOOK.COM
+ ([fe80::a4a8:674a:7c9e:6c03%3]) with mapi id 15.20.3564.028; Tue, 17 Nov 2020
+ 17:24:07 +0000
+From: Eurotherm - Web Academy <Webacademy@eurotherm.info>
+To: "gabriele.leandri@valeurconcept.ch" <gabriele.leandri@valeurconcept.ch>
+Subject: =?Windows-1252?Q?Il_tuo_webinar:_Qualit=E0_dell=92aria_interna:_dalla_fil?=
+ =?Windows-1252?Q?trazione_alla_sanificazione?=
+Thread-Topic: =?Windows-1252?Q?Il_tuo_webinar:_Qualit=E0_dell=92aria_interna:_dalla_fil?=
+ =?Windows-1252?Q?trazione_alla_sanificazione?=
+Thread-Index: AQHWvQZ0eHSBftAX8EyPT2NslsIBAA==
+Importance: low
+X-Priority: 5
+Date: Tue, 17 Nov 2020 17:24:07 +0000
+Message-ID: <AM0P193MB0436DBFBABC34AF9A2D60531B7E20@AM0P193MB0436.EURP193.PROD.OUTLOOK.COM>
+Accept-Language: en-US
+Content-Language: en-US
+X-MS-Has-Attach: yes
+X-MS-TNEF-Correlator:
+x-ms-mail-application: Microsoft Power Automate; User-Agent:
+ azure-logic-apps/1.0 (workflow 901eb6e8f1e3436080895d914ab2aa14; version
+ 08585970805212062174) microsoft-flow/1.0
+x-ms-mail-operation-type: Send
+x-ms-mail-environment-id: default-7a8ddec3-bc99-4a83-b9e6-aeee9d9b87e6
+Authentication-Results-Original: valeurconcept.ch; dkim=none (message not
+ signed) header.d=none;valeurconcept.ch; dmarc=none action=none
+ header.from=eurotherm.info;
+x-originating-ip: [40.91.208.65]
+x-ms-publictraffictype: Email
+X-MS-Office365-Filtering-Correlation-Id: fc3a0b40-5cad-497a-f548-08d88b1d9867
+x-ms-traffictypediagnostic: AM0P193MB0659:|HE1P193MB0009:
+x-microsoft-antispam-prvs: <AM0P193MB06591A14839B3BC0E43C10F1B7E20@AM0P193MB0659.EURP193.PROD.OUTLOOK.COM>
+x-ms-oob-tlc-oobclassifiers: OLM:1169;OLM:1169;
+x-ms-exchange-senderadcheck: 1
+X-Microsoft-Antispam-Untrusted: BCL:0;
+X-Microsoft-Antispam-Message-Info-Original: 9nQcyYOr2F8WX7MnZOtZmt2usYk5Znr5YLslxPHDZ8OonWhFhJ38q8qYZszIQF2ZV4ZHjkoWqoGLUn4n9k6x+atNLBBTTh930pEY7SrZcQQr3FIZxQDNZBtkY3YD0VwSDL4e7m9LfFIfFFiw/uNdKmqff7cKYoSkoAl9VgGzPwgXO/dZGZA8wjn8MkLVkqWt0yXBpWSf4LnKjhUszRVK4M6umL8FlcmZrparZQtfgO2RnJFN1hRuDwY4MZklhuL93aiDE8KAYnAB+e4seBVRIdJp7Eq91nsumRWec1GYw0N/XJcWhOJjGqSyRcd410JZSJvqUfYmDjvDYafq7Cpxsc7nIJ/H5dBozxbUOKtX79KKVc33XN7GFWyuR8AKlUhPrBqU7z0JHGFk+5JE6pKAi9RfRAJ1Kyv0ycRM0gQYWXBdeiLNV9tM9NHTgBq5D3PGWNQ3Pm4C8OkjUiYHfbNpKbTxHhxzSfaN7DCHatYGPWY=
+X-Forefront-Antispam-Report-Untrusted: CIP:255.255.255.255;CTRY:;LANG:it;SCL:1;SRV:;IPV:NLI;SFV:NSPM;H:AM0P193MB0436.EURP193.PROD.OUTLOOK.COM;PTR:;CAT:NONE;SFS:(4636009)(39840400004)(136003)(346002)(376002)(396003)(366004)(209900001)(7696005)(66946007)(86362001)(66616009)(5660300002)(66476007)(966005)(6506007)(66446008)(33656002)(64756008)(76116006)(166002)(52536014)(55016002)(316002)(9686003)(224303003)(478600001)(99936003)(66556008)(2906002)(71200400001)(26005)(8936002)(186003)(83380400001)(6916009)(4744005)(45842010)(6606295002);DIR:OUT;SFP:1101;
+X-MS-Exchange-AntiSpam-MessageData-Original:
+	mkZugL1e46XXtFZDzicTsKuqw4vzzTEZo146qC2UcvQVRE9oNjDouT4Y6GVj8ZsBfU7Ftcnym2gAXbk1WhYM6rFtngUWl5mpcxJgbgAlDQfbYSF7OUAZbiemNbszhE47Sa7TaxTszejLJHf5oA59bJRCk0bb/AozMpKSdBG3aoF3Qtz9MDpzqDrLp7LHKtA17UyW4/W5mV/trkXZuHWmrWws05phCqQqKUTcvq/XvQzfUjs5kgB24IYpPs+P9/BTBE8W6edEokCjqVxFad4SwskBl0hcBlAX3x8H9uPJD5pJOylIC8re4eA2Q6oVXFqkucR4qppyR4xYv/ydWGP5CL++lUIFEe4sSLHr/nV2d7Vshg8firXkOlxKWcHKzAL/ekEKr2kjFboASua7tpBa4sql5yp5j0UH4sRKaxPxalCqYvfiSkjHE/FSQMmhCBuEntN85K6aJBEUIqVS/fzp4f90f54aw/Cks0Eit38f5JvIczrc9LZyikHMzA0K0uQZ+9zoux85CwTQfV+CSL7nJjHaaZmNGVoV8NMrp0eG8T9eKQPWbSDFs4ZFbwPVw9sa+EAqUoykT/TQbDtFAKqfF/qKwR7YoTLRNWscRPZs30kX88J4bnWuUtWwuzJIPKR/KLg2Amrd4X7ag2JiF19VQg==
+x-ms-exchange-transport-forked: True
+Content-Type: multipart/mixed;
+	boundary="_8bc5d947-1df2-49e8-8a6f-e656da84ab7b_"
+MIME-Version: 1.0
+X-MS-Exchange-Transport-CrossTenantHeadersStamped: AM0P193MB0659
+Return-Path: Webacademy@eurotherm.info
+X-MS-Exchange-Organization-OriginalArrivalTime: 17 Nov 2020 17:24:09.8388
+ (UTC)
+X-MS-Exchange-Organization-ExpirationStartTime: 17 Nov 2020 17:24:10.0187
+ (UTC)
+X-MS-Exchange-Organization-ExpirationStartTimeReason: OriginalSubmit
+X-MS-Exchange-Organization-ExpirationInterval: 1:00:00:00.0000000
+X-MS-Exchange-Organization-ExpirationIntervalReason: OriginalSubmit
+X-MS-Exchange-Organization-Network-Message-Id: fc3a0b40-5cad-497a-f548-08d88b1d9867
+X-MS-Exchange-Organization-OriginalClientIPAddress: 40.107.0.54
+X-MS-Exchange-Organization-OriginalServerIPAddress: 10.152.2.225
+X-MS-Exchange-Organization-MessageScope: 4642c6fb-bc80-4629-9243-d7177d7d620f
+X-EOPAttributedMessage: 0
+X-EOPTenantAttributedMessage: f2d13bb0-5495-4cca-9b61-1aac1568248e:0
+X-MS-Exchange-Organization-TargetResourceForest: EURP193.PROD.OUTLOOK.COM
+X-MS-Exchange-Organization-OrgEopForest: EUR01
+X-MS-Exchange-Organization-MessageDirectionality: Incoming
+X-MS-Exchange-Organization-Id: f2d13bb0-5495-4cca-9b61-1aac1568248e
+X-MS-Exchange-Organization-FFO-ServiceTag: EUR01B
+X-MS-Exchange-Organization-TenantServiceProvider: FOPE
+X-MS-Exchange-Organization-Cross-Premises-Headers-Processed: VE1EUR01FT031.eop-EUR01.prod.protection.outlook.com
+X-MS-Exchange-Organization-OriginalTenant-AuthAs: Internal
+X-MS-Exchange-Organization-OriginalTenant-AuthSource: AM0P193MB0436.EURP193.PROD.OUTLOOK.COM
+X-MS-Exchange-Organization-OriginalTenant-Network-Message-Id: 3571680f-fc50-427e-0a9b-08d88b1d9709
+X-MS-Exchange-Organization-OriginalTenant-originalarrivaltime: 17 Nov 2020 17:24:07.6879
+ (UTC)
+X-MS-Exchange-Organization-OriginalTenant-fromentityheader: Hosted
+X-MS-Exchange-Organization-OriginalTenant-id: 7a8ddec3-bc99-4a83-b9e6-aeee9d9b87e6
+X-MS-Exchange-Organization-OriginalTenant-mailboxtype: HOSTED
+X-MS-Exchange-Organization-OriginalTenant-userprincipalname: K34V2FvMY9GRRX6Ktj9Z0GVNaDvYgbcmynS7mviAePo0i+QcmjQWVQepwUwxCQaO6Fkk41vFSRzsPaLMZ2Kx8Q==
+X-MS-Exchange-Transport-CrossTenantHeadersStripped: VE1EUR01FT031.eop-EUR01.prod.protection.outlook.com
+X-MS-Exchange-Transport-CrossTenantHeadersPromoted: VE1EUR01FT031.eop-EUR01.prod.protection.outlook.com
+X-MS-Exchange-Organization-ConnectingIP: 40.107.0.54
+X-MS-Exchange-Organization-ConnectingEHLO: EUR02-AM5-obe.outbound.protection.outlook.com
+X-MS-Exchange-Organization-AS-LastExternalIp: 40.107.0.54
+X-MS-Exchange-Organization-IsAtpTenant: true
+X-MS-Exchange-Organization-Originating-Country: NL
+X-MS-Exchange-Organization-P2SenderPII: <PII:H101(cu+nAmakJR+7HQFRz5tIe3rzXpwU7nvyWT0xTdYzGQ0=)>@eurotherm.info
+X-MS-Exchange-Organization-P2SenderDisplayNamePII: H101(eZ/rhPFGQlzlSkZn9EeB1TDeR3VCPxbbEx25ZSODzIw=)
+X-MS-Exchange-Organization-OriginalEnvelopeRecipients: gabriele.leandri@valeurconcept.ch
+X-MS-Exchange-Organization-PtrDomains: mail-eopbgr00054.outbound.protection.outlook.com
+X-MS-Exchange-Organization-EhloAndPtrDomain: EUR02-AM5-obe.outbound.protection.outlook.com;mail-eopbgr00054.outbound.protection.outlook.com
+X-MS-Exchange-Organization-MxPointsToUs: true
+X-MS-Exchange-Organization-RecipientMxInfo-PFAFD: valeurconcept.ch#valeurconcept-ch.mail.protection.outlook.com
+X-MS-Exchange-Organization-CompAuthRes: pass
+X-MS-Exchange-Organization-CompAuthReason: 109
+X-MS-Exchange-Organization-SpoofDetection-Frontdoor-DisplayDomainName: eurotherm.info
+X-MS-Exchange-Organization-SenderRep-Score: 3
+X-MS-Exchange-Organization-SenderRep-Data: IpClassLargeGrayOther_GrayOther_GrayBest
+X-MS-Exchange-Organization-VBR-Class: GrayOther
+X-MS-Exchange-Organization-HMATPModel-Spf: 1
+X-MS-Exchange-Organization-HMATPModel-Recipient: <PII:H101(qrJpUJYq3PRl+66btOvKidEp4MU8CqB3ltRuVoZ5fGw=)>@valeurconcept.ch
+X-MS-Exchange-Organization-TransportTrafficType: Email
+X-MS-Exchange-Organization-OrderedPrecisionLatencyInProgress: LSRV=AM6PR04CA0021.eurprd04.prod.outlook.com:TOTAL-FE=0.076|SMR-PEN=0.132(RENV=0.129|SMRPROXY-PEN=0.000);2020-11-17T17:24:10.457Z
+X-MS-Exchange-Organization-MessageLatency: SRV=VE1EUR01FT031.eop-EUR01.prod.protection.outlook.com:TOTAL-FE=0.598|SMR-PEN=0.598(RENV=0.179(SMRRC=0.155(SMRRC-TenantAttributionAndInboundConnectorAgent=0.137
+ ))|REOH=0.262(SMREH=0.261(SMREH-Protocol Filter
+ Agent=0.257))|SMRPROXY-PEN=0.156(SMSC=0.049 |SMS-PEN=0.107))
+X-MS-Exchange-Organization-MessageLatency:
+	SRV=AM6PR04CA0021.eurprd04.prod.outlook.com:TOTAL-FE=0.203|SMR-PEN=0.132(RENV=0.129|SMRPROXY-PEN=0.000)|SMS=0.127(SMSC=0.060)
+X-MS-Exchange-Forest-ArrivalHubServer: HE1P193MB0009.EURP193.PROD.OUTLOOK.COM
+X-MS-Exchange-Organization-AuthSource:
+	VE1EUR01FT031.eop-EUR01.prod.protection.outlook.com
+X-MS-Exchange-Organization-AuthAs: Anonymous
+X-MS-Exchange-Organization-FromEntityHeader: Internet
+X-MS-Exchange-Forest-MessageScope: 4642c6fb-bc80-4629-9243-d7177d7d620f
+X-MS-Exchange-Organization-OutboundHop-MailUserAgent-IpAddress: [40.91.208.65]
+X-MS-Exchange-Organization-OutboundHop-UserMbx-CPEV: 773
+X-MS-Exchange-Organization-OutboundHop-UserMbx-ThrottleLvl: 0
+X-MS-Exchange-Organization-OutboundHop-UserMbx-24HrSusAlrts: 0
+X-MS-Exchange-Organization-OutboundHop-UserMbx-24HrBlockCnt: 0
+X-MS-Exchange-Organization-OutboundHop-UserMbx-24HrMsgsSent: 98
+X-MS-Exchange-Organization-OutboundHop-UserMbx-AADObjectId:
+	ec5bd4a4-eaa8-4a0c-a170-a1653752d542
+X-MS-Exchange-Organization-Antispam-ProtocolFilterHub-ScanContext:
+	ProtocolFilterHub:SmtpOnEndOfData;
+X-MS-Office365-Filtering-Correlation-Id-Prvs:
+	3571680f-fc50-427e-0a9b-08d88b1d9709
+X-MS-Exchange-Organization-Auth-DmarcStatus: Pass
+X-MS-Exchange-Organization-VerifiedDkimDomainsList:
+	egroupoffice.onmicrosoft.com
+X-MS-Exchange-Organization-OriginalSize: 28926
+X-MS-Exchange-Organization-HygienePolicy: Premium
+X-MS-Exchange-Organization-ReplicationInfo:
+	ReplicaId=5ed92db7-e6d9-0f28-c5f9-b9981d8bd808;ReplicatingServerFqdn=DB6P193MB0006.EURP193.PROD.OUTLOOK.COM
+X-MS-Exchange-Forest-Language: it
+X-MS-Exchange-Forest-IndexAgent-0:
+	AQ0CaXQBHyxjODQ1Mjc2NS1hMTE4LTRhZWMtYjhiOS0wODZlNGQ4NG
+ ZmNzE6dmNzOmljcwABIAQAAA8AAAMfiwgAAAAAAAQArVTLbttGFB3q
+ YYm06Ta7Ft2MvWhTwLYopQ5kAkWh2ELg1pZtWXbQ7MbkWJqU5DBD0k
+ az6m9012UX/Yv8Sb+kZ2ZCOQXioGgsCMTwPs4999w7/HPN9w4TWlaS
+ 3vIrkTEV0rOKJaJ8+weNeZL8/dvvTAlGRVZylbGQxixJGL0WSanYGy
+ EzTo2hYJm4FpE1ufXP9/jOhN8Wvhfs9gbBIHDd93z/o7Dv/cfKgH9W
+ yWwupMrklu/NdQ6nOVeUFwVXpaCiiJQoSwmYmoOuTPvDXr9v2OoCnE
+ rFaf9pGASh740rJcsFVyl9wa/oKGIxT3+l2w+gme+dglvB55VAPbFk
+ FCUiihBb0dcVL8A2EdkvYLIoy7wIe72qCAaI3XkjZbpTFb1XveEw2O
+ 1/N9zbGwY/5Lfx99GLKJgMhoPjZP7kZJw8i9P8Jhokz396sjg7mwV7
+ qMyK4laqONRVmW3K9845zWRGF0xQkM0FK0t2LVXK6EvUQndFqdsoNT
+ k7yVgUuSxEKW4khcCRzAoxTwRLtUu/ZrwsjfavoVe04DQVWYWeciUA
+ q7X7RmQCephBRFIVcsf3IG4W14gWApzupralBTa6UI2JOHZ1ZaqCbi
+ ZKuaVtN1wpDEiJaCEgJKO6lm3BzkSXzJXEpqR1j48P5G2WSBbTr6mq
+ MmP8FowuMkZvZFKyOxWkzfhwIYa9KyvFzP4tZ5xA36JUyxsA4FNZFI
+ Z5JCEcV3pTaMpxxuCxinkuAZTZVRM0lil2iBYykYClkUADPGcKicCQ
+ 87kA5gx6FDlk08Ab9+yw+/EfbtP4+eEkvNwfHY0nB6Opdzmenh+eTM
+ LBTlD7xpfjycy7mB6FD7ec3sHsfDaazkJ9H7f7/e3+cNbf1ZcxCF7C
+ CTL/cj2tXecXx8ej6c/hp99M72B8vj89PJ3pdjc/HQ+fi2OuIpnw+O
+ 1f+NpgC254eqW0Y/mt2cTLkd5ovTFC3wV8iuYs5VkpQ/qA+h6d7I9M
+ ZycZbhD3tKDvJmmO9cBJo0GaTdLqELdDum3SbpE2zm2yskrWcPbJFw
+ 5ptJyVBiENp9kipEUe3ZPSqVO+9Ii/QjomptslLuJxwGvDIR7+pAlL
+ yyQ2nVabkDbpusQz8d49ND6zaCCDJ8CBgGeLdNoO+ZF0YUQYjAhACo
+ Ip2ewSzyNrlq2uTpoWzSOr1rJqvMunRUZRELD823UtGwNKMGraBq2j
+ 6+rukAL+DdLwyTpcOLfIStdUaZnGEYCiluEyuGvQAGJ7Qe+wWLneL2
+ ra1Ik1f+2CwrVijy1gx4E4xHEa+kkaMOoWHPKVRnDv9HGgD6kl2kCW
+ nqlDfKetRwx6dtZGNJw/4jXtf3BY66vEv8f1uet4FkHr82767lLSNb
+ J+/0A3II6di326/wDeFd906AgAAA==
+X-MS-Exchange-Forest-IndexAgent: 1 1114
+X-MS-Exchange-Forest-EmailMessageHash: A718FB1F,694D53D0
+X-MS-Exchange-Organization-IsPotentialIntraOrgMail: False
+X-MS-Exchange-Organization-Antispam-PreContentFilter-PolicyLoadTime:
+	MAOSUB:54;MAOSUBLOAD:27;SAORES:54;SAORESLOAD:27;SAORESRUN:0;SAORESCOUNT:1;SLORES:27;SLORESLOAD:27;SLORESRUN:0;SLORESCOUNT:1;
+X-MS-Exchange-Organization-AttachmentDetailsHeaderStamp-Success: 1.0
+X-MS-Exchange-Organization-AttachmentDetails:
+	0:x46CHV3jJmYnCX9hf7xQrHElQO1aJORkor8anRAReWc=:U:Text:Q29yc29fZGVsXzIwMjAtMTEtMTgtMTZfMDAuaWNz::#:False:::N:::N::N:None
+X-MS-Exchange-Organization-AttachmentDetailsInfo-ChunkCount: 1
+X-MS-Exchange-Organization-AttachmentDetailsInfo-0:
+	[{"ID":0,"FN":"Corso_del_2020-11-18-16_00.ics","FS":512,"HFH":"x46CHV3jJmYnCX9hf7xQrHElQO1aJORkor8anRAReWc=","FT":["Text"],"EXT":"ics","AF":0}]
+X-MS-Exchange-Organization-MessageFingerprint:
+	D0DC6029.A00BA4CD.1D39CC3.B8E25B7D.2019F
+X-MS-Exchange-Organization-UrlMinimumDomainAge: zoom.us#6782
+X-MS-Exchange-Organization-URLFeatureReduction:
+	70;3;0;18;0;0;0;0;14;4;2;10000000;0;1;0
+X-MS-Exchange-Organization-Persisted-Urls-ChunkCount: 1
+X-MS-Exchange-Organization-Persisted-Urls-0:
+	=?us-ascii?Q?[{"ID":1,"OU":"https://www.eurotherm.info","U":"https://www.?=
+ =?us-ascii?Q?eurotherm.info/","IAR":false,"LI":{"TN":"a","IC":true,"BF":2?=
+ =?us-ascii?Q?,"SI":-1,"EndIndex":-1},"SRCI":1,"IU":null,"NU":"www.eurothe?=
+ =?us-ascii?Q?rm.info","UFT":"{101:19,102:2,105:18,108:3,110:9,111:14,112:?=
+ =?us-ascii?Q?2,114:9,115:3,116:1,118:3,119:9,121:7,122:4,123:1,125:4,131:?=
+ =?us-ascii?Q?10000000,135:\"F538357B,329AB4CD,306F015,D701F9F8,CC44D240,7?=
+ =?us-ascii?Q?9682FAE,71E5FD52,13893ADF\",201:6998,202:42,203:306,204:7305?=
+ =?us-ascii?Q?,205:42,206:2,207:55,208:3,209:40,210:2,211:40,212:2,213:58,?=
+ =?us-ascii?Q?214:3,215:63,216:3,217:65,218:3,219:58,220:3,221:52,222:3,22?=
+ =?us-ascii?Q?3:52,224:3,225:52,226:3,227:51,228:3,229:57,230:3,231:24,232?=
+ =?us-ascii?Q?:1,233:68,234:2,235:58,236:3,239:64,240:3,243:58,244:3,245:2?=
+ =?us-ascii?Q?2,246:1,247:22,248:1,249:28,250:1,251:28,252:1}","DPD":{"UF"?=
+ =?us-ascii?Q?:"256","OCH":"16632269200522826175","SCHM":"Https","CNT":"4"?=
+ =?us-ascii?Q?,"SL":"1","LOG":"1"},"PROC":[]},{"ID":2,"OU":"https://us02we?=
+ =?us-ascii?Q?b.zoom.us/j/88051489980=3Fpwd=3DcWc0N282Mlg3OElBdmpvc2lGK3hQ?=
+ =?us-ascii?Q?QT09","U":"https://us02web.zoom.us/j/88051489980=3Fpwd=3DcWc?=
+ =?us-ascii?Q?0N282Mlg3OElBdmpvc2lGK3hQQT09","IAR":false,"LI":{"BF":1,"SI"?=
+ =?us-ascii?Q?:-1,"EndIndex":-1},"SRCI":1,"IU":null,"NU":"us02web.zoom.us/?=
+ =?us-ascii?Q?j/88051489980=3Fpwd=3DcWc0N282Mlg3OElBdmpvc2lGK3hQQT09","UFT?=
+ =?us-ascii?Q?":"{101:29,102:2,105:15,108:3,110:4,111:7,112:2,114:4,115:7,?=
+ =?us-ascii?Q?116:1,118:7,119:4,121:3,122:2,123:1,125:2,128:11,131:19702,1?=
+ =?us-ascii?Q?35:\"5A8E0C24,6E057883,C0AA457B,AB28489A,B272E,5AF430B1,F111?=
+ =?us-ascii?Q?311C,F76582E5,825142FE,612BCCBB,4657585B,EFAA4156,29B0F4C6,F?=
+ =?us-ascii?Q?A634907,86D0715B,98CE4F1A\",201:6782,202:174,203:521,204:730?=
+ =?us-ascii?Q?4,205:74,206:2,207:73,208:2,209:74,210:2,211:56,212:2,213:18?=
+ =?us-ascii?Q?,214:1,215:18,216:1,217:35,218:3,219:18,220:1,221:52,222:3,2?=
+ =?us-ascii?Q?23:52,224:3,225:52,226:3,227:51,228:3,229:18,230:1,231:18,23?=
+ =?us-ascii?Q?2:1,233:29,234:2,235:18,236:1,237:18,238:1,239:18,240:1,241:?=
+ =?us-ascii?Q?39,242:2,243:18,244:1,245:19,246:1,247:18,248:1,249:18,250:1?=
+ =?us-ascii?Q?,251:46,252:1}","DPD":{"UF":"256","OCH":"8826844125057033483?=
+ =?us-ascii?Q?","SCHM":"Https","CNT":"2","SL":"1","LOG":"1"},"PROC":[]},{"?=
+ =?us-ascii?Q?ID":2,"OU":"http://www.eurotherm.info/dist/img/newsletter/01?=
+ =?us-ascii?Q?.jpg","U":"http://www.eurotherm.info/dist/img/newsletter/01.?=
+ =?us-ascii?Q?jpg","IAR":false,"LI":{"TN":"img","IC":false,"BF":2,"SI":-1,?=
+ =?us-ascii?Q?"EndIndex":-1},"SRCI":1,"IU":null,"NU":"www.eurotherm.info/d?=
+ =?us-ascii?Q?ist/img/newsletter/01.jpg","UFT":"{101:45,102:3,105:18,108:3?=
+ =?us-ascii?Q?,110:9,111:14,112:2,114:9,115:3,116:1,118:3,119:9,121:7,122:?=
+ =?us-ascii?Q?4,123:1,125:4,128:6,129:1,131:10000000,135:\"F538357B,329AB4?=
+ =?us-ascii?Q?CD,306F015,D701F9F8,CC44D240,79682FAE,71E5FD52,13893ADF,E80E?=
+ =?us-ascii?Q?10A1,BDB11D05,BAFC4CFE,99C38CCF,7B7FC128,5AE213D7,141A7557,7?=
+ =?us-ascii?Q?26C84C0,8082079E,AB5C225E,BC315C1A,6E6BF14E\"}","DPD":{"UF":?=
+ =?us-ascii?Q?"65536","OCH":"16684215609607392765","SCHM":"Http","CNT":"1"?=
+ =?us-ascii?Q?,"LOG":"1"},"PROC":[]},{"ID":3,"OU":"http://www.eurotherm.in?=
+ =?us-ascii?Q?fo/dist/img/newsletter/02.jpg","U":"http://www.eurotherm.inf?=
+ =?us-ascii?Q?o/dist/img/newsletter/02.jpg","IAR":false,"LI":{"TN":"img","?=
+ =?us-ascii?Q?IC":false,"BF":2,"SI":-1,"EndIndex":-1},"SRCI":1,"IU":null,"?=
+ =?us-ascii?Q?NU":"www.eurotherm.info/dist/img/newsletter/02.jpg","UFT":"{?=
+ =?us-ascii?Q?101:45,102:3,105:18,108:3,110:9,111:14,112:2,114:9,115:3,116?=
+ =?us-ascii?Q?:1,118:3,119:9,121:7,122:4,123:1,125:4,128:6,129:1,131:10000?=
+ =?us-ascii?Q?000,135:\"F538357B,329AB4CD,306F015,D701F9F8,CC44D240,79682F?=
+ =?us-ascii?Q?AE,71E5FD52,13893ADF,E80E10A1,BDB11D05,BAFC4CFE,99C38CCF,7B7?=
+ =?us-ascii?Q?FC128,5AE213D7,141A7557,726C84C0,8082079E,AB5C225E,BC315C1A,?=
+ =?us-ascii?Q?6E6BF14E\"}","DPD":{"UF":"65536","OCH":"14777392084871645064?=
+ =?us-ascii?Q?","SCHM":"Http","CNT":"1","LOG":"1"},"PROC":[]},{"ID":4,"OU"?=
+ =?us-ascii?Q?:"https://www.eurotherm.info:443/media/userfiles/images/Euro?=
+ =?us-ascii?Q?therm-web-academy(1).jpg","U":"https://www.eurotherm.info/me?=
+ =?us-ascii?Q?dia/userfiles/images/Eurotherm-web-academy(1).jpg","IAR":fal?=
+ =?us-ascii?Q?se,"LI":{"TN":"img","IC":false,"BF":2,"SI":-1,"EndIndex":-1}?=
+ =?us-ascii?Q?,"SRCI":1,"IU":null,"NU":"www.eurotherm.info/media/userfiles?=
+ =?us-ascii?Q?/images/Eurotherm-web-academy(1).jpg","UFT":"{101:70,102:3,1?=
+ =?us-ascii?Q?05:18,108:3,110:9,111:14,112:2,114:9,115:3,116:1,118:3,119:9?=
+ =?us-ascii?Q?,121:7,122:4,123:1,125:4,128:28,129:1,130:2,131:10000000,135?=
+ =?us-ascii?Q?:\"F538357B,329AB4CD,306F015,D701F9F8,CC44D240,79682FAE,71E5?=
+ =?us-ascii?Q?FD52,13893ADF,2776B407,6DAA8C25,D60DF44B,2F07A546,13092AA3,5?=
+ =?us-ascii?Q?E87E246,9AC4972E,FBB6BC9E,DCFA43ED,796C8FC5,BCFC5024,F880F76?=
+ =?us-ascii?Q?6,3379B856,98175F3C,6C8426B9,55040F81,91D5D224,4606067C,AB3E?=
+ =?us-ascii?Q?0D4A,22185076,6587ED4B,DEDAC889,7EC3A32,33096732,78BFB0CF,45?=
+ =?us-ascii?Q?AECA5B,BBD1713D,34EFD272,1F709E7E,6B46C241,237D70BD,F2039303?=
+ =?us-ascii?Q?,71994950,5ABC28D4,6E6BF14E\"}","DPD":{"UF":"65536","OCH":"2?=
+ =?us-ascii?Q?882171483235997945","SCHM":"Https","CNT":"1","LOG":"1"},"PRO?=
+ =?us-ascii?Q?C":[]},{"ID":5,"OU":"https://www.eurotherm.info:443/media/us?=
+ =?us-ascii?Q?erfiles/images/Download-run-Zoom.jpg","U":"https://www.eurot?=
+ =?us-ascii?Q?herm.info/media/userfiles/images/Download-run-Zoom.jpg","IAR?=
+ =?us-ascii?Q?":false,"LI":{"TN":"img","IC":false,"BF":2,"SI":-1,"EndIndex?=
+ =?us-ascii?Q?":-1},"SRCI":1,"IU":null,"NU":"www.eurotherm.info/media/user?=
+ =?us-ascii?Q?files/images/Download-run-Zoom.jpg","UFT":"{101:63,102:3,105?=
+ =?us-ascii?Q?:18,108:3,110:9,111:14,112:2,114:9,115:3,116:1,118:3,119:9,1?=
+ =?us-ascii?Q?21:7,122:4,123:1,125:4,128:21,129:1,130:2,131:10000000,135:\?=
+ =?us-ascii?Q?"F538357B,329AB4CD,306F015,D701F9F8,CC44D240,79682FAE,71E5FD?=
+ =?us-ascii?Q?52,13893ADF,2776B407,6DAA8C25,D60DF44B,2F07A546,13092AA3,5E8?=
+ =?us-ascii?Q?7E246,9AC4972E,FBB6BC9E,DCFA43ED,796C8FC5,BCFC5024,F880F766,?=
+ =?us-ascii?Q?3379B856,98175F3C,EC1B8E77,460E5541,7CAE6DFA,91D94686,635D62?=
+ =?us-ascii?Q?99,3FD831D5,DB7CFF65,DE792C12,4F104F0B,9BEDE6C8,72BF1A37,9D7?=
+ =?us-ascii?Q?4EA00,5923E681,139D51BD,42FAC8D0,6E6BF14E\"}","DPD":{"UF":"6?=
+ =?us-ascii?Q?5536","OCH":"2004647464965960102","SCHM":"Https","CNT":"1","?=
+ =?us-ascii?Q?LOG":"1"},"PROC":[]},{"ID":6,"OU":"https://www.eurotherm.inf?=
+ =?us-ascii?Q?o:443/media/userfiles/images/Apri-Zoom.jpg","U":"https://www?=
+ =?us-ascii?Q?.eurotherm.info/media/userfiles/images/Apri-Zoom.jpg","IAR":?=
+ =?us-ascii?Q?false,"LI":{"TN":"img","IC":false,"BF":2,"SI":-1,"EndIndex":?=
+ =?us-ascii?Q?-1},"SRCI":1,"IU":null,"NU":"www.eurotherm.info/media/userfi?=
+ =?us-ascii?Q?les/images/Apri-Zoom.jpg","UFT":"{101:55,102:3,105:18,108:3,?=
+ =?us-ascii?Q?110:9,111:14,112:2,114:9,115:3,116:1,118:3,119:9,121:7,122:4?=
+ =?us-ascii?Q?,123:1,125:4,128:13,129:1,130:1,131:10000000,135:\"F538357B,?=
+ =?us-ascii?Q?329AB4CD,306F015,D701F9F8,CC44D240,79682FAE,71E5FD52,13893AD?=
+ =?us-ascii?Q?F,2776B407,6DAA8C25,D60DF44B,2F07A546,13092AA3,5E87E246,9AC4?=
+ =?us-ascii?Q?972E,FBB6BC9E,DCFA43ED,796C8FC5,BCFC5024,F880F766,3379B856,9?=
+ =?us-ascii?Q?8175F3C,349A0D94,582F28EC,3EE45A05,C89A3235,5923E681,139D51B?=
+ =?us-ascii?Q?D,42FAC8D0,6E6BF14E\"}","DPD":{"UF":"65536","OCH":"111209876?=
+ =?us-ascii?Q?08909283534","SCHM":"Https","CNT":"1","LOG":"1"},"PROC":[]},?=
+ =?us-ascii?Q?{"ID":8,"OU":"http://www.eurotherm.info/dist/img/newsletter/?=
+ =?us-ascii?Q?03.jpg","U":"http://www.eurotherm.info/dist/img/newsletter/0?=
+ =?us-ascii?Q?3.jpg","IAR":false,"LI":{"TN":"img","IC":false,"BF":2,"SI":-?=
+ =?us-ascii?Q?1,"EndIndex":-1},"SRCI":1,"IU":null,"NU":"www.eurotherm.info?=
+ =?us-ascii?Q?/dist/img/newsletter/03.jpg","UFT":"{101:45,102:3,105:18,108?=
+ =?us-ascii?Q?:3,110:9,111:14,112:2,114:9,115:3,116:1,118:3,119:9,121:7,12?=
+ =?us-ascii?Q?2:4,123:1,125:4,128:6,129:1,131:10000000,135:\"F538357B,329A?=
+ =?us-ascii?Q?B4CD,306F015,D701F9F8,CC44D240,79682FAE,71E5FD52,13893ADF,E8?=
+ =?us-ascii?Q?0E10A1,BDB11D05,BAFC4CFE,99C38CCF,7B7FC128,5AE213D7,141A7557?=
+ =?us-ascii?Q?,726C84C0,8082079E,AB5C225E,BC315C1A,6E6BF14E\"}","DPD":{"UF?=
+ =?us-ascii?Q?":"65536","OCH":"5386971146347378551","SCHM":"Http","CNT":"1?=
+ =?us-ascii?Q?","LOG":"1"},"PROC":[]},{"ID":9,"OU":"http://www.eurotherm.i?=
+ =?us-ascii?Q?nfo/dist/img/newsletter/04.jpg","U":"http://www.eurotherm.in?=
+ =?us-ascii?Q?fo/dist/img/newsletter/04.jpg","IAR":false,"LI":{"TN":"img",?=
+ =?us-ascii?Q?"IC":false,"BF":2,"SI":-1,"EndIndex":-1},"SRCI":1,"IU":null,?=
+ =?us-ascii?Q?"NU":"www.eurotherm.info/dist/img/newsletter/04.jpg","UFT":"?=
+ =?us-ascii?Q?{101:45,102:3,105:18,108:3,110:9,111:14,112:2,114:9,115:3,11?=
+ =?us-ascii?Q?6:1,118:3,119:9,121:7,122:4,123:1,125:4,128:6,129:1,131:1000?=
+ =?us-ascii?Q?0000,135:\"F538357B,329AB4CD,306F015,D701F9F8,CC44D240,79682?=
+ =?us-ascii?Q?FAE,71E5FD52,13893ADF,E80E10A1,BDB11D05,BAFC4CFE,99C38CCF,7B?=
+ =?us-ascii?Q?7FC128,5AE213D7,141A7557,726C84C0,8082079E,AB5C225E,BC315C1A?=
+ =?us-ascii?Q?,6E6BF14E\"}","DPD":{"UF":"65536","OCH":"1740097179616843769?=
+ =?us-ascii?Q?0","SCHM":"Http","CNT":"1","LOG":"1"},"PROC":[]}]?=
+X-MS-Exchange-Organization-PersistedUrlCount: 9
+X-MS-Exchange-Organization-Antispam-PreContentFilter-ScanContext:
+	CategorizerOnSubmitted;CategorizerOnResolved;
+X-MS-Exchange-Organization-AVScannedByV2: Command;Microsoft;Symantec
+X-MS-Exchange-Organization-AVScanComplete: true
+X-MS-Exchange-Organization-UrlSelected: 1
+X-MS-Exchange-Organization-UrlLogged: 1
+X-MS-Exchange-Organization-Recipient-Limit-Verified: True
+X-MS-Exchange-Organization-TotalRecipientCount: 1
+X-MS-Exchange-Organization-ReplyAllBlocker-Verdict: Allow
+X-MS-Exchange-Organization-SafeAttachmentPolicy: Safe Attachments Rule
+X-MS-Exchange-Organization-SafeLinksPolicy: Safe Links Rule
+X-MS-Exchange-AtpMessageProperties: SA|SL
+X-MS-Exchange-Organization-ASDirectionalityType: 1
+X-MS-Exchange-Organization-Boomerang-Verdict: None
+X-MS-Exchange-Organization-HMATPModel-DkimAuthStatus: 1
+X-MS-Exchange-Organization-HMATPModel-DmarcAuthStatus: 2
+X-MS-Exchange-Organization-SafeAttachmentScanNotRequired:
+X-MS-Exchange-Organization-SenderRecipientCommunicationState: FC
+X-MS-Exchange-Organization-Antispam-ContentFilter-ScanContext:
+	CategorizerOnResolved;
+X-MS-Exchange-Organization-CommunicationStateSummary: FC
+X-MS-Exchange-Organization-FirstContactSummary:
+	ST=3;MRG=0;EXT=0;UN=1;ORCT=1;EV=1;FC=1;NESI=0;NES=0;ESTI=0;EST=0;INS=0;ERR=0
+X-MS-Exchange-Organization-CFA-UserOption: 0
+X-MS-Exchange-Organization-CompAuth: compauth=pass reason=109
+X-MS-Exchange-Organization-ContainsAttachments: true
+X-MS-Exchange-Organization-Feature-Long: 0	201:9857	202:891	203:1	205:387
+	208:351	213:123	215:9732	220:3	221:3	222:2	224:1	227:2	228:1	235:2	236:1
+	238:2	239:1	241:1	243:2	244:5	245:1	246:1	247:1	248:1	252:1	256:1	257:30
+	260:3	261:533	262:9	1004:intel.com	1006:password	1007:Latn
+	1014:egroupoffice.onmicrosoft.com	1015:eurotherm.info	1020:eurotherm.info
+	1030:eurotherm.info	1033:ics	1034:7C84E607@valeurconcept.ch
+	1035:eurotherm.info
+X-MS-Exchange-Organization-HDRFeatureV2:
+	12;0;12;1;1;0;1;1;-1;0;2;2;6;14;2;6;106;25;28;22;22;28;21;21;-1;25;44;44;62;36;44;62;1;2;1;1;14;1;14;22;78;17;93;-1;-1
+X-MS-Exchange-Organization-ExtractionAttachmentNames: 0
+X-MS-Exchange-Organization-ExtractionTags: SUB64;1IMG;2IMG;LINK;
+X-MS-Exchange-Organization-ExtractionTagsURLFound: URL
+X-MS-Exchange-Organization-ExtractionTagsSubject:
+	=?Windows-1252?Q?Il_tuo_webinar:_Qualit=E0_dell=92aria_interna:_dalla_fil?=
+ =?Windows-1252?Q?trazione_alla_sanificazione?=
+X-MS-Exchange-Organization-ExtractionTagsFrom: Eurotherm - Web Academy
+ <Webacademy@eurotherm.info>
+X-MS-Exchange-Organization-ExtractionTagsSubjectNormalized: ll tuo vveblnar
+ quallta del arla lnterna dala flltrazlone ala sanlflcazlone
+X-MS-Exchange-Organization-SuspiciousPhishMailCombiner: True
+X-MS-Exchange-Organization-AtpScanSuspicionLevel: UrlSideline:2;
+X-MS-Exchange-Antispam-ScannedUrls: 17224156046327112944;2088626232997312004
+X-MS-Exchange-Organization-SpamScore: 7
+X-MS-Exchange-Organization-Antispam-AnalystRuleHits:
+	(4636009)(209900001)(7636003)(52536014)(1096003)(58800400005)(83290400002)(5660300002)(166002)(356005)(83380400001)(83280400002)(83310400002)(83320400002)(83300400002)(86362001)(8636004)(6916009)(26005)(33656002)(6506007)(7696005)(336012)(22186003)(966005)(224303003)(9686003)(55016002)(45842010)(6606295002)
+X-MS-Exchange-Organization-Antispam-ScanContext: DIR:Incoming;SFV:NSPM;SKIP:0;
+X-MS-Exchange-Organization-Antispam-PostContentFilter-ScanContext:
+	CategorizerOnResolved;CategorizerOnRouted;
+X-MS-Exchange-Organization-SCL: 1
+X-Microsoft-Antispam: BCL:0;
+X-Microsoft-Antispam-Message-Info:
+	=?us-ascii?Q?gd91yGsoqRBV7pBIFJIRof92zRWag6tCtTI8kwW5lROPVDlYBm9P6NxkrkPM?=
+ =?us-ascii?Q?VF/UM9OGgtcL4K1GfBdbMhvnNeldbhcxH2HsGIR7mGEUo0tWb3uNn33F6d3v?=
+ =?us-ascii?Q?YfXX6eHIhYEsMOd/zdXBhQCslwjJ2YyuJA1d363LgfRvYLPwUV3ZJ/rcPCv1?=
+ =?us-ascii?Q?lCHk1Xw37WCXip7d+WijXzOxTjd93KbMOkh2G24h8/zaAmJaK2NLsa06jGbl?=
+ =?us-ascii?Q?Awo/J2CaG8BIXTyUT8bAs2fKtDqoIrUGdEWE3lKiL+DYHLkEoCZWwdc0tXcG?=
+ =?us-ascii?Q?S2t3bHsXWAnRaoQBT5TWNPvIK7vL/FkKdCeeEObEFSKOOkP5gtXcQlkZjmUk?=
+ =?us-ascii?Q?mCtkogvLs+3iWZvRdKgqGa6WuFFFoNwsUx8C0G20Vu/NmVb2p5H5EtzwG8N/?=
+ =?us-ascii?Q?1b+P2IgNJOKUqUhkIDNgoimg1K51b7Ola6yxBe8tnFY9Wb2vdLcufG5NouN6?=
+ =?us-ascii?Q?OYSQfogVfFmEcryJIspLfZ78k5f1N7CyzE7FrgxTG33SQKwg6k86ifOrOzOO?=
+ =?us-ascii?Q?OMQ8DwHpvsQAqc8lhR0RRxISkHh/kKp2rNkTujnE3evBUEXK8U/Amv6jIiXp?=
+ =?us-ascii?Q?ZhbjcfH1HeUBTm6lepS2NO+6HZV2NldCtR4khZwmZlp2gHq0Ln3zQa47A7jq?=
+ =?us-ascii?Q?TJfrDyK9MCyLOD7boRBptAG0DWqZ4rVg5tNvper8H3QBXzVWz4xetXjYaHvl?=
+ =?us-ascii?Q?dBj1tDSbrwWgOKGl8pzzSKm8jBRgQ3203UNgLMm+vnDNoFqO83UoiIXnmOwb?=
+ =?us-ascii?Q?ZQ0CbEfZSTXFDiIZUM7P0oozda5Lc7iz2h9Qqe+4Z7qtu12KZnQfsGr+lnpA?=
+ =?us-ascii?Q?EP6X0HWgrA15QA6s2EL15DuUTLylju+YBMd4rzQ78FbrvrHrRgVm1eq/f3IR?=
+ =?us-ascii?Q?Vd0N0XIVYweYloBjBmQ/EMHhyqW7SJ4DRrCGHid5/YtghJvbXfHCUlO9D6U+?=
+ =?us-ascii?Q?I0o3sdnFl4m0ECZk2svMrZtQU/h9Sz7AQXzJtHIi+4MfUglNkSTz5VxpLD5d?=
+ =?us-ascii?Q?PdADxI2c6lYr55Ft0nsfgUh8K0xLnwVtJEJAtPH2mfAonGEMNsTVSeOvHor0?=
+ =?us-ascii?Q?gKyGe2hh//DayIO5HUaAwY7cLgaWwAIzphqSiY1tBm7xqGINoQYqE3dn1Hdm?=
+ =?us-ascii?Q?SfOZaG9uEL/L2pyWmAOHakWSx9R7BEO1QEYGi7f/YEXB6K9KHlujbdNVtj1W?=
+ =?us-ascii?Q?GYUiJ7JQFk/3cQXavYT0U2Cx4hlAvN7lXxpsEHqj35JL1BIfGeBW+Ir6DqwV?=
+ =?us-ascii?Q?iTNV8OCUxlzQirMm3TJeNZQmxl+LxcFKiKPr4+gEKbU18lavuLt7hgxJ0Qgs?=
+ =?us-ascii?Q?xUEn1ieTlmKcj8/++Yn42Z/NtV6G10UbmCbI5W6iQdFHV2IXT2ArNGXbajtQ?=
+ =?us-ascii?Q?kyeJwp1/A40mZ08abdewZ0wScfI1OW6nvIe46fYtEV78gKes1w=3D=3D?=
+X-Forefront-Antispam-Report:
+	CIP:40.107.0.54;CTRY:NL;LANG:it;SCL:1;SRV:;IPV:NLI;SFV:NSPM;H:EUR02-AM5-obe.outbound.protection.outlook.com;PTR:mail-eopbgr00054.outbound.protection.outlook.com;CAT:NONE;SFS:(4636009)(209900001)(7636003)(52536014)(1096003)(58800400005)(83290400002)(5660300002)(166002)(356005)(83380400001)(83280400002)(83310400002)(83320400002)(83300400002)(86362001)(8636004)(6916009)(26005)(33656002)(6506007)(7696005)(336012)(22186003)(966005)(224303003)(9686003)(55016002)(45842010)(6606295002);DIR:INB;
+X-MS-Exchange-Organization-GroupForkPerf: VCL=0;VL=30
+X-MS-Exchange-Organization-ATPSafeLinks-UrlContainer-Signature:
+	1|MbQf9hI1PqLMK67jx1FYb1vELu8svo0Gdf27iEfwmm2c8k4rXE4DNEoVTIPZ/N2Bb+o5qvGQnqP4LFuqe8stLoNuXKQGXKNZpeejHdbU0qUu9FiOYxhWLYxgCRETN7IOrtOy3kXDRGOncKDiPev4nDWkH9+3iYFo+jqtMLps5Qo=
+X-MS-Exchange-Safelinks-Url-KeyVer: 1
+X-MS-Exchange-Organization-ATPSafeLinks-UrlContainer-Data-ChunkCount: 1
+X-MS-Exchange-Organization-ATPSafeLinks-UrlContainer-Data-0:
+	=?us-ascii?Q?eyJ1Y2MiOlt7Im91IjoiaHR0cHM6Ly93d3cuZXVyb3RoZXJtLmluZm8vIiwi?=
+ =?us-ascii?Q?d3UiOiJodHRwczovL2V1cjAxLnNhZmVsaW5rcy5wcm90ZWN0aW9uLm91dGxv?=
+ =?us-ascii?Q?b2suY29tLz91cmw9aHR0cHMlM0ElMkYlMkZ3d3cuZXVyb3RoZXJtLmluZm8l?=
+ =?us-ascii?Q?MkYmYW1wO2RhdGE9MDQlN0MwMSU3Q2dhYnJpZWxlLmxlYW5kcmklNDB2YWxl?=
+ =?us-ascii?Q?dXJjb25jZXB0LmNoJTdDZmMzYTBiNDA1Y2FkNDk3YWY1NDgwOGQ4OGIxZDk4?=
+ =?us-ascii?Q?NjclN0NmMmQxM2JiMDU0OTU0Y2NhOWI2MTFhYWMxNTY4MjQ4ZSU3QzAlN0Mx?=
+ =?us-ascii?Q?JTdDNjM3NDEyMzA2NTIzNTg0MTk3JTdDVW5rbm93biU3Q1RXRnBiR1pzYjNk?=
+ =?us-ascii?Q?OGV5SldJam9pTUM0d0xqQXdNREFpTENKUUlqb2lWMmx1TXpJaUxDSkJUaUk2?=
+ =?us-ascii?Q?SWsxaGFXd2lMQ0pYVkNJNk1uMCUzRCU3QzEwMDAmYW1wO3NkYXRhPUg3YWk3?=
+ =?us-ascii?Q?SWlrJTJCWDdjUEg2WFFwY3VDeXZkNzk1ZXVkJTJGWklBRVM3cUxCUCUyQlEl?=
+ =?us-ascii?Q?M0QmYW1wO3Jlc2VydmVkPTAiLCJhYyI6IiJ9LHsib3UiOiJodHRwczovL3Vz?=
+ =?us-ascii?Q?MDJ3ZWIuem9vbS51cy9qLzg4MDUxNDg5OTgwP3B3ZD1jV2MwTjI4Mk1sZzNP?=
+ =?us-ascii?Q?RWxCZG1wdmMybEdLM2hRUVQwOSIsInd1IjoiaHR0cHM6Ly9ldXIwMS5zYWZl?=
+ =?us-ascii?Q?bGlua3MucHJvdGVjdGlvbi5vdXRsb29rLmNvbS8/dXJsPWh0dHBzJTNBJTJG?=
+ =?us-ascii?Q?JTJGdXMwMndlYi56b29tLnVzJTJGaiUyRjg4MDUxNDg5OTgwJTNGcHdkJTNE?=
+ =?us-ascii?Q?Y1djME4yODJNbGczT0VsQmRtcHZjMmxHSzNoUVFUMDkmYW1wO2RhdGE9MDQl?=
+ =?us-ascii?Q?N0MwMSU3Q2dhYnJpZWxlLmxlYW5kcmklNDB2YWxldXJjb25jZXB0LmNoJTdD?=
+ =?us-ascii?Q?ZmMzYTBiNDA1Y2FkNDk3YWY1NDgwOGQ4OGIxZDk4NjclN0NmMmQxM2JiMDU0?=
+ =?us-ascii?Q?OTU0Y2NhOWI2MTFhYWMxNTY4MjQ4ZSU3QzAlN0MxJTdDNjM3NDEyMzA2NTIz?=
+ =?us-ascii?Q?NTg0MTk3JTdDVW5rbm93biU3Q1RXRnBiR1pzYjNkOGV5SldJam9pTUM0d0xq?=
+ =?us-ascii?Q?QXdNREFpTENKUUlqb2lWMmx1TXpJaUxDSkJUaUk2SWsxaGFXd2lMQ0pYVkNJ?=
+ =?us-ascii?Q?Nk1uMCUzRCU3QzEwMDAmYW1wO3NkYXRhPWhTNUpqWThrcSUyQlViR3kyS0JD?=
+ =?us-ascii?Q?RkR5QWZjMUNiZlhaN0R4N1IwS2dVQVlVWSUzRCZhbXA7cmVzZXJ2ZWQ9MCIs?=
+ =?us-ascii?Q?ImFjIjoiIn0seyJvdSI6Imh0dHBzOi8vd3d3LmV1cm90aGVybS5pbmZvLyIs?=
+ =?us-ascii?Q?Ind1IjoiaHR0cHM6Ly9ldXIwMS5zYWZlbGlua3MucHJvdGVjdGlvbi5vdXRs?=
+ =?us-ascii?Q?b29rLmNvbS8/dXJsPWh0dHBzJTNBJTJGJTJGd3d3LmV1cm90aGVybS5pbmZv?=
+ =?us-ascii?Q?JTJGJmFtcDtkYXRhPTA0JTdDMDElN0NnYWJyaWVsZS5sZWFuZHJpJTQwdmFs?=
+ =?us-ascii?Q?ZXVyY29uY2VwdC5jaCU3Q2ZjM2EwYjQwNWNhZDQ5N2FmNTQ4MDhkODhiMWQ5?=
+ =?us-ascii?Q?ODY3JTdDZjJkMTNiYjA1NDk1NGNjYTliNjExYWFjMTU2ODI0OGUlN0MwJTdD?=
+ =?us-ascii?Q?MSU3QzYzNzQxMjMwNjUyMzU4NDE5NyU3Q1Vua25vd24lN0NUV0ZwYkdac2Iz?=
+ =?us-ascii?Q?ZDhleUpXSWpvaU1DNHdMakF3TURBaUxDSlFJam9pVjJsdU16SWlMQ0pCVGlJ?=
+ =?us-ascii?Q?NklrMWhhV3dpTENKWFZDSTZNbjAlM0QlN0MxMDAwJmFtcDtzZGF0YT1IN2Fp?=
+ =?us-ascii?Q?N0lpayUyQlg3Y1BINlhRcGN1Q3l2ZDc5NWV1ZCUyRlpJQUVTN3FMQlAlMkJR?=
+ =?us-ascii?Q?JTNEJmFtcDtyZXNlcnZlZD0wIiwiYWMiOiIifSx7Im91IjoiaHR0cHM6Ly93?=
+ =?us-ascii?Q?d3cuZXVyb3RoZXJtLmluZm8vIiwid3UiOiJodHRwczovL2V1cjAxLnNhZmVs?=
+ =?us-ascii?Q?aW5rcy5wcm90ZWN0aW9uLm91dGxvb2suY29tLz91cmw9aHR0cHMlM0ElMkYl?=
+ =?us-ascii?Q?MkZ3d3cuZXVyb3RoZXJtLmluZm8lMkYmYW1wO2RhdGE9MDQlN0MwMSU3Q2dh?=
+ =?us-ascii?Q?YnJpZWxlLmxlYW5kcmklNDB2YWxldXJjb25jZXB0LmNoJTdDZmMzYTBiNDA1?=
+ =?us-ascii?Q?Y2FkNDk3YWY1NDgwOGQ4OGIxZDk4NjclN0NmMmQxM2JiMDU0OTU0Y2NhOWI2?=
+ =?us-ascii?Q?MTFhYWMxNTY4MjQ4ZSU3QzAlN0MxJTdDNjM3NDEyMzA2NTIzNjE0MTgyJTdD?=
+ =?us-ascii?Q?VW5rbm93biU3Q1RXRnBiR1pzYjNkOGV5SldJam9pTUM0d0xqQXdNREFpTENK?=
+ =?us-ascii?Q?UUlqb2lWMmx1TXpJaUxDSkJUaUk2SWsxaGFXd2lMQ0pYVkNJNk1uMCUzRCU3?=
+ =?us-ascii?Q?QzEwMDAmYW1wO3NkYXRhPTZXUHZoM3RhMkdWenE4ejZkN3NkMFIzMHRhY01h?=
+ =?us-ascii?Q?ZmtCbWQlMkJUMHVoTHRPWSUzRCZhbXA7cmVzZXJ2ZWQ9MCIsImFjIjoiIn0s?=
+ =?us-ascii?Q?eyJvdSI6Imh0dHBzOi8vd3d3LmV1cm90aGVybS5pbmZvLyIsInd1IjoiaHR0?=
+ =?us-ascii?Q?cHM6Ly9ldXIwMS5zYWZlbGlua3MucHJvdGVjdGlvbi5vdXRsb29rLmNvbS8/?=
+ =?us-ascii?Q?dXJsPWh0dHBzJTNBJTJGJTJGd3d3LmV1cm90aGVybS5pbmZvJTJGJmFtcDtk?=
+ =?us-ascii?Q?YXRhPTA0JTdDMDElN0NnYWJyaWVsZS5sZWFuZHJpJTQwdmFsZXVyY29uY2Vw?=
+ =?us-ascii?Q?dC5jaCU3Q2ZjM2EwYjQwNWNhZDQ5N2FmNTQ4MDhkODhiMWQ5ODY3JTdDZjJk?=
+ =?us-ascii?Q?MTNiYjA1NDk1NGNjYTliNjExYWFjMTU2ODI0OGUlN0MwJTdDMSU3QzYzNzQx?=
+ =?us-ascii?Q?MjMwNjUyMzYyNDE3NyU3Q1Vua25vd24lN0NUV0ZwYkdac2IzZDhleUpXSWpv?=
+ =?us-ascii?Q?aU1DNHdMakF3TURBaUxDSlFJam9pVjJsdU16SWlMQ0pCVGlJNklrMWhhV3dp?=
+ =?us-ascii?Q?TENKWFZDSTZNbjAlM0QlN0MxMDAwJmFtcDtzZGF0YT1zdSUyRjFuUmcxJTJG?=
+ =?us-ascii?Q?MSUyRkxLOCUyQmJieGJ3TXlIZERBMCUyRjd5WmY5YlE2MUQycHRyYyUzRCZh?=
+ =?us-ascii?Q?bXA7cmVzZXJ2ZWQ9MCIsImFjIjoiIn1dLCJvdiI6MX0=3D?=
+X-MS-Exchange-Safelinks-Url-KeyVer: 1
+X-MS-Exchange-ATPSafeLinks-Stat: 0
+X-MS-Exchange-ATPSafeLinks-BitVector: 1000:0x0|0x0|0x1000;
+X-MS-Exchange-Organization-Cross-Session-Cache:
+	=?us-ascii?Q?00CIP=3D40.107.0.54;EIPC0=3D2004,2055,950,951,2005,2006,2007?=
+ =?us-ascii?Q?,2008,2009,2010,2011,2012,2013,2014,2000,2050,2051,2052,952,?=
+ =?us-ascii?Q?902,2054,2016,903,901,907,905,904,2001,3000,2003,2002,967,20?=
+ =?us-ascii?Q?58,2059,2060,531,2017,5080,5011,5051,5001,5056,5057,5058,505?=
+ =?us-ascii?Q?2,906,5054,5010,5055,5059,5053,5002,5003,5005,5070;MIPC0=3D2?=
+ =?us-ascii?Q?002,2003,2004,950,952,951,902,5011;REP=3D01,1,0\;01,2,0\;01,?=
+ =?us-ascii?Q?3,0\;01,4,0\;01,5,183\;01,6,0\;01,7,0\;01,8,165\;01,9,0\;01,?=
+ =?us-ascii?Q?10,0\;01,11,183\;01,12,165\;02,1,0\;02,2,0\;02,3,0\;02,4,0\;?=
+ =?us-ascii?Q?02,5,183\;02,6,0\;02,7,0;SL=3D1;EMSL=3D1;SCL=3D1;BL=3D0;RL?=
+ =?us-ascii?Q?=3D1;PID=3D0;EXPID=3D;IPB=5FSkip=3D1;IPT=5FSkip=3D1;IsIncomi?=
+ =?us-ascii?Q?ngMail=3Dtrue;TIP=3DNotListed;CIPCRY=3DNL;SAUTHOP=3D1;RMX=3D?=
+ =?us-ascii?Q?Office365;EIPC1=3D2004,2055,950,951,2005,2006,2007,2008,2009?=
+ =?us-ascii?Q?,2010,2011,2012,2013,2014,2000,2050,2051,2052,952,902,2054,2?=
+ =?us-ascii?Q?016,903,901,907,905,904,2001,3000,2003,2002,967,2058,2059,20?=
+ =?us-ascii?Q?60,531,2017,5080,5011,5051,5001,5056,5057,5058,5052,906,5054?=
+ =?us-ascii?Q?,5010,5055,5059,5053,5002,5003,5005,5070;MIPC1=3D2002,2003,2?=
+ =?us-ascii?Q?004,950,952,951,902,5011;A=3D00;MX=3D00;PTR=3D00mail-eopbgr0?=
+ =?us-ascii?Q?0054.outbound.protection.outlook.com;SPF=3D011V2ViYWNhZGVteU?=
+ =?us-ascii?Q?BldXJvdGhlcm0uaW5mbw=3D=3D;DKIM=3D00c2VsZWN0b3IyLWVncm91cG9m?=
+ =?us-ascii?Q?ZmljZS1vbm1pY3Jvc29mdC1jb20uX2RvbWFpbmtleS5lZ3JvdXBvZmZpY2Uu?=
+ =?us-ascii?Q?b25taWNyb3NvZnQuY29t\;dj1ES0lNMTsgaz1yc2E7IHA9TUlHZk1BMEdDU3?=
+ =?us-ascii?Q?FHU0liM0RRRUJBUVVBQTRHTkFEQ0JpUUtCZ1FDcHJYdFVMSjdCS01BMDV3eF?=
+ =?us-ascii?Q?dYNzFpZmxWeERPa25yUStobDB4cERINWtUR0ZtOEt4WllrbVUzUHVaZTE1OX?=
+ =?us-ascii?Q?QvUlY1dUxIVUNET0RJV0JaSHpaQ25OWXVXMDJ6eTkzOTFUY2ExQ2E2TitDb3?=
+ =?us-ascii?Q?NUVng4dkdKT0JtemRVdmNhN1JEbzJhSnMraWRBQy9rbVNibTlhcXFLMFRCMn?=
+ =?us-ascii?Q?d0LzRnc3VWeENpWXRuOUJUTFJRSURBUUFCOw=3D=3D;DMARC=3D02ZXVyb3R?=
+ =?us-ascii?Q?oZXJtLmluZm8=3D\;;ARC=3D00YXJjc2VsZWN0b3I5OTAxLl9kb21haW5rZX?=
+ =?us-ascii?Q?kubWljcm9zb2Z0LmNvbQ=3D=3D\;dj1ES0lNMTsgaz1yc2E7IHA9TUlJQklq?=
+ =?us-ascii?Q?QU5CZ2txaGtpRzl3MEJBUUVGQUFPQ0FROEFNSUlCQ2dLQ0FRRUFvaENFQ3g4?=
+ =?us-ascii?Q?QUNWSWo0MnRhTWM4RzJsamlEbXNib1VXNG1nYXNPZzMvMkF5MUQzN0R3SzBD?=
+ =?us-ascii?Q?RTFhb2s2eDB4NmRRNEZDL05HZGVrc1BqVC9aTFlIK3p3d1V2RWxKd2Q4YWR0?=
+ =?us-ascii?Q?Wks0RTdBVDlSenI2V1B0VGlGSGk4N2VtNm4xMkhUdnA4cGxwR0hYbm04dmRG?=
+ =?us-ascii?Q?clR4Y0NVZ3V3VUJ6YmU2TUIxMkRjM3ZTVVJjT1VxZmE2RGxqLzZjTmVobCtQ?=
+ =?us-ascii?Q?TW9ucWxMeE9sMkttcFRKL1Z5OWpoZEZPdTUweEVoWElUNW9jT2E0dFgxMmhm?=
+ =?us-ascii?Q?b01wWmZCVzZpVTVRSXl2bkVGa0p1RjhJYnM3SGhyN0VjMUdaYzZ0Z09kNXVO?=
+ =?us-ascii?Q?VEFubnZoK3hpWXM4ZTcyMk?=
+X-MS-Exchange-Organization-Cross-Session-Cache:
+	=?us-ascii?Q?01g1aURlY01zQnpqK0k5VStDQlkxQUN3WTloVEMxVUROdTN4UytXS1FOZ3Zu?=
+ =?us-ascii?Q?aWZkSVFJREFRQUI=3D;AUTHRES=3D[mx.microsoft.com,1]{5,1,UABhAH?=
+ =?us-ascii?Q?MAcwA=3D,cwBlAG4AZABlAHIAIABJAFAAIABpAHMAIAA0ADAALgAxADAANwA?=
+ =?us-ascii?Q?uADAALgA1ADQA,cwBtAHQAcAAuAHIAYwBwAHQAVABvAEQAbwBtAGEAaQBuAA?=
+ =?us-ascii?Q?=3D=3D|dgBhAGwAZQB1AHIAYwBvAG4AYwBlAHAAdAAuAGMAaAA=3D,cwBtAH?=
+ =?us-ascii?Q?QAcAAuAE0AYQBpAGwARgByAG8AbQA=3D|ZQB1AHIAbwB0AGgAZQByAG0ALgB?=
+ =?us-ascii?Q?pAG4AZgBvAA=3D=3D}{9,17,QgBlAHMAdABHAHUAZQBzAHMAUABhAHMAcwA?=
+ =?us-ascii?Q?=3D,,YQBjAHQAaQBvAG4A|TgBvAG4AZQA=3D,aABlAGEAZABlAHIALgBmAHI?=
+ =?us-ascii?Q?AbwBtAA=3D=3D|ZQB1AHIAbwB0AGgAZQByAG0ALgBpAG4AZgBvAA=3D=3D}{?=
+ =?us-ascii?Q?2,1,UABhAHMAcwA=3D,cwBpAGcAbgBhAHQAdQByAGUAIAB3AGEAcwAgAHYAZ?=
+ =?us-ascii?Q?QByAGkAZgBpAGUAZAA=3D,aABlAGEAZABlAHIALgBkAA=3D=3D|ZQBnAHIAb?=
+ =?us-ascii?Q?wB1AHAAbwBmAGYAaQBjAGUALgBvAG4AbQBpAGMAcgBvAHMAbwBmAHQALgBjA?=
+ =?us-ascii?Q?G8AbQA=3D}{12,1,UABhAHMAcwA=3D,MAAgAG8AZABhAD0AMQAgAGwAdABkA?=
+ =?us-ascii?Q?GkAPQAxACAAcwBwAGYAPQBbADEALAAxACwAcwBtAHQAcAAuAG0AYQBpAGwAZ?=
+ =?us-ascii?Q?gByAG8AbQA9AGUAdQByAG8AdABoAGUAcgBtAC4AaQBuAGYAbwBdACAAZABrA?=
+ =?us-ascii?Q?GkAbQA9AFsAMQAsADEALABoAGUAYQBkAGUAcgAuAGQAPQBlAHUAcgBvAHQAa?=
+ =?us-ascii?Q?ABlAHIAbQAuAGkAbgBmAG8AXQAgAGQAbQBhAHIAYwA9AFsAMQAsADEALABoA?=
+ =?us-ascii?Q?GUAYQBkAGUAcgAuAGYAcgBvAG0APQBlAHUAcgBvAHQAaABlAHIAbQAuAGkAb?=
+ =?us-ascii?Q?gBmAG8AXQA=3D};SpfResult=3D1;DkimStatus=3D1;DkimSS=3D0;Dmarc?=
+ =?us-ascii?Q?Status=3D2;DmarcAction=3D0;ARCRES=3Dv12001000000000000000000?=
+ =?us-ascii?Q?0000000000000000000;IsSenderVerified=3Dtrue;IsDmarcFail=3Dfa?=
+ =?us-ascii?Q?lse;CAuthExp=3Dtrue;MFP=3Df4a06d6a-5507-4c64-972b-314c2a4601?=
+ =?us-ascii?Q?1d;PReRC=3D1;FPR=3DD0DC6029.A00BA4CD.1D39CC3.B8E25B7D.2019F;?=
+ =?us-ascii?B?VVJMQ19CRT0xMztVUkxDX0JFQz02O1VSTENfQj05O1VSTENfQkM9MjtVUkxD?=
+ =?us-ascii?Q?=5FAE=3D0;UMGPV=3D1289;UMEPV=3D1409;SLP=3Dd895fdd2-bae3-47d8?=
+ =?us-ascii?Q?-9075-b9ecd6968d75;SAP=3D39fbc3b0-36d3-42e0-bdae-bc37fa7d7b5?=
+ =?us-ascii?Q?a;RT=3DSA|SL;NoDLx=3D1;CGDLxSupported=3D1;BR=5FV=3DNone;DIR?=
+ =?us-ascii?Q?=3D1;PTRO=3Doutlook.com;P2O=3Deurotherm.info;P=5FCAUTH=3Dpas?=
+ =?us-ascii?Q?s;P=5FCAUTHR=3D109;CFP=3D087e81b0-11fc-4e0b-a178-ea2394deb57?=
+ =?us-ascii?Q?2;HCFP=3Db673eec8-9161-4524-bb02-dde916c67b9e;APP=3Dc2775bcb?=
+ =?us-ascii?Q?-1e78-45c9-adc4-f457bf034e59;GWS=5FRead=3DV2;GUIMP=5FSUM=3DR?=
+ =?us-ascii?Q?1S1;SRCS=3DFC;CAUTH=3Dpass;CAUTHR=3D109;CAUTH=5FCAT=3DAD;IMP?=
+ =?us-ascii?Q?D=5FDBG=3DD12;IMPU=5FDBG=3DSKP.DIS;IVB=5FDBG=3DD3:S1;HMEPV?=
+ =?us-ascii?Q?=3D823;HMEPV2=3D143;HOEPV=3D10000;HMESV=3D1378;HMESV2=3D9999?=
+ =?us-ascii?Q?;BMASV=3D3874;BMESV=3D3917;BMAPV=3D2781;BMEPV=3D2586;CMASV?=
+ =?us-ascii?Q?=3D318;CMAPV=3D2209;CBEBV=3D126;CBEBV2=3D1356;CLEPV=3D389;UR?=
+ =?us-ascii?Q?LF=5FDBG=3DD:1;ASC=3D7;ASCID=3D45842010|6606295002;FFV=3DNSP?=
+ =?us-ascii?Q?M;FV=5FSCL=3D1;FV=3DNSPM;FVS=3DFilt?=
+X-MS-Exchange-Organization-Cross-Session-Cache: 02ers;FSCL=1;TAP_EP=
+X-MS-Exchange-Organization-Processed-By-Gcc-Journaling: Journal Agent
+
+--_8bc5d947-1df2-49e8-8a6f-e656da84ab7b_
+Content-Type: multipart/alternative;
+	boundary="_79fb5645-7071-42aa-9fa8-05a2bd52a065_"
+
+--_79fb5645-7071-42aa-9fa8-05a2bd52a065_
+Content-Type: text/plain; charset="Windows-1252"
+Content-Transfer-Encoding: quoted-printable
+
+[Eurotherm]<https://eur01.safelinks.protection.outlook.com/?url=3Dhttps%3A%=
+2F%2Fwww.eurotherm.info%2F&amp;data=3D04%7C01%7Cgabriele.leandri%40valeurco=
+ncept.ch%7Cfc3a0b405cad497af54808d88b1d9867%7Cf2d13bb054954cca9b611aac15682=
+48e%7C0%7C1%7C637412306523584197%7CUnknown%7CTWFpbGZsb3d8eyJWIjoiMC4wLjAwMD=
+AiLCJQIjoiV2luMzIiLCJBTiI6Ik1haWwiLCJXVCI6Mn0%3D%7C1000&amp;sdata=3DH7ai7Ii=
+k%2BX7cPH6XQpcuCyvd795eud%2FZIAES7qLBP%2BQ%3D&amp;reserved=3D0>
+e.News
+05/2020
+[Eurotherm]
+Il tuo webinar: Qualit=E0 dell=92aria interna: dalla filtrazione alla sanif=
+icazione
+[Eurotherm Web Academy]
+
+Buongiorno,
+grazie per esserti iscritto al webinar del 18/11/2020 alle ore 16:00:
+
+Eurotherm Web Academy - Qualit=E0 dell=92aria interna: dalla filtrazione al=
+la sanificazione
+
+Per seguire i webinar clicca su questo link:
+https://eur01.safelinks.protection.outlook.com/?url=3Dhttps%3A%2F%2Fus02web=
+.zoom.us%2Fj%2F88051489980%3Fpwd%3DcWc0N282Mlg3OElBdmpvc2lGK3hQQT09&amp;dat=
+a=3D04%7C01%7Cgabriele.leandri%40valeurconcept.ch%7Cfc3a0b405cad497af54808d=
+88b1d9867%7Cf2d13bb054954cca9b611aac1568248e%7C0%7C1%7C637412306523584197%7=
+CUnknown%7CTWFpbGZsb3d8eyJWIjoiMC4wLjAwMDAiLCJQIjoiV2luMzIiLCJBTiI6Ik1haWwi=
+LCJXVCI6Mn0%3D%7C1000&amp;sdata=3DhS5JjY8kq%2BUbGy2KBCFDyAfc1CbfXZ7Dx7R0KgU=
+AYUY%3D&amp;reserved=3D0
+
+Password: webacademy
+
+
+Se non hai la piattaforma Zoom installata sul tuo dispositivo ti consigliam=
+o di connetterti qualche minuto prima dell'inizio del corso.
+
+Quando ti connetterai al webinar, dal link che ti abbiamo fornito, ti verr=
+=E0 richiesta l'installazione del programma Zoom (Download & run Zoom).
+
+[Download & Run Zoom]
+
+Una volta installato Zoom ti verr=E0 richiesta l'apertura per seguire il no=
+stro webinar.
+
+[Apri Zoom]
+
+Possiamo cogliere al meglio le opportunit=E0 di domani solo se ci preparere=
+mo oggi.
+
+Ti aspettiamo!
+Eurotherm Web Academy
+
+[Eurotherm]<https://eur01.safelinks.protection.outlook.com/?url=3Dhttps%3A%=
+2F%2Fwww.eurotherm.info%2F&amp;data=3D04%7C01%7Cgabriele.leandri%40valeurco=
+ncept.ch%7Cfc3a0b405cad497af54808d88b1d9867%7Cf2d13bb054954cca9b611aac15682=
+48e%7C0%7C1%7C637412306523584197%7CUnknown%7CTWFpbGZsb3d8eyJWIjoiMC4wLjAwMD=
+AiLCJQIjoiV2luMzIiLCJBTiI6Ik1haWwiLCJXVCI6Mn0%3D%7C1000&amp;sdata=3DH7ai7Ii=
+k%2BX7cPH6XQpcuCyvd795eud%2FZIAES7qLBP%2BQ%3D&amp;reserved=3D0> [Eurotherm]
+
+--_79fb5645-7071-42aa-9fa8-05a2bd52a065_
+Content-Type: text/html; charset="Windows-1252"
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.=
+w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns=3D"http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3DWindows-1=
+252">
+<base href=3D"http://www.eurotherm.info/?utm_campaign=3D##newsid##">
+<title>Il tuo webinar: Qualit=E0 dell=92aria interna: dalla filtrazione all=
+a sanificazione</title>
+<link rel=3D"stylesheet" type=3D"text/css" href=3D"https://www.eurotherm.in=
+fo:443/min/css-29715748_2006081215231523.css?utm_campaign=3D##newsid##"><st=
+yle type=3D"text/css">=0A=
+body { width: 100% !important; -webkit-text-size-adjust: 100%; -ms-text-siz=
+e-adjust: 100%; margin: 0; padding: 0; }=0A=
+.ReadMsgBody { width:100%; }=0A=
+.ExternalClass { width:100%; }=0A=
+=0A=
+img { height:auto; line-height:100%; outline:none; text-decoration:none; }=
+=0A=
+img[class=3D"img-responsive"] { width: 100%; height: auto;}=0A=
+#backgroundTable { height:100% !important; margin:0; padding:0; width:100% =
+!important; }=0A=
+table td { border-collapse:collapse; }=0A=
+#corpoTesto strong {color:#ed1d24;}=0A=
+a{color: #000;}=0A=
+a:hover {color:#ed1d24;}=0A=
+</style>
+</head>
+<body bgcolor=3D"#ffffff">
+<table width=3D"100%" border=3D"0" cellspacing=3D"0" cellpadding=3D"0" bgco=
+lor=3D"#ffffff" id=3D"backgroundTable">
+<tbody>
+<tr>
+<td align=3D"center" valign=3D"top">
+<table width=3D"600" height=3D"85" border=3D"0" cellspacing=3D"0" cellpaddi=
+ng=3D"0" bgcolor=3D"#ffffff">
+<tbody>
+<tr>
+<td width=3D"230" height=3D"94" align=3D"left" valign=3D"top"><a href=3D"ht=
+tps://eur01.safelinks.protection.outlook.com/?url=3Dhttps%3A%2F%2Fwww.eurot=
+herm.info%2F&amp;data=3D04%7C01%7Cgabriele.leandri%40valeurconcept.ch%7Cfc3=
+a0b405cad497af54808d88b1d9867%7Cf2d13bb054954cca9b611aac1568248e%7C0%7C1%7C=
+637412306523614182%7CUnknown%7CTWFpbGZsb3d8eyJWIjoiMC4wLjAwMDAiLCJQIjoiV2lu=
+MzIiLCJBTiI6Ik1haWwiLCJXVCI6Mn0%3D%7C1000&amp;sdata=3D6WPvh3ta2GVzq8z6d7sd0=
+R30tacMafkBmd%2BT0uhLtOY%3D&amp;reserved=3D0" originalSrc=3D"https://www.eu=
+rotherm.info/" shash=3D"qFWSgQHXdcbTvjOnViLlqPatFatwubhp44NgezpChf8soH9MAG/=
+C+dK9660VJiI1R1IUANZIyO2MDGJqlo7qlMzVcLqB9Qe2o9B0T3fHpPB3K4UUbdPL7p5VoTQdsV=
+PLMQ5oL3NnrzN3Ugjrf42cu2WGqmN09JKsEYFsdfkudKA=3D" target=3D"_blank" title=
+=3D"Eurotherm"><img alt=3D"Eurotherm" width=3D"230" height=3D"94" border=3D=
+"0" style=3D"display:block;" src=3D"http://www.eurotherm.info/dist/img/news=
+letter/01.jpg"></a></td>
+<td width=3D"240" height=3D"94" align=3D"left" valign=3D"top">
+<table width=3D"240" border=3D"0" cellspacing=3D"0" cellpadding=3D"0">
+<tbody>
+<tr>
+<td width=3D"240" height=3D"1" align=3D"left" valign=3D"top" bgcolor=3D"#d0=
+d1d2"></td>
+</tr>
+<tr>
+<td width=3D"240" height=3D"93" align=3D"left" valign=3D"top" bgcolor=3D"#f=
+afafa"></td>
+</tr>
+</tbody>
+</table>
+</td>
+<td width=3D"80" height=3D"94" align=3D"left" valign=3D"top">
+<table width=3D"80" border=3D"0" cellspacing=3D"0" cellpadding=3D"0">
+<tbody>
+<tr>
+<td width=3D"80" height=3D"1" align=3D"left" valign=3D"top" bgcolor=3D"#d0d=
+1d2"></td>
+</tr>
+<tr>
+<td width=3D"80" height=3D"36" align=3D"left" valign=3D"top" bgcolor=3D"#fa=
+fafa"></td>
+</tr>
+<tr>
+<td width=3D"80" height=3D"37" align=3D"right" valign=3D"top" bgcolor=3D"#f=
+afafa"><font face=3D"Arial, Helvetica, sans-serif" size=3D"2" style=3D"line=
+-height:16px!important; font-size:13px; margin-bottom:0;" color=3D"#ec1d23"=
+><strong>e.News</strong></font><br>
+<font face=3D"Arial, Helvetica, sans-serif" size=3D"2" style=3D"line-height=
+:15px!important; font-size:16px; margin-bottom:0;" color=3D"#ec1d23"><stron=
+g>05</strong></font><font face=3D"Arial, Helvetica, sans-serif" size=3D"2" =
+style=3D"line-height:15px!important; font-size:16px; margin-bottom:0;" colo=
+r=3D"#808285">/2020</font></td>
+</tr>
+<tr>
+<td width=3D"80" height=3D"20" align=3D"left" valign=3D"top" bgcolor=3D"#fa=
+fafa"></td>
+</tr>
+</tbody>
+</table>
+</td>
+<td width=3D"50" height=3D"94" align=3D"left" valign=3D"top"><img alt=3D"Eu=
+rotherm" width=3D"50" height=3D"94" border=3D"0" style=3D"display:block;" s=
+rc=3D"http://www.eurotherm.info/dist/img/newsletter/02.jpg"></td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+<tr>
+<td align=3D"center" valign=3D"top">
+<table width=3D"600" border=3D"0" cellspacing=3D"0" cellpadding=3D"0" bgcol=
+or=3D"#ffffff">
+<tbody>
+<tr>
+<td width=3D"1" height=3D"28" align=3D"left" valign=3D"top" bgcolor=3D"#d0d=
+1d2"></td>
+<td width=3D"50" height=3D"28" align=3D"left" valign=3D"top" bgcolor=3D"#ff=
+ffff"></td>
+<td width=3D"498" height=3D"28" align=3D"left" valign=3D"top" bgcolor=3D"#f=
+fffff"></td>
+<td width=3D"50" height=3D"28" align=3D"left" valign=3D"top" bgcolor=3D"#ff=
+ffff"></td>
+<td width=3D"1" height=3D"28" align=3D"left" valign=3D"top" bgcolor=3D"#d0d=
+1d2"></td>
+</tr>
+<tr>
+<td width=3D"1" align=3D"left" valign=3D"top" bgcolor=3D"#d0d1d2"></td>
+<td width=3D"50" align=3D"left" valign=3D"top" bgcolor=3D"#ffffff"></td>
+<td width=3D"498" align=3D"left" valign=3D"top" bgcolor=3D"#ffffff"><font f=
+ace=3D"Arial, Helvetica, sans-serif" size=3D"2" style=3D"line-height:24px!i=
+mportant; font-size:22px; margin-bottom:0;" color=3D"#292929"><strong><em>I=
+l tuo webinar: Qualit=E0 dell=92aria interna: dalla
+ filtrazione alla sanificazione</em></strong> <br>
+</font></td>
+<td width=3D"50" align=3D"left" valign=3D"top" bgcolor=3D"#ffffff"></td>
+<td width=3D"1" align=3D"left" valign=3D"top" bgcolor=3D"#d0d1d2"></td>
+</tr>
+<tr>
+<td width=3D"1" height=3D"25" align=3D"left" valign=3D"top" bgcolor=3D"#d0d=
+1d2"></td>
+<td width=3D"50" height=3D"25" align=3D"left" valign=3D"top" bgcolor=3D"#ff=
+ffff"></td>
+<td width=3D"498" height=3D"25" align=3D"left" valign=3D"top" bgcolor=3D"#f=
+fffff"></td>
+<td width=3D"50" height=3D"25" align=3D"left" valign=3D"top" bgcolor=3D"#ff=
+ffff"></td>
+<td width=3D"1" height=3D"25" align=3D"left" valign=3D"top" bgcolor=3D"#d0d=
+1d2"></td>
+</tr>
+<tr>
+<td width=3D"1" align=3D"left" valign=3D"top" bgcolor=3D"#d0d1d2"></td>
+<td width=3D"50" align=3D"left" valign=3D"top" bgcolor=3D"#ffffff"></td>
+<td width=3D"498" align=3D"left" valign=3D"top" bgcolor=3D"#ffffff" id=3D"c=
+orpoTesto"><font face=3D"Arial, Helvetica, sans-serif" size=3D"2" style=3D"=
+line-height:18px!important; font-size:13px; margin-bottom:0;" color=3D"#747=
+272"><span style=3D"font-size:14px;"><img alt=3D"Eurotherm Web Academy" sty=
+le=3D"width: 490px; height: 282px;" src=3D"https://www.eurotherm.info:443/m=
+edia/userfiles/images/Eurotherm-web-academy(1).jpg"><br>
+<br>
+Buongiorno,<br>
+grazie per esserti iscritto al webinar del 18/11/2020 alle ore 16:00:<br>
+<br>
+<strong>Eurotherm Web&nbsp;Academy&nbsp;- Qualit=E0 dell=92aria interna: da=
+lla filtrazione alla sanificazione</strong></span><br>
+<br>
+<span style=3D"font-size:16px;">Per seguire i webinar clicca su questo link=
+:&nbsp;</span><br>
+<span style=3D"font-size:16px;">https://us02web.zoom.us/j/88051489980?pwd=
+=3DcWc0N282Mlg3OElBdmpvc2lGK3hQQT09<br>
+<br>
+Password: <strong>webacademy</strong></span><br>
+<br>
+<br>
+<span style=3D"font-size:14px;">Se non hai la piattaforma Zoom installata s=
+ul tuo dispositivo ti consigliamo di connetterti qualche minuto prima dell'=
+inizio del corso.<br>
+<br>
+Quando ti connetterai al webinar, dal link che ti abbiamo fornito, ti&nbsp;=
+verr=E0 richiesta l'installazione del programma Zoom (Download &amp; run Zo=
+om).</span><br>
+<br>
+<img alt=3D"Download &amp; Run Zoom" style=3D"width: 480px; height: 275px;"=
+ src=3D"https://www.eurotherm.info:443/media/userfiles/images/Download-run-=
+Zoom.jpg"><br>
+<br>
+<span style=3D"font-size:14px;">Una volta installato Zoom ti verr=E0 richie=
+sta l'apertura per seguire il nostro webinar.</span><br>
+<br>
+<img alt=3D"Apri Zoom" style=3D"width: 480px; height: 286px;" src=3D"https:=
+//www.eurotherm.info:443/media/userfiles/images/Apri-Zoom.jpg"><br>
+<br>
+<span style=3D"font-size:14px;">Possiamo cogliere al meglio le opportunit=
+=E0 di domani solo se ci prepareremo oggi.<br>
+<br>
+Ti aspettiamo!<br>
+Eurotherm Web&nbsp;Academy</span><br>
+&nbsp; </font></td>
+<td width=3D"50" align=3D"left" valign=3D"top" bgcolor=3D"#ffffff"></td>
+<td width=3D"1" align=3D"left" valign=3D"top" bgcolor=3D"#d0d1d2"></td>
+</tr>
+<tr>
+<td width=3D"1" height=3D"20" align=3D"left" valign=3D"top" bgcolor=3D"#d0d=
+1d2"></td>
+<td width=3D"50" height=3D"20" align=3D"left" valign=3D"top" bgcolor=3D"#ff=
+ffff"></td>
+<td width=3D"498" height=3D"20" align=3D"left" valign=3D"top" bgcolor=3D"#f=
+fffff"></td>
+<td width=3D"50" height=3D"20" align=3D"left" valign=3D"top" bgcolor=3D"#ff=
+ffff"></td>
+<td width=3D"1" height=3D"20" align=3D"left" valign=3D"top" bgcolor=3D"#d0d=
+1d2"></td>
+</tr>
+<tr>
+<td width=3D"1" height=3D"25" align=3D"left" valign=3D"top" bgcolor=3D"#d0d=
+1d2"></td>
+<td width=3D"50" height=3D"25" align=3D"left" valign=3D"top" bgcolor=3D"#ff=
+ffff"></td>
+<td width=3D"498" height=3D"25" align=3D"left" valign=3D"top" bgcolor=3D"#f=
+fffff"></td>
+<td width=3D"50" height=3D"25" align=3D"left" valign=3D"top" bgcolor=3D"#ff=
+ffff"></td>
+<td width=3D"1" height=3D"25" align=3D"left" valign=3D"top" bgcolor=3D"#d0d=
+1d2"></td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+<tr>
+<td align=3D"center" valign=3D"top">
+<table width=3D"600" border=3D"0" cellspacing=3D"0" cellpadding=3D"0" bgcol=
+or=3D"#ffffff">
+<tbody>
+<tr>
+<td width=3D"1" height=3D"16" align=3D"left" valign=3D"top" bgcolor=3D"#d0d=
+1d2"></td>
+<td width=3D"50" height=3D"16" align=3D"left" valign=3D"top" bgcolor=3D"#ff=
+ffff"></td>
+<td width=3D"498" height=3D"16" align=3D"left" valign=3D"top" bgcolor=3D"#f=
+fffff"></td>
+<td width=3D"50" height=3D"16" align=3D"left" valign=3D"top" bgcolor=3D"#ff=
+ffff"></td>
+<td width=3D"1" height=3D"16" align=3D"left" valign=3D"top" bgcolor=3D"#d0d=
+1d2"></td>
+</tr>
+<tr>
+<td width=3D"1" height=3D"1" align=3D"left" valign=3D"top" bgcolor=3D"#d0d1=
+d2"></td>
+<td width=3D"50" height=3D"1" align=3D"left" valign=3D"top" bgcolor=3D"#fff=
+fff"></td>
+<td width=3D"498" height=3D"1" align=3D"left" valign=3D"top" bgcolor=3D"#d0=
+d1d2"></td>
+<td width=3D"50" height=3D"1" align=3D"left" valign=3D"top" bgcolor=3D"#fff=
+fff"></td>
+<td width=3D"1" height=3D"1" align=3D"left" valign=3D"top" bgcolor=3D"#d0d1=
+d2"></td>
+</tr>
+<tr>
+<td width=3D"1" height=3D"16" align=3D"left" valign=3D"top" bgcolor=3D"#d0d=
+1d2"></td>
+<td width=3D"50" height=3D"16" align=3D"left" valign=3D"top" bgcolor=3D"#ff=
+ffff"></td>
+<td width=3D"498" height=3D"16" align=3D"left" valign=3D"top" bgcolor=3D"#f=
+fffff"></td>
+<td width=3D"50" height=3D"16" align=3D"left" valign=3D"top" bgcolor=3D"#ff=
+ffff"></td>
+<td width=3D"1" height=3D"16" align=3D"left" valign=3D"top" bgcolor=3D"#d0d=
+1d2"></td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+<tr>
+<td align=3D"center" valign=3D"top">
+<table width=3D"600" height=3D"38" border=3D"0" cellspacing=3D"0" cellpaddi=
+ng=3D"0">
+<tbody>
+<tr>
+<td width=3D"290" height=3D"38" align=3D"left" valign=3D"top"><a href=3D"ht=
+tps://eur01.safelinks.protection.outlook.com/?url=3Dhttps%3A%2F%2Fwww.eurot=
+herm.info%2F&amp;data=3D04%7C01%7Cgabriele.leandri%40valeurconcept.ch%7Cfc3=
+a0b405cad497af54808d88b1d9867%7Cf2d13bb054954cca9b611aac1568248e%7C0%7C1%7C=
+637412306523624177%7CUnknown%7CTWFpbGZsb3d8eyJWIjoiMC4wLjAwMDAiLCJQIjoiV2lu=
+MzIiLCJBTiI6Ik1haWwiLCJXVCI6Mn0%3D%7C1000&amp;sdata=3Dsu%2F1nRg1%2F1%2FLK8%=
+2BbbxbwMyHdDA0%2F7yZf9bQ61D2ptrc%3D&amp;reserved=3D0" originalSrc=3D"https:=
+//www.eurotherm.info/" shash=3D"Ux1CCegh7VGi5YWptfeLrpjEQcc4D1dt3xt1b6XhxrD=
+nyI9sMfsYkPSkf+sua8bxcNd6y2tNfN6a1zDT7lcethTNHZlps5WK1E0kwZeIeNCcftVubDm5TB=
+JhW0hFiAACV3VQVVYqUggTMlsSeeEWP8i+d/LHy0BcDJM5xN4kjKU=3D" target=3D"_blank"=
+ title=3D"Eurotherm"><img alt=3D"Eurotherm" width=3D"290" height=3D"38" bor=
+der=3D"0" style=3D"display:block;" src=3D"http://www.eurotherm.info/dist/im=
+g/newsletter/03.jpg"></a></td>
+<td width=3D"290" height=3D"38" align=3D"left" valign=3D"top"><img alt=3D"E=
+urotherm" width=3D"310" height=3D"38" border=3D"0" style=3D"display:block;"=
+ src=3D"http://www.eurotherm.info/dist/img/newsletter/04.jpg"></td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+</body>
+</html>
+
+--_79fb5645-7071-42aa-9fa8-05a2bd52a065_--
+
+--_8bc5d947-1df2-49e8-8a6f-e656da84ab7b_
+Content-Type: text/calendar; name="Corso_del_2020-11-18-16_00.ics"
+Content-Description: Corso_del_2020-11-18-16_00.ics
+Content-Disposition: attachment; filename="Corso_del_2020-11-18-16_00.ics";
+	size=512; creation-date="Tue, 17 Nov 2020 17:24:07 GMT";
+	modification-date="Tue, 17 Nov 2020 17:24:07 GMT"
+Content-Transfer-Encoding: base64
+
+QkVHSU46VkNBTEVOREFSClZFUlNJT046Mi4wCkJFR0lOOlZFVkVOVApVUkw6aHR0cHM6Ly91czAy
+d2ViLnpvb20udXMvai84ODA1MTQ4OTk4MD9wd2Q9Y1djME4yODJNbGczT0VsQmRtcHZjMmxHSzNo
+UVFUMDkKRFRTVEFSVDoyMDIwLTExLTE4VDE1OjAwOjAwWgpEVEVORDoyMDIwLTExLTE4VDE2OjAw
+OjAwWgpTVU1NQVJZOlF1YWxpdMOgIGRlbGzigJlhcmlhIGludGVybmE6IGRhbGxhIGZpbHRyYXpp
+b25lIGFsbGEgc2FuaWZpY2F6aW9uZQpERVNDUklQVElPTjoiUXVhbGl0w6AgZGVsbOKAmWFyaWEg
+aW50ZXJuYTogZGFsbGEgZmlsdHJhemlvbmUgYWxsYSBzYW5pZmljYXppb25lIC0gTWVyY29sZWTD
+rCAxOCBub3ZlbWJyZSAtIG9yZSAxNjowMCIgLSBMaW5rIHBlciBpbCBjb2xsZWdhbWVudG86IGh0
+dHBzOi8vdXMwMndlYi56b29tLnVzL2ovODgwNTE0ODk5ODA/cHdkPWNXYzBOMjgyTWxnM09FbEJk
+bXB2YzJsR0szaFFRVDA5CkxPQ0FUSU9OOk9ubGluZQpFTkQ6VkVWRU5UCkVORDpWQ0FMRU5EQVI=
+
+--_8bc5d947-1df2-49e8-8a6f-e656da84ab7b_--
+
+--_53fa51f7-5b46-433f-9479-8a7f0bc424c7_--

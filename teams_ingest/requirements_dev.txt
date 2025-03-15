@@ -1,0 +1,21 @@
+-r requirements.txt
+aws_lambda_context
+aws_lambda_logging
+BeautifulSoup4
+datefinder
+elasticsearch==7.17.6
+elasticsearch-dsl==7.4.0
+freezegun
+iteration_utilities
+marshmallow
+marshmallow-dataclass
+mock
+moto[all]
+msal
+mypy
+pytest==7.1.2
+pytest-xdist
+python_dotenv
+requests_mock
+tika
+vaderSentiment

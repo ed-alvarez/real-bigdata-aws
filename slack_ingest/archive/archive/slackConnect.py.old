@@ -1,0 +1,295 @@
+import settings
+import certifi
+import slack
+import slack.errors as slack_err
+import logging
+import time
+import ciso8601
+from datetime import datetime, timezone
+import ssl as ssl_lib
+import os
+import json
+
+''' to run tests whilst developing '''
+from mock import patch
+from tests.slackResponse import user_list, conversations_history
+
+log = logging.getLogger()
+
+
+class ArchiveData():
+    """Write archived data to a file & move to s3"""
+
+    def __init__(self, json_obj=None, channel_name=None, template=None, file_date=None):
+        self.json_obj = json_obj
+        self.channel_name = channel_name
+        self.template = template
+        if file_date:
+            self.file_date = file_date.strftime('%Y-%m-%d')
+        else:
+            self.file_date = None
+        self.file_path = ArchiveData.parseTemplatedFileName(self.template, self.channel_name, self.file_date)
+
+    @staticmethod
+    def parseTemplatedFileName(template, *args):
+        return template.format(*args)
+
+    @staticmethod
+    def getOutputPath(relative_path, file_date):
+        return settings.OUTDIR + relative_path
+
+    def write_JSON_file(self):
+        """Write file to correct directory"""
+        output_path = ArchiveData.getOutputPath(self.file_path, self.file_date)
+        dir_path = os.path.dirname(output_path)
+        if not os.path.exists(dir_path):
+            os.makedirs(dir_path)
+
+        with open(output_path, 'w+') as file:
+            json.dump(self.json_obj, file, indent=True)
+
+class ParseSlack():
+    """This class controls the ingest and archive of Slack data on a time span basis"""
+
+    def __init__(self):
+        # self.slack_ts = self.ymd2ts(date_str="2019-11-06")
+        # self.latest = self.ts2datetime(ts=1571321692.001200)
+        # self.oldest = self.ts2datetime(ts=1571216377.000400)
+
+        self.oldest_ts = None
+        self.latest_ts = None
+        self.user_dict = dict()
+        self.slack_channels = None
+        self.ssl_context = None
+        self.client = None
+        self.token = settings.SLACK_API_TOKEN
+
+    def set_dates(self, start_ts='2019-10-16T00:00:00', end_ts='2019-10-16T24:00:00'):
+        '''Set the dates in the class for subsequent Slack API calls'''
+        # TODO - Date validation for Format and correct direction
+
+        self.oldest_ts = self.ymd2ts(date_str=start_ts)
+        self.latest_ts = self.ymd2ts(date_str=end_ts)
+
+    @staticmethod
+    def ts2datetime(ts=1571321692.001200):
+        ts = float(ts)
+        return datetime.fromtimestamp(ts, timezone.utc)
+
+    @staticmethod
+    def ts2ymd(ts=1571321692.001200):
+        return ParseSlack.ts2datetime(float(ts)).strftime("%Y-%m-%d")
+
+    @staticmethod
+    def ymd2ts(date_str="2019-11-01"):
+        t = date_str
+        ts = ciso8601.parse_datetime(t)
+        # to get time in seconds:
+        return str(time.mktime(ts.timetuple()))
+
+    @staticmethod
+    def process_msg(message):
+        if 'subtype' in message:
+            if message['subtype'] == 'bot_message':
+                return False
+        return True
+
+    def connect_to_slack(self):
+        """Connect to Slack using the REST API"""
+        log.info('Connecting to Slack')
+        self.ssl_context = ssl_lib.create_default_context(cafile=certifi.where())
+        self.client = slack.WebClient(token=self.token, ssl=self.ssl_context)
+
+        try:
+            response = self.client.auth_test()
+
+        except slack_err.SlackApiError as ex:
+            error_msg = ex.response.data['error']
+            log.error(error_msg)
+            raise Exception(error_msg)
+
+        return response
+
+
+
+    def retrieve_users(self):
+        """Retrieve a list of users from the Slack REST API and process them into a DICT"""
+        try:
+            log.debug('Get users')
+            users = self.client.users_list()
+
+        except slack_err.SlackApiError as ex:
+            if ex.response.data['error'] == 'missing_scope':
+                needed = ex.response.data['needed']
+                provided = ex.response.data['provided']
+                error_msg = 'Missing Permission - Permission required = ' + needed + '  Current permissions = ' + provided
+            else:
+                error_msg = ex.response.data['error']
+            log.error(error_msg)
+            raise Exception(error_msg)
+
+        num_users = len(users.data['members'])
+        if num_users > 0:
+            #Write users to file
+            users_archive = ArchiveData(json_obj=users.data['members'],
+                                        template=settings.USER_LIST_FILE,
+                                        file_date=ParseSlack.ts2datetime(ts=self.oldest_ts))
+            users_archive.write_JSON_file()
+
+            #Take list of users and translate into a dict
+            log.debug('Convert users to dict')
+            for user in users.data['members']:
+                log.debug(f'User = {user}')
+                id = user.pop('id')
+                self.user_dict[id] = user
+
+        return users
+    def conversations_members(self, channel, next_cursor=None, members=None):
+        members = members or []
+        #TODO channel members = 0 returns error
+        try:
+            response = self.client.conversations_members(channel=channel, cursor=next_cursor)
+        except slack_err.SlackApiError as sae:
+            print(sae.response["error"])
+            if sae.response['error'] == 'fetch_members_failed':
+                return []
+
+        members += response['members']
+        #new_next_cursor = response['response_metadata']['next_cursor']
+        #if new_next_cursor != '':
+        if (new_next_cursor := response['response_metadata']['next_cursor']) != '':
+            return self.conversations_members(channel=channel, next_cursor=new_next_cursor, members=members)
+        return members
+    def retrieve_conversation_lists(self):
+        """Retrieve a list of channels of conversation types: public_channel, private_channel, mpim & im from the
+        Slack REST API"""
+        try:
+            log.debug('Get conversation lists')
+            self.slack_channels = self.client.conversations_list(
+              types="public_channel, private_channel, mpim, im"
+            )
+        except slack_err.SlackApiError as ex:
+            if ex.response.data['error'] == 'missing_scope':
+                needed = ex.response.data['needed']
+                provided = ex.response.data['provided']
+                error_msg = 'Missing Permission - Permission required = ' + needed + '  Current permissions = ' + provided
+            else:
+                error_msg = ex.response.data['error']
+            log.error(error_msg)
+            raise Exception(error_msg)
+
+        conv_list_ts = self.oldest_ts if self.oldest_ts is not None else self.ymd2ts(datetime.strftime(datetime.now(),"%Y-%m-%d"))
+        conversation_list = ArchiveData(json_obj=self.slack_channels.data['channels'],
+                                        template=settings.CHANNEL_LIST_FILE,
+                                        file_date=ParseSlack.ts2datetime(ts=conv_list_ts))
+        conversation_list.write_JSON_file()
+
+
+
+    def paginate_messages(self, channel, latest, oldest, full_messages=[]):
+        messages = self.client.conversations_history(channel=channel,
+                                                     latest=latest,
+                                                     oldest=oldest
+                                                     )
+
+        message_page = messages.data['messages']
+
+        #if messages['has_more']:
+
+        full_messages.extend(message_page)
+
+        num_mess = len(message_page)
+        while messages.data['has_more'] is True:
+            last_item = message_page[-1]
+            last_ts = last_item['ts']
+            return full_messages.extend(self.paginate_messages(channel, latest, last_ts))
+
+        else:
+            return full_messages
+
+    def retrieve_conversations(self):
+        """Iterate over each channel and retrieve a list of messages in the time range specified from the
+        Slack REST API"""
+        log.info('Iterate channels')
+        for channel in self.slack_channels['channels']:
+            log.debug(f'Channel = {channel}')
+            messages = self.paginate_messages(channel=channel['id'],
+                                             latest=self.latest_ts,
+                                             oldest=self.oldest_ts
+                                             )
+
+            num_mess = len(messages.data['messages'])
+            if num_mess > 0:
+                log.info(f'{num_mess} messages to process')
+                self.process_messages_in_conversation(channel=channel, messages=messages)
+            else:
+                log.info(f'0 messages to process')
+
+    def process_messages_in_conversation(self, channel, messages):
+        """Perform Archive and Ingest actions on each Message List"""
+        log.info(f'Iterate messages')
+        self.archive_conversation(channel=channel, messages=messages)
+        self.process_for_ingest(messages=messages)
+
+
+    def archive_conversation(self, channel, messages):
+        """Archive the Messages to the relevant JSON file"""
+        log.info(f'Archive messages')
+
+        if 'name' in channel:
+            channel_name = f"{channel['id']}_{channel['name']}"
+        else:
+            channel_name = f"{channel['id']}"
+
+        try:
+            conversation_archive = ArchiveData(json_obj=messages.data['messages'],
+                                           template=settings.CHANNEL_HISTORY_FILE,
+                                           channel_name=channel_name,
+                                           file_date=ParseSlack.ts2datetime(messages.data['oldest']))
+        except KeyError as ex:
+            error_msg = ex
+            log.error(error_msg)
+            pass
+
+        conversation_archive.write_JSON_file()
+
+    def process_for_ingest(self, messages):
+        """Format & ingest messages to ElasticSearch cluster"""
+        log.info(f'Process messages for ingest')
+        for message in messages.data['messages']:
+
+            if self.process_msg(message=message):
+                msg = dict()
+                msg['message'] = message['text']
+                msg['from_'] = self.user_dict[message['user']]
+                msg['to'] = ''
+                msg['attachments'] = ''
+
+            print(message)
+
+    #'1571321692.001200'
+    #'1571216377.000400'
+
+
+if __name__ == '__main__':
+    @patch('slack.WebClient.conversations_history')
+    def test_paginate_messages(mock_history):
+        mock_history.side_effect = conversations_history
+        slack_data = ParseSlack()
+        slack_data.connect_to_slack()
+        latest_ts = '2019-10-15T24:00:00'
+        oldest_ts = '2019-10-15T00:00:00'
+        slack_data.paginate_messages(channel='test',
+                                     latest=latest_ts,
+                                     oldest=oldest_ts)
+
+    test_paginate_messages()
+
+    latest_ts = '2019-10-15T24:00:00'
+    oldest_ts = '2019-10-15T00:00:00'
+    slack_data = ParseSlack()
+    slack_data.set_dates(start_ts=oldest_ts, end_ts=latest_ts)
+    slack_data.connect_to_slack()
+    slack_data.retrieve_users()
+    slack_data.retrieve_conversation_lists()
+    slack_data.iterate_conversations()

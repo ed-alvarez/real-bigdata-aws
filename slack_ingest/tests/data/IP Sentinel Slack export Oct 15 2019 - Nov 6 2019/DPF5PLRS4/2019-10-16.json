@@ -1,0 +1,30 @@
+[
+    {
+        "type": "message",
+        "subtype": "bot_message",
+        "text": "Your workplace can now find the perfect GIFs with Tenor thanks to you. Nice work! Two things:\n1 - the safesearch setting for your workplace is PG and G. To change that, go here <https:\/\/slack.riffsy.com\/TP2JMH5U3>.\n2 - To share from a selection of GIFs, use `\/tenor` plus a search term - `\/tenor good job` for example.\nEnjoy!",
+        "ts": "1571218524.000100",
+        "username": "Gif Keyboard",
+        "bot_id": "BPF5U798D"
+    },
+    {
+        "type": "message",
+        "subtype": "bot_message",
+        "text": "",
+        "ts": "1571218859.000300",
+        "bot_id": "BP8NANE7K",
+        "attachments": [
+            {
+                "fallback": "Someone sent a GIF in #directmessage using Tenor",
+                "image_url": "https:\/\/media.tenor.com\/images\/96e6027a3b57250dc5e5fdeee5b8bc29\/tenor.gif",
+                "image_width": 220,
+                "image_height": 224,
+                "image_bytes": 584097,
+                "is_animated": true,
+                "text": "<@UPFUKHWS3>: \/tenor [smile]",
+                "id": 1,
+                "color": "137CDA"
+            }
+        ]
+    }
+]

@@ -1,0 +1,614 @@
+Return-Path: <Journaling@nayafund.com>
+Received: from GBR01-LO2-obe.outbound.protection.outlook.com (mail-lo2gbr01lp2054.outbound.protection.outlook.com [104.47.21.54])
+ by inbound-smtp.eu-west-1.amazonaws.com with SMTP id vtdc2r97h7accv2ecodh9nho4r3otj24684pj9o1
+ for naya@ip-sentinel.net;
+ Sun, 15 Nov 2020 18:55:47 +0000 (UTC)
+Received-SPF: none (spfCheck: 104.47.21.54 is neither permitted nor denied by domain of nayafund.com) client-ip=104.47.21.54; envelope-from=Journaling@nayafund.com; helo=mail-lo2gbr01lp2054.outbound.protection.outlook.com;
+Authentication-Results: amazonses.com;
+ spf=none (spfCheck: 104.47.21.54 is neither permitted nor denied by domain of nayafund.com) client-ip=104.47.21.54; envelope-from=Journaling@nayafund.com; helo=mail-lo2gbr01lp2054.outbound.protection.outlook.com;
+ dmarc=fail header.from=credit-suisse.com;
+X-SES-RECEIPT: AEFBQUFBQUFBQUFHMS83djZVbkZuclBPRDBZWHkzVGdkS2VFaGlmQjRpZGdQK0hxQkhPbVhMbUpweTU2QzZpa1NkbURjZ21mUlN5d3doQzNrc2p3blhCZHZNYnQrdEg1akVoeFRiWm9iZEFBb1BVUG1sRHlKTkgzbi8vQ2Y5VStYT25vcGxzVzBOSVFzVCtOdXJBSXdSMWVyZVhNRzNuUWVSQjlPRzMyZXgwTmRNTDIvRWorY0JRcm8xNGRPSThNZ2d4bllySml3SGFPdlFUZ3o0VXUyZGh0T0NGc0t0aGh3TElFT2hwcTRYSHQ1cjRmUDR1N0ZTNmRBUU9FY2tVL1NMMVJGbGg2OEF2bThjempscXRFQWlOL3orMmNEbzFnMXdsMUF4K1J6QmNtbXhBZ1MwbXZqTlZyL2kzdmpuVnB5bkMraFloRjBzZDA9
+X-SES-DKIM-SIGNATURE: a=rsa-sha256; q=dns/txt; b=HMTdjVBUL4CN1z/g98cSETw4zxBIY+ZnDPblB70RN1YB5zJOFZAD3HwA7pGFQonaIlW9Dkho5TowuCdCPTDq5zNGKyvKVpOylqRKBTUGenpE1v7RoMBiYUFZV0JO/uFQAcYOGgNzJY057p/ZoEY4DspUu4feDPo/+9uUypPhJv0=; c=relaxed/simple; s=shh3fegwg5fppqsuzphvschd53n6ihuv; d=amazonses.com; t=1605466548; v=1; bh=8jwknxu6FDDxbuhM7pT5rP+5T+YknXtf/Q/Q/iuIrg4=; h=From:To:Cc:Bcc:Subject:Date:Message-ID:MIME-Version:Content-Type:X-SES-RECEIPT;
+Content-Type: multipart/mixed;
+	boundary="_076560ea-75f9-4d10-b765-e5841244b1ab_"
+Subject: Pennon Group (PNN.L) : Looking to a takeover of Southern Water (Sunday Times) which has =?utf-8?B?wqM=?=5.2bn RAB.
+To: <sarah@nayafund.com>
+From: "Freshney, Mark " <mark.freshney@credit-suisse.com>
+MIME-Version: 1.0
+Sender:
+	<MicrosoftExchange329e71ec88ae4615bbc36ab6ce41109e@nayafund.onmicrosoft.com>
+Message-ID: <76f12187-061b-482f-a447-e50f6d5629f0@journal.report.generator>
+Date: Sun, 15 Nov 2020 18:55:47 +0000
+X-MS-PublicTrafficType: Email
+X-MS-Journal-Report:
+Return-Path: Journaling@nayafund.com
+X-MS-Exchange-Parent-Message-Id:
+	<202011151855.0AFItSQW001603@vnyq01i-8840.am.hedani.net>
+Auto-Submitted: auto-generated
+X-MS-Exchange-Generated-Message-Source: Journal Agent
+X-MS-TrafficTypeDiagnostic: CWLP123MB1889:JournalingReport
+X-LD-Processed: b47761fe-9cec-4236-9646-1b8f909406a2,ExtAddr
+X-OriginatorOrg: nayafund.onmicrosoft.com
+X-MS-Exchange-CrossTenant-AuthSource: CWLP123MB1889.GBRP123.PROD.OUTLOOK.COM
+X-MS-Exchange-CrossTenant-AuthAs: Internal
+X-MS-Exchange-CrossTenant-OriginalArrivalTime: 15 Nov 2020 18:55:47.2437 (UTC)
+X-MS-Exchange-CrossTenant-Network-Message-Id:
+	b6bfa432-9e32-48d7-b92c-08d88998102e
+X-MS-Exchange-CrossTenant-FromEntityHeader: Hosted
+X-MS-Exchange-Transport-CrossTenantHeadersStamped: CWLP123MB1889
+
+--_076560ea-75f9-4d10-b765-e5841244b1ab_
+Content-Type: text/plain; charset="iso-8859-1"
+Content-Transfer-Encoding: quoted-printable
+
+Sender: mark.freshney@credit-suisse.com
+Subject: Pennon Group (PNN.L) : Looking to a takeover of Southern Water (Su=
+nday Times) which has =A35.2bn RAB.
+Message-Id: <202011151855.0AFItSQW001603@vnyq01i-8840.am.hedani.net>
+Recipient: Sarah@nayafund.com
+
+--_076560ea-75f9-4d10-b765-e5841244b1ab_
+Content-Type: message/rfc822
+
+Received: from LO4P123CA0006.GBRP123.PROD.OUTLOOK.COM (2603:10a6:600:150::11)
+ by CWLP123MB1889.GBRP123.PROD.OUTLOOK.COM (2603:10a6:401:63::22) with
+ Microsoft SMTP Server (version=TLS1_2,
+ cipher=TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384) id 15.20.3564.28; Sun, 15 Nov
+ 2020 18:55:46 +0000
+Received: from LO2GBR01FT016.eop-gbr01.prod.protection.outlook.com
+ (2603:10a6:600:150:cafe::9e) by LO4P123CA0006.outlook.office365.com
+ (2603:10a6:600:150::11) with Microsoft SMTP Server (version=TLS1_2,
+ cipher=TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384) id 15.20.3564.25 via Frontend
+ Transport; Sun, 15 Nov 2020 18:55:46 +0000
+Authentication-Results: spf=softfail (sender IP is 185.84.92.69)
+ smtp.mailfrom=credit-suisse.com; nayafund.mail.onmicrosoft.com; dkim=none
+ (message not signed) header.d=none;nayafund.mail.onmicrosoft.com; dmarc=fail
+ action=none header.from=credit-suisse.com;
+Received-SPF: SoftFail (protection.outlook.com: domain of transitioning
+ credit-suisse.com discourages use of 185.84.92.69 as permitted sender)
+Received: from mail.nayafund.com (185.84.92.69) by
+ LO2GBR01FT016.mail.protection.outlook.com (10.152.42.102) with Microsoft SMTP
+ Server (version=TLS1_2, cipher=TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA384) id
+ 15.20.3564.22 via Frontend Transport; Sun, 15 Nov 2020 18:55:46 +0000
+Received: from NML-LON-SRV-03.nayafund.com (10.241.2.3) by
+ NML-LON-SRV-03.nayafund.com (10.241.2.3) with Microsoft SMTP Server (TLS) id
+ 15.0.1497.2; Sun, 15 Nov 2020 18:55:46 +0000
+Received: from eu-smtp-1.mimecast.com (195.130.217.221) by
+ NML-LON-SRV-03.nayafund.com (10.241.2.3) with Microsoft SMTP Server id
+ 15.0.1497.2 via Frontend Transport; Sun, 15 Nov 2020 18:55:46 +0000
+Received: from mail-gw30.credit-suisse.com (mail-gw30.credit-suisse.com
+ [198.240.130.136]) (Using TLS) by relay.mimecast.com with ESMTP id
+ uk-mta-156-O0Hn2f-6NgC2mVn2FBEdjA-1; Sun, 15 Nov 2020 18:55:42 +0000
+X-MC-Unique: O0Hn2f-6NgC2mVn2FBEdjA-1
+Received: by mail-gw30.credit-suisse.com; Sun, 15 Nov 2020 18:55:29 GMT
+Message-ID: <202011151855.0AFItSQW001603@vnyq01i-8840.am.hedani.net>
+MIME-Version: 1.0
+From: "Freshney, Mark " <mark.freshney@credit-suisse.com>
+Date: Sun, 15 Nov 2020 13:55:04 -0500
+Subject: Pennon Group (PNN.L) : Looking to a takeover of Southern Water (Sunday Times) which has =?utf-8?B?wqM=?=5.2bn RAB.
+In-Reply-To: mark.freshney@credit-suisse.com
+Reply-To: "Freshney, Mark " <mark.freshney@credit-suisse.com>
+To: <sarah@nayafund.com>
+X-Mimecast-Spam-Score: 0
+X-Mimecast-Impersonation-Protect: Policy=NAYA - Impersonation Protect - Default;Similar Internal Domain=false;Similar Monitored External Domain=false;Custom External Domain=false;Mimecast External Domain=false;Newly Observed Domain=false;Internal User Name=false;Custom Display Name List=false;Reply-to Address Mismatch=false;Targeted Threat Dictionary=false;Mimecast Threat Dictionary=false;Custom Threat Dictionary=false
+Content-Type: text/html; charset="UTF-8"
+Content-Transfer-Encoding: quoted-printable
+Return-Path: research.distribution@credit-suisse.com
+X-OrganizationHeadersPreserved: NML-LON-SRV-03.nayafund.com
+X-MS-Exchange-Organization-OriginalArrivalTime: 15 Nov 2020 18:55:46.5509
+ (UTC)
+X-MS-Exchange-Organization-ExpirationStartTime: 15 Nov 2020 18:55:46.5938
+ (UTC)
+X-MS-Exchange-Organization-ExpirationStartTimeReason: OriginalSubmit
+X-MS-Exchange-Organization-ExpirationInterval: 1:00:00:00.0000000
+X-MS-Exchange-Organization-ExpirationIntervalReason: OriginalSubmit
+X-MS-Exchange-Organization-Network-Message-Id: 11ed0d06-8cd2-4a8e-43b3-08d889980fcb
+X-MS-Exchange-Organization-OriginalServerIPAddress: 10.152.42.102
+X-MS-Exchange-Organization-MessageScope: 656a526e-4477-4aa5-b351-77e3c51555ac
+X-EOPAttributedMessage: 0
+X-MS-Exchange-Organization-TargetResourceForest: GBRP123.PROD.OUTLOOK.COM
+X-MS-Exchange-Organization-OrgEopForest: GBR01
+X-MS-Exchange-Organization-MessageDirectionality: Originating
+X-MS-Exchange-Organization-Id: b47761fe-9cec-4236-9646-1b8f909406a2
+X-MS-Exchange-Organization-MessageInboundConnectorType: OnPremises
+X-MS-Exchange-Organization-MessageInboundConnectorName: Inbound from
+ 96813388-53bf-4981-852d-233c37875a50
+X-MS-Exchange-Organization-Base64-MessageInboundConnectorData: TgBhAG0AZQA9AEkAbgBiAG8AdQBuAGQAIABmAHIAbwBtACAAOQA2ADgAMQAzADMAOAA4AC0ANQAzAGIAZgAtADQAOQA4ADEALQA4ADUAMgBkAC0AMgAzADMAYwAzADcAOAA3ADUAYQA1ADAAOwBDAG8AbgBuAGUAYwB0AG8AcgBUAHkAcABlAD0ATwBuAFAAcgBlAG0AaQBzAGUAcwA7AFQAZQBuAGEAbgB0AEkAZAA9AGIANAA3ADcANgAxAGYAZQAtADkAYwBlAGMALQA0ADIAMwA2AC0AOQA2ADQANgAtADEAYgA4AGYAOQAwADkANAAwADYAYQAyAA==
+X-MS-Exchange-Organization-MessageInboundConnectorData: Name=Inbound from
+ 96813388-53bf-4981-852d-233c37875a50;ConnectorType=OnPremises;TenantId=b47761fe-9cec-4236-9646-1b8f909406a2
+X-MS-Exchange-Organization-InboundConnector-Attributes: id=1f85efbc-8a67-4aed-7f08-08d7c053c827;ty=1;idh=380f833c-4dd0-e1ff-76e3-58476ec28465;cr=256;ch=256;tl=1;mi=0;
+X-MS-Exchange-Organization-OriginalAttributedTenantConnectingIp: TenantId=b47761fe-9cec-4236-9646-1b8f909406a2;Ip=[185.84.92.69];Helo=[mail.nayafund.com]
+X-MS-Exchange-Organization-SkipListedRecipientPilot: True
+X-MS-Exchange-Organization-OriginalClientIPAddress: 195.130.217.221
+X-MS-Exchange-Organization-Processed-By-Journaling: Journal Agent
+X-CrossPremisesHeadersPromoted: LO2GBR01FT016.eop-gbr01.prod.protection.outlook.com
+X-MS-Exchange-Organization-Cross-Premises-Headers-Promoted: LO2GBR01FT016.eop-gbr01.prod.protection.outlook.com
+X-CrossPremisesHeadersFiltered: LO2GBR01FT016.eop-gbr01.prod.protection.outlook.com
+X-MS-Exchange-Organization-Cross-Premises-Headers-Processed: LO2GBR01FT016.eop-gbr01.prod.protection.outlook.com
+X-MS-Exchange-Organization-ConnectingIP: 185.84.92.69
+X-MS-Exchange-Organization-ConnectingEHLO: mail.nayafund.com
+X-MS-Exchange-Organization-AS-LastExternalIp: 185.84.92.69
+X-MS-Exchange-Organization-IsAtpTenant: true
+X-MS-Exchange-Organization-Originating-Country: GB
+X-MS-Exchange-Organization-P2SenderPII: <PII:H101(KemDiFxySqsAeyE2m1y+xOwhgUiM/He1cCs91p1fe2s=)>@credit-suisse.com
+X-MS-Exchange-Organization-P2SenderDisplayNamePII: H101(yHP/nV+S/B+KcTtMeAggiSbGvybCoCDY7+9/I5wJMnw=)
+X-MS-Exchange-Organization-OriginalEnvelopeRecipients: SHewer@nayafund.mail.onmicrosoft.com
+X-MS-Exchange-Organization-EhloAndPtrDomain: mail.nayafund.com;
+X-MS-Exchange-Organization-MxPointsToUs: true
+X-MS-Exchange-Organization-RecipientMxInfo-PFAFD: nayafund.mail.onmicrosoft.com#nayafund-mail-onmicrosoft-com.mail.protection.outlook.com
+X-MS-Exchange-Organization-HMATPModel-Spf: 3
+X-MS-Exchange-Organization-HMATPModel-Recipient: <PII:H101(kd/6hAV1UL1DDlm4Mi8o4qlvxrDugNLSD/GjZgGst/M=)>@nayafund.mail.onmicrosoft.com
+X-MS-Exchange-Organization-ASNIPLDA: true
+X-MS-Exchange-Organization-TransportTrafficType: Email
+X-MS-PublicTrafficType: Email
+X-MS-Exchange-Organization-OrderedPrecisionLatencyInProgress: LSRV=LO4P123CA0006.GBRP123.PROD.OUTLOOK.COM:TOTAL-FE=0.006|SMR-PEN=0.012(SMRPROXY-PEN=0.000);2020-11-15T18:55:46.717Z
+X-MS-Exchange-Organization-MessageLatency: SRV=LO2GBR01FT016.eop-gbr01.prod.protection.outlook.com:TOTAL-FE=0.173|SMR-PEN=0.173(RENV=0.036|REOH=0.114(SMREH=0.108(SMREH-Protocol
+ Filter Agent=0.104 ))|SMRPROXY-PEN=0.022(SMS-PEN=0.010))
+X-MS-Exchange-Organization-MessageLatency:
+	SRV=LO4P123CA0006.GBRP123.PROD.OUTLOOK.COM:TOTAL-FE=0.021|SMR-PEN=0.012(SMRPROXY-PEN=0.000)
+X-MS-Exchange-Forest-ArrivalHubServer: CWLP123MB1889.GBRP123.PROD.OUTLOOK.COM
+X-MS-Exchange-Organization-AuthSource: NML-LON-SRV-03.nayafund.com
+X-MS-Exchange-Organization-AuthAs: Anonymous
+X-MS-Exchange-Organization-FromEntityHeader: HybridOnPrem
+X-MS-Exchange-Forest-MessageScope: 656a526e-4477-4aa5-b351-77e3c51555ac
+X-MS-Exchange-Organization-OriginatorOrganization: nayafund.com
+X-OriginatorOrg: nayafund.com
+X-MS-Exchange-Organization-Antispam-ProtocolFilterHub-ScanContext:
+	ProtocolFilterHub:SmtpOnEndOfData;
+X-MS-Exchange-Organization-AcceptedDomain: False
+X-MS-Office365-Filtering-Correlation-Id: 11ed0d06-8cd2-4a8e-43b3-08d889980fcb
+X-MS-Exchange-Organization-OriginalSize: 17749
+X-MS-TrafficTypeDiagnostic: CWLP123MB1889:
+X-MS-Exchange-Organization-HygienePolicy: Premium
+X-MS-Exchange-Organization-ReplicationInfo:
+	ReplicaId=5912aebd-4ae9-bb81-6e08-e00f9889d808;ReplicatingServerFqdn=LNXP123MB1898.GBRP123.PROD.OUTLOOK.COM
+X-MS-Exchange-Forest-Language: en
+X-MS-Exchange-Forest-IndexAgent-0:
+	AQ0CZW4AAbAEAAAPAAADH4sIAAAAAAAEAK1U227bRhBdWldTlvMJmZ
+ cANmrLtuKLKqBFHd9gxFEMy27QvgQrcmVuRe6qvEgV0L/JU38jX9az
+ uxJtOGifIhDCcubMzJkzs/xnY73tn91dnF/f0/Dheji8oL/p9uZhCP
+ PHhzu6P31/QR8H9O7u4vT99eCKBhefhm3/ViilFV2lupjS1u1g0LnZ
+ bvs3Wk+keqRcE6ecT4SeiZT0mIa6yCORKvrEc1i2hoUK+YLuZSKybZ
+ pHMogo4hl9/XLU6Y4U3Z2+66B+kdI9svRRbzCwgODrl27nEAjxVyAy
+ vPOpzHlMY50SD/4sZCZzqVW2Q1yFNkKqUAaoGuKE2iLLcSBt6NDcsg
+ l0MuVKiqxDpkygizgkPkbKkNAdmjk4emMo0TQViSySHcM4FjQRYmra
+ HZz3jddwQK6RVCgmVC7zBY1ErOd0fPQG7ZyjmhHjNtVhERiafWTeHe
+ jZbne/u0/7x/2jt/39Q7r9QA/3Z7TCn8ssQ13F/yvk7cEyBDP7wNMJ
+ XaLNSIlF2z88JMBOer0e7fd6JwAkAHTGS8AvQSpCme9mhanRAXsgfp
+ ViTtCHYhCAXMU0NIeVJ5RZEOusSAUWx4bT0IZTqEVmdc+EmGRGuFDT
+ qMggCEY1l3n0pDVO2A07FZJ5RiAkeIo1SMVUpzlmcYpcxlzE+Q5QM1
+ DRaUZZZOczEsTnPBUgynPL9lKmCSXYqojP4EQBNY5lkBsJy9FbdDlh
+ EbhQPfoDRzmTuYgXBp9HMlsy6dD1y9rInMkQm/MMRlg1rRDNCf0+Yj
+ vGPECQ6S/h7lZEQqbLThLsB4UiwL5q1aFLAF9oWaqMCGxWYqe/Q9NY
+ cLhnZtEt97kY4YgesHw8jumHg63eyck2dX882O0e995i8U7D0N4K3B
+ OZGLLcFDcFOC4g+tqlq1iP4C6n8ORt+7/pwmmaikDIGWZm+3ZrgUEE
+ vACjBVBmHlkxyoJUjgxMo5vy7VqFRZanZvbLjQK1M0xoQriLwqALVU
+ avXLCKhMuYOL4gmEF/tds7ZFf9xYK/zDizG6uDwgje9n/6rj98ltw0
+ eGA/RmYcPM95EKHdaDEVaSzVxH2b1DPpRYxtS7WSgbkPSaHMB8p8tZ
+ 7Jjm9elOfT/t7efD7vfHNN92LxyOM9ofaeQj5boT7LUSfKk/j7N8sq
+ ddaos/Uqa1RYtcpqa6zSNK912GvW6LFqgzVh99gaXA5QM1EGUGP1il
+ ddYwx2gCt4NXka9lz1PK90AY88OGywTeddZ75LiCR41lkLxpotDeOa
+ V7GxBtkwFeuOhotFoCHg1S2m7pj7bGPNYy08Flb1ak2PNRlzVcoG2+
+ zV/8JMtqbnm8yOg1epMjRTM/+sAUVeA2AJ1E2nBr9q0McZNJzL2cHc
+ tLMUtoauy0Zgadii0LbOmnC53murnOX/c/Hx6lSCq802YYSlDHcAl8
+ cFOjJrdtYI9FmryXxHGA9eW6ztXJXVrNGsa7zCQK5m/1nTqzoFEIJa
+ LbbpyqFfR7Is7QaNB0g7lxYeiFNbTQoVnSxurOBTVvxG8HoZZUv8vp
+ LdqLduG4ELB5TYZK981saAfraAEulqAeAO1X8B34/+QSIJAAA=
+X-MS-Exchange-Forest-IndexAgent: 1 1211
+X-MS-Exchange-Forest-EmailMessageHash: 7299AFF3
+X-MS-Exchange-Organization-IsPotentialIntraOrgMail: False
+X-MS-Exchange-Organization-Antispam-PreContentFilter-PolicyLoadTime:
+	MAOSUB:2;MAOSUBLOAD:1;SAORES:1;SAORESLOAD:0;SLORES:0;SLORESLOAD:0;
+X-MS-Exchange-Organization-MessageFingerprint:
+	2870F56B.BCFF9F93.61FF1F43.84E9E0C8.2029F
+X-MS-Exchange-Organization-UrlMinimumDomainAge: mimecast.com#6478
+X-MS-Exchange-Organization-URLFeatureReduction:
+	55;3;0;23;0;0;0;0;17;3;2;10000000;0;1;0
+X-MS-Exchange-Organization-Persisted-Urls-ChunkCount: 1
+X-MS-Exchange-Organization-Persisted-Urls-0:
+	=?us-ascii?Q?[{"ID":2,"OU":"https://protect-eu.mimecast.com/s/4DmJCBgM7C5?=
+ =?us-ascii?Q?wk1c6KFzF","U":"https://protect-eu.mimecast.com/s/4DmJCBgM7C?=
+ =?us-ascii?Q?5wk1c6KFzF","IAR":false,"LI":{"TN":"a","IC":true,"BF":2,"SI"?=
+ =?us-ascii?Q?:-1,"EndIndex":-1},"SRCI":1,"IU":null,"NU":"protect-eu.mimec?=
+ =?us-ascii?Q?ast.com/s/4DmJCBgM7C5wk1c6KFzF","UFT":"{101:46,102:2,105:23,?=
+ =?us-ascii?Q?108:3,109:1,110:8,111:12,112:2,114:8,115:10,116:1,117:1,118:?=
+ =?us-ascii?Q?10,119:8,121:7,122:3,123:1,125:3,128:20,131:10000000,135:\"E?=
+ =?us-ascii?Q?2F58CB3,C6D6BE65,A0574632,891EC5C0,4938C3D8,BCF35016,BFD0733?=
+ =?us-ascii?Q?A,ACB296E1,AA6CB204,1005231C,C86253E2,1B64769E,9C00B698,6C03?=
+ =?us-ascii?Q?AF79,FE1E7676,F717229A,FC8DC9A5,618C3082,5848E2EF,CB1A21C7,6?=
+ =?us-ascii?Q?40385A8,F3FB2540,DA2A48EC,490270FC,8BE68B30,ADA66C58,D538D00?=
+ =?us-ascii?Q?C,FB26C6F7,6504DBA7,17EE6862,ECA766CC,F3DB80DF\",201:6478,20?=
+ =?us-ascii?Q?2:206,203:1488,204:7967,205:37,206:2,207:38,208:2,209:38,210?=
+ =?us-ascii?Q?:2,211:38,212:2,213:58,214:3,215:23,216:1,217:23,218:1,219:2?=
+ =?us-ascii?Q?3,220:1,221:52,222:3,223:52,224:3,225:52,226:3,227:51,228:3,?=
+ =?us-ascii?Q?229:57,230:3,231:23,232:1,233:27,234:1,235:23,236:1,239:23,2?=
+ =?us-ascii?Q?40:1,241:23,242:1,243:23,244:1,245:23,246:1,247:23,248:1,249?=
+ =?us-ascii?Q?:23,250:1,251:22,252:1}","DPD":{"UF":"256","OCH":"8620474737?=
+ =?us-ascii?Q?217002384","SCHM":"Https","CNT":"1","SL":"1","LOG":"1"},"PRO?=
+ =?us-ascii?Q?C":[]},{"ID":3,"OU":"https://protect-eu.mimecast.com/s/8wn8C?=
+ =?us-ascii?Q?DRO7tlEW1hALZHW","U":"https://protect-eu.mimecast.com/s/8wn8?=
+ =?us-ascii?Q?CDRO7tlEW1hALZHW","IAR":false,"LI":{"TN":"a","IC":true,"BF":?=
+ =?us-ascii?Q?2,"SI":-1,"EndIndex":-1},"SRCI":1,"IU":null,"NU":"protect-eu?=
+ =?us-ascii?Q?.mimecast.com/s/8wn8CDRO7tlEW1hALZHW","UFT":"{101:46,102:2,1?=
+ =?us-ascii?Q?05:23,108:3,109:1,110:8,111:12,112:2,114:8,115:10,116:1,117:?=
+ =?us-ascii?Q?1,118:10,119:8,121:7,122:3,123:1,125:3,128:20,131:10000000,1?=
+ =?us-ascii?Q?35:\"E2F58CB3,C6D6BE65,A0574632,891EC5C0,4938C3D8,BCF35016,B?=
+ =?us-ascii?Q?FD0733A,ACB296E1,AA6CB204,1005231C,C86253E2,1B64769E,9C00B69?=
+ =?us-ascii?Q?8,6C03AF79,26AC2738,28ADE9BE,A6472CF6,20DDBA92,4339B756,F3D8?=
+ =?us-ascii?Q?B522,54D5721D,2CABFD13,B154E968,BB4720D6,756C8979,BD80290E,7?=
+ =?us-ascii?Q?A3E6549,4015EA75,1C214160,24685798,882E3EA3,1BAEA776\",201:6?=
+ =?us-ascii?Q?478,202:206,203:1488,204:7967,205:37,206:2,207:38,208:2,209:?=
+ =?us-ascii?Q?38,210:2,211:38,212:2,213:58,214:3,215:23,216:1,217:23,218:1?=
+ =?us-ascii?Q?,219:23,220:1,221:52,222:3,223:52,224:3,225:52,226:3,227:51,?=
+ =?us-ascii?Q?228:3,229:57,230:3,231:23,232:1,233:27,234:1,235:23,236:1,23?=
+ =?us-ascii?Q?9:23,240:1,241:23,242:1,243:23,244:1,245:23,246:1,247:23,248?=
+ =?us-ascii?Q?:1,249:23,250:1,251:22,252:1}","DPD":{"UF":"256","OCH":"4369?=
+ =?us-ascii?Q?865322187053583","SCHM":"Https","CNT":"1","SL":"1","LOG":"1"?=
+ =?us-ascii?Q?},"PROC":[]},{"ID":1,"OU":"https://protect-eu.mimecast.com/s?=
+ =?us-ascii?Q?/Am-vCAnL7fAwPgcGXQAx","U":"https://protect-eu.mimecast.com/?=
+ =?us-ascii?Q?s/Am-vCAnL7fAwPgcGXQAx","IAR":false,"LI":{"TN":"a","IC":true?=
+ =?us-ascii?Q?,"BF":2,"SI":-1,"EndIndex":-1},"SRCI":1,"IU":null,"NU":"prot?=
+ =?us-ascii?Q?ect-eu.mimecast.com/s/Am-vCAnL7fAwPgcGXQAx","UFT":"{101:46,1?=
+ =?us-ascii?Q?02:2,105:23,108:3,109:1,110:8,111:12,112:2,114:8,115:10,116:?=
+ =?us-ascii?Q?1,117:1,118:10,119:8,121:7,122:3,123:1,125:3,127:1,128:20,13?=
+ =?us-ascii?Q?1:10000000,135:\"E2F58CB3,C6D6BE65,A0574632,891EC5C0,4938C3D?=
+ =?us-ascii?Q?8,BCF35016,BFD0733A,ACB296E1,AA6CB204,1005231C,C86253E2,1B64?=
+ =?us-ascii?Q?769E,9C00B698,6C03AF79,D76BAFF8,8EC3BC5,4D075189,CA92FA4B,61?=
+ =?us-ascii?Q?46B283,1663C460,E9D9D10E,73AA91E4,9A3232F1,12CA688B,28A24975?=
+ =?us-ascii?Q?,63DB663D,81F9FCA7,8412C292,4B4212B3,8DCFEC63,F9404DF7,F4BCB?=
+ =?us-ascii?Q?E1B\",201:6478,202:206,203:1488,204:7967,205:37,206:2,207:38?=
+ =?us-ascii?Q?,208:2,209:38,210:2,211:38,212:2,213:58,214:3,215:23,216:1,2?=
+ =?us-ascii?Q?17:23,218:1,219:23,220:1,221:52,222:3,223:52,224:3,225:52,22?=
+ =?us-ascii?Q?6:3,227:51,228:3,229:57,230:3,231:23,232:1,233:27,234:1,235:?=
+ =?us-ascii?Q?23,236:1,239:23,240:1,241:23,242:1,243:23,244:1,245:23,246:1?=
+ =?us-ascii?Q?,247:23,248:1,249:23,250:1,251:22,252:1}","DPD":{"UF":"256",?=
+ =?us-ascii?Q?"OCH":"13210512968556042951","SCHM":"Https","CNT":"1","SL":"?=
+ =?us-ascii?Q?1","LOG":"1"},"PROC":[]},{"ID":4,"OU":"https://protect-eu.mi?=
+ =?us-ascii?Q?mecast.com/s/=5FeQZCElg7S5vzmcPy7TQ","U":"https://protect-eu?=
+ =?us-ascii?Q?.mimecast.com/s/=5FeQZCElg7S5vzmcPy7TQ","IAR":false,"LI":{"T?=
+ =?us-ascii?Q?N":"a","IC":true,"BF":2,"SI":-1,"EndIndex":-1},"SRCI":1,"IU"?=
+ =?us-ascii?Q?:null,"NU":"protect-eu.mimecast.com/s/=5FeQZCElg7S5vzmcPy7TQ?=
+ =?us-ascii?Q?","UFT":"{101:46,102:2,105:23,108:3,109:1,110:8,111:12,112:2?=
+ =?us-ascii?Q?,114:8,115:10,116:1,117:1,118:10,119:8,121:7,122:3,123:1,125?=
+ =?us-ascii?Q?:3,127:1,128:20,131:10000000,135:\"E2F58CB3,C6D6BE65,A057463?=
+ =?us-ascii?Q?2,891EC5C0,4938C3D8,BCF35016,BFD0733A,ACB296E1,AA6CB204,1005?=
+ =?us-ascii?Q?231C,C86253E2,1B64769E,9C00B698,6C03AF79,7C8ECD45,DD79B3F9,9?=
+ =?us-ascii?Q?B9C413,633C284D,7F958DC3,C5718497,A892B6EA,5A5221DC,177FF23F?=
+ =?us-ascii?Q?,7AE431D6,EA59411A,FA1C89F,1F7B249D,526B6BBF,2E131051,9D1448?=
+ =?us-ascii?Q?81,9E54CB7F\",201:6478,202:206,203:1488,204:7967,205:37,206:?=
+ =?us-ascii?Q?2,207:38,208:2,209:38,210:2,211:38,212:2,213:58,214:3,215:23?=
+ =?us-ascii?Q?,216:1,217:23,218:1,219:23,220:1,221:52,222:3,223:52,224:3,2?=
+ =?us-ascii?Q?25:52,226:3,227:51,228:3,229:57,230:3,231:23,232:1,233:27,23?=
+ =?us-ascii?Q?4:1,235:23,236:1,239:23,240:1,241:23,242:1,243:23,244:1,245:?=
+ =?us-ascii?Q?23,246:1,247:23,248:1,249:23,250:1,251:22,252:1}","DPD":{"UF?=
+ =?us-ascii?Q?":"256","OCH":"2015677739653195134","SCHM":"Https","CNT":"1"?=
+ =?us-ascii?Q?,"SL":"1","LOG":"1"},"PROC":[]},{"ID":5,"OU":"https://protec?=
+ =?us-ascii?Q?t-eu.mimecast.com/s/=5F=5Fb5CGZk7f5DPmck-sci","U":"https://p?=
+ =?us-ascii?Q?rotect-eu.mimecast.com/s/=5F=5Fb5CGZk7f5DPmck-sci","IAR":fal?=
+ =?us-ascii?Q?se,"LI":{"TN":"a","IC":true,"BF":2,"SI":-1,"EndIndex":-1},"S?=
+ =?us-ascii?Q?RCI":1,"IU":null,"NU":"protect-eu.mimecast.com/s/=5F=5Fb5CGZ?=
+ =?us-ascii?Q?k7f5DPmck-sci","UFT":"{101:46,102:2,105:23,108:3,109:1,110:8?=
+ =?us-ascii?Q?,111:12,112:2,114:8,115:10,116:1,117:1,118:10,119:8,121:7,12?=
+ =?us-ascii?Q?2:3,123:1,125:3,127:3,128:20,131:10000000,135:\"E2F58CB3,C6D?=
+ =?us-ascii?Q?6BE65,A0574632,891EC5C0,4938C3D8,BCF35016,BFD0733A,ACB296E1,?=
+ =?us-ascii?Q?AA6CB204,1005231C,C86253E2,1B64769E,9C00B698,6C03AF79,A9952A?=
+ =?us-ascii?Q?BF,87CA02D0,4D4215D9,8FD46CB7,6BA6D6A1,D2344E25,6E31EDAD,235?=
+ =?us-ascii?Q?E4F5A,8CC1BBEA,F5D43B1A,49E19F99,247B2C7C,9E5F1770,DCF3B820,?=
+ =?us-ascii?Q?45127DE4,301862D4\",201:6478,202:206,203:1488,204:7967,205:3?=
+ =?us-ascii?Q?7,206:2,207:38,208:2,209:38,210:2,211:38,212:2,213:58,214:3,?=
+ =?us-ascii?Q?215:23,216:1,217:23,218:1,219:23,220:1,221:52,222:3,223:52,2?=
+ =?us-ascii?Q?24:3,225:52,226:3,227:51,228:3,229:57,230:3,231:23,232:1,233?=
+ =?us-ascii?Q?:27,234:1,235:23,236:1,239:23,240:1,241:23,242:1,243:23,244:?=
+ =?us-ascii?Q?1,245:23,246:1,247:23,248:1,249:23,250:1,251:22,252:1}","DPD?=
+ =?us-ascii?Q?":{"UF":"256","OCH":"14799243357145748995","SCHM":"Https","C?=
+ =?us-ascii?Q?NT":"1","SL":"1","LOG":"1"},"PROC":[]},{"ID":6,"OU":"http://?=
+ =?us-ascii?Q?www.credit-suisse.com/legal/en/disclaimer=5Femail=5Fib.html"?=
+ =?us-ascii?Q?,"U":"http://www.credit-suisse.com/legal/en/disclaimer=5Fema?=
+ =?us-ascii?Q?il=5Fib.html","IAR":false,"LI":{"BF":1,"SI":-1,"EndIndex":-1?=
+ =?us-ascii?Q?},"SRCI":1,"IU":null,"NU":"www.credit-suisse.com/legal/en/di?=
+ =?us-ascii?Q?sclaimer=5Femail=5Fib.html","UFT":"{101:55,102:3,103:1,105:2?=
+ =?us-ascii?Q?1,108:3,109:1,110:13,111:17,112:2,113:1,114:13,115:3,116:1,1?=
+ =?us-ascii?Q?18:3,119:13,120:1,121:9,122:3,123:1,125:3,128:24,129:1,130:2?=
+ =?us-ascii?Q?,131:10000000,135:\"F538357B,B1DC0861,EB1BB15A,137135F9,9738?=
+ =?us-ascii?Q?0238,DC161A61,53FA8BA9,F1155B52,5B619E2A,F722B3AE,161D3174,4?=
+ =?us-ascii?Q?B5B74CC,856CA2A9,8DA6ECEE,AF0CF615,E80E10A1,C6B12B30,2D185E1?=
+ =?us-ascii?Q?B,624D6FDB,6761E613,3761B9BC,B8FC49D8,157697B1,5D87E0B3,7EC6?=
+ =?us-ascii?Q?A9B1,69993CB8,2810724,3861BB4F,D0FA3109,804E85B6,21419CEA,9E?=
+ =?us-ascii?Q?44B498\",201:8745,202:345,203:19,204:8765,205:14,206:1,207:1?=
+ =?us-ascii?Q?6,208:1,209:16,210:1,211:16,212:1,213:58,214:3,215:63,216:3,?=
+ =?us-ascii?Q?217:65,218:3,219:14,220:1,221:52,222:3,223:52,224:3,225:52,2?=
+ =?us-ascii?Q?26:3,227:51,228:3,229:57,230:3,231:18,232:1,233:16,234:1,235?=
+ =?us-ascii?Q?:14,236:1,239:63,240:3,243:14,244:1,245:18,246:1,247:18,248:?=
+ =?us-ascii?Q?1,249:18,250:1,251:16,252:1}","DPD":{"UF":"256","OCH":"11456?=
+ =?us-ascii?Q?054507465994125","SCHM":"Http","CNT":"1","SL":"1","LOG":"1"}?=
+ =?us-ascii?Q?,"PROC":[]}]?=
+X-MS-Exchange-Organization-PersistedUrlCount: 6
+X-MS-Exchange-Organization-Antispam-PreContentFilter-ScanContext:
+	CategorizerOnSubmitted;CategorizerOnResolved;
+X-MS-Exchange-Organization-AVScannedByV2: Symantec;Microsoft;Command
+X-MS-Exchange-Organization-AVScanComplete: true
+X-MS-Exchange-Organization-UrlSelected: 1
+X-MS-Exchange-Organization-UrlLogged: 1
+X-MS-Exchange-Organization-Recipient-Limit-Verified: True
+X-MS-Exchange-Organization-TotalRecipientCount: 1
+X-MS-Exchange-Organization-ReplyAllBlocker-Verdict: Allow
+X-MS-Exchange-Organization-ASDirectionalityType: 1
+X-MS-Exchange-Organization-Boomerang-Verdict: None
+X-MS-Exchange-Organization-HMATPModel-DkimAuthStatus: 7
+X-MS-Exchange-Organization-HMATPModel-DmarcAuthStatus: 3
+X-MS-Exchange-Organization-SenderRecipientCommunicationState: EST
+X-MS-Exchange-Organization-Antispam-ContentFilter-ScanContext:
+	CategorizerOnResolved;
+X-MS-Exchange-Organization-CommunicationStateSummary: EST
+X-MS-Exchange-Organization-FirstContactSummary:
+	ST=1;MRG=0;EXT=0;UN=1;ORCT=1;EV=1;FC=0;NESI=0;NES=0;ESTI=0;EST=1;INS=0;ERR=0
+X-MS-Exchange-Organization-CFA-UserOption: 0
+X-MS-Exchange-Organization-UriInBody: true
+X-MS-Exchange-Organization-Feature-Long: 0	201:7183	202:989	203:1	205:62	206:1
+	207:1	208:182	210:63	211:412	212:3	213:17	215:7174	218:1	219:1	220:5	221:3
+	223:3	227:1	228:1	235:1	236:7	238:3	241:1	244:1	246:1	247:1	248:3	258:1	260:4
+	261:500	262:8	263:3	264:666	265:17	1004:fulcruminquiry.com	1006:credit,update
+	1007:Latn	1008:americredit.com	1009:credit,update,importan	1013:185.84.92.69
+	1014:none	1015:credit-suisse.com	1019:mail.nayafund.com
+	1020:credit-suisse.com	1030:credit-suisse.com	1034:E99C9668@nayafund.com
+	1035:credit-suisse.com
+X-MS-Exchange-Organization-HDRFeatureV2:
+	9;0;1;1;1;0;1;1;0;0;1;1;1;1;1;1;122;8;11;13;13;13;13;13;3;8;11;11;4;11;11;4;7;3;3;-1;-1;-1;-1;-1;-1;1;11;0;12
+X-MS-Exchange-Organization-ExtractionTags: SUB64;LINK;
+X-MS-Exchange-Organization-ExtractionTagsSubject:
+	=?iso-8859-1?Q?Pennon_Group_(PNN.L)_:_Looking_to_a_takeover_of_Southern_W?=
+ =?iso-8859-1?Q?ater_(Sunday_Times)_which_has_=A35.2bn_RAB.?=
+X-MS-Exchange-Organization-ExtractionTagsFrom: "Freshney, Mark "
+ <mark.freshney@credit-suisse.com>
+X-MS-Exchange-Organization-ExtractionTagsSubjectNormalized:
+	=?iso-8859-1?Q?penon_group_pn_l_loklng_to_a_takeover_of_southern_vvater_s?=
+ =?iso-8859-1?Q?unday_tlrnes_vvhlch_has_=A3s_2bn_rab?=
+X-MS-Oob-TLC-OOBClassifiers: OLM:9508;
+X-MS-Exchange-Organization-SpamScore: 3
+X-MS-Exchange-Organization-Antispam-AnalystRuleHits:
+	(4636009)(5660300002)(356005)(81166007)(1076003)(966005)(76236003)(9686003)(336012)(26005)(3450700001)(83380400001)(6666004)(426003)(36906005)(6916009)(82310400003)(156005)(166002)(42186006)(8936002)(1096003)(19627405001)(166374004)
+X-MS-Exchange-Organization-Antispam-ScanContext:
+	DIR:Originating;SFV:NSPM;SKIP:0;
+X-MS-Exchange-Organization-Antispam-PostContentFilter-ScanContext:
+	CategorizerOnResolved;CategorizerOnRouted;
+X-MS-Exchange-Organization-SCL: 1
+X-Microsoft-Antispam: BCL:0;
+X-Microsoft-Antispam-Message-Info:
+	=?us-ascii?Q?DsE+f15ma2xlWt/SiDFAA8X7cJvyvO0tHD/qOPm9kn9/2TLF6OD7M2x2BYwx?=
+ =?us-ascii?Q?7gXRxz1WDVDqS10SxiZXo9roj5Dc2A8JrzzisFZO2ofOZ3Vxp2OpkBFsMiD2?=
+ =?us-ascii?Q?NwqOHMU3JxxcszvL4z+w4FsgrQA+247h2ZOowgZn9XPAQaryB6NQLZXQxw3e?=
+ =?us-ascii?Q?KWLHPgAwNJn9WfJkCB90lvNLwbHdZIDt69pw5bu5Vc+3PSPQxGBhMov+aaSw?=
+ =?us-ascii?Q?Dk2LECxkf21JOWurWrk3X2M8LkAkt/Z3vkn4WlCUBHsS2VqIdS3U/N4W4fm4?=
+ =?us-ascii?Q?XmK3ZKuZEp75AXXl7OoVjQopm2fhYBHbLyLC6B9ZsPjwzFg1+T+cJb4ZJe1b?=
+ =?us-ascii?Q?YVoYw1a2zpfI8xCAPx5x9GN1gYXr01j9076EhYzKl2HLoPnR1ZWIfrkGZBkn?=
+ =?us-ascii?Q?MG4ZxeBLmrcKtMSNm5+xAn7JAXf6FD6oP3wEiMhmCm48yV2681aeg2c+c086?=
+ =?us-ascii?Q?UxOheznkzx//YaF/2nhZW1xJn3aITsfOfuBlVpTKyCqPX+mwZVIfmAmqzojW?=
+ =?us-ascii?Q?/DIkJOlLbsHU8b0OgGeuPPd+mbe2QXbNo5M5TAB9jcfSy1tBO/ZWiAQJwGjD?=
+ =?us-ascii?Q?gZzlB6t1wTIk5LHY1nj1P6B6piQ2Cg/f/gmVV8qWYGc2zehVAbwNDNpVzT+f?=
+ =?us-ascii?Q?SgAme0A25BifNCm+j+73+8E2N29UovaVl9xbiABc3JK2IKFfWnNEQ75wZeqc?=
+ =?us-ascii?Q?gd/C1TszWWY9EtmzoT84taaPbPdznLS1exDhgKWJaeUHYIlKEcpIwOWdEveC?=
+ =?us-ascii?Q?SrlbpHopicoAbIhMlRAkziV4TvJk1OVLNEjbSciSb7qEqZIgt5j9bZy93FzP?=
+ =?us-ascii?Q?JPESCSbunq9m0WQ9uvnRV3IO1Jfm3wVpm+66KfZ6sSz4NeZwYzQaG2TMyC57?=
+ =?us-ascii?Q?N9rurLz4Zkyx4vviVCIGcWgBNob/JM17A0Ltc7/NcuvKli7uEuAqYQHrW8fs?=
+ =?us-ascii?Q?LlNyBCCmD8NaWMKErdPFtwZrwgEqkD/ymMFXE+OsWhozH0pUdKNRBnxWWsp8?=
+ =?us-ascii?Q?02pBu1GLMu3JLDRTkeBQAX9gJ5rMk/KAlRGTi7sPKOJY3TtOjXQ4QUVYgpRd?=
+ =?us-ascii?Q?D1vlMV353UWvC68qJiKgf2+tAFtusHI9KU2dw+UkZZW+f4KR7LbZzrQmUyfo?=
+ =?us-ascii?Q?pLKrKKojxqVeRray9kh/CkETh49+9rJhF2AE97cSm8FJx19h5qcwMWm7ag2q?=
+ =?us-ascii?Q?yPInRMeRwu44tUlLTwnqOXYopbBQ/2ychsDxsQ=3D=3D?=
+X-Forefront-Antispam-Report:
+	CIP:185.84.92.69;CTRY:GB;LANG:en;SCL:1;SRV:;IPV:NLI;SFV:NSPM;H:mail.nayafund.com;PTR:InfoDomainNonexistent;CAT:NONE;SFS:(4636009)(5660300002)(356005)(81166007)(1076003)(966005)(76236003)(9686003)(336012)(26005)(3450700001)(83380400001)(6666004)(426003)(36906005)(6916009)(82310400003)(156005)(166002)(42186006)(8936002)(1096003)(19627405001)(166374004);DIR:INB;
+X-MS-Exchange-Organization-GroupForkPerf: VCL=0;VL=3
+X-MS-Exchange-Organization-Cross-Session-Cache:
+	=?us-ascii?Q?00CIP=3D185.84.92.69;EIPC0=3D2004,2055,950,951,2005,2006,200?=
+ =?us-ascii?Q?7,2008,2009,2010,2011,2012,2013,2014,2000,2050,2051,2052,952?=
+ =?us-ascii?Q?,902,2054,2016,903,901,905,904,907,2001,3000,2003,2002,967,2?=
+ =?us-ascii?Q?058,2059,2060,531,2017,5080,5011,5051,5001,5057,5058,5054,50?=
+ =?us-ascii?Q?52,5056,906,5010,5055,5059,5053,5002,5003,5005,5070;MIPC0=3D?=
+ =?us-ascii?Q?;REP=3D01,1,0\;01,2,0\;01,3,0\;01,4,0\;01,5,0\;01,6,0\;01,7,?=
+ =?us-ascii?Q?0\;01,8,112\;01,9,0\;01,10,0\;01,11,0\;01,12,112\;02,1,0\;02?=
+ =?us-ascii?Q?,2,0\;02,3,0\;02,4,0\;02,5,0\;02,6,0\;02,7,0;SL=3D1;EMSL=3D1?=
+ =?us-ascii?Q?;SCL=3D1;BL=3D0;RL=3D1;PID=3D0;EXPID=3D;TIP=3DNotListed;CIPC?=
+ =?us-ascii?Q?RY=3DGB;SAUTHOP=3D1;RMX=3DMimecast;A=3D00;MX=3D00;PTR=3D02;S?=
+ =?us-ascii?Q?PF=3D031cmVzZWFyY2guZGlzdHJpYnV0aW9uQGNyZWRpdC1zdWlzc2UuY29t?=
+ =?us-ascii?Q?;DKIM=3D;DMARC=3D00Y3JlZGl0LXN1aXNzZS5jb20=3D\;dj1ETUFSQzE7I?=
+ =?us-ascii?Q?HA9bm9uZTsgZm89MTsgcnVmPW1haWx0bzpmb3JlbnNpYy5kbWFyYy1yZXBvc?=
+ =?us-ascii?Q?nRzQGNyZWRpdC1zdWlzc2UuY29tOyBydWE9bWFpbHRvOmRtYXJjX3J1YUBlb?=
+ =?us-ascii?Q?WFpbGRlZmVuc2UucHJvb2Zwb2ludC5jb207;AUTHRES=3D[mx.microsoft.?=
+ =?us-ascii?Q?com,1]{5,3,UwBvAGYAdABGAGEAaQBsAA=3D=3D,cwBlAG4AZABlAHIAIABJ?=
+ =?us-ascii?Q?AFAAIABpAHMAIAAxADgANQAuADgANAAuADkAMgAuADYAOQA=3D,cwBtAHQAc?=
+ =?us-ascii?Q?AAuAHIAYwBwAHQAVABvAEQAbwBtAGEAaQBuAA=3D=3D|bgBhAHkAYQBmAHUA?=
+ =?us-ascii?Q?bgBkAC4AbQBhAGkAbAAuAG8AbgBtAGkAYwByAG8AcwBvAGYAdAAuAGMAbwBt?=
+ =?us-ascii?Q?AA=3D=3D,cwBtAHQAcAAuAE0AYQBpAGwARgByAG8AbQA=3D|YwByAGUAZABp?=
+ =?us-ascii?Q?AHQALQBzAHUAaQBzAHMAZQAuAGMAbwBtAA=3D=3D}{9,8,RgBhAGkAbAA=3D?=
+ =?us-ascii?Q?,cAA9AG4AbwBuAGUAIABzAHAAPQBuAG8AbgBlACAAcABjAHQAPQAxADAAMAA?=
+ =?us-ascii?Q?=3D,YQBjAHQAaQBvAG4A|TgBvAG4AZQA=3D,aABlAGEAZABlAHIALgBmAHIA?=
+ =?us-ascii?Q?bwBtAA=3D=3D|YwByAGUAZABpAHQALQBzAHUAaQBzAHMAZQAuAGMAbwBtAA?=
+ =?us-ascii?Q?=3D=3D}{2,7,TgBvAG4AZQA=3D,bQBlAHMAcwBhAGcAZQAgAG4AbwB0ACAAc?=
+ =?us-ascii?Q?wBpAGcAbgBlAGQA};EIPC2=3D1904,1607,1609,1803,1608,1903,796;M?=
+ =?us-ascii?Q?IPC2=3D;SpfResult=3D3;DkimStatus=3D7;DkimSS=3D0;DmarcStatus?=
+ =?us-ascii?Q?=3D3;DmarcAction=3D0;MFP=3D3d4fa067-f295-4094-97d2-9c7fa1334?=
+ =?us-ascii?Q?81d;PReRC=3D1;FPR=3D2870F56B.BCFF9F93.61FF1F43.84E9E0C8.2029?=
+ =?us-ascii?Q?F;URLC=5FBE=3D6;URLC=5FBEC=3D6;URLC=5FAE=3D0;UMGPV=3D2263;UM?=
+ =?us-ascii?Q?EPV=3D9999;NoDLx=3D1;CGDLxSupported=3D1;BR=5FV=3DNone;DIR=3D?=
+ =?us-ascii?Q?1;HOSFP=3D2107f2b4-c436-4503-b7d9-4aad971edc93;GWS=5FRead=3D?=
+ =?us-ascii?Q?V2;GUIMP=5FSUM=3DR1E1S1;SRCS=3DEST;HCFP=3D4f8a4f6e-98cc-4c57?=
+ =?us-ascii?Q?-a76b-915b81717a1c;APP=3D92eac53d-0540-4be3-b459-04b5ea774a6?=
+ =?us-ascii?Q?4;IVB=5FDBG=3DD2;HMEPV=3D10000;HMEPV2=3D3146;HMESV=3D3993;HM?=
+ =?us-ascii?Q?ESV2=3D9999;SRESV=3D7192;BMASV=3D4035;BMESV=3D7679;BMAPV=3D5?=
+ =?us-ascii?Q?535;BMEPV=3D4886;CMASV=3D4112;CMAPV=3D10000;CBEBV=3D10000;CB?=
+ =?us-ascii?Q?EB?=
+X-MS-Exchange-Organization-Cross-Session-Cache:
+	01V2=10000;CLEPV=993;URLF_DBG=DS:8;ASC=3;ASCID=166374004;FFV=NSPM;FV_SCL=1;FV=NSPM;FVS=Filters;FSCL=1;TAP_EP=
+X-MS-Exchange-Organization-Processed-By-Gcc-Journaling: Journal Agent
+
+<!doctype html>
+<html xmlns:xhtml=3D"http://www.w3.org/1999/xhtml">
+ <head>=20
+  <meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3DUTF-8">=
+=20
+  <meta name=3D"viewport" content=3D"width=3Ddevice-width, initial-scale =
+=3D 1.0, maximum-scale=3D1.0, user-scalable=3Dno">=20
+  <meta name=3D"apple-mobile-web-app-capable" content=3D"yes">=20
+ </head>=20
+ <body style=3D"font-family:Arial,Helvetica,sans-serif;">=20
+  <table style=3D"background: #d4ebf2;width: 100%;table-layout: fixed;" cel=
+lpadding=3D"12">=20
+   <tbody>=20
+    <tr>=20
+     <td style=3D"font-weight: bold;font-size: 20px;color: #000000;margin-l=
+eft: 18px;line-height: 24px;">=20
+      <div style=3D"font-family:Arial,Helvetica,sans-serif;">
+        CREDIT&nbsp;SUISSE&nbsp;&nbsp;|&nbsp;&nbsp;PLUS=20
+       <div></div>=20
+      </div></td>=20
+    </tr>=20
+   </tbody>=20
+  </table>=20
+  <div style=3D"margin-left: 25px;margin-right: 27px;margin-top: 20px;margi=
+n-bottom: 9px;">=20
+   <table style=3D"table-layout: fixed;">=20
+    <tbody>=20
+     <tr style=3D"color: #000;line-height: 15px;">=20
+      <td style=3D"font-size: 13px;">=20
+       <div>
+         &nbsp;=20
+       </div>=20
+       <div style=3D"color: #939598;font-family:Arial,Helvetica,sans-serif;=
+">
+         OUR TAKE ON BREAKING NEWS=20
+       </div></td>=20
+     </tr>=20
+    </tbody>=20
+   </table>=20
+  </div>=20
+  <div style=3D"font-weight: bold;font-size: 17px;line-height: 24px;color: =
+#004c97;margin-left: 27px;margin-right: 17px;margin-top: 14px;margin-bottom=
+: 9px;">
+    Pennon Group (PNN.L)=20
+  </div>=20
+  <div style=3D"font-weight: bold;font-size: 20px;line-height: 24px;color: =
+#000;margin-left: 27px;margin-right: 27px;margin-top: 15px;margin-bottom: 9=
+px;">
+    Looking to a takeover of Southern Water (Sunday Times) which has =C2=A3=
+5.2bn RAB.=20
+  </div>=20
+  <div style=3D"font-weight: bold;font-size: 17px;line-height: 25px;color: =
+#004c97;margin-left: 27px;margin-right: 27px;margin-top: 9px;margin-bottom:=
+ 9px;">
+    Our Take:=20
+   <span style=3D"font-size: 17px;line-height: 25px;color: #000;">PNN has c=
+=C2=A32.4bn excess capital for acquisitions, and has indicated interest in =
+other water companies. PNN could afford up to 15% RAB premium, while keepin=
+g ND:RAB for combined entity below 65%.</span>=20
+  </div>=20
+  <div style=3D"font-size: 13px;line-height: 22px;color: #939598;margin-lef=
+t: 27px;margin-right: 27px;margin-top: 9px;">
+    Date of Production: 15-Nov-2020 06:53:04 PM UTC Date of Dissemination: =
+15-Nov-2020 06:53:31 PM UTC=20
+  </div>=20
+  <hr style=3D"color: #D1D3D4;margin-left: 27px;margin-right: 27px;margin-t=
+op: 33px;margin-bottom: 33px;border-top: solid 1px">=20
+  <div style=3D"margin-bottom: 33px;">=20
+   <table style=3D"margin-left: 25px;width: 97%;">=20
+    <tbody>=20
+     <tr>=20
+      <td colspan=3D"2">=20
+       <div style=3D"color:#000000;font-size: 15px;font-family:Arial,Helvet=
+ica,sans-serif;">
+         Mark Freshney=20
+       </div>=20
+       <div style=3D"color:#939598;margin-top: 4px;font-family:Arial,Helvet=
+ica,sans-serif;">
+         44 20 7888 0887=20
+       </div> </td>=20
+     </tr>=20
+     <tr>=20
+      <td>=20
+       <div style=3D"color: #004c97;display: inline-block;font-family:Arial=
+,Helvetica,sans-serif;">=20
+        <a style=3D"text-decoration: none;" href=3D"mailto:mark.freshney@cr=
+edit-suisse.com">mark.freshney@credit-suisse.com</a>=20
+       </div> </td>=20
+      <td align=3D"right"> <span style=3D"color:#004c97;font-weight: bold;f=
+ont-size: 15px;font-family:Arial,Helvetica,sans-serif;"><a style=3D"text-de=
+coration: none;" href=3D"https://protect-eu.mimecast.com/s/Am-vCAnL7fAwPgcG=
+XQAx">View the latest updates</a></span> </td>=20
+     </tr>=20
+    </tbody>=20
+   </table>=20
+  </div>=20
+  <table border=3D"0" cellpadding=3D"12" style=3D"background-color: #F9F9F9=
+;">=20
+   <tbody>=20
+    <tr>=20
+     <td>=20
+      <div border=3D"0" style=3D"margin-left: 15px;margin-right: 12px;table=
+-layout: fixed;" cellpadding=3D"12">=20
+       <div style=3D"font-size: 13px;line-height: 22px;color: #004c97;margi=
+n-top: 10px;font-family:Arial,Helvetica,sans-serif;">=20
+        <a style=3D"text-decoration: none;" href=3D"https://protect-eu.mime=
+cast.com/s/4DmJCBgM7C5wk1c6KFzF">View disclosure</a>=20
+       </div>=20
+       <div style=3D"font-size: 13px;line-height: 22px;color: #939598;margi=
+n-top: 27px;font-family:Arial,Helvetica,sans-serif;">
+         Credit Suisse does and seeks to do business with companies covered=
+ in its research reports. As a result, investors should be aware that the F=
+irm may have a conflict of interest that could affect the objectivitely of =
+this report. Investors should consider this report as only a single factor =
+in making their investment decision. For Credit Suisse disclosure informati=
+on, please visit the website or call +1(877) 291-2683.=20
+       </div>=20
+       <div style=3D"font-size: 13px;line-height: 22px;color: #004c97;margi=
+n-top: 27px; margin-bottom: 10px; font-family:Arial,Helvetica,sans-serif;">=
+=20
+        <a style=3D"text-decoration: none;" href=3D"https://protect-eu.mime=
+cast.com/s/8wn8CDRO7tlEW1hALZHW"> Additional important disclaimers - Global=
+ research disclaimer</a>=20
+       </div>=20
+      </div> </td>=20
+    </tr>=20
+   </tbody>=20
+  </table>=20
+  <div style=3D"font-size: 13px;line-height: 22px;color: #939598;margin-bot=
+tom-top: 18px;margin-top: 18px;text-align: center;">
+    You have received this update because you are subscribed to Subscribed =
+Industries updates.=20
+   <span style=3D"color: #004c97;"> <a style=3D"text-decoration: none;" hre=
+f=3D"mailto:unsubscribe.cts@credit-suisse.com?subject=3DUnSubscribe from: L=
+ooking to a takeover of Southern Water (Sunday Times) which has &#163;5.2bn=
+ RAB.&body=3DCredit Suisse%0A%0APlease note:%0AThis is an automated mailbox=
+ that will only process unsubscribe requests. If you have any queries or ne=
+ed help, please email client.support@credit-suisse.com.%0A%0APlease remove =
+my interest in this distribution.%0A%0A%0A%0A%0A%0ARequest Ref#: 9adyK1qr3P=
+SbkTilmzG2rda%2bHJZB2N5o9eOSiaj9jaabc0A7M9T9mX8aoCDIyPDa">Click here to uns=
+ubscribe</a> </span>=20
+  </div>=20
+  <div style=3D"display: none; max-height: 0px; color: #fff;font-size: 0px;=
+ overflow: hidden; mso-hide: all;">=20
+   <span style=3D"display: none; max-height: 0px;color: #fff; font-size: 0p=
+x; overflow: hidden; mso-hide: all;"><div>Click to email authors:<a href=3D=
+"mailto:mark.freshney@credit-suisse.com?subject=3DLooking to a takeover of =
+Southern Water (Sunday Times) which has =C2=A35.2bn RAB.">Freshney, Mark</a=
+> <span>44 20 7888 0887</span></span>=20
+   <span style=3D"display: none; max-height: 0px;color: #fff ;font-size: 0p=
+x; overflow: hidden; mso-hide: all;"><div><a class=3D"rdmDocumentLinkBold" =
+href=3D"https://protect-eu.mimecast.com/s/_eQZCElg7S5vzmcPy7TQ">Click here =
+to view document</a><br></span>=20
+  </div> =20
+  <BR/><!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"><html=
+><p class=3DMsoNormal><span lang=3DEN-US style=3D'font-size:8.0pt;font-fami=
+ly:Courier'>=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
+=3D=3D=3D=3D=3D=3D=3D<br>Please access the attached hyperlink for an import=
+ant electronic communications disclaimer:<br><a href=3D"https://protect-eu.=
+mimecast.com/s/__b5CGZk7f5DPmck-sci">http://www.credit-suisse.com/legal/en/=
+disclaimer_email_ib.html</a><br>=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D<o:p></o:p></span></p></html></bo=
+dy>
+</html>
+
+
+--_076560ea-75f9-4d10-b765-e5841244b1ab_--

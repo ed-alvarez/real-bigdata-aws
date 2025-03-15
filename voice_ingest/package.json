@@ -1,0 +1,16 @@
+{
+  "name": "voice_ingest",
+  "version": "1.0.0",
+  "scripts": {
+    "postinstall": "pip3 install -r /ingest/voice_ingest/requirements.txt",
+    "test": "PYTHONPATH=. pytest"
+  },
+  "dependencies": {
+    "bluebird": "latest",
+    "serverless": "^2.44.0"
+  },
+  "devDependencies": {
+    "serverless-python-requirements": "^5.1.1",
+    "serverless-stage-manager": "^1.0.5"
+  }
+}

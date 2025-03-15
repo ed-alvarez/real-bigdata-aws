@@ -1,0 +1,17 @@
+[
+    {
+        "user": "UPFUKHWS3",
+        "type": "message",
+        "subtype": "group_join",
+        "ts": "1571219875.000200",
+        "text": "<@UPFUKHWS3> has joined the group"
+    },
+    {
+        "user": "UPFUKHWS3",
+        "type": "message",
+        "subtype": "group_purpose",
+        "ts": "1571219876.000300",
+        "text": "<@UPFUKHWS3> set the channel’s purpose: Discussion group between Melqart and IP Sentinel",
+        "purpose": "Discussion group between Melqart and IP Sentinel"
+    }
+]

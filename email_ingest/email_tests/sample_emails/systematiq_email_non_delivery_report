@@ -1,0 +1,354 @@
+Return-Path: <>
+Received: from LHPNRUKEX01.ad.lhpnr.com ([84.45.50.48])
+ by inbound-smtp.eu-west-1.amazonaws.com with SMTP id u45okar983b7cc8l8j0jgl7b4n28rjrl7fu6okg1
+ for systematicqs@ip-sentinel.net;
+ Sun, 15 Nov 2020 19:46:00 +0000 (UTC)
+Received-SPF: none (spfCheck: 84.45.50.48 is neither permitted nor denied by domain of 84.45.50.48) client-ip=84.45.50.48; envelope-from=postmaster@84.45.50.48; helo=84.45.50.48;
+Authentication-Results: amazonses.com;
+ spf=none (spfCheck: 84.45.50.48 is neither permitted nor denied by domain of 84.45.50.48) client-ip=84.45.50.48; envelope-from=postmaster@84.45.50.48; helo=84.45.50.48;
+ dmarc=permerror;
+X-SES-RECEIPT: AEFBQUFBQUFBQUFIUldFOVRGamhLbURVRW9VODhpWDQra05UMTdETHhaMVR3Nnh4SU1EdDV1SkMzaGR0SDVBUm1KRnkwVU5tc1BydFBLNWhWSmgrMTdkWEszQkVLMCtOOWxyL1czbkp2S1QrajhTWHVNWnB1Ymk4SWVHSnh4TWFmWUNJc3BPSC9ZSlR2aGVCdUVpT1o5cG4xK2J0WEx0Ym1OY3VwLzI0RlZlSVFYblNFbVlxN001TDZDdGhKV3pNRVZWR3gxOGJpWTRrN3ZiREozWTZ5WDZTTjJSUFFOWFZ1R3N1OU92TWxIZVN0SVdWS3d6bjNqNjhXZE9NeVEvRTJ5REU1d1BIdkR3SHBvUjdxOTVMVkxlZDY0TEZ3aFh6bnN1OEV2ZzhKbjI4VTJXR2djRERsU3c9PQ==
+X-SES-DKIM-SIGNATURE: a=rsa-sha256; q=dns/txt; b=tjyJ6QUwhs1IYkIGH8sUl642Fv8Km+YD3SLys++V36ocsmQTYKoIKzJBvEpRqthMz16y8j/eDHXRvTnDlqm0QH0O8ngFbPwg5TMsAA7xSfacy8u8LgsQMqmYQPLNJ1Il+F+oZNRZpATSC7q44gpToERQ8jRjf9rD0dVYheX0R84=; c=relaxed/simple; s=shh3fegwg5fppqsuzphvschd53n6ihuv; d=amazonses.com; t=1605469560; v=1; bh=ym5P6AUxF0nB4BVMSxR/vcNTXtip8rOshki5NwggD/8=; h=From:To:Cc:Bcc:Subject:Date:Message-ID:MIME-Version:Content-Type:X-SES-RECEIPT;
+Content-Type: multipart/mixed;
+	boundary="_ea7db088-2afd-4b94-9a0a-7492e5a500c6_"
+Subject: Undeliverable: Summary:  Xpressfeed Loader - Info Notification
+To: <V5XFLoaderDoNotReply@spglobal.com>
+From: <postmaster@ad.lhpnr.com>
+MIME-Version: 1.0
+Sender: <MicrosoftExchange329e71ec88ae4615bbc36ab6ce41109e@ad.lhpnr.com>
+Message-ID: <13e5e881-30c4-4ac2-9c94-c4f03977b619@journal.report.generator>
+Date: Sun, 15 Nov 2020 19:45:59 +0000
+X-MS-Journal-Report:
+X-MS-Exchange-Parent-Message-Id: <185bb460-2dd7-457b-b30c-b6bce8e2bc1b@LHPNRUKEX01.ad.lhpnr.com>
+X-MS-Exchange-Message-Is-Ndr:
+Auto-Submitted: auto-generated
+X-MS-Exchange-Generated-Message-Source: Journal Agent
+
+--_ea7db088-2afd-4b94-9a0a-7492e5a500c6_
+Content-Type: text/plain; charset="us-ascii"
+Content-Transfer-Encoding: 7bit
+
+Sender: postmaster@ad.lhpnr.com
+Subject: Undeliverable: Summary:  Xpressfeed Loader - Info Notification
+Message-Id: <185bb460-2dd7-457b-b30c-b6bce8e2bc1b@LHPNRUKEX01.ad.lhpnr.com>
+Recipient: V5XFLoaderDoNotReply@spglobal.com
+
+--_ea7db088-2afd-4b94-9a0a-7492e5a500c6_
+Content-Type: message/rfc822
+
+MIME-Version: 1.0
+From: <postmaster@ad.lhpnr.com>
+To: <V5XFLoaderDoNotReply@spglobal.com>
+Date: Sun, 15 Nov 2020 19:45:59 +0000
+Content-Type: multipart/report; report-type=delivery-status;
+	boundary="_35fec25f-f6cc-4bbc-a475-bbce49517fd6_"
+X-MS-Exchange-Organization-OriginalArrivalTime: 15 Nov 2020 19:45:59.7510
+ (UTC)
+X-MS-Exchange-Organization-SCL: -1
+X-MS-Exchange-Organization-Journaled-To-Recipients: SQSGlobalRelay.Archiving@sqspartners.com+systematicqs@ip-sentinel.net
+X-MS-Exchange-Message-Is-Ndr:
+X-MS-Exchange-Organization-Dsn-Version: 12
+Content-Language: en-GB
+Message-ID: <185bb460-2dd7-457b-b30c-b6bce8e2bc1b@LHPNRUKEX01.ad.lhpnr.com>
+In-Reply-To: <630578508.21154.1605469557619.JavaMail.SQSUKAPP02$@SQSUKAPP02>
+References: <630578508.21154.1605469557619.JavaMail.SQSUKAPP02$@SQSUKAPP02>
+Subject: Undeliverable: Summary:  Xpressfeed Loader - Info Notification
+Auto-Submitted: auto-replied
+X-MS-Exchange-Organization-Transport-Properties: DeliveryPriority=Normal
+X-MS-Exchange-Organization-Prioritization: 1
+X-MS-Exchange-Organization-Spam-Filter-Enumerated-Risk: Normal
+X-MS-Exchange-Organization-AuthSource: LHPNRUKEX01.ad.lhpnr.com
+X-MS-Exchange-Organization-AuthAs: Internal
+X-MS-Exchange-Organization-AuthMechanism: 05
+X-MS-Exchange-Organization-Network-Message-Id: 058e30bc-f9a2-4acd-b5c2-08d8899f13c6
+X-MS-Exchange-Organization-HygienePolicy: Standard
+X-MS-Exchange-Organization-AVStamp-Enterprise: 1.0
+X-MS-Exchange-Organization-OriginalSize: 9632
+X-MS-Exchange-Organization-Recipient-Limit-Verified: True
+X-MS-Exchange-Forest-IndexAgent-0: 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
+ xjQtk2Msp+VpTAEk16C2IoOJ9RJjJQ0pYIiwgqdTKCp3gJdd0+7fAV
+ JxLvAengwwwGiZkngbsNwsR7cI6JQyKgyMf6uxr9jvVOozSITG/iQr
+ R9ZA8WauC0WN6Sg8DYBZWdNJoVaoMlaV+dUZFGd0Vi1SEsuyeKjM1t
+ i9nMbWUG9aWZYEBpiiJguygIuqDksUxhK2/iDNyQgXNFrPFGhFL5BH
+ 72Iua7COSiPkf0YZLBVqSWOfSQDZmV/6PFlLGG4NVxnRvw8r8EVjX8
+ rOmlc+UNGvVlLJWvxlWZ1OVchBLf/Lu6BYoDgXFew/yvpZ6q+SDGxR
+ BryimEFpQEWpUsG0yn6jGAA5xapOClGfWZSW8k7VHlJ8+y4ViVZUiy
+ p32RnbrNI8E/uw5vnuKs0IyyrNs8b8sOb57oc0l1CiqsXWtF8ryfkK
+ caNWfWeRYq7dl4uYrhUleSLmslUR+XtZFCSdLc1yXZKkemOKU3mqZB
+ qUqUpzBa1ITU10wYoUYRRwdTUFVaYm2H1J45USq6qVgioPVlZTHP6V
+ hJeVPVUgnMoRmK4u45cgPwL86oLLkOQCPLY+XvAfXeRLbK2MU9Mmwq
+ lcRisUGFOsjrFkiaLqoOxUSS4r+UoNspJyi2yNMGi6wrmMWWqgditT
+ TMj01E11mU7bswjGzkuWQ3uCP79kX+UJLeHHdHHR/Affd740XRsAAA
+ EK2wM8P3htbCB2ZXJzaW9uPSIxLjAiIGVuY29kaW5nPSJ1dGYtMTYi
+ Pz4NCjxFbWFpbFNldD4NCiAgPFZlcnNpb24+MTUuMC4wLjA8L1Zlcn
+ Npb24+DQogIDxFbWFpbHM+DQogICAgPEVtYWlsIFN0YXJ0SW5kZXg9
+ IjU0Ij4NCiAgICAgIDxFbWFpbFN0cmluZz51bC1tb25pdG9yQHNwZ2
+ xvYmFsLmNvbTwvRW1haWxTdHJpbmc+DQogICAgPC9FbWFpbD4NCiAg
+ ICA8RW1haWwgU3RhcnRJbmRleD0iMTA3NCIgUG9zaXRpb249Ik90aG
+ VyIj4NCiAgICAgIDxFbWFpbFN0cmluZz5WNVhGTG9hZGVyRG9Ob3RS
+ ZXBseUBzcGdsb2JhbC5jb208L0VtYWlsU3RyaW5nPg0KICAgIDwvRW
+ 1haWw+DQogICAgPEVtYWlsIFN0YXJ0SW5kZXg9IjExMTUiIFBvc2l0
+ aW9uPSJPdGhlciI+DQogICAgICA8RW1haWxTdHJpbmc+c3FzLXN1cH
+ BvcnRAc3FzcGFydG5lcnMuY29tPC9FbWFpbFN0cmluZz4NCiAgICA8
+ L0VtYWlsPg0KICA8L0VtYWlscz4NCjwvRW1haWxTZXQ+AQutBDw/eG
+ 1sIHZlcnNpb249IjEuMCIgZW5jb2Rpbmc9InV0Zi0xNiI/Pg0KPFVy
+ bFNldD4NCiAgPFZlcnNpb24+MTUuMC4wLjA8L1ZlcnNpb24+DQogID
+ xVcmxzPg0KICAgIDxVcmwgU3RhcnRJbmRleD0iMjkwIiBUeXBlPSJV
+ cmwiPg0KICAgICAgPFVybFN0cmluZz5ldS1zbXRwLTEubWltZWNhc3
+ QuY29tPC9VcmxTdHJpbmc+DQogICAgPC9Vcmw+DQogICAgPFVybCBT
+ dGFydEluZGV4PSIzNzgiIFR5cGU9IlVybCI+DQogICAgICA8VXJsU3
+ RyaW5nPkxIUE5SVUtFWDAxLmFkLmxocG5yLmNvbTwvVXJsU3RyaW5n
+ Pg0KICAgIDwvVXJsPg0KICAgIDxVcmwgU3RhcnRJbmRleD0iNTI5Ii
+ BUeXBlPSJVcmwiPg0KICAgICAgPFVybFN0cmluZz5odHRwczovL2Nv
+ bW11bml0eS5taW1lY2FzdC5jb20vZG9jcy9ET0MtMTM2OSM1NTA8L1
+ VybFN0cmluZz4NCiAgICA8L1VybD4NCiAgICA8VXJsIFN0YXJ0SW5k
+ ZXg9IjgzNCIgVHlwZT0iVXJsIj4NCiAgICAgIDxVcmxTdHJpbmc+U1
+ FTVUtBUFAwMi5hZC5saHBuci5jb208L1VybFN0cmluZz4NCiAgICA8
+ L1VybD4NCiAgPC9VcmxzPg0KPC9VcmxTZXQ+AQ0CZW4BDtIBUmV0cm
+ lldmVyT3BlcmF0b3IsMTAsMjU7UmV0cmlldmVyT3BlcmF0b3IsMTEs
+ Njc7UG9zdERvY1BhcnNlck9wZXJhdG9yLDEwLDIxO1Bvc3REb2NQYX
+ JzZXJPcGVyYXRvciwxMSwwO1Bvc3RXb3JkQnJlYWtlckRpYWdub3N0
+ aWNPcGVyYXRvciwxMCwxO1Bvc3RXb3JkQnJlYWtlckRpYWdub3N0aW
+ NPcGVyYXRvciwxMSwwO1RyYW5zcG9ydFdyaXRlclByb2R1Y2VyLDIw LDEz
+X-MS-Exchange-Forest-IndexAgent: 1 3567
+X-MS-Exchange-Forest-EmailMessageHash: 2A91EEF9,30194EDE,1642DB91
+X-MS-Exchange-Forest-Language: en
+
+--_35fec25f-f6cc-4bbc-a475-bbce49517fd6_
+Content-Type: multipart/alternative; differences=Content-Type;
+	boundary="_f1b67a12-7531-4bb2-8d3f-cbbb2af52534_"
+
+--_f1b67a12-7531-4bb2-8d3f-cbbb2af52534_
+Content-Type: text/plain; charset="us-ascii"
+Content-Transfer-Encoding: quoted-printable
+
+Delivery has failed to these recipients or groups:
+
+ul-monitor@spglobal.com<mailto:ul-monitor@spglobal.com>
+A problem occurred while delivering this message to this email address. Try=
+ sending this message again. If the problem continues, please contact your =
+helpdesk.
+
+
+The following organization rejected your message: eu-smtp-1.mimecast.com.
+
+
+
+
+
+
+
+Diagnostic information for administrators:
+
+Generating server: LHPNRUKEX01.ad.lhpnr.com
+
+ul-monitor@spglobal.com
+eu-smtp-1.mimecast.com
+Remote Server returned '550 Administrative prohibition - envelope blocked -=
+ https://community.mimecast.com/docs/DOC-1369#550 [O9OqGIKAMRWSPvI2MCgJgA.u=
+k35]'
+
+Original message headers:
+
+Received: from LHPNRUKEX01.ad.lhpnr.com (10.20.182.50) by
+ LHPNRUKEX01.ad.lhpnr.com (10.20.182.50) with Microsoft SMTP Server (TLS) i=
+d
+ 15.0.1178.4; Sun, 15 Nov 2020 19:45:57 +0000
+Received: from SQSUKAPP02.ad.lhpnr.com (10.20.182.37) by RelayReciver
+ (10.20.182.50) with Microsoft SMTP Server id 15.0.1178.4 via Frontend
+ Transport; Sun, 15 Nov 2020 19:45:57 +0000
+Date: Sun, 15 Nov 2020 19:45:57 +0000
+From: xpressfeed_loader_span <V5XFLoaderDoNotReply@spglobal.com>
+To: <sqs-support@sqspartners.com>, <ul-monitor@spglobal.com>
+Message-ID: <630578508.21154.1605469557619.JavaMail.SQSUKAPP02$@SQSUKAPP02>
+Subject: Summary:  Xpressfeed Loader - Info Notification
+MIME-Version: 1.0
+Content-Type: text/plain; charset=3D"us-ascii"
+Content-Transfer-Encoding: 7bit
+X-Mailer: smtpsend
+Return-Path: V5XFLoaderDoNotReply@spglobal.com
+
+
+--_f1b67a12-7531-4bb2-8d3f-cbbb2af52534_
+Content-Type: text/html; charset="us-ascii"
+Content-Transfer-Encoding: quoted-printable
+
+<html>
+<Head></head><body>
+<p><b><font color=3D"#000066" size=3D"3" face=3D"Arial">Delivery has failed=
+ to these recipients or groups:</font></b></p>
+<font color=3D"#000000" size=3D"2" face=3D"Tahoma"><p><a href=3D"mailto:ul-=
+monitor@spglobal.com">ul-monitor@spglobal.com</a><br>
+</font>
+<font color=3D"#000000" size=3D"3" face=3D"Arial">A problem occurred while =
+delivering this message to this email address. Try sending this message aga=
+in. If the problem continues, please contact your helpdesk.<br>
+</font>
+<font color=3D"#000000" size=3D"2" face=3D"Tahoma"><br>
+</p>
+<p>The following organization rejected your message: eu-smtp-1.mimecast.com=
+.</p>
+</font>
+<br><br><br><br><br><br>
+<font color=3D"#808080" size=3D"2" face=3D"Tahoma"><p><b>Diagnostic informa=
+tion for administrators:</b></p>
+<p>Generating server: LHPNRUKEX01.ad.lhpnr.com<br>
+</p>
+<p>ul-monitor@spglobal.com<br>
+eu-smtp-1.mimecast.com<br>
+Remote Server  returned '550 Administrative prohibition - envelope blocked =
+- https://community.mimecast.com/docs/DOC-1369#550 [O9OqGIKAMRWSPvI2MCgJgA.=
+uk35]'<br>
+</p>
+<p>Original message headers:</p>
+<pre>Received: from LHPNRUKEX01.ad.lhpnr.com (10.20.182.50) by
+ LHPNRUKEX01.ad.lhpnr.com (10.20.182.50) with Microsoft SMTP Server (TLS) i=
+d
+ 15.0.1178.4; Sun, 15 Nov 2020 19:45:57 +0000
+Received: from SQSUKAPP02.ad.lhpnr.com (10.20.182.37) by RelayReciver
+ (10.20.182.50) with Microsoft SMTP Server id 15.0.1178.4 via Frontend
+ Transport; Sun, 15 Nov 2020 19:45:57 +0000
+Date: Sun, 15 Nov 2020 19:45:57 +0000
+From: xpressfeed_loader_span &lt;V5XFLoaderDoNotReply@spglobal.com&gt;
+To: &lt;sqs-support@sqspartners.com&gt;, &lt;ul-monitor@spglobal.com&gt;
+Message-ID: &lt;630578508.21154.1605469557619.JavaMail.SQSUKAPP02$@SQSUKAPP=
+02&gt;
+Subject: Summary:  Xpressfeed Loader - Info Notification
+MIME-Version: 1.0
+Content-Type: text/plain; charset=3D&quot;us-ascii&quot;
+Content-Transfer-Encoding: 7bit
+X-Mailer: smtpsend
+Return-Path: V5XFLoaderDoNotReply@spglobal.com
+</pre>
+</font>
+</body>
+</html>=
+
+--_f1b67a12-7531-4bb2-8d3f-cbbb2af52534_--
+
+--_35fec25f-f6cc-4bbc-a475-bbce49517fd6_
+Content-Type: message/delivery-status
+
+Reporting-MTA: dns;LHPNRUKEX01.ad.lhpnr.com
+Received-From-MTA: dns;SQSUKAPP02.ad.lhpnr.com
+Arrival-Date: Sun, 15 Nov 2020 19:45:57 +0000
+
+Final-Recipient: rfc822;ul-monitor@spglobal.com
+Action: failed
+Status: 5.0.0
+Diagnostic-Code: smtp;550 Administrative prohibition - envelope blocked - https://community.mimecast.com/docs/DOC-1369#550 [O9OqGIKAMRWSPvI2MCgJgA.uk35]
+Remote-MTA: dns;eu-smtp-1.mimecast.com
+
+
+--_35fec25f-f6cc-4bbc-a475-bbce49517fd6_
+Content-Type: message/rfc822
+
+Received: from LHPNRUKEX01.ad.lhpnr.com (10.20.182.50) by
+ LHPNRUKEX01.ad.lhpnr.com (10.20.182.50) with Microsoft SMTP Server (TLS) id
+ 15.0.1178.4; Sun, 15 Nov 2020 19:45:57 +0000
+Received: from SQSUKAPP02.ad.lhpnr.com (10.20.182.37) by RelayReciver
+ (10.20.182.50) with Microsoft SMTP Server id 15.0.1178.4 via Frontend
+ Transport; Sun, 15 Nov 2020 19:45:57 +0000
+Date: Sun, 15 Nov 2020 19:45:57 +0000
+From: xpressfeed_loader_span <V5XFLoaderDoNotReply@spglobal.com>
+To: <sqs-support@sqspartners.com>, <ul-monitor@spglobal.com>
+Message-ID: <630578508.21154.1605469557619.JavaMail.SQSUKAPP02$@SQSUKAPP02>
+Subject: Summary:  Xpressfeed Loader - Info Notification
+MIME-Version: 1.0
+Content-Type: text/plain; charset="us-ascii"
+Content-Transfer-Encoding: 7bit
+X-Mailer: smtpsend
+Return-Path: V5XFLoaderDoNotReply@spglobal.com
+
+Xpressfeed Loader finished processing a Package Load job for 4 Load Subscriptions.
+   Job created at:  2020-11-15 19:45:00.88 (UTC),  2020-11-15 14:45:00.88 (EST),  Engine time:  19:45:00.898 (GMT)
+   Job started at:  2020-11-15 19:45:18.613 (UTC),  2020-11-15 14:45:18.613 (EST),  Engine time:  19:45:18.631 (GMT)
+   Job completed at:  2020-11-15 19:45:57.5 (UTC),  2020-11-15 14:45:57.5 (EST),  Engine time:  19:45:57.518 (GMT)
+
+Subscriptions that loaded successfully:     4
+Subscriptions that loaded with warnings:    0
+Subscriptions that failed to load:          0
+
+Loaded:
+   Package:  'CIQ Estimate Consensus Span' ,  Population:  'GLB'.
+   Target Name:  'xpressfeed_span',  Database Name:  'xpressfeed_span',  Database Account:  'sqsdb',  Database Version:  'Microsoft SQL Server 2016 (SP1-CU4) (KB4024305) - 13.0.4446.0 (X64)'.
+   Source Name:  'NewSource1' ,  Source Account:  'SQSP6662' ,  Source Type:  'Secure FTP (SSL)' ,  Source Host:  'edx.spglobal.com'
+Load Status: 'Completed',   Load Result: 'Success'.
+
+Loaded:
+   Package:  'CIQ Estimate Coverage Span' ,  Population:  'GLB'.
+   Target Name:  'xpressfeed_span',  Database Name:  'xpressfeed_span',  Database Account:  'sqsdb',  Database Version:  'Microsoft SQL Server 2016 (SP1-CU4) (KB4024305) - 13.0.4446.0 (X64)'.
+   Source Name:  'NewSource1' ,  Source Account:  'SQSP6662' ,  Source Type:  'Secure FTP (SSL)' ,  Source Host:  'edx.spglobal.com'
+Load Status: 'Nothing To Do'.
+
+Loaded:
+   Package:  'CIQ Estimate Core Span' ,  Population:  'GLB'.
+   Target Name:  'xpressfeed_span',  Database Name:  'xpressfeed_span',  Database Account:  'sqsdb',  Database Version:  'Microsoft SQL Server 2016 (SP1-CU4) (KB4024305) - 13.0.4446.0 (X64)'.
+   Source Name:  'NewSource1' ,  Source Account:  'SQSP6662' ,  Source Type:  'Secure FTP (SSL)' ,  Source Host:  'edx.spglobal.com'
+Load Status: 'Nothing To Do'.
+
+Loaded:
+   Package:  'CIQ Estimate Guidance Span' ,  Population:  'GLB'.
+   Target Name:  'xpressfeed_span',  Database Name:  'xpressfeed_span',  Database Account:  'sqsdb',  Database Version:  'Microsoft SQL Server 2016 (SP1-CU4) (KB4024305) - 13.0.4446.0 (X64)'.
+   Source Name:  'NewSource1' ,  Source Account:  'SQSP6662' ,  Source Type:  'Secure FTP (SSL)' ,  Source Host:  'edx.spglobal.com'
+Load Status: 'Nothing To Do'.
+
+Schedule:  'Estimates',  TimeId:  272
+
+Job Id:  '165518'
+Step Id:  '51'
+
+Please view the Activity Log tab in the GUI for additional details.
+
+Engine Version:  5.10.1.29.
+Engine Operating System:  Windows Server 2012 R2.
+Engine Type:  Stand Alone.
+Feed Configuration Version:  FeedConfigV2Full20201026000000.
+Proxy Type:  None.
+
+--_35fec25f-f6cc-4bbc-a475-bbce49517fd6_--
+
+--_ea7db088-2afd-4b94-9a0a-7492e5a500c6_--

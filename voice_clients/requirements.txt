@@ -1,0 +1,8 @@
+aws_lambda_logging
+pytest==7.1.2
+boto3
+botocore
+moto[ssm]
+moto[s3]
+moto[dynamodb2]
+freezegun

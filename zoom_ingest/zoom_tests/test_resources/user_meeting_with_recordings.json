@@ -1,0 +1,172 @@
+{
+    "from": "2022-08-01",
+    "to": "2022-08-02",
+    "page_count": 1,
+    "page_size": 30,
+    "total_records": 3,
+    "next_page_token": "",
+    "meetings": [
+        {
+            "uuid": "zYL94/93TKWHOC5FYIzuCg==",
+            "id": 88452101300,
+            "account_id": "aNg6vhlFR3qQKhquq1NO7Q",
+            "host_id": "XD5VZiZVTMCrBnaw7Dw0iw",
+            "topic": "Zoom Meeting: Rob Margolis of Quarry LP/Graham Robinson of Melqart Asset Management ",
+            "type": 2,
+            "start_time": "2022-08-02T13:54:17Z",
+            "timezone": "Europe/London",
+            "duration": 73,
+            "total_size": 70614576,
+            "recording_count": 3,
+            "share_url": "https://melqart.zoom.us/rec/share/ilafkUOnfRGhpW-pmXY_rW2NENHDtrbqASsQ1L31z4ai9jRnxdtLl6FxwNJ9vJve.s6r8iPf_heN61W-t",
+            "recording_files": [
+                {
+                    "id": "09ed1a9e-0227-4935-9f32-02d310a94e3a",
+                    "meeting_id": "zYL94/93TKWHOC5FYIzuCg==",
+                    "recording_start": "2022-08-02T13:54:18Z",
+                    "recording_end": "2022-08-02T15:07:36Z",
+                    "file_type": "M4A",
+                    "file_extension": "M4A",
+                    "file_size": 69996649,
+                    "play_url": "https://melqart.zoom.us/rec/play/e9NzpfvyoiaMO29NzNFt0AZdyhv3xVTVwmjjuCwzEdX5yX5gjp26OtiqlLn0tcKdUnOvtisUnpD1_9jI.I1WsxLNsr30YacXA",
+                    "download_url": "https://melqart.zoom.us/rec/download/e9NzpfvyoiaMO29NzNFt0AZdyhv3xVTVwmjjuCwzEdX5yX5gjp26OtiqlLn0tcKdUnOvtisUnpD1_9jI.I1WsxLNsr30YacXA",
+                    "status": "completed",
+                    "recording_type": "audio_only"
+                },
+                {
+                    "id": "34561117-9a04-447a-aa4b-30d99961bc1a",
+                    "meeting_id": "zYL94/93TKWHOC5FYIzuCg==",
+                    "recording_start": "2022-08-02T13:54:18Z",
+                    "recording_end": "2022-08-02T15:07:36Z",
+                    "file_type": "TIMELINE",
+                    "file_extension": "JSON",
+                    "file_size": 581729,
+                    "download_url": "https://melqart.zoom.us/rec/download/sEkv4ghNXvh8A0u13VBOAmTt7H7n2tr4LCxcOkrCuw2R_6I4Hx7_-o0TJ0SzwdAPfGoVAzpLqhKuqWhe.62Q8Lc_veyGu8Drv",
+                    "status": "completed",
+                    "recording_type": "timeline"
+                },
+                {
+                    "id": "7b8cd1ac-5ebe-4708-a300-0d978aa0e714",
+                    "meeting_id": "zYL94/93TKWHOC5FYIzuCg==",
+                    "recording_start": "2022-08-02T13:54:18Z",
+                    "recording_end": "2022-08-02T15:07:36Z",
+                    "file_type": "TRANSCRIPT",
+                    "file_extension": "VTT",
+                    "file_size": 36198,
+                    "play_url": "https://melqart.zoom.us/rec/play/Wz2eXlKOEPS927USzH-ElB3SZ_jmoXenHDKYv1OBo-SLBa5ldEKIH0H8o9Rw7SJXRA-yS4NpmvBWV3kr.Pc5ZqSct4toO_LJD",
+                    "download_url": "https://melqart.zoom.us/rec/download/Wz2eXlKOEPS927USzH-ElB3SZ_jmoXenHDKYv1OBo-SLBa5ldEKIH0H8o9Rw7SJXRA-yS4NpmvBWV3kr.Pc5ZqSct4toO_LJD",
+                    "status": "completed",
+                    "recording_type": "audio_transcript"
+                }
+            ]
+        },
+        {
+            "uuid": "hu3Sg2TpTdePqNLyefdUYw==",
+            "id": 82161283413,
+            "account_id": "aNg6vhlFR3qQKhquq1NO7Q",
+            "host_id": "XD5VZiZVTMCrBnaw7Dw0iw",
+            "topic": "Hold for Call with Connor Brown of MAN FRM on ESG",
+            "type": 2,
+            "start_time": "2022-08-02T12:00:05Z",
+            "timezone": "Europe/London",
+            "duration": 45,
+            "total_size": 43905642,
+            "recording_count": 3,
+            "share_url": "https://melqart.zoom.us/rec/share/B2q2kb3ki4NaV5g88P6yknYfqBdPDs-68jce3wz-Hs4qoSPnJMU30ssmm6uD6TY_.Dpi0Mcd1ojyBl60h",
+            "recording_files": [
+                {
+                    "id": "112f48aa-7eca-4009-b559-0c99e0c8fd3e",
+                    "meeting_id": "hu3Sg2TpTdePqNLyefdUYw==",
+                    "recording_start": "2022-08-02T12:00:06Z",
+                    "recording_end": "2022-08-02T12:45:21Z",
+                    "file_type": "TRANSCRIPT",
+                    "file_extension": "VTT",
+                    "file_size": 45961,
+                    "play_url": "https://melqart.zoom.us/rec/play/TjGF0PH350hppY_3aeWs_jzgw3JgbWPScDXACGI7GhvhcBxn8hyOAhRI0cUEPJ4sRsDaeiz0AlE4F9HU.gPbSYoMvUPKppv-S",
+                    "download_url": "https://melqart.zoom.us/rec/download/TjGF0PH350hppY_3aeWs_jzgw3JgbWPScDXACGI7GhvhcBxn8hyOAhRI0cUEPJ4sRsDaeiz0AlE4F9HU.gPbSYoMvUPKppv-S",
+                    "status": "completed",
+                    "recording_type": "audio_transcript"
+                },
+                {
+                    "id": "72609233-4cae-44d9-b9b8-06517fa44484",
+                    "meeting_id": "hu3Sg2TpTdePqNLyefdUYw==",
+                    "recording_start": "2022-08-02T12:00:06Z",
+                    "recording_end": "2022-08-02T12:45:21Z",
+                    "file_type": "M4A",
+                    "file_extension": "M4A",
+                    "file_size": 43209079,
+                    "play_url": "https://melqart.zoom.us/rec/play/1v7MTxMGd05E4Hmye-uVotWEFui_3q0jQIIyNElhEQGWT2nClIWBmddSD0hXaiXCyq991NQ-1w-RdlKh.2QBVZAp8WfloarPL",
+                    "download_url": "https://melqart.zoom.us/rec/download/1v7MTxMGd05E4Hmye-uVotWEFui_3q0jQIIyNElhEQGWT2nClIWBmddSD0hXaiXCyq991NQ-1w-RdlKh.2QBVZAp8WfloarPL",
+                    "status": "completed",
+                    "recording_type": "audio_only"
+                },
+                {
+                    "id": "05bf4071-7abe-4fcd-a62d-156fe77aadf6",
+                    "meeting_id": "hu3Sg2TpTdePqNLyefdUYw==",
+                    "recording_start": "2022-08-02T12:00:06Z",
+                    "recording_end": "2022-08-02T12:45:21Z",
+                    "file_type": "TIMELINE",
+                    "file_extension": "JSON",
+                    "file_size": 650602,
+                    "download_url": "https://melqart.zoom.us/rec/download/u5Sv0qxt2QlVI24l1AliEJ1aRb3pKrDku0oDpBNYUgc2qkjXfa7aLfQV8PmH88sZAkO24bKoZz2vxiov.4jKkBwJ1rIDpOAf0",
+                    "status": "completed",
+                    "recording_type": "timeline"
+                }
+            ]
+        },
+        {
+            "uuid": "YmqIuKiEQda61xnLxRmfgg==",
+            "id": 89574063529,
+            "account_id": "aNg6vhlFR3qQKhquq1NO7Q",
+            "host_id": "XD5VZiZVTMCrBnaw7Dw0iw",
+            "topic": "ESG Update Call: Alexandra/Graham/Michel",
+            "type": 2,
+            "start_time": "2022-08-02T07:59:24Z",
+            "timezone": "Europe/London",
+            "duration": 26,
+            "total_size": 25033277,
+            "recording_count": 3,
+            "share_url": "https://melqart.zoom.us/rec/share/GNz2iKQambpPzaXquUUEJQEIe6ESL2KwmFRCf9H21rikeVL1PvvBXcup7wT8Mjhf.kHiEW-qCa3nhJR7t",
+            "recording_files": [
+                {
+                    "id": "02cc4714-5bc0-4b30-94bd-ccac47c3d89a",
+                    "meeting_id": "YmqIuKiEQda61xnLxRmfgg==",
+                    "recording_start": "2022-08-02T07:59:24Z",
+                    "recording_end": "2022-08-02T08:25:28Z",
+                    "file_type": "TRANSCRIPT",
+                    "file_extension": "VTT",
+                    "file_size": 10118,
+                    "play_url": "https://melqart.zoom.us/rec/play/QshaK4d7qLbBEzYOzh5VatO8h_kQD5GKT0FwyQGNcjbAEA-Uv2N-s7oOZyeJOAcntWZcx15o5XvD2zR9.1m4rz1X0e7lcKY8g",
+                    "download_url": "https://melqart.zoom.us/rec/download/QshaK4d7qLbBEzYOzh5VatO8h_kQD5GKT0FwyQGNcjbAEA-Uv2N-s7oOZyeJOAcntWZcx15o5XvD2zR9.1m4rz1X0e7lcKY8g",
+                    "status": "completed",
+                    "recording_type": "audio_transcript"
+                },
+                {
+                    "id": "36932292-4312-49f6-930d-06c28599bccd",
+                    "meeting_id": "YmqIuKiEQda61xnLxRmfgg==",
+                    "recording_start": "2022-08-02T07:59:24Z",
+                    "recording_end": "2022-08-02T08:25:28Z",
+                    "file_type": "M4A",
+                    "file_extension": "M4A",
+                    "file_size": 24878624,
+                    "play_url": "https://melqart.zoom.us/rec/play/CTx5g5CiYskoWJxscz04Mv0sTXLDzdi6fI7__HqXxFd0N3MnVJ39AxwH861MeZja4B5uzwxuw0VaJbDC.tqSmVQUz8RX58AJ3",
+                    "download_url": "https://melqart.zoom.us/rec/download/CTx5g5CiYskoWJxscz04Mv0sTXLDzdi6fI7__HqXxFd0N3MnVJ39AxwH861MeZja4B5uzwxuw0VaJbDC.tqSmVQUz8RX58AJ3",
+                    "status": "completed",
+                    "recording_type": "audio_only"
+                },
+                {
+                    "id": "3c84bbcf-ab7c-4f8d-b4e5-8d53cc96e6ba",
+                    "meeting_id": "YmqIuKiEQda61xnLxRmfgg==",
+                    "recording_start": "2022-08-02T07:59:24Z",
+                    "recording_end": "2022-08-02T08:25:28Z",
+                    "file_type": "TIMELINE",
+                    "file_extension": "JSON",
+                    "file_size": 144535,
+                    "download_url": "https://melqart.zoom.us/rec/download/dVX8Su30131EI-U6Bg4X1tXOuICGeverP1q48fWvQBWD0Q5x072YT8xizc1Aja9xLTX3ab8Vo37qUsW_.SIIuehq-GuXLEKoh",
+                    "status": "completed",
+                    "recording_type": "timeline"
+                }
+            ]
+        }
+    ]
+}

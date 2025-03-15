@@ -1,0 +1,2894 @@
+<Conversation Perspective=" " RoomType="P">
+    <RoomID>PCHAT-0x10000027F01C9</RoomID>
+    <StartTime>03/12/2020 20:06:14</StartTime>
+    <StartTimeUTC>1584043574</StartTimeUTC>
+    <ParticipantEntered InteractionType="H" DeviceType="M">
+        <User>
+            <LoginName>BJNIXON</LoginName>
+            <FirstName>BEN</FirstName>
+            <LastName>NIXON</LastName>
+            <CompanyName>JEFFERIES INTERNATIO</CompanyName>
+            <EmailAddress>BJNIXON@Bloomberg.net</EmailAddress>
+            <CorporateEmailAddress></CorporateEmailAddress>
+        </User>
+        <DateTime>03/12/2020 20:06:14</DateTime>
+        <DateTimeUTC>1584043574</DateTimeUTC>
+        <ConversationID>PCHAT-0x10000027F01C9</ConversationID>
+    </ParticipantEntered>
+    <Message InteractionType="H" DeviceType="M">
+        <User>
+            <LoginName>BJNIXON</LoginName>
+            <FirstName>BEN</FirstName>
+            <LastName>NIXON</LastName>
+            <CompanyName>JEFFERIES INTERNATIO</CompanyName>
+            <EmailAddress>BJNIXON@Bloomberg.net</EmailAddress>
+            <CorporateEmailAddress></CorporateEmailAddress>
+        </User>
+        <DateTime>03/12/2020 20:06:14</DateTime>
+        <DateTimeUTC>1584043574</DateTimeUTC>
+        <Content>
+            *** JEFFERIES INTERNATIO (30436661) Disclaimer: Jefferies archives and monitors outgoing and incoming
+            messages. The contents of this message, including any attachments, are confidential to the ordinary user of
+            the address to which it was addressed. If you are not the addressee of this message you may not copy,
+            forward, disclose or otherwise use it or any part of it in any form whatsoever. This message may be produced
+            at the request of regulators or in connection with civil litigation. Jefferies accepts no liability for any
+            errors or omissions arising as a result of transmission. Use by other than intended recipients is
+            prohibited; if you received this transmission in error please contact the sender.
+        </Content>
+        <ConversationID>PCHAT-0x10000027F01C9</ConversationID>
+    </Message>
+    <History InteractionType="H">
+        <User>
+            <LoginName>BJNIXON</LoginName>
+            <FirstName>BEN</FirstName>
+            <LastName>NIXON</LastName>
+            <CompanyName>JEFFERIES INTERNATIO</CompanyName>
+            <EmailAddress>BJNIXON@Bloomberg.net</EmailAddress>
+            <CorporateEmailAddress></CorporateEmailAddress>
+        </User>
+        <DateTime>03/12/2020 20:06:14</DateTime>
+        <DateTimeUTC>1584043574</DateTimeUTC>
+        <StartTime>03/11/2020 20:06:14</StartTime>
+        <StartTimeUTC>1583957174</StartTimeUTC>
+        <EndTime>03/12/2020 20:06:14</EndTime>
+        <EndTimeUTC>1584043574</EndTimeUTC>
+        <ConversationID>PCHAT-0x10000027F01C9</ConversationID>
+    </History>
+    <ParticipantEntered InteractionType="H" DeviceType="M">
+        <User>
+            <LoginName>BJNIXON</LoginName>
+            <FirstName>BEN</FirstName>
+            <LastName>NIXON</LastName>
+            <CompanyName>JEFFERIES INTERNATIO</CompanyName>
+            <EmailAddress>BJNIXON@Bloomberg.net</EmailAddress>
+            <CorporateEmailAddress></CorporateEmailAddress>
+        </User>
+        <DateTime>03/12/2020 21:26:32</DateTime>
+        <DateTimeUTC>1584048392</DateTimeUTC>
+        <ConversationID>PCHAT-0x10000027F01C9</ConversationID>
+    </ParticipantEntered>
+    <Message InteractionType="H" DeviceType="M">
+        <User>
+            <LoginName>BJNIXON</LoginName>
+            <FirstName>BEN</FirstName>
+            <LastName>NIXON</LastName>
+            <CompanyName>JEFFERIES INTERNATIO</CompanyName>
+            <EmailAddress>BJNIXON@Bloomberg.net</EmailAddress>
+            <CorporateEmailAddress></CorporateEmailAddress>
+        </User>
+        <DateTime>03/12/2020 21:26:32</DateTime>
+        <DateTimeUTC>1584048392</DateTimeUTC>
+        <Content>
+            *** JEFFERIES INTERNATIO (30436661) Disclaimer: Jefferies archives and monitors outgoing and incoming
+            messages. The contents of this message, including any attachments, are confidential to the ordinary user of
+            the address to which it was addressed. If you are not the addressee of this message you may not copy,
+            forward, disclose or otherwise use it or any part of it in any form whatsoever. This message may be produced
+            at the request of regulators or in connection with civil litigation. Jefferies accepts no liability for any
+            errors or omissions arising as a result of transmission. Use by other than intended recipients is
+            prohibited; if you received this transmission in error please contact the sender.
+        </Content>
+        <ConversationID>PCHAT-0x10000027F01C9</ConversationID>
+    </Message>
+    <History InteractionType="H">
+        <User>
+            <LoginName>BJNIXON</LoginName>
+            <FirstName>BEN</FirstName>
+            <LastName>NIXON</LastName>
+            <CompanyName>JEFFERIES INTERNATIO</CompanyName>
+            <EmailAddress>BJNIXON@Bloomberg.net</EmailAddress>
+            <CorporateEmailAddress></CorporateEmailAddress>
+        </User>
+        <DateTime>03/12/2020 21:26:32</DateTime>
+        <DateTimeUTC>1584048392</DateTimeUTC>
+        <StartTime>03/11/2020 21:26:32</StartTime>
+        <StartTimeUTC>1583961992</StartTimeUTC>
+        <EndTime>03/12/2020 21:26:32</EndTime>
+        <EndTimeUTC>1584048392</EndTimeUTC>
+        <ConversationID>PCHAT-0x10000027F01C9</ConversationID>
+    </History>
+    <ParticipantEntered InteractionType="H" DeviceType="M">
+        <User>
+            <LoginName>SEANSYSTEM2</LoginName>
+            <FirstName>SEAN</FirstName>
+            <LastName>OLDFIELD</LastName>
+            <UUID>25813826</UUID>
+            <FirmNumber>848135</FirmNumber>
+            <AccountNumber>30413594</AccountNumber>
+            <CompanyName>MIRABELLA FINANCIAL</CompanyName>
+            <EmailAddress>SEANSYSTEM2@Bloomberg.net</EmailAddress>
+            <CorporateEmailAddress>sean@system2capital.com</CorporateEmailAddress>
+        </User>
+        <DateTime>03/12/2020 22:08:12</DateTime>
+        <DateTimeUTC>1584050892</DateTimeUTC>
+        <ConversationID>PCHAT-0x10000027F01C9</ConversationID>
+    </ParticipantEntered>
+    <History InteractionType="H">
+        <User>
+            <LoginName>SEANSYSTEM2</LoginName>
+            <FirstName>SEAN</FirstName>
+            <LastName>OLDFIELD</LastName>
+            <UUID>25813826</UUID>
+            <FirmNumber>848135</FirmNumber>
+            <AccountNumber>30413594</AccountNumber>
+            <CompanyName>MIRABELLA FINANCIAL</CompanyName>
+            <EmailAddress>SEANSYSTEM2@Bloomberg.net</EmailAddress>
+            <CorporateEmailAddress>sean@system2capital.com</CorporateEmailAddress>
+        </User>
+        <DateTime>03/12/2020 22:08:12</DateTime>
+        <DateTimeUTC>1584050892</DateTimeUTC>
+        <StartTime>03/11/2020 22:08:12</StartTime>
+        <StartTimeUTC>1583964492</StartTimeUTC>
+        <EndTime>03/12/2020 22:08:12</EndTime>
+        <EndTimeUTC>1584050892</EndTimeUTC>
+        <ConversationID>PCHAT-0x10000027F01C9</ConversationID>
+    </History>
+    <ParticipantEntered InteractionType="H" DeviceType="M">
+        <User>
+            <LoginName>SEANSYSTEM2</LoginName>
+            <FirstName>SEAN</FirstName>
+            <LastName>OLDFIELD</LastName>
+            <UUID>25813826</UUID>
+            <FirmNumber>848135</FirmNumber>
+            <AccountNumber>30413594</AccountNumber>
+            <CompanyName>MIRABELLA FINANCIAL</CompanyName>
+            <EmailAddress>SEANSYSTEM2@Bloomberg.net</EmailAddress>
+            <CorporateEmailAddress>sean@system2capital.com</CorporateEmailAddress>
+        </User>
+        <DateTime>03/12/2020 22:09:37</DateTime>
+        <DateTimeUTC>1584050977</DateTimeUTC>
+        <ConversationID>PCHAT-0x10000027F01C9</ConversationID>
+    </ParticipantEntered>
+    <ParticipantEntered InteractionType="H" DeviceType="M">
+        <User>
+            <LoginName>LUDOCOHEN</LoginName>
+            <FirstName>LUDOVIC</FirstName>
+            <LastName>COHEN</LastName>
+            <CompanyName>JEFFERIES INTERNATIO</CompanyName>
+            <EmailAddress>LUDOCOHEN@Bloomberg.net</EmailAddress>
+            <CorporateEmailAddress></CorporateEmailAddress>
+        </User>
+        <DateTime>03/12/2020 22:15:39</DateTime>
+        <DateTimeUTC>1584051339</DateTimeUTC>
+        <ConversationID>PCHAT-0x10000027F01C9</ConversationID>
+    </ParticipantEntered>
+    <Message InteractionType="H" DeviceType="M">
+        <User>
+            <LoginName>LUDOCOHEN</LoginName>
+            <FirstName>LUDOVIC</FirstName>
+            <LastName>COHEN</LastName>
+            <CompanyName>JEFFERIES INTERNATIO</CompanyName>
+            <EmailAddress>LUDOCOHEN@Bloomberg.net</EmailAddress>
+            <CorporateEmailAddress></CorporateEmailAddress>
+        </User>
+        <DateTime>03/12/2020 22:15:39</DateTime>
+        <DateTimeUTC>1584051339</DateTimeUTC>
+        <Content>
+            *** JEFFERIES INTERNATIO (30436661) Disclaimer: Jefferies archives and monitors outgoing and incoming
+            messages. The contents of this message, including any attachments, are confidential to the ordinary user of
+            the address to which it was addressed. If you are not the addressee of this message you may not copy,
+            forward, disclose or otherwise use it or any part of it in any form whatsoever. This message may be produced
+            at the request of regulators or in connection with civil litigation. Jefferies accepts no liability for any
+            errors or omissions arising as a result of transmission. Use by other than intended recipients is
+            prohibited; if you received this transmission in error please contact the sender.
+        </Content>
+        <ConversationID>PCHAT-0x10000027F01C9</ConversationID>
+    </Message>
+    <History InteractionType="H">
+        <User>
+            <LoginName>LUDOCOHEN</LoginName>
+            <FirstName>LUDOVIC</FirstName>
+            <LastName>COHEN</LastName>
+            <CompanyName>JEFFERIES INTERNATIO</CompanyName>
+            <EmailAddress>LUDOCOHEN@Bloomberg.net</EmailAddress>
+            <CorporateEmailAddress></CorporateEmailAddress>
+        </User>
+        <DateTime>03/12/2020 22:15:40</DateTime>
+        <DateTimeUTC>1584051340</DateTimeUTC>
+        <StartTime>03/11/2020 22:15:40</StartTime>
+        <StartTimeUTC>1583964940</StartTimeUTC>
+        <EndTime>03/12/2020 22:15:40</EndTime>
+        <EndTimeUTC>1584051340</EndTimeUTC>
+        <ConversationID>PCHAT-0x10000027F01C9</ConversationID>
+    </History>
+    <ParticipantEntered InteractionType="H" DeviceType="M">
+        <User>
+            <LoginName>LUDOCOHEN</LoginName>
+            <FirstName>LUDOVIC</FirstName>
+            <LastName>COHEN</LastName>
+            <CompanyName>JEFFERIES INTERNATIO</CompanyName>
+            <EmailAddress>LUDOCOHEN@Bloomberg.net</EmailAddress>
+            <CorporateEmailAddress></CorporateEmailAddress>
+        </User>
+        <DateTime>03/12/2020 22:15:47</DateTime>
+        <DateTimeUTC>1584051347</DateTimeUTC>
+        <ConversationID>PCHAT-0x10000027F01C9</ConversationID>
+    </ParticipantEntered>
+    <Message InteractionType="H" DeviceType="M">
+        <User>
+            <LoginName>LUDOCOHEN</LoginName>
+            <FirstName>LUDOVIC</FirstName>
+            <LastName>COHEN</LastName>
+            <CompanyName>JEFFERIES INTERNATIO</CompanyName>
+            <EmailAddress>LUDOCOHEN@Bloomberg.net</EmailAddress>
+            <CorporateEmailAddress></CorporateEmailAddress>
+        </User>
+        <DateTime>03/12/2020 22:15:47</DateTime>
+        <DateTimeUTC>1584051347</DateTimeUTC>
+        <Content>
+            *** JEFFERIES INTERNATIO (30436661) Disclaimer: Jefferies archives and monitors outgoing and incoming
+            messages. The contents of this message, including any attachments, are confidential to the ordinary user of
+            the address to which it was addressed. If you are not the addressee of this message you may not copy,
+            forward, disclose or otherwise use it or any part of it in any form whatsoever. This message may be produced
+            at the request of regulators or in connection with civil litigation. Jefferies accepts no liability for any
+            errors or omissions arising as a result of transmission. Use by other than intended recipients is
+            prohibited; if you received this transmission in error please contact the sender.
+        </Content>
+        <ConversationID>PCHAT-0x10000027F01C9</ConversationID>
+    </Message>
+    <ParticipantEntered InteractionType="H" DeviceType="M">
+        <User>
+            <LoginName>CSELLEM4</LoginName>
+            <FirstName>CHARLES</FirstName>
+            <LastName>SELLEM</LastName>
+            <CompanyName>JEFFERIES INTERNATIO</CompanyName>
+            <EmailAddress>CSELLEM4@Bloomberg.net</EmailAddress>
+            <CorporateEmailAddress></CorporateEmailAddress>
+        </User>
+        <DateTime>03/12/2020 22:17:26</DateTime>
+        <DateTimeUTC>1584051446</DateTimeUTC>
+        <ConversationID>PCHAT-0x10000027F01C9</ConversationID>
+    </ParticipantEntered>
+    <Message InteractionType="H" DeviceType="M">
+        <User>
+            <LoginName>CSELLEM4</LoginName>
+            <FirstName>CHARLES</FirstName>
+            <LastName>SELLEM</LastName>
+            <CompanyName>JEFFERIES INTERNATIO</CompanyName>
+            <EmailAddress>CSELLEM4@Bloomberg.net</EmailAddress>
+            <CorporateEmailAddress></CorporateEmailAddress>
+        </User>
+        <DateTime>03/12/2020 22:17:26</DateTime>
+        <DateTimeUTC>1584051446</DateTimeUTC>
+        <Content>
+            *** JEFFERIES INTERNATIO (30436661) Disclaimer: Jefferies archives and monitors outgoing and incoming
+            messages. The contents of this message, including any attachments, are confidential to the ordinary user of
+            the address to which it was addressed. If you are not the addressee of this message you may not copy,
+            forward, disclose or otherwise use it or any part of it in any form whatsoever. This message may be produced
+            at the request of regulators or in connection with civil litigation. Jefferies accepts no liability for any
+            errors or omissions arising as a result of transmission. Use by other than intended recipients is
+            prohibited; if you received this transmission in error please contact the sender.
+        </Content>
+        <ConversationID>PCHAT-0x10000027F01C9</ConversationID>
+    </Message>
+    <History InteractionType="H">
+        <User>
+            <LoginName>CSELLEM4</LoginName>
+            <FirstName>CHARLES</FirstName>
+            <LastName>SELLEM</LastName>
+            <CompanyName>JEFFERIES INTERNATIO</CompanyName>
+            <EmailAddress>CSELLEM4@Bloomberg.net</EmailAddress>
+            <CorporateEmailAddress></CorporateEmailAddress>
+        </User>
+        <DateTime>03/12/2020 22:17:26</DateTime>
+        <DateTimeUTC>1584051446</DateTimeUTC>
+        <StartTime>03/11/2020 22:17:26</StartTime>
+        <StartTimeUTC>1583965046</StartTimeUTC>
+        <EndTime>03/12/2020 22:17:26</EndTime>
+        <EndTimeUTC>1584051446</EndTimeUTC>
+        <ConversationID>PCHAT-0x10000027F01C9</ConversationID>
+    </History>
+    <ParticipantLeft InteractionType="H">
+        <User>
+            <LoginName>SOBRIEN99</LoginName>
+            <FirstName>SEAN</FirstName>
+            <LastName>O&apos;BRIEN</LastName>
+            <CompanyName>JEFFERIES INTERNATIO</CompanyName>
+            <EmailAddress>SOBRIEN99@Bloomberg.net</EmailAddress>
+            <CorporateEmailAddress></CorporateEmailAddress>
+        </User>
+        <DateTime>03/12/2020 23:34:35</DateTime>
+        <DateTimeUTC>1584056075</DateTimeUTC>
+        <ConversationID>PCHAT-0x10000027F01C9</ConversationID>
+    </ParticipantLeft>
+    <ParticipantLeft InteractionType="H">
+        <User>
+            <LoginName>BJNIXON</LoginName>
+            <FirstName>BEN</FirstName>
+            <LastName>NIXON</LastName>
+            <CompanyName>JEFFERIES INTERNATIO</CompanyName>
+            <EmailAddress>BJNIXON@Bloomberg.net</EmailAddress>
+            <CorporateEmailAddress></CorporateEmailAddress>
+        </User>
+        <DateTime>03/13/2020 01:21:46</DateTime>
+        <DateTimeUTC>1584062506</DateTimeUTC>
+        <ConversationID>PCHAT-0x10000027F01C9</ConversationID>
+    </ParticipantLeft>
+    <ParticipantLeft InteractionType="H">
+        <User>
+            <LoginName>RBETTERIDGE3</LoginName>
+            <FirstName>RUSSELL</FirstName>
+            <LastName>BETTERIDGE</LastName>
+            <CompanyName>JEFFERIES INTERNATIO</CompanyName>
+            <EmailAddress>RBETTERIDGE3@Bloomberg.net</EmailAddress>
+            <CorporateEmailAddress></CorporateEmailAddress>
+        </User>
+        <DateTime>03/13/2020 01:22:16</DateTime>
+        <DateTimeUTC>1584062536</DateTimeUTC>
+        <ConversationID>PCHAT-0x10000027F01C9</ConversationID>
+    </ParticipantLeft>
+    <ParticipantLeft InteractionType="H">
+        <User>
+            <LoginName>SHAMMERSLEY</LoginName>
+            <FirstName>SEAN</FirstName>
+            <LastName>HAMMERSLEY</LastName>
+            <CompanyName>JEFFERIES INTERNATIO</CompanyName>
+            <EmailAddress>SHAMMERSLEY@Bloomberg.net</EmailAddress>
+            <CorporateEmailAddress></CorporateEmailAddress>
+        </User>
+        <DateTime>03/13/2020 01:25:09</DateTime>
+        <DateTimeUTC>1584062709</DateTimeUTC>
+        <ConversationID>PCHAT-0x10000027F01C9</ConversationID>
+    </ParticipantLeft>
+    <ParticipantLeft InteractionType="H" DeviceType="M">
+        <User>
+            <LoginName>CSELLEM4</LoginName>
+            <FirstName>CHARLES</FirstName>
+            <LastName>SELLEM</LastName>
+            <CompanyName>JEFFERIES INTERNATIO</CompanyName>
+            <EmailAddress>CSELLEM4@Bloomberg.net</EmailAddress>
+            <CorporateEmailAddress></CorporateEmailAddress>
+        </User>
+        <DateTime>03/13/2020 01:45:11</DateTime>
+        <DateTimeUTC>1584063911</DateTimeUTC>
+        <ConversationID>PCHAT-0x10000027F01C9</ConversationID>
+    </ParticipantLeft>
+    <History InteractionType="H">
+        <User>
+            <LoginName>SEANSYSTEM2</LoginName>
+            <FirstName>SEAN</FirstName>
+            <LastName>OLDFIELD</LastName>
+            <UUID>25813826</UUID>
+            <FirmNumber>848135</FirmNumber>
+            <AccountNumber>30413594</AccountNumber>
+            <CompanyName>MIRABELLA FINANCIAL</CompanyName>
+            <EmailAddress>SEANSYSTEM2@Bloomberg.net</EmailAddress>
+            <CorporateEmailAddress>sean@system2capital.com</CorporateEmailAddress>
+        </User>
+        <DateTime>03/13/2020 02:39:16</DateTime>
+        <DateTimeUTC>1584067156</DateTimeUTC>
+        <StartTime>03/12/2020 02:39:16</StartTime>
+        <StartTimeUTC>1583980756</StartTimeUTC>
+        <EndTime>03/13/2020 02:39:16</EndTime>
+        <EndTimeUTC>1584067156</EndTimeUTC>
+        <ConversationID>PCHAT-0x10000027F01C9</ConversationID>
+    </History>
+    <ParticipantEntered InteractionType="H" DeviceType="M">
+        <User>
+            <LoginName>CSELLEM4</LoginName>
+            <FirstName>CHARLES</FirstName>
+            <LastName>SELLEM</LastName>
+            <CompanyName>JEFFERIES INTERNATIO</CompanyName>
+            <EmailAddress>CSELLEM4@Bloomberg.net</EmailAddress>
+            <CorporateEmailAddress></CorporateEmailAddress>
+        </User>
+        <DateTime>03/13/2020 02:51:04</DateTime>
+        <DateTimeUTC>1584067864</DateTimeUTC>
+        <ConversationID>PCHAT-0x10000027F01C9</ConversationID>
+    </ParticipantEntered>
+    <Message InteractionType="H" DeviceType="M">
+        <User>
+            <LoginName>CSELLEM4</LoginName>
+            <FirstName>CHARLES</FirstName>
+            <LastName>SELLEM</LastName>
+            <CompanyName>JEFFERIES INTERNATIO</CompanyName>
+            <EmailAddress>CSELLEM4@Bloomberg.net</EmailAddress>
+            <CorporateEmailAddress></CorporateEmailAddress>
+        </User>
+        <DateTime>03/13/2020 02:51:04</DateTime>
+        <DateTimeUTC>1584067864</DateTimeUTC>
+        <Content>
+            *** JEFFERIES INTERNATIO (30436661) Disclaimer: Jefferies archives and monitors outgoing and incoming
+            messages. The contents of this message, including any attachments, are confidential to the ordinary user of
+            the address to which it was addressed. If you are not the addressee of this message you may not copy,
+            forward, disclose or otherwise use it or any part of it in any form whatsoever. This message may be produced
+            at the request of regulators or in connection with civil litigation. Jefferies accepts no liability for any
+            errors or omissions arising as a result of transmission. Use by other than intended recipients is
+            prohibited; if you received this transmission in error please contact the sender.
+        </Content>
+        <ConversationID>PCHAT-0x10000027F01C9</ConversationID>
+    </Message>
+    <History InteractionType="H">
+        <User>
+            <LoginName>CSELLEM4</LoginName>
+            <FirstName>CHARLES</FirstName>
+            <LastName>SELLEM</LastName>
+            <CompanyName>JEFFERIES INTERNATIO</CompanyName>
+            <EmailAddress>CSELLEM4@Bloomberg.net</EmailAddress>
+            <CorporateEmailAddress></CorporateEmailAddress>
+        </User>
+        <DateTime>03/13/2020 02:51:05</DateTime>
+        <DateTimeUTC>1584067865</DateTimeUTC>
+        <StartTime>03/12/2020 02:51:04</StartTime>
+        <StartTimeUTC>1583981464</StartTimeUTC>
+        <EndTime>03/13/2020 02:51:04</EndTime>
+        <EndTimeUTC>1584067864</EndTimeUTC>
+        <ConversationID>PCHAT-0x10000027F01C9</ConversationID>
+    </History>
+    <ParticipantLeft InteractionType="H" DeviceType="M">
+        <User>
+            <LoginName>CSELLEM4</LoginName>
+            <FirstName>CHARLES</FirstName>
+            <LastName>SELLEM</LastName>
+            <CompanyName>JEFFERIES INTERNATIO</CompanyName>
+            <EmailAddress>CSELLEM4@Bloomberg.net</EmailAddress>
+            <CorporateEmailAddress></CorporateEmailAddress>
+        </User>
+        <DateTime>03/13/2020 06:15:08</DateTime>
+        <DateTimeUTC>1584080108</DateTimeUTC>
+        <ConversationID>PCHAT-0x10000027F01C9</ConversationID>
+    </ParticipantLeft>
+    <ParticipantEntered InteractionType="H" DeviceType="M">
+        <User>
+            <LoginName>CSELLEM4</LoginName>
+            <FirstName>CHARLES</FirstName>
+            <LastName>SELLEM</LastName>
+            <CompanyName>JEFFERIES INTERNATIO</CompanyName>
+            <EmailAddress>CSELLEM4@Bloomberg.net</EmailAddress>
+            <CorporateEmailAddress></CorporateEmailAddress>
+        </User>
+        <DateTime>03/13/2020 06:28:01</DateTime>
+        <DateTimeUTC>1584080881</DateTimeUTC>
+        <ConversationID>PCHAT-0x10000027F01C9</ConversationID>
+    </ParticipantEntered>
+    <Message InteractionType="H" DeviceType="M">
+        <User>
+            <LoginName>CSELLEM4</LoginName>
+            <FirstName>CHARLES</FirstName>
+            <LastName>SELLEM</LastName>
+            <CompanyName>JEFFERIES INTERNATIO</CompanyName>
+            <EmailAddress>CSELLEM4@Bloomberg.net</EmailAddress>
+            <CorporateEmailAddress></CorporateEmailAddress>
+        </User>
+        <DateTime>03/13/2020 06:28:01</DateTime>
+        <DateTimeUTC>1584080881</DateTimeUTC>
+        <Content>
+            *** JEFFERIES INTERNATIO (30436661) Disclaimer: Jefferies archives and monitors outgoing and incoming
+            messages. The contents of this message, including any attachments, are confidential to the ordinary user of
+            the address to which it was addressed. If you are not the addressee of this message you may not copy,
+            forward, disclose or otherwise use it or any part of it in any form whatsoever. This message may be produced
+            at the request of regulators or in connection with civil litigation. Jefferies accepts no liability for any
+            errors or omissions arising as a result of transmission. Use by other than intended recipients is
+            prohibited; if you received this transmission in error please contact the sender.
+        </Content>
+        <ConversationID>PCHAT-0x10000027F01C9</ConversationID>
+    </Message>
+    <History InteractionType="H">
+        <User>
+            <LoginName>CSELLEM4</LoginName>
+            <FirstName>CHARLES</FirstName>
+            <LastName>SELLEM</LastName>
+            <CompanyName>JEFFERIES INTERNATIO</CompanyName>
+            <EmailAddress>CSELLEM4@Bloomberg.net</EmailAddress>
+            <CorporateEmailAddress></CorporateEmailAddress>
+        </User>
+        <DateTime>03/13/2020 06:28:01</DateTime>
+        <DateTimeUTC>1584080881</DateTimeUTC>
+        <StartTime>03/12/2020 06:28:01</StartTime>
+        <StartTimeUTC>1583994481</StartTimeUTC>
+        <EndTime>03/13/2020 06:28:01</EndTime>
+        <EndTimeUTC>1584080881</EndTimeUTC>
+        <ConversationID>PCHAT-0x10000027F01C9</ConversationID>
+    </History>
+    <ParticipantEntered InteractionType="H" DeviceType="M">
+        <User>
+            <LoginName>SOBRIEN99</LoginName>
+            <FirstName>SEAN</FirstName>
+            <LastName>O&apos;BRIEN</LastName>
+            <CompanyName>JEFFERIES INTERNATIO</CompanyName>
+            <EmailAddress>SOBRIEN99@Bloomberg.net</EmailAddress>
+            <CorporateEmailAddress></CorporateEmailAddress>
+        </User>
+        <DateTime>03/13/2020 06:33:59</DateTime>
+        <DateTimeUTC>1584081239</DateTimeUTC>
+        <ConversationID>PCHAT-0x10000027F01C9</ConversationID>
+    </ParticipantEntered>
+    <Message InteractionType="H" DeviceType="M">
+        <User>
+            <LoginName>SOBRIEN99</LoginName>
+            <FirstName>SEAN</FirstName>
+            <LastName>O&apos;BRIEN</LastName>
+            <CompanyName>JEFFERIES INTERNATIO</CompanyName>
+            <EmailAddress>SOBRIEN99@Bloomberg.net</EmailAddress>
+            <CorporateEmailAddress></CorporateEmailAddress>
+        </User>
+        <DateTime>03/13/2020 06:33:59</DateTime>
+        <DateTimeUTC>1584081239</DateTimeUTC>
+        <Content>
+            *** JEFFERIES INTERNATIO (30436661) Disclaimer: Jefferies archives and monitors outgoing and incoming
+            messages. The contents of this message, including any attachments, are confidential to the ordinary user of
+            the address to which it was addressed. If you are not the addressee of this message you may not copy,
+            forward, disclose or otherwise use it or any part of it in any form whatsoever. This message may be produced
+            at the request of regulators or in connection with civil litigation. Jefferies accepts no liability for any
+            errors or omissions arising as a result of transmission. Use by other than intended recipients is
+            prohibited; if you received this transmission in error please contact the sender.
+        </Content>
+        <ConversationID>PCHAT-0x10000027F01C9</ConversationID>
+    </Message>
+    <History InteractionType="H">
+        <User>
+            <LoginName>SOBRIEN99</LoginName>
+            <FirstName>SEAN</FirstName>
+            <LastName>O&apos;BRIEN</LastName>
+            <CompanyName>JEFFERIES INTERNATIO</CompanyName>
+            <EmailAddress>SOBRIEN99@Bloomberg.net</EmailAddress>
+            <CorporateEmailAddress></CorporateEmailAddress>
+        </User>
+        <DateTime>03/13/2020 06:33:59</DateTime>
+        <DateTimeUTC>1584081239</DateTimeUTC>
+        <StartTime>03/12/2020 06:33:59</StartTime>
+        <StartTimeUTC>1583994839</StartTimeUTC>
+        <EndTime>03/13/2020 06:33:59</EndTime>
+        <EndTimeUTC>1584081239</EndTimeUTC>
+        <ConversationID>PCHAT-0x10000027F01C9</ConversationID>
+    </History>
+    <ParticipantEntered InteractionType="H" DeviceType="M">
+        <User>
+            <LoginName>LUDOCOHEN</LoginName>
+            <FirstName>LUDOVIC</FirstName>
+            <LastName>COHEN</LastName>
+            <CompanyName>JEFFERIES INTERNATIO</CompanyName>
+            <EmailAddress>LUDOCOHEN@Bloomberg.net</EmailAddress>
+            <CorporateEmailAddress></CorporateEmailAddress>
+        </User>
+        <DateTime>03/13/2020 06:38:10</DateTime>
+        <DateTimeUTC>1584081490</DateTimeUTC>
+        <ConversationID>PCHAT-0x10000027F01C9</ConversationID>
+    </ParticipantEntered>
+    <Message InteractionType="H" DeviceType="M">
+        <User>
+            <LoginName>LUDOCOHEN</LoginName>
+            <FirstName>LUDOVIC</FirstName>
+            <LastName>COHEN</LastName>
+            <CompanyName>JEFFERIES INTERNATIO</CompanyName>
+            <EmailAddress>LUDOCOHEN@Bloomberg.net</EmailAddress>
+            <CorporateEmailAddress></CorporateEmailAddress>
+        </User>
+        <DateTime>03/13/2020 06:38:10</DateTime>
+        <DateTimeUTC>1584081490</DateTimeUTC>
+        <Content>
+            *** JEFFERIES INTERNATIO (30436661) Disclaimer: Jefferies archives and monitors outgoing and incoming
+            messages. The contents of this message, including any attachments, are confidential to the ordinary user of
+            the address to which it was addressed. If you are not the addressee of this message you may not copy,
+            forward, disclose or otherwise use it or any part of it in any form whatsoever. This message may be produced
+            at the request of regulators or in connection with civil litigation. Jefferies accepts no liability for any
+            errors or omissions arising as a result of transmission. Use by other than intended recipients is
+            prohibited; if you received this transmission in error please contact the sender.
+        </Content>
+        <ConversationID>PCHAT-0x10000027F01C9</ConversationID>
+    </Message>
+    <History InteractionType="H">
+        <User>
+            <LoginName>LUDOCOHEN</LoginName>
+            <FirstName>LUDOVIC</FirstName>
+            <LastName>COHEN</LastName>
+            <CompanyName>JEFFERIES INTERNATIO</CompanyName>
+            <EmailAddress>LUDOCOHEN@Bloomberg.net</EmailAddress>
+            <CorporateEmailAddress></CorporateEmailAddress>
+        </User>
+        <DateTime>03/13/2020 06:38:11</DateTime>
+        <DateTimeUTC>1584081491</DateTimeUTC>
+        <StartTime>03/12/2020 06:38:10</StartTime>
+        <StartTimeUTC>1583995090</StartTimeUTC>
+        <EndTime>03/13/2020 06:38:10</EndTime>
+        <EndTimeUTC>1584081490</EndTimeUTC>
+        <ConversationID>PCHAT-0x10000027F01C9</ConversationID>
+    </History>
+    <ParticipantEntered InteractionType="H" DeviceType="M">
+        <User>
+            <LoginName>BJNIXON</LoginName>
+            <FirstName>BEN</FirstName>
+            <LastName>NIXON</LastName>
+            <CompanyName>JEFFERIES INTERNATIO</CompanyName>
+            <EmailAddress>BJNIXON@Bloomberg.net</EmailAddress>
+            <CorporateEmailAddress></CorporateEmailAddress>
+        </User>
+        <DateTime>03/13/2020 06:47:25</DateTime>
+        <DateTimeUTC>1584082045</DateTimeUTC>
+        <ConversationID>PCHAT-0x10000027F01C9</ConversationID>
+    </ParticipantEntered>
+    <Message InteractionType="H" DeviceType="M">
+        <User>
+            <LoginName>BJNIXON</LoginName>
+            <FirstName>BEN</FirstName>
+            <LastName>NIXON</LastName>
+            <CompanyName>JEFFERIES INTERNATIO</CompanyName>
+            <EmailAddress>BJNIXON@Bloomberg.net</EmailAddress>
+            <CorporateEmailAddress></CorporateEmailAddress>
+        </User>
+        <DateTime>03/13/2020 06:47:25</DateTime>
+        <DateTimeUTC>1584082045</DateTimeUTC>
+        <Content>
+            *** JEFFERIES INTERNATIO (30436661) Disclaimer: Jefferies archives and monitors outgoing and incoming
+            messages. The contents of this message, including any attachments, are confidential to the ordinary user of
+            the address to which it was addressed. If you are not the addressee of this message you may not copy,
+            forward, disclose or otherwise use it or any part of it in any form whatsoever. This message may be produced
+            at the request of regulators or in connection with civil litigation. Jefferies accepts no liability for any
+            errors or omissions arising as a result of transmission. Use by other than intended recipients is
+            prohibited; if you received this transmission in error please contact the sender.
+        </Content>
+        <ConversationID>PCHAT-0x10000027F01C9</ConversationID>
+    </Message>
+    <History InteractionType="H">
+        <User>
+            <LoginName>BJNIXON</LoginName>
+            <FirstName>BEN</FirstName>
+            <LastName>NIXON</LastName>
+            <CompanyName>JEFFERIES INTERNATIO</CompanyName>
+            <EmailAddress>BJNIXON@Bloomberg.net</EmailAddress>
+            <CorporateEmailAddress></CorporateEmailAddress>
+        </User>
+        <DateTime>03/13/2020 06:47:25</DateTime>
+        <DateTimeUTC>1584082045</DateTimeUTC>
+        <StartTime>03/12/2020 06:47:25</StartTime>
+        <StartTimeUTC>1583995645</StartTimeUTC>
+        <EndTime>03/13/2020 06:47:25</EndTime>
+        <EndTimeUTC>1584082045</EndTimeUTC>
+        <ConversationID>PCHAT-0x10000027F01C9</ConversationID>
+    </History>
+    <ParticipantEntered InteractionType="H">
+        <User>
+            <LoginName>SOBRIEN99</LoginName>
+            <FirstName>SEAN</FirstName>
+            <LastName>O&apos;BRIEN</LastName>
+            <CompanyName>JEFFERIES INTERNATIO</CompanyName>
+            <EmailAddress>SOBRIEN99@Bloomberg.net</EmailAddress>
+            <CorporateEmailAddress></CorporateEmailAddress>
+        </User>
+        <DateTime>03/13/2020 06:52:48</DateTime>
+        <DateTimeUTC>1584082368</DateTimeUTC>
+        <ConversationID>PCHAT-0x10000027F01C9</ConversationID>
+    </ParticipantEntered>
+    <Message InteractionType="H">
+        <User>
+            <LoginName>SOBRIEN99</LoginName>
+            <FirstName>SEAN</FirstName>
+            <LastName>O&apos;BRIEN</LastName>
+            <CompanyName>JEFFERIES INTERNATIO</CompanyName>
+            <EmailAddress>SOBRIEN99@Bloomberg.net</EmailAddress>
+            <CorporateEmailAddress></CorporateEmailAddress>
+        </User>
+        <DateTime>03/13/2020 06:52:48</DateTime>
+        <DateTimeUTC>1584082368</DateTimeUTC>
+        <Content>
+            *** JEFFERIES INTERNATIO (30436661) Disclaimer: Jefferies archives and monitors outgoing and incoming
+            messages. The contents of this message, including any attachments, are confidential to the ordinary user of
+            the address to which it was addressed. If you are not the addressee of this message you may not copy,
+            forward, disclose or otherwise use it or any part of it in any form whatsoever. This message may be produced
+            at the request of regulators or in connection with civil litigation. Jefferies accepts no liability for any
+            errors or omissions arising as a result of transmission. Use by other than intended recipients is
+            prohibited; if you received this transmission in error please contact the sender.
+        </Content>
+        <ConversationID>PCHAT-0x10000027F01C9</ConversationID>
+    </Message>
+    <Message InteractionType="H">
+        <User>
+            <LoginName>SOBRIEN99</LoginName>
+            <FirstName>SEAN</FirstName>
+            <LastName>O&apos;BRIEN</LastName>
+            <CompanyName>JEFFERIES INTERNATIO</CompanyName>
+            <EmailAddress>SOBRIEN99@Bloomberg.net</EmailAddress>
+            <CorporateEmailAddress></CorporateEmailAddress>
+        </User>
+        <DateTime>03/13/2020 06:54:30</DateTime>
+        <DateTimeUTC>1584082470</DateTimeUTC>
+        <Content>
+            Good morning guys
+        </Content>
+        <ConversationID>PCHAT-0x10000027F01C9</ConversationID>
+    </Message>
+    <ParticipantEntered InteractionType="H" DeviceType="M">
+        <User>
+            <LoginName>CSELLEM4</LoginName>
+            <FirstName>CHARLES</FirstName>
+            <LastName>SELLEM</LastName>
+            <CompanyName>JEFFERIES INTERNATIO</CompanyName>
+            <EmailAddress>CSELLEM4@Bloomberg.net</EmailAddress>
+            <CorporateEmailAddress></CorporateEmailAddress>
+        </User>
+        <DateTime>03/13/2020 07:03:17</DateTime>
+        <DateTimeUTC>1584082997</DateTimeUTC>
+        <ConversationID>PCHAT-0x10000027F01C9</ConversationID>
+    </ParticipantEntered>
+    <Message InteractionType="H" DeviceType="M">
+        <User>
+            <LoginName>CSELLEM4</LoginName>
+            <FirstName>CHARLES</FirstName>
+            <LastName>SELLEM</LastName>
+            <CompanyName>JEFFERIES INTERNATIO</CompanyName>
+            <EmailAddress>CSELLEM4@Bloomberg.net</EmailAddress>
+            <CorporateEmailAddress></CorporateEmailAddress>
+        </User>
+        <DateTime>03/13/2020 07:03:17</DateTime>
+        <DateTimeUTC>1584082997</DateTimeUTC>
+        <Content>
+            *** JEFFERIES INTERNATIO (30436661) Disclaimer: Jefferies archives and monitors outgoing and incoming
+            messages. The contents of this message, including any attachments, are confidential to the ordinary user of
+            the address to which it was addressed. If you are not the addressee of this message you may not copy,
+            forward, disclose or otherwise use it or any part of it in any form whatsoever. This message may be produced
+            at the request of regulators or in connection with civil litigation. Jefferies accepts no liability for any
+            errors or omissions arising as a result of transmission. Use by other than intended recipients is
+            prohibited; if you received this transmission in error please contact the sender.
+        </Content>
+        <ConversationID>PCHAT-0x10000027F01C9</ConversationID>
+    </Message>
+    <History InteractionType="H">
+        <User>
+            <LoginName>CSELLEM4</LoginName>
+            <FirstName>CHARLES</FirstName>
+            <LastName>SELLEM</LastName>
+            <CompanyName>JEFFERIES INTERNATIO</CompanyName>
+            <EmailAddress>CSELLEM4@Bloomberg.net</EmailAddress>
+            <CorporateEmailAddress></CorporateEmailAddress>
+        </User>
+        <DateTime>03/13/2020 07:03:17</DateTime>
+        <DateTimeUTC>1584082997</DateTimeUTC>
+        <StartTime>03/12/2020 07:03:17</StartTime>
+        <StartTimeUTC>1583996597</StartTimeUTC>
+        <EndTime>03/13/2020 07:03:17</EndTime>
+        <EndTimeUTC>1584082997</EndTimeUTC>
+        <ConversationID>PCHAT-0x10000027F01C9</ConversationID>
+    </History>
+    <Message InteractionType="H">
+        <User>
+            <LoginName>SOBRIEN99</LoginName>
+            <FirstName>SEAN</FirstName>
+            <LastName>O&apos;BRIEN</LastName>
+            <CompanyName>JEFFERIES INTERNATIO</CompanyName>
+            <EmailAddress>SOBRIEN99@Bloomberg.net</EmailAddress>
+            <CorporateEmailAddress></CorporateEmailAddress>
+        </User>
+        <DateTime>03/13/2020 07:12:38</DateTime>
+        <DateTimeUTC>1584083558</DateTimeUTC>
+        <Content>
+            *** NEWS STORY {NSN Q73PDPDWX2PZ &lt;GO&gt;}: &apos;Wirecard Says No Need So Far to Correct 2016-2018
+            Statements&apos;{NSN Q73PDPDWX2PZ&lt;GO&gt;}: &apos;Wirecard Says No Need So Far to Correct 2016-2018
+            Statements&apos;
+        </Content>
+        <ConversationID>PCHAT-0x10000027F01C9</ConversationID>
+    </Message>
+    <History InteractionType="H">
+        <User>
+            <LoginName>SEANSYSTEM2</LoginName>
+            <FirstName>SEAN</FirstName>
+            <LastName>OLDFIELD</LastName>
+            <UUID>25813826</UUID>
+            <FirmNumber>848135</FirmNumber>
+            <AccountNumber>30413594</AccountNumber>
+            <CompanyName>MIRABELLA FINANCIAL</CompanyName>
+            <EmailAddress>SEANSYSTEM2@Bloomberg.net</EmailAddress>
+            <CorporateEmailAddress>sean@system2capital.com</CorporateEmailAddress>
+        </User>
+        <DateTime>03/13/2020 07:12:41</DateTime>
+        <DateTimeUTC>1584083561</DateTimeUTC>
+        <StartTime>03/13/2020 00:00:00</StartTime>
+        <StartTimeUTC>1584057600</StartTimeUTC>
+        <EndTime>03/13/2020 07:12:41</EndTime>
+        <EndTimeUTC>1584083561</EndTimeUTC>
+        <ConversationID>PCHAT-0x10000027F01C9</ConversationID>
+    </History>
+    <Message InteractionType="H">
+        <User>
+            <LoginName>SOBRIEN99</LoginName>
+            <FirstName>SEAN</FirstName>
+            <LastName>O&apos;BRIEN</LastName>
+            <CompanyName>JEFFERIES INTERNATIO</CompanyName>
+            <EmailAddress>SOBRIEN99@Bloomberg.net</EmailAddress>
+            <CorporateEmailAddress></CorporateEmailAddress>
+        </User>
+        <DateTime>03/13/2020 07:14:00</DateTime>
+        <DateTimeUTC>1584083640</DateTimeUTC>
+        <Content>
+            *** NEWS STORY {NSN Q74CRNT0G1KW &lt;GO&gt;}: &apos;Air France-KLM: Has Drawn Down EU1.1B Revolving Credit
+            Facility&apos;{NSN Q74CRNT0G1KW&lt;GO&gt;}: &apos;Air France-KLM: Has Drawn Down EU1.1B Revolving Credit
+            Facility&apos;
+        </Content>
+        <ConversationID>PCHAT-0x10000027F01C9</ConversationID>
+    </Message>
+    <ParticipantEntered InteractionType="H">
+        <User>
+            <LoginName>BJNIXON</LoginName>
+            <FirstName>BEN</FirstName>
+            <LastName>NIXON</LastName>
+            <CompanyName>JEFFERIES INTERNATIO</CompanyName>
+            <EmailAddress>BJNIXON@Bloomberg.net</EmailAddress>
+            <CorporateEmailAddress></CorporateEmailAddress>
+        </User>
+        <DateTime>03/13/2020 07:25:53</DateTime>
+        <DateTimeUTC>1584084353</DateTimeUTC>
+        <ConversationID>PCHAT-0x10000027F01C9</ConversationID>
+    </ParticipantEntered>
+    <Message InteractionType="H">
+        <User>
+            <LoginName>BJNIXON</LoginName>
+            <FirstName>BEN</FirstName>
+            <LastName>NIXON</LastName>
+            <CompanyName>JEFFERIES INTERNATIO</CompanyName>
+            <EmailAddress>BJNIXON@Bloomberg.net</EmailAddress>
+            <CorporateEmailAddress></CorporateEmailAddress>
+        </User>
+        <DateTime>03/13/2020 07:25:53</DateTime>
+        <DateTimeUTC>1584084353</DateTimeUTC>
+        <Content>
+            *** JEFFERIES INTERNATIO (30436661) Disclaimer: Jefferies archives and monitors outgoing and incoming
+            messages. The contents of this message, including any attachments, are confidential to the ordinary user of
+            the address to which it was addressed. If you are not the addressee of this message you may not copy,
+            forward, disclose or otherwise use it or any part of it in any form whatsoever. This message may be produced
+            at the request of regulators or in connection with civil litigation. Jefferies accepts no liability for any
+            errors or omissions arising as a result of transmission. Use by other than intended recipients is
+            prohibited; if you received this transmission in error please contact the sender.
+        </Content>
+        <ConversationID>PCHAT-0x10000027F01C9</ConversationID>
+    </Message>
+    <History InteractionType="H">
+        <User>
+            <LoginName>BJNIXON</LoginName>
+            <FirstName>BEN</FirstName>
+            <LastName>NIXON</LastName>
+            <CompanyName>JEFFERIES INTERNATIO</CompanyName>
+            <EmailAddress>BJNIXON@Bloomberg.net</EmailAddress>
+            <CorporateEmailAddress></CorporateEmailAddress>
+        </User>
+        <DateTime>03/13/2020 07:25:56</DateTime>
+        <DateTimeUTC>1584084356</DateTimeUTC>
+        <StartTime>03/13/2020 00:00:00</StartTime>
+        <StartTimeUTC>1584057600</StartTimeUTC>
+        <EndTime>03/13/2020 07:25:53</EndTime>
+        <EndTimeUTC>1584084353</EndTimeUTC>
+        <ConversationID>PCHAT-0x10000027F01C9</ConversationID>
+    </History>
+    <ParticipantEntered InteractionType="H">
+        <User>
+            <LoginName>BJNIXON</LoginName>
+            <FirstName>BEN</FirstName>
+            <LastName>NIXON</LastName>
+            <CompanyName>JEFFERIES INTERNATIO</CompanyName>
+            <EmailAddress>BJNIXON@Bloomberg.net</EmailAddress>
+            <CorporateEmailAddress></CorporateEmailAddress>
+        </User>
+        <DateTime>03/13/2020 07:27:54</DateTime>
+        <DateTimeUTC>1584084474</DateTimeUTC>
+        <ConversationID>PCHAT-0x10000027F01C9</ConversationID>
+    </ParticipantEntered>
+    <Message InteractionType="H">
+        <User>
+            <LoginName>BJNIXON</LoginName>
+            <FirstName>BEN</FirstName>
+            <LastName>NIXON</LastName>
+            <CompanyName>JEFFERIES INTERNATIO</CompanyName>
+            <EmailAddress>BJNIXON@Bloomberg.net</EmailAddress>
+            <CorporateEmailAddress></CorporateEmailAddress>
+        </User>
+        <DateTime>03/13/2020 07:27:54</DateTime>
+        <DateTimeUTC>1584084474</DateTimeUTC>
+        <Content>
+            *** JEFFERIES INTERNATIO (30436661) Disclaimer: Jefferies archives and monitors outgoing and incoming
+            messages. The contents of this message, including any attachments, are confidential to the ordinary user of
+            the address to which it was addressed. If you are not the addressee of this message you may not copy,
+            forward, disclose or otherwise use it or any part of it in any form whatsoever. This message may be produced
+            at the request of regulators or in connection with civil litigation. Jefferies accepts no liability for any
+            errors or omissions arising as a result of transmission. Use by other than intended recipients is
+            prohibited; if you received this transmission in error please contact the sender.
+        </Content>
+        <ConversationID>PCHAT-0x10000027F01C9</ConversationID>
+    </Message>
+    <History InteractionType="H">
+        <User>
+            <LoginName>BJNIXON</LoginName>
+            <FirstName>BEN</FirstName>
+            <LastName>NIXON</LastName>
+            <CompanyName>JEFFERIES INTERNATIO</CompanyName>
+            <EmailAddress>BJNIXON@Bloomberg.net</EmailAddress>
+            <CorporateEmailAddress></CorporateEmailAddress>
+        </User>
+        <DateTime>03/13/2020 07:27:58</DateTime>
+        <DateTimeUTC>1584084478</DateTimeUTC>
+        <StartTime>03/13/2020 00:00:00</StartTime>
+        <StartTimeUTC>1584057600</StartTimeUTC>
+        <EndTime>03/13/2020 07:27:54</EndTime>
+        <EndTimeUTC>1584084474</EndTimeUTC>
+        <ConversationID>PCHAT-0x10000027F01C9</ConversationID>
+    </History>
+    <ParticipantEntered InteractionType="H">
+        <User>
+            <LoginName>LUDOCOHEN</LoginName>
+            <FirstName>LUDOVIC</FirstName>
+            <LastName>COHEN</LastName>
+            <CompanyName>JEFFERIES INTERNATIO</CompanyName>
+            <EmailAddress>LUDOCOHEN@Bloomberg.net</EmailAddress>
+            <CorporateEmailAddress></CorporateEmailAddress>
+        </User>
+        <DateTime>03/13/2020 07:40:06</DateTime>
+        <DateTimeUTC>1584085206</DateTimeUTC>
+        <ConversationID>PCHAT-0x10000027F01C9</ConversationID>
+    </ParticipantEntered>
+    <Message InteractionType="H">
+        <User>
+            <LoginName>LUDOCOHEN</LoginName>
+            <FirstName>LUDOVIC</FirstName>
+            <LastName>COHEN</LastName>
+            <CompanyName>JEFFERIES INTERNATIO</CompanyName>
+            <EmailAddress>LUDOCOHEN@Bloomberg.net</EmailAddress>
+            <CorporateEmailAddress></CorporateEmailAddress>
+        </User>
+        <DateTime>03/13/2020 07:40:06</DateTime>
+        <DateTimeUTC>1584085206</DateTimeUTC>
+        <Content>
+            *** JEFFERIES INTERNATIO (30436661) Disclaimer: Jefferies archives and monitors outgoing and incoming
+            messages. The contents of this message, including any attachments, are confidential to the ordinary user of
+            the address to which it was addressed. If you are not the addressee of this message you may not copy,
+            forward, disclose or otherwise use it or any part of it in any form whatsoever. This message may be produced
+            at the request of regulators or in connection with civil litigation. Jefferies accepts no liability for any
+            errors or omissions arising as a result of transmission. Use by other than intended recipients is
+            prohibited; if you received this transmission in error please contact the sender.
+        </Content>
+        <ConversationID>PCHAT-0x10000027F01C9</ConversationID>
+    </Message>
+    <History InteractionType="H">
+        <User>
+            <LoginName>LUDOCOHEN</LoginName>
+            <FirstName>LUDOVIC</FirstName>
+            <LastName>COHEN</LastName>
+            <CompanyName>JEFFERIES INTERNATIO</CompanyName>
+            <EmailAddress>LUDOCOHEN@Bloomberg.net</EmailAddress>
+            <CorporateEmailAddress></CorporateEmailAddress>
+        </User>
+        <DateTime>03/13/2020 07:40:08</DateTime>
+        <DateTimeUTC>1584085208</DateTimeUTC>
+        <StartTime>03/13/2020 00:00:00</StartTime>
+        <StartTimeUTC>1584057600</StartTimeUTC>
+        <EndTime>03/13/2020 07:40:06</EndTime>
+        <EndTimeUTC>1584085206</EndTimeUTC>
+        <ConversationID>PCHAT-0x10000027F01C9</ConversationID>
+    </History>
+    <Message InteractionType="H">
+        <User>
+            <LoginName>SOBRIEN99</LoginName>
+            <FirstName>SEAN</FirstName>
+            <LastName>O&apos;BRIEN</LastName>
+            <CompanyName>JEFFERIES INTERNATIO</CompanyName>
+            <EmailAddress>SOBRIEN99@Bloomberg.net</EmailAddress>
+            <CorporateEmailAddress></CorporateEmailAddress>
+        </User>
+        <DateTime>03/13/2020 07:41:26</DateTime>
+        <DateTimeUTC>1584085286</DateTimeUTC>
+        <Content>
+            Spain bans short selling on 69 stocks
+            {http://cnmv.es/portal/verDoc.axd?t={14d426f8-8fc7-41ac-a0bc-55662a669157}}
+        </Content>
+        <ConversationID>PCHAT-0x10000027F01C9</ConversationID>
+    </Message>
+    <ParticipantEntered InteractionType="H">
+        <User>
+            <LoginName>SEANSYSTEM2</LoginName>
+            <FirstName>SEAN</FirstName>
+            <LastName>OLDFIELD</LastName>
+            <UUID>25813826</UUID>
+            <FirmNumber>848135</FirmNumber>
+            <AccountNumber>30413594</AccountNumber>
+            <CompanyName>MIRABELLA FINANCIAL</CompanyName>
+            <EmailAddress>SEANSYSTEM2@Bloomberg.net</EmailAddress>
+            <CorporateEmailAddress>sean@system2capital.com</CorporateEmailAddress>
+        </User>
+        <DateTime>03/13/2020 07:46:41</DateTime>
+        <DateTimeUTC>1584085601</DateTimeUTC>
+        <ConversationID>PCHAT-0x10000027F01C9</ConversationID>
+    </ParticipantEntered>
+    <History InteractionType="H">
+        <User>
+            <LoginName>SEANSYSTEM2</LoginName>
+            <FirstName>SEAN</FirstName>
+            <LastName>OLDFIELD</LastName>
+            <UUID>25813826</UUID>
+            <FirmNumber>848135</FirmNumber>
+            <AccountNumber>30413594</AccountNumber>
+            <CompanyName>MIRABELLA FINANCIAL</CompanyName>
+            <EmailAddress>SEANSYSTEM2@Bloomberg.net</EmailAddress>
+            <CorporateEmailAddress>sean@system2capital.com</CorporateEmailAddress>
+        </User>
+        <DateTime>03/13/2020 07:46:42</DateTime>
+        <DateTimeUTC>1584085602</DateTimeUTC>
+        <StartTime>03/13/2020 00:00:00</StartTime>
+        <StartTimeUTC>1584057600</StartTimeUTC>
+        <EndTime>03/13/2020 07:46:41</EndTime>
+        <EndTimeUTC>1584085601</EndTimeUTC>
+        <ConversationID>PCHAT-0x10000027F01C9</ConversationID>
+    </History>
+    <ParticipantEntered InteractionType="H">
+        <User>
+            <LoginName>CSELLEM4</LoginName>
+            <FirstName>CHARLES</FirstName>
+            <LastName>SELLEM</LastName>
+            <CompanyName>JEFFERIES INTERNATIO</CompanyName>
+            <EmailAddress>CSELLEM4@Bloomberg.net</EmailAddress>
+            <CorporateEmailAddress></CorporateEmailAddress>
+        </User>
+        <DateTime>03/13/2020 07:55:06</DateTime>
+        <DateTimeUTC>1584086106</DateTimeUTC>
+        <ConversationID>PCHAT-0x10000027F01C9</ConversationID>
+    </ParticipantEntered>
+    <Message InteractionType="H">
+        <User>
+            <LoginName>CSELLEM4</LoginName>
+            <FirstName>CHARLES</FirstName>
+            <LastName>SELLEM</LastName>
+            <CompanyName>JEFFERIES INTERNATIO</CompanyName>
+            <EmailAddress>CSELLEM4@Bloomberg.net</EmailAddress>
+            <CorporateEmailAddress></CorporateEmailAddress>
+        </User>
+        <DateTime>03/13/2020 07:55:06</DateTime>
+        <DateTimeUTC>1584086106</DateTimeUTC>
+        <Content>
+            *** JEFFERIES INTERNATIO (30436661) Disclaimer: Jefferies archives and monitors outgoing and incoming
+            messages. The contents of this message, including any attachments, are confidential to the ordinary user of
+            the address to which it was addressed. If you are not the addressee of this message you may not copy,
+            forward, disclose or otherwise use it or any part of it in any form whatsoever. This message may be produced
+            at the request of regulators or in connection with civil litigation. Jefferies accepts no liability for any
+            errors or omissions arising as a result of transmission. Use by other than intended recipients is
+            prohibited; if you received this transmission in error please contact the sender.
+        </Content>
+        <ConversationID>PCHAT-0x10000027F01C9</ConversationID>
+    </Message>
+    <History InteractionType="H">
+        <User>
+            <LoginName>CSELLEM4</LoginName>
+            <FirstName>CHARLES</FirstName>
+            <LastName>SELLEM</LastName>
+            <CompanyName>JEFFERIES INTERNATIO</CompanyName>
+            <EmailAddress>CSELLEM4@Bloomberg.net</EmailAddress>
+            <CorporateEmailAddress></CorporateEmailAddress>
+        </User>
+        <DateTime>03/13/2020 07:55:09</DateTime>
+        <DateTimeUTC>1584086109</DateTimeUTC>
+        <StartTime>03/13/2020 00:00:00</StartTime>
+        <StartTimeUTC>1584057600</StartTimeUTC>
+        <EndTime>03/13/2020 07:55:06</EndTime>
+        <EndTimeUTC>1584086106</EndTimeUTC>
+        <ConversationID>PCHAT-0x10000027F01C9</ConversationID>
+    </History>
+    <ParticipantEntered InteractionType="H">
+        <User>
+            <LoginName>DBREWERS2C</LoginName>
+            <FirstName>DAN</FirstName>
+            <LastName>BREWER</LastName>
+            <UUID>26589322</UUID>
+            <FirmNumber>848135</FirmNumber>
+            <AccountNumber>30413594</AccountNumber>
+            <CompanyName>MIRABELLA FINANCIAL</CompanyName>
+            <EmailAddress>DBREWERS2C@Bloomberg.net</EmailAddress>
+            <CorporateEmailAddress>dan.brewer@system2capital.com</CorporateEmailAddress>
+        </User>
+        <DateTime>03/13/2020 07:55:25</DateTime>
+        <DateTimeUTC>1584086125</DateTimeUTC>
+        <ConversationID>PCHAT-0x10000027F01C9</ConversationID>
+    </ParticipantEntered>
+    <History InteractionType="H">
+        <User>
+            <LoginName>DBREWERS2C</LoginName>
+            <FirstName>DAN</FirstName>
+            <LastName>BREWER</LastName>
+            <UUID>26589322</UUID>
+            <FirmNumber>848135</FirmNumber>
+            <AccountNumber>30413594</AccountNumber>
+            <CompanyName>MIRABELLA FINANCIAL</CompanyName>
+            <EmailAddress>DBREWERS2C@Bloomberg.net</EmailAddress>
+            <CorporateEmailAddress>dan.brewer@system2capital.com</CorporateEmailAddress>
+        </User>
+        <DateTime>03/13/2020 07:55:26</DateTime>
+        <DateTimeUTC>1584086126</DateTimeUTC>
+        <StartTime>03/13/2020 00:00:00</StartTime>
+        <StartTimeUTC>1584057600</StartTimeUTC>
+        <EndTime>03/13/2020 07:55:25</EndTime>
+        <EndTimeUTC>1584086125</EndTimeUTC>
+        <ConversationID>PCHAT-0x10000027F01C9</ConversationID>
+    </History>
+    <ParticipantEntered InteractionType="NH">
+        <User>
+            <LoginName>SHAMMERSLEY</LoginName>
+            <FirstName>SEAN</FirstName>
+            <LastName>HAMMERSLEY</LastName>
+            <CompanyName>JEFFERIES INTERNATIO</CompanyName>
+            <EmailAddress>SHAMMERSLEY@Bloomberg.net</EmailAddress>
+            <CorporateEmailAddress></CorporateEmailAddress>
+        </User>
+        <DateTime>03/13/2020 07:57:50</DateTime>
+        <DateTimeUTC>1584086270</DateTimeUTC>
+        <ConversationID>PCHAT-0x10000027F01C9</ConversationID>
+    </ParticipantEntered>
+    <Message InteractionType="NH">
+        <User>
+            <LoginName>SHAMMERSLEY</LoginName>
+            <FirstName>SEAN</FirstName>
+            <LastName>HAMMERSLEY</LastName>
+            <CompanyName>JEFFERIES INTERNATIO</CompanyName>
+            <EmailAddress>SHAMMERSLEY@Bloomberg.net</EmailAddress>
+            <CorporateEmailAddress></CorporateEmailAddress>
+        </User>
+        <DateTime>03/13/2020 07:57:50</DateTime>
+        <DateTimeUTC>1584086270</DateTimeUTC>
+        <Content>
+            *** JEFFERIES INTERNATIO (30436661) Disclaimer: Jefferies archives and monitors outgoing and incoming
+            messages. The contents of this message, including any attachments, are confidential to the ordinary user of
+            the address to which it was addressed. If you are not the addressee of this message you may not copy,
+            forward, disclose or otherwise use it or any part of it in any form whatsoever. This message may be produced
+            at the request of regulators or in connection with civil litigation. Jefferies accepts no liability for any
+            errors or omissions arising as a result of transmission. Use by other than intended recipients is
+            prohibited; if you received this transmission in error please contact the sender.
+        </Content>
+        <ConversationID>PCHAT-0x10000027F01C9</ConversationID>
+    </Message>
+    <History InteractionType="H">
+        <User>
+            <LoginName>SHAMMERSLEY</LoginName>
+            <FirstName>SEAN</FirstName>
+            <LastName>HAMMERSLEY</LastName>
+            <CompanyName>JEFFERIES INTERNATIO</CompanyName>
+            <EmailAddress>SHAMMERSLEY@Bloomberg.net</EmailAddress>
+            <CorporateEmailAddress></CorporateEmailAddress>
+        </User>
+        <DateTime>03/13/2020 07:57:56</DateTime>
+        <DateTimeUTC>1584086276</DateTimeUTC>
+        <StartTime>03/13/2020 00:00:00</StartTime>
+        <StartTimeUTC>1584057600</StartTimeUTC>
+        <EndTime>03/13/2020 07:57:50</EndTime>
+        <EndTimeUTC>1584086270</EndTimeUTC>
+        <ConversationID>PCHAT-0x10000027F01C9</ConversationID>
+    </History>
+    <Message InteractionType="H">
+        <User>
+            <LoginName>BJNIXON</LoginName>
+            <FirstName>BEN</FirstName>
+            <LastName>NIXON</LastName>
+            <CompanyName>JEFFERIES INTERNATIO</CompanyName>
+            <EmailAddress>BJNIXON@Bloomberg.net</EmailAddress>
+            <CorporateEmailAddress></CorporateEmailAddress>
+        </User>
+        <DateTime>03/13/2020 08:17:51</DateTime>
+        <DateTimeUTC>1584087471</DateTimeUTC>
+        <Content>
+            AMS 22 opener
+
+            AMS 22 79.50 - 83.50 r 20.50
+        </Content>
+        <ConversationID>PCHAT-0x10000027F01C9</ConversationID>
+    </Message>
+    <ParticipantEntered InteractionType="H">
+        <User>
+            <LoginName>TARAGS2C</LoginName>
+            <FirstName>TARA</FirstName>
+            <LastName>GIBSON</LastName>
+            <UUID>27186304</UUID>
+            <FirmNumber>848135</FirmNumber>
+            <AccountNumber>30413594</AccountNumber>
+            <CompanyName>MIRABELLA FINANCIAL</CompanyName>
+            <EmailAddress>TARAGS2C@Bloomberg.net</EmailAddress>
+            <CorporateEmailAddress>tara@system2capital.com</CorporateEmailAddress>
+        </User>
+        <DateTime>03/13/2020 08:19:13</DateTime>
+        <DateTimeUTC>1584087553</DateTimeUTC>
+        <ConversationID>PCHAT-0x10000027F01C9</ConversationID>
+    </ParticipantEntered>
+    <History InteractionType="H">
+        <User>
+            <LoginName>TARAGS2C</LoginName>
+            <FirstName>TARA</FirstName>
+            <LastName>GIBSON</LastName>
+            <UUID>27186304</UUID>
+            <FirmNumber>848135</FirmNumber>
+            <AccountNumber>30413594</AccountNumber>
+            <CompanyName>MIRABELLA FINANCIAL</CompanyName>
+            <EmailAddress>TARAGS2C@Bloomberg.net</EmailAddress>
+            <CorporateEmailAddress>tara@system2capital.com</CorporateEmailAddress>
+        </User>
+        <DateTime>03/13/2020 08:19:16</DateTime>
+        <DateTimeUTC>1584087556</DateTimeUTC>
+        <StartTime>03/13/2020 00:00:00</StartTime>
+        <StartTimeUTC>1584057600</StartTimeUTC>
+        <EndTime>03/13/2020 08:19:13</EndTime>
+        <EndTimeUTC>1584087553</EndTimeUTC>
+        <ConversationID>PCHAT-0x10000027F01C9</ConversationID>
+    </History>
+    <Message InteractionType="H">
+        <User>
+            <LoginName>SHAMMERSLEY</LoginName>
+            <FirstName>SEAN</FirstName>
+            <LastName>HAMMERSLEY</LastName>
+            <CompanyName>JEFFERIES INTERNATIO</CompanyName>
+            <EmailAddress>SHAMMERSLEY@Bloomberg.net</EmailAddress>
+            <CorporateEmailAddress></CorporateEmailAddress>
+        </User>
+        <DateTime>03/13/2020 08:27:40</DateTime>
+        <DateTimeUTC>1584088060</DateTimeUTC>
+        <Content>
+            Buyer Dassault
+            Airbus/Dassault 0% 6/21 98.90 - 99.40 ref 744
+        </Content>
+        <ConversationID>PCHAT-0x10000027F01C9</ConversationID>
+    </Message>
+    <Message InteractionType="H">
+        <User>
+            <LoginName>SEANSYSTEM2</LoginName>
+            <FirstName>SEAN</FirstName>
+            <LastName>OLDFIELD</LastName>
+            <UUID>25813826</UUID>
+            <FirmNumber>848135</FirmNumber>
+            <AccountNumber>30413594</AccountNumber>
+            <CompanyName>MIRABELLA FINANCIAL</CompanyName>
+            <EmailAddress>SEANSYSTEM2@Bloomberg.net</EmailAddress>
+            <CorporateEmailAddress>sean@system2capital.com</CorporateEmailAddress>
+        </User>
+        <DateTime>03/13/2020 08:48:38</DateTime>
+        <DateTimeUTC>1584089318</DateTimeUTC>
+        <Content>
+            Hi Sean, we have 1MM of Airbus
+        </Content>
+        <ConversationID>PCHAT-0x10000027F01C9</ConversationID>
+    </Message>
+    <Message InteractionType="H">
+        <User>
+            <LoginName>SEANSYSTEM2</LoginName>
+            <FirstName>SEAN</FirstName>
+            <LastName>OLDFIELD</LastName>
+            <UUID>25813826</UUID>
+            <FirmNumber>848135</FirmNumber>
+            <AccountNumber>30413594</AccountNumber>
+            <CompanyName>MIRABELLA FINANCIAL</CompanyName>
+            <EmailAddress>SEANSYSTEM2@Bloomberg.net</EmailAddress>
+            <CorporateEmailAddress>sean@system2capital.com</CorporateEmailAddress>
+        </User>
+        <DateTime>03/13/2020 08:48:46</DateTime>
+        <DateTimeUTC>1584089326</DateTimeUTC>
+        <Content>
+            You guys off the bid, or done already?
+        </Content>
+        <ConversationID>PCHAT-0x10000027F01C9</ConversationID>
+    </Message>
+    <Message InteractionType="H">
+        <User>
+            <LoginName>SHAMMERSLEY</LoginName>
+            <FirstName>SEAN</FirstName>
+            <LastName>HAMMERSLEY</LastName>
+            <CompanyName>JEFFERIES INTERNATIO</CompanyName>
+            <EmailAddress>SHAMMERSLEY@Bloomberg.net</EmailAddress>
+            <CorporateEmailAddress></CorporateEmailAddress>
+        </User>
+        <DateTime>03/13/2020 08:51:44</DateTime>
+        <DateTimeUTC>1584089504</DateTimeUTC>
+        <Content>
+            98.90 works on airbus
+        </Content>
+        <ConversationID>PCHAT-0x10000027F01C9</ConversationID>
+    </Message>
+    <Message InteractionType="H">
+        <User>
+            <LoginName>DBREWERS2C</LoginName>
+            <FirstName>DAN</FirstName>
+            <LastName>BREWER</LastName>
+            <UUID>26589322</UUID>
+            <FirmNumber>848135</FirmNumber>
+            <AccountNumber>30413594</AccountNumber>
+            <CompanyName>MIRABELLA FINANCIAL</CompanyName>
+            <EmailAddress>DBREWERS2C@Bloomberg.net</EmailAddress>
+            <CorporateEmailAddress>dan.brewer@system2capital.com</CorporateEmailAddress>
+        </User>
+        <DateTime>03/13/2020 08:52:18</DateTime>
+        <DateTimeUTC>1584089538</DateTimeUTC>
+        <Content>
+            Stock ref looks a little high
+        </Content>
+        <ConversationID>PCHAT-0x10000027F01C9</ConversationID>
+    </Message>
+    <Message InteractionType="H">
+        <User>
+            <LoginName>SHAMMERSLEY</LoginName>
+            <FirstName>SEAN</FirstName>
+            <LastName>HAMMERSLEY</LastName>
+            <CompanyName>JEFFERIES INTERNATIO</CompanyName>
+            <EmailAddress>SHAMMERSLEY@Bloomberg.net</EmailAddress>
+            <CorporateEmailAddress></CorporateEmailAddress>
+        </User>
+        <DateTime>03/13/2020 08:52:39</DateTime>
+        <DateTimeUTC>1584089559</DateTimeUTC>
+        <Content>
+            It trades o/r
+        </Content>
+        <ConversationID>PCHAT-0x10000027F01C9</ConversationID>
+    </Message>
+    <Message InteractionType="H">
+        <User>
+            <LoginName>SHAMMERSLEY</LoginName>
+            <FirstName>SEAN</FirstName>
+            <LastName>HAMMERSLEY</LastName>
+            <CompanyName>JEFFERIES INTERNATIO</CompanyName>
+            <EmailAddress>SHAMMERSLEY@Bloomberg.net</EmailAddress>
+            <CorporateEmailAddress></CorporateEmailAddress>
+        </User>
+        <DateTime>03/13/2020 08:52:41</DateTime>
+        <DateTimeUTC>1584089561</DateTimeUTC>
+        <Content>
+            No delta
+        </Content>
+        <ConversationID>PCHAT-0x10000027F01C9</ConversationID>
+    </Message>
+    <Message InteractionType="H">
+        <User>
+            <LoginName>DBREWERS2C</LoginName>
+            <FirstName>DAN</FirstName>
+            <LastName>BREWER</LastName>
+            <UUID>26589322</UUID>
+            <FirmNumber>848135</FirmNumber>
+            <AccountNumber>30413594</AccountNumber>
+            <CompanyName>MIRABELLA FINANCIAL</CompanyName>
+            <EmailAddress>DBREWERS2C@Bloomberg.net</EmailAddress>
+            <CorporateEmailAddress>dan.brewer@system2capital.com</CorporateEmailAddress>
+        </User>
+        <DateTime>03/13/2020 08:52:48</DateTime>
+        <DateTimeUTC>1584089568</DateTimeUTC>
+        <Content>
+            Ok
+        </Content>
+        <ConversationID>PCHAT-0x10000027F01C9</ConversationID>
+    </Message>
+    <Message InteractionType="H">
+        <User>
+            <LoginName>SHAMMERSLEY</LoginName>
+            <FirstName>SEAN</FirstName>
+            <LastName>HAMMERSLEY</LastName>
+            <CompanyName>JEFFERIES INTERNATIO</CompanyName>
+            <EmailAddress>SHAMMERSLEY@Bloomberg.net</EmailAddress>
+            <CorporateEmailAddress></CorporateEmailAddress>
+        </User>
+        <DateTime>03/13/2020 08:52:59</DateTime>
+        <DateTimeUTC>1584089579</DateTimeUTC>
+        <Content>
+            Been hit already
+        </Content>
+        <ConversationID>PCHAT-0x10000027F01C9</ConversationID>
+    </Message>
+    <Message InteractionType="H">
+        <User>
+            <LoginName>SHAMMERSLEY</LoginName>
+            <FirstName>SEAN</FirstName>
+            <LastName>HAMMERSLEY</LastName>
+            <CompanyName>JEFFERIES INTERNATIO</CompanyName>
+            <EmailAddress>SHAMMERSLEY@Bloomberg.net</EmailAddress>
+            <CorporateEmailAddress></CorporateEmailAddress>
+        </User>
+        <DateTime>03/13/2020 08:53:04</DateTime>
+        <DateTimeUTC>1584089584</DateTimeUTC>
+        <Content>
+            Your call
+        </Content>
+        <ConversationID>PCHAT-0x10000027F01C9</ConversationID>
+    </Message>
+    <Message InteractionType="H">
+        <User>
+            <LoginName>SHAMMERSLEY</LoginName>
+            <FirstName>SEAN</FirstName>
+            <LastName>HAMMERSLEY</LastName>
+            <CompanyName>JEFFERIES INTERNATIO</CompanyName>
+            <EmailAddress>SHAMMERSLEY@Bloomberg.net</EmailAddress>
+            <CorporateEmailAddress></CorporateEmailAddress>
+        </User>
+        <DateTime>03/13/2020 08:53:08</DateTime>
+        <DateTimeUTC>1584089588</DateTimeUTC>
+        <Content>
+            I still work it for now
+        </Content>
+        <ConversationID>PCHAT-0x10000027F01C9</ConversationID>
+    </Message>
+    <Message InteractionType="H">
+        <User>
+            <LoginName>DBREWERS2C</LoginName>
+            <FirstName>DAN</FirstName>
+            <LastName>BREWER</LastName>
+            <UUID>26589322</UUID>
+            <FirmNumber>848135</FirmNumber>
+            <AccountNumber>30413594</AccountNumber>
+            <CompanyName>MIRABELLA FINANCIAL</CompanyName>
+            <EmailAddress>DBREWERS2C@Bloomberg.net</EmailAddress>
+            <CorporateEmailAddress>dan.brewer@system2capital.com</CorporateEmailAddress>
+        </User>
+        <DateTime>03/13/2020 08:53:25</DateTime>
+        <DateTimeUTC>1584089605</DateTimeUTC>
+        <Content>
+            Yes, we&apos;ll sell 1MM there
+        </Content>
+        <ConversationID>PCHAT-0x10000027F01C9</ConversationID>
+    </Message>
+    <Message InteractionType="H">
+        <User>
+            <LoginName>SHAMMERSLEY</LoginName>
+            <FirstName>SEAN</FirstName>
+            <LastName>HAMMERSLEY</LastName>
+            <CompanyName>JEFFERIES INTERNATIO</CompanyName>
+            <EmailAddress>SHAMMERSLEY@Bloomberg.net</EmailAddress>
+            <CorporateEmailAddress></CorporateEmailAddress>
+        </User>
+        <DateTime>03/13/2020 08:54:00</DateTime>
+        <DateTimeUTC>1584089640</DateTimeUTC>
+        <Content>
+            Cool, done
+        </Content>
+        <ConversationID>PCHAT-0x10000027F01C9</ConversationID>
+    </Message>
+    <Message InteractionType="H">
+        <User>
+            <LoginName>DBREWERS2C</LoginName>
+            <FirstName>DAN</FirstName>
+            <LastName>BREWER</LastName>
+            <UUID>26589322</UUID>
+            <FirmNumber>848135</FirmNumber>
+            <AccountNumber>30413594</AccountNumber>
+            <CompanyName>MIRABELLA FINANCIAL</CompanyName>
+            <EmailAddress>DBREWERS2C@Bloomberg.net</EmailAddress>
+            <CorporateEmailAddress>dan.brewer@system2capital.com</CorporateEmailAddress>
+        </User>
+        <DateTime>03/13/2020 08:55:00</DateTime>
+        <DateTimeUTC>1584089700</DateTimeUTC>
+        <Content>
+            Thanks
+        </Content>
+        <ConversationID>PCHAT-0x10000027F01C9</ConversationID>
+    </Message>
+    <ParticipantEntered InteractionType="H" DeviceType="M">
+        <User>
+            <LoginName>LUDOCOHEN</LoginName>
+            <FirstName>LUDOVIC</FirstName>
+            <LastName>COHEN</LastName>
+            <CompanyName>JEFFERIES INTERNATIO</CompanyName>
+            <EmailAddress>LUDOCOHEN@Bloomberg.net</EmailAddress>
+            <CorporateEmailAddress></CorporateEmailAddress>
+        </User>
+        <DateTime>03/13/2020 09:39:34</DateTime>
+        <DateTimeUTC>1584092374</DateTimeUTC>
+        <ConversationID>PCHAT-0x10000027F01C9</ConversationID>
+    </ParticipantEntered>
+    <Message InteractionType="H" DeviceType="M">
+        <User>
+            <LoginName>LUDOCOHEN</LoginName>
+            <FirstName>LUDOVIC</FirstName>
+            <LastName>COHEN</LastName>
+            <CompanyName>JEFFERIES INTERNATIO</CompanyName>
+            <EmailAddress>LUDOCOHEN@Bloomberg.net</EmailAddress>
+            <CorporateEmailAddress></CorporateEmailAddress>
+        </User>
+        <DateTime>03/13/2020 09:39:34</DateTime>
+        <DateTimeUTC>1584092374</DateTimeUTC>
+        <Content>
+            *** JEFFERIES INTERNATIO (30436661) Disclaimer: Jefferies archives and monitors outgoing and incoming
+            messages. The contents of this message, including any attachments, are confidential to the ordinary user of
+            the address to which it was addressed. If you are not the addressee of this message you may not copy,
+            forward, disclose or otherwise use it or any part of it in any form whatsoever. This message may be produced
+            at the request of regulators or in connection with civil litigation. Jefferies accepts no liability for any
+            errors or omissions arising as a result of transmission. Use by other than intended recipients is
+            prohibited; if you received this transmission in error please contact the sender.
+        </Content>
+        <ConversationID>PCHAT-0x10000027F01C9</ConversationID>
+    </Message>
+    <History InteractionType="H">
+        <User>
+            <LoginName>LUDOCOHEN</LoginName>
+            <FirstName>LUDOVIC</FirstName>
+            <LastName>COHEN</LastName>
+            <CompanyName>JEFFERIES INTERNATIO</CompanyName>
+            <EmailAddress>LUDOCOHEN@Bloomberg.net</EmailAddress>
+            <CorporateEmailAddress></CorporateEmailAddress>
+        </User>
+        <DateTime>03/13/2020 09:39:34</DateTime>
+        <DateTimeUTC>1584092374</DateTimeUTC>
+        <StartTime>03/12/2020 09:39:34</StartTime>
+        <StartTimeUTC>1584005974</StartTimeUTC>
+        <EndTime>03/13/2020 09:39:34</EndTime>
+        <EndTimeUTC>1584092374</EndTimeUTC>
+        <ConversationID>PCHAT-0x10000027F01C9</ConversationID>
+    </History>
+    <ParticipantEntered InteractionType="H" DeviceType="M">
+        <User>
+            <LoginName>RBETTERIDGE3</LoginName>
+            <FirstName>RUSSELL</FirstName>
+            <LastName>BETTERIDGE</LastName>
+            <CompanyName>JEFFERIES INTERNATIO</CompanyName>
+            <EmailAddress>RBETTERIDGE3@Bloomberg.net</EmailAddress>
+            <CorporateEmailAddress></CorporateEmailAddress>
+        </User>
+        <DateTime>03/13/2020 11:01:00</DateTime>
+        <DateTimeUTC>1584097260</DateTimeUTC>
+        <ConversationID>PCHAT-0x10000027F01C9</ConversationID>
+    </ParticipantEntered>
+    <Message InteractionType="H" DeviceType="M">
+        <User>
+            <LoginName>RBETTERIDGE3</LoginName>
+            <FirstName>RUSSELL</FirstName>
+            <LastName>BETTERIDGE</LastName>
+            <CompanyName>JEFFERIES INTERNATIO</CompanyName>
+            <EmailAddress>RBETTERIDGE3@Bloomberg.net</EmailAddress>
+            <CorporateEmailAddress></CorporateEmailAddress>
+        </User>
+        <DateTime>03/13/2020 11:01:00</DateTime>
+        <DateTimeUTC>1584097260</DateTimeUTC>
+        <Content>
+            *** JEFFERIES INTERNATIO (30436661) Disclaimer: Jefferies archives and monitors outgoing and incoming
+            messages. The contents of this message, including any attachments, are confidential to the ordinary user of
+            the address to which it was addressed. If you are not the addressee of this message you may not copy,
+            forward, disclose or otherwise use it or any part of it in any form whatsoever. This message may be produced
+            at the request of regulators or in connection with civil litigation. Jefferies accepts no liability for any
+            errors or omissions arising as a result of transmission. Use by other than intended recipients is
+            prohibited; if you received this transmission in error please contact the sender.
+        </Content>
+        <ConversationID>PCHAT-0x10000027F01C9</ConversationID>
+    </Message>
+    <History InteractionType="H">
+        <User>
+            <LoginName>RBETTERIDGE3</LoginName>
+            <FirstName>RUSSELL</FirstName>
+            <LastName>BETTERIDGE</LastName>
+            <CompanyName>JEFFERIES INTERNATIO</CompanyName>
+            <EmailAddress>RBETTERIDGE3@Bloomberg.net</EmailAddress>
+            <CorporateEmailAddress></CorporateEmailAddress>
+        </User>
+        <DateTime>03/13/2020 11:01:01</DateTime>
+        <DateTimeUTC>1584097261</DateTimeUTC>
+        <StartTime>03/12/2020 11:01:01</StartTime>
+        <StartTimeUTC>1584010861</StartTimeUTC>
+        <EndTime>03/13/2020 11:01:01</EndTime>
+        <EndTimeUTC>1584097261</EndTimeUTC>
+        <ConversationID>PCHAT-0x10000027F01C9</ConversationID>
+    </History>
+    <ParticipantEntered InteractionType="H" DeviceType="M">
+        <User>
+            <LoginName>LUDOCOHEN</LoginName>
+            <FirstName>LUDOVIC</FirstName>
+            <LastName>COHEN</LastName>
+            <CompanyName>JEFFERIES INTERNATIO</CompanyName>
+            <EmailAddress>LUDOCOHEN@Bloomberg.net</EmailAddress>
+            <CorporateEmailAddress></CorporateEmailAddress>
+        </User>
+        <DateTime>03/13/2020 11:01:20</DateTime>
+        <DateTimeUTC>1584097280</DateTimeUTC>
+        <ConversationID>PCHAT-0x10000027F01C9</ConversationID>
+    </ParticipantEntered>
+    <Message InteractionType="H" DeviceType="M">
+        <User>
+            <LoginName>LUDOCOHEN</LoginName>
+            <FirstName>LUDOVIC</FirstName>
+            <LastName>COHEN</LastName>
+            <CompanyName>JEFFERIES INTERNATIO</CompanyName>
+            <EmailAddress>LUDOCOHEN@Bloomberg.net</EmailAddress>
+            <CorporateEmailAddress></CorporateEmailAddress>
+        </User>
+        <DateTime>03/13/2020 11:01:20</DateTime>
+        <DateTimeUTC>1584097280</DateTimeUTC>
+        <Content>
+            *** JEFFERIES INTERNATIO (30436661) Disclaimer: Jefferies archives and monitors outgoing and incoming
+            messages. The contents of this message, including any attachments, are confidential to the ordinary user of
+            the address to which it was addressed. If you are not the addressee of this message you may not copy,
+            forward, disclose or otherwise use it or any part of it in any form whatsoever. This message may be produced
+            at the request of regulators or in connection with civil litigation. Jefferies accepts no liability for any
+            errors or omissions arising as a result of transmission. Use by other than intended recipients is
+            prohibited; if you received this transmission in error please contact the sender.
+        </Content>
+        <ConversationID>PCHAT-0x10000027F01C9</ConversationID>
+    </Message>
+    <ParticipantEntered InteractionType="H" DeviceType="M">
+        <User>
+            <LoginName>SEANSYSTEM2</LoginName>
+            <FirstName>SEAN</FirstName>
+            <LastName>OLDFIELD</LastName>
+            <UUID>25813826</UUID>
+            <FirmNumber>848135</FirmNumber>
+            <AccountNumber>30413594</AccountNumber>
+            <CompanyName>MIRABELLA FINANCIAL</CompanyName>
+            <EmailAddress>SEANSYSTEM2@Bloomberg.net</EmailAddress>
+            <CorporateEmailAddress>sean@system2capital.com</CorporateEmailAddress>
+        </User>
+        <DateTime>03/13/2020 11:02:13</DateTime>
+        <DateTimeUTC>1584097333</DateTimeUTC>
+        <ConversationID>PCHAT-0x10000027F01C9</ConversationID>
+    </ParticipantEntered>
+    <Message InteractionType="H">
+        <User>
+            <LoginName>DBREWERS2C</LoginName>
+            <FirstName>DAN</FirstName>
+            <LastName>BREWER</LastName>
+            <UUID>26589322</UUID>
+            <FirmNumber>848135</FirmNumber>
+            <AccountNumber>30413594</AccountNumber>
+            <CompanyName>MIRABELLA FINANCIAL</CompanyName>
+            <EmailAddress>DBREWERS2C@Bloomberg.net</EmailAddress>
+            <CorporateEmailAddress>dan.brewer@system2capital.com</CorporateEmailAddress>
+        </User>
+        <DateTime>03/13/2020 11:03:12</DateTime>
+        <DateTimeUTC>1584097392</DateTimeUTC>
+        <Content>
+            Hey Sean, can you flick that VCON across when you get a sec pls
+        </Content>
+        <ConversationID>PCHAT-0x10000027F01C9</ConversationID>
+    </Message>
+    <Message InteractionType="H">
+        <User>
+            <LoginName>SOBRIEN99</LoginName>
+            <FirstName>SEAN</FirstName>
+            <LastName>O&apos;BRIEN</LastName>
+            <CompanyName>JEFFERIES INTERNATIO</CompanyName>
+            <EmailAddress>SOBRIEN99@Bloomberg.net</EmailAddress>
+            <CorporateEmailAddress></CorporateEmailAddress>
+        </User>
+        <DateTime>03/13/2020 11:03:18</DateTime>
+        <DateTimeUTC>1584097398</DateTimeUTC>
+        <Content>
+            sure
+        </Content>
+        <ConversationID>PCHAT-0x10000027F01C9</ConversationID>
+    </Message>
+    <Message InteractionType="H">
+        <User>
+            <LoginName>DBREWERS2C</LoginName>
+            <FirstName>DAN</FirstName>
+            <LastName>BREWER</LastName>
+            <UUID>26589322</UUID>
+            <FirmNumber>848135</FirmNumber>
+            <AccountNumber>30413594</AccountNumber>
+            <CompanyName>MIRABELLA FINANCIAL</CompanyName>
+            <EmailAddress>DBREWERS2C@Bloomberg.net</EmailAddress>
+            <CorporateEmailAddress>dan.brewer@system2capital.com</CorporateEmailAddress>
+        </User>
+        <DateTime>03/13/2020 11:04:53</DateTime>
+        <DateTimeUTC>1584097493</DateTimeUTC>
+        <Content>
+            thanks
+        </Content>
+        <ConversationID>PCHAT-0x10000027F01C9</ConversationID>
+    </Message>
+    <Message InteractionType="H">
+        <User>
+            <LoginName>SOBRIEN99</LoginName>
+            <FirstName>SEAN</FirstName>
+            <LastName>O&apos;BRIEN</LastName>
+            <CompanyName>JEFFERIES INTERNATIO</CompanyName>
+            <EmailAddress>SOBRIEN99@Bloomberg.net</EmailAddress>
+            <CorporateEmailAddress></CorporateEmailAddress>
+        </User>
+        <DateTime>03/13/2020 11:04:59</DateTime>
+        <DateTimeUTC>1584097499</DateTimeUTC>
+        <Content>
+            np
+        </Content>
+        <ConversationID>PCHAT-0x10000027F01C9</ConversationID>
+    </Message>
+    <History InteractionType="H">
+        <User>
+            <LoginName>SEANSYSTEM2</LoginName>
+            <FirstName>SEAN</FirstName>
+            <LastName>OLDFIELD</LastName>
+            <UUID>25813826</UUID>
+            <FirmNumber>848135</FirmNumber>
+            <AccountNumber>30413594</AccountNumber>
+            <CompanyName>MIRABELLA FINANCIAL</CompanyName>
+            <EmailAddress>SEANSYSTEM2@Bloomberg.net</EmailAddress>
+            <CorporateEmailAddress>sean@system2capital.com</CorporateEmailAddress>
+        </User>
+        <DateTime>03/13/2020 11:32:14</DateTime>
+        <DateTimeUTC>1584099134</DateTimeUTC>
+        <StartTime>03/12/2020 00:00:00</StartTime>
+        <StartTimeUTC>1583971200</StartTimeUTC>
+        <EndTime>03/13/2020 00:00:00</EndTime>
+        <EndTimeUTC>1584057600</EndTimeUTC>
+        <ConversationID>PCHAT-0x10000027F01C9</ConversationID>
+    </History>
+    <ParticipantEntered InteractionType="H" DeviceType="M">
+        <User>
+            <LoginName>SOBRIEN99</LoginName>
+            <FirstName>SEAN</FirstName>
+            <LastName>O&apos;BRIEN</LastName>
+            <CompanyName>JEFFERIES INTERNATIO</CompanyName>
+            <EmailAddress>SOBRIEN99@Bloomberg.net</EmailAddress>
+            <CorporateEmailAddress></CorporateEmailAddress>
+        </User>
+        <DateTime>03/13/2020 11:41:26</DateTime>
+        <DateTimeUTC>1584099686</DateTimeUTC>
+        <ConversationID>PCHAT-0x10000027F01C9</ConversationID>
+    </ParticipantEntered>
+    <Message InteractionType="H" DeviceType="M">
+        <User>
+            <LoginName>SOBRIEN99</LoginName>
+            <FirstName>SEAN</FirstName>
+            <LastName>O&apos;BRIEN</LastName>
+            <CompanyName>JEFFERIES INTERNATIO</CompanyName>
+            <EmailAddress>SOBRIEN99@Bloomberg.net</EmailAddress>
+            <CorporateEmailAddress></CorporateEmailAddress>
+        </User>
+        <DateTime>03/13/2020 11:41:26</DateTime>
+        <DateTimeUTC>1584099686</DateTimeUTC>
+        <Content>
+            *** JEFFERIES INTERNATIO (30436661) Disclaimer: Jefferies archives and monitors outgoing and incoming
+            messages. The contents of this message, including any attachments, are confidential to the ordinary user of
+            the address to which it was addressed. If you are not the addressee of this message you may not copy,
+            forward, disclose or otherwise use it or any part of it in any form whatsoever. This message may be produced
+            at the request of regulators or in connection with civil litigation. Jefferies accepts no liability for any
+            errors or omissions arising as a result of transmission. Use by other than intended recipients is
+            prohibited; if you received this transmission in error please contact the sender.
+        </Content>
+        <ConversationID>PCHAT-0x10000027F01C9</ConversationID>
+    </Message>
+    <History InteractionType="H">
+        <User>
+            <LoginName>SOBRIEN99</LoginName>
+            <FirstName>SEAN</FirstName>
+            <LastName>O&apos;BRIEN</LastName>
+            <CompanyName>JEFFERIES INTERNATIO</CompanyName>
+            <EmailAddress>SOBRIEN99@Bloomberg.net</EmailAddress>
+            <CorporateEmailAddress></CorporateEmailAddress>
+        </User>
+        <DateTime>03/13/2020 11:41:26</DateTime>
+        <DateTimeUTC>1584099686</DateTimeUTC>
+        <StartTime>03/12/2020 11:41:26</StartTime>
+        <StartTimeUTC>1584013286</StartTimeUTC>
+        <EndTime>03/13/2020 11:41:26</EndTime>
+        <EndTimeUTC>1584099686</EndTimeUTC>
+        <ConversationID>PCHAT-0x10000027F01C9</ConversationID>
+    </History>
+    <ParticipantEntered InteractionType="H" DeviceType="M">
+        <User>
+            <LoginName>CSELLEM4</LoginName>
+            <FirstName>CHARLES</FirstName>
+            <LastName>SELLEM</LastName>
+            <CompanyName>JEFFERIES INTERNATIO</CompanyName>
+            <EmailAddress>CSELLEM4@Bloomberg.net</EmailAddress>
+            <CorporateEmailAddress></CorporateEmailAddress>
+        </User>
+        <DateTime>03/13/2020 11:59:29</DateTime>
+        <DateTimeUTC>1584100769</DateTimeUTC>
+        <ConversationID>PCHAT-0x10000027F01C9</ConversationID>
+    </ParticipantEntered>
+    <Message InteractionType="H" DeviceType="M">
+        <User>
+            <LoginName>CSELLEM4</LoginName>
+            <FirstName>CHARLES</FirstName>
+            <LastName>SELLEM</LastName>
+            <CompanyName>JEFFERIES INTERNATIO</CompanyName>
+            <EmailAddress>CSELLEM4@Bloomberg.net</EmailAddress>
+            <CorporateEmailAddress></CorporateEmailAddress>
+        </User>
+        <DateTime>03/13/2020 11:59:29</DateTime>
+        <DateTimeUTC>1584100769</DateTimeUTC>
+        <Content>
+            *** JEFFERIES INTERNATIO (30436661) Disclaimer: Jefferies archives and monitors outgoing and incoming
+            messages. The contents of this message, including any attachments, are confidential to the ordinary user of
+            the address to which it was addressed. If you are not the addressee of this message you may not copy,
+            forward, disclose or otherwise use it or any part of it in any form whatsoever. This message may be produced
+            at the request of regulators or in connection with civil litigation. Jefferies accepts no liability for any
+            errors or omissions arising as a result of transmission. Use by other than intended recipients is
+            prohibited; if you received this transmission in error please contact the sender.
+        </Content>
+        <ConversationID>PCHAT-0x10000027F01C9</ConversationID>
+    </Message>
+    <History InteractionType="H">
+        <User>
+            <LoginName>CSELLEM4</LoginName>
+            <FirstName>CHARLES</FirstName>
+            <LastName>SELLEM</LastName>
+            <CompanyName>JEFFERIES INTERNATIO</CompanyName>
+            <EmailAddress>CSELLEM4@Bloomberg.net</EmailAddress>
+            <CorporateEmailAddress></CorporateEmailAddress>
+        </User>
+        <DateTime>03/13/2020 11:59:30</DateTime>
+        <DateTimeUTC>1584100770</DateTimeUTC>
+        <StartTime>03/12/2020 11:59:30</StartTime>
+        <StartTimeUTC>1584014370</StartTimeUTC>
+        <EndTime>03/13/2020 11:59:30</EndTime>
+        <EndTimeUTC>1584100770</EndTimeUTC>
+        <ConversationID>PCHAT-0x10000027F01C9</ConversationID>
+    </History>
+    <Message InteractionType="H">
+        <User>
+            <LoginName>SHAMMERSLEY</LoginName>
+            <FirstName>SEAN</FirstName>
+            <LastName>HAMMERSLEY</LastName>
+            <CompanyName>JEFFERIES INTERNATIO</CompanyName>
+            <EmailAddress>SHAMMERSLEY@Bloomberg.net</EmailAddress>
+            <CorporateEmailAddress></CorporateEmailAddress>
+        </User>
+        <DateTime>03/13/2020 12:43:05</DateTime>
+        <DateTimeUTC>1584103385</DateTimeUTC>
+        <Content>
+            Buyer Wirecard
+            Wirecard (Argentum) 0.5% 10/ 76.35 - 78.35 vs. 99.00
+        </Content>
+        <ConversationID>PCHAT-0x10000027F01C9</ConversationID>
+    </Message>
+    <Message InteractionType="H">
+        <User>
+            <LoginName>SOBRIEN99</LoginName>
+            <FirstName>SEAN</FirstName>
+            <LastName>O&apos;BRIEN</LastName>
+            <CompanyName>JEFFERIES INTERNATIO</CompanyName>
+            <EmailAddress>SOBRIEN99@Bloomberg.net</EmailAddress>
+            <CorporateEmailAddress></CorporateEmailAddress>
+        </User>
+        <DateTime>03/13/2020 12:53:50</DateTime>
+        <DateTimeUTC>1584104030</DateTimeUTC>
+        <Content>
+            *** NEWS STORY {NSN Q74TPFT1UM14 &lt;GO&gt;}: &apos;Germany Pledges Unlimited Cash as EU Set to Green Light
+            Spending&apos;{NSN Q74TPFT1UM14&lt;GO&gt;}: &apos;Germany Pledges Unlimited Cash as EU Set to Green Light
+            Spending&apos;
+        </Content>
+        <ConversationID>PCHAT-0x10000027F01C9</ConversationID>
+    </Message>
+    <ParticipantLeft InteractionType="H">
+        <User>
+            <LoginName>TARAGS2C</LoginName>
+            <FirstName>TARA</FirstName>
+            <LastName>GIBSON</LastName>
+            <UUID>27186304</UUID>
+            <FirmNumber>848135</FirmNumber>
+            <AccountNumber>30413594</AccountNumber>
+            <CompanyName>MIRABELLA FINANCIAL</CompanyName>
+            <EmailAddress>TARAGS2C@Bloomberg.net</EmailAddress>
+            <CorporateEmailAddress>tara@system2capital.com</CorporateEmailAddress>
+        </User>
+        <DateTime>03/13/2020 13:46:23</DateTime>
+        <DateTimeUTC>1584107183</DateTimeUTC>
+        <ConversationID>PCHAT-0x10000027F01C9</ConversationID>
+    </ParticipantLeft>
+    <ParticipantEntered InteractionType="H">
+        <User>
+            <LoginName>TARAGS2C</LoginName>
+            <FirstName>TARA</FirstName>
+            <LastName>GIBSON</LastName>
+            <UUID>27186304</UUID>
+            <FirmNumber>848135</FirmNumber>
+            <AccountNumber>30413594</AccountNumber>
+            <CompanyName>MIRABELLA FINANCIAL</CompanyName>
+            <EmailAddress>TARAGS2C@Bloomberg.net</EmailAddress>
+            <CorporateEmailAddress>tara@system2capital.com</CorporateEmailAddress>
+        </User>
+        <DateTime>03/13/2020 13:51:54</DateTime>
+        <DateTimeUTC>1584107514</DateTimeUTC>
+        <ConversationID>PCHAT-0x10000027F01C9</ConversationID>
+    </ParticipantEntered>
+    <History InteractionType="H">
+        <User>
+            <LoginName>TARAGS2C</LoginName>
+            <FirstName>TARA</FirstName>
+            <LastName>GIBSON</LastName>
+            <UUID>27186304</UUID>
+            <FirmNumber>848135</FirmNumber>
+            <AccountNumber>30413594</AccountNumber>
+            <CompanyName>MIRABELLA FINANCIAL</CompanyName>
+            <EmailAddress>TARAGS2C@Bloomberg.net</EmailAddress>
+            <CorporateEmailAddress>tara@system2capital.com</CorporateEmailAddress>
+        </User>
+        <DateTime>03/13/2020 13:51:56</DateTime>
+        <DateTimeUTC>1584107516</DateTimeUTC>
+        <StartTime>03/13/2020 00:00:00</StartTime>
+        <StartTimeUTC>1584057600</StartTimeUTC>
+        <EndTime>03/13/2020 13:51:54</EndTime>
+        <EndTimeUTC>1584107514</EndTimeUTC>
+        <ConversationID>PCHAT-0x10000027F01C9</ConversationID>
+    </History>
+    <Message InteractionType="H">
+        <User>
+            <LoginName>SHAMMERSLEY</LoginName>
+            <FirstName>SEAN</FirstName>
+            <LastName>HAMMERSLEY</LastName>
+            <CompanyName>JEFFERIES INTERNATIO</CompanyName>
+            <EmailAddress>SHAMMERSLEY@Bloomberg.net</EmailAddress>
+            <CorporateEmailAddress></CorporateEmailAddress>
+        </User>
+        <DateTime>03/13/2020 13:57:08</DateTime>
+        <DateTimeUTC>1584107828</DateTimeUTC>
+        <Content>
+            Buyer CA Immo
+            Ca Immobilien 0.75% 4/25 109.50 - 111.50 vs. 29.50
+        </Content>
+        <ConversationID>PCHAT-0x10000027F01C9</ConversationID>
+    </Message>
+    <Message InteractionType="H">
+        <User>
+            <LoginName>SHAMMERSLEY</LoginName>
+            <FirstName>SEAN</FirstName>
+            <LastName>HAMMERSLEY</LastName>
+            <CompanyName>JEFFERIES INTERNATIO</CompanyName>
+            <EmailAddress>SHAMMERSLEY@Bloomberg.net</EmailAddress>
+            <CorporateEmailAddress></CorporateEmailAddress>
+        </User>
+        <DateTime>03/13/2020 14:05:20</DateTime>
+        <DateTimeUTC>1584108320</DateTimeUTC>
+        <Content>
+            Corestate trading
+            Corestate 1.375% 11/22 86.00 - 91.00 ref 32.10
+        </Content>
+        <ConversationID>PCHAT-0x10000027F01C9</ConversationID>
+    </Message>
+    <Message InteractionType="H">
+        <User>
+            <LoginName>BJNIXON</LoginName>
+            <FirstName>BEN</FirstName>
+            <LastName>NIXON</LastName>
+            <CompanyName>JEFFERIES INTERNATIO</CompanyName>
+            <EmailAddress>BJNIXON@Bloomberg.net</EmailAddress>
+            <CorporateEmailAddress></CorporateEmailAddress>
+        </User>
+        <DateTime>03/13/2020 14:05:27</DateTime>
+        <DateTimeUTC>1584108327</DateTimeUTC>
+        <Content>
+            Encavis 5.25% 1/99 121.30 - 123.30 vs. 8.12
+        </Content>
+        <ConversationID>PCHAT-0x10000027F01C9</ConversationID>
+    </Message>
+    <Message InteractionType="H">
+        <User>
+            <LoginName>SHAMMERSLEY</LoginName>
+            <FirstName>SEAN</FirstName>
+            <LastName>HAMMERSLEY</LastName>
+            <CompanyName>JEFFERIES INTERNATIO</CompanyName>
+            <EmailAddress>SHAMMERSLEY@Bloomberg.net</EmailAddress>
+            <CorporateEmailAddress></CorporateEmailAddress>
+        </User>
+        <DateTime>03/13/2020 14:06:43</DateTime>
+        <DateTimeUTC>1584108403</DateTimeUTC>
+        <Content>
+            Covivio 0.875% 1/21 99.00 - 100.00
+        </Content>
+        <ConversationID>PCHAT-0x10000027F01C9</ConversationID>
+    </Message>
+    <Message InteractionType="H">
+        <User>
+            <LoginName>BJNIXON</LoginName>
+            <FirstName>BEN</FirstName>
+            <LastName>NIXON</LastName>
+            <CompanyName>JEFFERIES INTERNATIO</CompanyName>
+            <EmailAddress>BJNIXON@Bloomberg.net</EmailAddress>
+            <CorporateEmailAddress></CorporateEmailAddress>
+        </User>
+        <DateTime>03/13/2020 14:07:17</DateTime>
+        <DateTimeUTC>1584108437</DateTimeUTC>
+        <Content>
+            ** JEF CB ** Swiss RE -&gt; apparently down here -can bid!
+
+            Swiss Re 96.00 - vs 77.5
+        </Content>
+        <ConversationID>PCHAT-0x10000027F01C9</ConversationID>
+    </Message>
+    <Message InteractionType="H">
+        <User>
+            <LoginName>BJNIXON</LoginName>
+            <FirstName>BEN</FirstName>
+            <LastName>NIXON</LastName>
+            <CompanyName>JEFFERIES INTERNATIO</CompanyName>
+            <EmailAddress>BJNIXON@Bloomberg.net</EmailAddress>
+            <CorporateEmailAddress></CorporateEmailAddress>
+        </User>
+        <DateTime>03/13/2020 14:08:31</DateTime>
+        <DateTimeUTC>1584108511</DateTimeUTC>
+        <Content>
+            ** JEF CBs ** Vinci - can offer
+
+            Vinci 0.375% 2/22 108.75 - 111.75 vs. 69.50
+        </Content>
+        <ConversationID>PCHAT-0x10000027F01C9</ConversationID>
+    </Message>
+    <Message InteractionType="H">
+        <User>
+            <LoginName>BJNIXON</LoginName>
+            <FirstName>BEN</FirstName>
+            <LastName>NIXON</LastName>
+            <CompanyName>JEFFERIES INTERNATIO</CompanyName>
+            <EmailAddress>BJNIXON@Bloomberg.net</EmailAddress>
+            <CorporateEmailAddress></CorporateEmailAddress>
+        </User>
+        <DateTime>03/13/2020 14:09:04</DateTime>
+        <DateTimeUTC>1584108544</DateTimeUTC>
+        <Content>
+            Cembra -&gt; seller
+
+            Cembra 102.00 - 103.50 vs 90.00
+        </Content>
+        <ConversationID>PCHAT-0x10000027F01C9</ConversationID>
+    </Message>
+    <Message InteractionType="H">
+        <User>
+            <LoginName>SHAMMERSLEY</LoginName>
+            <FirstName>SEAN</FirstName>
+            <LastName>HAMMERSLEY</LastName>
+            <CompanyName>JEFFERIES INTERNATIO</CompanyName>
+            <EmailAddress>SHAMMERSLEY@Bloomberg.net</EmailAddress>
+            <CorporateEmailAddress></CorporateEmailAddress>
+        </User>
+        <DateTime>03/13/2020 14:11:11</DateTime>
+        <DateTimeUTC>1584108671</DateTimeUTC>
+        <Content>
+            Ingenico trading
+            Ingenico 0% 6/22 176.75 - 178.75 ref 104.00
+        </Content>
+        <ConversationID>PCHAT-0x10000027F01C9</ConversationID>
+    </Message>
+    <Message InteractionType="H">
+        <User>
+            <LoginName>SHAMMERSLEY</LoginName>
+            <FirstName>SEAN</FirstName>
+            <LastName>HAMMERSLEY</LastName>
+            <CompanyName>JEFFERIES INTERNATIO</CompanyName>
+            <EmailAddress>SHAMMERSLEY@Bloomberg.net</EmailAddress>
+            <CorporateEmailAddress></CorporateEmailAddress>
+        </User>
+        <DateTime>03/13/2020 14:12:39</DateTime>
+        <DateTimeUTC>1584108759</DateTimeUTC>
+        <Content>
+            Edenred 0% 9/24 64.75 - 66.25 vs. 37.20
+        </Content>
+        <ConversationID>PCHAT-0x10000027F01C9</ConversationID>
+    </Message>
+    <ParticipantLeft InteractionType="H" DeviceType="M">
+        <User>
+            <LoginName>RBETTERIDGE3</LoginName>
+            <FirstName>RUSSELL</FirstName>
+            <LastName>BETTERIDGE</LastName>
+            <CompanyName>JEFFERIES INTERNATIO</CompanyName>
+            <EmailAddress>RBETTERIDGE3@Bloomberg.net</EmailAddress>
+            <CorporateEmailAddress></CorporateEmailAddress>
+        </User>
+        <DateTime>03/13/2020 14:30:02</DateTime>
+        <DateTimeUTC>1584109802</DateTimeUTC>
+        <ConversationID>PCHAT-0x10000027F01C9</ConversationID>
+    </ParticipantLeft>
+    <ParticipantEntered InteractionType="H" DeviceType="M">
+        <User>
+            <LoginName>LUDOCOHEN</LoginName>
+            <FirstName>LUDOVIC</FirstName>
+            <LastName>COHEN</LastName>
+            <CompanyName>JEFFERIES INTERNATIO</CompanyName>
+            <EmailAddress>LUDOCOHEN@Bloomberg.net</EmailAddress>
+            <CorporateEmailAddress></CorporateEmailAddress>
+        </User>
+        <DateTime>03/13/2020 14:54:11</DateTime>
+        <DateTimeUTC>1584111251</DateTimeUTC>
+        <ConversationID>PCHAT-0x10000027F01C9</ConversationID>
+    </ParticipantEntered>
+    <Message InteractionType="H" DeviceType="M">
+        <User>
+            <LoginName>LUDOCOHEN</LoginName>
+            <FirstName>LUDOVIC</FirstName>
+            <LastName>COHEN</LastName>
+            <CompanyName>JEFFERIES INTERNATIO</CompanyName>
+            <EmailAddress>LUDOCOHEN@Bloomberg.net</EmailAddress>
+            <CorporateEmailAddress></CorporateEmailAddress>
+        </User>
+        <DateTime>03/13/2020 14:54:11</DateTime>
+        <DateTimeUTC>1584111251</DateTimeUTC>
+        <Content>
+            *** JEFFERIES INTERNATIO (30436661) Disclaimer: Jefferies archives and monitors outgoing and incoming
+            messages. The contents of this message, including any attachments, are confidential to the ordinary user of
+            the address to which it was addressed. If you are not the addressee of this message you may not copy,
+            forward, disclose or otherwise use it or any part of it in any form whatsoever. This message may be produced
+            at the request of regulators or in connection with civil litigation. Jefferies accepts no liability for any
+            errors or omissions arising as a result of transmission. Use by other than intended recipients is
+            prohibited; if you received this transmission in error please contact the sender.
+        </Content>
+        <ConversationID>PCHAT-0x10000027F01C9</ConversationID>
+    </Message>
+    <History InteractionType="H">
+        <User>
+            <LoginName>LUDOCOHEN</LoginName>
+            <FirstName>LUDOVIC</FirstName>
+            <LastName>COHEN</LastName>
+            <CompanyName>JEFFERIES INTERNATIO</CompanyName>
+            <EmailAddress>LUDOCOHEN@Bloomberg.net</EmailAddress>
+            <CorporateEmailAddress></CorporateEmailAddress>
+        </User>
+        <DateTime>03/13/2020 14:54:12</DateTime>
+        <DateTimeUTC>1584111252</DateTimeUTC>
+        <StartTime>03/12/2020 14:54:12</StartTime>
+        <StartTimeUTC>1584024852</StartTimeUTC>
+        <EndTime>03/13/2020 14:54:12</EndTime>
+        <EndTimeUTC>1584111252</EndTimeUTC>
+        <ConversationID>PCHAT-0x10000027F01C9</ConversationID>
+    </History>
+    <Message InteractionType="H">
+        <User>
+            <LoginName>SEANSYSTEM2</LoginName>
+            <FirstName>SEAN</FirstName>
+            <LastName>OLDFIELD</LastName>
+            <UUID>25813826</UUID>
+            <FirmNumber>848135</FirmNumber>
+            <AccountNumber>30413594</AccountNumber>
+            <CompanyName>MIRABELLA FINANCIAL</CompanyName>
+            <EmailAddress>SEANSYSTEM2@Bloomberg.net</EmailAddress>
+            <CorporateEmailAddress>sean@system2capital.com</CorporateEmailAddress>
+        </User>
+        <DateTime>03/13/2020 15:20:32</DateTime>
+        <DateTimeUTC>1584112832</DateTimeUTC>
+        <Content>
+            Hi guys, do you have any BESI 23s?
+        </Content>
+        <ConversationID>PCHAT-0x10000027F01C9</ConversationID>
+    </Message>
+    <Message InteractionType="H">
+        <User>
+            <LoginName>SOBRIEN99</LoginName>
+            <FirstName>SEAN</FirstName>
+            <LastName>O&apos;BRIEN</LastName>
+            <CompanyName>JEFFERIES INTERNATIO</CompanyName>
+            <EmailAddress>SOBRIEN99@Bloomberg.net</EmailAddress>
+            <CorporateEmailAddress></CorporateEmailAddress>
+        </User>
+        <DateTime>03/13/2020 15:21:12</DateTime>
+        <DateTimeUTC>1584112872</DateTimeUTC>
+        <Content>
+            Hi Sean
+        </Content>
+        <ConversationID>PCHAT-0x10000027F01C9</ConversationID>
+    </Message>
+    <Message InteractionType="H">
+        <User>
+            <LoginName>SOBRIEN99</LoginName>
+            <FirstName>SEAN</FirstName>
+            <LastName>O&apos;BRIEN</LastName>
+            <CompanyName>JEFFERIES INTERNATIO</CompanyName>
+            <EmailAddress>SOBRIEN99@Bloomberg.net</EmailAddress>
+            <CorporateEmailAddress></CorporateEmailAddress>
+        </User>
+        <DateTime>03/13/2020 15:21:22</DateTime>
+        <DateTimeUTC>1584112882</DateTimeUTC>
+        <Content>
+            We traded some yesterday and were ;le
+        </Content>
+        <ConversationID>PCHAT-0x10000027F01C9</ConversationID>
+    </Message>
+    <Message InteractionType="H">
+        <User>
+            <LoginName>SOBRIEN99</LoginName>
+            <FirstName>SEAN</FirstName>
+            <LastName>O&apos;BRIEN</LastName>
+            <CompanyName>JEFFERIES INTERNATIO</CompanyName>
+            <EmailAddress>SOBRIEN99@Bloomberg.net</EmailAddress>
+            <CorporateEmailAddress></CorporateEmailAddress>
+        </User>
+        <DateTime>03/13/2020 15:21:31</DateTime>
+        <DateTimeUTC>1584112891</DateTimeUTC>
+        <Content>
+            left a better swap seller at the time
+        </Content>
+        <ConversationID>PCHAT-0x10000027F01C9</ConversationID>
+    </Message>
+    <Message InteractionType="H">
+        <User>
+            <LoginName>SEANSYSTEM2</LoginName>
+            <FirstName>SEAN</FirstName>
+            <LastName>OLDFIELD</LastName>
+            <UUID>25813826</UUID>
+            <FirmNumber>848135</FirmNumber>
+            <AccountNumber>30413594</AccountNumber>
+            <CompanyName>MIRABELLA FINANCIAL</CompanyName>
+            <EmailAddress>SEANSYSTEM2@Bloomberg.net</EmailAddress>
+            <CorporateEmailAddress>sean@system2capital.com</CorporateEmailAddress>
+        </User>
+        <DateTime>03/13/2020 15:22:00</DateTime>
+        <DateTimeUTC>1584112920</DateTimeUTC>
+        <Content>
+            Great. Could buy 500k on swap
+        </Content>
+        <ConversationID>PCHAT-0x10000027F01C9</ConversationID>
+    </Message>
+    <Message InteractionType="H">
+        <User>
+            <LoginName>SEANSYSTEM2</LoginName>
+            <FirstName>SEAN</FirstName>
+            <LastName>OLDFIELD</LastName>
+            <UUID>25813826</UUID>
+            <FirmNumber>848135</FirmNumber>
+            <AccountNumber>30413594</AccountNumber>
+            <CompanyName>MIRABELLA FINANCIAL</CompanyName>
+            <EmailAddress>SEANSYSTEM2@Bloomberg.net</EmailAddress>
+            <CorporateEmailAddress>sean@system2capital.com</CorporateEmailAddress>
+        </User>
+        <DateTime>03/13/2020 15:22:19</DateTime>
+        <DateTimeUTC>1584112939</DateTimeUTC>
+        <Content>
+            **We could buy 500k on swap
+        </Content>
+        <ConversationID>PCHAT-0x10000027F01C9</ConversationID>
+    </Message>
+    <Message InteractionType="H">
+        <User>
+            <LoginName>SOBRIEN99</LoginName>
+            <FirstName>SEAN</FirstName>
+            <LastName>O&apos;BRIEN</LastName>
+            <CompanyName>JEFFERIES INTERNATIO</CompanyName>
+            <EmailAddress>SOBRIEN99@Bloomberg.net</EmailAddress>
+            <CorporateEmailAddress></CorporateEmailAddress>
+        </User>
+        <DateTime>03/13/2020 15:22:43</DateTime>
+        <DateTimeUTC>1584112963</DateTimeUTC>
+        <Content>
+            one sec
+        </Content>
+        <ConversationID>PCHAT-0x10000027F01C9</ConversationID>
+    </Message>
+    <Message InteractionType="H">
+        <User>
+            <LoginName>SEANSYSTEM2</LoginName>
+            <FirstName>SEAN</FirstName>
+            <LastName>OLDFIELD</LastName>
+            <UUID>25813826</UUID>
+            <FirmNumber>848135</FirmNumber>
+            <AccountNumber>30413594</AccountNumber>
+            <CompanyName>MIRABELLA FINANCIAL</CompanyName>
+            <EmailAddress>SEANSYSTEM2@Bloomberg.net</EmailAddress>
+            <CorporateEmailAddress>sean@system2capital.com</CorporateEmailAddress>
+        </User>
+        <DateTime>03/13/2020 15:34:58</DateTime>
+        <DateTimeUTC>1584113698</DateTimeUTC>
+        <Content>
+            No love in BESI today?
+        </Content>
+        <ConversationID>PCHAT-0x10000027F01C9</ConversationID>
+    </Message>
+    <Message InteractionType="H">
+        <User>
+            <LoginName>SOBRIEN99</LoginName>
+            <FirstName>SEAN</FirstName>
+            <LastName>O&apos;BRIEN</LastName>
+            <CompanyName>JEFFERIES INTERNATIO</CompanyName>
+            <EmailAddress>SOBRIEN99@Bloomberg.net</EmailAddress>
+            <CorporateEmailAddress></CorporateEmailAddress>
+        </User>
+        <DateTime>03/13/2020 15:35:19</DateTime>
+        <DateTimeUTC>1584113719</DateTimeUTC>
+        <Content>
+            Just trying to line you up an offer, bear with me Sean
+        </Content>
+        <ConversationID>PCHAT-0x10000027F01C9</ConversationID>
+    </Message>
+    <Message InteractionType="H">
+        <User>
+            <LoginName>SEANSYSTEM2</LoginName>
+            <FirstName>SEAN</FirstName>
+            <LastName>OLDFIELD</LastName>
+            <UUID>25813826</UUID>
+            <FirmNumber>848135</FirmNumber>
+            <AccountNumber>30413594</AccountNumber>
+            <CompanyName>MIRABELLA FINANCIAL</CompanyName>
+            <EmailAddress>SEANSYSTEM2@Bloomberg.net</EmailAddress>
+            <CorporateEmailAddress>sean@system2capital.com</CorporateEmailAddress>
+        </User>
+        <DateTime>03/13/2020 15:35:24</DateTime>
+        <DateTimeUTC>1584113724</DateTimeUTC>
+        <Content>
+            Cool, cool
+        </Content>
+        <ConversationID>PCHAT-0x10000027F01C9</ConversationID>
+    </Message>
+    <Message InteractionType="H">
+        <User>
+            <LoginName>SEANSYSTEM2</LoginName>
+            <FirstName>SEAN</FirstName>
+            <LastName>OLDFIELD</LastName>
+            <UUID>25813826</UUID>
+            <FirmNumber>848135</FirmNumber>
+            <AccountNumber>30413594</AccountNumber>
+            <CompanyName>MIRABELLA FINANCIAL</CompanyName>
+            <EmailAddress>SEANSYSTEM2@Bloomberg.net</EmailAddress>
+            <CorporateEmailAddress>sean@system2capital.com</CorporateEmailAddress>
+        </User>
+        <DateTime>03/13/2020 15:35:27</DateTime>
+        <DateTimeUTC>1584113727</DateTimeUTC>
+        <Content>
+            All fine
+        </Content>
+        <ConversationID>PCHAT-0x10000027F01C9</ConversationID>
+    </Message>
+    <Message InteractionType="H">
+        <User>
+            <LoginName>SEANSYSTEM2</LoginName>
+            <FirstName>SEAN</FirstName>
+            <LastName>OLDFIELD</LastName>
+            <UUID>25813826</UUID>
+            <FirmNumber>848135</FirmNumber>
+            <AccountNumber>30413594</AccountNumber>
+            <CompanyName>MIRABELLA FINANCIAL</CompanyName>
+            <EmailAddress>SEANSYSTEM2@Bloomberg.net</EmailAddress>
+            <CorporateEmailAddress>sean@system2capital.com</CorporateEmailAddress>
+        </User>
+        <DateTime>03/13/2020 15:35:46</DateTime>
+        <DateTimeUTC>1584113746</DateTimeUTC>
+        <Content>
+            Just making sure we have enough time to trim to our favoured delta if we trade off where we want to be
+        </Content>
+        <ConversationID>PCHAT-0x10000027F01C9</ConversationID>
+    </Message>
+    <ParticipantLeft InteractionType="H">
+        <User>
+            <LoginName>TARAGS2C</LoginName>
+            <FirstName>TARA</FirstName>
+            <LastName>GIBSON</LastName>
+            <UUID>27186304</UUID>
+            <FirmNumber>848135</FirmNumber>
+            <AccountNumber>30413594</AccountNumber>
+            <CompanyName>MIRABELLA FINANCIAL</CompanyName>
+            <EmailAddress>TARAGS2C@Bloomberg.net</EmailAddress>
+            <CorporateEmailAddress>tara@system2capital.com</CorporateEmailAddress>
+        </User>
+        <DateTime>03/13/2020 15:48:18</DateTime>
+        <DateTimeUTC>1584114498</DateTimeUTC>
+        <ConversationID>PCHAT-0x10000027F01C9</ConversationID>
+    </ParticipantLeft>
+    <ParticipantEntered InteractionType="NH" DeviceType="M">
+        <User>
+            <LoginName>RBETTERIDGE3</LoginName>
+            <FirstName>RUSSELL</FirstName>
+            <LastName>BETTERIDGE</LastName>
+            <CompanyName>JEFFERIES INTERNATIO</CompanyName>
+            <EmailAddress>RBETTERIDGE3@Bloomberg.net</EmailAddress>
+            <CorporateEmailAddress></CorporateEmailAddress>
+        </User>
+        <DateTime>03/13/2020 16:06:35</DateTime>
+        <DateTimeUTC>1584115595</DateTimeUTC>
+        <ConversationID>PCHAT-0x10000027F01C9</ConversationID>
+    </ParticipantEntered>
+    <Message InteractionType="NH" DeviceType="M">
+        <User>
+            <LoginName>RBETTERIDGE3</LoginName>
+            <FirstName>RUSSELL</FirstName>
+            <LastName>BETTERIDGE</LastName>
+            <CompanyName>JEFFERIES INTERNATIO</CompanyName>
+            <EmailAddress>RBETTERIDGE3@Bloomberg.net</EmailAddress>
+            <CorporateEmailAddress></CorporateEmailAddress>
+        </User>
+        <DateTime>03/13/2020 16:06:35</DateTime>
+        <DateTimeUTC>1584115595</DateTimeUTC>
+        <Content>
+            *** JEFFERIES INTERNATIO (30436661) Disclaimer: Jefferies archives and monitors outgoing and incoming
+            messages. The contents of this message, including any attachments, are confidential to the ordinary user of
+            the address to which it was addressed. If you are not the addressee of this message you may not copy,
+            forward, disclose or otherwise use it or any part of it in any form whatsoever. This message may be produced
+            at the request of regulators or in connection with civil litigation. Jefferies accepts no liability for any
+            errors or omissions arising as a result of transmission. Use by other than intended recipients is
+            prohibited; if you received this transmission in error please contact the sender.
+        </Content>
+        <ConversationID>PCHAT-0x10000027F01C9</ConversationID>
+    </Message>
+    <History InteractionType="H">
+        <User>
+            <LoginName>RBETTERIDGE3</LoginName>
+            <FirstName>RUSSELL</FirstName>
+            <LastName>BETTERIDGE</LastName>
+            <CompanyName>JEFFERIES INTERNATIO</CompanyName>
+            <EmailAddress>RBETTERIDGE3@Bloomberg.net</EmailAddress>
+            <CorporateEmailAddress></CorporateEmailAddress>
+        </User>
+        <DateTime>03/13/2020 16:06:36</DateTime>
+        <DateTimeUTC>1584115596</DateTimeUTC>
+        <StartTime>03/12/2020 16:06:36</StartTime>
+        <StartTimeUTC>1584029196</StartTimeUTC>
+        <EndTime>03/13/2020 16:06:36</EndTime>
+        <EndTimeUTC>1584115596</EndTimeUTC>
+        <ConversationID>PCHAT-0x10000027F01C9</ConversationID>
+    </History>
+    <Message InteractionType="H">
+        <User>
+            <LoginName>SEANSYSTEM2</LoginName>
+            <FirstName>SEAN</FirstName>
+            <LastName>OLDFIELD</LastName>
+            <UUID>25813826</UUID>
+            <FirmNumber>848135</FirmNumber>
+            <AccountNumber>30413594</AccountNumber>
+            <CompanyName>MIRABELLA FINANCIAL</CompanyName>
+            <EmailAddress>SEANSYSTEM2@Bloomberg.net</EmailAddress>
+            <CorporateEmailAddress>sean@system2capital.com</CorporateEmailAddress>
+        </User>
+        <DateTime>03/13/2020 16:08:41</DateTime>
+        <DateTimeUTC>1584115721</DateTimeUTC>
+        <Content>
+            Hi Sean, you think you will find an offer today or should I go and have a look away?
+        </Content>
+        <ConversationID>PCHAT-0x10000027F01C9</ConversationID>
+    </Message>
+    <Message InteractionType="H">
+        <User>
+            <LoginName>SOBRIEN99</LoginName>
+            <FirstName>SEAN</FirstName>
+            <LastName>O&apos;BRIEN</LastName>
+            <CompanyName>JEFFERIES INTERNATIO</CompanyName>
+            <EmailAddress>SOBRIEN99@Bloomberg.net</EmailAddress>
+            <CorporateEmailAddress></CorporateEmailAddress>
+        </User>
+        <DateTime>03/13/2020 16:10:29</DateTime>
+        <DateTimeUTC>1584115829</DateTimeUTC>
+        <Content>
+            Unfortunately had two sellers yesterday, first won&apos;t offer today and the second has gone for the
+            weekend
+        </Content>
+        <ConversationID>PCHAT-0x10000027F01C9</ConversationID>
+    </Message>
+    <Message InteractionType="H">
+        <User>
+            <LoginName>SEANSYSTEM2</LoginName>
+            <FirstName>SEAN</FirstName>
+            <LastName>OLDFIELD</LastName>
+            <UUID>25813826</UUID>
+            <FirmNumber>848135</FirmNumber>
+            <AccountNumber>30413594</AccountNumber>
+            <CompanyName>MIRABELLA FINANCIAL</CompanyName>
+            <EmailAddress>SEANSYSTEM2@Bloomberg.net</EmailAddress>
+            <CorporateEmailAddress>sean@system2capital.com</CorporateEmailAddress>
+        </User>
+        <DateTime>03/13/2020 16:10:46</DateTime>
+        <DateTimeUTC>1584115846</DateTimeUTC>
+        <Content>
+            OK, no problem
+        </Content>
+        <ConversationID>PCHAT-0x10000027F01C9</ConversationID>
+    </Message>
+    <Message InteractionType="H">
+        <User>
+            <LoginName>SOBRIEN99</LoginName>
+            <FirstName>SEAN</FirstName>
+            <LastName>O&apos;BRIEN</LastName>
+            <CompanyName>JEFFERIES INTERNATIO</CompanyName>
+            <EmailAddress>SOBRIEN99@Bloomberg.net</EmailAddress>
+            <CorporateEmailAddress></CorporateEmailAddress>
+        </User>
+        <DateTime>03/13/2020 16:18:39</DateTime>
+        <DateTimeUTC>1584116319</DateTimeUTC>
+        <Content>
+            Seller of Adidas at 109.25 vs 170.68
+        </Content>
+        <ConversationID>PCHAT-0x10000027F01C9</ConversationID>
+    </Message>
+    <Message InteractionType="H">
+        <User>
+            <LoginName>BJNIXON</LoginName>
+            <FirstName>BEN</FirstName>
+            <LastName>NIXON</LastName>
+            <CompanyName>JEFFERIES INTERNATIO</CompanyName>
+            <EmailAddress>BJNIXON@Bloomberg.net</EmailAddress>
+            <CorporateEmailAddress></CorporateEmailAddress>
+        </User>
+        <DateTime>03/13/2020 16:25:50</DateTime>
+        <DateTimeUTC>1584116750</DateTimeUTC>
+        <Content>
+            ** JEF CB ** Aurelius - scrap bid
+
+            Aurelius 94.50 - r 16.280 500 x
+        </Content>
+        <ConversationID>PCHAT-0x10000027F01C9</ConversationID>
+    </Message>
+    <Message InteractionType="H">
+        <User>
+            <LoginName>BJNIXON</LoginName>
+            <FirstName>BEN</FirstName>
+            <LastName>NIXON</LastName>
+            <CompanyName>JEFFERIES INTERNATIO</CompanyName>
+            <EmailAddress>BJNIXON@Bloomberg.net</EmailAddress>
+            <CorporateEmailAddress></CorporateEmailAddress>
+        </User>
+        <DateTime>03/13/2020 16:26:50</DateTime>
+        <DateTimeUTC>1584116810</DateTimeUTC>
+        <Content>
+            ** JEF CB ** Glencore -&gt; trade down - can bid for 1.2 to complete
+
+            Glencore 72.38 - r 1.700 1200 x
+        </Content>
+        <ConversationID>PCHAT-0x10000027F01C9</ConversationID>
+    </Message>
+    <ParticipantEntered InteractionType="NH" DeviceType="M">
+        <User>
+            <LoginName>SOBRIEN99</LoginName>
+            <FirstName>SEAN</FirstName>
+            <LastName>O&apos;BRIEN</LastName>
+            <CompanyName>JEFFERIES INTERNATIO</CompanyName>
+            <EmailAddress>SOBRIEN99@Bloomberg.net</EmailAddress>
+            <CorporateEmailAddress></CorporateEmailAddress>
+        </User>
+        <DateTime>03/13/2020 16:32:30</DateTime>
+        <DateTimeUTC>1584117150</DateTimeUTC>
+        <ConversationID>PCHAT-0x10000027F01C9</ConversationID>
+    </ParticipantEntered>
+    <Message InteractionType="NH" DeviceType="M">
+        <User>
+            <LoginName>SOBRIEN99</LoginName>
+            <FirstName>SEAN</FirstName>
+            <LastName>O&apos;BRIEN</LastName>
+            <CompanyName>JEFFERIES INTERNATIO</CompanyName>
+            <EmailAddress>SOBRIEN99@Bloomberg.net</EmailAddress>
+            <CorporateEmailAddress></CorporateEmailAddress>
+        </User>
+        <DateTime>03/13/2020 16:32:30</DateTime>
+        <DateTimeUTC>1584117150</DateTimeUTC>
+        <Content>
+            *** JEFFERIES INTERNATIO (30436661) Disclaimer: Jefferies archives and monitors outgoing and incoming
+            messages. The contents of this message, including any attachments, are confidential to the ordinary user of
+            the address to which it was addressed. If you are not the addressee of this message you may not copy,
+            forward, disclose or otherwise use it or any part of it in any form whatsoever. This message may be produced
+            at the request of regulators or in connection with civil litigation. Jefferies accepts no liability for any
+            errors or omissions arising as a result of transmission. Use by other than intended recipients is
+            prohibited; if you received this transmission in error please contact the sender.
+        </Content>
+        <ConversationID>PCHAT-0x10000027F01C9</ConversationID>
+    </Message>
+    <History InteractionType="H">
+        <User>
+            <LoginName>SOBRIEN99</LoginName>
+            <FirstName>SEAN</FirstName>
+            <LastName>O&apos;BRIEN</LastName>
+            <CompanyName>JEFFERIES INTERNATIO</CompanyName>
+            <EmailAddress>SOBRIEN99@Bloomberg.net</EmailAddress>
+            <CorporateEmailAddress></CorporateEmailAddress>
+        </User>
+        <DateTime>03/13/2020 16:32:30</DateTime>
+        <DateTimeUTC>1584117150</DateTimeUTC>
+        <StartTime>03/12/2020 16:32:30</StartTime>
+        <StartTimeUTC>1584030750</StartTimeUTC>
+        <EndTime>03/13/2020 16:32:30</EndTime>
+        <EndTimeUTC>1584117150</EndTimeUTC>
+        <ConversationID>PCHAT-0x10000027F01C9</ConversationID>
+    </History>
+    <Message InteractionType="H">
+        <User>
+            <LoginName>SOBRIEN99</LoginName>
+            <FirstName>SEAN</FirstName>
+            <LastName>O&apos;BRIEN</LastName>
+            <CompanyName>JEFFERIES INTERNATIO</CompanyName>
+            <EmailAddress>SOBRIEN99@Bloomberg.net</EmailAddress>
+            <CorporateEmailAddress></CorporateEmailAddress>
+        </User>
+        <DateTime>03/13/2020 16:54:09</DateTime>
+        <DateTimeUTC>1584118449</DateTimeUTC>
+        <Content>
+            *G7 LEADERS HAVE AGREED TO COORDINATE GLOBAL RESPONSE: TRUDEAU
+        </Content>
+        <ConversationID>PCHAT-0x10000027F01C9</ConversationID>
+    </Message>
+    <Message InteractionType="H">
+        <User>
+            <LoginName>SOBRIEN99</LoginName>
+            <FirstName>SEAN</FirstName>
+            <LastName>O&apos;BRIEN</LastName>
+            <CompanyName>JEFFERIES INTERNATIO</CompanyName>
+            <EmailAddress>SOBRIEN99@Bloomberg.net</EmailAddress>
+            <CorporateEmailAddress></CorporateEmailAddress>
+        </User>
+        <DateTime>03/13/2020 17:07:02</DateTime>
+        <DateTimeUTC>1584119222</DateTimeUTC>
+        <Content>
+            *** NEWS STORY {NSN Q74SUTT0AFB8 &lt;GO&gt;}: &apos;Intu Properties Banks, Bondholders Gear Up Ahead of Debt
+            Talks&apos;{NSN Q74SUTT0AFB8&lt;GO&gt;}: &apos;Intu Properties Banks, Bondholders Gear Up Ahead of Debt
+            Talks&apos;
+        </Content>
+        <ConversationID>PCHAT-0x10000027F01C9</ConversationID>
+    </Message>
+    <ParticipantLeft InteractionType="H">
+        <User>
+            <LoginName>DBREWERS2C</LoginName>
+            <FirstName>DAN</FirstName>
+            <LastName>BREWER</LastName>
+            <UUID>26589322</UUID>
+            <FirmNumber>848135</FirmNumber>
+            <AccountNumber>30413594</AccountNumber>
+            <CompanyName>MIRABELLA FINANCIAL</CompanyName>
+            <EmailAddress>DBREWERS2C@Bloomberg.net</EmailAddress>
+            <CorporateEmailAddress>dan.brewer@system2capital.com</CorporateEmailAddress>
+        </User>
+        <DateTime>03/13/2020 18:12:43</DateTime>
+        <DateTimeUTC>1584123163</DateTimeUTC>
+        <ConversationID>PCHAT-0x10000027F01C9</ConversationID>
+    </ParticipantLeft>
+    <ParticipantEntered InteractionType="NH" DeviceType="M">
+        <User>
+            <LoginName>CSELLEM4</LoginName>
+            <FirstName>CHARLES</FirstName>
+            <LastName>SELLEM</LastName>
+            <CompanyName>JEFFERIES INTERNATIO</CompanyName>
+            <EmailAddress>CSELLEM4@Bloomberg.net</EmailAddress>
+            <CorporateEmailAddress></CorporateEmailAddress>
+        </User>
+        <DateTime>03/13/2020 18:28:34</DateTime>
+        <DateTimeUTC>1584124114</DateTimeUTC>
+        <ConversationID>PCHAT-0x10000027F01C9</ConversationID>
+    </ParticipantEntered>
+    <Message InteractionType="NH" DeviceType="M">
+        <User>
+            <LoginName>CSELLEM4</LoginName>
+            <FirstName>CHARLES</FirstName>
+            <LastName>SELLEM</LastName>
+            <CompanyName>JEFFERIES INTERNATIO</CompanyName>
+            <EmailAddress>CSELLEM4@Bloomberg.net</EmailAddress>
+            <CorporateEmailAddress></CorporateEmailAddress>
+        </User>
+        <DateTime>03/13/2020 18:28:34</DateTime>
+        <DateTimeUTC>1584124114</DateTimeUTC>
+        <Content>
+            *** JEFFERIES INTERNATIO (30436661) Disclaimer: Jefferies archives and monitors outgoing and incoming
+            messages. The contents of this message, including any attachments, are confidential to the ordinary user of
+            the address to which it was addressed. If you are not the addressee of this message you may not copy,
+            forward, disclose or otherwise use it or any part of it in any form whatsoever. This message may be produced
+            at the request of regulators or in connection with civil litigation. Jefferies accepts no liability for any
+            errors or omissions arising as a result of transmission. Use by other than intended recipients is
+            prohibited; if you received this transmission in error please contact the sender.
+        </Content>
+        <ConversationID>PCHAT-0x10000027F01C9</ConversationID>
+    </Message>
+    <History InteractionType="H">
+        <User>
+            <LoginName>CSELLEM4</LoginName>
+            <FirstName>CHARLES</FirstName>
+            <LastName>SELLEM</LastName>
+            <CompanyName>JEFFERIES INTERNATIO</CompanyName>
+            <EmailAddress>CSELLEM4@Bloomberg.net</EmailAddress>
+            <CorporateEmailAddress></CorporateEmailAddress>
+        </User>
+        <DateTime>03/13/2020 18:28:35</DateTime>
+        <DateTimeUTC>1584124115</DateTimeUTC>
+        <StartTime>03/12/2020 18:28:34</StartTime>
+        <StartTimeUTC>1584037714</StartTimeUTC>
+        <EndTime>03/13/2020 18:28:34</EndTime>
+        <EndTimeUTC>1584124114</EndTimeUTC>
+        <ConversationID>PCHAT-0x10000027F01C9</ConversationID>
+    </History>
+    <ParticipantLeft InteractionType="NH" DeviceType="M">
+        <User>
+            <LoginName>RBETTERIDGE3</LoginName>
+            <FirstName>RUSSELL</FirstName>
+            <LastName>BETTERIDGE</LastName>
+            <CompanyName>JEFFERIES INTERNATIO</CompanyName>
+            <EmailAddress>RBETTERIDGE3@Bloomberg.net</EmailAddress>
+            <CorporateEmailAddress></CorporateEmailAddress>
+        </User>
+        <DateTime>03/13/2020 19:30:13</DateTime>
+        <DateTimeUTC>1584127813</DateTimeUTC>
+        <ConversationID>PCHAT-0x10000027F01C9</ConversationID>
+    </ParticipantLeft>
+    <ParticipantEntered InteractionType="NH" DeviceType="M">
+        <User>
+            <LoginName>BJNIXON</LoginName>
+            <FirstName>BEN</FirstName>
+            <LastName>NIXON</LastName>
+            <CompanyName>JEFFERIES INTERNATIO</CompanyName>
+            <EmailAddress>BJNIXON@Bloomberg.net</EmailAddress>
+            <CorporateEmailAddress></CorporateEmailAddress>
+        </User>
+        <DateTime>03/13/2020 19:41:38</DateTime>
+        <DateTimeUTC>1584128498</DateTimeUTC>
+        <ConversationID>PCHAT-0x10000027F01C9</ConversationID>
+    </ParticipantEntered>
+    <Message InteractionType="NH" DeviceType="M">
+        <User>
+            <LoginName>BJNIXON</LoginName>
+            <FirstName>BEN</FirstName>
+            <LastName>NIXON</LastName>
+            <CompanyName>JEFFERIES INTERNATIO</CompanyName>
+            <EmailAddress>BJNIXON@Bloomberg.net</EmailAddress>
+            <CorporateEmailAddress></CorporateEmailAddress>
+        </User>
+        <DateTime>03/13/2020 19:41:38</DateTime>
+        <DateTimeUTC>1584128498</DateTimeUTC>
+        <Content>
+            *** JEFFERIES INTERNATIO (30436661) Disclaimer: Jefferies archives and monitors outgoing and incoming
+            messages. The contents of this message, including any attachments, are confidential to the ordinary user of
+            the address to which it was addressed. If you are not the addressee of this message you may not copy,
+            forward, disclose or otherwise use it or any part of it in any form whatsoever. This message may be produced
+            at the request of regulators or in connection with civil litigation. Jefferies accepts no liability for any
+            errors or omissions arising as a result of transmission. Use by other than intended recipients is
+            prohibited; if you received this transmission in error please contact the sender.
+        </Content>
+        <ConversationID>PCHAT-0x10000027F01C9</ConversationID>
+    </Message>
+    <History InteractionType="NH">
+        <User>
+            <LoginName>BJNIXON</LoginName>
+            <FirstName>BEN</FirstName>
+            <LastName>NIXON</LastName>
+            <CompanyName>JEFFERIES INTERNATIO</CompanyName>
+            <EmailAddress>BJNIXON@Bloomberg.net</EmailAddress>
+            <CorporateEmailAddress></CorporateEmailAddress>
+        </User>
+        <DateTime>03/13/2020 19:41:38</DateTime>
+        <DateTimeUTC>1584128498</DateTimeUTC>
+        <StartTime>03/12/2020 19:41:38</StartTime>
+        <StartTimeUTC>1584042098</StartTimeUTC>
+        <EndTime>03/13/2020 19:41:38</EndTime>
+        <EndTimeUTC>1584128498</EndTimeUTC>
+        <ConversationID>PCHAT-0x10000027F01C9</ConversationID>
+    </History>
+    <ParticipantEntered InteractionType="N" DeviceType="M">
+        <User>
+            <LoginName>RBETTERIDGE3</LoginName>
+            <FirstName>RUSSELL</FirstName>
+            <LastName>BETTERIDGE</LastName>
+            <CompanyName>JEFFERIES INTERNATIO</CompanyName>
+            <EmailAddress>RBETTERIDGE3@Bloomberg.net</EmailAddress>
+            <CorporateEmailAddress></CorporateEmailAddress>
+        </User>
+        <DateTime>03/13/2020 20:17:05</DateTime>
+        <DateTimeUTC>1584130625</DateTimeUTC>
+        <ConversationID>PCHAT-0x10000027F01C9</ConversationID>
+    </ParticipantEntered>
+    <Message InteractionType="N" DeviceType="M">
+        <User>
+            <LoginName>RBETTERIDGE3</LoginName>
+            <FirstName>RUSSELL</FirstName>
+            <LastName>BETTERIDGE</LastName>
+            <CompanyName>JEFFERIES INTERNATIO</CompanyName>
+            <EmailAddress>RBETTERIDGE3@Bloomberg.net</EmailAddress>
+            <CorporateEmailAddress></CorporateEmailAddress>
+        </User>
+        <DateTime>03/13/2020 20:17:05</DateTime>
+        <DateTimeUTC>1584130625</DateTimeUTC>
+        <Content>
+            *** JEFFERIES INTERNATIO (30436661) Disclaimer: Jefferies archives and monitors outgoing and incoming
+            messages. The contents of this message, including any attachments, are confidential to the ordinary user of
+            the address to which it was addressed. If you are not the addressee of this message you may not copy,
+            forward, disclose or otherwise use it or any part of it in any form whatsoever. This message may be produced
+            at the request of regulators or in connection with civil litigation. Jefferies accepts no liability for any
+            errors or omissions arising as a result of transmission. Use by other than intended recipients is
+            prohibited; if you received this transmission in error please contact the sender.
+        </Content>
+        <ConversationID>PCHAT-0x10000027F01C9</ConversationID>
+    </Message>
+    <History InteractionType="N">
+        <User>
+            <LoginName>RBETTERIDGE3</LoginName>
+            <FirstName>RUSSELL</FirstName>
+            <LastName>BETTERIDGE</LastName>
+            <CompanyName>JEFFERIES INTERNATIO</CompanyName>
+            <EmailAddress>RBETTERIDGE3@Bloomberg.net</EmailAddress>
+            <CorporateEmailAddress></CorporateEmailAddress>
+        </User>
+        <DateTime>03/13/2020 20:17:05</DateTime>
+        <DateTimeUTC>1584130625</DateTimeUTC>
+        <StartTime>03/12/2020 20:17:05</StartTime>
+        <StartTimeUTC>1584044225</StartTimeUTC>
+        <EndTime>03/13/2020 20:17:05</EndTime>
+        <EndTimeUTC>1584130625</EndTimeUTC>
+        <ConversationID>PCHAT-0x10000027F01C9</ConversationID>
+    </History>
+    <ParticipantEntered InteractionType="N" DeviceType="M">
+        <User>
+            <LoginName>SEANSYSTEM2</LoginName>
+            <FirstName>SEAN</FirstName>
+            <LastName>OLDFIELD</LastName>
+            <UUID>25813826</UUID>
+            <FirmNumber>848135</FirmNumber>
+            <AccountNumber>30413594</AccountNumber>
+            <CompanyName>MIRABELLA FINANCIAL</CompanyName>
+            <EmailAddress>SEANSYSTEM2@Bloomberg.net</EmailAddress>
+            <CorporateEmailAddress>sean@system2capital.com</CorporateEmailAddress>
+        </User>
+        <DateTime>03/13/2020 22:11:28</DateTime>
+        <DateTimeUTC>1584137488</DateTimeUTC>
+        <ConversationID>PCHAT-0x10000027F01C9</ConversationID>
+    </ParticipantEntered>
+    <ParticipantEntered InteractionType="N" DeviceType="M">
+        <User>
+            <LoginName>LUDOCOHEN</LoginName>
+            <FirstName>LUDOVIC</FirstName>
+            <LastName>COHEN</LastName>
+            <CompanyName>JEFFERIES INTERNATIO</CompanyName>
+            <EmailAddress>LUDOCOHEN@Bloomberg.net</EmailAddress>
+            <CorporateEmailAddress></CorporateEmailAddress>
+        </User>
+        <DateTime>03/13/2020 22:38:13</DateTime>
+        <DateTimeUTC>1584139093</DateTimeUTC>
+        <ConversationID>PCHAT-0x10000027F01C9</ConversationID>
+    </ParticipantEntered>
+    <Message InteractionType="N" DeviceType="M">
+        <User>
+            <LoginName>LUDOCOHEN</LoginName>
+            <FirstName>LUDOVIC</FirstName>
+            <LastName>COHEN</LastName>
+            <CompanyName>JEFFERIES INTERNATIO</CompanyName>
+            <EmailAddress>LUDOCOHEN@Bloomberg.net</EmailAddress>
+            <CorporateEmailAddress></CorporateEmailAddress>
+        </User>
+        <DateTime>03/13/2020 22:38:13</DateTime>
+        <DateTimeUTC>1584139093</DateTimeUTC>
+        <Content>
+            *** JEFFERIES INTERNATIO (30436661) Disclaimer: Jefferies archives and monitors outgoing and incoming
+            messages. The contents of this message, including any attachments, are confidential to the ordinary user of
+            the address to which it was addressed. If you are not the addressee of this message you may not copy,
+            forward, disclose or otherwise use it or any part of it in any form whatsoever. This message may be produced
+            at the request of regulators or in connection with civil litigation. Jefferies accepts no liability for any
+            errors or omissions arising as a result of transmission. Use by other than intended recipients is
+            prohibited; if you received this transmission in error please contact the sender.
+        </Content>
+        <ConversationID>PCHAT-0x10000027F01C9</ConversationID>
+    </Message>
+    <ParticipantLeft InteractionType="N">
+        <User>
+            <LoginName>SHAMMERSLEY</LoginName>
+            <FirstName>SEAN</FirstName>
+            <LastName>HAMMERSLEY</LastName>
+            <CompanyName>JEFFERIES INTERNATIO</CompanyName>
+            <EmailAddress>SHAMMERSLEY@Bloomberg.net</EmailAddress>
+            <CorporateEmailAddress></CorporateEmailAddress>
+        </User>
+        <DateTime>03/13/2020 23:31:53</DateTime>
+        <DateTimeUTC>1584142313</DateTimeUTC>
+        <ConversationID>PCHAT-0x10000027F01C9</ConversationID>
+    </ParticipantLeft>
+    <ParticipantLeft InteractionType="N" DeviceType="M">
+        <User>
+            <LoginName>RBETTERIDGE3</LoginName>
+            <FirstName>RUSSELL</FirstName>
+            <LastName>BETTERIDGE</LastName>
+            <CompanyName>JEFFERIES INTERNATIO</CompanyName>
+            <EmailAddress>RBETTERIDGE3@Bloomberg.net</EmailAddress>
+            <CorporateEmailAddress></CorporateEmailAddress>
+        </User>
+        <DateTime>03/13/2020 23:45:09</DateTime>
+        <DateTimeUTC>1584143109</DateTimeUTC>
+        <ConversationID>PCHAT-0x10000027F01C9</ConversationID>
+    </ParticipantLeft>
+    <ParticipantLeft InteractionType="N" DeviceType="M">
+        <User>
+            <LoginName>CSELLEM4</LoginName>
+            <FirstName>CHARLES</FirstName>
+            <LastName>SELLEM</LastName>
+            <CompanyName>JEFFERIES INTERNATIO</CompanyName>
+            <EmailAddress>CSELLEM4@Bloomberg.net</EmailAddress>
+            <CorporateEmailAddress></CorporateEmailAddress>
+        </User>
+        <DateTime>03/14/2020 00:30:17</DateTime>
+        <DateTimeUTC>1584145817</DateTimeUTC>
+        <ConversationID>PCHAT-0x10000027F01C9</ConversationID>
+    </ParticipantLeft>
+    <ParticipantLeft InteractionType="N">
+        <User>
+            <LoginName>SOBRIEN99</LoginName>
+            <FirstName>SEAN</FirstName>
+            <LastName>O&apos;BRIEN</LastName>
+            <CompanyName>JEFFERIES INTERNATIO</CompanyName>
+            <EmailAddress>SOBRIEN99@Bloomberg.net</EmailAddress>
+            <CorporateEmailAddress></CorporateEmailAddress>
+        </User>
+        <DateTime>03/14/2020 01:34:14</DateTime>
+        <DateTimeUTC>1584149654</DateTimeUTC>
+        <ConversationID>PCHAT-0x10000027F01C9</ConversationID>
+    </ParticipantLeft>
+    <ParticipantLeft InteractionType="N">
+        <User>
+            <LoginName>BJNIXON</LoginName>
+            <FirstName>BEN</FirstName>
+            <LastName>NIXON</LastName>
+            <CompanyName>JEFFERIES INTERNATIO</CompanyName>
+            <EmailAddress>BJNIXON@Bloomberg.net</EmailAddress>
+            <CorporateEmailAddress></CorporateEmailAddress>
+        </User>
+        <DateTime>03/14/2020 01:35:24</DateTime>
+        <DateTimeUTC>1584149724</DateTimeUTC>
+        <ConversationID>PCHAT-0x10000027F01C9</ConversationID>
+    </ParticipantLeft>
+    <EndTime>03/14/2020 01:35:24</EndTime>
+    <EndTimeUTC>1584149724</EndTimeUTC>
+</Conversation>

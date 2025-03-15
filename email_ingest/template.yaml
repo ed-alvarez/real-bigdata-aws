@@ -1,0 +1,22 @@
+Resources:
+  Function:
+    Type: AWS::Serverless::Function
+    Properties:
+      Handler: email_src/EmailIngest.lambda_handler
+      CodeUri: /Users/hogbinj/Documents/GitHub/emailStep
+      Runtime: python3.6
+      Environment: # More info about Env Vars: https://github.com/awslabs/serverless-application-model/blob/master/versions/2016-10-31.md#environment-object
+        Variables:
+          ES_HOST: 'e13b3e01ab7e44199f0644686ac35ada.europe-west1.gcp.cloud.es.io'
+          ES_USER: 'elastic'
+          ES_PASSWORD: 'E6cjIROQnndnTlKsOFM2Lutv'
+          LOGGING_LEVEL: 'DEBUG'
+          CREATE_JSON_BACKUP: 'false'
+          LEGACY_ES_SCHEMA: 'true'
+          DYNAMO_DB: 'false'
+          MOVE_FILES: 'false'
+          STAGE: 'dev'
+          TIKA_SERVER_ENDPOINT: 'http://34.255.30.114:9998'
+          TIKA_CLIENT_ONLY: 'True'
+      Timeout: 900
+      MemorySize: 2368

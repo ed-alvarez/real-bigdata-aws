@@ -1,0 +1,186 @@
+[
+ {
+  "id": "CP19UKSF4",
+  "name": "general",
+  "is_channel": true,
+  "is_group": false,
+  "is_im": false,
+  "created": 1571153950,
+  "is_archived": false,
+  "is_general": true,
+  "unlinked": 0,
+  "name_normalized": "general",
+  "is_shared": false,
+  "parent_conversation": null,
+  "creator": "UPG9G6D38",
+  "is_ext_shared": false,
+  "is_org_shared": false,
+  "shared_team_ids": [
+   "TP2JMH5U3"
+  ],
+  "pending_shared": [],
+  "pending_connected_team_ids": [],
+  "is_pending_ext_shared": false,
+  "is_member": true,
+  "is_private": false,
+  "is_mpim": false,
+  "topic": {
+   "value": "Company-wide announcements and work-related matters",
+   "creator": "UPG9G6D38",
+   "last_set": 1571153950
+  },
+  "purpose": {
+   "value": "This channel is for workspace-wide communication and announcements. All members are in this channel.",
+   "creator": "UPG9G6D38",
+   "last_set": 1571153950
+  },
+  "previous_names": [],
+  "num_members": 4
+ },
+ {
+  "id": "CP7KZPEKT",
+  "name": "random",
+  "is_channel": true,
+  "is_group": false,
+  "is_im": false,
+  "created": 1571153950,
+  "is_archived": false,
+  "is_general": false,
+  "unlinked": 0,
+  "name_normalized": "random",
+  "is_shared": false,
+  "parent_conversation": null,
+  "creator": "UPG9G6D38",
+  "is_ext_shared": false,
+  "is_org_shared": false,
+  "shared_team_ids": [
+   "TP2JMH5U3"
+  ],
+  "pending_shared": [],
+  "pending_connected_team_ids": [],
+  "is_pending_ext_shared": false,
+  "is_member": true,
+  "is_private": false,
+  "is_mpim": false,
+  "topic": {
+   "value": "Non-work banter and water cooler conversation",
+   "creator": "UPG9G6D38",
+   "last_set": 1571153950
+  },
+  "purpose": {
+   "value": "A place for non-work-related patter, chit-chat, gibber and blather you\u2019d prefer to keep out of more focused work-related channels.",
+   "creator": "UPG9G6D38",
+   "last_set": 1571153950
+  },
+  "previous_names": [],
+  "num_members": 4
+ },
+ {
+  "id": "CPG9G78PQ",
+  "name": "regulatory-it",
+  "is_channel": true,
+  "is_group": false,
+  "is_im": false,
+  "created": 1571153950,
+  "is_archived": false,
+  "is_general": false,
+  "unlinked": 0,
+  "name_normalized": "regulatory-it",
+  "is_shared": false,
+  "parent_conversation": null,
+  "creator": "UPG9G6D38",
+  "is_ext_shared": false,
+  "is_org_shared": false,
+  "shared_team_ids": [
+   "TP2JMH5U3"
+  ],
+  "pending_shared": [],
+  "pending_connected_team_ids": [],
+  "is_pending_ext_shared": false,
+  "is_member": true,
+  "is_private": false,
+  "is_mpim": false,
+  "topic": {
+   "value": "",
+   "creator": "",
+   "last_set": 0
+  },
+  "purpose": {
+   "value": "",
+   "creator": "",
+   "last_set": 0
+  },
+  "previous_names": [],
+  "num_members": 4
+ },
+ {
+  "id": "DPEMEHDS8",
+  "created": 1571218523,
+  "is_archived": false,
+  "is_im": true,
+  "is_org_shared": false,
+  "user": "UPEMEHAJ0",
+  "is_user_deleted": false,
+  "priority": 0.016222640510359
+ },
+ {
+  "id": "DPE3DKFSL",
+  "created": 1571153990,
+  "is_archived": false,
+  "is_im": true,
+  "is_org_shared": false,
+  "user": "UPFUKHWS3",
+  "is_user_deleted": false,
+  "priority": 0.016222640510359
+ },
+ {
+  "id": "DPE3CD7CY",
+  "created": 1571153950,
+  "is_archived": false,
+  "is_im": true,
+  "is_org_shared": false,
+  "user": "USLACKBOT",
+  "is_user_deleted": false,
+  "priority": 0
+ },
+ {
+  "id": "DPDK4QG84",
+  "created": 1571153991,
+  "is_archived": false,
+  "is_im": true,
+  "is_org_shared": false,
+  "user": "UP19VS2E6",
+  "is_user_deleted": false,
+  "priority": 0.016222640510359
+ },
+ {
+  "id": "DP7MZFPSM",
+  "created": 1571156304,
+  "is_archived": false,
+  "is_im": true,
+  "is_org_shared": false,
+  "user": "UPE5C8FR6",
+  "is_user_deleted": false,
+  "priority": 0.016222640510359
+ },
+ {
+  "id": "DP7KZP8BB",
+  "created": 1571153950,
+  "is_archived": false,
+  "is_im": true,
+  "is_org_shared": false,
+  "user": "UPG9G6D38",
+  "is_user_deleted": false,
+  "priority": 0.016222640510359
+ },
+ {
+  "id": "DP2JNQZT5",
+  "created": 1571153992,
+  "is_archived": false,
+  "is_im": true,
+  "is_org_shared": false,
+  "user": "UP2JNQM9R",
+  "is_user_deleted": false,
+  "priority": 0.016222640510359
+ }
+]

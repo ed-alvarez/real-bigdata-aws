@@ -1,0 +1,79 @@
+"""
+Class for Fingerprint Meta Data to be inserted into the JSON message
+"""
+
+import logging
+from helpers.es_slack_index import Fingerprint_Meta, Schema
+from datetime import datetime
+
+
+log = logging.getLogger()
+
+class FingerprintHelper:
+    def __init__(self):
+        self.fingerprint_meta_data = Fingerprint_Meta()
+        self.msg_type = None
+        self.str_msg_time = None
+        self.client_name = None
+        self.bucket_name = None
+        self.key_name = None
+        self.processed_time = None
+        self.attachment_info = None
+        self.attachment_key = None
+        self.json_key = None
+        self.datetime_msg_time = None
+        self.schema = Schema.version
+        self.create_key(schema=self.schema)
+
+    def __repr__(self):
+        return self.fingerprint_meta_data
+
+    def set_msg_type(self, msg_type):
+        self.create_key(type=msg_type)
+        self.msg_type = msg_type
+
+    def set_json_key(self, json_key):
+        self.create_key(json_key=json_key)
+        self.json_key = json_key
+
+    def remove_json_key(self, json_key):
+        if self.json_key:
+            del self.fingerprint_meta_data[json_key]
+            self.json_key = None
+
+    def set_processed_time(self, processed_time=None):
+        datetime_processed_time = datetime.now()
+        if processed_time:
+            datetime_processed_time = processed_time()
+        #es_str_processed_time = datetime_processed_time.strftime("%Y-%m-%d %H:%M:%S")
+        es_str_processed_time = datetime_processed_time
+        self.create_key(processed_time=es_str_processed_time)
+        self.processed_time = processed_time
+
+    def set_msg_time(self, msg_time):
+        if msg_time:
+            self.datetime_msg_time = msg_time
+        else:
+            self.datetime_msg_time = datetime.now()
+
+        #es_str_msg_time = self.datetime_msg_time.strftime("%Y-%m-%d %H:%M:%S")
+        es_str_msg_time = self.datetime_msg_time
+        self.create_key(time=es_str_msg_time)
+        self.str_msg_time = es_str_msg_time
+
+    def set_client_name(self, client_name):
+        self.create_key(client=client_name)
+        self.client_name = client_name
+
+    def set_bucket_name(self, bucket_name):
+        self.create_key(bucket=bucket_name)
+        self.bucket_name = bucket_name
+
+    def set_key_name(self, key_name):
+        self.create_key(key=key_name)
+        self.key_name = key_name
+
+    def create_key(self, **kwargs):
+        if kwargs is not None:
+            for key, value in kwargs.items():
+                self.fingerprint_meta_data[str(key)] = value

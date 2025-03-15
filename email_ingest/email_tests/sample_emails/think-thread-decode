@@ -1,0 +1,1510 @@
+Return-Path: <NDR@thinkinvestmentslp.com>
+Received: from NAM04-MW2-obe.outbound.protection.outlook.com (mail-mw2nam08lp2172.outbound.protection.outlook.com [104.47.73.172])
+ by inbound-smtp.eu-west-1.amazonaws.com with SMTP id 4ho0o54uiim77vmpsmkl8jbchtn2utci5ai382g1
+ for think-inv@ip-sentinel.net;
+ Mon, 20 Dec 2021 00:10:13 +0000 (UTC)
+Received-SPF: pass (spfCheck: domain of thinkinvestmentslp.com designates 104.47.73.172 as permitted sender) client-ip=104.47.73.172; envelope-from=NDR@thinkinvestmentslp.com; helo=mail-mw2nam08lp2172.outbound.protection.outlook.com;
+Authentication-Results: amazonses.com;
+ spf=pass (spfCheck: domain of thinkinvestmentslp.com designates 104.47.73.172 as permitted sender) client-ip=104.47.73.172; envelope-from=NDR@thinkinvestmentslp.com; helo=mail-mw2nam08lp2172.outbound.protection.outlook.com;
+ dmarc=fail header.from=us.hsbc.com;
+X-SES-RECEIPT: AEFBQUFBQUFBQUFFbXh1aWFLZnpaTFQ1V3ExaTFrbVArZHJRLzJzbU9kUktpd3ZlaXRHRTUwWjBDYmFGcjdXeTlGQkZjaG5tQk5nNXFFMU80RVdlbmdwT0J4S3JmSmFnR25RSTVyQmRpR1BpV1NCbm9zeklSK3BQSTdrb1dlSUttT0l2TC8yei8xQlNwMW9yYnN0S0NoeGdlSzBXWVhySGRuRTIwdmFrTmNiZ1RNZzVRRGRRS3JjcHBxV0FVYTRmN3ZVcDcyamliNEQ4YXN3bUFsLzJuYXF2a3krdGN6QmRRY2lRUlpyVC9QSXQ4ZXU2eE1wdldUdmRkL0lMelNQUmpab29yMi83S1RrVmxkWkpKeTJ2SWROdStKc2F2M2F5N2pudUhMcEtGZkFLMFZxazRSaVNWR0hCL0NTYmRvUTQ1ZmM0dWVXSjhKamc9
+X-SES-DKIM-SIGNATURE: a=rsa-sha256; q=dns/txt; b=Ie8olmv3jUH7vlRpq2m4CLt/u7FYknIeTjebsq6XhPjrV9jc+5K7xkY3WuJC6lb4V4L5+WfWTK0HqR/5VBvHwY0EQDplQRBrVntzj99JmcRg8YiP8zSg8xE0bRiHyDwLF6AqDf8lGJ6AtnuTGQIiTsrZPIht8dKp9f8mESKaoSk=; c=relaxed/simple; s=uku4taia5b5tsbglxyj6zym32efj7xqv; d=amazonses.com; t=1639959014; v=1; bh=pUHIQYPZve9d/DieRaw5yr5yc6N8t6PC9Y5G7RMvBIU=; h=From:To:Cc:Bcc:Subject:Date:Message-ID:MIME-Version:Content-Type:X-SES-RECEIPT;
+Content-Type: multipart/mixed;
+	boundary="_fe440046-701c-455e-8ebd-5f29474a1fbf_"
+Subject: =?gb2312?B?KipIU0JDIERlYWw6IFNpcm5hb21pY3MgTHRkLiBISyBJUE8gqEMgTEFVTkNI?=
+ =?gb2312?Q?**_Approved_external_email?=
+To: Undisclosed recipients:;
+From: Casey Y Zhu <casey.y.zhu@us.hsbc.com>
+MIME-Version: 1.0
+Sender:
+	<MicrosoftExchange329e71ec88ae4615bbc36ab6ce41109e@thinkinvestments.onmicrosoft.com>
+Message-ID: <471de7c3-d636-4b97-ad94-193b4fabe7ef@journal.report.generator>
+Date: Mon, 20 Dec 2021 00:10:11 +0000
+X-MS-PublicTrafficType: Email
+X-MS-Journal-Report:
+Return-Path: NDR@thinkinvestmentslp.com
+X-MS-Exchange-Parent-Message-Id:
+	<1749e2ab3e854fd29dbba9fe334cb808@GBW00156943.ADRES.HSBC>
+Auto-Submitted: auto-generated
+X-MS-Exchange-Generated-Message-Source: Journal Agent
+X-MS-TrafficTypeDiagnostic: PH0PR15MB4432:EE_JournalingReport
+X-OriginatorOrg: thinkinvestments.onmicrosoft.com
+X-MS-Exchange-CrossTenant-AuthSource: PH0PR15MB4432.namprd15.prod.outlook.com
+X-MS-Exchange-CrossTenant-AuthAs: Internal
+X-MS-Exchange-CrossTenant-OriginalArrivalTime: 20 Dec 2021 00:10:11.3696 (UTC)
+X-MS-Exchange-CrossTenant-Network-Message-Id:
+	7036d264-7f92-4791-dc12-08d9c34d16e5
+X-MS-Exchange-CrossTenant-FromEntityHeader: Hosted
+X-MS-Exchange-Transport-CrossTenantHeadersStamped: PH0PR15MB4432
+
+--_fe440046-701c-455e-8ebd-5f29474a1fbf_
+Content-Type: text/plain; charset="iso-8859-1"
+Content-Transfer-Encoding: 7bit
+
+Sender: casey.y.zhu@us.hsbc.com
+Subject: **HSBC Deal: Sirnaomics Ltd. HK IPO - LAUNCH** Approved external email
+Message-Id: <1749e2ab3e854fd29dbba9fe334cb808@GBW00156943.ADRES.HSBC>
+Recipient: chris@ThinkInvestmentsLP.com
+
+--_fe440046-701c-455e-8ebd-5f29474a1fbf_
+Content-Type: message/rfc822
+
+X-MS-Exchange-Organization-InternalOrgSender: False
+Received: from MW4PR04CA0085.namprd04.prod.outlook.com (2603:10b6:303:6b::30)
+ by PH0PR15MB4432.namprd15.prod.outlook.com (2603:10b6:510:84::24) with
+ Microsoft SMTP Server (version=TLS1_2,
+ cipher=TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384) id 15.20.4801.14; Mon, 20 Dec
+ 2021 00:10:09 +0000
+Received: from CO1NAM11FT060.eop-nam11.prod.protection.outlook.com
+ (2603:10b6:303:6b:cafe::9d) by MW4PR04CA0085.outlook.office365.com
+ (2603:10b6:303:6b::30) with Microsoft SMTP Server (version=TLS1_2,
+ cipher=TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384) id 15.20.4801.15 via Frontend
+ Transport; Mon, 20 Dec 2021 00:10:08 +0000
+Authentication-Results: spf=pass (sender IP is 193.108.76.55)
+ smtp.mailfrom=us.hsbc.com; dkim=pass (signature was verified)
+ header.d=us.hsbc.com;dmarc=pass action=none
+ header.from=us.hsbc.com;compauth=pass reason=100
+Received-SPF: Pass (protection.outlook.com: domain of us.hsbc.com designates
+ 193.108.76.55 as permitted sender) receiver=protection.outlook.com;
+ client-ip=193.108.76.55; helo=mta28.mail.hsbc.co.uk;
+Received: from mta28.mail.hsbc.co.uk (193.108.76.55) by
+ CO1NAM11FT060.mail.protection.outlook.com (10.13.175.132) with Microsoft SMTP
+ Server (version=TLS1_2, cipher=TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384) id
+ 15.20.4801.14 via Frontend Transport; Mon, 20 Dec 2021 00:10:08 +0000
+Received: from pps.filterd (gbv00849.hbeu.adroot.hsbc [127.0.0.1])
+	by gbv00849.hbeu.adroot.hsbc (8.16.0.42/8.16.0.42) with SMTP id 1BK09qmc010726;
+	Mon, 20 Dec 2021 00:10:06 GMT
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=us.hsbc.com; h=from : subject :
+ date : message-id : references : in-reply-to : content-type :
+ mime-version; s=us1-03102021;
+ bh=TayePXXVXIAETGLXVR4FJPHqIRZ3hcZQHYxIQrdzRMs=;
+ b=gR2DtyqDQ1oxmpA47KN5SS7h0+fsLknWhVFrc16kpKMEqMmrkMhnEQko5ji98PUQizoq
+ xUWntspyphrsg7UezgW38v5uVuZgFFtjifAGohyLmjxkrdzEeJBEvaGld2R2yWrT02Iz
+ Lxt2QmSmFmEWTbBdTqpZiAAmnKpCBjq11fzV+XkZCD1hb6es11DimjSprObfcpE5hJiD
+ /UfESNPEAMo37NV0OGWCdOsgKZbXKcELNWtW94dRTXZJ7a0uXxCgbKMBz/5BiN2dbReV
+ zmyrYk0stOP9HWRB68E7AGKv7pDpd2NPMj47MwTdM1lcEtcm4LyvFtz6cqH4WUR3uQaT +Q==
+Received: from gbv00797-fe.systems.uk.hsbc (GBSYGDC1AD402-403-v426-FIP.systems.uk.hsbc [10.201.133.132])
+	by gbv00849.hbeu.adroot.hsbc with ESMTP id 3d19418rda-2;
+	Mon, 20 Dec 2021 00:10:06 +0000
+From: Casey Y Zhu <casey.y.zhu@us.hsbc.com>
+Subject: =?gb2312?B?KipIU0JDIERlYWw6IFNpcm5hb21pY3MgTHRkLiBISyBJUE8gqEMgTEFVTkNI?=
+ =?gb2312?Q?**_Approved_external_email?=
+Thread-Topic: =?gb2312?B?KipIU0JDIERlYWw6IFNpcm5hb21pY3MgTHRkLiBISyBJUE8gqEMgTEFVTkNI?=
+ =?gb2312?Q?**_Approved_external_email?=
+Thread-Index: Adf06aZmsfjeLcQMSO2iE612scPysAAS06mA
+Date: Mon, 20 Dec 2021 00:10:03 +0000
+Message-ID: <1749e2ab3e854fd29dbba9fe334cb808@GBW00156943.ADRES.HSBC>
+References: <cc008dd588ca426b8e0887f753a0b6c0@HKW00113550.ADRES.HSBC>
+In-Reply-To: <cc008dd588ca426b8e0887f753a0b6c0@HKW00113550.ADRES.HSBC>
+Accept-Language: en-US, en-GB
+Content-Language: en-US
+X-MS-Has-Attach:
+X-MS-TNEF-Correlator:
+classification: PUBLIC
+msip_labels: MSIP_Label_3486a02c-2dfb-4efe-823f-aa2d1f0e6ab7_Enabled=true;
+ MSIP_Label_3486a02c-2dfb-4efe-823f-aa2d1f0e6ab7_SetDate=2021-12-20T00:10:00Z;
+ MSIP_Label_3486a02c-2dfb-4efe-823f-aa2d1f0e6ab7_Method=Privileged;
+ MSIP_Label_3486a02c-2dfb-4efe-823f-aa2d1f0e6ab7_Name=CLAPUBLIC;
+ MSIP_Label_3486a02c-2dfb-4efe-823f-aa2d1f0e6ab7_SiteId=e0fd434d-ba64-497b-90d2-859c472e1a92;
+ MSIP_Label_3486a02c-2dfb-4efe-823f-aa2d1f0e6ab7_ActionId=f4f3a538-2c08-4272-80d0-962a5127c2bd;
+ MSIP_Label_3486a02c-2dfb-4efe-823f-aa2d1f0e6ab7_ContentBits=2
+x-ms-exchange-transport-fromentityheader: Hosted
+Content-Type: multipart/alternative;
+	boundary="_2086a37c-6bfb-4b65-a2d3-31fb7ba93545_"
+MIME-Version: 1.0
+X-CFilter-Loop: Forward
+X-Proofpoint-GUID: s2nnRWsBKb1dWeOJpVEkuDob_WL1nvGJ
+X-Proofpoint-ORIG-GUID: s2nnRWsBKb1dWeOJpVEkuDob_WL1nvGJ
+X-Proofpoint-Spam-Details: rule=outbound_notspam policy=outbound score=0 clxscore=1011 phishscore=0
+ adultscore=0 lowpriorityscore=0 bulkscore=0 spamscore=0 suspectscore=0
+ impostorscore=0 mlxlogscore=999 priorityscore=1501 malwarescore=0
+ mlxscore=0 classifier=spam adjust=0 reason=mlx scancount=1
+ engine=8.12.0-2110150000 definitions=main-2112190151
+To: Undisclosed recipients:;
+Return-Path: casey.y.zhu@us.hsbc.com
+X-MS-Exchange-Organization-OriginalArrivalTime: 20 Dec 2021 00:10:08.1287
+ (UTC)
+X-MS-Exchange-Organization-ExpirationStartTime: 20 Dec 2021 00:10:08.6756
+ (UTC)
+X-MS-Exchange-Organization-ExpirationStartTimeReason: OriginalSubmit
+X-MS-Exchange-Organization-ExpirationInterval: 1:00:00:00.0000000
+X-MS-Exchange-Organization-ExpirationIntervalReason: OriginalSubmit
+X-MS-Exchange-Organization-Network-Message-Id: 15fa79b4-8d85-49a1-c735-08d9c34d154a
+X-MS-Exchange-Organization-OriginalClientIPAddress: 193.108.76.55
+X-MS-Exchange-Organization-OriginalServerIPAddress: 10.13.175.132
+X-EOPAttributedMessage: 0
+X-EOPTenantAttributedMessage: 2b8449d5-f3fc-4529-9f3d-0c168431e35c:0
+X-MS-Exchange-Organization-TargetResourceForest: namprd15.prod.outlook.com
+X-MS-Exchange-Organization-OrgEopForest: NAM11
+X-MS-Exchange-Organization-MessageDirectionality: Incoming
+X-MS-Exchange-Organization-Id: 2b8449d5-f3fc-4529-9f3d-0c168431e35c
+X-MS-Exchange-Organization-FFO-ServiceTag: NAM11B
+X-MS-Exchange-Organization-TenantServiceProvider: ReservedIPandCert
+X-MS-Exchange-Organization-Cross-Premises-Headers-Processed: CO1NAM11FT060.eop-nam11.prod.protection.outlook.com
+X-MS-Exchange-Organization-ConnectingIP: 193.108.76.55
+X-MS-Exchange-Organization-ConnectingEHLO: mta28.mail.hsbc.co.uk
+X-MS-Exchange-Organization-AS-LastExternalIp: 193.108.76.55
+X-MS-Exchange-Organization-Originating-Country: GB
+X-MS-Exchange-Organization-OriginalEnvelopeRecipients: chris@ThinkInvestmentsLP.com
+X-MS-Exchange-Organization-PtrDomains: symailserver.hsbc.co.uk
+X-MS-Exchange-Organization-EhloAndPtrDomain: mta28.mail.hsbc.co.uk;symailserver.hsbc.co.uk
+X-MS-Exchange-Organization-MxPointsToUs: true
+X-MS-Exchange-Organization-RecipientMxInfo-PFAFD: ThinkInvestmentsLP.com#thinkinvestmentslp-com.mail.protection.outlook.com
+X-MS-Exchange-Organization-CompAuthRes: pass
+X-MS-Exchange-Organization-CompAuthReason: 100
+X-MS-Exchange-Organization-SpoofDetection-Frontdoor-DisplayDomainName: us.hsbc.com
+X-MS-Exchange-Organization-SenderRep-Score: 1
+X-MS-Exchange-Organization-SenderRep-Data: IpClassLargeGrayBest_GrayBest_Good
+X-MS-Exchange-Organization-VBR-Class: GrayBest
+X-MS-Exchange-Organization-HMATPModel-Spf: 1
+X-MS-Exchange-Organization-HMATPModel-Recipient: <PII:H101(zZwUINP0L3bOSYfU5cACuVI2XQFHLdNzIlq3HLA5Qv4=)>@thinkinvestmentslp.com
+X-MS-Exchange-Organization-TransportTrafficType: Email
+X-MS-PublicTrafficType: Email
+X-MS-Exchange-Organization-OrderedPrecisionLatencyInProgress: LSRV=MW4PR04CA0085.namprd04.prod.outlook.com:TOTAL-FE=0.000|;2021-12-20T00:10:08.905Z
+X-MS-Exchange-Organization-MessageLatency: SRV=CO1NAM11FT060.eop-nam11.prod.protection.outlook.com:TOTAL-FE=0.776|SMR-PEN=0.732(RENV=0.205(SMRRC=0.058(SMRRC-TenantAttributionAndInboundConnectorAgent=0.049
+ ))|REOH=0.526(SMREH=0.194(SMREH-Protocol Filter Agent=0.193)))|SMS=0.042
+X-MS-Exchange-Forest-ArrivalHubServer: PH0PR15MB4432.namprd15.prod.outlook.com
+X-MS-Exchange-Organization-AuthSource:
+	CO1NAM11FT060.eop-nam11.prod.protection.outlook.com
+X-MS-Exchange-Organization-AuthAs: Anonymous
+X-MS-Exchange-Organization-FromEntityHeader: Internet
+X-MS-Exchange-Organization-MessageScope: 29b37771-b1de-4477-9140-205d96f2479a
+X-MS-Exchange-Forest-MessageScope: 29b37771-b1de-4477-9140-205d96f2479a
+X-MS-Exchange-Organization-Antispam-ProtocolFilterHub-ScanContext:
+	ProtocolFilterHub:SmtpOnEndOfData;
+X-MS-Office365-Filtering-Correlation-Id: 15fa79b4-8d85-49a1-c735-08d9c34d154a
+X-MS-Exchange-Organization-P2SenderDisplayNamePII:
+	H101(TgEZ+R45FO8mKRZmpc1SJguPVSZ0XaS8gq8ehBOKDY4=)
+X-MS-Exchange-Organization-P2SenderPII:
+	<PII:H101(WCRm4L6U3dDicQixRK2HhOGItJbuJaXdhSVz1NSGDps=)>@us.hsbc.com
+X-MS-Exchange-Organization-Auth-DmarcStatus: Pass
+X-MS-Exchange-Organization-VerifiedDkimDomainsList: us.hsbc.com
+X-MS-Exchange-Organization-PFAHub-Total-Message-Size: 69595
+X-MS-Exchange-Organization-OriginalSize: 69595
+X-MS-TrafficTypeDiagnostic: PH0PR15MB4432:EE_
+X-MS-Exchange-Organization-HygienePolicy: Premium
+X-MS-Exchange-Organization-ReplicationInfo:
+	ReplicaId=5b5d13ea-7092-e7fa-704d-9e154dc3d908;ReplicatingServerFqdn=MW4PR15MB4428.namprd15.prod.outlook.com
+X-MS-Exchange-Forest-Language: en
+X-MS-Exchange-Forest-IndexAgent-0:
+	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
+ tjMoZQOm5nxDBkUJVU8c2UIWuiUiu+wrVbLKXiq/UtZBDUs8lwi4kK
+ 25waoVn5cEIr5vnTnbSW2SzzJZ2JPtJEk6Vwk4BzpX9+3lv1pn2WUX
+ t4XEvh84FSvjuld5nY+JHsTQNV6IVWVTSmriwzLtAcPJct9GPG1twT
+ T4K7LXxW9r1o0dG+vl0jaDK06JpryyNesfnS8mQLZh4oHsuMnlzJne
+ cSLmw2R5K3JZeLPB7l2di8E5E/sBKMpxjiTp3RnXrZVAkNhx1Hz7in
+ fVrHqlLjjPEUPIHC/EEI91P5bncJ38dUqQ8iRiVrmWERvlVQcS2K8q
+ gtxWGAALKXE20YawxHhpzYW//1eYd27v4kte+fFuud1wGca61saKN9
+ kpBCbzyFLUcFGebiQK9BkWRDeXkawpDaxlnzQO72HjDefSLu5koSAZ
+ X8PulfiGE6dmsTf7Q8WR9d1A/FZ8xreg/9YlN8FpfvmTt04nviuuLy
+ jWJ+VxWPXhfdW47qb4sEjqVOc3Bb6Mm+yrazaP2W6lyn6y7lfkDWtT
+ KcE1W8Wm1i9vEAIsrzAOBM+rTkCGphVyV/lrnXCTPVO0au1SFU+WAH
+ HSSeb8bGY8JQfWGSrT7qbmtmBYRQ3RannNCyufsQ3epb7ilen7GOOZ
+ AfNWLRs+K4JFJS24nMBwhVO9AN3yqmhvxUJxYZJxqWFMhK2Uqx6f0m
+ 4EKzZMHJplyrVFypz/16RJcXnG35TTiIFzEtdlhkPScLnub8XgrsDH
+ bL6SXXy5ZspuVy1Ps/e6xLuLHaZZ47hYcz4v/Yg/TbppmygeOW9fmY
+ FeS9KFy8biG5LMrScEYl8XhnMTAq+WOQAgj5KsHFAR59m05UD6PkfE
+ 6Yfpb/OHrY+mZbfQrqq43Ct136ZrY1Pp6BcEnMnPsruUCVfa/MMHW8
+ sqLgdKPZU5ogcuTFsVE4M14X9r9rDFgbqVKcCeQlx5lNObOf3LvpTc
+ yhvcklR9CrJ21dZxYY8Lt/ONbXEqwScuN0oUrHgdyorBxlVX2V1EC3
+ 1WxZqT0cdRzvE84qvLiFcccclL7lFAkT9t0/YjPtoUyptWUU5qyd6y
+ Uc07/nIfnKtY4tR58aotL/lPD5Ek6FwlEvOJcmbx+TZre9MRWbUw0h
+ 5f0O+j0hdzTaK/hR8pvg/DiHNNEPLSnK96E7YdTT/P12yfJUVTAhya
+ 9+hsr3ioWDKV3zBK4Lja6pLYioUfDqm6uN6woTpX2X3jOuJzIb9p0a
+ nzVQdNV01TM7WvS4/CgFOsgwcSobYPMv7s4mJ6BmU1IIObJBEqyInz
+ vS0Leh1A5Vw6BYqOQ5uK6ZyW93UjEiNTqTe8I9wKFyzneyLUmj0hsa
+ 5ScQebPJnooxeYa6iZ85qIUymXAj6ocQTlg2XVSFcrXXDq2HAwqfJ/ c+j6aKBGAAA=
+X-MS-Exchange-Forest-IndexAgent: 1 6407
+X-MS-Exchange-Forest-EmailMessageHash: 1B6E59B4
+X-MS-Exchange-Organization-Antispam-PreContentFilter-PolicyLoadTime:
+	PSOSUB:43;PSOSUBLOAD:43;PSOSUBRUN:0;PSOSUBCOUNT:0;SMORES:43;SMORESLOAD:43;SMORESRUN:0;SMORESCOUNT:0;SAORES:61;SAORESLOAD:42;SLORES:18;RSORES:42;SLORESLOAD:18;
+X-MS-Exchange-Organization-MessageFingerprint:
+	ECD1F255.A6FA9FD2.78DDB057.4A387B40.207C4
+X-MS-Exchange-Organization-FeatureTable:
+	=?us-ascii?Q?{341:0,342:0,343:4,344:1,345:23,346:13,347:0,348:0,349:3,350?=
+ =?us-ascii?Q?:1,351:22,352:13,353:3,354:1,355:4,356:1,357:4,358:1,365:2,3?=
+ =?us-ascii?Q?66:1,367:0,368:0,384:"us.hsbc.com",385:"us.hsbc.com",386:"Tr?=
+ =?us-ascii?Q?ue",387:"True",423:15,424:3,425:32,426:4,427:32,428:4,429:32?=
+ =?us-ascii?Q?,430:4,452:1,453:1,454:"D59947BC@ThinkInvestmentsLP.com",455?=
+ =?us-ascii?Q?:"EST",501:1,502:1,503:1,504:1,506:1,507:1,508:"us.hsbc.com"?=
+ =?us-ascii?Q?,509:"us.hsbc.com",510:"us.hsbc.com",511:"pass",512:100,601:?=
+ =?us-ascii?Q?103,602:9,651:2,653:1,654:1,656:1,664:1000,665:1000,702:"fed?=
+ =?us-ascii?Q?ex.com",721:"4.59",722:"4.08",723:1,725:342,726:18,728:868,7?=
+ =?us-ascii?Q?30:153,735:"4.59",738:1,740:1,742:1,743:3,744:1,748:"lock,li?=
+ =?us-ascii?Q?mit,close,verif,bank,los,notice,access,update,secur,account,?=
+ =?us-ascii?Q?confirm,order,failure,violat,delete,notif",749:"Latn",758:"E?=
+ =?us-ascii?Q?CD0F255.AADADFDE.3ADDB057.4A39CB40.20724",838:"html:1;head:1?=
+ =?us-ascii?Q?;meta:2;style:1;body:1;div:2;p:71;b:50;span:137;o=5Fp:71;br:?=
+ =?us-ascii?Q?19;u:4",951:2916,952:9999,956:10000,957:10000,958:4849,963:1?=
+ =?us-ascii?Q?0000,964:351,965:2916,966:10000,967:126,981:2805,1010:0,1011?=
+ =?us-ascii?Q?:"AC020438|DC0C1C94|EEBF673E|",1101:"0.034"}?=
+X-MS-Exchange-Organization-MetadataFeatureTable:
+	{756:0,757:0,1010:0,1011:"AC020438|DC0C1C94|EEBF673E|",1028:8401,1029:8361,1030:131,1031:39,1032:8401,1033:8361,1034:131,1035:39,1036:"20705",1038:8401,1039:8361,1040:131,1041:39}
+X-MS-Exchange-Organization-Antispam-PreContentFilter-ScanContext:
+	CategorizerOnSubmitted;CategorizerOnResolved;
+X-MS-Exchange-Organization-AVScannedByV2: true
+X-MS-Exchange-Organization-AVScanComplete: true
+X-MS-Exchange-Organization-ExternalRoutingTopologyAnalysis:
+X-MS-Exchange-Organization-Recipient-Limit-Verified: True
+X-MS-Exchange-Organization-TotalRecipientCount: 1
+X-MS-Exchange-Organization-HVERecipientsForked: 1.0
+X-MS-Exchange-Organization-ASDirectionalityType: 1
+X-MS-Exchange-Organization-Boomerang-Verdict: None
+X-MS-Exchange-Organization-HMATPModel-SpfAuthStatus: 1
+X-MS-Exchange-Organization-HMATPModel-DkimAuthStatus: 1
+X-MS-Exchange-Organization-HMATPModel-DmarcAuthStatus: 1
+X-MS-Exchange-Organization-SkipSpaForAttachmentDetonation: true
+X-MS-Exchange-Organization-SkipAttachmentDetonation: DS:1
+X-MS-Exchange-Organization-Rules-Execution-History:
+	09dfe240-10d8-4339-bd29-e0aedcd239d4%%%4889c67b-9a8b-43c7-bdbf-c338a405f6b1%%%74b74fde-297a-4312-84f0-6719b6497e51%%%0ea700c4-9649-4353-8157-a276e0f367cf
+X-MS-Exchange-Forest-RulesExecuted: PH0PR15MB4432
+X-MS-Exchange-Organization-RulesExecuted: PH0PR15MB4432
+X-MS-Exchange-Organization-SenderRecipientCommunicationState: EST
+X-MS-Exchange-Organization-Antispam-ContentFilter-ScanContext:
+	CategorizerOnResolved;
+X-MS-Exchange-Organization-CommunicationStateSummary: EST
+X-MS-Exchange-Organization-FirstContactSummary:
+	ST=1;MRG=0;EXT=0;UN=1;ORCT=1;EV=1;FC=0;NESI=0;NES=0;ESTI=0;EST=1;INS=0;MP=0;UD=0;QE=0;ERR=0
+X-MS-Exchange-Organization-CFA-UserOption: 0
+X-MS-Exchange-Organization-Antispam-SFASkipFiltering: true
+X-MS-Exchange-Organization-CompAuth-Eop: compauth=pass reason=100
+X-MS-Exchange-Organization-Feature-Long: 0	201:39349	202:12089	203:1	205:342
+	206:18	208:868	210:153	215:39295	235:2	236:1	238:1	239:1	241:1	243:1	244:3
+	245:1	246:1	247:1	248:1	252:1	253:1	255:1	1004:fedex.com
+	1006:lock,limit,close,verif,bank,los,notice,access,update,secur,account,confirm,order,failure,violat,delete,notif
+	1007:Latn	1014:us.hsbc.com	1015:us.hsbc.com	1020:us.hsbc.com	1030:us.hsbc.com
+	1034:D59947BC@ThinkInvestmentsLP.com	1035:us.hsbc.com
+X-MS-Exchange-Organization-HDRFeatureV2:
+	9;0;1;13;1;0;13;1;1;0;4;4;3;1;4;3;103;0;3;23;4;0;22;3;2;0;32;32;15;4;32;15;1;1;1;-1;-1;-1;-1;-1;-1;1;4;-1;-1
+X-MS-Exchange-Organization-ExtractionTags: SUB64;
+X-MS-Exchange-Organization-ExtractionTagsSubject:
+	=?Windows-1252?Q?**HSBC_Deal:_Sirnaomics_Ltd._HK_IPO_=96_LAUNCH**_Approve?=
+ =?Windows-1252?Q?d_external_email?=
+X-MS-Exchange-Organization-ExtractionTagsFrom: Casey Y Zhu
+ <casey.y.zhu@us.hsbc.com>
+X-MS-Exchange-Organization-ExtractionTagsSubjectNormalized: hsbc deal
+ slrnaornlcs ltd hk lpo launch aproved external ernall
+X-MS-Oob-TLC-OOBClassifiers: OLM:9508;
+X-MS-Exchange-Organization-Antispam-PostContentFilter-ScanContext:
+	CategorizerOnResolved;CategorizerOnRouted;
+X-MS-Exchange-Organization-SCL: 1
+X-Microsoft-Antispam: BCL:0;
+X-Microsoft-Antispam-Message-Info:
+	=?us-ascii?Q?YOqpy+Ywne5/r4RMpalIHGLyBtoyArDaM31ss0x/9Xuk39B4qJrsOnaOzuij?=
+ =?us-ascii?Q?syX2lxJXJSp3Irm2wQpB208h057ysnxJjANOhXWPrdudpg2M2bC+vfYGRyNq?=
+ =?us-ascii?Q?ts7W7FK1aVXOddFO4Bw6GJ46aS5ZmZ/e2UvFgXx1/t8RopHJx4lJwFQU6Y6X?=
+ =?us-ascii?Q?rUFqVhwwKXYuiRn6UNjmmrDGsfwH+gnPLktwoCyKpND2hHb44vcsqSGL0/AY?=
+ =?us-ascii?Q?NYPb5Pk4pCGguNj5cLAFqqqbrPoFR1y29wj4WiRIdkQqs7HPrQVxmXp9U6EI?=
+ =?us-ascii?Q?12timxQIdnP3cGfE2WanRxrDMCgmhQmII2s2AxRJVGGb95D3pA+sU/vfwFnO?=
+ =?us-ascii?Q?j0FtV9i92pr/ARwQAYfkFU9xBmNCFwR7pWzE09iSxsXUOnLhHWa6O+F2GuSk?=
+ =?us-ascii?Q?ju8QUU03f13lnJdt1dNbXA4uPR0LewIBQzQtk26H7+P5fIcyz7/YU9ubvKvZ?=
+ =?us-ascii?Q?Uo+tWckF4CA1d55lhr8YbHNYDarE5ERugRE8TMBKXZbry2cQ4MRpcyboeUU4?=
+ =?us-ascii?Q?/OrwZ792OI23JeMpqM0qYutsa8cfGak2GIi9Tu5nDNOilhdoG2dkV8An47Pv?=
+ =?us-ascii?Q?lxT/WIfxDimg5S3cOYgOnKTUZx7nHKbqnYvPyxO7Jn6S+KCTc50zy5nCZP6r?=
+ =?us-ascii?Q?fX7bfMrod1OQ32Bb6kFO3o/XRTKGrD6ptM0DO6hlmnVHnZUU48QtYZkd690G?=
+ =?us-ascii?Q?2rzM79Xhl0owNiF1ZAicCWusEUTWFeXwyLpJNvg0VyRooSmfvKlYkhaZiSxP?=
+ =?us-ascii?Q?COfAx0QRqGmildiWb+rW8tq7EcW8ifk/oUuj8Evc5tWY0tEB2w7XeNX0cWKG?=
+ =?us-ascii?Q?QM7u/fDXPPFPDviq71jqe1NGXTxjuvRraVaX1b4VthnorMT/NBgGcyZMqXEL?=
+ =?us-ascii?Q?RrK8PKbCCb0B6N5N1RbF8HtpWcPN9Jr90mAH1icAFoikFx3LWf0FdvTLmRYT?=
+ =?us-ascii?Q?bhKNpEQOayeLjW9WNkmg5sGTOv0fGeqet+nkg5WgbyuFLFYOUmkQkrBi8jNL?=
+ =?us-ascii?Q?hwuEb2/DAcf8rQY5ecSZJluqGSMJRHKCYwDnjq+n7kcoO3xJ2rGA+Q6jY92r?=
+ =?us-ascii?Q?Tjsh3mfcVUc8kCBCacz2TZG+HXc/vBZPv000MA5HaEQQTTjU0faIVlExtb6b?=
+ =?us-ascii?Q?JmaGLTRbJwb9R4Zcew7nKn2QIAB7wMfys3NWv28X0Cx8WJiiaT6Fj0KwllP0?=
+ =?us-ascii?Q?9ClhI68NmN6tp/uUrBjK53eDwz25wZsK9bwayrVi3UZPDNUL8I2sMz8wxU2R?=
+ =?us-ascii?Q?VA7CM0nzKdD9p2zoNcQbII9U1bRchZRAE0se4FCa9QjmEjuS3XULsEHGG6LV?=
+ =?us-ascii?Q?tIKj5v/Ffxy7okIyQjsnw2N+LBsOyJo42n/8w5YfWz7DLH3IgatThHhRO2EB?=
+ =?us-ascii?Q?VvJImXqp8Fc7edsd5u4gUKPluGMVCGPzOKVtq/wKtaYqDkVRQS1SWKmImLsr?=
+ =?us-ascii?Q?gwurmHSiRGINxprQ9xnC0JOg/MHUtm5INGvXT06NBi/2Yh9g0FS+eaLCjTWE?=
+ =?us-ascii?Q?EXoJSHqKGHQOy2OyraPjdniBGx8SrvJe1dprULPSNDQrT8gDo8AMJN/45Qij?=
+ =?us-ascii?Q?3VrSN78G+yYt9DQXG000TR2w6BrfIQAonlYI3dqvOgCW7gMDVwYiCBITknHb?=
+ =?us-ascii?Q?lJVSLFe7xSLOzFwkk0XKFJpSJLje1dBUXDfWy0IUM4D0L9UHKJaNnV4bi+X8?=
+ =?us-ascii?Q?Cx+8wQ7yuuywsk/c8/8GO3aBSJ2UyWQxUnSePqB05i/L36aUyUGZ6SyneQUI?=
+ =?us-ascii?Q?3ltaALzxWhFkNOv8LfICDI3X8AtIVew=3D?=
+X-Forefront-Antispam-Report:
+	CIP:193.108.76.55;CTRY:GB;LANG:en;SCL:1;SRV:;IPV:NLI;SFV:NSPM;H:mta28.mail.hsbc.co.uk;PTR:symailserver.hsbc.co.uk;CAT:NONE;SFS:;DIR:INB;
+X-MS-Exchange-Organization-GroupForkPerf: VCL=0;VL=0
+X-MS-Exchange-Organization-Cross-Session-Cache:
+	=?us-ascii?Q?00CIP=3D193.108.76.55;EIPC0=3D2004,2055,950,951,2005,2006,20?=
+ =?us-ascii?Q?07,2008,2009,2010,2011,2012,2013,2014,2000,2050,2051,2052,95?=
+ =?us-ascii?Q?2,902,2054,2016,903,901,905,904,2003,2001,3000,2002,967,2058?=
+ =?us-ascii?Q?,2059,2060,531,2017,5080,5001,906,5057,5058,5056,5054,5051,5?=
+ =?us-ascii?Q?052,5010,5055,5053,5059,5011,5002,5003,5005,5070;MIPC0=3D950?=
+ =?us-ascii?Q?,952,951,5052;REP=3D01,1,-9223372036854775808\;01,2,-9223372?=
+ =?us-ascii?Q?036854775808\;01,3,-9223372036854775808\;01,4,-9223372036854?=
+ =?us-ascii?Q?775808\;01,5,-9223372036854775808\;01,6,-9223372036854775808?=
+ =?us-ascii?Q?\;01,7,-9223372036854775808\;01,8,-9223372036854775808\;01,9?=
+ =?us-ascii?Q?,-9223372036854775808\;01,10,-9223372036854775808\;01,11,-92?=
+ =?us-ascii?Q?23372036854775808\;01,12,-9223372036854775808\;01,500,-92233?=
+ =?us-ascii?Q?72036854775808\;02,1,-9223372036854775808\;02,2,-92233720368?=
+ =?us-ascii?Q?54775808\;02,3,-9223372036854775808\;02,4,-92233720368547758?=
+ =?us-ascii?Q?08\;02,5,-9223372036854775808\;02,6,-9223372036854775808\;02?=
+ =?us-ascii?Q?,7,-9223372036854775808\;02,500,-9223372036854775808;SL=3D3;?=
+ =?us-ascii?Q?EMSL=3D1;SCL=3D1;BL=3D0;RL=3D1;PID=3D0;EXPID=3D;IsIncomingMa?=
+ =?us-ascii?Q?il=3Dtrue;TIP=3DNotListed;CIPCRY=3DGB;SAUTHOP=3D1;RMX=3DOffi?=
+ =?us-ascii?Q?ce365;EIPC1=3D2004,2055,950,951,2005,2006,2007,2008,2009,201?=
+ =?us-ascii?Q?0,2011,2012,2013,2014,2000,2050,2051,2052,952,902,2054,2016,?=
+ =?us-ascii?Q?903,901,905,904,2003,2001,3000,2002,967,2058,2059,2060,531,2?=
+ =?us-ascii?Q?017,5080,5001,906,5057,5058,5056,5054,5051,5052,5010,5055,50?=
+ =?us-ascii?Q?53,5059,5011,5002,5003,5005,5070;MIPC1=3D950,952,951,902,201?=
+ =?us-ascii?Q?4,5052,5070;A=3D00;MX=3D00;PTR=3D00symailserver.hsbc.co.uk;S?=
+ =?us-ascii?Q?PF=3D011Y2FzZXkueS56aHVAdXMuaHNiYy5jb20=3D;DKIM=3D00dXMxLTAz?=
+ =?us-ascii?Q?MTAyMDIxLl9kb21haW5rZXkudXMuaHNiYy5jb20=3D\;dj1ES0lNMTsgdD1z?=
+ =?us-ascii?Q?OyBwPU1JSUJJakFOQmdrcWhraUc5dzBCQVFFRkFBT0NBUThBTUlJQkNnS0NB?=
+ =?us-ascii?Q?UUVBeDZtUm93RHpMOTB2R3IyRzJ0QXduMnI2TDNGNm1qRHVBV1B4ekprZWtN?=
+ =?us-ascii?Q?YjJ5cDZ4eE1heTl1Tlg3S2JQbk1aVnBpNks2eXJ6M3duK2d4ZjlXN3hITXZW?=
+ =?us-ascii?Q?dXZOWnA0WkJSRkVyc1haVkQ0RENmbnJYQThDL0FKSEFEV3RHODNoYTJrODc5?=
+ =?us-ascii?Q?Rm5rd09LUmd1dlhMb056VzlHN21uSndHTFdsdmtzZ2FueDArQnFEVjdDNXBW?=
+ =?us-ascii?Q?ZnhlekNuSXNRdWxPQVRxSlhCbDBvMGMvZFdQemxQNDJMUUpBc2VrWXZCd1hx?=
+ =?us-ascii?Q?MFZkZUR2aU55ZGtTWmJ1eGl1M25iTzhON1lVVDIxR1h0RUIzVDdTRnVnZGxk?=
+ =?us-ascii?Q?ZnBOYy9UZjB5M0RHRDRXR1FVa3ZpcHUxQkZYbWlZeGRvRFZzZElIS2RTeUpv?=
+ =?us-ascii?Q?UjFuSGJVVWUzbzdrUUN6R05QK0JpSVpmQ25kWjd3SURBUUFC;DMARC=3D00d?=
+ =?us-ascii?Q?XMuaHNiYy5jb20=3D\;dj1ETUFSQzE7IHA9cmVqZWN0OyBmbz0xOyByaT0zN?=
+ =?us-ascii?Q?jA?=
+X-MS-Exchange-Organization-Cross-Session-Cache:
+	=?us-ascii?Q?01wOyBydWE9bWFpbHRvOmRtYXJjX3J1YUBlbWFpbGRlZmVuc2UucHJvb2Zwb?=
+ =?us-ascii?Q?2ludC5jb207IHJ1Zj1tYWlsdG86ZG1hcmNfcnVmQGVtYWlsZGVmZW5zZS5wc?=
+ =?us-ascii?Q?m9vZnBvaW50LmNvbQ=3D=3D;AUTHRES=3D[mx.microsoft.com,1]{5,1,U?=
+ =?us-ascii?Q?ABhAHMAcwA=3D,cwBlAG4AZABlAHIAIABJAFAAIABpAHMAIAAxADkAMwAuAD?=
+ =?us-ascii?Q?EAMAA4AC4ANwA2AC4ANQA1AA=3D=3D,cwBtAHQAcAAuAHIAYwBwAHQAVABvA?=
+ =?us-ascii?Q?EQAbwBtAGEAaQBuAA=3D=3D|VABoAGkAbgBrAEkAbgB2AGUAcwB0AG0AZQBu?=
+ =?us-ascii?Q?AHQAcwBMAFAALgBjAG8AbQA=3D,cwBtAHQAcAAuAE0AYQBpAGwARgByAG8Ab?=
+ =?us-ascii?Q?QA=3D|dQBzAC4AaABzAGIAYwAuAGMAbwBtAA=3D=3D}{9,1,UABhAHMAcwA?=
+ =?us-ascii?Q?=3D,cAA9AHIAZQBqAGUAYwB0ACAAcwBwAD0AcgBlAGoAZQBjAHQAIABwAGMA?=
+ =?us-ascii?Q?dAA9ADEAMAAwAA=3D=3D,YQBjAHQAaQBvAG4A|TgBvAG4AZQA=3D,aABlAGE?=
+ =?us-ascii?Q?AZABlAHIALgBmAHIAbwBtAA=3D=3D|dQBzAC4AaABzAGIAYwAuAGMAbwBtAA?=
+ =?us-ascii?Q?=3D=3D}{2,1,UABhAHMAcwA=3D,cwBpAGcAbgBhAHQAdQByAGUAIAB3AGEAc?=
+ =?us-ascii?Q?wAgAHYAZQByAGkAZgBpAGUAZAA=3D,aABlAGEAZABlAHIALgBkAA=3D=3D|d?=
+ =?us-ascii?Q?QBzAC4AaABzAGIAYwAuAGMAbwBtAA=3D=3D}{12,7,TgBvAG4AZQA=3D,MAA?=
+ =?us-ascii?Q?=3D};SpfResult=3D1;P2DKIMALST=3D1;DkimStatus=3D1;DkimSS=3D0;?=
+ =?us-ascii?Q?DmarcStatus=3D1;DmarcAction=3D0;ARCRES=3Dv100000000000000000?=
+ =?us-ascii?Q?000000000000000000000000;CAuthExp=3Dtrue;DNL=5FDNF=3D1;PReRC?=
+ =?us-ascii?Q?=3D1;FPR=3DECD1F255.A6FA9FD2.78DDB057.4A387B40.207C4;TDNA=3D?=
+ =?us-ascii?Q?ECD0F255.AADADFDE.3ADDB057.4A39CB40.20724;FC=5FDBG=3D1099511?=
+ =?us-ascii?Q?890176;URLC=5FBE=3D0;URLC=5FBEC=3D0;URLC=5FAE=3D0;NoDLx=3D1;?=
+ =?us-ascii?Q?CGDLxSupported=3D1;BR=5FV=3DNone;DIR=3D1;PTRO=3Dhsbc.co.uk;P?=
+ =?us-ascii?Q?2O=3Dhsbc.com;P=5FCAUTH=3Dpass;P=5FCAUTHR=3D100;SIP2BCLAP=3D?=
+ =?us-ascii?Q?-1;SIP2BCLAF=3D-1;ATCHF=5FDBG=3DDS:1;CFP=3Dde14458c-246e-45b?=
+ =?us-ascii?Q?b-af18-59cd6837693f;HCFP=3Df87d3abd-63a8-46bf-9139-a19bf53af?=
+ =?us-ascii?Q?a75;MFP=3D52aad69e-484a-4a36-a8fd-5478b5ac6649;APP=3D8e459d2?=
+ =?us-ascii?Q?d-a845-4692-af2a-2916213a6ec6;GWS=5FRead=3DV2;SRCS=3DEST;CAU?=
+ =?us-ascii?Q?TH=3Dpass;CAUTHR=3D100;CAUTH=5FCAT=3DAD;IVB=5FDBG=3DD2;HMHPV?=
+ =?us-ascii?Q?=3D10000;HMEPV=3D3630;HMEPV2=3D2916;HMESV=3D10000;HMESV2=3D9?=
+ =?us-ascii?Q?999;SRESV=3D4849;BMESV=3D126;BMHPV=3D10000;BMEPV=3D10000;CMA?=
+ =?us-ascii?Q?SV=3D10000;CMHPV=3D10000;CMAPV=3D10000;CMEPV=3D2805;M3ESV=3D?=
+ =?us-ascii?Q?2575;M3EPV=3D2864;CBHBV=3D10000;CBEBV=3D10000;CBEBV2=3D10000?=
+ =?us-ascii?Q?;CLEPV2=3D117;CLEPV=3D351;URLF=5FDBG=3DDS:1;CfaConsumerAnaly?=
+ =?us-ascii?Q?stRuleState=3DOn;AV=5FDMF=3DAllow;AV=5FDMF=5FFC=3DDomainList?=
+ =?us-ascii?B?O0FWX0RNRl9DTD0xO0FWX0ZWPUFsbG93O0FWX0ZDPUROTGlzdDtBVl9DTD0x?=
+ =?us-ascii?Q?;FFV=3DAllow;FV=5FSCL=3D1;FV=3DAllow;FVS=3DFilters;FSCL=3D1;?=
+ =?us-ascii?Q?TAP=5FEP=3D?=
+X-MS-Exchange-Organization-Processed-By-Gcc-Journaling: Journal Agent
+
+--_2086a37c-6bfb-4b65-a2d3-31fb7ba93545_
+Content-Transfer-Encoding: base64
+Content-Type: text/plain; charset="gb2312"
+
+TWFuYWdlbWVudCByb2Fkc2hvdyBzdGFydHMgdG9uaWdodC4gUGxlYXNlIHJldmVydCB3aXRoIGlu
+dGVyZXN0IGZvciAxeDEgb3IgZ3JvdXAgc2Vzc2lvbi4gQ2hlZXJzLiBDYXNleQ0KDQoNCg0KKipU
+SElTIE1FU1NBR0UgSVMgRk9SIERJU1RSSUJVVElPTiBUTyBQUk9GRVNTSU9OQUwgSU5WRVNUT1JT
+IE9OTFkqKg0KDQoqKkRPIE5PVCBGT1JXQVJEIFRISVMgTUVTU0FHRSBXSVRIT1VUIFRIRSBESVND
+TEFJTUVSUyoqDQoNCg0KDQpUSElTIENPTU1VTklDQVRJT04gTUFZIE5PVCBCRSBESVNUUklCVVRF
+RCBJTlRPIENBTkFEQSwgSkFQQU4gQU5EIEFVU1RSQUxJQSAoVEhFIKGwUkVTVFJJQ1RFRCBKVVJJ
+U0RJQ1RJT05TobEpLg0KDQpUSElTIENPTU1VTklDQVRJT04gTUFZIEJFIERJU1RSSUJVVEVEIElO
+IFRIRSBQUkMgT05MWSBUTyBRVUFMSUZJRUQgRE9NRVNUSUMgSU5TVElUVVRJT05BTCBJTlZFU1RP
+UlMgKKGwUURJSXOhsSkuDQoNClRISVMgQ09NTVVOSUNBVElPTiBNQVkgQkUgRElTVFJJQlVURUQg
+SU4gVEhFIEVVUk9QRUFOIEVDT05PTUlDIEFSRUEgT05MWSBUTyBRVUFMSUZJRUQgSU5WRVNUT1JT
+Lg0KDQpUSElTIENPTU1VTklDQVRJT04gTUFZIEJFIERJU1RSSUJVVEVEIElOIFRIRSBVTklURUQg
+S0lOR0RPTSBPTkxZIFRPIFJFTEVWQU5UIFBFUlNPTlMuDQoNClRISVMgQ09NTVVOSUNBVElPTiBN
+QVkgQkUgRElTVFJJQlVURUQgSU5UTyBUSEUgVU5JVEVEIFNUQVRFUyBPTkxZIFRPIFFVQUxJRklF
+RCBJTlNUSVRVVElPTkFMIEJVWUVSUyAoobBRSUJzobEpLg0KDQoNCg0KKioqKioNCg0KKipMQVVO
+Q0gqKg0KDQpIU0JDIGlzIGFjdGluZyBhcyBKb2ludCBHbG9iYWwgQ29vcmRpbmF0b3IgaW4gdGhl
+IEdsb2JhbCBPZmZlcmluZyBvZiBzaGFyZXMgaW4gU2lybmFvbWljcyBMdGQuICAoobBTaXJuYW9t
+aWNzobEgb3IgdGhlIKGwQ29tcGFueaGxKQ0KDQoNCg0KT0ZGRVJJTkcgU1VNTUFSWToNCg0KSXNz
+dWVyOiBTaXJuYW9taWNzIEx0ZC4NCg0KVHlwZSBvZiBPZmZlcmluZzogR2xvYmFsIE9mZmVyaW5n
+IG9uIHRoZSBNYWluIEJvYXJkIG9mIHRoZSBTdG9jayBFeGNoYW5nZSBvZiBIb25nIEtvbmcgKCJT
+RUhLIikNCg0KRXhjaGFuZ2UgLyBUaWNrZXI6IFNFSEsgLyAyMjU3LkhLDQoNCkRpc3RyaWJ1dGlv
+bjogUmVndWxhdGlvbiBTICYgMTQ0QQ0KDQpPZmZlciBQcmljZSBSYW5nZTogSEskIDY1LjkwIKhD
+IDcyLjcwIHBlciBTaGFyZQ0KDQpCYXNlIE9mZmVyaW5nIFNpemU6IDcsNTQwLDAwMCBTaGFyZXMg
+KFVTJCA2NG1uqEM3MG1uKSwgcmVwcmVzZW50aW5nIGFwcHJveGltYXRlbHkgOC42JSBvZiB0aGUg
+cG9zdCBvZmZlcmluZyBUU08gKGFsbCBwcmltYXJ5LCBzdWJqZWN0IHRvIE92ZXItQWxsb3RtZW50
+IE9wdGlvbikNCg0KT3Zlci1BbGxvdG1lbnQgT3B0aW9uOiB1cCB0byAxLDEzMSwwMDAgU2hhcmVz
+LCBhbGwgcHJpbWFyeSwgcmVwcmVzZW50aW5nIDE1LjAlIG9mIHRoZSBCYXNlIE9mZmVyaW5nIFNp
+emUNCg0KUG9zdC1HcmVlbnNob2UgT2ZmZXJpbmcgU2l6ZTogdXAgdG8gOCw2NzEsMDAwIFNoYXJl
+cyAoVVMkIDczbW6oQzgxbW4pLCByZXByZXNlbnRpbmcgYXBwcm94aW1hdGVseSA5LjclIG9mIHRo
+ZSBwb3N0IG9mZmVyaW5nIFRTTw0KDQpCb2FyZCBMb3Q6IDUwIFNoYXJlcw0KDQpDb3JuZXJzdG9u
+ZSBJbnZlc3RvcnM6IDIgaW52ZXN0b3JzIHdpdGggYW4gYWdncmVnYXRlIGFtb3VudCBvZiBVUyQg
+MjguNm1uLCBhcHByb3hpbWF0ZWx5IDQyLjclIG9mIGJhc2UgZGVhbCBzaXplIChiYXNlZCBvbiBt
+aWQtcG9pbnQgb2YgdGhlIE9mZmVyIFByaWNlIFJhbmdlKQ0KDQqhpCAgICAgICAgIC0gS3VubWlu
+ZyBKaWFzaGlxaW5nOiBVUyQgMjMuNm1uDQoNCqGkICAgICAgICAgLSBJbm5vZm9yY2UgUGhhcm1h
+Y2V1dGljYWxzOiBVUyQgNS4wbW4NCg0KTG9jay11cDoNCg0KoaQgICAgICAgICBDb21wYW55OiA2
+IG1vbnRocw0KDQqhpCAgICAgICAgIEV4aXN0aW5nIFNoYXJlaG9sZGVycyAoaW5jbHVkaW5nIERy
+LiBMdSBidXQgZXhjbHVkaW5nIE1pa2UgR2hpYXMsIEFzZ2hhciBHaGlhcywgQ2FjaGV0IE11bHRp
+IFN0cmF0ZWd5IEZ1bmQgYW5kIE1hcnZlbG91cyBMZWdlbmQgVmVudHVyZXMgTGltaXRlZCk6IDYg
+bW9udGhzDQoNCqGkICAgICAgICAgQ29ybmVyc3RvbmUgSW52ZXN0b3JzOiA2IG1vbnRocw0KDQpI
+S1BPIENsYXdiYWNrIFN0cnVjdHVyZToNCg0KoaQgICAgICAgICA5MCUgSW50ZXJuYXRpb25hbCAv
+IDEwJSBIS1BPIGlmIEhLUE8gc3Vic2NyaXB0aW9uIGxldmVsIDwgMTV4DQoNCqGkICAgICAgICAg
+NzAlIEludGVybmF0aW9uYWwgLyAzMCUgSEtQTyBpZiAxNXggodwgSEtQTyBzdWJzY3JpcHRpb24g
+bGV2ZWwgPCA1MHgNCg0KoaQgICAgICAgICA2MCUgSW50ZXJuYXRpb25hbCAvIDQwJSBIS1BPIGlm
+IDUweCCh3CBIS1BPIHN1YnNjcmlwdGlvbiBsZXZlbCA8IDEwMHgNCg0KoaQgICAgICAgICA1MCUg
+SW50ZXJuYXRpb25hbCAvIDUwJSBIS1BPIGlmIDEwMHggodwgSEtQTyBzdWJzY3JpcHRpb24gbGV2
+ZWwNCg0KQWRkaXRpb25hbCBGZWVzIGFuZCBDaGFyZ2VzOiAxLjAlIGJyb2tlcmFnZSwgMC4wMDUl
+IEhvbmcgS29uZyBTdG9jayBFeGNoYW5nZSB0cmFkaW5nIGZlZSwgMC4wMDI3JSBTRkMgdHJhbnNh
+Y3Rpb24gbGV2eQ0KDQpIU0JDIFJvbGU6IEpvaW50IEdsb2JhbCBDb29yZGluYXRvciAvIEpvaW50
+IEJvb2tydW5uZXINCg0KDQoNCklORElDQVRJVkUgVElNRVRBQkxFOg0KDQpCb29rcyBvcGVuOiBN
+b25kYXksIDIwIERlYyAyMDIxDQpNYW5hZ2VtZW50IHJvYWRzaG93OiBNb25kYXksIDIwIERlYyAy
+MDIxqEMgVGh1cnNkYXksIDIzIERlYyAyMDIxDQpIb25nIEtvbmcgUHVibGljIE9mZmVyaW5nOiBN
+b25kYXksIDIwIERlYyAyMDIxqEMgVGh1cnNkYXksIDIzIERlYyAyMDIxDQoNCkV4cGVjdGVkIGJv
+b2tzIGNsb3NlOiBUaHVyc2RheSwgMjMgRGVjIDIwMjENCkV4cGVjdGVkIHByaWNpbmcgJiBhbGxv
+Y2F0aW9uIGRhdGU6IFRodXJzZGF5LCAzMCBEZWMgMjAyMQ0KRXhwZWN0ZWQgbGlzdGluZyAmIHNl
+dHRsZW1lbnQgZGF0ZTogVGh1cnNkYXksIDMwIERlYyAyMDIxDQoNClNFTExJTkcgUkVTVFJJQ1RJ
+T05TOg0KUGVybWl0dGVkIHNhbGVzOiBSZWcgUyBhbmQgUnVsZSAxNDQoYSkNCk5vbi1wZXJtaXR0
+ZWQgc2FsZXM6IEphcGFuLCBBdXN0cmFsaWEsIENhbmFkYSwgZG9tZXN0aWMgUFJDIChleGNlcHQg
+UURJSXMpDQoNCioqKioqDQoNCg0KDQpUaGlzIGNvbW11bmljYXRpb24gaGFzIGJlZW4gcHJlcGFy
+ZWQgYW5kIGlzc3VlZCBieSBvciBvbiBiZWhhbGYgb2YgdGhlIENvbXBhbnkgaW4gY29ubmVjdGlv
+biB3aXRoIHRoZSBhYm92ZSB0cmFuc2FjdGlvbiAodGhlIKGwVHJhbnNhY3Rpb26hsSkuDQoNCg0K
+DQpUaGUgaW5mb3JtYXRpb24gaW4gdGhpcyBjb21tdW5pY2F0aW9uIGRvZXMgbm90IHB1cnBvcnQg
+dG8gYmUgY29tcHJlaGVuc2l2ZSBhbmQgaGFzIG5vdCBiZWVuIGluZGVwZW5kZW50bHkgdmVyaWZp
+ZWQgYnkgVGhlIEhvbmdrb25nIGFuZCBTaGFuZ2hhaSBCYW5raW5nIENvcnBvcmF0aW9uIExpbWl0
+ZWQgKKGwSFNCQ6GxKSwgYW55IG9mIGl0cyBncm91cCB1bmRlcnRha2luZ3Mgb3IgYWZmaWxpYXRl
+cyBvciBhbnkgb2YgdGhlaXIgcmVzcGVjdGl2ZSBtZW1iZXJzLCBkaXJlY3RvcnMsIG9mZmljZXJz
+LCBlbXBsb3llZXMsIGFnZW50cyBvciBhZmZpbGlhdGVzLiBFeGNlcHQgaW4gdGhlIGNhc2Ugb2Yg
+dGhlaXIgcmVzcGVjdGl2ZSBmcmF1ZHVsZW50IG1pc3JlcHJlc2VudGF0aW9uLCBubyByZXNwb25z
+aWJpbGl0eSBvciBsaWFiaWxpdHkgaXMgYWNjZXB0ZWQgYnkgSFNCQywgYW55IG9mIGl0cyBncm91
+cCB1bmRlcnRha2luZ3Mgb3IgYWZmaWxpYXRlcyBvciBieSBhbnkgb2YgdGhlaXIgcmVzcGVjdGl2
+ZSBtZW1iZXJzLCBkaXJlY3RvcnMsIG9mZmljZXJzLCBlbXBsb3llZXMsIGFnZW50cyBvciBhZmZp
+bGlhdGVzIGFzIHRvIG9yIGluIHJlbGF0aW9uIHRvIHRoZSBhY2N1cmFjeSwgY29tcGxldGVuZXNz
+IG9yIHN1ZmZpY2llbmN5IG9mIHRoaXMgY29tbXVuaWNhdGlvbiBvciBhbnkgb3RoZXIgd3JpdHRl
+biBvciBvcmFsIGluZm9ybWF0aW9uIG1hZGUgYXZhaWxhYmxlIHRvIGFueSBpbnRlcmVzdGVkIHBh
+cnR5IG9yIGl0cyBhZHZpc2VycyBvciBmb3IgYW55IGxvc3Mgd2hhdHNvZXZlciBhcmlzaW5nIGZy
+b20gb3IgaW4gY29ubmVjdGlvbiB3aXRoIHVzZSBvZiBvciByZWxpYW5jZSBvbiB0aGlzIGNvbW11
+bmljYXRpb24gYW5kIGFueSBzdWNoIGxpYWJpbGl0eSBpcyBleHByZXNzbHkgZGlzY2xhaW1lZC4g
+Tm8gcmVwcmVzZW50YXRpb24gb3Igd2FycmFudHksIGV4cHJlc3Mgb3IgaW1wbGllZCwgaXMgbWFk
+ZSBhcyB0byB0aGUgZmFpcm5lc3MsIGFjY3VyYWN5LCBjb21wbGV0ZW5lc3Mgb3IgY29ycmVjdG5l
+c3Mgb2YgdGhlIGluZm9ybWF0aW9uIG9yIG9waW5pb25zIGNvbnRhaW5lZCBpbiB0aGlzIGRvY3Vt
+ZW50IGFuZCBubyByZWxpYW5jZSBzaG91bGQgYmUgcGxhY2VkIG9uIHN1Y2ggaW5mb3JtYXRpb24g
+b3Igb3BpbmlvbnMuIFRoZSBpbmZvcm1hdGlvbiBjb250YWluZWQgaW4gdGhpcyBjb21tdW5pY2F0
+aW9uIGlzIHN1YmplY3QgdG8gY2hhbmdlIHdpdGhvdXQgbm90aWNlIGFuZCBtYXkgbm90IGNvbnRh
+aW4gYWxsIG1hdGVyaWFsIGluZm9ybWF0aW9uIHJlbGF0aW5nIHRvIHRoZSBwcm9kdWN0cywgaW52
+ZXN0bWVudCBhbmQgdHJhbnNhY3Rpb24gcmVmZXJyZWQgdG8gaGVyZWluLiBOb25lIG9mIHRoZSBD
+b21wYW55LCBIU0JDIG5vciBhbnkgb2YgdGhlaXIgcmVzcGVjdGl2ZSBncm91cCB1bmRlcnRha2lu
+Z3Mgb3IgYWZmaWxpYXRlcyBpcyB1bmRlciBhbnkgb2JsaWdhdGlvbiBvciBnaXZlIGFueSB1bmRl
+cnRha2luZyB0byBwcm92aWRlIHRoZSByZWNpcGllbnQgd2l0aCBhY2Nlc3MgdG8gYW55IGFkZGl0
+aW9uYWwgaW5mb3JtYXRpb24gb3IgdG8gdXBkYXRlIHRoaXMgY29tbXVuaWNhdGlvbiBvciBhbnkg
+YWRkaXRpb25hbCBpbmZvcm1hdGlvbiBvciB0byBjb3JyZWN0IGFueSBpbmFjY3VyYWNpZXMgaW4g
+aXQgd2hpY2ggbWF5IGJlY29tZSBhcHBhcmVudCwgYW5kIEhTQkMgcmVzZXJ2ZXMgdGhlIHJpZ2h0
+LCB3aXRob3V0IGdpdmluZyByZWFzb25zLCBhdCBhbnkgdGltZSBhbmQgaW4gYW55IHJlc3BlY3Qg
+dG8gYW1lbmQgb3IgdGVybWluYXRlIHRoZSBwcm9wb3NhbChzKSBkZXNjcmliZWQgaGVyZWluLg0K
+DQoNCg0KSW4gcGFydGljdWxhciwgYnV0IHdpdGhvdXQgbGltaXRhdGlvbiwgbm8gcmVwcmVzZW50
+YXRpb24gb3Igd2FycmFudHksIGV4cHJlc3Mgb3IgaW1wbGllZCwgaXMgZ2l2ZW4gYXMgdG8gdGhl
+IGFjaGlldmVtZW50IG9yIHJlYXNvbmFibGVuZXNzIG9mLCBhbmQgbm8gcmVsaWFuY2Ugc2hvdWxk
+IGJlIHBsYWNlZCBvbiwgYW55IHByb2plY3Rpb25zLCBvcGluaW9ucywgZXN0aW1hdGVzLCBmb3Jl
+Y2FzdHMsIHRhcmdldHMsIHByb3NwZWN0cywgcmV0dXJucyBvciBvdGhlciBmb3J3YXJkLWxvb2tp
+bmcgc3RhdGVtZW50cyBjb250YWluZWQgaGVyZWluLiBBbnkgc3VjaCBwcm9qZWN0aW9ucywgZXN0
+aW1hdGVzLCBmb3JlY2FzdHMsIHRhcmdldHMsIHByb3NwZWN0cywgcmV0dXJucyBvciBvdGhlciBm
+b3J3YXJkLWxvb2tpbmcgc3RhdGVtZW50cyBhcmUgbm90IGEgcmVsaWFibGUgaW5kaWNhdG9yIG9m
+IGZ1dHVyZSBwZXJmb3JtYW5jZS4gIE5vdGhpbmcgaW4gdGhpcyBjb21tdW5pY2F0aW9uIHNob3Vs
+ZCBiZSByZWxpZWQgdXBvbiBhcyBhIHByb21pc2Ugb3IgcmVwcmVzZW50YXRpb24gYXMgdG8gdGhl
+IGZ1dHVyZS4gTmVpdGhlciBIU0JDLCBpdHMgZ3JvdXAgdW5kZXJ0YWtpbmdzIG9yIGFmZmlsaWF0
+ZXMgbm9yIGFueSBvZiB0aGVpciByZXNwZWN0aXZlIG1lbWJlcnMsIGRpcmVjdG9ycywgb2ZmaWNl
+cnMsIGVtcGxveWVlcywgYWZmaWxpYXRlcyBvciBhZ2VudHMgbm9yIGFueSBvdGhlciBwZXJzb24g
+YWNjZXB0cyBhbnkgbGlhYmlsaXR5IHdoYXRzb2V2ZXIgZm9yIGFueSBsb3NzIGhvd3NvZXZlciBh
+cmlzaW5nIGZyb20gYW55IHVzZSBvZiB0aGlzIGNvbW11bmljYXRpb24gb3IgaXRzIGNvbnRlbnRz
+IG9yIG90aGVyd2lzZSBhcmlzaW5nIGluIGNvbm5lY3Rpb24gdGhlcmV3aXRoLg0KDQoNCg0KVGhl
+IHNlY3VyaXRpZXMgb2YgdGhlIENvbXBhbnkgcmVmZXJyZWQgdG8gaW4gdGhpcyBjb21tdW5pY2F0
+aW9uICh0aGUgobBTZWN1cml0aWVzobEpIGFyZSBiZWluZyBvZmZlcmVkIGluIHRoZSBVbml0ZWQg
+U3RhdGVzIG9ubHkgdG8gUUlCcyBhcyBkZWZpbmVkIGluIFJ1bGUgMTQ0QSB1bmRlciB0aGUgVW5p
+dGVkIFN0YXRlcyBTZWN1cml0aWVzIEFjdCBvZiAxOTMzLCBhcyBhbWVuZGVkICh0aGUgobBTZWN1
+cml0aWVzIEFjdKGxKSBpbiB0cmFuc2FjdGlvbnMgZXhlbXB0IGZyb20gdGhlIHJlZ2lzdHJhdGlv
+biByZXF1aXJlbWVudHMgb2YgdGhlIFNlY3VyaXRpZXMgQWN0LiBUaGUgU2VjdXJpdGllcyBoYXZl
+IG5vdCBiZWVuIGFuZCB3aWxsIG5vdCBiZSByZWdpc3RlcmVkIHVuZGVyIHRoZSBTZWN1cml0aWVz
+IEFjdCBhbmQgbWF5IG5vdCBiZSBvZmZlcmVkIG9yIHNvbGQgaW4gdGhlIFVuaXRlZCBTdGF0ZXMs
+IG9yIGZvciB0aGUgYWNjb3VudCBvciBiZW5lZml0IG9mLCBVUyBwZXJzb25zIChhcyBkZWZpbmVk
+IGluIFJlZ3VsYXRpb24gUyB1bmRlciB0aGUgU2VjdXJpdGllcyBBY3QpIGFic2VudCByZWdpc3Ry
+YXRpb24gdW5kZXIgdGhlIFNlY3VyaXRpZXMgQWN0IG9yIGV4ZW1wdGlvbiBmcm9tIHRoZSByZWdp
+c3RyYXRpb24gcmVxdWlyZW1lbnRzIHRoZXJlb2YuIE5laXRoZXIgdGhpcyBjb21tdW5pY2F0aW9u
+IG5vciBhbnkgY29weSBtYXkgYmUgdGFrZW4sIHRyYW5zbWl0dGVkIG9yIGRpc3RyaWJ1dGVkLCBk
+aXJlY3RseSBvciBpbmRpcmVjdGx5LCBpbnRvIHRoZSBVbml0ZWQgU3RhdGVzLCBpdHMgdGVycml0
+b3JpZXMgb3IgcG9zc2Vzc2lvbnMgb3IgdG8gYW55IFVTIHBlcnNvbiBvdGhlciB0aGFuIHRvIFFJ
+QnMgb3IgdG8gYW55IFVTIHNlY3VyaXRpZXMgYW5hbHlzdC4gSWYgeW91IGFyZSByZWNlaXZpbmcg
+dGhpcyBjb21tdW5pY2F0aW9uIG91dHNpZGUgdGhlIFVuaXRlZCBTdGF0ZXMsIHlvdSBjb25maXJt
+IHRoYXQgeW91IGFyZSBub3QgYSBwZXJzb24gbG9jYXRlZCBpbiB0aGUgVW5pdGVkIFN0YXRlcyBh
+bmQgYXJlIG5vdCBhIFVTIHBlcnNvbiAoYXMgdGhvc2UgdGVybXMgYXJlIGRlZmluZWQgaW4gUmVn
+dWxhdGlvbiBTIG9mIHRoZSBTZWN1cml0aWVzIEFjdCkgb3IgYWN0aW5nIGZvciB0aGUgYWNjb3Vu
+dCBvciBmb3IgdGhlIGJlbmVmaXQgb2YgYSBVUyBwZXJzb24uIElmIHlvdSBhcmUgcmVjZWl2aW5n
+IHRoaXMgaW5mb3JtYXRpb24gaW4gdGhlIFVuaXRlZCBTdGF0ZXMsIHlvdSByZXByZXNlbnQsIHdh
+cnJhbnQgYW5kIGFncmVlIHRoYXQgeW91IGFuZCBlYWNoIHBlcnNvbiBvbiB3aG9zZSBiZWhhbGYg
+eW91IGFyZSByZWNlaXZpbmcgdGhpcyBpbmZvcm1hdGlvbiBhcmUgUUlCcy4NCg0KDQoNCkluIHRo
+ZSBFdXJvcGVhbiBFY29ub21pYyBBcmVhICh0aGUgobBFRUGhsSksIHRoZSBUcmFuc2FjdGlvbiBp
+cyBvbmx5IGRpcmVjdGVkIGF0IHBlcnNvbnMgd2hvIGFyZSChsHF1YWxpZmllZCBpbnZlc3RvcnOh
+sSB3aXRoaW4gdGhlIG1lYW5pbmcgb2YgQXJ0aWNsZSAyKDEpKGUpIG9mIHRoZSBQcm9zcGVjdHVz
+IFJlZ3VsYXRpb24gKEVVKSAyMDE3LzExMjkgYW5kIHVuZGVybHlpbmcgbGVnaXNsYXRpb24sIGFz
+IGFtZW5kZWQgZnJvbSB0aW1lIHRvIHRpbWUgKHRoZSChsFByb3NwZWN0dXMgUmVndWxhdGlvbqGx
+KSBhbmQgaW4gdGhlIFVuaXRlZCBLaW5nZG9tLCB0aGUgVHJhbnNhY3Rpb24gaXMgb25seSBkaXJl
+Y3RlZCBhdCBwZXJzb25zIHdobyBhcmUgobBxdWFsaWZpZWQgaW52ZXN0b3JzobEgd2l0aGluIHRo
+ZSBtZWFuaW5nIG9mIEFydGljbGUgMiBvZiB0aGUgUHJvc3BlY3R1cyBSZWd1bGF0aW9uIGFzIGl0
+IGZvcm1zIHBhcnQgb2YgZG9tZXN0aWMgbGF3IGJ5IHRoZSBFdXJvcGVhbiBVbmlvbiAoV2l0aGRy
+YXdhbCkgQWN0IDIwMTggKGFzIGFtZW5kZWQgZnJvbSB0aW1lIHRvIHRpbWUpICihsFF1YWxpZmll
+ZCBJbnZlc3RvcnOhsSkuIEluIGFkZGl0aW9uLCBpbiB0aGUgVW5pdGVkIEtpbmdkb20sIHRoZSBU
+cmFuc2FjdGlvbiBpcyBvbmx5IGRpcmVjdGVkIGF0IFF1YWxpZmllZCBJbnZlc3RvcnMgd2hvIGFy
+ZTogKGkpIHBlcnNvbnMgd2hvIGhhdmUgcHJvZmVzc2lvbmFsIGV4cGVyaWVuY2UgaW4gbWF0dGVy
+cyByZWxhdGluZyB0byBpbnZlc3RtZW50cyBmYWxsaW5nIHdpdGhpbiBBcnRpY2xlIDE5KDUpIG9m
+IHRoZSBGaW5hbmNpYWwgU2VydmljZXMgYW5kIE1hcmtldHMgQWN0IDIwMDAgKEZpbmFuY2lhbCBQ
+cm9tb3Rpb24pIE9yZGVyIDIwMDUsIGFzIGFtZW5kZWQsICh0aGUgobBPcmRlcqGxKSwgKGlpKSBo
+aWdoIG5ldCB3b3J0aCBlbnRpdGllcyBmYWxsaW5nIHdpdGhpbiBBcnRpY2xlIDQ5KDIpIG9mIHRo
+ZSBPcmRlciBvciAoaWlpKSBvdGhlciBwZXJzb25zIHRvIHdob20gaXQgY2FuIG90aGVyd2lzZSBs
+YXdmdWxseSBiZSBjb21tdW5pY2F0ZWQsIGFsbCBzdWNoIHBlcnNvbnMgaW4gKGkpLCAoaWkpIGFu
+ZCAoaWlpKSBiZWluZyByZWZlcnJlZCB0byBhcyChsFJlbGV2YW50IFBlcnNvbnOhsS4gVGhpcyBj
+b21tdW5pY2F0aW9uIG11c3Qgbm90IGJlIGFjdGVkIHVwb24gYnkgYW5kIG5vIGludmVzdG1lbnQg
+YWN0aXZpdHkgd2lsbCBiZSBlbmdhZ2VkIGluIHdpdGggKGkpIGluIHRoZSBVbml0ZWQgS2luZ2Rv
+bSwgcGVyc29ucyB3aG8gYXJlIG5vdCBSZWxldmFudCBQZXJzb25zLCBhbmQgKGlpKSBpbiBhbnkg
+RUVBIG1lbWJlciBzdGF0ZSwgcGVyc29ucyB3aG8gYXJlIG5vdCBRdWFsaWZpZWQgSW52ZXN0b3Jz
+Lg0KDQoNCg0KTmVpdGhlciB0aGlzIGNvbW11bmljYXRpb24gbm9yIGFueSBjb3B5IG9mIGl0IG1h
+eSBiZSB0YWtlbiwgdHJhbnNtaXR0ZWQgb3IgZGlzdHJpYnV0ZWQsIGRpcmVjdGx5IG9yIGluZGly
+ZWN0bHksIGluIG9yIGludG8gdGhlIFJlc3RyaWN0ZWQgSnVyaXNkaWN0aW9ucyBvciB0byBhbnkg
+bmF0aW9uYWwsIHJlc2lkZW50IG9yIGNpdGl6ZW4gb2YgdGhlIFJlc3RyaWN0ZWQgSnVyaXNkaWN0
+aW9ucyBvciB0byBhbnkgc2VjdXJpdGllcyBhbmFseXN0IG9yIG90aGVyIHBlcnNvbiBpbiBhbnkg
+b2YgdGhvc2UganVyaXNkaWN0aW9ucy4gQW55IGZhaWx1cmUgdG8gY29tcGx5IHdpdGggdGhpcyBy
+ZXN0cmljdGlvbiBtYXkgY29uc3RpdHV0ZSBhIHZpb2xhdGlvbiBvZiB0aGUgc2VjdXJpdGllcyBs
+YXdzIG9mIHRoZSBSZXN0cmljdGVkIEp1cmlzZGljdGlvbnMuIFRoZSBTZWN1cml0aWVzIGhhdmUg
+bm90IGJlZW4gYW5kIHdpbGwgbm90IGJlIHJlZ2lzdGVyZWQgdW5kZXIgdGhlIGFwcGxpY2FibGUg
+c2VjdXJpdGllcyBsYXdzIG9mIFJlc3RyaWN0ZWQgSnVyaXNkaWN0aW9ucyBhbmQsIHN1YmplY3Qg
+dG8gY2VydGFpbiBleGNlcHRpb25zLCBtYXkgbm90IGJlIG9mZmVyZWQgb3Igc29sZCB3aXRoaW4g
+UmVzdHJpY3RlZCBKdXJpc2RpY3Rpb25zIG9yIHRvIGFueSBuYXRpb25hbCwgcmVzaWRlbnQgb3Ig
+Y2l0aXplbiBvZiBSZXN0cmljdGVkIEp1cmlzZGljdGlvbnMuIFRoZSBkaXN0cmlidXRpb24gb2Yg
+dGhpcyBjb21tdW5pY2F0aW9uIGluIHNvbWUganVyaXNkaWN0aW9ucyBtYXkgYmUgcmVzdHJpY3Rl
+ZCBieSBsYXcsIGFuZCBwZXJzb25zIGludG8gd2hvc2UgcG9zc2Vzc2lvbiB0aGlzIGNvbW11bmlj
+YXRpb24gY29tZXMgc2hvdWxkIGluZm9ybSB0aGVtc2VsdmVzIGFib3V0LCBhbmQgb2JzZXJ2ZSwg
+YW55IHN1Y2ggcmVzdHJpY3Rpb25zLg0KDQoNCg0KVGhpcyBjb21tdW5pY2F0aW9uIGFuZCB0aGUg
+aW5mb3JtYXRpb24gY29udGFpbmVkIGluIGl0IGNhbiBvbmx5IGJlIGRpc3RyaWJ1dGVkIGluIEhv
+bmcgS29uZyB0byBwcm9mZXNzaW9uYWwgaW52ZXN0b3JzIGFzIGRlZmluZWQgaW4gdGhlIFNlY3Vy
+aXRpZXMgYW5kIEZ1dHVyZXMgT3JkaW5hbmNlIChDaGFwdGVyIDU3MSkgb2YgdGhlIExhd3Mgb2Yg
+SG9uZyBLb25nIGFuZCBhbnkgcnVsZXMgbWFkZSB1bmRlciB0aGF0IG9yZGluYW5jZS4NCg0KDQoN
+Ck5laXRoZXIgdGhpcyBjb21tdW5pY2F0aW9uLCBub3IgYW55dGhpbmcgY29udGFpbmVkIGhlcmVp
+biwgc2hhbGwgZm9ybSB0aGUgYmFzaXMgb2YsIG9yIGJlIHJlbGllZCBvbiBpbiBjb25uZWN0aW9u
+IHdpdGgsIGFueSBjb250cmFjdCB0byBwdXJjaGFzZSBvciBzdWJzY3JpYmUgZm9yIGFueSBzZWN1
+cml0aWVzIG9mIHRoZSBDb21wYW55LCBub3Igc2hhbGwgaXQgb3IgYW55IHBhcnQgb2YgaXQgZm9y
+bSB0aGUgYmFzaXMgb2Ygb3IgYmUgcmVsaWVkIG9uIGluIGNvbm5lY3Rpb24gd2l0aCBhbnkgY29u
+dHJhY3Qgb3IgY29tbWl0bWVudCB3aGF0c29ldmVyLiBBbnkgZGVjaXNpb24gdG8gYWNxdWlyZSBT
+ZWN1cml0aWVzIGluIGNvbm5lY3Rpb24gd2l0aCB0aGUgVHJhbnNhY3Rpb24gc2hvdWxkIGJlIG1h
+ZGUgc29sZWx5IG9uIHRoZSBiYXNpcyBvZiBpbmZvcm1hdGlvbiBjb250YWluZWQgaW4gdGhlIGZp
+bmFsIGZvcm0gb2ZmZXJpbmcgY2lyY3VsYXIgdG8gYmUgcHVibGlzaGVkIGJ5IHRoZSBDb21wYW55
+IGlmIHRoZSBDb21wYW55IGRlY2lkZXMgdG8gcHJvY2VlZCB3aXRoIHRoZSBUcmFuc2FjdGlvbiAo
+dGhlIKGwT2ZmZXJpbmcgQ2lyY3VsYXKhsSkuIFRoZSBPZmZlcmluZyBDaXJjdWxhciB3aWxsIGJl
+IGlzc3VlZCBpbiBkdWUgY291cnNlIGFuZCBtYXkgY29udGFpbiBpbmZvcm1hdGlvbiBkaWZmZXJl
+bnQgZnJvbSB0aGUgaW5mb3JtYXRpb24gY29udGFpbmVkIGluIHRoaXMgY29tbXVuaWNhdGlvbi4g
+V2hlbiBhdmFpbGFibGUsIHRoZSBPZmZlcmluZyBDaXJjdWxhciBtYXkgYmUgb2J0YWluZWQgZnJv
+bSB5b3VyIEhTQkMgc2FsZSByZXByZXNlbnRhdGl2ZS4gVGhpcyBjb21tdW5pY2F0aW9uIGhhcyBi
+ZWVuIHByb3ZpZGVkIHRvIHlvdSBzb2xlbHkgZm9yIHlvdXIgaW5mb3JtYXRpb24gYW5kIGJhY2tn
+cm91bmQgYW5kIGlzIHN1YmplY3QgdG8gYW1lbmRtZW50Lg0KDQoNCg0KSW5mb3JtYXRpb24gaW4g
+dGhpcyBjb21tdW5pY2F0aW9uIGlzIGNvbmZpZGVudGlhbC4gIERpc3RyaWJ1dGlvbiBvZiB0aGlz
+IGNvbW11bmljYXRpb24gb3IgaW5mb3JtYXRpb24gaW4gdGhpcyBjb21tdW5pY2F0aW9uLCB0byBh
+bnkgcGVyc29uIG90aGVyIHRoYW4gYW4gb3JpZ2luYWwgcmVjaXBpZW50IChvciB0byBzdWNoIHJl
+Y2lwaWVudKGvcyBhZHZpc29ycykgaXMgcHJvaGliaXRlZC4gIFJlcHJvZHVjdGlvbiBvZiB0aGlz
+IGNvbW11bmljYXRpb24sIGluIHdob2xlIG9yIGluIHBhcnQsIG9yIGRpc2Nsb3N1cmUgb2YgYW55
+IG9mIGl0cyBjb250ZW50cywgd2l0aG91dCB0aGUgcHJpb3IgY29uc2VudCBvZiBIU0JDLCBpcyBw
+cm9oaWJpdGVkLiAgVGhpcyBjb21tdW5pY2F0aW9uIHNob3VsZCBiZSByZWFkIGluIGl0cyBlbnRp
+cmV0eS4NCg0KSFNCQyBpcyBhY3RpbmcgZm9yIHRoZSBDb21wYW55IGluIGNvbm5lY3Rpb24gd2l0
+aCB0aGUgVHJhbnNhY3Rpb24gYW5kIG5vIG9uZSBlbHNlIGFuZCB3aWxsIG5vdCBiZSByZXNwb25z
+aWJsZSB0byBhbnlvbmUgb3RoZXIgdGhhbiB0aGUgQ29tcGFueSBmb3IgcHJvdmlkaW5nIHRoZSBw
+cm90ZWN0aW9ucyBhZmZvcmRlZCB0byBpdHMgY2xpZW50cyBub3IgZm9yIGdpdmluZyBhZHZpY2Ug
+aW4gcmVsYXRpb24gdG8gdGhlIFRyYW5zYWN0aW9uIG9yIGFueSBvdGhlciBtYXR0ZXIgcmVmZXJy
+ZWQgdG8gaGVyZWluLg0KDQoNCg0KQnkgcmVjZWl2aW5nIHRoaXMgY29tbXVuaWNhdGlvbiwgdGhl
+IHJlY2lwaWVudCBhZ3JlZXMgdG8gYmUgYm91bmQgYnkgdGhlIGZvcmVnb2luZyBsaW1pdGF0aW9u
+cy4NCg0KDQoNCg0KDQpQVUJMSUMNCg0KDQoNClBVQkxJQw0KCioqKioqKioqKioqKioqKioqKioq
+KioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKgpUaGlzIEUtbWFp
+bCBpcyBjb25maWRlbnRpYWwuIEl0IG1heSBhbHNvIGJlIGxlZ2FsbHkgcHJpdmlsZWdlZC4gSWYK
+eW91IGFyZSBub3QgdGhlIGFkZHJlc3NlZSB5b3UgbWF5IG5vdCBjb3B5LCBmb3J3YXJkLCBkaXNj
+bG9zZSBvcgp1c2UgYW55IHBhcnQgb2YgaXQuIElmIHlvdSBoYXZlIHJlY2VpdmVkIHRoaXMgbWVz
+c2FnZSBpbiBlcnJvciwKcGxlYXNlIGRlbGV0ZSBpdCBhbmQgYWxsIGNvcGllcyBmcm9tIHlvdXIg
+c3lzdGVtIGFuZCBub3RpZnkgdGhlCnNlbmRlciBpbW1lZGlhdGVseSBieSByZXR1cm4gRS1tYWls
+LgoKSW50ZXJuZXQgY29tbXVuaWNhdGlvbnMgY2Fubm90IGJlIGd1YXJhbnRlZWQgdG8gYmUgdGlt
+ZWx5LCBzZWN1cmUsCmVycm9yIG9yIHZpcnVzLWZyZWUuIFRoZSBzZW5kZXIgZG9lcyBub3QgYWNj
+ZXB0IGxpYWJpbGl0eSBmb3IgYW55CmVycm9ycyBvciBvbWlzc2lvbnMuCioqKioqKioqKioqKioq
+KioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKgpTQVZF
+IFBBUEVSIC0gVEhJTksgQkVGT1JFIFlPVSBQUklOVCEK
+
+--_2086a37c-6bfb-4b65-a2d3-31fb7ba93545_
+Content-Transfer-Encoding: quoted-printable
+Content-Type: text/html; charset="gb2312"
+
+<html xmlns:v=3D"urn:schemas-microsoft-com:vml" xmlns:o=3D"urn:schemas-micr=
+osoft-com:office:office" xmlns:w=3D"urn:schemas-microsoft-com:office:word" =
+xmlns:m=3D"http://schemas.microsoft.com/office/2004/12/omml" xmlns=3D"http:=
+//www.w3.org/TR/REC-html40">
+<head>
+<meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dgb2312">
+<meta name=3D"Generator" content=3D"Microsoft Word 15 (filtered medium)">
+<style><!--
+/* Font Definitions */
+@font-face
+	{font-family:Wingdings;
+	panose-1:5 0 0 0 0 0 0 0 0 0;}
+@font-face
+	{font-family:SimSun;
+	panose-1:2 1 6 0 3 1 1 1 1 1;}
+@font-face
+	{font-family:"Cambria Math";
+	panose-1:2 4 5 3 5 4 6 3 2 4;}
+@font-face
+	{font-family:DengXian;
+	panose-1:2 1 6 0 3 1 1 1 1 1;}
+@font-face
+	{font-family:Calibri;
+	panose-1:2 15 5 2 2 2 4 3 2 4;}
+@font-face
+	{font-family:"\@DengXian";
+	panose-1:2 1 6 0 3 1 1 1 1 1;}
+@font-face
+	{font-family:"\@SimSun";
+	panose-1:2 1 6 0 3 1 1 1 1 1;}
+/* Style Definitions */
+p.MsoNormal, li.MsoNormal, div.MsoNormal
+	{margin:0in;
+	margin-bottom:.0001pt;
+	font-size:11.0pt;
+	font-family:"Calibri",sans-serif;}
+a:link, span.MsoHyperlink
+	{mso-style-priority:99;
+	color:#0563C1;
+	text-decoration:underline;}
+a:visited, span.MsoHyperlinkFollowed
+	{mso-style-priority:99;
+	color:#954F72;
+	text-decoration:underline;}
+p.msonormal0, li.msonormal0, div.msonormal0
+	{mso-style-name:msonormal;
+	mso-margin-top-alt:auto;
+	margin-right:0in;
+	mso-margin-bottom-alt:auto;
+	margin-left:0in;
+	font-size:12.0pt;
+	font-family:SimSun;}
+p.wordsection1, li.wordsection1, div.wordsection1
+	{mso-style-name:wordsection1;
+	mso-style-priority:99;
+	mso-margin-top-alt:auto;
+	margin-right:0in;
+	mso-margin-bottom-alt:auto;
+	margin-left:0in;
+	font-size:12.0pt;
+	font-family:"Times New Roman",serif;}
+p.msipfootercffe3ac4, li.msipfootercffe3ac4, div.msipfootercffe3ac4
+	{mso-style-name:msipfootercffe3ac4;
+	mso-margin-top-alt:auto;
+	margin-right:0in;
+	mso-margin-bottom-alt:auto;
+	margin-left:0in;
+	font-size:12.0pt;
+	font-family:SimSun;}
+span.EmailStyle20
+	{mso-style-type:personal;
+	font-family:"Calibri",sans-serif;
+	color:windowtext;}
+span.EmailStyle21
+	{mso-style-type:personal;
+	font-family:"Calibri",sans-serif;
+	color:#1F497D;}
+span.EmailStyle22
+	{mso-style-type:personal-compose;
+	font-family:"Calibri",sans-serif;
+	color:windowtext;}
+.MsoChpDefault
+	{mso-style-type:export-only;
+	font-size:10.0pt;}
+@page WordSection1
+	{size:8.5in 11.0in;
+	margin:1.0in 1.0in 1.0in 1.0in;}
+div.WordSection1
+	{page:WordSection1;}
+/* List Definitions */
+@list l0
+	{mso-list-id:653800843;
+	mso-list-type:hybrid;
+	mso-list-template-ids:-1614508284 67698689 67698691 67698693 67698689 6769=
+8691 67698693 67698689 67698691 67698693;}
+@list l0:level1
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0B7;
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	text-indent:-.25in;
+	mso-ansi-font-size:10.0pt;
+	font-family:Symbol;}
+@list l0:level2
+	{mso-level-number-format:bullet;
+	mso-level-text:o;
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	text-indent:-.25in;
+	font-family:"Courier New";}
+@list l0:level3
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0A7;
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	text-indent:-.25in;
+	font-family:Wingdings;}
+@list l0:level4
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0B7;
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	text-indent:-.25in;
+	font-family:Symbol;}
+@list l0:level5
+	{mso-level-number-format:bullet;
+	mso-level-text:o;
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	text-indent:-.25in;
+	font-family:"Courier New";}
+@list l0:level6
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0A7;
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	text-indent:-.25in;
+	font-family:Wingdings;}
+@list l0:level7
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0B7;
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	text-indent:-.25in;
+	font-family:Symbol;}
+@list l0:level8
+	{mso-level-number-format:bullet;
+	mso-level-text:o;
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	text-indent:-.25in;
+	font-family:"Courier New";}
+@list l0:level9
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0A7;
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	text-indent:-.25in;
+	font-family:Wingdings;}
+ol
+	{margin-bottom:0in;}
+ul
+	{margin-bottom:0in;}
+--></style><!--[if gte mso 9]><xml>
+<o:shapedefaults v:ext=3D"edit" spidmax=3D"1026" />
+</xml><![endif]--><!--[if gte mso 9]><xml>
+<o:shapelayout v:ext=3D"edit">
+<o:idmap v:ext=3D"edit" data=3D"1" />
+</o:shapelayout></xml><![endif]-->
+</head>
+<body lang=3D"EN-US" link=3D"#0563C1" vlink=3D"#954F72">
+<div class=3D"WordSection1">
+<p class=3D"wordsection1" style=3D"margin:0in;margin-bottom:.0001pt;text-al=
+ign:justify;text-autospace:none">
+<b><span lang=3D"EN-GB" style=3D"font-size:11.0pt;font-family:&quot;Calibri=
+&quot;,sans-serif;background:yellow;mso-highlight:yellow">Management roadsh=
+ow starts tonight. Please revert with interest for 1x1 or group session. Ch=
+eers. Casey</span></b><b><span lang=3D"EN-GB" style=3D"font-size:11.0pt;fon=
+t-family:&quot;Calibri&quot;,sans-serif">
+<o:p></o:p></span></b></p>
+<p class=3D"wordsection1" style=3D"margin:0in;margin-bottom:.0001pt;text-al=
+ign:justify;text-autospace:none">
+<b><span lang=3D"EN-GB" style=3D"font-size:11.0pt;font-family:&quot;Calibri=
+&quot;,sans-serif"><o:p>&nbsp;</o:p></span></b></p>
+<p class=3D"wordsection1" style=3D"margin:0in;margin-bottom:.0001pt;text-al=
+ign:justify;text-autospace:none">
+<b><span lang=3D"EN-GB" style=3D"font-size:11.0pt;font-family:&quot;Calibri=
+&quot;,sans-serif;color:red">**THIS MESSAGE IS FOR DISTRIBUTION TO PROFESSI=
+ONAL INVESTORS ONLY**</span></b><b><span lang=3D"EN-GB" style=3D"font-size:=
+11.0pt;font-family:&quot;Calibri&quot;,sans-serif;color:red;mso-fareast-lan=
+guage:JA"><o:p></o:p></span></b></p>
+<p class=3D"wordsection1" style=3D"margin:0in;margin-bottom:.0001pt;text-al=
+ign:justify;text-autospace:none">
+<b><span lang=3D"EN-GB" style=3D"font-size:11.0pt;font-family:&quot;Calibri=
+&quot;,sans-serif;color:red">**DO NOT FORWARD THIS MESSAGE WITHOUT THE DISC=
+LAIMERS**</span></b><b><span lang=3D"EN-GB" style=3D"font-size:11.0pt;font-=
+family:&quot;Calibri&quot;,sans-serif;color:red;mso-fareast-language:JA"><o=
+:p></o:p></span></b></p>
+<p class=3D"wordsection1" style=3D"margin:0in;margin-bottom:.0001pt;text-al=
+ign:justify;text-autospace:none">
+<b><span style=3D"font-size:11.0pt;font-family:&quot;Calibri&quot;,sans-ser=
+if;mso-fareast-language:JA"><o:p>&nbsp;</o:p></span></b></p>
+<p class=3D"wordsection1" style=3D"margin:0in;margin-bottom:.0001pt;text-al=
+ign:justify;text-autospace:none">
+<b><span lang=3D"EN-GB" style=3D"font-size:11.0pt;font-family:&quot;Calibri=
+&quot;,sans-serif">THIS COMMUNICATION MAY NOT BE DISTRIBUTED INTO CANADA, J=
+APAN AND AUSTRALIA (THE =A1=B0RESTRICTED JURISDICTIONS=A1=B1).<o:p></o:p></=
+span></b></p>
+<p class=3D"wordsection1" style=3D"margin:0in;margin-bottom:.0001pt;text-al=
+ign:justify;text-autospace:none">
+<b><span lang=3D"EN-GB" style=3D"font-size:11.0pt;font-family:&quot;Calibri=
+&quot;,sans-serif">THIS COMMUNICATION MAY BE DISTRIBUTED IN THE PRC ONLY TO=
+ QUALIFIED DOMESTIC INSTITUTIONAL INVESTORS (=A1=B0QDIIs=A1=B1).<o:p></o:p>=
+</span></b></p>
+<p class=3D"wordsection1" style=3D"margin:0in;margin-bottom:.0001pt;text-al=
+ign:justify;text-autospace:none">
+<b><span lang=3D"EN-GB" style=3D"font-size:11.0pt;font-family:&quot;Calibri=
+&quot;,sans-serif">THIS COMMUNICATION MAY BE DISTRIBUTED IN THE EUROPEAN EC=
+ONOMIC AREA ONLY TO QUALIFIED INVESTORS.
+<o:p></o:p></span></b></p>
+<p class=3D"wordsection1" style=3D"margin:0in;margin-bottom:.0001pt;text-al=
+ign:justify;text-autospace:none">
+<b><span lang=3D"EN-GB" style=3D"font-size:11.0pt;font-family:&quot;Calibri=
+&quot;,sans-serif">THIS COMMUNICATION MAY BE DISTRIBUTED IN THE UNITED KING=
+DOM ONLY TO RELEVANT PERSONS.<o:p></o:p></span></b></p>
+<p class=3D"wordsection1" style=3D"margin:0in;margin-bottom:.0001pt;text-al=
+ign:justify;text-autospace:none">
+<b><span lang=3D"EN-GB" style=3D"font-size:11.0pt;font-family:&quot;Calibri=
+&quot;,sans-serif">THIS COMMUNICATION MAY BE DISTRIBUTED INTO THE UNITED ST=
+ATES ONLY TO QUALIFIED INSTITUTIONAL BUYERS (=A1=B0QIBs=A1=B1).<o:p></o:p><=
+/span></b></p>
+<p class=3D"wordsection1" style=3D"margin:0in;margin-bottom:.0001pt;text-al=
+ign:justify;text-autospace:none">
+<b><span lang=3D"EN-GB" style=3D"font-size:11.0pt;font-family:&quot;Calibri=
+&quot;,sans-serif;mso-fareast-language:JA"><o:p>&nbsp;</o:p></span></b></p>
+<p class=3D"wordsection1" style=3D"margin:0in;margin-bottom:.0001pt;text-al=
+ign:justify;text-autospace:none">
+<b><span style=3D"font-size:11.0pt;font-family:&quot;Calibri&quot;,sans-ser=
+if">*****</span></b><b><span style=3D"font-size:11.0pt;font-family:&quot;Ca=
+libri&quot;,sans-serif;mso-fareast-language:JA"><o:p></o:p></span></b></p>
+<p class=3D"wordsection1" style=3D"margin:0in;margin-bottom:.0001pt"><b><sp=
+an style=3D"font-size:11.0pt;font-family:&quot;Calibri&quot;,sans-serif">**=
+LAUNCH**
+</span></b><b><span style=3D"font-size:11.0pt;font-family:&quot;Calibri&quo=
+t;,sans-serif;mso-fareast-language:ZH-TW"><o:p></o:p></span></b></p>
+<p class=3D"wordsection1" style=3D"margin:0in;margin-bottom:.0001pt"><span =
+style=3D"font-size:11.0pt;font-family:&quot;Calibri&quot;,sans-serif"><br>
+HSBC is acting as Joint Global Coordinator in the Global Offering of shares=
+ in Sirnaomics Ltd. &nbsp;(=A1=B0Sirnaomics=A1=B1 or the =A1=B0Company=A1=
+=B1)</span><span style=3D"font-size:11.0pt;font-family:&quot;Calibri&quot;,=
+sans-serif;mso-fareast-language:ZH-TW"><o:p></o:p></span></p>
+<p class=3D"wordsection1" style=3D"margin:0in;margin-bottom:.0001pt"><span =
+style=3D"font-size:11.0pt;font-family:&quot;Calibri&quot;,sans-serif;mso-fa=
+reast-language:ZH-TW"><o:p>&nbsp;</o:p></span></p>
+<p class=3D"wordsection1" style=3D"margin:0in;margin-bottom:.0001pt"><b><u>=
+<span style=3D"font-size:11.0pt;font-family:&quot;Calibri&quot;,sans-serif"=
+>OFFERING SUMMARY:<o:p></o:p></span></u></b></p>
+<p class=3D"wordsection1" style=3D"margin:0in;margin-bottom:.0001pt;text-al=
+ign:justify">
+<b><span style=3D"font-size:11.0pt;font-family:&quot;Calibri&quot;,sans-ser=
+if">Issuer:</span></b><span style=3D"font-size:11.0pt;font-family:&quot;Cal=
+ibri&quot;,sans-serif"> Sirnaomics Ltd.<o:p></o:p></span></p>
+<p class=3D"wordsection1" style=3D"margin:0in;margin-bottom:.0001pt;text-al=
+ign:justify">
+<b><span style=3D"font-size:11.0pt;font-family:&quot;Calibri&quot;,sans-ser=
+if">Type of Offering:&nbsp;</span></b><span style=3D"font-size:11.0pt;font-=
+family:&quot;Calibri&quot;,sans-serif">Global Offering on the Main Board of=
+ the Stock Exchange of Hong Kong (&quot;SEHK&quot;)<o:p></o:p></span></p>
+<p class=3D"wordsection1" style=3D"margin:0in;margin-bottom:.0001pt;text-al=
+ign:justify">
+<b><span style=3D"font-size:11.0pt;font-family:&quot;Calibri&quot;,sans-ser=
+if">Exchange / Ticker</span></b><span style=3D"font-size:11.0pt;font-family=
+:&quot;Calibri&quot;,sans-serif">:&nbsp;SEHK / 2257.HK<o:p></o:p></span></p>
+<p class=3D"wordsection1" style=3D"margin:0in;margin-bottom:.0001pt;text-al=
+ign:justify">
+<b><span style=3D"font-size:11.0pt;font-family:&quot;Calibri&quot;,sans-ser=
+if">Distribution:&nbsp;</span></b><span style=3D"font-size:11.0pt;font-fami=
+ly:&quot;Calibri&quot;,sans-serif">Regulation S &amp; 144A<o:p></o:p></span=
+></p>
+<p class=3D"wordsection1" style=3D"margin:0in;margin-bottom:.0001pt;text-al=
+ign:justify">
+<b><span style=3D"font-size:11.0pt;font-family:&quot;Calibri&quot;,sans-ser=
+if">Offer Price Range:</span></b><span style=3D"font-size:11.0pt;font-famil=
+y:&quot;Calibri&quot;,sans-serif">&nbsp;HK$ 65.90 =A8C 72.70 per Share<o:p>=
+</o:p></span></p>
+<p class=3D"wordsection1" style=3D"margin:0in;margin-bottom:.0001pt;text-al=
+ign:justify">
+<b><span style=3D"font-size:11.0pt;font-family:&quot;Calibri&quot;,sans-ser=
+if">Base Offering Size:&nbsp;</span></b><span style=3D"font-size:11.0pt;fon=
+t-family:&quot;Calibri&quot;,sans-serif">7,540,000 Shares (US$ 64mn=A8C70mn=
+), representing approximately 8.6% of the post offering TSO (all
+ primary, subject to Over-Allotment Option)<o:p></o:p></span></p>
+<p class=3D"wordsection1" style=3D"margin:0in;margin-bottom:.0001pt;text-al=
+ign:justify">
+<b><span style=3D"font-size:11.0pt;font-family:&quot;Calibri&quot;,sans-ser=
+if">Over-Allotment Option:&nbsp;</span></b><span style=3D"font-size:11.0pt;=
+font-family:&quot;Calibri&quot;,sans-serif">up to 1,131,000 Shares, all pri=
+mary, representing 15.0% of the Base Offering Size
+<o:p></o:p></span></p>
+<p class=3D"wordsection1" style=3D"margin:0in;margin-bottom:.0001pt;text-al=
+ign:justify">
+<b><span style=3D"font-size:11.0pt;font-family:&quot;Calibri&quot;,sans-ser=
+if">Post-Greenshoe Offering Size:&nbsp;</span></b><span style=3D"font-size:=
+11.0pt;font-family:&quot;Calibri&quot;,sans-serif">up to 8,671,000 Shares (=
+US$ 73mn=A8C81mn), representing approximately 9.7% of the post offering
+ TSO<o:p></o:p></span></p>
+<p class=3D"wordsection1" style=3D"margin:0in;margin-bottom:.0001pt;text-al=
+ign:justify">
+<b><span style=3D"font-size:11.0pt;font-family:&quot;Calibri&quot;,sans-ser=
+if">Board Lot:</span></b><span style=3D"font-size:11.0pt;font-family:&quot;=
+Calibri&quot;,sans-serif">&nbsp;50 Shares<o:p></o:p></span></p>
+<p class=3D"wordsection1" style=3D"margin:0in;margin-bottom:.0001pt;line-he=
+ight:105%">
+<b><span style=3D"font-size:11.0pt;line-height:105%;font-family:&quot;Calib=
+ri&quot;,sans-serif">Cornerstone Investors</span></b><span style=3D"font-si=
+ze:11.0pt;line-height:105%;font-family:&quot;Calibri&quot;,sans-serif">: 2 =
+investors with an aggregate amount of US$ 28.6mn, approximately
+ 42.7% of base deal size (based on mid-point of the Offer Price Range) <o:p=
+></o:p></span></p>
+<p class=3D"wordsection1" style=3D"mso-margin-top-alt:0in;margin-right:0in;=
+margin-bottom:0in;margin-left:.5in;margin-bottom:.0001pt;text-indent:-.25in=
+;line-height:105%;mso-list:l0 level1 lfo2">
+<![if !supportLists]><span style=3D"font-size:10.0pt;line-height:105%;font-=
+family:Symbol"><span style=3D"mso-list:Ignore">=A1=A4<span style=3D"font:7.=
+0pt &quot;Times New Roman&quot;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;=
+&nbsp;
+</span></span></span><![endif]><span style=3D"font-size:11.0pt;line-height:=
+105%;font-family:&quot;Calibri&quot;,sans-serif">- Kunming Jiashiqing: US$ =
+23.6mn<o:p></o:p></span></p>
+<p class=3D"wordsection1" style=3D"mso-margin-top-alt:0in;margin-right:0in;=
+margin-bottom:0in;margin-left:.5in;margin-bottom:.0001pt;text-indent:-.25in=
+;line-height:105%;mso-list:l0 level1 lfo2">
+<![if !supportLists]><span style=3D"font-size:10.0pt;line-height:105%;font-=
+family:Symbol"><span style=3D"mso-list:Ignore">=A1=A4<span style=3D"font:7.=
+0pt &quot;Times New Roman&quot;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;=
+&nbsp;
+</span></span></span><![endif]><span style=3D"font-size:11.0pt;line-height:=
+105%;font-family:&quot;Calibri&quot;,sans-serif">- Innoforce Pharmaceutical=
+s: US$ 5.0mn
+<o:p></o:p></span></p>
+<p class=3D"wordsection1" style=3D"margin:0in;margin-bottom:.0001pt;line-he=
+ight:105%">
+<b><span style=3D"font-size:11.0pt;line-height:105%;font-family:&quot;Calib=
+ri&quot;,sans-serif">Lock-up:
+</span></b><span style=3D"font-size:11.0pt;line-height:105%;font-family:&qu=
+ot;Calibri&quot;,sans-serif"><o:p></o:p></span></p>
+<p class=3D"wordsection1" style=3D"mso-margin-top-alt:0in;margin-right:0in;=
+margin-bottom:0in;margin-left:.5in;margin-bottom:.0001pt;text-indent:-.25in=
+;line-height:105%;mso-list:l0 level1 lfo2">
+<![if !supportLists]><span style=3D"font-size:10.0pt;line-height:105%;font-=
+family:Symbol"><span style=3D"mso-list:Ignore">=A1=A4<span style=3D"font:7.=
+0pt &quot;Times New Roman&quot;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;=
+&nbsp;
+</span></span></span><![endif]><span style=3D"font-size:11.0pt;line-height:=
+105%;font-family:&quot;Calibri&quot;,sans-serif">Company: 6 months<o:p></o:=
+p></span></p>
+<p class=3D"wordsection1" style=3D"mso-margin-top-alt:0in;margin-right:0in;=
+margin-bottom:0in;margin-left:.5in;margin-bottom:.0001pt;text-indent:-.25in=
+;line-height:105%;mso-list:l0 level1 lfo2">
+<![if !supportLists]><span style=3D"font-size:10.0pt;line-height:105%;font-=
+family:Symbol"><span style=3D"mso-list:Ignore">=A1=A4<span style=3D"font:7.=
+0pt &quot;Times New Roman&quot;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;=
+&nbsp;
+</span></span></span><![endif]><span style=3D"font-size:11.0pt;line-height:=
+105%;font-family:&quot;Calibri&quot;,sans-serif">Existing Shareholders (inc=
+luding Dr. Lu but excluding Mike Ghias, Asghar Ghias, Cachet Multi Strategy=
+ Fund and Marvelous Legend Ventures Limited):
+ 6 months <o:p></o:p></span></p>
+<p class=3D"wordsection1" style=3D"mso-margin-top-alt:0in;margin-right:0in;=
+margin-bottom:0in;margin-left:.5in;margin-bottom:.0001pt;text-indent:-.25in=
+;line-height:105%;mso-list:l0 level1 lfo2">
+<![if !supportLists]><span style=3D"font-size:10.0pt;line-height:105%;font-=
+family:Symbol"><span style=3D"mso-list:Ignore">=A1=A4<span style=3D"font:7.=
+0pt &quot;Times New Roman&quot;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;=
+&nbsp;
+</span></span></span><![endif]><span style=3D"font-size:11.0pt;line-height:=
+105%;font-family:&quot;Calibri&quot;,sans-serif">Cornerstone Investors: 6 m=
+onths<o:p></o:p></span></p>
+<p class=3D"wordsection1" style=3D"margin:0in;margin-bottom:.0001pt;line-he=
+ight:105%">
+<b><span style=3D"font-size:11.0pt;line-height:105%;font-family:&quot;Calib=
+ri&quot;,sans-serif">HKPO Clawback Structure:&nbsp;</span></b><span style=
+=3D"font-size:11.0pt;line-height:105%;font-family:&quot;Calibri&quot;,sans-=
+serif"><o:p></o:p></span></p>
+<p class=3D"wordsection1" style=3D"mso-margin-top-alt:0in;margin-right:0in;=
+margin-bottom:0in;margin-left:.5in;margin-bottom:.0001pt;text-indent:-.25in=
+;line-height:105%;mso-list:l0 level1 lfo2">
+<![if !supportLists]><span style=3D"font-size:10.0pt;line-height:105%;font-=
+family:Symbol"><span style=3D"mso-list:Ignore">=A1=A4<span style=3D"font:7.=
+0pt &quot;Times New Roman&quot;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;=
+&nbsp;
+</span></span></span><![endif]><span style=3D"font-size:11.0pt;line-height:=
+105%;font-family:&quot;Calibri&quot;,sans-serif">90% International / 10% HK=
+PO if HKPO subscription level &lt; 15x
+<o:p></o:p></span></p>
+<p class=3D"wordsection1" style=3D"mso-margin-top-alt:0in;margin-right:0in;=
+margin-bottom:0in;margin-left:.5in;margin-bottom:.0001pt;text-indent:-.25in=
+;line-height:105%;mso-list:l0 level1 lfo2">
+<![if !supportLists]><span style=3D"font-size:10.0pt;line-height:105%;font-=
+family:Symbol"><span style=3D"mso-list:Ignore">=A1=A4<span style=3D"font:7.=
+0pt &quot;Times New Roman&quot;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;=
+&nbsp;
+</span></span></span><![endif]><span style=3D"font-size:11.0pt;line-height:=
+105%;font-family:&quot;Calibri&quot;,sans-serif">70% International / 30% HK=
+PO if 15x =A1=DC HKPO subscription level &lt; 50x
+<o:p></o:p></span></p>
+<p class=3D"wordsection1" style=3D"mso-margin-top-alt:0in;margin-right:0in;=
+margin-bottom:0in;margin-left:.5in;margin-bottom:.0001pt;text-indent:-.25in=
+;line-height:105%;mso-list:l0 level1 lfo2">
+<![if !supportLists]><span style=3D"font-size:10.0pt;line-height:105%;font-=
+family:Symbol"><span style=3D"mso-list:Ignore">=A1=A4<span style=3D"font:7.=
+0pt &quot;Times New Roman&quot;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;=
+&nbsp;
+</span></span></span><![endif]><span style=3D"font-size:11.0pt;line-height:=
+105%;font-family:&quot;Calibri&quot;,sans-serif">60% International / 40% HK=
+PO if 50x =A1=DC HKPO subscription level &lt; 100x
+<o:p></o:p></span></p>
+<p class=3D"wordsection1" style=3D"mso-margin-top-alt:0in;margin-right:0in;=
+margin-bottom:0in;margin-left:.5in;margin-bottom:.0001pt;text-indent:-.25in=
+;line-height:105%;mso-list:l0 level1 lfo2">
+<![if !supportLists]><span style=3D"font-size:10.0pt;line-height:105%;font-=
+family:Symbol"><span style=3D"mso-list:Ignore">=A1=A4<span style=3D"font:7.=
+0pt &quot;Times New Roman&quot;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;=
+&nbsp;
+</span></span></span><![endif]><span style=3D"font-size:11.0pt;line-height:=
+105%;font-family:&quot;Calibri&quot;,sans-serif">50% International / 50% HK=
+PO if 100x =A1=DC HKPO subscription level<o:p></o:p></span></p>
+<p class=3D"wordsection1" style=3D"margin:0in;margin-bottom:.0001pt"><b><sp=
+an style=3D"font-size:11.0pt;font-family:&quot;Calibri&quot;,sans-serif">Ad=
+ditional Fees and Charges:
+</span></b><span style=3D"font-size:11.0pt;font-family:&quot;Calibri&quot;,=
+sans-serif;color:black">1.0% brokerage, 0.005% Hong Kong Stock Exchange tra=
+ding fee, 0.0027% SFC transaction levy</span><span style=3D"font-size:11.0p=
+t;font-family:&quot;Calibri&quot;,sans-serif;color:black;mso-fareast-langua=
+ge:EN-GB"><o:p></o:p></span></p>
+<p class=3D"wordsection1" style=3D"margin:0in;margin-bottom:.0001pt;line-he=
+ight:105%">
+<b><span style=3D"font-size:11.0pt;line-height:105%;font-family:&quot;Calib=
+ri&quot;,sans-serif">HSBC Role:
+</span></b><span style=3D"font-size:11.0pt;line-height:105%;font-family:&qu=
+ot;Calibri&quot;,sans-serif">Joint Global Coordinator / Joint Bookrunner<b>=
+<o:p></o:p></b></span></p>
+<p class=3D"wordsection1" style=3D"margin:0in;margin-bottom:.0001pt"><b><u>=
+<span style=3D"font-size:11.0pt;font-family:&quot;Calibri&quot;,sans-serif"=
+><o:p><span style=3D"text-decoration:none">&nbsp;</span></o:p></span></u></=
+b></p>
+<p class=3D"wordsection1" style=3D"margin:0in;margin-bottom:.0001pt"><b><u>=
+<span style=3D"font-size:11.0pt;font-family:&quot;Calibri&quot;,sans-serif"=
+>INDICATIVE TIMETABLE:<o:p></o:p></span></u></b></p>
+<p class=3D"wordsection1" style=3D"margin:0in;margin-bottom:.0001pt"><span =
+lang=3D"EN-GB" style=3D"font-size:11.0pt;font-family:&quot;Calibri&quot;,sa=
+ns-serif">Books open: Monday<span style=3D"color:#1F497D">,</span> 20 Dec 2=
+021<br>
+Management roadshow: Monday<span style=3D"color:#1F497D">,</span> 20 Dec 20=
+21=A8C Thursday, 23 Dec 2021<br>
+Hong Kong Public Offering: Monday<span style=3D"color:#1F497D">,</span> 20 =
+Dec 2021=A8C Thursday, 23 Dec 2021<o:p></o:p></span></p>
+<p class=3D"wordsection1" style=3D"margin:0in;margin-bottom:.0001pt"><span =
+lang=3D"EN-GB" style=3D"font-size:11.0pt;font-family:&quot;Calibri&quot;,sa=
+ns-serif">Expected books close: Thursday, 23 Dec 2021<br>
+Expected pricing &amp; allocation date: Thursday, 30 Dec 2021<br>
+Expected listing &amp; settlement date: Thursday, 30 Dec 2021<o:p></o:p></s=
+pan></p>
+<p class=3D"wordsection1"><b><u><span style=3D"font-size:11.0pt;font-family=
+:&quot;Calibri&quot;,sans-serif">SELLING RESTRICTIONS:</span></u></b><span =
+style=3D"font-size:11.0pt;font-family:&quot;Calibri&quot;,sans-serif"><br>
+Permitted sales: Reg S and Rule 144(a)<br>
+Non-permitted sales: Japan, Australia, Canada, domestic PRC (except QDIIs)<=
+/span><span style=3D"font-size:11.0pt;font-family:&quot;Calibri&quot;,sans-=
+serif;mso-fareast-language:ZH-TW"><o:p></o:p></span></p>
+<p class=3D"wordsection1" style=3D"margin:0in;margin-bottom:.0001pt;text-al=
+ign:justify">
+<span lang=3D"EN-GB" style=3D"font-size:11.0pt;font-family:&quot;Calibri&qu=
+ot;,sans-serif">*****</span><span lang=3D"EN-GB" style=3D"font-size:11.0pt;=
+font-family:&quot;Calibri&quot;,sans-serif;mso-fareast-language:JA"><o:p></=
+o:p></span></p>
+<p class=3D"wordsection1" style=3D"margin:0in;margin-bottom:.0001pt;text-al=
+ign:justify">
+<span lang=3D"EN-GB" style=3D"font-size:11.0pt;font-family:&quot;Calibri&qu=
+ot;,sans-serif;mso-fareast-language:JA"><o:p>&nbsp;</o:p></span></p>
+<p class=3D"wordsection1" style=3D"margin:0in;margin-bottom:.0001pt;text-al=
+ign:justify;text-autospace:none">
+<span lang=3D"EN-GB" style=3D"font-size:11.0pt;font-family:&quot;Calibri&qu=
+ot;,sans-serif">This communication has been prepared and issued by or on be=
+half of the Company in connection with the above transaction (the =A1=B0<b>=
+Transaction</b>=A1=B1).
+</span><span lang=3D"EN-GB" style=3D"font-size:11.0pt;font-family:&quot;Cal=
+ibri&quot;,sans-serif;mso-fareast-language:JA"><o:p></o:p></span></p>
+<p class=3D"wordsection1" style=3D"margin:0in;margin-bottom:.0001pt;text-al=
+ign:justify;text-autospace:none">
+<b><span lang=3D"EN-GB" style=3D"font-size:11.0pt;font-family:&quot;Calibri=
+&quot;,sans-serif;color:black;mso-fareast-language:JA"><o:p>&nbsp;</o:p></s=
+pan></b></p>
+<p class=3D"wordsection1" style=3D"margin:0in;margin-bottom:.0001pt;text-al=
+ign:justify;text-autospace:none">
+<span lang=3D"EN-GB" style=3D"font-size:11.0pt;font-family:&quot;Calibri&qu=
+ot;,sans-serif;color:black">The information in this communication</span><sp=
+an lang=3D"EN-GB" style=3D"font-size:11.0pt;font-family:&quot;Calibri&quot;=
+,sans-serif"> does not purport to be comprehensive and has not
+ been independently verified by The Hongkong and Shanghai Banking Corporati=
+on Limited (=A1=B0<b>HSBC</b>=A1=B1), any of its group undertakings or affi=
+liates or any of their respective members, directors, officers, employees, =
+agents or affiliates. Except in the case of
+ their respective fraudulent misrepresentation, no responsibility or liabil=
+ity is accepted by HSBC, any of its group undertakings or affiliates or by =
+any of their respective members, directors, officers, employees, agents or =
+affiliates as to or in relation
+ to the accuracy, completeness or sufficiency of this communication or any =
+other written or oral information made available to any interested party or=
+ its advisers or for any loss whatsoever arising from or in connection with=
+ use of or reliance on this communication
+ and any such liability is expressly disclaimed. No representation or warra=
+nty, express or implied, is made as to the fairness, accuracy, completeness=
+ or correctness of the information or opinions contained in this document a=
+nd no reliance should be placed
+ on such information or opinions. The information contained in this communi=
+cation is subject to change without notice and may not contain all material=
+ information relating to the products, investment and transaction referred =
+to herein. None of the Company,
+ HSBC nor any of their respective group undertakings or affiliates is under=
+ any obligation or give any undertaking to provide the recipient with acces=
+s to any additional information or to update this communication or any addi=
+tional information or to correct
+ any inaccuracies in it which may become apparent, and HSBC reserves the ri=
+ght, without giving reasons, at any time and in any respect to amend or ter=
+minate the proposal(s) described herein.
+</span><span lang=3D"EN-GB" style=3D"font-size:11.0pt;font-family:&quot;Cal=
+ibri&quot;,sans-serif;mso-fareast-language:JA"><o:p></o:p></span></p>
+<p class=3D"wordsection1" style=3D"margin:0in;margin-bottom:.0001pt;text-al=
+ign:justify;text-autospace:none">
+<span lang=3D"EN-GB" style=3D"font-size:11.0pt;font-family:&quot;Calibri&qu=
+ot;,sans-serif">&nbsp;</span><span lang=3D"EN-GB" style=3D"font-size:11.0pt=
+;font-family:&quot;Calibri&quot;,sans-serif;mso-fareast-language:JA;layout-=
+grid-mode:line"><o:p></o:p></span></p>
+<p class=3D"wordsection1" style=3D"mso-margin-top-alt:0in;margin-right:0in;=
+margin-bottom:6.0pt;margin-left:0in;text-align:justify;text-autospace:none">
+<span lang=3D"EN-GB" style=3D"font-size:11.0pt;font-family:&quot;Calibri&qu=
+ot;,sans-serif">In particular, but without limitation, no representation or=
+ warranty, express or implied, is given as to the achievement or reasonable=
+ness of, and no reliance should be placed on,
+ any projections, opinions, estimates, forecasts, targets, prospects, retur=
+ns or other forward-looking statements contained herein. Any such projectio=
+ns, estimates, forecasts, targets, prospects, returns or other forward-look=
+ing statements are not a reliable
+ indicator of future performance.&nbsp; Nothing in this communication shoul=
+d be relied upon as a promise or representation as to the future. Neither H=
+SBC, its group undertakings or affiliates nor any of their respective membe=
+rs, directors, officers, employees, affiliates
+ or agents nor any other person accepts any liability whatsoever for any lo=
+ss howsoever arising from any use of this communication or its contents or =
+otherwise arising in connection therewith.</span><span lang=3D"EN-GB" style=
+=3D"font-size:11.0pt;font-family:&quot;Calibri&quot;,sans-serif;mso-fareast=
+-language:JA"><o:p></o:p></span></p>
+<p class=3D"wordsection1" style=3D"margin:0in;margin-bottom:.0001pt;text-al=
+ign:justify;text-autospace:none">
+<span lang=3D"EN-GB" style=3D"font-size:11.0pt;font-family:&quot;Calibri&qu=
+ot;,sans-serif;mso-fareast-language:JA"><o:p>&nbsp;</o:p></span></p>
+<p class=3D"wordsection1" style=3D"margin:0in;margin-bottom:.0001pt;text-al=
+ign:justify;text-autospace:none">
+<span lang=3D"EN-GB" style=3D"font-size:11.0pt;font-family:&quot;Calibri&qu=
+ot;,sans-serif">The securities of the Company referred to in this communica=
+tion (the =A1=B0<b>Securities</b>=A1=B1) are being offered in the United St=
+ates only to QIBs as defined in Rule 144A under the United
+ States Securities Act of 1933, as amended (the =A1=B0<b>Securities Act</b>=
+=A1=B1) in transactions exempt from the registration requirements of the Se=
+curities Act. The Securities have not been and will not be registered under=
+ the Securities Act and may not be offered
+ or sold in the United States, or for the account or benefit of, US persons=
+ (as defined in Regulation S under the Securities Act) absent registration =
+under the Securities Act or exemption from the registration requirements th=
+ereof. Neither this communication
+ nor any copy may be taken, transmitted or distributed, directly or indirec=
+tly, into the United States, its territories or possessions or to any US pe=
+rson other than to QIBs or to any US securities analyst. If you are receivi=
+ng this communication outside the
+ United States, you confirm that you are not a person located in the United=
+ States and are not a US person (as those terms are defined in Regulation S=
+ of the Securities Act) or acting for the account or for the benefit of a U=
+S person. If you are receiving this
+ information in the United States, you represent, warrant and agree that yo=
+u and each person on whose behalf you are receiving this information are QI=
+Bs.</span><span lang=3D"EN-GB" style=3D"font-size:11.0pt;font-family:&quot;=
+Calibri&quot;,sans-serif;mso-fareast-language:JA"><o:p></o:p></span></p>
+<p class=3D"wordsection1" style=3D"margin:0in;margin-bottom:.0001pt;text-al=
+ign:justify;text-autospace:none">
+<span lang=3D"EN-GB" style=3D"font-size:11.0pt;font-family:&quot;Calibri&qu=
+ot;,sans-serif;color:#1F497D;mso-fareast-language:JA"><o:p>&nbsp;</o:p></sp=
+an></p>
+<p class=3D"wordsection1" style=3D"margin:0in;margin-bottom:.0001pt;text-al=
+ign:justify;text-autospace:none">
+<span style=3D"font-size:11.0pt;font-family:&quot;Calibri&quot;,sans-serif"=
+>In the European Economic Area (the =A1=B0<b>EEA</b>=A1=B1), the Transactio=
+n is only directed at persons who are =A1=B0qualified investors=A1=B1 withi=
+n the meaning of Article 2(1)(e) of the Prospectus Regulation (EU)
+ 2017/1129 and underlying legislation, as amended from time to time (the =
+=A1=B0<b>Prospectus Regulation</b>=A1=B1) and in the United Kingdom, the Tr=
+ansaction is only directed at persons who are =A1=B0qualified investors=A1=
+=B1 within the meaning of Article 2 of the Prospectus Regulation
+ as it forms part of domestic law by the European Union (Withdrawal) Act 20=
+18 (as amended from time to time) (=A1=B0<b>Qualified Investors</b>=A1=B1).=
+ In addition, in the United Kingdom, the Transaction is only directed at Qu=
+alified Investors who are: (i) persons who
+ have professional experience in matters relating to investments falling wi=
+thin Article 19(5) of the Financial Services and Markets Act 2000 (Financia=
+l Promotion) Order 2005, as amended, (the =A1=B0<b>Order</b>=A1=B1), (ii) h=
+igh net worth entities falling within Article
+ 49(2) of the Order or (iii) other persons to whom it can otherwise lawfull=
+y be communicated, all such persons in (i), (ii) and (iii) being referred t=
+o as =A1=B0<b>Relevant Persons</b>=A1=B1. This communication must not be ac=
+ted upon by and no investment activity will
+ be engaged in with (i) in the United Kingdom, persons who are not Relevant=
+ Persons, and (ii) in any EEA member state, persons who are not Qualified I=
+nvestors.</span><span style=3D"font-size:11.0pt;font-family:&quot;Calibri&q=
+uot;,sans-serif;mso-fareast-language:JA"><o:p></o:p></span></p>
+<p class=3D"wordsection1" style=3D"margin:0in;margin-bottom:.0001pt;text-al=
+ign:justify;text-autospace:none">
+<span style=3D"font-size:11.0pt;font-family:&quot;Calibri&quot;,sans-serif;=
+color:#1F497D;mso-fareast-language:JA"><o:p>&nbsp;</o:p></span></p>
+<p class=3D"wordsection1" style=3D"margin:0in;margin-bottom:.0001pt;text-al=
+ign:justify;text-autospace:none">
+<span lang=3D"EN-GB" style=3D"font-size:11.0pt;font-family:&quot;Calibri&qu=
+ot;,sans-serif">Neither this communication nor any copy of it may be taken,=
+ transmitted or distributed, directly or indirectly, in or into the Restric=
+ted Jurisdictions or to any national, resident
+ or citizen of the Restricted Jurisdictions or to any securities analyst or=
+ other person in any of those jurisdictions. Any failure to comply with thi=
+s restriction may constitute a violation of the securities laws of the Rest=
+ricted Jurisdictions. The Securities
+ have not been and will not be registered under the applicable securities l=
+aws of Restricted Jurisdictions<b>
+</b>and, subject to certain exceptions, may not be offered or sold within<b=
+> </b>
+Restricted Jurisdictions or to any national, resident or citizen of Restric=
+ted Jurisdictions. The distribution of this communication in some jurisdict=
+ions may be restricted by law, and persons into whose possession this commu=
+nication comes should inform themselves
+ about, and observe, any such restrictions.</span><span lang=3D"EN-GB" styl=
+e=3D"font-size:11.0pt;font-family:&quot;Calibri&quot;,sans-serif;mso-fareas=
+t-language:JA"><o:p></o:p></span></p>
+<p class=3D"wordsection1" style=3D"margin:0in;margin-bottom:.0001pt;text-al=
+ign:justify;text-autospace:none">
+<span lang=3D"EN-GB" style=3D"font-size:11.0pt;font-family:&quot;Calibri&qu=
+ot;,sans-serif;mso-fareast-language:JA"><o:p>&nbsp;</o:p></span></p>
+<p class=3D"wordsection1" style=3D"margin:0in;margin-bottom:.0001pt;text-al=
+ign:justify;text-autospace:none">
+<span lang=3D"EN-GB" style=3D"font-size:11.0pt;font-family:&quot;Calibri&qu=
+ot;,sans-serif">This communication and the information contained in it can =
+only be distributed in Hong Kong to professional investors as defined in th=
+e Securities and Futures Ordinance (Chapter 571)
+ of the Laws of Hong Kong and any rules made under that ordinance.</span><s=
+pan lang=3D"EN-GB" style=3D"font-size:11.0pt;font-family:&quot;Calibri&quot=
+;,sans-serif;mso-fareast-language:JA"><o:p></o:p></span></p>
+<p class=3D"wordsection1" style=3D"margin:0in;margin-bottom:.0001pt;text-al=
+ign:justify;text-autospace:none">
+<span lang=3D"EN-GB" style=3D"font-size:11.0pt;font-family:&quot;Calibri&qu=
+ot;,sans-serif;mso-fareast-language:JA"><o:p>&nbsp;</o:p></span></p>
+<p class=3D"wordsection1" style=3D"margin:0in;margin-bottom:.0001pt;text-al=
+ign:justify;text-autospace:none">
+<span lang=3D"EN-GB" style=3D"font-size:11.0pt;font-family:&quot;Calibri&qu=
+ot;,sans-serif">Neither this communication, nor anything contained herein, =
+shall form the basis of, or be relied on in connection with, any contract t=
+o purchase or subscribe for any securities of
+ the Company, nor shall it or any part of it form the basis of or be relied=
+ on in connection with any contract or commitment whatsoever. Any decision =
+to acquire Securities in connection with the Transaction should be made sol=
+ely on the basis of information
+ contained in the final form offering circular to be published by the Compa=
+ny if the Company decides to proceed with the Transaction (the =A1=B0<b>Off=
+ering Circular</b>=A1=B1). The Offering Circular will be issued in due cour=
+se and may contain information different from
+ the information contained in this communication. When available, the Offer=
+ing Circular may be obtained from your HSBC sale representative. This commu=
+nication has been provided to you solely for your information and backgroun=
+d and is subject to amendment.</span><span lang=3D"EN-GB" style=3D"font-siz=
+e:11.0pt;font-family:&quot;Calibri&quot;,sans-serif;mso-fareast-language:JA=
+"><o:p></o:p></span></p>
+<p class=3D"wordsection1" style=3D"margin:0in;margin-bottom:.0001pt;text-al=
+ign:justify;text-autospace:none">
+<span lang=3D"EN-GB" style=3D"font-size:11.0pt;font-family:&quot;Calibri&qu=
+ot;,sans-serif;mso-fareast-language:JA"><o:p>&nbsp;</o:p></span></p>
+<p class=3D"wordsection1" style=3D"margin:0in;margin-bottom:.0001pt;text-al=
+ign:justify;text-autospace:none">
+<span lang=3D"EN-GB" style=3D"font-size:11.0pt;font-family:&quot;Calibri&qu=
+ot;,sans-serif">Information in this communication is confidential.&nbsp; Di=
+stribution of this communication or information in this communication, to a=
+ny person other than an original recipient (or to such
+ recipient=A1=AFs advisors) is prohibited.&nbsp; Reproduction of this commu=
+nication, in whole or in part, or disclosure of any of its contents, withou=
+t the prior consent of HSBC, is prohibited.&nbsp; This communication should=
+ be read in its entirety.&nbsp;
+</span><span lang=3D"EN-GB" style=3D"font-size:11.0pt;font-family:&quot;Cal=
+ibri&quot;,sans-serif;mso-fareast-language:JA"><o:p></o:p></span></p>
+<p class=3D"wordsection1" style=3D"mso-margin-top-alt:12.0pt;margin-right:0=
+in;margin-bottom:0in;margin-left:0in;margin-bottom:.0001pt;text-align:justi=
+fy;line-height:13.0pt;text-autospace:none">
+<span lang=3D"EN-GB" style=3D"font-size:11.0pt;font-family:&quot;Calibri&qu=
+ot;,sans-serif">HSBC is acting for the Company in connection with the Trans=
+action and no one else and will not be responsible to anyone other than the=
+ Company for providing the protections afforded
+ to its clients nor for giving advice in relation to the Transaction or any=
+ other matter referred to herein.</span><span lang=3D"EN-GB" style=3D"font-=
+size:11.0pt;font-family:&quot;Calibri&quot;,sans-serif;mso-fareast-language=
+:JA"><o:p></o:p></span></p>
+<p class=3D"wordsection1" style=3D"margin:0in;margin-bottom:.0001pt;text-al=
+ign:justify">
+<span lang=3D"EN-GB" style=3D"font-size:11.0pt;font-family:&quot;Calibri&qu=
+ot;,sans-serif;mso-fareast-language:JA"><o:p>&nbsp;</o:p></span></p>
+<p class=3D"wordsection1" style=3D"margin:0in;margin-bottom:.0001pt;text-al=
+ign:justify;text-autospace:none">
+<span lang=3D"EN-GB" style=3D"font-size:11.0pt;font-family:&quot;Calibri&qu=
+ot;,sans-serif">By receiving this communication, the recipient agrees to be=
+ bound by the foregoing limitations.&nbsp;
+</span><span lang=3D"EN-GB" style=3D"font-size:11.0pt;font-family:&quot;Cal=
+ibri&quot;,sans-serif;mso-fareast-language:JA"><o:p></o:p></span></p>
+<p class=3D"wordsection1" style=3D"margin:0in;margin-bottom:.0001pt"><span =
+lang=3D"EN-GB" style=3D"font-size:11.0pt;font-family:&quot;Calibri&quot;,sa=
+ns-serif"><o:p>&nbsp;</o:p></span></p>
+<p class=3D"wordsection1" style=3D"margin:0in;margin-bottom:.0001pt"><o:p>&=
+nbsp;</o:p></p>
+<p class=3D"wordsection1" align=3D"center" style=3D"margin:0in;margin-botto=
+m:.0001pt;text-align:center">
+<span style=3D"font-size:10.0pt;font-family:&quot;Calibri&quot;,sans-serif;=
+color:black">PUBLIC</span><o:p></o:p></p>
+<p class=3D"wordsection1" style=3D"margin:0in;margin-bottom:.0001pt"><o:p>&=
+nbsp;</o:p></p>
+<p class=3D"msipfootercffe3ac4" align=3D"center" style=3D"margin:0in;margin=
+-bottom:.0001pt;text-align:center">
+<span style=3D"font-size:10.0pt;font-family:&quot;Calibri&quot;,sans-serif;=
+color:black">PUBLIC</span><o:p></o:p></p>
+</div>
+
+<DIV>
+******************************************************************<BR>
+This E-mail is confidential. It may also be legally privileged. If<BR>
+you are not the addressee you may not copy, forward, disclose or<BR>
+use any part of it. If you have received this message in error,<BR>
+please delete it and all copies from your system and notify the<BR>
+sender immediately by return E-mail.<BR>
+<BR>
+Internet communications cannot be guaranteed to be timely, secure,<BR>
+error or virus-free. The sender does not accept liability for any<BR>
+errors or omissions.<BR>
+******************************************************************<BR>
+SAVE PAPER - THINK BEFORE YOU PRINT!<BR>
+</DIV></body>
+</html>
+
+--_2086a37c-6bfb-4b65-a2d3-31fb7ba93545_--
+
+--_fe440046-701c-455e-8ebd-5f29474a1fbf_--

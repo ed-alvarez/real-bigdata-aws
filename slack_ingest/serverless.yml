@@ -1,0 +1,339 @@
+configValidationMode: error
+service: slack
+frameworkVersion: '3'
+
+provider:
+  name: aws
+  runtime: python3.9
+  stage: ${opt:stage,'dev'}
+  iam:
+    role: arn:aws:iam::955323147179:role/service-role/lambda
+  deploymentBucket:
+    name: ${sls:stage}-deployment-serverless-ips
+  deploymentPrefix: ${sls:stage}-${self:service}
+  ecr:
+    images:
+      headless-chrome:
+        path: ./
+  region: ${env:AWS_Region, 'eu-west-1'}
+  environment:
+    STAGE: ${sls:stage}
+    LOGGING_LEVEL: ${param:LOGGING_LEVEL}
+
+
+functions:
+  apidownloader:
+    handler: slack_parse.download_api.slack_api_downloader.download_slack_from_lambda_event
+    name: ${sls:stage}-slack-api-downloader
+    description: Download slack files from Slack API and upload to S3
+    memorySize: ${param:apidownloader_lambda_memory}
+    timeout: ${param:apidownloader_lambda_timeout}
+    layers:
+      - { Ref: PythonRequirementsLambdaLayer }
+
+
+  exportdownloader:
+    name: ${sls:stage}-slack-export-downloader
+    #architecture: arm64
+    description: Download Slack export files from Slack Export page and upload to S3
+    image:
+      name: headless-chrome
+      command:
+        - slack_parse.download_export.slack_export_downloader.lambda_handler
+      entryPoint:
+        - '/lambda-entrypoint.sh'
+    memorySize: ${param:exportdownloader_lambda_memory}
+    timeout: ${param:exportdownloader_lambda_timeout}
+
+  data-processor:
+    handler: slack_parse.process.slack_processor.process_slack_from_lambda_event
+    name: ${sls:stage}-slack-data-processor
+    description: Process S3 slack files and upload to ES
+    memorySize: ${param:processor_lambda_memory}
+    timeout: ${param:processor_lambda_timeout}
+    layers:
+      - { Ref: PythonRequirementsLambdaLayer }
+      - ${cf:layers-${sls:stage}.ApacheTikaLayer}
+      - ${cf:layers-${sls:stage}.Java8Layer}
+    environment:
+      LOGGING_LEVEL: ${param:LOGGING_LEVEL}
+      TIKA_SERVER_JAR: "file:///opt/tika-server.jar"
+      TIKA_JAVA: "/opt/lib/jvm/java-1.8.0-openjdk-1.8.0.252.b09-2.lambda2.0.1.x86_64/jre/bin/java"
+      ES_UPLOAD_BATCH_SIZE: 500
+      ES_UPLOAD_MAX_SIZE_MB: 5.0
+      LAMBDA_MIN_TIME_REQUIRED_SECS: ${param:LAMBDA_MIN_TIME_REQUIRED_SECS}
+      FINGERPRINTDB_HOST: ${ssm:/fingerprint/db_access/${opt:stage}/HOST}
+      FINGERPRINTDB_PORT: ${ssm:/fingerprint/db_access/${opt:stage}/PORT}
+      FINGERPRINTDB_USER: ${ssm:/fingerprint/db_access/${opt:stage}/USER}
+      FINGERPRINTDB_REGION: ${ssm:/fingerprint/db_access/${opt:stage}/REGION}
+      FINGERPRINTDB_DBNAME: ${ssm:/fingerprint/db_access/${opt:stage}/DBNAME}
+    package:
+      patterns:
+        - "./es_schema/*.py"
+    vpc:
+      subnetIds:
+        - subnet-0625fef0603fa9934
+        - subnet-08e195aa6cf065c74
+      securityGroupIds:
+        ${param:lambda_rds_security_groups}
+
+  exportdlstepfnlauncher:
+    handler: call_exportdl_step_fn_handler.lambda_handler
+    name: ${sls:stage}-slack-exportdl-step-fn-launcher
+    description: Launch Slack Export Ingest Step Function from Lambda to enable nice names for executions in Step Functions Console
+    memorySize: ${param:exportdlstepfnlauncher_lambda_memory}
+    timeout: ${param:exportdlstepfnlauncher_lambda_timeout}
+    environment:
+      EXPORTDL_STEP_FN_ARN:
+        Fn::GetAtt: [ slackstepfuncapidl, Arn ]
+    layers:
+      - { Ref: PythonRequirementsLambdaLayer }
+
+stepFunctions:
+  stateMachines:
+    slackstepfuncapidl:
+      name: ${sls:stage}-slack-API
+      loggingConfig:
+        level: ALL
+        includeExecutionData: true
+        destinations:
+          - !GetAtt StepFunctionLogs.Arn
+      alarms:
+        topics:
+          ok: arn:aws:sns:${aws:region}:${aws:accountId}:${sls:stage}-slack-ingest-api-dl
+          alarm: arn:aws:sns:${aws:region}:${aws:accountId}:${sls:stage}-slack-ingest-api-dl
+          insufficientData: arn:aws:sns:${aws:region}:${aws:accountId}:${sls:stage}-slack-ingest-api-dl
+        metrics:
+          - executionsTimedOut
+          - executionsFailed
+          - executionsAborted
+          - executionThrottled
+        treatMissingData: ignore
+
+      definition:
+        Comment: "Slack API Download and Processing State Machine"
+        StartAt: APIDownload
+        States:
+          APIDownload:
+            Type: Task
+            Resource: !GetAtt apidownloader.Arn
+            TimeoutSeconds: ${param:apidownloader_lambda_timeout}
+            Next: Processor
+            Retry:
+              - ErrorEquals:
+                - "States.Timeout"
+                - "Lambda.Unknown"
+                MaxAttempts: 5
+              - ErrorEquals:
+                - "States.ALL"
+                MaxAttempts: 5
+                IntervalSeconds: 5
+                BackoffRate: 3.0
+            Catch:
+              - ErrorEquals:
+                - "States.ALL"
+                Next: APIDownloadFailed
+                ResultPath: "$.error"
+            # End: true
+          Processor:
+            Type: Task
+            Resource: !GetAtt data-processor.Arn
+            TimeoutSeconds: ${param:processor_lambda_timeout}
+            Retry:
+              - ErrorEquals:
+                - "States.Timeout"
+                - "Lambda.Unknown"
+                MaxAttempts: 5
+              - ErrorEquals:
+                - "States.ALL"
+                MaxAttempts: 5
+                IntervalSeconds: 5
+                BackoffRate: 3.0
+            Catch:
+              - ErrorEquals:
+                - "States.ALL"
+                Next: ProcessorFailed
+                ResultPath: "$.error"
+            # End: true
+            Next: IterateProcessor
+          IterateProcessor:
+            Type: Choice
+            Choices:
+              - Variable: "$.continue"
+                BooleanEquals: true
+                Next: Processor
+            Default: Done
+          APIDownloadFailed:
+            Type: Fail
+          ProcessorFailed:
+            Type: Fail
+          Done:
+            Type: Pass
+            End: true
+    slackstepfuncexportdl:
+      name: ${sls:stage}-slack-download
+      loggingConfig:
+        level: ALL
+        includeExecutionData: true
+        destinations:
+          - !GetAtt StepFunctionLogs.Arn
+      alarms:
+        topics:
+          ok: arn:aws:sns:${aws:region}:${aws:accountId}:${sls:stage}-slack-ingest-export-dl
+          alarm: arn:aws:sns:${aws:region}:${aws:accountId}:${sls:stage}-slack-ingest-export-dl
+          insufficientData: arn:aws:sns:${aws:region}:${aws:accountId}:${sls:stage}-slack-ingest-export-dl
+        metrics:
+          - executionsTimedOut
+          - executionsFailed
+          - executionsAborted
+          - executionThrottled
+        treatMissingData: ignore
+
+      definition:
+        Comment: "Slack Export Download and Processing State Machine"
+        StartAt: ExportDownload
+        States:
+          ExportDownload:
+            Type: Task
+            Resource: !GetAtt exportdownloader.Arn
+            TimeoutSeconds: ${param:exportdownloader_lambda_timeout}
+            Next: Processor
+            Retry:
+              - ErrorEquals:
+                - "States.Timeout"
+                - "Lambda.Unknown"
+                MaxAttempts: 5
+              - ErrorEquals:
+                - "States.ALL"
+                MaxAttempts: 5
+                IntervalSeconds: 5
+                BackoffRate: 3.0
+            Catch:
+              - ErrorEquals:
+                - "States.ALL"
+                Next: ExportDownloadFailed
+                ResultPath: "$.error"
+            # End: true
+          Processor:
+            Type: Task
+            Resource: !GetAtt data-processor.Arn
+            TimeoutSeconds: ${param:processor_lambda_timeout}
+            Retry:
+              - ErrorEquals:
+                - "States.Timeout"
+                - "Lambda.Unknown"
+                MaxAttempts: 5
+              - ErrorEquals:
+                - "States.ALL"
+                MaxAttempts: 5
+                IntervalSeconds: 5
+                BackoffRate: 3.0
+            Catch:
+              - ErrorEquals:
+                - "States.ALL"
+                Next: ProcessorFailed
+                ResultPath: "$.error"
+            # End: true
+            Next: IterateProcessor
+          IterateProcessor:
+            Type: Choice
+            Choices:
+              - Variable: "$.continue"
+                BooleanEquals: true
+                Next: Processor
+            Default: Done
+          ExportDownloadFailed:
+            Type: Fail
+          ProcessorFailed:
+            Type: Fail
+          Done:
+            Type: Pass
+            End: true
+
+package:
+  individually: true
+  patterns:
+    # remove installation artifacts for sls cicd deploy environment
+    - '!aws/**'
+    - '!archive/**'
+    - '!pgdb/**'
+    - '!awscliv2.zip/**'
+    - '!google-chrome-stable_current_x86_64.rpm/**'
+    - '!documentation/**'
+    - '!tests/**'
+    - "./slack_parse/**"
+    - "!./slack_parse/archive/**"
+    - "./helpers/**"
+    - "!./es_schema/**"
+    - "settings.py"
+    - "api_downloader_handler.py"
+    - "!chromium/**"
+    - "!chromedriver/**"
+    - "!venv/**"
+    - "!node_modules/**"
+    - "!makefile"
+    - "!tes_trigger_sls_cicd.txt"
+    - "!sls-cicd-post-npm-install.sh"
+    - "!slack-export-requirements.txt"
+    - "!run-local-slack-export-docker.sh"
+    - "!README.md"
+
+resources:
+  Resources:
+    StepFunctionLogs:
+      Type: AWS::Logs::LogGroup
+      Properties:
+        LogGroupName: /stepfunction/${sls:stage}-slack
+
+plugins:
+  - serverless-stage-manager
+  - serverless-python-requirements
+  - serverless-step-functions
+
+custom:
+  pythonRequirements:
+    dockerizePip: non-linux
+    layer: true
+    useDownloadCache: false
+    useStaticCache: false
+    invalidateCaches: true
+    slim: true
+    slimPatterns:
+      - '**/*.egg-info*'
+    noDeploy:
+      - pytest
+      - pytest-cov
+      - mock
+      - boto3
+      - botocore
+      - pytest-profiling
+      - selenium
+  stages:
+    - dev
+    - prod
+params:
+  default:
+    apidownloader_lambda_memory: 1792
+    apidownloader_lambda_timeout: 900
+    exportdownloader_lambda_memory: 6000
+    exportdownloader_lambda_timeout: 900
+    processor_lambda_memory: 4600
+    processor_lambda_timeout: 900
+    exportdlstepfnlauncher_lambda_memory: 1792
+    exportdlstepfnlauncher_lambda_timeout: 900
+    LAMBDA_MIN_TIME_REQUIRED_SECS: 90
+  prod:
+    LOGGING_LEVEL: INFO
+    lambda_rds_security_groups:
+      # Demo
+      - sg-07bc8f0d80d7c4361
+      - sg-066f7b5bfba2b1c09
+      # Production
+      - sg-06bfc166197b4cf20
+      - sg-074bd922dd99344af
+  dev:
+    LOGGING_LEVEL: DEBUG
+    lambda_rds_security_groups:
+      - sg-0fa0a954ca98d0481
+      - sg-09327a2a0bbc1817d
+

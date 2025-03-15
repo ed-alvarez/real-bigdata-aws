@@ -1,0 +1,23 @@
+[
+    {
+        "client_msg_id": "a779d90f-9934-48c0-ae83-90c560a1e492",
+        "type": "message",
+        "text": "Have installed the Slack Desktop - anything you need me to do?",
+        "user": "UP2JNQM9R",
+        "ts": "1571155326.000500",
+        "team": "TP2JMH5U3",
+        "user_team": "TP2JMH5U3",
+        "source_team": "TP2JMH5U3",
+        "user_profile": {
+            "avatar_hash": "gc4495e38582",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/c4495e38582e03ae164ae4725fadff73.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0007-72.png",
+            "first_name": "Tom",
+            "real_name": "Tom Vavrechka",
+            "display_name": "Tom",
+            "team": "TP2JMH5U3",
+            "name": "tom",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        }
+    }
+]

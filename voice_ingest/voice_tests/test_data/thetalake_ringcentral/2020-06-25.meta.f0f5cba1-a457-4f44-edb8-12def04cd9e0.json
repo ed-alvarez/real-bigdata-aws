@@ -1,0 +1,27 @@
+{
+  "TransportType": "audio/ringcentral",
+  "PublishingType": "post",
+  "CreateDate": "2020-06-25T14:05:51.847Z",
+  "UserData": "Jmn83JXfqHZizUA",
+  "AudioType": "callrecording",
+  "FileName": "Phone Call Inbound from Vincent Lobaccaro",
+  "Participants": {
+    "callee": [
+      {
+        "Extension": "62350"
+      }
+    ],
+    "caller": [
+      {
+        "Name": "Vincent Lobaccaro",
+        "Extension": "10104"
+      }
+    ]
+  },
+  "Uuid": "f0f5cba1-a457-4f44-edb8-12def04cd9e0",
+  "HashSHA256": "8de0b888db1184e901417b729034de91ab009ced571988f882791b0871cee413",
+  "ContentType": "audio/mp3",
+  "UploadDate": "2020-06-25T14:17:10.632263301Z",
+  "DataLength": 1222209,
+  "DurationInSec": 305
+}

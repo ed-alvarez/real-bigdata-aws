@@ -1,0 +1,66 @@
+<Message>
+<MsgID>5E6F710E00017BD52924067D</MsgID>
+<MsgTime>2020-03-16-08.29.02.000000</MsgTime>
+<MsgTimeUTC>1584361742</MsgTimeUTC>
+<MsgLang>CODE 65001</MsgLang>
+<Sender>
+<UserInfo>
+<FirstName>JESSICA</FirstName>
+<LastName>ZHAO</LastName>
+<AccountName>GOLDMAN SACHS &amp; CO L</AccountName>
+<BloombergEmailAddress>JZHAO195@Bloomberg.net</BloombergEmailAddress>
+<CorporateEmailAddress></CorporateEmailAddress>
+</UserInfo>
+</Sender>
+<Recipient DeliveryType = "BCC">
+<UserInfo>
+<FirstName>SEAN</FirstName>
+<LastName>OLDFIELD</LastName>
+<FirmNumber>848135</FirmNumber>
+<AccountName>MIRABELLA FINANCIAL</AccountName>
+<AccountNumber>30413594</AccountNumber>
+<BloombergUUID>25813826</BloombergUUID>
+<BloombergEmailAddress>SEANSYSTEM2@Bloomberg.net</BloombergEmailAddress>
+<CorporateEmailAddress>sean@system2capital.com</CorporateEmailAddress>
+</UserInfo>
+</Recipient>
+<Recipient DeliveryType = "BCC">
+<UserInfo>
+<FirstName>DAN</FirstName>
+<LastName>BREWER</LastName>
+<FirmNumber>848135</FirmNumber>
+<AccountName>MIRABELLA FINANCIAL</AccountName>
+<AccountNumber>30413594</AccountNumber>
+<BloombergUUID>26589322</BloombergUUID>
+<BloombergEmailAddress>DBREWERS2C@Bloomberg.net</BloombergEmailAddress>
+<CorporateEmailAddress>dan.brewer@system2capital.com</CorporateEmailAddress>
+</UserInfo>
+</Recipient>
+<Subject>
+GS: NOVARTIS (NOVNVX) CASH                                     ¤
+</Subject>
+<Attachment>
+<Reference>RUNZ READONLY 5E6F710E00017BD52924067D</Reference>
+</Attachment>
+<MsgBody>
+  Security          Sprd    Bnch      Price      GSpd  YTW   COD  Size   Cmmnt
+                   Bid Ask         Bid    Ask    Bid   Ask
+------ --- --      -------  ----  -------------  ----  ----  ---  ----  --------
+NOVNVX 2   27      115/ 95  7YR   100.94/102.22   117  1.65  +10        px&amp;#39;d 50
+NOVNVX 3.1 27      115/ 95  10YR  107.55/108.90   123  1.73  +10
+NOVNVX 2.2 30      115/105  10YR  102.50/103.43   114  1.83  +10        px&amp;#39;d 62
+NOVNVX 3.7 42      140/120  30YR  114.79/118.49   165  2.61  +10
+NOVNVX 4.4 44      140/120  30YR  127.75/131.92   160  2.61  +10
+NOVNVX 4   45      140/120  30YR  121.39/125.55   156  2.61  +10
+NOVNVX 2¾ 50      125/115  30YR  101.84/103.95   127  2.56  +10        px&amp;#39;d +80
+
+
+
+-------------------------------------------------------------------------------
+© Copyright 2020 Goldman Sachs. All rights reserved. See www.gs.com/disclaimer/email-salesandtrading.html for risk disclosure, order handling practices, conflicts of interest and other terms and conditions relating to this e-mail and your reliance on it, and www.gs.com/disclaimer/ipo/ for recent prospectuses for initial public offerings to which this message may relate. See www.gs.com/swaps-related-disclosures for important disclosures relating to CFTC-regulated swap transactions, and http://www.goldmansachs.com/terms-of-dealing for general terms of dealing. For information on the nature and risks of investments for MiFID Professional Clients, see http://www.goldmansachs.com/disclosures/mifid/info-on-nature-risks-of-investments.pdf. See http://www.goldmansachs.com/disclosures/mifid/ for important disclosures and GS policies in relation to MiFID II and MiFIR. This e-mail may contain confidential or privileged information. If you are not the intended recipient, please advise us immediately and delete it. See www.gs.com/disclaimer/email/ on confidentiality and the risks of electronic communication. If you cannot access these links, please notify us by reply message and we will send the contents to you. This material is a solicitation of derivatives business generally, only for the purposes of, and to the extent it would otherwise be subject to, CFTC Regulations 1.71 and 23.605. Goldman Sachs International (“GSI”) is authorised by the Prudential Regulation Authority and regulated by the Financial Conduct Authority and Prudential Regulation Authority.
+</MsgBody>
+<DisclaimerReference>132418</DisclaimerReference>
+<Greeting>
+IG CASH   PHARMA/FOODBEV/TOBACCO/UTILITIES    WORKING W MIKE SMITH AND SHAHNI
+</Greeting>
+</Message>

@@ -1,0 +1,558 @@
+Return-Path: <ndr@owlrock.com>
+Received: from us-smtp-delivery-169.mimecast.com (us-smtp-delivery-169.mimecast.com [216.205.24.169])
+ by inbound-smtp.eu-west-1.amazonaws.com with SMTP id n7k4fcoialb23hrc1ies5uav6vb9qvd2shjfdi01
+ for owlrock@ip-sentinel.net;
+ Thu, 04 Feb 2021 22:05:39 +0000 (UTC)
+Received-SPF: pass (spfCheck: domain of owlrock.com designates 216.205.24.169 as permitted sender) client-ip=216.205.24.169; envelope-from=ndr@owlrock.com; helo=us-smtp-delivery-169.mimecast.com;
+Authentication-Results: amazonses.com;
+ spf=pass (spfCheck: domain of owlrock.com designates 216.205.24.169 as permitted sender) client-ip=216.205.24.169; envelope-from=ndr@owlrock.com; helo=us-smtp-delivery-169.mimecast.com;
+ dmarc=fail header.from=tpifm.com;
+X-SES-RECEIPT: AEFBQUFBQUFBQUFFTmM2K2JmZzJmVkcrTHF3YXozUUtvZ2tKK1NTYVZZWGFDT0wrK1dqSDVQMXlmRkFnTE8wQmsyRllhZ1YwcmlZY1Q4Sko1Zk4weko3b2NBekxlWkNYdWJ5ellhT1hUNXUxblFTRFFZNUJEOXFrNHF4TW5lL2RvbVkwdnlkS2pTcVNiaTBTbldtVlhCRGNnUkxjMFRXS01TaWZrOFVXdUJGV3I1L0pESzVCRnVWS3dibmlESXBaVnB6c1lINkFyemhjbzg0Unk5TWhRT0hERC9TMVNHVTdMa3JXdE5pL05ESlZLT1pCdjZqeW52N1NVQ0d6N1gvWjNRZFI2WlNCWEFueTE1OFcxUzc0SWNqYlpkc0hNbWRPNERySEVjWWxaVTByQ0RTY3ZtS2tFSnc9PQ==
+X-SES-DKIM-SIGNATURE: a=rsa-sha256; q=dns/txt; b=GlK8BvGjXSZEFrQcMSmDdkvdgpvscLUbJtCqxK1W65L91UNqu+6vxD4DbEOIquRUE9//OeqNX92T0Zn8Tycc58SuiUZs4wNyFA9GJk6z8BY2+8M0HxCWs8erSuYAPeSxGiRvibHFu0sUivbXdBkL4xM0ZbOMEw45TFlZARkDss0=; c=relaxed/simple; s=shh3fegwg5fppqsuzphvschd53n6ihuv; d=amazonses.com; t=1612476340; v=1; bh=upyL3rTzxQ6bVKRX+vt0djqAh32h5nW8d+gnd9X8lo4=; h=From:To:Cc:Bcc:Subject:Date:Message-ID:MIME-Version:Content-Type:X-SES-RECEIPT;
+Received: from NAM12-DM6-obe.outbound.protection.outlook.com
+ (mail-dm6nam12lp2171.outbound.protection.outlook.com [104.47.59.171])
+ (Using TLS) by relay.mimecast.com with ESMTP id
+ us-mta-33-jBlUsrEcNeGTHG7QA_w4Qw-1; Thu, 04 Feb 2021 17:05:36 -0500
+X-MC-Unique: jBlUsrEcNeGTHG7QA_w4Qw-1
+Subject: Catch-up
+To: Amy Ward <amy.ward@owlrock.com>
+From: "Linehan, David" <David.Linehan@tpifm.com>
+MIME-Version: 1.0
+Sender: <MicrosoftExchange329e71ec88ae4615bbc36ab6ce41109e@OwlRock.onmicrosoft.com>
+Message-ID: <6e3f6180-a459-4626-a14c-fc99a4764aa5@journal.report.generator>
+Date: Thu, 4 Feb 2021 22:05:35 +0000
+X-MS-PublicTrafficType: Email
+X-MS-Journal-Report:
+Return-Path: ndr@owlrock.com
+X-MS-Exchange-Parent-Message-Id: <CWLP123MB2145A25CF55277C772F4D42DEAB39@CWLP123MB2145.GBRP123.PROD.OUTLOOK.COM>
+Auto-Submitted: auto-generated
+X-MS-Exchange-Generated-Message-Source: Journal Agent
+X-MS-TrafficTypeDiagnostic: MN2PR20MB3400:JournalingReport
+X-OriginatorOrg: OwlRock.onmicrosoft.com
+X-MS-Exchange-CrossTenant-AuthSource: MN2PR20MB3400.namprd20.prod.outlook.com
+X-MS-Exchange-CrossTenant-AuthAs: Internal
+X-MS-Exchange-CrossTenant-OriginalArrivalTime: 04 Feb 2021 22:05:35.1486 (UTC)
+X-MS-Exchange-CrossTenant-Network-Message-Id: 64850c0a-823c-44d7-ddcb-08d8c958ff5c
+X-MS-Exchange-CrossTenant-FromEntityHeader: Hosted
+X-MS-Exchange-Transport-CrossTenantHeadersStamped: MN2PR20MB3400
+Authentication-Results: relay.mimecast.com;
+	auth=pass smtp.auth=CUSA69A293 smtp.mailfrom=ndr@owlrock.com
+X-Mimecast-Spam-Score: 0
+X-Mimecast-Originator: owlrock.com
+Content-Type: multipart/mixed;
+	boundary="_1215e19a-a5f6-474a-90a4-d362c37efc00_"
+
+--_1215e19a-a5f6-474a-90a4-d362c37efc00_
+Content-Type: multipart/alternative;
+	boundary="MCBoundary=_12102041705380111"
+
+--MCBoundary=_12102041705380111
+Content-Type: text/plain; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+Sender: David.Linehan@tpifm.com
+Subject: Catch-up
+Message-Id: <CWLP123MB2145A25CF55277C772F4D42DEAB39@CWLP123MB2145.GBRP123.P=
+ROD.OUTLOOK.COM>
+Recipient: amy.ward@owlrock.com
+
+--MCBoundary=_12102041705380111
+Content-Transfer-Encoding: quoted-printable
+Content-Type: text/html; charset=WINDOWS-1252
+
+<HTML><BODY>Sender: <a href=3D"mailto:David.Linehan@tpifm.com">David.Lineha=
+n@tpifm.com</a><BR>
+Subject: Catch-up<BR>
+Message-Id: &lt;CWLP123MB2145A25CF55277C772F4D42DEAB39@CWLP123MB2145.GBRP12=
+3.PROD.OUTLOOK.COM&gt;<BR>
+Recipient: <a href=3D"mailto:amy.ward@owlrock.com">amy.ward@owlrock.com</a>=
+<BR>
+</BODY></HTML>
+
+--MCBoundary=_12102041705380111--
+
+--_1215e19a-a5f6-474a-90a4-d362c37efc00_
+Content-Type: message/rfc822
+
+Received: from DM5PR1101CA0018.namprd11.prod.outlook.com (2603:10b6:4:4c::28)
+ by MN2PR20MB3400.namprd20.prod.outlook.com (2603:10b6:208:266::10) with
+ Microsoft SMTP Server (version=TLS1_2,
+ cipher=TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384) id 15.20.3805.16; Thu, 4 Feb
+ 2021 22:05:33 +0000
+Received: from DM6NAM10FT037.eop-nam10.prod.protection.outlook.com
+ (2603:10b6:4:4c:cafe::44) by DM5PR1101CA0018.outlook.office365.com
+ (2603:10b6:4:4c::28) with Microsoft SMTP Server (version=TLS1_2,
+ cipher=TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384) id 15.20.3825.20 via Frontend
+ Transport; Thu, 4 Feb 2021 22:05:32 +0000
+Authentication-Results: spf=softfail (sender IP is 207.211.31.81)
+ smtp.mailfrom=tpifm.com; owlrock.com; dkim=fail (body hash did not verify)
+ header.d=tpifm.com;owlrock.com; dmarc=fail action=none
+ header.from=tpifm.com;compauth=pass reason=116
+Received-SPF: SoftFail (protection.outlook.com: domain of transitioning
+ tpifm.com discourages use of 207.211.31.81 as permitted sender)
+Received: from us-smtp-1.mimecast.com (207.211.31.81) by
+ DM6NAM10FT037.mail.protection.outlook.com (10.13.153.29) with Microsoft SMTP
+ Server (version=TLS1_2, cipher=TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384) id
+ 15.20.3784.11 via Frontend Transport; Thu, 4 Feb 2021 22:05:32 +0000
+ARC-Message-Signature: i=1; a=rsa-sha256; c=relaxed/relaxed;
+	d=dkim.mimecast.com; s=201903; t=1612476332;
+	h=from:from:reply-to:subject:subject:date:date:message-id:message-id:
+	 to:to:cc:mime-version:mime-version:content-type:content-type:
+	 dkim-signature; bh=9Eo7T2mrbW6NYYSOa2S5csKfPpxJPPr9waoiwzwsbXI=;
+	b=agWAGdhRTGhR+bMrppQnYJB+7UtvPjrxfk9xWujf8NW4mcvFMTpDCYfBZeJfTz5hsvvL6J
+	+qPcT86fERpXzOe1wobxRi5P8zXSxyncirXw/k5XM5i41fBIuykkRx3aqGiLmiaY0tyQVN
+	Zj3ia7h4EuXeyRgbJZuRVYcDTwVHVTiYpOc5Ay106t6xcIV/+G8h3X6/FPBOOdMV1PUhxd
+	WEoIAziTW4vuwVMymI7KBSvZwRfm0y+7O0d/Q2Dmy7l3JpcVI7t9I3lJ4natTD1pKueRqq
+	JEMrKBqCFYgxgGRgbZJneUda+SxR2hBdoEq4qbABONQaOhN4vA6x2bUKqN1Bfw==
+ARC-Seal: i=1; s=201903; d=dkim.mimecast.com; t=1612476332; a=rsa-sha256;
+	cv=none;
+	b=RW0tIg7iMO20W/8H3Yk/iGJcuMAk8FW317iYlm9le+AglYBZSEusD5e2XVTxMdvEJEvlHZ
+	WfhvDW7BvfYPmFF1x0q+bPkWnumLzq40IceNIPYdM5zvQ3nHP7Jw9mMmC2MLyLv5hx3Yk3
+	bzh2GPO+CqZ5cpMYYH1TJJGauxSyRtadxd+dd1RSFmRgLo87TrYpWdVaTP1q2v1HiO0Hnd
+	6XqhGHxBDUieC5keomuRQ+lyUj/MaaPG35lg1gXajsckvuySiT1arguxinusrszUFcEPXl
+	MiW8w1TOKgx+ts/CtL1NldM8kkJXOax6fU4TtkUtqaxBZFKAaPwCtrgnHdmEAw==
+ARC-Authentication-Results: i=1;
+	relay.mimecast.com;
+	dkim=pass header.d=tpifm.com header.s=mimecast20200923 header.b=GkXSX0Dp;
+	dmarc=pass (policy=none) header.from=tpifm.com;
+	spf=pass (relay.mimecast.com: domain of david.linehan@tpifm.com designates 207.82.80.193 as permitted sender) smtp.mailfrom=david.linehan@tpifm.com
+Received: from eu-smtp-delivery-193.mimecast.com
+ (eu-smtp-delivery-193.mimecast.com [207.82.80.193]) (Using TLS) by
+ relay.mimecast.com with ESMTP id us-mta-405-ULxXCkaVNTuZVLZKjd2Tug-1; Thu,
+ 04 Feb 2021 17:05:29 -0500
+X-MC-Unique: ULxXCkaVNTuZVLZKjd2Tug-1
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=tpifm.com;
+	s=mimecast20200923; t=1612476328;
+	h=from:from:reply-to:subject:subject:date:date:message-id:message-id:
+	 to:to:cc:mime-version:mime-version:content-type:content-type;
+	bh=q8g3USjE79Fwd8z2cHRc4tZv0Yq8AJQVadLwHAV58Q4=;
+	b=GkXSX0DpM8S5qvgtNG9uvBaEPObBB+XkoHqaewQKXHjx9CzDRHim/CWZhhuSdOo9y8mWNl
+	48Pea9qMmCDZsF7k0J1lCslJxm56hQEqOqqcXxvSSbx7jaxrEwomHiT9YtXj514segImRW
+	jNBonEfDyNYInOMHngubO6scyVsOZOk=
+Received: from GBR01-CWL-obe.outbound.protection.outlook.com
+ (mail-cwlgbr01lp2054.outbound.protection.outlook.com [104.47.20.54]) (Using
+ TLS) by relay.mimecast.com with ESMTP id
+ uk-mta-286-USDWaq8wP1GnvNuZPePrQg-1; Thu, 04 Feb 2021 22:05:26 +0000
+X-MC-Unique: USDWaq8wP1GnvNuZPePrQg-1
+Received: from CWLP123MB2145.GBRP123.PROD.OUTLOOK.COM (2603:10a6:401:63::19)
+ by CWLP123MB3521.GBRP123.PROD.OUTLOOK.COM (2603:10a6:400:6e::10) with
+ Microsoft SMTP Server (version=TLS1_2,
+ cipher=TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384) id 15.20.3825.20; Thu, 4 Feb
+ 2021 22:05:25 +0000
+Received: from CWLP123MB2145.GBRP123.PROD.OUTLOOK.COM
+ ([fe80::94d4:174b:bbce:199d]) by CWLP123MB2145.GBRP123.PROD.OUTLOOK.COM
+ ([fe80::94d4:174b:bbce:199d%3]) with mapi id 15.20.3825.020; Thu, 4 Feb 2021
+ 22:05:25 +0000
+From: "Linehan, David" <David.Linehan@tpifm.com>
+To: Amy Ward <amy.ward@owlrock.com>
+Subject: Catch-up
+Thread-Topic: Catch-up
+Thread-Index: Adb7QZZfywxttlrTRASo8Hpt/FISpQ==
+Date: Thu, 4 Feb 2021 22:05:25 +0000
+Message-ID: <CWLP123MB2145A25CF55277C772F4D42DEAB39@CWLP123MB2145.GBRP123.PROD.OUTLOOK.COM>
+Accept-Language: en-US
+X-MS-Has-Attach:
+X-MS-TNEF-Correlator:
+x-originating-ip: [95.146.121.194]
+x-ms-publictraffictype: Email
+X-MS-Office365-Filtering-Correlation-Id: 0430791d-7792-44c4-b497-08d8c958fdfd
+x-ms-traffictypediagnostic: CWLP123MB3521:|MN2PR20MB3400:
+x-microsoft-antispam-prvs: <CWLP123MB3521DBBDE0DE091E43491822EAB39@CWLP123MB3521.GBRP123.PROD.OUTLOOK.COM>
+x-ms-oob-tlc-oobclassifiers: OLM:1417OLM:9508
+x-ms-exchange-senderadcheck: 1
+X-Microsoft-Antispam-Untrusted: BCL:0
+X-Microsoft-Antispam-Message-Info-Original: pb65jLJjadChZlOiIQl40EvanTpjlyZKoRkum0Tlb1tz8hph0zxyMsObtenTShI1igMG536mF4Bzl5fKx9bvlYuCArLVX5zCwzb8a38hN7mRJQoU6O5zmDPZhsMUtu8ML+qHlIGYezAuUxlQw2Ni/LeNcX+ES4zYE0FMGNGaG8Z9nLhYi7Og6CdhUlSxowU7p5vnnpJpdJ0qCZihCiokPIx+Rjs2WHoepnCEel3uM3hna4vgGx3xGm+HzAylfCYGokpHClEzkfZwUCZnKd2HfQuMi3JI25Taj41I3PRL9P3Pl4j5iQuNQ1TYloUIYeqkyOB4Vm2ZlNgFY0UOpSWAxNEVUWIqMlfWcyCM6TlxjNvbsl7/8vK1NforfZZSxGPXbfNj7F0TmRq4gbbPSG1908tG5+qbp4Gpna9fZg5avztF2fA8vQG99A7HlTGYQGeohCsmnw5jmWLjcWUVjFFWmt+H3tva383Qhdhr65efMN8X7g7zXkgrQ36svGAW4EaFq1HVDy9xggOo9Vt8lA8REw==
+X-Forefront-Antispam-Report-Untrusted: CIP:255.255.255.255;CTRY:;LANG:en;SCL:1;SRV:;IPV:NLI;SFV:NSPM;H:CWLP123MB2145.GBRP123.PROD.OUTLOOK.COM;PTR:;CAT:NONE;SFS:(4636009)(376002)(136003)(346002)(39830400003)(396003)(366004)(52536014)(5660300002)(478600001)(316002)(66946007)(66446008)(64756008)(66556008)(66476007)(9326002)(4744005)(3480700007)(76116006)(6916009)(8936002)(6506007)(55016002)(9686003)(2906002)(71200400001)(8676002)(86362001)(33656002)(26005)(186003)(7696005);DIR:OUT;SFP:1102
+x-ms-exchange-antispam-messagedata: =?us-ascii?Q?EQKpBwGCnYTAMUr4EqofGLydMIt1O0kiPJEtGQLIVmkz0YGqt1KoTp9xte5N?=
+ =?us-ascii?Q?vBQlHi+ha2K/ks8n3xO+xaEaTC610EmQEmeX5hEz4R6G7kZWv7ua/8CI4E6K?=
+ =?us-ascii?Q?OPkgRI+BYY99fzrjAh6TOQHjXCyqRWgy79jFZLbymvgpIfc2cGQJTcH+OZIg?=
+ =?us-ascii?Q?W2t5I1Y+qObAR3b6WbemhBbn0xhIQA+jmjy/ecmsyWYmLb3BiRFo33HAFDvp?=
+ =?us-ascii?Q?ql27p1iGHeB/PrvUKsTUIMSTSXloAFvyMYIpUqyH59tWb6uz61TbyHWS33uQ?=
+ =?us-ascii?Q?v+JW8tA66TXRyNxmtb1TIV7X8YrLwmjVKuKEi7xH6zIbjKXc/Z7k6ASuM+gV?=
+ =?us-ascii?Q?j4fsnmTQIZSvKpsTAmSp9/lBv35Yi4brYlIRAuACHAGF1ZRJL53iGPJFJWVj?=
+ =?us-ascii?Q?ZdPlNiWgR1Tcj0dL8dCankPWq68IEcE/ebefUBFsbgpwFlMYj0hB/DugPnWD?=
+ =?us-ascii?Q?pnYGehencMIaNZ6E5/WYpa3CnRnkxqWbcymNLvIsIUN30a8upDqQult5abD0?=
+ =?us-ascii?Q?sbsEFFc3gwq/9o8vV8VrWsYg2Jd4CfliOhT5JqpudlCnaHWoyGsRIEyMUaUf?=
+ =?us-ascii?Q?lY7sW++VjmDhCS32M2zjDHcj9//bhwnyVxyWE3P+2fKZFRZBs5VkQXShi0L7?=
+ =?us-ascii?Q?9CdJf196i5gbDl6Zc9hJnSmkODQjsUnmEsTiK47EwtaRR7gx88ip5fOWiDK+?=
+ =?us-ascii?Q?7wae3Pa2zIiQa9eVB3IMANoGm7EYVKz/LkoOM3GdJUayS3VXRc4i9wGxIPF8?=
+ =?us-ascii?Q?YiiZp/cz4MQC8cY6VD0pIsL1CEJlHJ9VKnnCxH8QLItXRwGUbCBJatJ+yDN2?=
+ =?us-ascii?Q?kpx0LA9XoYG66VDOYoLxujAvB6qfjMVbbBoHaezMbb7vBtL2531kgBtAQW6a?=
+ =?us-ascii?Q?iaXei1H83wX2kiyRb7vozhrP06I8NyyKCvylZgtRKI3KuvSsYpIFiEsXatje?=
+ =?us-ascii?Q?wF7bPAF4CJvH44E5dQ6cxnRzuJdWRIw/Cp1Ypyqfw6bxO+bhSRJfbqRy24Sc?=
+ =?us-ascii?Q?oeEFPfsyGh34z7RvaBdQACT6LvZ9ldeW9USZiKa/Avv5khsKz4vDjXayyUf9?=
+ =?us-ascii?Q?GNpzt6Mqm5dlQQTRGjhMP5i5gjyCaYGtfcG3kGALJGaaoc3uz9uq8hvWqf0O?=
+ =?us-ascii?Q?EYCJqKcyEh9cbAYkawKwYwVoo0KEbbLzoI4bFBegv9gHrU1SYuKc1awA7Y4o?=
+ =?us-ascii?Q?0pim4ipwFx7oMCk8A9Z/8OdUtnGatvBUD+evM/kZcuFcRo5qaXtdp2cTktRC?=
+ =?us-ascii?Q?ENeQiEInCbKp0JfSyG5M3dGvpgwFs25MGD3e99g8pBX+VPxzEmt9WeruD9tB?=
+ =?us-ascii?Q?R7MA3Vb8v9cOqcqlZMlQ286l?=
+x-ms-exchange-transport-forked: True
+MIME-Version: 1.0
+X-MS-Exchange-Transport-CrossTenantHeadersStamped: CWLP123MB3521
+X-Mimecast-Originator: tpifm.com
+Authentication-Results-Original: relay.mimecast.com;	dkim=pass
+ header.d=tpifm.com header.s=mimecast20200923 header.b=GkXSX0Dp;	dmarc=pass
+ (policy=none) header.from=tpifm.com;	spf=pass (relay.mimecast.com: domain of
+ david.linehan@tpifm.com designates 207.82.80.193 as permitted sender)
+ smtp.mailfrom=david.linehan@tpifm.com
+X-Mimecast-Spam-Score: 0
+Return-Path: david.linehan@tpifm.com
+X-MS-Exchange-Organization-OriginalArrivalTime: 04 Feb 2021 22:05:32.7263
+ (UTC)
+X-MS-Exchange-Organization-ExpirationStartTime: 04 Feb 2021 22:05:32.8492
+ (UTC)
+X-MS-Exchange-Organization-ExpirationStartTimeReason: OriginalSubmit
+X-MS-Exchange-Organization-ExpirationInterval: 1:00:00:00.0000000
+X-MS-Exchange-Organization-ExpirationIntervalReason: OriginalSubmit
+X-MS-Exchange-Organization-Network-Message-Id: 0430791d-7792-44c4-b497-08d8c958fdfd
+X-MS-Exchange-Organization-OriginalClientIPAddress: 207.211.31.81
+X-MS-Exchange-Organization-OriginalServerIPAddress: 10.13.153.29
+X-MS-Exchange-Organization-MessageScope: f74c462b-b09d-4937-8eca-d4096a7f6dca
+X-EOPAttributedMessage: 0
+X-EOPTenantAttributedMessage: ac36fdd8-335b-43db-be09-b3c98ae34465:0
+X-MS-Exchange-Organization-TargetResourceForest: namprd20.prod.outlook.com
+X-MS-Exchange-Organization-OrgEopForest: NAM10
+X-MS-Exchange-Organization-MessageDirectionality: Incoming
+X-MS-Exchange-Organization-Id: ac36fdd8-335b-43db-be09-b3c98ae34465
+X-MS-Exchange-Organization-FFO-ServiceTag: NAM10B
+X-MS-Exchange-Organization-TenantServiceProvider: Mimecast
+X-MS-Exchange-Organization-Cross-Premises-Headers-Processed: DM6NAM10FT037.eop-nam10.prod.protection.outlook.com
+X-MS-Exchange-Transport-CrossTenantHeadersStripped: DM6NAM10FT037.eop-nam10.prod.protection.outlook.com
+X-MS-Exchange-Organization-ConnectingIP: 207.211.31.81
+X-MS-Exchange-Organization-ConnectingEHLO: us-smtp-1.mimecast.com
+X-MS-Exchange-Organization-AS-LastExternalIp: 207.211.31.81
+X-MS-Exchange-Organization-IsAtpTenant: true
+X-MS-Exchange-Organization-Originating-Country: US
+X-MS-Exchange-Organization-P2SenderPII: <PII:H101(95g2p1CdUvJ6UP0MCeY9Jz2oJjNp/dxUt1/cRAZAngI=)>@tpifm.com
+X-MS-Exchange-Organization-P2SenderDisplayNamePII: H101(sHcO/7s7jRQEOJU00Rl3o/imAD02/EvOhH5Ryik4UC4=)
+X-MS-Exchange-Organization-OriginalEnvelopeRecipients: amy.ward@owlrock.com
+X-MS-Exchange-Organization-PtrDomains: us-smtp-1.mimecast.com;us-smtp-2.mimecast.com
+X-MS-Exchange-Organization-EhloAndPtrDomain: us-smtp-1.mimecast.com;us-smtp-1.mimecast.com
+X-MS-Exchange-Organization-MxPointsToUs: false
+X-MS-Exchange-Organization-RecipientMxInfo-PFAFD: owlrock.com#us-smtp-inbound-1.mimecast.com;us-smtp-inbound-2.mimecast.com
+X-MS-Exchange-Organization-CompAuthRes: pass
+X-MS-Exchange-Organization-CompAuthReason: 116
+X-MS-Exchange-Organization-SpoofDetection-Frontdoor-DisplayDomainName: tpifm.com
+X-MS-Exchange-Organization-SenderRep-Score: 3
+X-MS-Exchange-Organization-SenderRep-Data: UnknownGrayOther_UnknownGrayOther_GrayOther
+X-MS-Exchange-Organization-VBR-Class: UnknownGrayOther
+X-MS-Exchange-Organization-HMATPModel-Spf: 3
+X-MS-Exchange-Organization-HMATPModel-Recipient: <PII:H101(CvWrWE7E6fK09Z6psJsIZWq7Z4Pc6vah4HrhBjcmj8Y=)>@owlrock.com
+X-MS-Exchange-Organization-ASND: true
+X-MS-Exchange-Organization-TransportTrafficType: Email
+X-MS-Exchange-Organization-OrderedPrecisionLatencyInProgress: LSRV=DM5PR1101CA0018.namprd11.prod.outlook.com:TOTAL-FE=0.002|SMR-PEN=0.006(SMRPROXY-PEN=0.000);2021-02-04T22:05:32.984Z
+X-MS-Exchange-Organization-MessageLatency: SRV=DM6NAM10FT037.eop-nam10.prod.protection.outlook.com:TOTAL-FE=0.254|SMR-PEN=0.231(REOH=0.216(SMREH=0.107(SMREH-Protocol
+ Filter Agent=0.106))|SMRPROXY-PEN=0.000 )|SMS=0.024
+X-MS-Exchange-Organization-MessageLatency: SRV=DM5PR1101CA0018.namprd11.prod.outlook.com:TOTAL-FE=0.124|SMR-PEN=0.006(SMRPROXY-PEN=0.000)|SMS=0.122(SMSC=0.045)
+X-MS-Exchange-Forest-ArrivalHubServer: MN2PR20MB3400.namprd20.prod.outlook.com
+X-MS-Exchange-Organization-AuthSource: DM6NAM10FT037.eop-nam10.prod.protection.outlook.com
+X-MS-Exchange-Organization-AuthAs: Anonymous
+X-MS-Exchange-Organization-FromEntityHeader: Internet
+X-MS-Exchange-Forest-MessageScope: f74c462b-b09d-4937-8eca-d4096a7f6dca
+X-MS-Exchange-Organization-Antispam-ProtocolFilterHub-ScanContext: ProtocolFilterHub:SmtpOnEndOfData
+X-MS-Office365-Filtering-Correlation-Id-Prvs: 3dedfa74-e5f3-44c7-7563-08d8c958f9b0
+X-MS-Exchange-Organization-OriginalSize: 20645
+X-MS-Exchange-Organization-HygienePolicy: Premium
+X-MS-Exchange-Organization-ReplicationInfo: ReplicaId=59ffcbd5-1819-723d-e12f-1afe58c9d808;ReplicatingServerFqdn=SA0PR20MB3407.namprd20.prod.outlook.com
+X-MS-Exchange-Forest-Language: en
+X-MS-Exchange-Forest-IndexAgent-0: AQ0CZW4AAdEDAAAPAAADH4sIAAAAAAAEAFVUS47jNhDljO22Ldtzhj
+ qA0QgmATpBFkEHaSADTGeR9CJAkAUtURYxFGmQlD2aVa6Ri+UAOUle
+ sVruDiDYZH1evXpV0j/rXfXHw+9PD7/+cv+RHh7vP3z8c1f9bOm+H/
+ e76rcQ40htiORDpjr01h/poOtPlAONYdiTzf/+9Xci7RwdA+lMYYhk
+ fHNLH+DoKetPnKPpEI3OnYkUPD0G3+iRLjZ3FHU0xLfQtnsccEu4cT
+ YwD4bjNbkAkIt2KNyhiG6ziT4Ev6cU6GJAbXAN1exDEU+2ZXrI8Jmp
+ 1syvL1hf3X13983793dff3t3S0/mMxhHuiAx6dMJMbvqhWAfoi/sfV
+ OKaE+tjT0NJy6QBpvTD7vqR5PyrvpJn22DP5tqp21v4q566gxZD/V6
+ nS1Q6+Cztt40sIKmTaxoP3hbi7+NoWf6lCAglCoBvrWN8dlqB0kz26
+ zP7G/QujNOxjMkQ4exJEdT25NFSqEdWHPMZ8hdiPYLsiAHQow9g1wG
+ pijFuvOM/4ewv7oAYoCPCNtaBilT8CM13G9IQzR7kD2NkGvPxhztYS
+ hdgd20BHUxoPlonLQc2lKRlUG9JPfS44tsuDJcndHrKYbOHmwGBe6u
+ x5CwIoN3+tIO7pY1R7jptXXU6QQnliFhcKw6C3W2EVql52x30Ux8gu
+ o0RCkp0CtweV6cEQrUHfRqWOJHzLbWCdpgK40uc/LPFZOph2jzWADr
+ 8QBfNMk6aFmb22tqmeAx6mwmqo1pjWda5ZU4RM5Hq9kUxfavgJmwNy
+ lRjlilovbFHK4BPIT+5KxGwZf5ExJkh7DDJ30Ao2xNesWoM+6UppLk
+ dDxKeur5zQnxqL39UsaRZE1ht7UNQypTPZfS3dDjDTExQmdOBlbngw
+ tH7Ci6xI58L/ZQlCuT78PZ9Ka8pWgNCg/WNfLFwNtnrvpluoTo8Fl5
+ CngHubEhl4g9RpqsfHegBI4Ga6BmK7VeqNVbNZupm4W6mak5nhu1nK
+ tFMS5wgAXncoV3IQFv1FvkwijBEnaNl3Q8CBMvnrXaiBGFxCKYcnhO
+ eTPbKLVRO7mWEnOpslQrYfIaH+TnzHxZqS3sG7Vdq0rQdurdfGILy1
+ a9kxRgwiKdChpSJKwqDJcsyHzq9/kB+as4QBBkFF2q9VbthKEUElng
+ lQMiwUrs1QRSrhu4RHMcpLvpdy1hohIaEaiVqqCnVEHiqoThABoCLk
+ aBFSNaW5Xu8CvV4YJxWzBxRkXhgF9RTFIW0z4gS/hIL9KXiCDDXXPw
+ 8uqdT4nL/wCzi9l6NgcAAA==
+X-MS-Exchange-Forest-IndexAgent: 1 988
+X-MS-Exchange-Forest-EmailMessageHash: ADF4A224
+X-MS-Exchange-Organization-IsPotentialIntraOrgMail: False
+X-MS-Exchange-Organization-Antispam-PreContentFilter-PolicyLoadTime: MAOSUB:137;MAOSUBLOAD:70;SAORES:141;SAORESLOAD:70;SAORESRUN:0;SAORESCOUNT:1;SLORES:63;SLORESLOAD:63;SLORESRUN:0;SLORESCOUNT:1
+X-MS-Exchange-Organization-MessageFingerprint: ECE7F21D.AC1657D5.65E19F4B.84EFCB40.20282
+X-MS-Exchange-Organization-Antispam-PreContentFilter-ScanContext: CategorizerOnSubmitted;CategorizerOnResolved
+X-MS-Exchange-Organization-AVScannedByV2: Symantec;Command;Microsoft
+X-MS-Exchange-Organization-AVScanComplete: true
+X-MS-Exchange-Organization-SenderIntelligence-P2SenderOrgDomainTenantId: Success;-1;-1;-1;-1;;;;;-1;-1;-1;1;-1;-1
+X-MS-Exchange-Organization-Recipient-Limit-Verified: True
+X-MS-Exchange-Organization-TotalRecipientCount: 1
+X-MS-Exchange-Organization-ReplyAllBlocker-Verdict: Allow
+X-MS-Exchange-Organization-SafeAttachmentPolicy: ORC Safe Attachments
+X-MS-Exchange-Organization-SafeLinksPolicy: OwlRock Email Policy
+X-MS-Exchange-AtpMessageProperties: SA|SL
+X-MS-Exchange-Organization-ASDirectionalityType: 1
+X-MS-Exchange-Organization-Boomerang-Verdict: None
+X-MS-Exchange-Organization-HMATPModel-DkimAuthStatus: 2
+X-MS-Exchange-Organization-HMATPModel-DmarcAuthStatus: 3
+X-MS-Exchange-Organization-Disclaimer-Hash: 869f1dfb999a452f497a4cf7f44db2d6ee661f74a9e7e05251bc1420e50672d4
+X-MS-Exchange-Organization-Rules-Execution-History: f09b39fe-c68c-4fb4-ae19-7cb3e372d607%%%3b481f4b-aa3a-4da8-8416-b66d92ae72b6%%%70083517-8d4f-4bb9-8d90-5fd5a2c70ce0%%%28ac000b-b92c-40ce-a3b7-49cba8b39c5b%%%e7df7d51-1973-43df-a4c4-97c5858761dc%%%cc21f5db-1db9-4597-9dac-218e560b67e9
+X-MS-Exchange-Forest-RulesExecuted: MN2PR20MB3400
+X-MS-Exchange-Organization-RulesExecuted: MN2PR20MB3400
+X-MS-Exchange-Organization-SafeAttachmentScanNotRequired:
+X-MS-Exchange-Organization-AntiPhishPolicy: ORC Anti-Phishing
+X-MS-Exchange-Organization-SenderRecipientCommunicationState: EST
+X-MS-Exchange-Organization-Antispam-ContentFilter-ScanContext: CategorizerOnResolved
+X-MS-Exchange-Organization-CommunicationStateSummary: EST
+X-MS-Exchange-Organization-FirstContactSummary: ST=1;MRG=0;EXT=0;UN=1;ORCT=1;EV=1;FC=0;NESI=0;NES=0;ESTI=0;EST=1;INS=0;MP=0;UD=0;QE=0;ERR=0
+X-MS-Exchange-Organization-CFA-UserOption: 0
+X-MS-Exchange-Organization-Antispam-SFASkipFiltering: true
+X-MS-Exchange-Organization-CompAuth: compauth=pass reason=116
+X-MS-Exchange-Organization-Feature-Long: 0	201:3117	202:1220	203:1	205:20
+	208:90	215:3109	235:2	236:2	238:3	239:1	241:1	243:1	244:3	245:1	246:1	247:1
+	248:3	252:1	258:1	1006:notif,action,secur,failure	1007:Latn	1014:tpifm.com
+	1015:tpifm.com	1020:tpifm.com	1030:tpifm.com	1034:19669F1A@owlrock.com
+	1035:tpifm.com
+X-MS-Exchange-Organization-HDRFeatureV2: 10;0;4;0;0;0;0;0;0;0;1;1;0;4;1;0;89;11;35;6;6;2;8;8;0;2;6;6;4;35;6;4;2;3;3;0;19;0;0;16;48;4;35;-1;-1
+X-MS-Exchange-Organization-ExtractionTags: SUB64
+X-MS-Exchange-Organization-ExtractionTagsSubject: Catch-up
+X-MS-Exchange-Organization-ExtractionTagsFrom: "Linehan, David"
+ <David.Linehan@tpifm.com>
+X-MS-Exchange-Organization-ExtractionTagsSubjectNormalized: catch up
+X-MS-Exchange-Organization-FeatureTable: {341:2,342:0,343:6,344:0,345:6,346:0,347:2,348:0,349:8,350:0,351:8,352:0,353:35,354:4,355:35,356:4,357:35,358:4,359:0,360:0,361:19,362:0,363:48,364:16,365:0,366:0,367:11,368:0,381:1,384:"tpifm.com",385:"tpifm.com",386:"True",387:"True",423:4,424:0,425:6,426:1,427:6,428:1,429:6,430:1,452:1,453:1,454:"19669F1A@owlrock.com",504:2,506:3,507:3,508:"tpifm.com",509:"tpifm.com",510:"tpifm.com",511:"pass",512:116,601:89,602:10,651:2,653:1,721:"3.49",722:"3.09",723:1,725:20,728:90,735:"3.49",738:1,740:1,742:1,743:3,744:1,748:"notif,action,secur,failure",749:"Latn",963:10000,964:2637}
+X-MS-Exchange-Organization-Antispam-PostContentFilter-ScanContext: CategorizerOnResolved;CategorizerOnRouted
+X-MS-Exchange-Organization-SCL: -1
+X-Microsoft-Antispam: BCL:0
+X-Microsoft-Antispam-Message-Info: =?us-ascii?Q?ARoqdrNlDUOuYZoyTUGWpLpgY13rZ0qmHNhcmKOXMEcYc01YwNhI52WW1U1S?=
+ =?us-ascii?Q?9JmOfANk6dez1H1nk+r31KK5QJQ9HxfEalSGVxF22vnEV9zx9ZzeBLngHFaz?=
+ =?us-ascii?Q?DUbj3R/U9vBuFwNzeLvJcvMZ7iqB7roNQUURynMuVnHKlDM0eztHFxGH0BL6?=
+ =?us-ascii?Q?aAobT0xvg1ZeE4Cv0jjjg+B3oBcbGyV8E/4A1YgYm6BSeP0j2uCal5ICOHN3?=
+ =?us-ascii?Q?yWjTbyl+9jZw+dub3NZPEIHC+tgfym5ARE6Rzmr3SH5sKxnhrkoxLbAA3GRt?=
+ =?us-ascii?Q?ed2R6MdoHhOnDGxHtKEOYdQXbklsD6OR18bC4FmAzQ3ElfNpg0Qs6poHLKNz?=
+ =?us-ascii?Q?Z88PRwVvUC+SW8DbKPGKTH2k8YxEKaOzKORH2Yf4QD1UTVLtMe4IFixv5wZW?=
+ =?us-ascii?Q?ev23GC4NS57QyM89N6qn9L4TvxpkHYOYl0XA5JrjxbsR+cXTvteebt7gyNLF?=
+ =?us-ascii?Q?nuOrWYi+kKEnqr97jlIGwFSJlpvxZXsipCxNnizUtx8GyDdubZRxuzLEBRxG?=
+ =?us-ascii?Q?0RcfCQb9l2RDlGC1o2tzOuN6j1yA0fo5W9MwC6qzzT+4myNXvUyIqYjrhw6Y?=
+ =?us-ascii?Q?wv5DFQ2qazTzBUDYem29psJwMAY9oQaZ624n4xhnM3OsR7b614cz7UC0XRY5?=
+ =?us-ascii?Q?bUN6kWOXqzXnY8fdIJyDe5qGXUPL3OcIDjhSWX/fHX3Kpm5YinGt3kNrb16Q?=
+ =?us-ascii?Q?0qODXN/5JKpo4dWLkkB6Mt1tx+MK6kBQQFDzxc7z3sxxJWiPX1baOxlkUv+d?=
+ =?us-ascii?Q?o/nq3YUy3VLLmD2aAWZD52YYTY01HP0w2wP1y19lIJvt2a1HNEl8SjTxQhF2?=
+ =?us-ascii?Q?+eoMLGYVvdECjCwLagHEURzya7HRJon8eizypCx74ZeKvpspnicXe5Jl/QIk?=
+ =?us-ascii?Q?hbjX3inEcpYzFeGeE4JarwoBkcXtJuOyEGA1ck2/40EjgEaZIo9KZKFP7jHK?=
+ =?us-ascii?Q?RC49jFFtfsBGh08nEZ23KcroL3UbEyt4lOs3avEhfxCIvwuR2Luy1qIobTVw?=
+ =?us-ascii?Q?ZJHRUEGKNh6yVkgLZyvnXjMxlGKJT7U/WIypXhyBiHyEuezVQ8vmUS2aMVJr?=
+ =?us-ascii?Q?gcA6TZQz9xivkudeusy+XSp2kSvtkYSYmTuWd5AwGh2EOPLGWKaADuHRAbie?=
+ =?us-ascii?Q?cmKCUNFWzYwqFcUuOMQaAryUrLLRFOHdSQAEL6na7AogEwu7qgyGMlKZ/Utu?=
+ =?us-ascii?Q?9PAff59B7f+L7jnpTdMrjFXT6SZNVGp3gvUTwXTOTnOGJmUjEV4VUpHmnQ2P?=
+ =?us-ascii?Q?tfdxn7JsM5Xg4csw95zPiBKldu/FG8mLqZhMxo12x2hpLX2OWy2xC89AUpTf?=
+ =?us-ascii?Q?YA4PRxtAvQ65ioe0VMc8z0ume05+5LD3kSgKiJUAPNXfbY3cat24g9n8vNf+?=
+ =?us-ascii?Q?5AZ9IiKPK6uEZH8VSamd/jdTt+r0JkfVqn7WElwzYBMzaPDD0AqDsVEZG+1b?=
+ =?us-ascii?Q?Dl/lCMwySwtsLvJQj93P4irmuu0Ygtp5BAUs3qaui6tjt6DDtHkbGG+qO3UZ?=
+ =?us-ascii?Q?ajcVfcLzulI71DYdkOhblJWHFsWmNNco/odHkDIfRS4ZYxoE8WsZMaN5jXMK?=
+ =?us-ascii?Q?s+r99hvYUI8N5uFcX8c=3D?=
+X-Forefront-Antispam-Report: CIP:207.211.31.81;CTRY:US;LANG:en;SCL:-1;SRV:;IPV:CAL;SFV:SKN;H:us-smtp-1.mimecast.com;PTR:us-smtp-1.mimecast.com;CAT:NONE;SFS:;DIR:INB
+X-MS-Exchange-Organization-GroupForkPerf: VCL=0;VL=0
+X-MS-Exchange-Organization-Antispam-SafelinksWrappingInMDFA: True
+X-MS-Exchange-Organization-Cross-Session-Cache: =?us-ascii?Q?00CIP=3D207.211.31.81;EIPC0=3D2004,2055,950,951,2005,2006,20?=
+ =?us-ascii?Q?07,2008,2009,2010,2011,2012,2013,2014,2000,2050,2051,2052,95?=
+ =?us-ascii?Q?2,902,2054,2016,903,907,905,901,904,2003,2001,3000,2002,967,?=
+ =?us-ascii?Q?2058,2059,2060,531,2017,5080,5011,5051,5001,5057,5056,5058,5?=
+ =?us-ascii?Q?055,5054,5052,5010,906,5059,5053,5002,5003,5005,5070;MIPC0?=
+ =?us-ascii?Q?=3D2054,2003,2004,950,951,952,5011,5052;REP=3D02,1,0\;02,2,0?=
+ =?us-ascii?Q?\;02,3,0\;02,4,0\;02,5,0\;02,6,0\;02,7,0;SL=3D3;EMSL=3D1;SCL?=
+ =?us-ascii?Q?=3D-1;BL=3D0;RL=3D1;PID=3D0;EXPID=3Dv3;IsIncomingMail=3Dtrue?=
+ =?us-ascii?Q?;TIP=3DAllowList;TP=5FCPIP=3DAllow;IPV=3DCAL;IPB=5FSkip=3D1;?=
+ =?us-ascii?Q?IPT=5FSkip=3D1;CIPCRY=3DUS;SAUTHOP=3D1;RMX=3DMimecast;EIPC1?=
+ =?us-ascii?Q?=3D2004,2055,950,951,2005,2006,2007,2008,2009,2010,2011,2012?=
+ =?us-ascii?Q?,2013,2014,2000,2050,2051,2052,952,902,2054,2016,903,907,905?=
+ =?us-ascii?Q?,901,904,2003,2001,3000,2002,967,2058,2059,2060,531,2017,508?=
+ =?us-ascii?Q?0,5011,5051,5001,5057,5056,5058,5055,5054,5052,5010,906,5059?=
+ =?us-ascii?Q?,5053,5002,5003,5005,5070;MIPC1=3D2054,2003,2004,950,951,952?=
+ =?us-ascii?Q?,3000,2002,902,5011,5052,5010;A=3D01;MX=3D00;PTR=3D00us-smtp?=
+ =?us-ascii?Q?-1.mimecast.com\;us-smtp-2.mimecast.com;SPF=3D031ZGF2aWQubGl?=
+ =?us-ascii?Q?uZWhhbkB0cGlmbS5jb20=3D;DKIM=3D00bWltZWNhc3QyMDIwMDkyMy5fZG9?=
+ =?us-ascii?Q?tYWlua2V5LnRwaWZtLmNvbQ=3D=3D\;dj1ES0lNMTsgaz1yc2E7IHA9TUlHZ?=
+ =?us-ascii?Q?k1BMEdDU3FHU0liM0RRRUJBUVVBQTRHTkFEQ0JpUUtCZ1FEUHlhei9JNUdqS?=
+ =?us-ascii?Q?jdWbnV3d2FZYlZjR3M1dEh5MVZNeVJ6bGZkSlNyU2xIWndBOVBUU3ZXOW9Ve?=
+ =?us-ascii?Q?lFTL3FrcUxRTEVTN0prbmt3blpnTzRjb2k2Y2JUb3dFc1Q4b0JGMnNaci8wO?=
+ =?us-ascii?Q?EZyQmc3STFOZks2dU9STFRFRXd6MWd3aVJERUlkTGN0QmtTczlhbmtiWWY4b?=
+ =?us-ascii?Q?nhZZXZaSEhCV0tkS3FSNE9naXlsM0ZkQ3lRSURBUUFC;DMARC=3D00dHBpZm?=
+ =?us-ascii?Q?0uY29t\;dj1ETUFSQzE7IHA9bm9uZTsgcnVhPW1haWx0bzpwb3N0bWFzdGVy?=
+ =?us-ascii?Q?QHRwaWZtLmNvbQ=3D=3D;ARC=3D00MjAxOTAzLl9kb21haW5rZXkuZGtpbS5?=
+ =?us-ascii?Q?taW1lY2FzdC5jb20=3D\;dj1ES0lNMTsgaz1yc2E7IHA9TUlJQklqQU5CZ2t?=
+ =?us-ascii?Q?xaGtpRzl3MEJBUUVGQUFPQ0FROEFNSUlCQ2dLQ0FRRUFzWmhSOG5aQUFZL0N?=
+ =?us-ascii?Q?wYnNHODVvUmFkM0VEeWNBQmhJYjZSYS9YWHc5VDNCRmZ5RFJySjFpOHNENkZ?=
+ =?us-ascii?Q?ROFdGSC8xMXBhSkpKM0JaZDZSSjZhdEczSXg0eTZvdkc4RVF3WjN6OHlCMVI?=
+ =?us-ascii?Q?rQU85aXgvMEYvR3lkeG1KdGU2RkJGWlp5akhzem1OTmlRVzJta1BRekpVL1p?=
+ =?us-ascii?Q?6NW1oWmlqTnM1MXdjaDEwc0xySHNjY2svMzdJTDVVNTgxNkpIVlY2TjJLbDJ?=
+ =?us-ascii?Q?DZncyOXkzdWIrbHE5SnRDMWIwWnAvZGdUOHJDWk0wS1NNM0JsVVhibStCYk5?=
+ =?us-ascii?Q?HUXExOGVTUlpab2ROaXZUMTNUdFpQcUtUM0dEYzl1N2w4ZG9iREpUdGpPNnh?=
+ =?us-ascii?Q?Ba3dvS1RZMWszN28zVW1IK005T3VGbStYUlo1NDNGWUdYVGU2MnJjZWtlWWF?=
+ =?us-ascii?Q?CYkxFZm1mRG1ia3VxeXdJREFRQU?=
+X-MS-Exchange-Organization-Cross-Session-Cache: =?us-ascii?Q?01I=3D;AUTHRES=3D[mx.microsoft.com,1]{5,3,UwBvAGYAdABGAGEAaQ?=
+ =?us-ascii?Q?BsAA=3D=3D,cwBlAG4AZABlAHIAIABJAFAAIABpAHMAIAAyADAANwAuADIAM?=
+ =?us-ascii?Q?QAxAC4AMwAxAC4AOAAxAA=3D=3D,cwBtAHQAcAAuAHIAYwBwAHQAVABvAEQA?=
+ =?us-ascii?Q?bwBtAGEAaQBuAA=3D=3D|bwB3AGwAcgBvAGMAawAuAGMAbwBtAA=3D=3D,cw?=
+ =?us-ascii?Q?BtAHQAcAAuAE0AYQBpAGwARgByAG8AbQA=3D|dABwAGkAZgBtAC4AYwBvAG0?=
+ =?us-ascii?Q?A}{9,8,RgBhAGkAbAA=3D,cAA9AG4AbwBuAGUAIABzAHAAPQBuAG8AbgBlAC?=
+ =?us-ascii?Q?AAcABjAHQAPQAxADAAMAA=3D,YQBjAHQAaQBvAG4A|TgBvAG4AZQA=3D,aAB?=
+ =?us-ascii?Q?lAGEAZABlAHIALgBmAHIAbwBtAA=3D=3D|dABwAGkAZgBtAC4AYwBvAG0A}{?=
+ =?us-ascii?Q?2,8,RgBhAGkAbAA=3D,YgBvAGQAeQAgAGgAYQBzAGgAIABkAGkAZAAgAG4Ab?=
+ =?us-ascii?Q?wB0ACAAdgBlAHIAaQBmAHkA,aABlAGEAZABlAHIALgBkAA=3D=3D|dABwAGk?=
+ =?us-ascii?Q?AZgBtAC4AYwBvAG0A}{12,8,RgBhAGkAbAA=3D,MwA=3D};SpfResult=3D3?=
+ =?us-ascii?Q?;DkimStatus=3D2;DkimSS=3D10;DmarcStatus=3D3;DmarcAction=3D0;?=
+ =?us-ascii?Q?ARCRES=3Dv110300000000000000000000000000000000000000;MFP=3D4?=
+ =?us-ascii?Q?e52dd27-b093-424b-bdfb-dabd1a797844;PReRC=3D1;SIP2BCLAP=3D-1?=
+ =?us-ascii?Q?;SIP2BCLAF=3D-1;FPR=3DECE7F21D.AC1657D5.65E19F4B.84EFCB40.20?=
+ =?us-ascii?Q?282;TDNA=3DECE7D21D.AC1657F9.65D99F4B.84E7EB40.202A4;FC=5FDB?=
+ =?us-ascii?Q?G=3D1099511890176;URLC=5FBE=3D0;URLC=5FBEC=3D0;URLC=5FAE=3D0?=
+ =?us-ascii?Q?;SLP=3D11264258-ea31-4c16-82c9-f18e97a6e84c;SAP=3D644c6fce-5?=
+ =?us-ascii?Q?778-41d9-8ecb-795d81270a20;RT=3DSA|SL;NoDLx=3D1;CGDLxSupport?=
+ =?us-ascii?Q?ed=3D1;BR=5FV=3DNone;DIR=3D1;PTRO=3Dmimecast.com;P2O=3Dtpifm?=
+ =?us-ascii?Q?.com;P=5FCAUTH=3Dpass;P=5FCAUTHR=3D116;CFP=3De16e1566-5817-4?=
+ =?us-ascii?Q?274-b534-d044d5887bc4;HCFP=3D6cd97b16-5089-48ed-9e42-d40bff0?=
+ =?us-ascii?Q?67de8;APP=3D111130c7-6200-4615-8aec-816f7d071d21;GWS=5FRead?=
+ =?us-ascii?Q?=3DV2;GUIMP=5FSUM=3DR1E1S1;SRCS=3DEST;CAUTH=3Dpass;CAUTHR=3D?=
+ =?us-ascii?Q?116;CAUTH=5FCAT=3DAD;IVB=5FDBG=3DD2;HMHPV=3D892;HMEPV=3D1000?=
+ =?us-ascii?Q?0;HMEPV2=3D2042;HMESV=3D6106;HMESV2=3D9999;SRESV=3D4847;BMAS?=
+ =?us-ascii?Q?V=3D1989;BMESV=3D4691;BMAPV=3D1421;BMEPV=3D4885;CMASV=3D1000?=
+ =?us-ascii?Q?0;CMHPV=3D10000;CMAPV=3D2263;CBEBV2=3D9750;CBEBV=3D10000;CLE?=
+ =?us-ascii?Q?PV=3D2637;CLEPV2=3D114;URLF=5FDBG=3DDS:1;FFV=3DNSPM;FV=5FSCL?=
+ =?us-ascii?Q?=3D1;TP=5FFV=3DAllow;TP=5FFC=3DConnPolicy;TPV=5FSCL=3D-1;FV?=
+ =?us-ascii?Q?=3DAllow;FVS=3DTenant;FSCL=3D-1;TAP=5FEP=3D?=
+X-MS-Exchange-Organization-Processed-By-Gcc-Journaling: Journal Agent
+Content-Language: en-US
+Content-Type: multipart/alternative;
+	boundary="_1651358b-60a2-4609-967d-f034a1eebd64_"
+
+--_1651358b-60a2-4609-967d-f034a1eebd64_
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+
+[EXTERNAL EMAIL]
+________________________________
+Hi Amy,
+
+Sorry for not coming back to you, it=E2=80=99s all go at our end. I=E2=80=
+=99m taking a breather on Monday with rare day off, dare say I=E2=80=99ll b=
+e on a long walk that afternoon, so we could chat then if you want to call =
+me on 07974227387. Text or whatsapp me on Monday morning and we can firm up=
+ if suits?
+
+Best
+David
+
+
+
+Disclaimer
+
+The information contained in this communication from the sender is confiden=
+tial. It is intended solely for use by the recipient and others authorized =
+to receive it. If you are not the recipient, you are hereby notified that a=
+ny disclosure, copying, distribution or taking action in relation of the co=
+ntents of this information is strictly prohibited and may be unlawful.
+
+This email has been scanned for viruses and malware, and may have been auto=
+matically archived by Mimecast, a leader in email security and cyber resili=
+ence. Mimecast integrates email defenses with brand protection, security aw=
+areness training, web security, compliance and other essential capabilities=
+. Mimecast helps protect large and small organizations from malicious activ=
+ity, human error and technology failure; and to lead the movement toward bu=
+ilding a more resilient world. To find out more, visit our website.
+
+--_1651358b-60a2-4609-967d-f034a1eebd64_
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+<html>
+<head>
+<meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dutf-8">
+<meta name=3D"Generator" content=3D"Microsoft Word 15 (filtered medium)">
+<style><!--
+/* Font Definitions */
+@font-face
+=09{font-family:"Cambria Math";
+=09panose-1:2 4 5 3 5 4 6 3 2 4;}
+@font-face
+=09{font-family:Calibri;
+=09panose-1:2 15 5 2 2 2 4 3 2 4;}
+/* Style Definitions */
+p.MsoNormal, li.MsoNormal, div.MsoNormal
+=09{margin:0cm;
+=09font-size:11.0pt;
+=09font-family:"Calibri",sans-serif;
+=09mso-fareast-language:EN-US;}
+span.EmailStyle17
+=09{mso-style-type:personal-compose;
+=09font-family:"Calibri",sans-serif;
+=09color:windowtext;}
+.MsoChpDefault
+=09{mso-style-type:export-only;
+=09font-family:"Calibri",sans-serif;
+=09mso-fareast-language:EN-US;}
+@page WordSection1
+=09{size:612.0pt 792.0pt;
+=09margin:72.0pt 72.0pt 72.0pt 72.0pt;}
+div.WordSection1
+=09{page:WordSection1;}
+--></style><!--[if gte mso 9]><xml>
+<o:shapedefaults v:ext=3D"edit" spidmax=3D"1026" />
+</xml><![endif]--><!--[if gte mso 9]><xml>
+<o:shapelayout v:ext=3D"edit">
+<o:idmap v:ext=3D"edit" data=3D"1" />
+</o:shapelayout></xml><![endif]--><style type=3D"text/css">.style1 {font-fa=
+mily: "Times New Roman";}</style>
+</head>
+<body lang=3D"EN-GB" link=3D"#0563C1" vlink=3D"#954F72" style=3D"word-wrap:=
+break-word">
+<div class=3D"mc-ip-hide">
+<div style=3D"color:#000000; font-size:12px; text-align:left; font-family:H=
+elvetica, Arial, sans-serif;">
+<strong>[EXTERNAL EMAIL]</strong><br>
+</div>
+<hr>
+</div>
+<div class=3D"WordSection1">
+<p class=3D"MsoNormal">Hi Amy,<o:p></o:p></p>
+<p class=3D"MsoNormal"><o:p>&nbsp;</o:p></p>
+<p class=3D"MsoNormal">Sorry for not coming back to you, it=E2=80=99s all g=
+o at our end. I=E2=80=99m taking a breather on Monday with rare day off, da=
+re say I=E2=80=99ll be on a long walk that afternoon, so we could chat then=
+ if you want to call me on 07974227387. Text or whatsapp me
+ on Monday morning and we can firm up if suits?<o:p></o:p></p>
+<p class=3D"MsoNormal"><o:p>&nbsp;</o:p></p>
+<p class=3D"MsoNormal">Best<o:p></o:p></p>
+<p class=3D"MsoNormal">David<o:p></o:p></p>
+</div>
+<br>
+<br>
+<p style=3D"font-family: Verdana; font-size:10pt; color:#666666;"><b>Discla=
+imer</b></p>
+<p style=3D"font-family: Verdana; font-size:8pt; color:#666666;">The inform=
+ation contained in this communication from the sender is confidential. It i=
+s intended solely for use by the recipient and others authorized to receive=
+ it. If you are not the recipient,
+ you are hereby notified that any disclosure, copying, distribution or taki=
+ng action in relation of the contents of this information is strictly prohi=
+bited and may be unlawful.<br>
+<br>
+This email has been scanned for viruses and malware, and may have been auto=
+matically archived by Mimecast, a leader in email security and cyber resili=
+ence. Mimecast integrates email defenses with brand protection, security aw=
+areness training, web security,
+ compliance and other essential capabilities. Mimecast helps protect large =
+and small organizations from malicious activity, human error and technology=
+ failure; and to lead the movement toward building a more resilient world. =
+To find out more, visit our website.</p>
+</body>
+</html>
+
+--_1651358b-60a2-4609-967d-f034a1eebd64_--
+
+
+--_1215e19a-a5f6-474a-90a4-d362c37efc00_--
+

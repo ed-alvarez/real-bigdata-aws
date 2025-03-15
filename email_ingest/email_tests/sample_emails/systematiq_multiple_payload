@@ -1,0 +1,619 @@
+Return-Path: <>
+Received: from LHPNRUKEX01.ad.lhpnr.com ([84.45.50.48])
+ by inbound-smtp.eu-west-1.amazonaws.com with SMTP id i83tkuttnnk0fbfuiut972rkp8lm481kj0tqn581
+ for systematicqs@ip-sentinel.net;
+ Sun, 15 Nov 2020 21:46:33 +0000 (UTC)
+Received-SPF: none (spfCheck: 84.45.50.48 is neither permitted nor denied by domain of 84.45.50.48) client-ip=84.45.50.48; envelope-from=postmaster@84.45.50.48; helo=84.45.50.48;
+Authentication-Results: amazonses.com;
+ spf=none (spfCheck: 84.45.50.48 is neither permitted nor denied by domain of 84.45.50.48) client-ip=84.45.50.48; envelope-from=postmaster@84.45.50.48; helo=84.45.50.48;
+ dmarc=permerror;
+X-SES-RECEIPT: AEFBQUFBQUFBQUFGQ1NROHhBakVha0M2MTYwMnFwZ21MNjB6YXlvVDlUTk1mcHcvSEI0dzZHYWlZdC9BNzNjaTVzdG9mUTJmOUNVTFF5dVFFS1JpQlMvZW9td0ZLaGVlTHExaVEwQ3F5WDZuK092cmszZCtIZzRRZ1VnTkUxU1pONE9xcnliSk50Y0tocE9haEFRb2tDM2VRV0ZONW5mRkc1Z1dBWW5kWGs3U09VaW8xRHpOd2ErVVNETHJvc3VRKzF4UExUQjBwRTN3M0E3R3FJSlorUDJYUGc2UHFXSDBJNi8xalcySi90ZzZaSzU0VCt2VmtsL0QyU2NvNEFBQjJDKzlSbXpxdTRzOUd3aTlOQ1ZkelpRaVhxSUdmc3pmOWsyV29JYzYrbEF4NHpsZTVsanVlelE9PQ==
+X-SES-DKIM-SIGNATURE: a=rsa-sha256; q=dns/txt; b=KCHjJsnS0pcI0fzDnY+ezwoNkof6346JDoboCULW9EulnkS4kvPXd5uYFkARw299CvWC0JAUquwib33mqzOSzOOgJEUtftuY1neN/dB7fu9zwApua92BEqAl1FE/09mSBqSYhy9j9z2C1GgvUdMlGGR1cZdL3iQ5qE/Yh1tuIc4=; c=relaxed/simple; s=shh3fegwg5fppqsuzphvschd53n6ihuv; d=amazonses.com; t=1605476793; v=1; bh=X8mKD0MC7bhwtt9KGEQYSA20TMGyb78qymiJidnJovU=; h=From:To:Cc:Bcc:Subject:Date:Message-ID:MIME-Version:Content-Type:X-SES-RECEIPT;
+Content-Type: multipart/mixed;
+	boundary="_e87404c5-7409-48f8-b946-45e2390b3fb3_"
+Subject: Undeliverable: Summary:  Xpressfeed Loader - Info Notification
+To: <V5XFLoaderDoNotReply@spglobal.com>
+From: <postmaster@ad.lhpnr.com>
+MIME-Version: 1.0
+Sender: <MicrosoftExchange329e71ec88ae4615bbc36ab6ce41109e@ad.lhpnr.com>
+Message-ID: <47c37229-511f-45f0-b4bb-aa029c58096d@journal.report.generator>
+Date: Sun, 15 Nov 2020 21:46:33 +0000
+X-MS-Journal-Report:
+X-MS-Exchange-Parent-Message-Id:
+	<b16414a1-0987-427b-9264-3102f5c9000c@LHPNRUKEX01.ad.lhpnr.com>
+X-MS-Exchange-Message-Is-Ndr:
+Auto-Submitted: auto-generated
+X-MS-Exchange-Generated-Message-Source: Journal Agent
+
+--_e87404c5-7409-48f8-b946-45e2390b3fb3_
+Content-Type: text/plain; charset="us-ascii"
+Content-Transfer-Encoding: 7bit
+
+Sender: postmaster@ad.lhpnr.com
+Subject: Undeliverable: Summary:  Xpressfeed Loader - Info Notification
+Message-Id: <b16414a1-0987-427b-9264-3102f5c9000c@LHPNRUKEX01.ad.lhpnr.com>
+Recipient: V5XFLoaderDoNotReply@spglobal.com
+
+--_e87404c5-7409-48f8-b946-45e2390b3fb3_
+Content-Type: message/rfc822
+
+MIME-Version: 1.0
+From: <postmaster@ad.lhpnr.com>
+To: <V5XFLoaderDoNotReply@spglobal.com>
+Date: Sun, 15 Nov 2020 21:46:33 +0000
+Content-Type: multipart/report; report-type=delivery-status;
+	boundary="_94c5545b-1d70-4bfa-8efa-502b03ebe53f_"
+X-MS-Exchange-Organization-OriginalArrivalTime: 15 Nov 2020 21:46:33.0962
+ (UTC)
+X-MS-Exchange-Organization-SCL: -1
+X-MS-Exchange-Organization-Journaled-To-Recipients: SQSGlobalRelay.Archiving@sqspartners.com+systematicqs@ip-sentinel.net
+X-MS-Exchange-Message-Is-Ndr:
+X-MS-Exchange-Organization-Dsn-Version: 12
+Content-Language: en-GB
+Message-ID: <b16414a1-0987-427b-9264-3102f5c9000c@LHPNRUKEX01.ad.lhpnr.com>
+In-Reply-To: <529031581.21216.1605476785754.JavaMail.SQSUKAPP02$@SQSUKAPP02>
+References: <529031581.21216.1605476785754.JavaMail.SQSUKAPP02$@SQSUKAPP02>
+Subject: Undeliverable: Summary:  Xpressfeed Loader - Info Notification
+Auto-Submitted: auto-replied
+X-MS-Exchange-Organization-Transport-Properties: DeliveryPriority=Normal
+X-MS-Exchange-Organization-Prioritization: 1
+X-MS-Exchange-Organization-Spam-Filter-Enumerated-Risk: Normal
+X-MS-Exchange-Organization-AuthSource: LHPNRUKEX01.ad.lhpnr.com
+X-MS-Exchange-Organization-AuthAs: Internal
+X-MS-Exchange-Organization-AuthMechanism: 05
+X-MS-Exchange-Organization-Network-Message-Id:
+	5b1a59bc-4982-4524-70cd-08d889afeb2f
+X-MS-Exchange-Organization-HygienePolicy: Standard
+X-MS-Exchange-Organization-AVStamp-Enterprise: 1.0
+X-MS-Exchange-Organization-OriginalSize: 28796
+X-MS-Exchange-Organization-Recipient-Limit-Verified: True
+X-MS-Exchange-Forest-IndexAgent-0:
+	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
+ b249IjEuMCIgZW5jb2Rpbmc9InV0Zi0xNiI/Pg0KPEVtYWlsU2V0Pg
+ 0KICA8VmVyc2lvbj4xNS4wLjAuMDwvVmVyc2lvbj4NCiAgPEVtYWls
+ cz4NCiAgICA8RW1haWwgU3RhcnRJbmRleD0iNTQiPg0KICAgICAgPE
+ VtYWlsU3RyaW5nPnVsLW1vbml0b3JAc3BnbG9iYWwuY29tPC9FbWFp
+ bFN0cmluZz4NCiAgICA8L0VtYWlsPg0KICAgIDxFbWFpbCBTdGFydE
+ luZGV4PSIxMDc0IiBQb3NpdGlvbj0iT3RoZXIiPg0KICAgICAgPEVt
+ YWlsU3RyaW5nPlY1WEZMb2FkZXJEb05vdFJlcGx5QHNwZ2xvYmFsLm
+ NvbTwvRW1haWxTdHJpbmc+DQogICAgPC9FbWFpbD4NCiAgICA8RW1h
+ aWwgU3RhcnRJbmRleD0iMTExNSIgUG9zaXRpb249Ik90aGVyIj4NCi
+ AgICAgIDxFbWFpbFN0cmluZz5zcXMtc3VwcG9ydEBzcXNwYXJ0bmVy
+ cy5jb208L0VtYWlsU3RyaW5nPg0KICAgIDwvRW1haWw+DQogIDwvRW
+ 1haWxzPg0KPC9FbWFpbFNldD4BC60EPD94bWwgdmVyc2lvbj0iMS4w
+ IiBlbmNvZGluZz0idXRmLTE2Ij8+DQo8VXJsU2V0Pg0KICA8VmVyc2
+ lvbj4xNS4wLjAuMDwvVmVyc2lvbj4NCiAgPFVybHM+DQogICAgPFVy
+ bCBTdGFydEluZGV4PSIyOTAiIFR5cGU9IlVybCI+DQogICAgICA8VX
+ JsU3RyaW5nPmV1LXNtdHAtMS5taW1lY2FzdC5jb208L1VybFN0cmlu
+ Zz4NCiAgICA8L1VybD4NCiAgICA8VXJsIFN0YXJ0SW5kZXg9IjM3OC
+ IgVHlwZT0iVXJsIj4NCiAgICAgIDxVcmxTdHJpbmc+TEhQTlJVS0VY
+ MDEuYWQubGhwbnIuY29tPC9VcmxTdHJpbmc+DQogICAgPC9Vcmw+DQ
+ ogICAgPFVybCBTdGFydEluZGV4PSI1MjkiIFR5cGU9IlVybCI+DQog
+ ICAgICA8VXJsU3RyaW5nPmh0dHBzOi8vY29tbXVuaXR5Lm1pbWVjYX
+ N0LmNvbS9kb2NzL0RPQy0xMzY5IzU1MDwvVXJsU3RyaW5nPg0KICAg
+ IDwvVXJsPg0KICAgIDxVcmwgU3RhcnRJbmRleD0iODM0IiBUeXBlPS
+ JVcmwiPg0KICAgICAgPFVybFN0cmluZz5TUVNVS0FQUDAyLmFkLmxo
+ cG5yLmNvbTwvVXJsU3RyaW5nPg0KICAgIDwvVXJsPg0KICA8L1VybH
+ M+DQo8L1VybFNldD4BDQJlbgEOzwFSZXRyaWV2ZXJPcGVyYXRvciwx
+ MCwxO1JldHJpZXZlck9wZXJhdG9yLDExLDE7UG9zdERvY1BhcnNlck
+ 9wZXJhdG9yLDEwLDE7UG9zdERvY1BhcnNlck9wZXJhdG9yLDExLDA7
+ UG9zdFdvcmRCcmVha2VyRGlhZ25vc3RpY09wZXJhdG9yLDEwLDQ7UG
+ 9zdFdvcmRCcmVha2VyRGlhZ25vc3RpY09wZXJhdG9yLDExLDA7VHJh
+ bnNwb3J0V3JpdGVyUHJvZHVjZXIsMjAsMTE=
+X-MS-Exchange-Forest-IndexAgent: 1 3914
+X-MS-Exchange-Forest-EmailMessageHash: EAFC7D37,EC12B1DD,262EF6BC
+X-MS-Exchange-Forest-Language: en
+
+--_94c5545b-1d70-4bfa-8efa-502b03ebe53f_
+Content-Type: multipart/alternative; differences=Content-Type;
+	boundary="_970ea706-7c16-41f2-ab78-3a81220abbdc_"
+
+--_970ea706-7c16-41f2-ab78-3a81220abbdc_
+Content-Type: text/plain; charset="us-ascii"
+Content-Transfer-Encoding: quoted-printable
+
+Delivery has failed to these recipients or groups:
+
+ul-monitor@spglobal.com<mailto:ul-monitor@spglobal.com>
+A problem occurred while delivering this message to this email address. Try=
+ sending this message again. If the problem continues, please contact your =
+helpdesk.
+
+
+The following organization rejected your message: eu-smtp-1.mimecast.com.
+
+
+
+
+
+
+
+Diagnostic information for administrators:
+
+Generating server: LHPNRUKEX01.ad.lhpnr.com
+
+ul-monitor@spglobal.com
+eu-smtp-1.mimecast.com
+Remote Server returned '550 Administrative prohibition - envelope blocked -=
+ https://community.mimecast.com/docs/DOC-1369#550 [16ER6uvQNG2E0t8O02X-9g.u=
+k48]'
+
+Original message headers:
+
+Received: from LHPNRUKEX01.ad.lhpnr.com (10.20.182.50) by
+ LHPNRUKEX01.ad.lhpnr.com (10.20.182.50) with Microsoft SMTP Server (TLS) i=
+d
+ 15.0.1178.4; Sun, 15 Nov 2020 21:46:25 +0000
+Received: from SQSUKAPP02.ad.lhpnr.com (10.20.182.37) by RelayReciver
+ (10.20.182.50) with Microsoft SMTP Server id 15.0.1178.4 via Frontend
+ Transport; Sun, 15 Nov 2020 21:46:25 +0000
+Date: Sun, 15 Nov 2020 21:46:25 +0000
+From: xpressfeed_loader_span <V5XFLoaderDoNotReply@spglobal.com>
+To: <sqs-support@sqspartners.com>, <ul-monitor@spglobal.com>
+Message-ID: <529031581.21216.1605476785754.JavaMail.SQSUKAPP02$@SQSUKAPP02>
+Subject: Summary:  Xpressfeed Loader - Info Notification
+MIME-Version: 1.0
+Content-Type: text/plain; charset=3D"us-ascii"
+Content-Transfer-Encoding: 7bit
+X-Mailer: smtpsend
+Return-Path: V5XFLoaderDoNotReply@spglobal.com
+
+
+--_970ea706-7c16-41f2-ab78-3a81220abbdc_
+Content-Type: text/html; charset="us-ascii"
+Content-Transfer-Encoding: quoted-printable
+
+<html>
+<Head></head><body>
+<p><b><font color=3D"#000066" size=3D"3" face=3D"Arial">Delivery has failed=
+ to these recipients or groups:</font></b></p>
+<font color=3D"#000000" size=3D"2" face=3D"Tahoma"><p><a href=3D"mailto:ul-=
+monitor@spglobal.com">ul-monitor@spglobal.com</a><br>
+</font>
+<font color=3D"#000000" size=3D"3" face=3D"Arial">A problem occurred while =
+delivering this message to this email address. Try sending this message aga=
+in. If the problem continues, please contact your helpdesk.<br>
+</font>
+<font color=3D"#000000" size=3D"2" face=3D"Tahoma"><br>
+</p>
+<p>The following organization rejected your message: eu-smtp-1.mimecast.com=
+.</p>
+</font>
+<br><br><br><br><br><br>
+<font color=3D"#808080" size=3D"2" face=3D"Tahoma"><p><b>Diagnostic informa=
+tion for administrators:</b></p>
+<p>Generating server: LHPNRUKEX01.ad.lhpnr.com<br>
+</p>
+<p>ul-monitor@spglobal.com<br>
+eu-smtp-1.mimecast.com<br>
+Remote Server  returned '550 Administrative prohibition - envelope blocked =
+- https://community.mimecast.com/docs/DOC-1369#550 [16ER6uvQNG2E0t8O02X-9g.=
+uk48]'<br>
+</p>
+<p>Original message headers:</p>
+<pre>Received: from LHPNRUKEX01.ad.lhpnr.com (10.20.182.50) by
+ LHPNRUKEX01.ad.lhpnr.com (10.20.182.50) with Microsoft SMTP Server (TLS) i=
+d
+ 15.0.1178.4; Sun, 15 Nov 2020 21:46:25 +0000
+Received: from SQSUKAPP02.ad.lhpnr.com (10.20.182.37) by RelayReciver
+ (10.20.182.50) with Microsoft SMTP Server id 15.0.1178.4 via Frontend
+ Transport; Sun, 15 Nov 2020 21:46:25 +0000
+Date: Sun, 15 Nov 2020 21:46:25 +0000
+From: xpressfeed_loader_span &lt;V5XFLoaderDoNotReply@spglobal.com&gt;
+To: &lt;sqs-support@sqspartners.com&gt;, &lt;ul-monitor@spglobal.com&gt;
+Message-ID: &lt;529031581.21216.1605476785754.JavaMail.SQSUKAPP02$@SQSUKAPP=
+02&gt;
+Subject: Summary:  Xpressfeed Loader - Info Notification
+MIME-Version: 1.0
+Content-Type: text/plain; charset=3D&quot;us-ascii&quot;
+Content-Transfer-Encoding: 7bit
+X-Mailer: smtpsend
+Return-Path: V5XFLoaderDoNotReply@spglobal.com
+</pre>
+</font>
+</body>
+</html>=
+
+--_970ea706-7c16-41f2-ab78-3a81220abbdc_--
+
+--_94c5545b-1d70-4bfa-8efa-502b03ebe53f_
+Content-Type: message/delivery-status
+
+Reporting-MTA: dns;LHPNRUKEX01.ad.lhpnr.com
+Received-From-MTA: dns;SQSUKAPP02.ad.lhpnr.com
+Arrival-Date: Sun, 15 Nov 2020 21:46:25 +0000
+
+Final-Recipient: rfc822;ul-monitor@spglobal.com
+Action: failed
+Status: 5.0.0
+Diagnostic-Code: smtp;550 Administrative prohibition - envelope blocked - https://community.mimecast.com/docs/DOC-1369#550 [16ER6uvQNG2E0t8O02X-9g.uk48]
+Remote-MTA: dns;eu-smtp-1.mimecast.com
+
+
+--_94c5545b-1d70-4bfa-8efa-502b03ebe53f_
+Content-Type: message/rfc822
+
+Received: from LHPNRUKEX01.ad.lhpnr.com (10.20.182.50) by
+ LHPNRUKEX01.ad.lhpnr.com (10.20.182.50) with Microsoft SMTP Server (TLS) id
+ 15.0.1178.4; Sun, 15 Nov 2020 21:46:25 +0000
+Received: from SQSUKAPP02.ad.lhpnr.com (10.20.182.37) by RelayReciver
+ (10.20.182.50) with Microsoft SMTP Server id 15.0.1178.4 via Frontend
+ Transport; Sun, 15 Nov 2020 21:46:25 +0000
+Date: Sun, 15 Nov 2020 21:46:25 +0000
+From: xpressfeed_loader_span <V5XFLoaderDoNotReply@spglobal.com>
+To: <sqs-support@sqspartners.com>, <ul-monitor@spglobal.com>
+Message-ID: <529031581.21216.1605476785754.JavaMail.SQSUKAPP02$@SQSUKAPP02>
+Subject: Summary:  Xpressfeed Loader - Info Notification
+MIME-Version: 1.0
+Content-Type: text/plain; charset="us-ascii"
+Content-Transfer-Encoding: 7bit
+X-Mailer: smtpsend
+Return-Path: V5XFLoaderDoNotReply@spglobal.com
+
+Load Job not dispatched. There were no updates available.
+
+Xpressfeed Loader finished processing a Package Load job for 46 Load Subscriptions.
+   Job created at:  2020-11-15 21:45:00.833 (UTC),  2020-11-15 16:45:00.833 (EST),  Engine time:  21:45:00.851 (GMT)
+   Job started at:  2020-11-15 21:46:16.407 (UTC),  2020-11-15 16:46:16.407 (EST),  Engine time:  21:46:16.425 (GMT)
+   Job completed at:  2020-11-15 21:46:25.423 (UTC),  2020-11-15 16:46:25.423 (EST),  Engine time:  21:46:25.441 (GMT)
+
+Subscriptions that loaded successfully:     46
+Subscriptions that loaded with warnings:    0
+Subscriptions that failed to load:          0
+
+Loaded:
+   Package:  'CIQ Estimates Detail Anonymous Broker 45 Span' ,  Population:  'GLB'.
+   Target Name:  'xpressfeed_span',  Database Name:  'xpressfeed_span',  Database Account:  'sqsdb',  Database Version:  'Microsoft SQL Server 2016 (SP1-CU4) (KB4024305) - 13.0.4446.0 (X64)'.
+   Source Name:  'NewSource1' ,  Source Account:  'SQSP6662' ,  Source Type:  'Secure FTP (SSL)' ,  Source Host:  'edx.spglobal.com'
+Load Status: 'Nothing To Do'.
+
+Loaded:
+   Package:  'CIQ Estimates Detail Anonymous Broker 18 Span' ,  Population:  'GLB'.
+   Target Name:  'xpressfeed_span',  Database Name:  'xpressfeed_span',  Database Account:  'sqsdb',  Database Version:  'Microsoft SQL Server 2016 (SP1-CU4) (KB4024305) - 13.0.4446.0 (X64)'.
+   Source Name:  'NewSource1' ,  Source Account:  'SQSP6662' ,  Source Type:  'Secure FTP (SSL)' ,  Source Host:  'edx.spglobal.com'
+Load Status: 'Nothing To Do'.
+
+Loaded:
+   Package:  'CIQ Estimates Detail Anonymous Broker 48 Span' ,  Population:  'GLB'.
+   Target Name:  'xpressfeed_span',  Database Name:  'xpressfeed_span',  Database Account:  'sqsdb',  Database Version:  'Microsoft SQL Server 2016 (SP1-CU4) (KB4024305) - 13.0.4446.0 (X64)'.
+   Source Name:  'NewSource1' ,  Source Account:  'SQSP6662' ,  Source Type:  'Secure FTP (SSL)' ,  Source Host:  'edx.spglobal.com'
+Load Status: 'Nothing To Do'.
+
+Loaded:
+   Package:  'CIQ Estimates Detail Span' ,  Population:  'GLB'.
+   Target Name:  'xpressfeed_span',  Database Name:  'xpressfeed_span',  Database Account:  'sqsdb',  Database Version:  'Microsoft SQL Server 2016 (SP1-CU4) (KB4024305) - 13.0.4446.0 (X64)'.
+   Source Name:  'NewSource1' ,  Source Account:  'SQSP6662' ,  Source Type:  'Secure FTP (SSL)' ,  Source Host:  'edx.spglobal.com'
+Load Status: 'Nothing To Do'.
+
+Loaded:
+   Package:  'CIQ Estimates Detail Anonymous Broker 39 Span' ,  Population:  'GLB'.
+   Target Name:  'xpressfeed_span',  Database Name:  'xpressfeed_span',  Database Account:  'sqsdb',  Database Version:  'Microsoft SQL Server 2016 (SP1-CU4) (KB4024305) - 13.0.4446.0 (X64)'.
+   Source Name:  'NewSource1' ,  Source Account:  'SQSP6662' ,  Source Type:  'Secure FTP (SSL)' ,  Source Host:  'edx.spglobal.com'
+Load Status: 'Nothing To Do'.
+
+Loaded:
+   Package:  'CIQ Estimates Detail Anonymous Broker 02 Span' ,  Population:  'GLB'.
+   Target Name:  'xpressfeed_span',  Database Name:  'xpressfeed_span',  Database Account:  'sqsdb',  Database Version:  'Microsoft SQL Server 2016 (SP1-CU4) (KB4024305) - 13.0.4446.0 (X64)'.
+   Source Name:  'NewSource1' ,  Source Account:  'SQSP6662' ,  Source Type:  'Secure FTP (SSL)' ,  Source Host:  'edx.spglobal.com'
+Load Status: 'Nothing To Do'.
+
+Loaded:
+   Package:  'CIQ Estimates Detail Anonymous Broker 03 Span' ,  Population:  'GLB'.
+   Target Name:  'xpressfeed_span',  Database Name:  'xpressfeed_span',  Database Account:  'sqsdb',  Database Version:  'Microsoft SQL Server 2016 (SP1-CU4) (KB4024305) - 13.0.4446.0 (X64)'.
+   Source Name:  'NewSource1' ,  Source Account:  'SQSP6662' ,  Source Type:  'Secure FTP (SSL)' ,  Source Host:  'edx.spglobal.com'
+Load Status: 'Nothing To Do'.
+
+Loaded:
+   Package:  'CIQ Estimates Detail Anonymous Broker 19 Span' ,  Population:  'GLB'.
+   Target Name:  'xpressfeed_span',  Database Name:  'xpressfeed_span',  Database Account:  'sqsdb',  Database Version:  'Microsoft SQL Server 2016 (SP1-CU4) (KB4024305) - 13.0.4446.0 (X64)'.
+   Source Name:  'NewSource1' ,  Source Account:  'SQSP6662' ,  Source Type:  'Secure FTP (SSL)' ,  Source Host:  'edx.spglobal.com'
+Load Status: 'Nothing To Do'.
+
+Loaded:
+   Package:  'CIQ Estimates Detail Anonymous Broker 56 Span' ,  Population:  'GLB'.
+   Target Name:  'xpressfeed_span',  Database Name:  'xpressfeed_span',  Database Account:  'sqsdb',  Database Version:  'Microsoft SQL Server 2016 (SP1-CU4) (KB4024305) - 13.0.4446.0 (X64)'.
+   Source Name:  'NewSource1' ,  Source Account:  'SQSP6662' ,  Source Type:  'Secure FTP (SSL)' ,  Source Host:  'edx.spglobal.com'
+Load Status: 'Nothing To Do'.
+
+Loaded:
+   Package:  'CIQ Estimates Detail Anonymous Broker 23 Span' ,  Population:  'GLB'.
+   Target Name:  'xpressfeed_span',  Database Name:  'xpressfeed_span',  Database Account:  'sqsdb',  Database Version:  'Microsoft SQL Server 2016 (SP1-CU4) (KB4024305) - 13.0.4446.0 (X64)'.
+   Source Name:  'NewSource1' ,  Source Account:  'SQSP6662' ,  Source Type:  'Secure FTP (SSL)' ,  Source Host:  'edx.spglobal.com'
+Load Status: 'Nothing To Do'.
+
+Loaded:
+   Package:  'CIQ Estimates Detail Anonymous Broker 15 Span' ,  Population:  'GLB'.
+   Target Name:  'xpressfeed_span',  Database Name:  'xpressfeed_span',  Database Account:  'sqsdb',  Database Version:  'Microsoft SQL Server 2016 (SP1-CU4) (KB4024305) - 13.0.4446.0 (X64)'.
+   Source Name:  'NewSource1' ,  Source Account:  'SQSP6662' ,  Source Type:  'Secure FTP (SSL)' ,  Source Host:  'edx.spglobal.com'
+Load Status: 'Nothing To Do'.
+
+Loaded:
+   Package:  'CIQ Estimates Detail Anonymous Broker 43 Span' ,  Population:  'GLB'.
+   Target Name:  'xpressfeed_span',  Database Name:  'xpressfeed_span',  Database Account:  'sqsdb',  Database Version:  'Microsoft SQL Server 2016 (SP1-CU4) (KB4024305) - 13.0.4446.0 (X64)'.
+   Source Name:  'NewSource1' ,  Source Account:  'SQSP6662' ,  Source Type:  'Secure FTP (SSL)' ,  Source Host:  'edx.spglobal.com'
+Load Status: 'Nothing To Do'.
+
+Loaded:
+   Package:  'CIQ Estimates Detail Anonymous Broker 40 Span' ,  Population:  'GLB'.
+   Target Name:  'xpressfeed_span',  Database Name:  'xpressfeed_span',  Database Account:  'sqsdb',  Database Version:  'Microsoft SQL Server 2016 (SP1-CU4) (KB4024305) - 13.0.4446.0 (X64)'.
+   Source Name:  'NewSource1' ,  Source Account:  'SQSP6662' ,  Source Type:  'Secure FTP (SSL)' ,  Source Host:  'edx.spglobal.com'
+Load Status: 'Nothing To Do'.
+
+Loaded:
+   Package:  'CIQ Estimates Detail Anonymous Broker 13 Span' ,  Population:  'GLB'.
+   Target Name:  'xpressfeed_span',  Database Name:  'xpressfeed_span',  Database Account:  'sqsdb',  Database Version:  'Microsoft SQL Server 2016 (SP1-CU4) (KB4024305) - 13.0.4446.0 (X64)'.
+   Source Name:  'NewSource1' ,  Source Account:  'SQSP6662' ,  Source Type:  'Secure FTP (SSL)' ,  Source Host:  'edx.spglobal.com'
+Load Status: 'Nothing To Do'.
+
+Loaded:
+   Package:  'CIQ Estimates Detail Anonymous Broker 28 Span' ,  Population:  'GLB'.
+   Target Name:  'xpressfeed_span',  Database Name:  'xpressfeed_span',  Database Account:  'sqsdb',  Database Version:  'Microsoft SQL Server 2016 (SP1-CU4) (KB4024305) - 13.0.4446.0 (X64)'.
+   Source Name:  'NewSource1' ,  Source Account:  'SQSP6662' ,  Source Type:  'Secure FTP (SSL)' ,  Source Host:  'edx.spglobal.com'
+Load Status: 'Nothing To Do'.
+
+Loaded:
+   Package:  'CIQ Estimates Detail Anonymous Broker 25 Span' ,  Population:  'GLB'.
+   Target Name:  'xpressfeed_span',  Database Name:  'xpressfeed_span',  Database Account:  'sqsdb',  Database Version:  'Microsoft SQL Server 2016 (SP1-CU4) (KB4024305) - 13.0.4446.0 (X64)'.
+   Source Name:  'NewSource1' ,  Source Account:  'SQSP6662' ,  Source Type:  'Secure FTP (SSL)' ,  Source Host:  'edx.spglobal.com'
+Load Status: 'Nothing To Do'.
+
+Loaded:
+   Package:  'CIQ Estimates Detail Anonymous Broker 42 Span' ,  Population:  'GLB'.
+   Target Name:  'xpressfeed_span',  Database Name:  'xpressfeed_span',  Database Account:  'sqsdb',  Database Version:  'Microsoft SQL Server 2016 (SP1-CU4) (KB4024305) - 13.0.4446.0 (X64)'.
+   Source Name:  'NewSource1' ,  Source Account:  'SQSP6662' ,  Source Type:  'Secure FTP (SSL)' ,  Source Host:  'edx.spglobal.com'
+Load Status: 'Nothing To Do'.
+
+Loaded:
+   Package:  'CIQ Estimates Detail Anonymous Broker 14 Span' ,  Population:  'GLB'.
+   Target Name:  'xpressfeed_span',  Database Name:  'xpressfeed_span',  Database Account:  'sqsdb',  Database Version:  'Microsoft SQL Server 2016 (SP1-CU4) (KB4024305) - 13.0.4446.0 (X64)'.
+   Source Name:  'NewSource1' ,  Source Account:  'SQSP6662' ,  Source Type:  'Secure FTP (SSL)' ,  Source Host:  'edx.spglobal.com'
+Load Status: 'Nothing To Do'.
+
+Loaded:
+   Package:  'CIQ Estimates Detail Anonymous Broker 01 Span' ,  Population:  'GLB'.
+   Target Name:  'xpressfeed_span',  Database Name:  'xpressfeed_span',  Database Account:  'sqsdb',  Database Version:  'Microsoft SQL Server 2016 (SP1-CU4) (KB4024305) - 13.0.4446.0 (X64)'.
+   Source Name:  'NewSource1' ,  Source Account:  'SQSP6662' ,  Source Type:  'Secure FTP (SSL)' ,  Source Host:  'edx.spglobal.com'
+Load Status: 'Nothing To Do'.
+
+Loaded:
+   Package:  'CIQ Estimates Detail Anonymous Broker 63 Span' ,  Population:  'GLB'.
+   Target Name:  'xpressfeed_span',  Database Name:  'xpressfeed_span',  Database Account:  'sqsdb',  Database Version:  'Microsoft SQL Server 2016 (SP1-CU4) (KB4024305) - 13.0.4446.0 (X64)'.
+   Source Name:  'NewSource1' ,  Source Account:  'SQSP6662' ,  Source Type:  'Secure FTP (SSL)' ,  Source Host:  'edx.spglobal.com'
+Load Status: 'Nothing To Do'.
+
+Loaded:
+   Package:  'CIQ Estimates Detail Anonymous Broker 51 Span' ,  Population:  'GLB'.
+   Target Name:  'xpressfeed_span',  Database Name:  'xpressfeed_span',  Database Account:  'sqsdb',  Database Version:  'Microsoft SQL Server 2016 (SP1-CU4) (KB4024305) - 13.0.4446.0 (X64)'.
+   Source Name:  'NewSource1' ,  Source Account:  'SQSP6662' ,  Source Type:  'Secure FTP (SSL)' ,  Source Host:  'edx.spglobal.com'
+Load Status: 'Nothing To Do'.
+
+Loaded:
+   Package:  'CIQ Estimates Detail Anonymous Broker 10 Span' ,  Population:  'GLB'.
+   Target Name:  'xpressfeed_span',  Database Name:  'xpressfeed_span',  Database Account:  'sqsdb',  Database Version:  'Microsoft SQL Server 2016 (SP1-CU4) (KB4024305) - 13.0.4446.0 (X64)'.
+   Source Name:  'NewSource1' ,  Source Account:  'SQSP6662' ,  Source Type:  'Secure FTP (SSL)' ,  Source Host:  'edx.spglobal.com'
+Load Status: 'Nothing To Do'.
+
+Loaded:
+   Package:  'CIQ Estimates Detail Anonymous Broker 11 Span' ,  Population:  'GLB'.
+   Target Name:  'xpressfeed_span',  Database Name:  'xpressfeed_span',  Database Account:  'sqsdb',  Database Version:  'Microsoft SQL Server 2016 (SP1-CU4) (KB4024305) - 13.0.4446.0 (X64)'.
+   Source Name:  'NewSource1' ,  Source Account:  'SQSP6662' ,  Source Type:  'Secure FTP (SSL)' ,  Source Host:  'edx.spglobal.com'
+Load Status: 'Nothing To Do'.
+
+Loaded:
+   Package:  'CIQ Estimates Detail Anonymous Broker 07 Span' ,  Population:  'GLB'.
+   Target Name:  'xpressfeed_span',  Database Name:  'xpressfeed_span',  Database Account:  'sqsdb',  Database Version:  'Microsoft SQL Server 2016 (SP1-CU4) (KB4024305) - 13.0.4446.0 (X64)'.
+   Source Name:  'NewSource1' ,  Source Account:  'SQSP6662' ,  Source Type:  'Secure FTP (SSL)' ,  Source Host:  'edx.spglobal.com'
+Load Status: 'Nothing To Do'.
+
+Loaded:
+   Package:  'CIQ Estimates Detail Anonymous Broker 06 Span' ,  Population:  'GLB'.
+   Target Name:  'xpressfeed_span',  Database Name:  'xpressfeed_span',  Database Account:  'sqsdb',  Database Version:  'Microsoft SQL Server 2016 (SP1-CU4) (KB4024305) - 13.0.4446.0 (X64)'.
+   Source Name:  'NewSource1' ,  Source Account:  'SQSP6662' ,  Source Type:  'Secure FTP (SSL)' ,  Source Host:  'edx.spglobal.com'
+Load Status: 'Nothing To Do'.
+
+Loaded:
+   Package:  'CIQ Estimates Detail Anonymous Broker 49 Span' ,  Population:  'GLB'.
+   Target Name:  'xpressfeed_span',  Database Name:  'xpressfeed_span',  Database Account:  'sqsdb',  Database Version:  'Microsoft SQL Server 2016 (SP1-CU4) (KB4024305) - 13.0.4446.0 (X64)'.
+   Source Name:  'NewSource1' ,  Source Account:  'SQSP6662' ,  Source Type:  'Secure FTP (SSL)' ,  Source Host:  'edx.spglobal.com'
+Load Status: 'Nothing To Do'.
+
+Loaded:
+   Package:  'CIQ Estimates Detail Anonymous Broker 12 Span' ,  Population:  'GLB'.
+   Target Name:  'xpressfeed_span',  Database Name:  'xpressfeed_span',  Database Account:  'sqsdb',  Database Version:  'Microsoft SQL Server 2016 (SP1-CU4) (KB4024305) - 13.0.4446.0 (X64)'.
+   Source Name:  'NewSource1' ,  Source Account:  'SQSP6662' ,  Source Type:  'Secure FTP (SSL)' ,  Source Host:  'edx.spglobal.com'
+Load Status: 'Nothing To Do'.
+
+Loaded:
+   Package:  'CIQ Estimates Detail Anonymous Broker 08 Span' ,  Population:  'GLB'.
+   Target Name:  'xpressfeed_span',  Database Name:  'xpressfeed_span',  Database Account:  'sqsdb',  Database Version:  'Microsoft SQL Server 2016 (SP1-CU4) (KB4024305) - 13.0.4446.0 (X64)'.
+   Source Name:  'NewSource1' ,  Source Account:  'SQSP6662' ,  Source Type:  'Secure FTP (SSL)' ,  Source Host:  'edx.spglobal.com'
+Load Status: 'Nothing To Do'.
+
+Loaded:
+   Package:  'CIQ Estimates Detail Anonymous Broker 09 Span' ,  Population:  'GLB'.
+   Target Name:  'xpressfeed_span',  Database Name:  'xpressfeed_span',  Database Account:  'sqsdb',  Database Version:  'Microsoft SQL Server 2016 (SP1-CU4) (KB4024305) - 13.0.4446.0 (X64)'.
+   Source Name:  'NewSource1' ,  Source Account:  'SQSP6662' ,  Source Type:  'Secure FTP (SSL)' ,  Source Host:  'edx.spglobal.com'
+Load Status: 'Nothing To Do'.
+
+Loaded:
+   Package:  'CIQ Estimates Detail Anonymous Broker 32 Span' ,  Population:  'GLB'.
+   Target Name:  'xpressfeed_span',  Database Name:  'xpressfeed_span',  Database Account:  'sqsdb',  Database Version:  'Microsoft SQL Server 2016 (SP1-CU4) (KB4024305) - 13.0.4446.0 (X64)'.
+   Source Name:  'NewSource1' ,  Source Account:  'SQSP6662' ,  Source Type:  'Secure FTP (SSL)' ,  Source Host:  'edx.spglobal.com'
+Load Status: 'Nothing To Do'.
+
+Loaded:
+   Package:  'CIQ Estimates Detail Anonymous Broker 05 Span' ,  Population:  'GLB'.
+   Target Name:  'xpressfeed_span',  Database Name:  'xpressfeed_span',  Database Account:  'sqsdb',  Database Version:  'Microsoft SQL Server 2016 (SP1-CU4) (KB4024305) - 13.0.4446.0 (X64)'.
+   Source Name:  'NewSource1' ,  Source Account:  'SQSP6662' ,  Source Type:  'Secure FTP (SSL)' ,  Source Host:  'edx.spglobal.com'
+Load Status: 'Nothing To Do'.
+
+Loaded:
+   Package:  'CIQ Estimates Detail Anonymous Broker 16 Span' ,  Population:  'GLB'.
+   Target Name:  'xpressfeed_span',  Database Name:  'xpressfeed_span',  Database Account:  'sqsdb',  Database Version:  'Microsoft SQL Server 2016 (SP1-CU4) (KB4024305) - 13.0.4446.0 (X64)'.
+   Source Name:  'NewSource1' ,  Source Account:  'SQSP6662' ,  Source Type:  'Secure FTP (SSL)' ,  Source Host:  'edx.spglobal.com'
+Load Status: 'Nothing To Do'.
+
+Loaded:
+   Package:  'CIQ Estimates Detail Anonymous Broker 44 Span' ,  Population:  'GLB'.
+   Target Name:  'xpressfeed_span',  Database Name:  'xpressfeed_span',  Database Account:  'sqsdb',  Database Version:  'Microsoft SQL Server 2016 (SP1-CU4) (KB4024305) - 13.0.4446.0 (X64)'.
+   Source Name:  'NewSource1' ,  Source Account:  'SQSP6662' ,  Source Type:  'Secure FTP (SSL)' ,  Source Host:  'edx.spglobal.com'
+Load Status: 'Nothing To Do'.
+
+Loaded:
+   Package:  'CIQ Estimates Detail Anonymous Broker 50 Span' ,  Population:  'GLB'.
+   Target Name:  'xpressfeed_span',  Database Name:  'xpressfeed_span',  Database Account:  'sqsdb',  Database Version:  'Microsoft SQL Server 2016 (SP1-CU4) (KB4024305) - 13.0.4446.0 (X64)'.
+   Source Name:  'NewSource1' ,  Source Account:  'SQSP6662' ,  Source Type:  'Secure FTP (SSL)' ,  Source Host:  'edx.spglobal.com'
+Load Status: 'Nothing To Do'.
+
+Loaded:
+   Package:  'CIQ Estimates Detail Anonymous Broker 47 Span' ,  Population:  'GLB'.
+   Target Name:  'xpressfeed_span',  Database Name:  'xpressfeed_span',  Database Account:  'sqsdb',  Database Version:  'Microsoft SQL Server 2016 (SP1-CU4) (KB4024305) - 13.0.4446.0 (X64)'.
+   Source Name:  'NewSource1' ,  Source Account:  'SQSP6662' ,  Source Type:  'Secure FTP (SSL)' ,  Source Host:  'edx.spglobal.com'
+Load Status: 'Nothing To Do'.
+
+Loaded:
+   Package:  'CIQ Estimates Detail Anonymous Broker 31 Span' ,  Population:  'GLB'.
+   Target Name:  'xpressfeed_span',  Database Name:  'xpressfeed_span',  Database Account:  'sqsdb',  Database Version:  'Microsoft SQL Server 2016 (SP1-CU4) (KB4024305) - 13.0.4446.0 (X64)'.
+   Source Name:  'NewSource1' ,  Source Account:  'SQSP6662' ,  Source Type:  'Secure FTP (SSL)' ,  Source Host:  'edx.spglobal.com'
+Load Status: 'Nothing To Do'.
+
+Loaded:
+   Package:  'CIQ Estimates Detail Anonymous Broker 52 Span' ,  Population:  'GLB'.
+   Target Name:  'xpressfeed_span',  Database Name:  'xpressfeed_span',  Database Account:  'sqsdb',  Database Version:  'Microsoft SQL Server 2016 (SP1-CU4) (KB4024305) - 13.0.4446.0 (X64)'.
+   Source Name:  'NewSource1' ,  Source Account:  'SQSP6662' ,  Source Type:  'Secure FTP (SSL)' ,  Source Host:  'edx.spglobal.com'
+Load Status: 'Nothing To Do'.
+
+Loaded:
+   Package:  'CIQ Estimates Detail Anonymous Broker 29 Span' ,  Population:  'GLB'.
+   Target Name:  'xpressfeed_span',  Database Name:  'xpressfeed_span',  Database Account:  'sqsdb',  Database Version:  'Microsoft SQL Server 2016 (SP1-CU4) (KB4024305) - 13.0.4446.0 (X64)'.
+   Source Name:  'NewSource1' ,  Source Account:  'SQSP6662' ,  Source Type:  'Secure FTP (SSL)' ,  Source Host:  'edx.spglobal.com'
+Load Status: 'Nothing To Do'.
+
+Loaded:
+   Package:  'CIQ Estimates Detail Anonymous Broker 30 Span' ,  Population:  'GLB'.
+   Target Name:  'xpressfeed_span',  Database Name:  'xpressfeed_span',  Database Account:  'sqsdb',  Database Version:  'Microsoft SQL Server 2016 (SP1-CU4) (KB4024305) - 13.0.4446.0 (X64)'.
+   Source Name:  'NewSource1' ,  Source Account:  'SQSP6662' ,  Source Type:  'Secure FTP (SSL)' ,  Source Host:  'edx.spglobal.com'
+Load Status: 'Nothing To Do'.
+
+Loaded:
+   Package:  'CIQ Estimates Detail Anonymous Broker 22 Span' ,  Population:  'GLB'.
+   Target Name:  'xpressfeed_span',  Database Name:  'xpressfeed_span',  Database Account:  'sqsdb',  Database Version:  'Microsoft SQL Server 2016 (SP1-CU4) (KB4024305) - 13.0.4446.0 (X64)'.
+   Source Name:  'NewSource1' ,  Source Account:  'SQSP6662' ,  Source Type:  'Secure FTP (SSL)' ,  Source Host:  'edx.spglobal.com'
+Load Status: 'Nothing To Do'.
+
+Loaded:
+   Package:  'CIQ Estimates Detail Anonymous Broker 04 Span' ,  Population:  'GLB'.
+   Target Name:  'xpressfeed_span',  Database Name:  'xpressfeed_span',  Database Account:  'sqsdb',  Database Version:  'Microsoft SQL Server 2016 (SP1-CU4) (KB4024305) - 13.0.4446.0 (X64)'.
+   Source Name:  'NewSource1' ,  Source Account:  'SQSP6662' ,  Source Type:  'Secure FTP (SSL)' ,  Source Host:  'edx.spglobal.com'
+Load Status: 'Nothing To Do'.
+
+Loaded:
+   Package:  'CIQ Estimates Detail Anonymous Broker 24 Span' ,  Population:  'GLB'.
+   Target Name:  'xpressfeed_span',  Database Name:  'xpressfeed_span',  Database Account:  'sqsdb',  Database Version:  'Microsoft SQL Server 2016 (SP1-CU4) (KB4024305) - 13.0.4446.0 (X64)'.
+   Source Name:  'NewSource1' ,  Source Account:  'SQSP6662' ,  Source Type:  'Secure FTP (SSL)' ,  Source Host:  'edx.spglobal.com'
+Load Status: 'Nothing To Do'.
+
+Loaded:
+   Package:  'CIQ Estimates Detail Anonymous Broker 46 Span' ,  Population:  'GLB'.
+   Target Name:  'xpressfeed_span',  Database Name:  'xpressfeed_span',  Database Account:  'sqsdb',  Database Version:  'Microsoft SQL Server 2016 (SP1-CU4) (KB4024305) - 13.0.4446.0 (X64)'.
+   Source Name:  'NewSource1' ,  Source Account:  'SQSP6662' ,  Source Type:  'Secure FTP (SSL)' ,  Source Host:  'edx.spglobal.com'
+Load Status: 'Nothing To Do'.
+
+Loaded:
+   Package:  'CIQ Estimates Detail Anonymous Broker 41 Span' ,  Population:  'GLB'.
+   Target Name:  'xpressfeed_span',  Database Name:  'xpressfeed_span',  Database Account:  'sqsdb',  Database Version:  'Microsoft SQL Server 2016 (SP1-CU4) (KB4024305) - 13.0.4446.0 (X64)'.
+   Source Name:  'NewSource1' ,  Source Account:  'SQSP6662' ,  Source Type:  'Secure FTP (SSL)' ,  Source Host:  'edx.spglobal.com'
+Load Status: 'Nothing To Do'.
+
+Loaded:
+   Package:  'CIQ Estimates Detail Anonymous Broker 27 Span' ,  Population:  'GLB'.
+   Target Name:  'xpressfeed_span',  Database Name:  'xpressfeed_span',  Database Account:  'sqsdb',  Database Version:  'Microsoft SQL Server 2016 (SP1-CU4) (KB4024305) - 13.0.4446.0 (X64)'.
+   Source Name:  'NewSource1' ,  Source Account:  'SQSP6662' ,  Source Type:  'Secure FTP (SSL)' ,  Source Host:  'edx.spglobal.com'
+Load Status: 'Nothing To Do'.
+
+Loaded:
+   Package:  'CIQ Estimates Detail Anonymous Broker 21 Span' ,  Population:  'GLB'.
+   Target Name:  'xpressfeed_span',  Database Name:  'xpressfeed_span',  Database Account:  'sqsdb',  Database Version:  'Microsoft SQL Server 2016 (SP1-CU4) (KB4024305) - 13.0.4446.0 (X64)'.
+   Source Name:  'NewSource1' ,  Source Account:  'SQSP6662' ,  Source Type:  'Secure FTP (SSL)' ,  Source Host:  'edx.spglobal.com'
+Load Status: 'Nothing To Do'.
+
+Schedule:  'EstimatesDetail',  TimeId:  274
+
+Job Id:  '165578'
+
+Please view the Activity Log tab in the GUI for additional details.
+
+Engine Version:  5.10.1.29.
+Engine Operating System:  Windows Server 2012 R2.
+Engine Type:  Stand Alone.
+Feed Configuration Version:  FeedConfigV2Full20201026000000.
+Proxy Type:  None.
+
+--_94c5545b-1d70-4bfa-8efa-502b03ebe53f_--
+
+--_e87404c5-7409-48f8-b946-45e2390b3fb3_--

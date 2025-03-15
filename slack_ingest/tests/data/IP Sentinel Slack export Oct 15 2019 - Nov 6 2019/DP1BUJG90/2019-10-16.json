@@ -1,0 +1,55 @@
+[
+    {
+        "type": "message",
+        "subtype": "bot_message",
+        "text": "This content can’t be displayed.",
+        "ts": "1571216574.000100",
+        "username": "Microsoft OneDrive (Beta)",
+        "bot_id": "BPE5C8FDE",
+        "blocks": [
+            {
+                "type": "section",
+                "block_id": "wGs",
+                "text": {
+                    "type": "mrkdwn",
+                    "text": ":wave: *Welcome to OneDrive!*\n\nWith this app you can...",
+                    "verbatim": false
+                }
+            },
+            {
+                "type": "divider",
+                "block_id": "FdQ"
+            },
+            {
+                "type": "section",
+                "block_id": "RIBgU",
+                "text": {
+                    "type": "mrkdwn",
+                    "text": "*Get a rich preview* of files added to Slack so your colleagues can see your work.\n\n*Adjust sharing permissions* automatically when you post a link to make sure everyone in the channel can preview, view or edit the file.\n\n*Add files directly* from OneDrive into Slack from the message composer.",
+                    "verbatim": false
+                }
+            },
+            {
+                "type": "divider",
+                "block_id": "a2n"
+            },
+            {
+                "type": "actions",
+                "block_id": "qwozr",
+                "elements": [
+                    {
+                        "type": "button",
+                        "action_id": "in+",
+                        "text": {
+                            "type": "plain_text",
+                            "text": "Connect",
+                            "emoji": true
+                        },
+                        "value": "app_home_opened::0",
+                        "url": "https:\/\/slack.com\/interop-apps\/onedrive\/slack\/install\/authorize"
+                    }
+                ]
+            }
+        ]
+    }
+]

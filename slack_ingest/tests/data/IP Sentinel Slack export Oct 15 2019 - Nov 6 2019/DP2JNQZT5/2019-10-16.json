@@ -1,0 +1,23 @@
+[
+    {
+        "client_msg_id": "d25ca521-b6db-4858-8433-013d3c9ad5d3",
+        "type": "message",
+        "text": "I don't think so",
+        "user": "UPG9G6D38",
+        "ts": "1571218902.000200",
+        "team": "TP2JMH5U3",
+        "user_team": "TP2JMH5U3",
+        "source_team": "TP2JMH5U3",
+        "user_profile": {
+            "avatar_hash": "gb154cdd974c",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/b154cdd974caad88b398684a2efe0c58.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0003-72.png",
+            "first_name": "James",
+            "real_name": "James Hogbin",
+            "display_name": "",
+            "team": "TP2JMH5U3",
+            "name": "james",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        }
+    }
+]

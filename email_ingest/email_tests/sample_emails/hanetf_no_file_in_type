@@ -1,0 +1,455 @@
+Return-Path: <JournalError@hanetf.com>
+Received: from GBR01-CWL-obe.outbound.protection.outlook.com (mail-cwlgbr01lp2057.outbound.protection.outlook.com [104.47.20.57])
+ by inbound-smtp.eu-west-1.amazonaws.com with SMTP id 9gpmr2f4ff4i1s6lp6gr6deg1jmq9uafbge8pcg1
+ for hanetf@ip-sentinel.net;
+ Mon, 16 Nov 2020 19:16:49 +0000 (UTC)
+Received-SPF: pass (spfCheck: domain of hanetf.com designates 104.47.20.57 as permitted sender) client-ip=104.47.20.57; envelope-from=JournalError@hanetf.com; helo=mail-cwlgbr01lp2057.outbound.protection.outlook.com;
+Authentication-Results: amazonses.com;
+ spf=pass (spfCheck: domain of hanetf.com designates 104.47.20.57 as permitted sender) client-ip=104.47.20.57; envelope-from=JournalError@hanetf.com; helo=mail-cwlgbr01lp2057.outbound.protection.outlook.com;
+ dmarc=none header.from=solactive.com;
+X-SES-RECEIPT: AEFBQUFBQUFBQUFHeUVPOS85Q3E2eTFWVldFMjZrOGFsa3JQdTl6a00zOXB1NmNzT1k2bkp0M0FrZVNkV0lRVkM0WUpEMG54eUlleTJncS9CdFdZb2taRzYrYnI0RWJjQ3RhQjErREZRd2FlYlc1UXZ2NGdFQVhFY3oyMGZPeldhZ3kvL3RHQkxCaTl2ZWsxYm9vTGx3ejdiL2JvQk15SWFPdDRMOFpKZ3AwbDdLcnh6MTIzWEd4ZUxYeWlIbXF0UnVkaElkTzM1dW1Xa1Ftajl4bWhiN2ZRdzZ1NHJwdnhLNERwUU9aWGU5REUyb1U5eG1KdmU0SUtjL1hpdTZRd3ljTE96U0hycWVNdE1TWjJiazk2OXl0RlhlZnl3S3I3d1pPWlY0UE5YVmtxRzJXd1B3Tk9PN2lCUXZLYi9USWhUNlJsZjVXOUVrVlk9
+X-SES-DKIM-SIGNATURE: a=rsa-sha256; q=dns/txt; b=GKHAJvz8WLJWs/uNTud1dEzbFYX53ErlMrYutqjs4IuXfZjLnPXPKUP3aLX4aHLi3Ii2nV762hffWJL7/kZqs9u0oCp1dCOgl0yS59Srvn0NnVIuIQQE7StalCSLhsL6okWNxFwbUSI7Ydmze+ASOwYC8kPaVcfPK2fyfbi7OXw=; c=relaxed/simple; s=shh3fegwg5fppqsuzphvschd53n6ihuv; d=amazonses.com; t=1605554209; v=1; bh=6DQZh30+oCKR/F1PmnJaYjUlEXia+MngL+uIJgtfKHM=; h=From:To:Cc:Bcc:Subject:Date:Message-ID:MIME-Version:Content-Type:X-SES-RECEIPT;
+Content-Type: multipart/mixed;
+	boundary="_eaff00b1-f93f-4eca-9152-b79aa32cbb64_"
+Subject: MEDCAWEP_DCAF_2020-11-16.csv
+To: ops@hanetf.com
+From: Equity Operations <equity.ops@solactive.com>
+MIME-Version: 1.0
+Sender:
+	<MicrosoftExchange329e71ec88ae4615bbc36ab6ce41109e@hanetf.onmicrosoft.com>
+Message-ID: <4692dd63-d2d6-439a-a4f7-883e1f778da5@journal.report.generator>
+Date: Mon, 16 Nov 2020 19:16:49 +0000
+X-MS-PublicTrafficType: Email
+X-MS-Journal-Report:
+Return-Path: JournalError@hanetf.com
+X-MS-Exchange-Parent-Message-Id:
+	<1431112037.16290.1605554206627@services-7.muc.solactive.com>
+Auto-Submitted: auto-generated
+X-MS-Exchange-Generated-Message-Source: Journal Agent
+X-MS-TrafficTypeDiagnostic: CWXP123MB2712:JournalingReport
+X-OriginatorOrg: hanetf.onmicrosoft.com
+X-MS-Exchange-CrossTenant-AuthSource: CWXP123MB2712.GBRP123.PROD.OUTLOOK.COM
+X-MS-Exchange-CrossTenant-AuthAs: Internal
+X-MS-Exchange-CrossTenant-OriginalArrivalTime: 16 Nov 2020 19:16:49.1781 (UTC)
+X-MS-Exchange-CrossTenant-Network-Message-Id:
+	6b7ae77b-1602-483c-3e19-08d88a642ac4
+X-MS-Exchange-CrossTenant-FromEntityHeader: Hosted
+X-MS-Exchange-Transport-CrossTenantHeadersStamped: CWXP123MB2712
+
+--_eaff00b1-f93f-4eca-9152-b79aa32cbb64_
+Content-Type: text/plain; charset="us-ascii"
+Content-Transfer-Encoding: 7bit
+
+Sender: equity.ops@solactive.com
+Subject: MEDCAWEP_DCAF_2020-11-16.csv
+Message-Id: <1431112037.16290.1605554206627@services-7.muc.solactive.com>
+Recipient: nik.bienkowski@hanetf.com, Expanded: ops@hanetf.com
+Recipient: ignatius.faissal@hanetf.com, Expanded: ops@hanetf.com
+Recipient: Mark.Tan@hanetf.com, Expanded: ops@hanetf.com
+Recipient: Alistair.Currie@hanetf.com, Expanded: ops@hanetf.com
+Recipient: Bakar.Ahmedou@hanetf.com, Expanded: ops@hanetf.com
+
+--_eaff00b1-f93f-4eca-9152-b79aa32cbb64_
+Content-Type: message/rfc822
+
+Received: from AM5PR1001CA0053.EURPRD10.PROD.OUTLOOK.COM
+ (2603:10a6:206:15::30) by CWXP123MB2712.GBRP123.PROD.OUTLOOK.COM
+ (2603:10a6:400:3c::15) with Microsoft SMTP Server (version=TLS1_2,
+ cipher=TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384) id 15.20.3564.25; Mon, 16 Nov
+ 2020 19:16:48 +0000
+Received: from AM5EUR02FT032.eop-EUR02.prod.protection.outlook.com
+ (2603:10a6:206:15:cafe::2d) by AM5PR1001CA0053.outlook.office365.com
+ (2603:10a6:206:15::30) with Microsoft SMTP Server (version=TLS1_2,
+ cipher=TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384) id 15.20.3564.28 via Frontend
+ Transport; Mon, 16 Nov 2020 19:16:48 +0000
+Authentication-Results: spf=pass (sender IP is 80.190.116.240)
+ smtp.mailfrom=solactive.com; hanetf.com; dkim=none (message not signed)
+ header.d=none;hanetf.com; dmarc=bestguesspass action=none
+ header.from=solactive.com;compauth=pass reason=109
+Received-SPF: Pass (protection.outlook.com: domain of solactive.com designates
+ 80.190.116.240 as permitted sender) receiver=protection.outlook.com;
+ client-ip=80.190.116.240; helo=mail1.muc.solactive.com;
+Received: from mail1.muc.solactive.com (80.190.116.240) by
+ AM5EUR02FT032.mail.protection.outlook.com (10.152.8.109) with Microsoft SMTP
+ Server (version=TLS1_2, cipher=TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384) id
+ 15.20.3564.22 via Frontend Transport; Mon, 16 Nov 2020 19:16:48 +0000
+Received: from services-7.muc.solactive.com (services-7.muc.solactive.com [10.20.44.135])
+	by mail1.muc.solactive.com (Postfix) with ESMTPS id A0C2A631E
+	for <ops@hanetf.com>; Mon, 16 Nov 2020 20:16:46 +0100 (CET)
+Received: from services-7.muc.solactive.com (localhost [127.0.0.1])
+	by services-7.muc.solactive.com (Postfix) with ESMTP id 9994D1C643B
+	for <ops@hanetf.com>; Mon, 16 Nov 2020 20:16:46 +0100 (CET)
+Date: Mon, 16 Nov 2020 20:16:46 +0100 (CET)
+From: Equity Operations <equity.ops@solactive.com>
+To: ops@hanetf.com
+Message-ID: <1431112037.16290.1605554206627@services-7.muc.solactive.com>
+Subject: MEDCAWEP_DCAF_2020-11-16.csv
+MIME-Version: 1.0
+Content-Type: multipart/mixed;
+	boundary="_bcba6006-95ea-4fad-a06e-ca1e0508d1c8_"
+User-Agent: Solactive AG Mailer
+Return-Path: equity.ops@solactive.com
+X-MS-Exchange-Organization-OriginalArrivalTime: 16 Nov 2020 19:16:48.2337
+ (UTC)
+X-MS-Exchange-Organization-ExpirationStartTime: 16 Nov 2020 19:16:48.3156
+ (UTC)
+X-MS-Exchange-Organization-ExpirationStartTimeReason: OriginalSubmit
+X-MS-Exchange-Organization-ExpirationInterval: 1:00:00:00.0000000
+X-MS-Exchange-Organization-ExpirationIntervalReason: OriginalSubmit
+X-MS-Exchange-Organization-Network-Message-Id: 0c4e6b53-6493-4165-7acf-08d88a642a40
+X-MS-Exchange-Organization-OriginalClientIPAddress: 80.190.116.240
+X-MS-Exchange-Organization-OriginalServerIPAddress: 10.152.8.109
+X-MS-Exchange-Organization-MessageScope: bf8ea30c-a4ab-4be9-aa6c-8c41ccf1b85a
+X-EOPAttributedMessage: 0
+X-EOPTenantAttributedMessage: 87d200da-44e4-4d6b-8faa-beb9f609f811:0
+X-MS-Exchange-Organization-TargetResourceForest: GBRP123.PROD.OUTLOOK.COM
+X-MS-Exchange-Organization-OrgEopForest: EUR02
+X-MS-Exchange-Organization-MessageDirectionality: Incoming
+X-MS-Exchange-Organization-Id: 87d200da-44e4-4d6b-8faa-beb9f609f811
+X-MS-Exchange-Organization-FFO-ServiceTag: EUR02B
+X-MS-Exchange-Organization-Cross-Premises-Headers-Processed: AM5EUR02FT032.eop-EUR02.prod.protection.outlook.com
+X-MS-Exchange-Organization-ConnectingIP: 80.190.116.240
+X-MS-Exchange-Organization-ConnectingEHLO: mail1.muc.solactive.com
+X-MS-Exchange-Organization-AS-LastExternalIp: 80.190.116.240
+X-MS-Exchange-Organization-IsAtpTenant: true
+X-MS-Exchange-Organization-Originating-Country: DE
+X-MS-Exchange-Organization-P2SenderPII: <PII:H101(qBfabI4E7MS3WSbiyXy6XSB2asqFZUadt4dWEiRs2tc=)>@solactive.com
+X-MS-Exchange-Organization-P2SenderDisplayNamePII: H101(nn0zV1U7GZr5AVLALhquSrNgIQQ6QTkMzyan/SGcV5c=)
+X-MS-Exchange-Organization-OriginalEnvelopeRecipients: ops@hanetf.com
+X-MS-Exchange-Organization-PtrDomains: mail1.muc.solactive.com
+X-MS-Exchange-Organization-EhloAndPtrDomain: mail1.muc.solactive.com;mail1.muc.solactive.com
+X-MS-Exchange-Organization-MxPointsToUs: true
+X-MS-Exchange-Organization-RecipientMxInfo-PFAFD: hanetf.com#hanetf-com.mail.protection.outlook.com
+X-MS-Exchange-Organization-CompAuthRes: pass
+X-MS-Exchange-Organization-CompAuthReason: 109
+X-MS-Exchange-Organization-SpoofDetection-Frontdoor-DisplayDomainName: solactive.com
+X-MS-Exchange-Organization-Auth-ExtendedDmarcStatus: Pass
+X-MS-Exchange-Organization-SenderRep-Score: 1
+X-MS-Exchange-Organization-SenderRep-Data: IpClassLargeGrayBest_GrayBest_Good
+X-MS-Exchange-Organization-VBR-Class: GrayBest
+X-MS-Exchange-Organization-HMATPModel-Spf: 1
+X-MS-Exchange-Organization-HMATPModel-Recipient: <PII:H101(imI4fFzeTOAYo+FWBgkJ0nauKTO5KKiXi+5Thy4PDSs=)>@hanetf.com
+X-MS-Exchange-Organization-ASND: true
+X-MS-Exchange-Organization-TransportTrafficType: Email
+X-MS-PublicTrafficType: Email
+X-MS-Exchange-Organization-OrderedPrecisionLatencyInProgress: LSRV=AM5PR1001CA0053.EURPRD10.PROD.OUTLOOK.COM:TOTAL-FE=0.014|SMR-PEN=0.047(RENV=0.045|SMRPROXY-PEN=0.000);2020-11-16T19:16:48.483Z
+X-MS-Exchange-Organization-MessageLatency: SRV=AM5EUR02FT032.eop-EUR02.prod.protection.outlook.com:TOTAL-FE=0.234|SMR-PEN=0.198(RENV=0.050(SMRRC=0.049(SMRRC-TenantAttributionAndInboundConnectorAgent=0.036
+ ))|REOH=0.147(SMREH=0.115(SMREH-Protocol Filter
+ Agent=0.113))|SMRPROXY-PEN=0.000)|SMS=0.037
+X-MS-Exchange-Organization-MessageLatency:
+	SRV=AM5PR1001CA0053.EURPRD10.PROD.OUTLOOK.COM:TOTAL-FE=0.040|SMR-PEN=0.047(RENV=0.045|SMRPROXY-PEN=0.000)|SMS=0.026(SMSC=0.033)
+X-MS-Exchange-Forest-ArrivalHubServer: CWXP123MB2712.GBRP123.PROD.OUTLOOK.COM
+X-MS-Exchange-Organization-AuthSource:
+	AM5EUR02FT032.eop-EUR02.prod.protection.outlook.com
+X-MS-Exchange-Organization-AuthAs: Anonymous
+X-MS-Exchange-Organization-FromEntityHeader: Internet
+X-MS-Exchange-Forest-MessageScope: bf8ea30c-a4ab-4be9-aa6c-8c41ccf1b85a
+X-MS-Exchange-Organization-Antispam-ProtocolFilterHub-ScanContext:
+	ProtocolFilterHub:SmtpOnEndOfData;
+X-MS-Office365-Filtering-Correlation-Id: 0c4e6b53-6493-4165-7acf-08d88a642a40
+X-MS-Exchange-Organization-Auth-DmarcStatus: Pass
+X-MS-Exchange-Organization-OriginalSize: 13514
+X-MS-TrafficTypeDiagnostic: CWXP123MB2712:
+X-MS-Exchange-Organization-HygienePolicy: Premium
+X-MS-Exchange-Organization-ReplicationInfo:
+	ReplicaId=498cb74b-47d4-e327-4d7b-5c2a648ad808;ReplicatingServerFqdn=CWLP123MB2707.GBRP123.PROD.OUTLOOK.COM
+X-MS-Exchange-Forest-Language: en
+X-MS-Exchange-Forest-IndexAgent-0:
+	AQ0CZW4BHyxiZDYzNjkwMi0zNTI4LTQ1MjEtOGFkNC01MjhmM2ZkNj
+ lkMGI6dHh0OmNzdgABOQgAAA8AAAMfiwgAAAAAAAQA3VbNctvIEQb1
+ RwkSvZU36KNUK8umksiReIKAAYWYBBD8yPYRpkYiailCBkFrvZVDqv
+ IUuecNcs1tXyKXXPIk6ZkGhuCf7dibctWyIKinu6d/vx7MPw5bunML
+ H7IpDJP3HJLxB7id5sWQ5/BuyidFmo0nx3CTjf/zl78VMOSTtEgKDk
+ UGg2xcJIMCppOTlt7SX6bjG8j5XZLfTI4Fw7i5yflkcgH+KCl+ghu0
+ yNLxkKcFtI/h7PlvT1+AnSfjH4S/Y+jy/F54/zPYyY8X8P3vzuHsHF
+ 60z9tnz5+e/h75j4+PJ5NshD7T9/xkkN239Cue3LybJnnBc3QUVkIw
+ uscz25DcQz9Jx8rHMVjppMhTDH6QCYVD476Y3HHkDIuji1U7r4JLeH
+ F+/oezlm4Ok1SYgewWsE4QTh94/j6dZPkHuMww/Quw8hOw+Sj9Efo/
+ /3M4Gv789+mE5y29n4yTO37Px0WlGRb89paPIRwM+fTtiB+DOcwxuB
+ TtX2ej0f20GIpw8x8gzu+zMVbvGKL0PgP/lqe4NReldsa3GYYkmgVI
+ wWCUoo8J4PImKRJ4yLMBtiId30E6hmQwyPKbZDzg8JgWQzDyIh2MOL
+ RPgRcw4e9OqtRYjCUb8zwZgSXs+HlW8IF0E/C76Yg8HnYtPziCAYb8
+ lqP/KQIB2cLA4q56oA9YClVD1blH/hYhxhFSZpY/ZLkAmyE3T8DOcj
+ 5IJkXn1/dr6Vgq3mm3n7XPnp0+P33+rQP65X8tHXHL4dBk0VHn9PlF
+ ++xbR/TL/1r6t47g//D7lSbluBZ7DeyauVGHaNfos5J0QsctycgxX7
+ KgXASOWVJmHATMNd90Lkf4tfjCd8jQjBO9IddqJbyoRelfrWVoahUy
+ y+vNlmYcOn59WQY543ixGwVvwLPBcU0v8L3AiByvbjF2Heursuo6Zo
+ iBmZEXoD+LEQPLFofCtWTZhhmFLAJmeq7XX2DOqwaXYvucIrHqLr4s
+ UsP3A+/a6EEYGVEcdiQaANPHQLAoEL3xWYdeTt9xu6JslnPtWMy1wL
+ D+iFH2BX6EypwsYI57zUopWWWy7pYRsU7PCCOIfUFbxClVbBtTcq4Z
+ MV32CuYRIjgCHOJ/iQtBSkiQtkCDoAgIcxYUGOa56wAxp0WgEKyl5i
+ rmfNcEe2WT64LlLSuaPWN/fcOpBhFEXiS6fmUELAQvjrD/roUN7vge
+ toa6sUJqdLsB62JvQHZgnZHKix0wBnbPMyKZsUfdWuZW+q+Y072KBM
+ 5Mw69vWSmYeSnRii2kYOpZrJDOZ7FCwbwy3K7wJvAcoqvPL7AfB7g7
+ ZDgBvfJgiS9DM3B86cNH9LIVrBk4Z1NV5anCrY+cKkLPQ2dktkYv2s
+ O9ns8q/0sW58WzCe+L4ZitldGKgEBU0ZaYxHkPQpHQ4vZu4IWIjwCr
+ HSnhzKhvlKdC7fDAOSwPBouZPeyJ1cE2uS9FT4TLjmk7nVdOdHXl9Q
+ TiIDJek8DHMcU/CMR1skKI4+KQxbJsphFege/h0REBHnwxjddHFWZW
+ 5HdvjYHVMttxcUQWKoLasPAR7Yk6KrWn1Xm8yMYq207Ql8CqjtJ5Da
+ fv95hI5CM6eC47fdn9ZxBdGlWf1jhj1joFi/Ui3H0Zer14hZu1yaFh
+ jCCK5SEjEwUM9XMiX8b/sm10SvO8UqM6rVxgr5+u8FFO/HqFV6a9Xm
+ jbHxO+XpMmht1e0K3wvN4aAkiQcR1evue40SJqasNOoCu16qdWZARd
+ xKzp9X3DLb+1JU98bkuy/OIa5p9iJ2DBvPoSV2xcYpYmqvtCxII+Hr
+ dibBbJ2t0twokq5bJcsodi8tFwnzHxXejUeepWg0hgeJuwOhEWAgUe
+ 3i8CrKfvBDWQHSIDIcOsIxlmj60UIdidUH6CpOSrbr1+LL429sLlRr
+ Hl9bdaVNffpT10D15ilxfiJX55M17Br8q8LFp7V172Ku9Hs6BlBw8f
+ eA7to//9VmpZjvCDHcSGyCukHQfRFfbOYpHh9MJOFDCDLpdf04gver
+ d0bWND29zUtra0bXw3td09bX9b29nV9pCPyw2tiaKmdtDU9pAvdBq7
+ DU1rNDa3NQ05qN/U9M0Gbtc2G1sbmrbR2NzRtJ2GttdoiiVabmi/0b
+ b2UE3bPtCeILEhl+hiS9tBy7vCeHO/FAkmmpL2mxQJ+t3XDnCJG9Gp
+ rh3oIs4mRrir6bgL3xhn9T5AZUpHWttGZSTwLXJp7MqoNqXZbTJOyZ
+ ImGt+SmSITfan6oGhfiMot6LQpXcsY/t0Qgoam4yNNb2n/asg8tmUe
+ f8V/O/SgonrvaE2qKtVc6ax8UEFmt4f6+N6RxSGO2r4ri4kP5d7Snn
+ zSLAWzIxtN1mTHd6kgMrs9ipY4FDYRHwmVUsMYlOUd0b5NFFEjiD7Q
+ WioGckeW92QrKVMi6EEjCq6qdKSmKqNypyUpqByJVmZVpkQrvsqX6E
+ +mjMqkRiBRtIT9llrWa0iREC1HT1cJKppCUmVUs4lL0lFLSnxdO1Sp
+ 6U1dwF0S8PvUrAV9codSRSvUKQUMgBRUu+u9oDpT5PUtNJ6qrdR3Qo
+ WaiPqS8qpL60sVGA1sNRT7ld99TLnC9v4T7TtF78kwlBrWU9F1O4rA
+ sMlL3Yhec1Sjy3jwSGjKI4iYhMwFJh01n8OkU0t4bzTFIaxtKGUaqA
+ V91Rq1VGeOQh2VkeqgUKSiVQNFRqjC9RNMHS+4JHjjm3pNjmQfUU1X
+ BI32J08kNft1nKh+LUgpjJW0Ql39ZFjWxK8JfnRkVTfXRaWLj90uPZ jFJ8/V1c9/AfQUqzypGwAA
+X-MS-Exchange-Forest-IndexAgent: 1 2163
+X-MS-Exchange-Forest-EmailMessageHash: F3FAC7E0,756371FE
+X-MS-Exchange-Organization-IsPotentialIntraOrgMail: False
+X-MS-Exchange-Organization-Antispam-PreContentFilter-PolicyLoadTime:
+	MAOSUB:8;MAOSUBLOAD:7;SAORES:9;SAORESLOAD:7;SAORESRUN:0;SAORESCOUNT:1;SLORES:1;SLORESLOAD:1;
+X-MS-Exchange-Organization-AttachmentDetailsHeaderStamp-Success: 1.0
+X-MS-Exchange-Organization-AttachmentDetails:
+	0:E6HanjSoqX8gCVb5RHAlXarWGpCFHdcgxO2FTQplu5E=:U:Text:TUVEQ0FXRVBfRENBRl8yMDIwLTExLTE2LmNzdg==::#:False:::N:::N::N:None
+X-MS-Exchange-Organization-AttachmentDetailsInfo-ChunkCount: 1
+X-MS-Exchange-Organization-AttachmentDetailsInfo-0:
+	[{"ID":0,"FN":"MEDCAWEP_DCAF_2020-11-16.csv","FS":4506,"HFH":"E6HanjSoqX8gCVb5RHAlXarWGpCFHdcgxO2FTQplu5E=","FT":["Text"],"EXT":"csv","AF":0}]
+X-MS-Exchange-Organization-MessageFingerprint:
+	CED67C62.CE39F1B.F3E31E8B.D7EE2389.2017B
+X-MS-Exchange-Organization-UrlMinimumDomainAge: solactive.com#4150
+X-MS-Exchange-Organization-URLFeatureReduction:
+	18;2;0;17;0;0;0;0;13;3;1;10000000;0;0;0
+X-MS-Exchange-Organization-Persisted-Urls-ChunkCount: 1
+X-MS-Exchange-Organization-Persisted-Urls-0:
+	[{"ID":1,"OU":"www.solactive.com","U":"http://www.solactive.com/","IAR":false,"LI":{"BF":1,"SI":-1,"EndIndex":-1},"SRCI":1,"IU":null,"NU":"www.solactive.com","UFT":"{101:18,102:2,105:17,108:3,110:9,111:13,112:2,114:9,115:3,116:1,118:3,119:9,121:9,122:3,123:1,125:3,131:10000000,135:\"F538357B,5429E62B,C5089D13,2715311D,6C2ABEE9,89E1D997,6665D32E,10105C0F\",201:4150,202:131,203:232,204:4383,205:107,206:2,207:107,208:2,209:107,210:2,211:107,212:2,213:82,214:4,215:85,216:4,217:85,218:4,219:36,220:3,221:55,222:4,223:55,224:4,225:54,226:4,227:31,228:3,229:81,230:4,231:76,232:3,233:28,234:2,235:39,236:2,237:82,238:4,239:84,240:4,241:84,242:4,243:36,244:3,245:92,246:1,247:91,248:1,249:6,250:1,251:5,252:1}","DPD":{"UF":"256","OCH":"4400555071712079429","SCHM":"Http","CNT":"1","SL":"1","LOG":"1"},"PROC":[]}]
+X-MS-Exchange-Organization-PersistedUrlCount: 1
+X-MS-Exchange-Organization-Antispam-PreContentFilter-ScanContext:
+	CategorizerOnSubmitted;CategorizerOnResolved;
+X-MS-Exchange-Organization-AVScannedByV2: Symantec;Command;Microsoft
+X-MS-Exchange-Organization-AVScanComplete: true
+X-MS-Exchange-Organization-UrlSelected: 1
+X-MS-Exchange-Organization-UrlLogged: 1
+X-MS-Exchange-Organization-Recipient-Limit-Verified: True
+X-MS-Exchange-Organization-TotalRecipientCount: 5
+X-MS-Exchange-Organization-ReplyAllBlocker-Verdict: Allow
+X-MS-Exchange-Organization-ASDirectionalityType: 1
+X-MS-Exchange-Organization-Boomerang-Verdict: None
+X-MS-Exchange-Organization-HMATPModel-DkimAuthStatus: 7
+X-MS-Exchange-Organization-HMATPModel-DmarcAuthStatus: 2
+X-MS-Exchange-Organization-IP-Bulk-Level: 2
+X-MS-Exchange-Organization-BCL: 2
+X-MS-Exchange-Organization-BCL-Source: P2Bulk
+X-MS-Exchange-Organization-Rules-Execution-History:
+	8524db2d-d23e-4e64-a7dc-b4fd015f2464%%%83a6682c-454a-4f0a-8011-0cabb0e3de92%%%38f23adf-0334-410c-a46e-65920f72397b%%%c4f12d82-df23-48d5-98bf-a3a6f759059a
+X-MS-Exchange-Forest-RulesExecuted: CWXP123MB2712
+X-MS-Exchange-Organization-RulesExecuted: CWXP123MB2712
+X-MS-Exchange-Organization-HostedContentFilterPolicy: Spam Filts
+X-MS-Exchange-Organization-AntiPhishPolicy: Phishing Resistance
+X-MS-Exchange-Organization-SenderRecipientCommunicationState: EST
+X-MS-Exchange-Organization-Antispam-ContentFilter-ScanContext:
+	CategorizerOnResolved;
+X-MS-Exchange-Organization-Antiphish-V2: SKP-DLX-BLK-NOSAVE
+X-MS-Exchange-Organization-CommunicationStateSummary: EST
+X-MS-Exchange-Organization-FirstContactSummary:
+	ST=1;MRG=1;EXT=0;UN=1;ORCT=5;EV=5;FC=0;NESI=0;NES=0;ESTI=0;EST=5;INS=0;ERR=0
+X-MS-Exchange-Organization-CFA-UserOption: 0
+X-MS-Exchange-Organization-CompAuth: compauth=pass reason=109
+X-MS-Exchange-Organization-ContainsAttachments: true
+X-MS-Exchange-Organization-Feature-Long: 0	201:666	202:645	220:1	221:1	224:1
+	227:1	235:2	236:7	238:2	243:2	244:4	245:1	246:1	247:5	248:1	252:1	255:1	256:1
+	257:28	1006:contact	1007:Latn	1014:none	1015:solactive.com	1020:solactive.com
+	1030:solactive.com	1033:csv
+	1034:18B1BC63@hanetf.com,6DEF8726@hanetf.com,BCCF4D9D@hanetf.com,8199CAD0@hanetf.com,97D60DDD@hanetf.com
+	1035:solactive.com
+X-MS-Exchange-Organization-HDRFeatureV2:
+	11;0;0;1;1;0;1;1;0;0;9;9;18;0;9;18;0;0;5;0;95;8;16;2;2;4;4;2;1;8;87;87;43;15;87;43;19;14;20;6;7;2;1;-1;-1;-1;-1;-1;-1;7;110;0;3
+X-MS-Exchange-Organization-ExtractionAttachmentNames: 0
+X-MS-Exchange-Organization-ExtractionTags: SUBU;SUB64;LINK;
+X-MS-Exchange-Organization-ExtractionTagsURLFound: URL
+X-MS-Exchange-Organization-ExtractionTagsSubject: MEDCAWEP_DCAF_2020-11-16.csv
+X-MS-Exchange-Organization-ExtractionTagsFrom: Equity Operations
+ <equity.ops@solactive.com>
+X-MS-Exchange-Organization-ExtractionTagsSubjectNormalized: rnedcavvep dcaf
+ 2o2o l lb csv
+X-MS-Oob-TLC-OOBClassifiers: OLM:4502;
+X-MS-Exchange-Organization-SpamScore: 0
+X-MS-Exchange-Organization-Antispam-AnalystRuleHits:
+	(4636009)(286005)(356005)(83380400001)(336012)(7126003)(7596003)(426003)(7636003)(15974865002)(7696005)(2160300002)(33964004)(1096003)(55016002)(450100002)(86362001)(8676002)(6266002)(34206002)(26005)
+X-MS-Exchange-Organization-Antispam-ScanContext: DIR:Incoming;SFV:NSPM;SKIP:0;
+X-MS-Exchange-Organization-Antispam-PostContentFilter-ScanContext:
+	CategorizerOnResolved;CategorizerOnRouted;
+X-MS-Exchange-Organization-SCL: 1
+X-Microsoft-Antispam: BCL:2;
+X-Microsoft-Antispam-Message-Info:
+	=?us-ascii?Q?h7t6D6I3I1yi8sTftSALtd8gNKLrQBQW3ClurGsjeJmgH1RYuja4lNT+Q5EM?=
+ =?us-ascii?Q?e4jfbebnfFSNs60n7ppN3Tg0TMWTF8n+naG9PUXV+SxmqfkqTYnJLtTwYVQm?=
+ =?us-ascii?Q?EbVeNlDH4k4Ceey+VQO44VYzFqssGFp0Q1L/C9SSLQN1/YKYcYfWJGD/9IFb?=
+ =?us-ascii?Q?PAw9ckOSu9P8wlFlFi6KvmQhnQlmc6yXQWQ96WPeCVwxotjEyTlKvc+8l9Ai?=
+ =?us-ascii?Q?/KeHhMxnxw/d/emeeM20bOCFhN+PqELJjs+vj/T0eBssSVwAme441B8VoGGU?=
+ =?us-ascii?Q?Cji57Grp63nP5P8xXaCL7/YiW/IWh9q+odenzu6JGTlD0ax0G3DxFNFMN+N1?=
+ =?us-ascii?Q?k2lK02Z/dFTLKXtOU30+JWs5OSA2TNIm61mpTKALHlfhShlSJ4kk1zl0UwvI?=
+ =?us-ascii?Q?SblfD9rbyvV4YxqcHOI9mPE5B2cN3+6MM6NHiAZ4bLH3mCjgZD+Wxy/NbBAv?=
+ =?us-ascii?Q?hTSHnRU4gJXTBYDEkbMiwHrnwg3ksZzjRmSjZUelMH9LUaLwbRVxDoUcdPQY?=
+ =?us-ascii?Q?6Ugp3/m1cKqVi/2abblUKyTFW63zbpEmJG/s3+lFU5CHRtY+AdTDOcJAy3kT?=
+ =?us-ascii?Q?BTxdhDT0/W1XJH8TFFXwDusaa+9zR6R1zExZi8S7uwGJGqmBMxjV8PMs/fDZ?=
+ =?us-ascii?Q?99bG/7A14yld4LI2cuWTgjmBP6YT0Gof7EnCkFIxTq/U2dzXhd0wiuMm5hYs?=
+ =?us-ascii?Q?RzjZzzexxyXfZJdt+Y3fmU2g2Yxhw8ToD7RvbafQ0mQzkEA852HkBqcM6ort?=
+ =?us-ascii?Q?kSgTV3sAgQ1S85OLw5FrWQd97IJsbYEhsL2I5HoFKbVPTKtzQi12gP4VH41z?=
+ =?us-ascii?Q?95XRY000PmWRqRJgGX/1hR2K4P6T/Ilt43uSxMsKlyNSUrRC/HW3PpxQT0Bz?=
+ =?us-ascii?Q?ea+S/LCzaNkKg6c70Aeu9bcbvyoBUmYaxQZ30KcToLKetOEzHGx39+tuN14B?=
+ =?us-ascii?Q?Vc7hNDdu3tAu3B32ViY7coG27muCoyCuqePhAExXjud7RiWtrmibKXqmtgeZ?=
+ =?us-ascii?Q?7TYAdKSPnjCNBCUHTcf+MIxUVSRMfUu4eZ0xNmYW28Kt8iFCasbJKF9ATjrN?=
+ =?us-ascii?Q?7TtWXOhsBWNwzVI9JdGUlUq7ZqTBiTDhnsD+ZIKThqK/3lPztUSZot4nZbPy?=
+ =?us-ascii?Q?5UH5ZZtDktX40pnUrj9jP4E8Ll06T+gHjyC4rcSJhhCONh76tsIUEo0fCsCg?=
+ =?us-ascii?Q?QVBoMHJF0sBuM5bxYDQnIdYiLSTuTjg4bjmADLqEyBP6phURYRiZME8a71jo?=
+ =?us-ascii?Q?5MoOBk5LSSVzgqKm1hbEojXcJEB4or9TL3bbA3zu8dTsXWkLT8Nw0s4+IfvL?=
+ =?us-ascii?Q?8ve0zfUTffOyT/5sVbRyGW9w3alyYQ6L/X11voQYCSUevA=3D=3D?=
+X-Forefront-Antispam-Report:
+	CIP:80.190.116.240;CTRY:DE;LANG:en;SCL:1;SRV:;IPV:NLI;SFV:NSPM;H:mail1.muc.solactive.com;PTR:mail1.muc.solactive.com;CAT:NONE;SFS:(4636009)(286005)(356005)(83380400001)(336012)(7126003)(7596003)(426003)(7636003)(15974865002)(7696005)(2160300002)(33964004)(1096003)(55016002)(450100002)(86362001)(8676002)(6266002)(34206002)(26005);DIR:INB;
+X-MS-Exchange-Organization-GroupForkPerf: VCL=0;VL=9
+X-MS-Exchange-Organization-Cross-Session-Cache:
+	=?us-ascii?Q?00CIP=3D80.190.116.240;EIPC0=3D2004,2055,950,951,2005,2006,2?=
+ =?us-ascii?Q?007,2008,2009,2010,2011,2012,2013,2014,2000,2050,2051,2052,9?=
+ =?us-ascii?Q?52,902,2054,2016,903,901,907,905,904,2001,3000,2003,2002,967?=
+ =?us-ascii?Q?,2058,2059,2060,531,2017,5080,5011,5051,5001,5057,5055,5058,?=
+ =?us-ascii?Q?5056,5052,5054,906,5010,5059,5053,5002,5003,5005,5070;MIPC0?=
+ =?us-ascii?Q?=3D5051;REP=3D01,1,0\;01,2,0\;01,3,0\;01,4,0\;01,5,155\;01,6?=
+ =?us-ascii?Q?,0\;01,7,0\;01,8,476\;01,9,0\;01,10,0\;01,11,158\;01,12,476\?=
+ =?us-ascii?Q?;02,1,0\;02,2,0\;02,3,0\;02,4,0\;02,5,0\;02,6,0\;02,7,0;SL?=
+ =?us-ascii?Q?=3D1;EMSL=3D1;SCL=3D1;BL=3D2;RL=3D1;PID=3D0;EXPID=3D;IsIncom?=
+ =?us-ascii?Q?ingMail=3Dtrue;TIP=3DNotListed;CIPCRY=3DDE;SAUTHOP=3D1;RMX?=
+ =?us-ascii?Q?=3DOffice365;EIPC1=3D2004,2055,950,951,2005,2006,2007,2008,2?=
+ =?us-ascii?Q?009,2010,2011,2012,2013,2014,2000,2050,2051,2052,952,902,205?=
+ =?us-ascii?Q?4,2016,903,901,907,905,904,2001,3000,2003,2002,967,2058,2059?=
+ =?us-ascii?Q?,2060,531,2017,5080,5011,5051,5001,5057,5055,5058,5056,5052,?=
+ =?us-ascii?Q?5054,906,5010,5059,5053,5002,5003,5005,5070;MIPC1=3D2014,950?=
+ =?us-ascii?Q?,952,951,902,5051;A=3D00;MX=3D00;PTR=3D00mail1.muc.solactive?=
+ =?us-ascii?Q?.com;SPF=3D011ZXF1aXR5Lm9wc0Bzb2xhY3RpdmUuY29t;DKIM=3D;DMARC?=
+ =?us-ascii?Q?=3D02c29sYWN0aXZlLmNvbQ=3D=3D\;;AUTHRES=3D[mx.microsoft.com,?=
+ =?us-ascii?Q?1]{5,1,UABhAHMAcwA=3D,cwBlAG4AZABlAHIAIABJAFAAIABpAHMAIAA4AD?=
+ =?us-ascii?Q?AALgAxADkAMAAuADEAMQA2AC4AMgA0ADAA,cwBtAHQAcAAuAHIAYwBwAHQAV?=
+ =?us-ascii?Q?ABvAEQAbwBtAGEAaQBuAA=3D=3D|aABhAG4AZQB0AGYALgBjAG8AbQA=3D,c?=
+ =?us-ascii?Q?wBtAHQAcAAuAE0AYQBpAGwARgByAG8AbQA=3D|cwBvAGwAYQBjAHQAaQB2AG?=
+ =?us-ascii?Q?UALgBjAG8AbQA=3D}{9,17,QgBlAHMAdABHAHUAZQBzAHMAUABhAHMAcwA?=
+ =?us-ascii?Q?=3D,,YQBjAHQAaQBvAG4A|TgBvAG4AZQA=3D,aABlAGEAZABlAHIALgBmAHI?=
+ =?us-ascii?Q?AbwBtAA=3D=3D|cwBvAGwAYQBjAHQAaQB2AGUALgBjAG8AbQA=3D}{2,7,Tg?=
+ =?us-ascii?Q?BvAG4AZQA=3D,bQBlAHMAcwBhAGcAZQAgAG4AbwB0ACAAcwBpAGcAbgBlAGQ?=
+ =?us-ascii?Q?A}{12,7,TgBvAG4AZQA=3D,MAA=3D};SpfResult=3D1;DkimStatus=3D7;?=
+ =?us-ascii?Q?DkimSS=3D0;DmarcStatus=3D2;DmarcAction=3D0;ARCRES=3Dv1000000?=
+ =?us-ascii?Q?00000000000000000000000000000000000;CAuthExp=3Dtrue;MFP=3D59?=
+ =?us-ascii?Q?67dc50-83ae-44d5-99bf-5517618a6c39;PReRC=3D1;FPR=3DCED67C62.?=
+ =?us-ascii?Q?CE39F1B.F3E31E8B.D7EE2389.2017B;URLC=5FBE=3D1;URLC=5FBEC=3D1?=
+ =?us-ascii?Q?;URLC=5FAE=3D0;UMGPV=3D6286;UMEPV=3D9999;CGDLxSupported=3D1;?=
+ =?us-ascii?Q?BR=5FV=3DNone;DIR=3D1;PTRO=3Dsolactive.com;P2O=3Dsolactive.c?=
+ =?us-ascii?Q?om;P=5FCAUTH=3Dpass;P=5FCAUTHR=3D109;P2BCL=3D2;BCL=3D2;CFP?=
+ =?us-ascii?Q?=3Dcae710db-7c48-4bd5-835d-0edc5abb1ee9;HCFP=3D57de66ea-d41d?=
+ =?us-ascii?Q?-451e-9bf9-e4a6583bdd8e;APP=3Dbbbc5558-dfca-4b23-ad51-f2b148?=
+ =?us-ascii?Q?25a10d;GWS=5FRead=3DV2;GUIMP=5FSUM=3DR5E5S5;SRCS=3DEST;?=
+X-MS-Exchange-Organization-Cross-Session-Cache:
+	01TP_PTL=3;CAUTH=pass;CAUTHR=109;CAUTH_CAT=AD;IVB_DBG=D2;HMEPV=3630;HMEPV2=2573;HMESV=2682;HMESV2=9999;SRESV=4174;BMASV=1650;BMESV=3476;BMAPV=1253;BMEPV=1425;CMASV=5001;CMAPV=3255;CBEBV=6187;CBEBV2=7913;CLEPV=260;URLF_DBG=DS:8;ASC=0;FFV=NSPM;FV_SCL=1;FV=NSPM;FVS=Filters;FSCL=1;TAP_EP=
+X-MS-Exchange-Organization-Processed-By-Gcc-Journaling: Journal Agent
+
+--_bcba6006-95ea-4fad-a06e-ca1e0508d1c8_
+Content-Type: text/plain; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+
+If you have any further questions, don=E2=80=99t hesitate to contact us.
+
+Kind regards,
+
+Address: Platz der Einheit 1, 60327 Frankfurt, Germany | Fax: +49 69 719160=
+-25 | www.solactive.com=20
+Headquarters: Solactive AG, Frankfurt am Main, Germany, District court (Amt=
+sgericht): Frankfurt am Main, HRB 79986
+Chairman of the Supervisory Board: Dr. Felix M=C3=BChlh=C3=A4user
+Management Board: Steffen Scheuble, Christian Vollmuth, Dirk Urmoneit, Timo=
+ Pfeiffer
+
+Information for clients on data processing in accordance with Article 12 et=
+ seq. of the EU General Data Protection Regulation (GDPR) can be found on t=
+he Data Protection Information page of the Solactive website.
+
+--_bcba6006-95ea-4fad-a06e-ca1e0508d1c8_
+Content-Type: multipart/mixed;
+	boundary="_252b26fe-d61b-4c87-a0dd-cc466b70f0f1_"
+
+--_252b26fe-d61b-4c87-a0dd-cc466b70f0f1_
+Content-Type: text/csv
+Content-Transfer-Encoding: quoted-printable
+Content-Disposition: attachment; filename=MEDCAWEP_DCAF_2020-11-16.csv
+
+Corporate Actions Forecast;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;=
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;=
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;=
+;;;;;;;;;;;;
+Date;11/16/2020;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;=
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;=
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+Time (CET);20:16;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;=
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;=
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;=
+;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;=
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;=
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;=
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;=
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+INDEX EVENT;INDEX NAME;INDEX ISIN;INDEX TICKER;INDEX RIC;INDEX CURRENCY;Bla=
+nk;Blank;Blank;Blank;Blank;Blank;Blank;Blank;Blank;Blank;SECURITY NAME;SECU=
+RITY RIC;SECURITY TICKER;SECURITY ISIN;SECURITY SEDOL;SECURITY CUSIP;SECURI=
+TY CURRENCY;SECURITY COUNTRY OF INCORPORATION;SECURITY SUNID;Blank;Blank;Bl=
+ank;Blank;Blank;Blank;Blank;Blank;Blank;Blank;GICS SECTOR CODE;GICS INDUSTR=
+Y CODE;FACTSET ECONOMY CODE;FACTSET INDUSTRY CODE;RBICS ECONOMY CODE;RBICS =
+SECTOR CODE;Blank;Blank;Blank;Blank;Blank;Blank;Blank;Blank;Blank;APPROVAL =
+STATUS;EVENT ID;ACTION TYPE;TYPE;TIMING OF DIVIDEND ADJUSTMENT;TYPE OF DIVI=
+DEND REINVESTMENT;EVENT ENTRY DATE;LAST UPDATED DATE;EVENT EFFECTIVE DATE;N=
+EW SECURITY NAME;NEW RIC;NEW TICKER;NEW ISIN;NEW SEDOL;NEW CUSIP;NEW SECURI=
+TY CURRENCY;NEW SECURITY COUNTRY OF INCORPORATION;NEW SECURITY SUNID;NEW GI=
+CS SECTOR CODE;NEW GICS INDUSTRY CODE;NEW FACTSET ECONOMY CODE;NEW FACTSET =
+INDUSTRY CODE;NEW RBICS ECONOMY CODE;NEW RBICS SECTOR CODE;Blank;Blank;Blan=
+k;Blank;Blank;Blank;Blank;Blank;Blank;CURRENT TOTAL SHARES OUTSTANDING;POST=
+ EVENT SHARES OUTSTANDING;AGGREGATE NEW TOTAL SHARES OUTSTANDING;CURRENT FR=
+EE FLOAT FACTOR;NEW FREE FLOAT FACTOR;CURRENT WEIGHTING CAP FACTOR;NEW WEIG=
+HTING CAP FACTOR;CURRENT FRACTION OF SHARES;POST EVENT FRACTION OF SHARES;A=
+GGREGATE NEW FRACTION OF SHARES;CHANGING DIVISOR;Blank;Blank;Blank;Blank;Bl=
+ank;Blank;Blank;PURCHASE RELATION;SUBSCRIPTION PRICE;SUBSCRIPTION PRICE CUR=
+RENCY;ADJUSTMENT FACTOR;AGGREGATED ADJUSTMENT FACTOR;CLOSE PRICE;CLOSE PRIC=
+E CURRENCY;ADJUSTED OPEN PRICE;AGGREGATED ADJUSTED OPEN PRICE;DIVIDEND AMOU=
+NT;DIVIDEND CURRENCY;CURRENCY RATE FOR CONVERSION DIVIDEND AMOUNT;GROSS OR =
+NET DIVIDEND;DIVIDEND PAY DATE;DIVIDEND RECORD DATE;DECLARED;FRANKING RATE;=
+CFI;WITHHOLDING TAX RATE;PID;PID Rate;CURRENT INSTRUMENT CASH POCKET VALUE;=
+NEW INSTRUMENT CASH POCKET VALUE;CURRENT INDEX CASH POCKET VALUE;NEW INDEX =
+CASH POCKET VALUE;FINAL DIVIDEND AMOUNT IN INDEX CURRENCY;LATE DIVIDEND - S=
+TATUS;LATE DIVIDEND - CONFIRMATION DATE;LATE DIVIDEND - IMPLEMENTATION DATE=
+;LATE DIVIDEND - ESTIMATED / TBA AMOUNT;LATE DIVIDEND - CONFIRMED AMOUNT;LA=
+TE DIVIDEND - DELTA ABSOLUTE;LATE DIVIDEND - CURRENCY;LATE DIVIDEND - CONST=
+ITUENT STATUS ON IMPLEMENTATION DATE;LATE DIVIDEND - ADJUSTMENT FACTOR;LATE=
+ DIVIDEND - CORRECTION FACTOR;LATE DIVIDEND SHARES ON EX-DATE;LATE DIVIDEND=
+ DIVISOR ON EX-DATE;LATE DIVIDEND WCF ON EX-DATE;LATE DIVIDEND FFF ON EX-DA=
+TE;LATE DIVIDEND FX ON IMPLEMENTATION DATE - 1;LATE DIVIDEND TAX RATE ON EX=
+-DATE;LATE DIVIDEND INDIVIDUAL DIVIDEND POINTS;LATE DIVIDEND AGGREGATED IND=
+EX POINTS;Blank;Blank;TARGET COMPANY NAME;TARGET RIC;TARGET TICKER;ACQUIRER=
+ COMPANY NAME;ACQUIRER COMPANY RIC;ACQUIRER COMPANY TICKER;TYPE OF TERMS;CA=
+SH TERMS;CASH TERMS CURRENCY;STOCK TERMS;DATE SHAREHOLDER MEETING;SHAREHOLD=
+ER APPROVAL RECEIVED;TENDER OFFER EXPIRATION DATE;(EXPECTED) COMPLETION DAT=
+E;(EXPECTED) DELISTING DATE;Blank;Blank;Blank;Blank;Blank;Blank;Blank;Blank=
+;Blank;Blank;SPUN OFF SECURITY NAME;SPUN OFF RIC;SPUN OFF TICKER;SPUN OFF S=
+ECURITY ISIN;SPUN OFF SECURITY SEDOL;SPUN OFF SECURITY CUSIP;SPUN OFF SECUR=
+ITY CURRENCY;SPUN OFF SECURITY COUNTRY OF INCORPORATION;SPUN OFF SECURITY S=
+UNID;SPUN OFF TERMS (per 1);Blank;Blank;Blank;Blank;Blank;Blank;Blank;Blank=
+;ADDITIONAL COMMENT;FURTHER DETAILS;TREATMENT;Blank;Blank;Blank;Blank;Blank=
+;Blank;Blank;Blank;Blank;Blank;Blank;Blank;Blank;Blank;Blank;Blank;Blank;Bl=
+ank;Blank
+
+--_252b26fe-d61b-4c87-a0dd-cc466b70f0f1_--
+
+--_bcba6006-95ea-4fad-a06e-ca1e0508d1c8_--
+
+--_eaff00b1-f93f-4eca-9152-b79aa32cbb64_--

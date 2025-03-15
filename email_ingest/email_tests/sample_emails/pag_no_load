@@ -1,0 +1,1564 @@
+Return-Path: <spammonitoring@pag.com>
+Received: from APC01-PU1-obe.outbound.protection.outlook.com (mail-pu1apc01lp2053.outbound.protection.outlook.com [104.47.126.53])
+ by inbound-smtp.eu-west-1.amazonaws.com with SMTP id ff70agb2ekrbio5u9b5nvifabatv5b6ut7fkus81
+ for pag@ip-sentinel.net;
+ Mon, 16 Nov 2020 15:42:53 +0000 (UTC)
+Received-SPF: pass (spfCheck: domain of pag.com designates 104.47.126.53 as permitted sender) client-ip=104.47.126.53; envelope-from=spammonitoring@pag.com; helo=mail-pu1apc01lp2053.outbound.protection.outlook.com;
+Authentication-Results: amazonses.com;
+ spf=pass (spfCheck: domain of pag.com designates 104.47.126.53 as permitted sender) client-ip=104.47.126.53; envelope-from=spammonitoring@pag.com; helo=mail-pu1apc01lp2053.outbound.protection.outlook.com;
+ dmarc=fail header.from=ubs.com;
+X-SES-RECEIPT: AEFBQUFBQUFBQUFIeTI1eU94L1RVQXFzdzEvSmgxN1p1amNxQVpaMmxOdUM0SGJERnc2ZFk1NTJPeFhxRGxxbGE1VWhMdUlKcW5LdXY1ZjBKbUNZQ3VTeGdRRG5aL2pTSjgxYWlyeXhNbzgxdC9wVkxCaXNkcHlBNCtjaGVsVndteHljZDRSM3pCY3I3cFI0YllESmVWNDd0TTNIQkppVTJyTkNBWWFVaXh2SDJRMVNMSzA3ZTE2TU5LR0dQdDFQOGZNdmNFVXZjYVJMK3BiSy9oTDA3cTJjSzE0TjMwVU1SejJCV2F0dG9qcEtFZVh6TXNlMVlGaG9FRzcxazdrRU9jM2NsUkxUSENaYVhtajJPRGR0eDZxV2ozMEZYUUt2NXNuRUNaMlNOeWhOVWZScXFkcGNYZGJUVi9kT3ZtRTBOS3QzUGJPdElFVE09
+X-SES-DKIM-SIGNATURE: a=rsa-sha256; q=dns/txt; b=M571KvzlcvP+wD2MlsePuBUFoRbrxZlExjxZNE2fcmGLOcjRbPUPYqSHCPotsbA2g+tcXjYRqKDPDN5JD//tD1V+tUY+B4L0X7kXKxS3mqPxmoeqiduRPFCpmbgYKVo309l9b03xFwNOQkOLVOPTwUcWzDGBtfFAZW/74orT81A=; c=relaxed/simple; s=shh3fegwg5fppqsuzphvschd53n6ihuv; d=amazonses.com; t=1605541375; v=1; bh=G71lx5seI2liGlZH8tstiQOLTBkk2HYqqY1mqrMeDDU=; h=From:To:Cc:Bcc:Subject:Date:Message-ID:MIME-Version:Content-Type:X-SES-RECEIPT;
+Content-Type: multipart/mixed;
+	boundary="_37570ebf-d76e-4d55-8536-6a5b63b40db0_"
+Subject: UBS: Memory Semis Monthly "November '20 Edition: Mobile DRAM pricing first up"
+To: <mcarruth@pagasia.com>
+From: <nicolas.gaudois@ubs.com>
+MIME-Version: 1.0
+Sender:
+	<MicrosoftExchange329e71ec88ae4615bbc36ab6ce41109e@pagcloud.onmicrosoft.com>
+Message-ID: <c9155a42-5295-4e78-8447-3750d5cfd7ec@journal.report.generator>
+Date: Mon, 16 Nov 2020 15:42:50 +0000
+X-MS-PublicTrafficType: Email
+X-MS-Journal-Report:
+Return-Path: spammonitoring@pag.com
+X-MS-Exchange-Parent-Message-Id: <NM610B129D711B56902ubs@ubs.com>
+Auto-Submitted: auto-generated
+X-MS-Exchange-Generated-Message-Source: Journal Agent
+X-MS-TrafficTypeDiagnostic: KL1PR0401MB4194:JournalingReport
+X-OriginatorOrg: pagcloud.onmicrosoft.com
+X-MS-Exchange-CrossTenant-AuthSource:
+	KL1PR0401MB4194.apcprd04.prod.outlook.com
+X-MS-Exchange-CrossTenant-AuthAs: Internal
+X-MS-Exchange-CrossTenant-OriginalArrivalTime: 16 Nov 2020 15:42:50.2861 (UTC)
+X-MS-Exchange-CrossTenant-Network-Message-Id:
+	1e8167d4-d6dc-4b1d-c979-08d88a464630
+X-MS-Exchange-CrossTenant-FromEntityHeader: Hosted
+X-MS-Exchange-Transport-CrossTenantHeadersStamped: KL1PR0401MB4194
+
+--_37570ebf-d76e-4d55-8536-6a5b63b40db0_
+Content-Type: text/plain; charset="us-ascii"
+Content-Transfer-Encoding: 7bit
+
+Sender: nicolas.gaudois@ubs.com
+Subject: UBS: Memory Semis Monthly "November '20 Edition: Mobile DRAM pricing first up"
+Message-Id: <NM610B129D711B56902ubs@ubs.com>
+Recipient: mcarruth@pag.com
+
+--_37570ebf-d76e-4d55-8536-6a5b63b40db0_
+Content-Type: message/rfc822
+
+Received: from HK2PR04CA0064.apcprd04.prod.outlook.com (2603:1096:202:14::32)
+ by KL1PR0401MB4194.apcprd04.prod.outlook.com (2603:1096:820:21::7) with
+ Microsoft SMTP Server (version=TLS1_2,
+ cipher=TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384) id 15.20.3564.25; Mon, 16 Nov
+ 2020 15:42:47 +0000
+Received: from HK2APC01FT033.eop-APC01.prod.protection.outlook.com
+ (2603:1096:202:14:cafe::ea) by HK2PR04CA0064.outlook.office365.com
+ (2603:1096:202:14::32) with Microsoft SMTP Server (version=TLS1_2,
+ cipher=TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384) id 15.20.3564.25 via Frontend
+ Transport; Mon, 16 Nov 2020 15:42:46 +0000
+Authentication-Results: spf=pass (sender IP is 161.239.225.142)
+ smtp.mailfrom=ubs.com; pagasia.com; dkim=fail (signature did not verify)
+ header.d=ubs.com;pagasia.com; dmarc=pass action=none
+ header.from=ubs.com;compauth=pass reason=100
+Received-SPF: Pass (protection.outlook.com: domain of ubs.com designates
+ 161.239.225.142 as permitted sender) receiver=protection.outlook.com;
+ client-ip=161.239.225.142; helo=cli-lp-gate1.stm.ibb.ubs.com;
+Received: from cli-lp-gate1.stm.ibb.ubs.com (161.239.225.142) by
+ HK2APC01FT033.mail.protection.outlook.com (10.152.248.190) with Microsoft
+ SMTP Server (version=TLS1_2, cipher=TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384) id
+ 15.20.3564.22 via Frontend Transport; Mon, 16 Nov 2020 15:42:45 +0000
+Received: from localhost (localhost [10.0.0.1])
+	by postfix.amavisd (Postfix) with ESMTP id 4CZYHQ1PJYz52L7x
+	for <mcarruth@pagasia.com>; Mon, 16 Nov 2020 10:42:42 -0500 (EST)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=ubs.com; h=
+	content-type:content-type:message-id:x-mailer:mime-version
+	:reply-to:date:date:subject:subject:from:from:received:received
+	:received:received; s=srsa2048; t=1605541362; bh=U+2/de+R16zliwK
+	j+uY9qew0CEtXiSBp+o7Ef/Mq9RY=; b=RtDagDMEKdC29yWwQzsbXc3IDcRO1PU
+	iqwu9DxHMRiMOywQgP8z3PpnVyDyFlVvUeSuuAK103LtqYinICQGfEWMWXG8oVfA
+	9saviRfq7PfolO6xLr9HHa5Sh9rvPmmesJG81l03asBIPanAnXH9kTpEMUtZ3ZUE
+	EHZr7YPk0O5yK7z/eyvV/e4/dxG3+eUpEFDv75Nb7zT6XzFnIeow8Yvj0I1sx868
+	lTrs2poR6KX//CkRxmmq+B9QF+CeMoVOHtAuiXNk50XF3oK/YQYngJIDdnpuR4KE
+	dyujGG82DlWt/dnNjrS9XflKpnHXf+tA9hJFFJnozIwG9Q3CNT4o0wQ==
+Received: from cli-lp-gate1.stm.ibb.ubs.com ([10.0.0.1])
+	by localhost (a302-2544-2108.stm.swissbank.com [10.0.0.1]) (amavisd-new, port 10024)
+	with ESMTP id ws0wlXiKUcSN for <mcarruth@pagasia.com>;
+	Mon, 16 Nov 2020 10:42:42 -0500 (EST)
+Received: by cli-lp-gate1.stm.ibb.ubs.com (Postfix, from userid 103)
+	id 4CZYHQ0h0wz52L7p; Mon, 16 Nov 2020 10:42:42 -0500 (EST)
+Received: from a302-1316-4959.stm.swissbank.com (unknown [10.57.224.252])
+	by cli-lp-gate1.stm.ibb.ubs.com (Postfix) with ESMTP id 4CZYFp0zL7z503jy
+	for <mcarruth@pagasia.com>; Mon, 16 Nov 2020 10:41:18 -0500 (EST)
+Received: from a301-6140-8438.stm.swissbank.com (unknown [10.26.54.61])
+	by a302-1316-4959.stm.swissbank.com (Postfix) with ESMTP id 4CZYFp0qLCz9xYP2
+	for <mcarruth@pagasia.com>; Mon, 16 Nov 2020 15:41:18 +0000 (UTC)
+From: <nicolas.gaudois@ubs.com>
+Subject: UBS: Memory Semis Monthly "November '20 Edition: Mobile DRAM pricing first up"
+Date: Mon, 16 Nov 2020 10:41:17 -0500
+To: <mcarruth@pagasia.com>
+Reply-To: <nicolas.gaudois@ubs.com>
+MIME-Version: 1.0
+X-mailer: nlserver, Build 6.7.0
+Message-ID: <NM610B129D711B56902ubs@ubs.com>
+X-Orig: UBSResearch
+X-UBS-SourceApplication: RadarResearchMailer
+Content-Type: multipart/mixed;
+	boundary="_c2f44a47-19aa-42c7-bd36-2121c3854e6a_"
+X-UBS-Disclaimer: Version $Revision: 1.38 (postfix edition)$
+Return-Path: no-reply@ubs.com
+X-MS-Exchange-Organization-OriginalArrivalTime: 16 Nov 2020 15:42:45.1610
+ (UTC)
+X-MS-Exchange-Organization-ExpirationStartTime: 16 Nov 2020 15:42:45.6357
+ (UTC)
+X-MS-Exchange-Organization-ExpirationStartTimeReason: OriginalSubmit
+X-MS-Exchange-Organization-ExpirationInterval: 1:00:00:00.0000000
+X-MS-Exchange-Organization-ExpirationIntervalReason: OriginalSubmit
+X-MS-Exchange-Organization-Network-Message-Id: a32adfff-7f99-462a-0c46-08d88a46436b
+X-MS-Exchange-Organization-OriginalClientIPAddress: 161.239.225.142
+X-MS-Exchange-Organization-OriginalServerIPAddress: 10.152.248.190
+X-MS-Exchange-Organization-MessageScope: f35c709d-1f12-4b8f-bfed-088dfe4f8e30
+X-EOPAttributedMessage: 0
+X-EOPTenantAttributedMessage: f541de3d-cd73-48a0-aac4-77d090e49ad5:0
+X-MS-Exchange-Organization-TargetResourceForest: apcprd04.prod.outlook.com
+X-MS-Exchange-Organization-OrgEopForest: APC01
+X-MS-Exchange-Organization-MessageDirectionality: Incoming
+X-MS-Exchange-Organization-Id: f541de3d-cd73-48a0-aac4-77d090e49ad5
+X-MS-Exchange-Organization-FFO-ServiceTag: APC01B
+X-MS-Exchange-Organization-Cross-Premises-Headers-Processed: HK2APC01FT033.eop-APC01.prod.protection.outlook.com
+X-MS-Exchange-Organization-ConnectingIP: 161.239.225.142
+X-MS-Exchange-Organization-ConnectingEHLO: cli-lp-gate1.stm.ibb.ubs.com
+X-MS-Exchange-Organization-AS-LastExternalIp: 161.239.225.142
+X-MS-Exchange-Organization-IsAtpTenant: true
+X-MS-Exchange-Organization-Originating-Country: US
+X-MS-Exchange-Organization-P2SenderPII: <PII:H101(qUl0ApFZb1ujPwV+0yYnc0Jr4tBXAkcFy20y+kKDD34=)>@ubs.com
+X-MS-Exchange-Organization-OriginalEnvelopeRecipients: mcarruth@pagasia.com
+X-MS-Exchange-Organization-PtrDomains: cli-lp-gate1.stm.ibb.ubs.com
+X-MS-Exchange-Organization-EhloAndPtrDomain: cli-lp-gate1.stm.ibb.ubs.com;cli-lp-gate1.stm.ibb.ubs.com
+X-MS-Exchange-Organization-MxPointsToUs: true
+X-MS-Exchange-Organization-RecipientMxInfo-PFAFD: pagasia.com#pagasia-com.mail.protection.outlook.com
+X-MS-Exchange-Organization-CompAuthRes: pass
+X-MS-Exchange-Organization-CompAuthReason: 100
+X-MS-Exchange-Organization-SpoofDetection-Frontdoor-DisplayDomainName: ubs.com
+X-MS-Exchange-Organization-Auth-ExtendedDmarcStatus: Pass
+X-MS-Exchange-Organization-SenderRep-Score: 1
+X-MS-Exchange-Organization-SenderRep-Data: IpClassLargeGrayOther_GrayOther_Good
+X-MS-Exchange-Organization-VBR-Class: GrayOther
+X-MS-Exchange-Organization-HMATPModel-Spf: 1
+X-MS-Exchange-Organization-HMATPModel-Recipient: <PII:H101(+zY3hczxG9mNz7MWorEVfUFpuQU5307mHV0iD5SuAv4=)>@pagasia.com
+X-MS-Exchange-Organization-ASNIPLDA: true
+X-MS-Exchange-Organization-TransportTrafficType: Email
+X-MS-PublicTrafficType: Email
+X-MS-Exchange-Organization-OrderedPrecisionLatencyInProgress: LSRV=HK2PR04CA0064.apcprd04.prod.outlook.com:TOTAL-FE=0.004|SMR-PEN=0.009(SMRPROXY-PEN=0.000);2020-11-16T15:42:46.897Z
+X-MS-Exchange-Organization-MessageLatency: SRV=HK2APC01FT033.eop-APC01.prod.protection.outlook.com:TOTAL-FE=1.731|SMR-PEN=1.728(RENV=0.161(SMRRC=0.160(SMRRC-TenantAttributionAndInboundConnectorAgent=0.140
+ ))|REOH=1.566(SMREH=0.597(SMREH-Protocol Filter
+ Agent=0.593))|SMRPROXY-PEN=0.000)
+X-MS-Exchange-Organization-MessageLatency:
+	SRV=HK2PR04CA0064.apcprd04.prod.outlook.com:TOTAL-FE=0.156|SMR-PEN=0.009(SMRPROXY-PEN=0.000)|SMS=0.152(SMSC=0.069)
+X-MS-Exchange-Forest-ArrivalHubServer:
+	KL1PR0401MB4194.apcprd04.prod.outlook.com
+X-MS-Exchange-Organization-AuthSource:
+	HK2APC01FT033.eop-APC01.prod.protection.outlook.com
+X-MS-Exchange-Organization-AuthAs: Anonymous
+X-MS-Exchange-Organization-FromEntityHeader: Internet
+X-MS-Exchange-Forest-MessageScope: f35c709d-1f12-4b8f-bfed-088dfe4f8e30
+X-MS-Exchange-Organization-Antispam-ProtocolFilterHub-ScanContext:
+	ProtocolFilterHub:SmtpOnEndOfData;
+X-MS-Office365-Filtering-Correlation-Id: a32adfff-7f99-462a-0c46-08d88a46436b
+X-MS-Exchange-Organization-Auth-DmarcStatus: Pass
+X-MS-Exchange-Organization-OriginalSize: 50589
+X-MS-TrafficTypeDiagnostic: KL1PR0401MB4194:
+X-MS-Exchange-Organization-HygienePolicy: Premium
+X-MS-Exchange-Organization-ReplicationInfo:
+	ReplicaId=d5d3d0a2-20d8-b7fb-a12b-3944468ad808;ReplicatingServerFqdn=TYZPR04MB4205.apcprd04.prod.outlook.com
+X-MS-Exchange-Forest-Language: en
+X-MS-Exchange-Forest-IndexAgent-0:
+	AQ0CZW4BHyw5ZjVjZGRiYy0yYTc3LTQxN2EtODlkMC0zODk3OGUyOT
+ hkYWY6dHh0OnR4dAABHw8AAA8AAAMfiwgAAAAAAAQA5VjNchvHEV4Q
+ AAmCghwnqSSn1BzislQGQAKkSDmXhJZkx7GlSCIdO8cBMCBW3N3Z7O
+ wSxi3vkFfKk+RJ8nX3zmBJMU4llaocomJBi9mZ7q//vu7B346++exC
+ vTXO6GK+GvS/yV28MKq0KrWzODHq+dvzl2pus7LQ81LlRTyPsysspP
+ RfuSpsdbVSo5H61qiZSWJzY9TJm+lROOLUOi5XqjA3sTMLVeWQYedV
+ YVKTlerGJlVqnFraQrlUF2W+shm+z3VRbJqHfgjNWH27ihNXAk7sFP
+ 4yWypXLZd4S0pgTBIvS2VvTKGT5JYsb9CNU8dvhmptcHhNcMxcQ+Is
+ MdkCCO5TPx6PP9/Hv0H/i8TOdNLw4uRUvYK2dGYKNT2aHtGmlya1sO
+ nCpED4EjJWyYbWw8aP4bUXi7iMbfZrbHgf4zIuAKnKWdo9793KVslC
+ uRJ+lAgiGPBdnKnJm+lkTDHSibPKGVrnQJPjX52/ei6bhmpWkesgIs
+ 5g9lzneh6XG6UXAszrSPGe9rBPXZXnyYYkfDydvBgTvLdGLxAOA5/k
+ tij3/T+YO1Zf6GphY7d/OVbnBVIh3v9qrP6kXRXvvxyri5Ve0auvjd
+ n/RJ3AE4Whg/9RZg76/395yWeBdWHXmTr5SL2xb9SjtXZqdPbRY7jc
+ cWDEwpAGhU152WkszpEANkVg1aM/5Lk9/GN8Yw+/izVc+5jVxFkFBU
+ gBqya/m06GPxySf5aXj0A9Rn1SQ7xxYzoBhxtXjtUy0eXjbeo+sxkB
+ LUierYrgs+ARilQFnzSykdHgf1TghF2oC6MS4xxBnJuCMlzPLDJeq9
+ yWCEmMKoZeFOPcFhDMKQ8J5cq6hls+bubKUGn26AZFsVHIs6ysgGwj
+ pbGyluJv4gJZA+mX50jxl0Zna6SGYVQwN06hFNs08sMUOPdPPEkaCp
+ 1dGQJ18gaZXa6NydQ3F7+aHD0dTSZP2Q/H0y8+G0r8J1PxLuzQ5LIr
+ wzRwK5nI1byp9rZkyydTzhb4GMswiLHCZK76peRQbNaC2ufj/bDXMa
+ S8F36XxFerUkLFanW2gHV5vMDalYaCQoF+jK9lChSFcjzonxOLIc4k
+ nNnr/OJ18KOrWawkreb7nMLIxMB5aytUhpkn4LeasZgjfFYTwOAYFg
+ 3vuNX9xTU5+sj7jbhFCBY5trJrQ0GMszmC7nzOBrnQMaKzXHWjyROR
+ QpFjP9iMvTvT82vytIvTONGFL1UoazJVsFqkbclqm64NHjJAByJyWI
+ cXZpR1RIOQ2bAVIq4NLIUkxC/XGciSctwKQ6zIxDoD2BvQhJwNJEXd
+ RatZYTWqUemrwghSnCcvJDa7Gq0MCGGbPo0uwrmyjcad0Ks7oapFxA
+ wwtY7SSQSNFkWMWkSyXOjUVdQSLMAAjXN4kXBPuxXhutdtD2yZjo7G
+ Kf2HPq/BHYoQ1X5ihzjOXgRmGcNbqf4eQXPa8weVBfwjUYB/rmPBU4
+ FVaL8/lxjymVvF3LQb4LA3ryj5gL4i92fU6HJTSlcm3Wwve9cUI1BY
+ SvidTeIFw4DrqN+xuyEbTXIxVN5SGCdGwiXz8adPrtU6TynGYQAIc4
+ LgqVlV/f0vf8WB0/oAbfou/lhnQ0Z0fLRdfj3l2Ek5qmZIWOVpvfWW
+ PvGaFgaCgEH/dWGWSGEKgN8wgkhLzThP9IZaFmlOZdZyNGtB5HsVnr
+ OcAOPRV2DvZ6Tos2rzGG75Sv1uk8Xfs6yX36hHMwvX0btQ4pAPkbqC
+ a0EoCMG3z5+pR69MBZZIHr+Xp6Jw6IvNAxvWSIMRqNj5Neqzmq8oo7
+ 9+++y7obp88fVQfWuz+Fp9+fqCQb2orgxK/NJg3yMCXqCUFwJRxqx4
+ bhEpP2sN1Xmmk40rB/1M3oyv5M1vq5kbI5cG/U+ePpmOpp+eTdST06
+ cTlnIZp7B8U49pDSGlvBhrftGQMRmdTJ6Mjp9MIeTslIV8ZbJ3scx3
+ DQnXtDre0GoTwmR0PHoyPXqqTqcTwfCyyt6hcdJY2Die8uoYtbe6pX
+ 06mY7OJscKp4/FBG3W1tI02YTPi+PEmPvMP316JmdfFyhHk6u3OtVZ
+ E3wuL8YFv7jf/CeTMxby+zhNN+pP1qIqzp2z85hYN4h6R6/HG7y+A+
+ X4bDJVJ6dn4oXn+iZGLlbJyiZgINTus8/PG4gW9H6chvcNYScno+nR
+ 6AxBVSdHp5+yuIsqyzbq6zhriHC0NkZjbAJ5ejqajp6eTafq7PhE4n
+ lJdEtzQEKtBEOgtH4qyJTm46pc/TbXV+h7WqS8Bq05oqYrKuS10FCQ
+ AQIgVlPxkmgwzSmPH9mCy4ca7oaaBl1SncbshgmESBD9BKx2w7VV5Q
+ vyaFyi7F5ZPvAbdY9OFnRbZ2GuYgeuhEre0rwL8z3mEuOKzjA1yWkH
+ z8yLOCdCRU1hikCL5qZ6H+ALBow3XuQd8CA02rawdfegxsA0vECfqT
+ A2EETGRVyPRKMLCLVKwIVR1DCKhmTcsxyP95qWqwSTaZzdYD6wYMV6
+ Bp+BvdbEX9wHqIPjUpnyXLnCfIijsGIJs0pif4otRJWye84S9HJJDE
+ 5H7ewdzVY3xNc0p1RNHF/eVT2vJ/j3MBPR2YwasqJRCdeIJdxoC25T
+ WlolD9BiDc8SmOBix13ty5SEYEbBa6Rg6nvuPKkWdFRLeivM+2WMm5
+ cODbMwf65i8uUCXJxY6qucEbrggw6dig5snY+RGheQG44dx9XyjBpn
+ riwqguVYVOWcBIh8xPk2lEIhSNs3hUnMDeGmCwcA3nELGl+JdFrRHS
+ VbHELbapObAuV5jSWexXwJjdXtkqQxheRr1gW/v6syucpwMnGcGs7C
+ lbtqRqOgsc6CTkQPZTMSnc3zv/dQ2r4ydsiG0JdnvEG9plAk7F2sUv
+ XjYm8rnwL844O03nqYzKsZku1WBNZm5mLUMzJuVZb5rw8P1+v1uKak
+ w+ZOYpx/O4hjIjD0b9QWlTUNwxXnsYd058cc9ZwEY0CiWfYGHta46/
+ xrcFDzR2Roye77QZMG/ZpSPSTmESQVlyKiINfSZnaTf5vUy9Uz6JM/
+ yAKMdijKBW6hKsN1fjFW6ssl0RLHNpMLqbzyTGiY4CCjjhRtgjU0p2
+ RIzyF9KYsY96qa6vJNnYAjyUBPuJgvLOpsI1cFgocCSaGJuh5Qzjb1
+ EeJ7Usm0g3uRQVEtROagX2/BZsxJpb42MuGiYviaHPTKnUeoGUVuUr
+ gdrP2CX7pgLgbGYsONhcTMdUaLKJGrSuM2XRpJ9BkBnldC5sBQFLYY
+ LQu6zbhb7p97KmV+nBuSPORfDCp5RA6gftGUUdeF3dAS+iKP51ocCD
+ JAQpI5w9A6UKs3cYErAdhTXW7dh3GFWgzdHqVXEHo9J70qifUsTvzA
+ rNHTGbawE3xHHOk84wz6pIcLma9vjZzD1YQmziJ2bK3vILSv9jTm2s
+ zVEoFv0EdKoRVtKTV222LMJRnoO1GbRpSLxYizhm56IuJSYt2oxEA7
+ S3ZR8DgSOa8KmpDrRrlN0lltFlEwxZew06UHlwiBRY5Y1owzqzb03Z
+ kkYV9xuHGDMoSDySThMXqJpM/mUnWB28dUqMR1RNQFdQBmcfoNg2QX
+ hiPIv+OJRY5+6JEnT6oleMYsBn0ygiLInYKrF0cTsBb9bvQO93a4lX
+ 9+dUb0fn7bIXThWOGqTXDoxwASJK65xljqfB5zYaBpOHIhzYilHvrY
+ 3AR2ek09bb6h2Yku8xqjILGUu0NuV8yLhyY7ZKCHuRwbr8o0iaJ21O
+ lF/d1obydq47MTdXvR/l7Uw/NedIBFPGNxP+rjE89YOYge4AEH8dCN
+ dmWxcXZfnrGIPX0WImdlnfa32jtRtBN1ZE/QyBIOWtEenoFqpxX9CH
+ 9RGxs6vIHVHfRafT7eDrpwHK92ot3wVTaLanzyQ/0VGvEWn/TKI8FX
+ 2AhFPZaJT0aO9Z4/8mGLvdFiY/EJ+S0WiM92C89RK9oRnPc5c/9/4U
+ w+3uoyNrzttlsd3rwT9u+yt8VGxnaAT/ztRj3B2fFeDZIbju1AeHAg
+ PvGqzUfE4TAK6ziFs2JjfbCFz0i2eb199ueOPIileACeg2gQAod12c
+ BfCe1OnR7dJsg2I/GeabOXdkhjq8N6xdjd2+DbEiPxoewRK5pOa9d+
+ 60qYAn6JRQCAh2b69ViyyAzR6bcOGMxeAM9JeCDgYSaMZeSdEF+RI/
+ CwJ8S3aUXwKs72WRqdamElotC0uvLQ5v0hteRhz2cvIiXRZ4cfNIMe
+ EqbLifGAoyNCul41HrreOfhDWPc4nWpdrWifPSZ/fU45qrjaIbtNj3
+ W8q5EcA1K9LzUCvQKb/dBvyhdDQm6LKx7UWbTLxdgL2MRLoivgF+2S
+ vWRmKzpgkwfRBwFSh6s1OBA2tn0IJNtrgXWq74UNLHMvPLcb8W1iC/
+ u9tF0SXqd0VyKLTQ848YK9PXaC4BfaESRtNq0rQhor8rZXZz5ENY/3
+ RCDMf8jAAhcxmK5IE70Cj1f6jIe4Czb/3GNrt7pSgN0IjLnLPhE+6c
+ nOn7F82Uk2NgtWzkb7klfYD0b7CT3vyn5KafFMa6cpX4ARi9L+usR+
+ QD4D6Mr+H4cY/ZeQd7ioBfyPawa7XzgT4ANBgs2/YD5sWiqfd46E/R
+ /6uATh73smZLtkF7raT2vm7IotofpCV5LU2vMNEesPow88DQqf3H9W
+ CpwzeRC6G0pJaPyOTIH0MPrQ5229GHiPfdhrNDvKVRSLNCyhL98gOu
+ ETG+6Qp0ANLQly5LjMAKJCDgqNCHLpTXAFNgtJYucgeihgZKVHog5E
+ cpebYKAmYcVeo9GIxl3fIoV2PB3thTD5GaYrG8S96IzSdwJlCaHVFe
+ dJPtAg3LTn13cbwuWrjCKkpRX9skFQQoO3ravbet1bvQSZmsTY94Q8
+ lGoNKrb15ScZHAdLizofqXoPxHYbpO1ZlAqqvQ3lIDA596n93bqia+
+ vutGyRLyuBP0Mv5ocH3pMdVtSRzaIlZD5SpO8zWaY4fhjwKNWT7ilv
+ +4yBAyTS9qXJimRREbT4nNkNrVCmXJEvaSkYHkQfSkMUp0kToVnU99
+ k90rLnq5jSDBkrD75gu6IOp0ROSIzG6DUQ8Jz5PwqNSXaKnB6nRxhj
+ pNbCqS4bKIFoerW7nTD70qBDqrCNHXj4yAci+Ee4pfMPhytV7AklAA A=
+X-MS-Exchange-Forest-IndexAgent: 1 3929
+X-MS-Exchange-Forest-EmailMessageHash: BC5530F8,EB83D995
+X-MS-Exchange-Organization-IsPotentialIntraOrgMail: False
+X-MS-Exchange-Organization-MalwareFilterPolicy: PAG - Anti-Malware
+X-MS-Exchange-Organization-Antispam-PreContentFilter-PolicyLoadTime:
+	MAOSUB:125;MAOSUBLOAD:63;MAOSUBRUN:0;MAOSUBCOUNT:1;SAORES:125;SAORESLOAD:62;SAORESRUN:0;SAORESCOUNT:1;SLORES:63;SLORESLOAD:63;SLORESRUN:0;SLORESCOUNT:1;
+X-MS-Exchange-Organization-AttachmentDetailsHeaderStamp-Success: 1.0
+X-MS-Exchange-Organization-AttachmentDetails:
+	0:vS9vtYvUacVL4gstDWdFskDh6GrrutHE8ikNrugXPhs=:U:Text:ZGlzY2xhaW0udHh0::#:False:::N:::N::N:None
+X-MS-Exchange-Organization-AttachmentDetailsInfo-ChunkCount: 1
+X-MS-Exchange-Organization-AttachmentDetailsInfo-0:
+	[{"ID":0,"FN":"disclaim.txt","FS":1259,"HFH":"vS9vtYvUacVL4gstDWdFskDh6GrrutHE8ikNrugXPhs=","FT":["Text"],"EXT":"txt","AF":0}]
+X-MS-Exchange-Organization-MessageFingerprint:
+	8A0CF1C5.8FDA9FD1.5BD5AF76.83C9E161.205F5
+X-MS-Exchange-Organization-UrlMinimumDomainAge: ubs.com#10136
+X-MS-Exchange-Organization-URLFeatureReduction:
+	78;3;0;11;0;0;0;0;7;3;2;2513;0;0;0
+X-MS-Exchange-Organization-Persisted-Urls-ChunkCount: 3
+X-MS-Exchange-Organization-Persisted-Urls-0:
+	=?us-ascii?Q?[{"ID":1,"OU":"https://neo.ubs.com/r/=3Fid=3Dh10b129d7,11b56?=
+ =?us-ascii?Q?902,11b56ab9&inst=3DV7\r\n&did=3DAC7-E-297101570&off=5Fid=3D?=
+ =?us-ascii?Q?AC7-E-298088124&ma=3DY5353645541794743&camp=5Fid=3DEM:UNKW:2?=
+ =?us-ascii?Q?020-11:16:C","U":"https://neo.ubs.com/r/=3Fid=3Dh10b129d7,11?=
+ =?us-ascii?Q?b56902,11b56ab9&inst=3DV7&did=3DAC7-E-297101570&off=5Fid=3DA?=
+ =?us-ascii?Q?C7-E-298088124&ma=3DY5353645541794743&camp=5Fid=3DEM:UNKW:20?=
+ =?us-ascii?Q?20-11:16:C","IAR":false,"LI":{"TN":"a","IC":true,"BF":2,"SI"?=
+ =?us-ascii?Q?:-1,"EndIndex":-1},"SRCI":1,"IU":null,"NU":"neo.ubs.com/r/?=
+ =?us-ascii?Q?=3Fid=3Dh10b129d7,11b56902,11b56ab9&inst=3DV7&did=3DAC7-E-29?=
+ =?us-ascii?Q?7101570&off=5Fid=3DAC7-E-298088124&ma=3DY5353645541794743&ca?=
+ =?us-ascii?Q?mp=5Fid=3DEM:UNKW:2020-11:16:C","UFT":"{101:14,102:2,105:11,?=
+ =?us-ascii?Q?108:3,110:3,111:7,112:2,114:3,115:3,116:1,118:3,119:3,121:3,?=
+ =?us-ascii?Q?122:3,123:1,125:3,128:2,131:2513,135:\"59FD0DEE,F72F7FA1\",2?=
+ =?us-ascii?Q?01:10136,202:1004,203:456,204:10593,205:37,206:2,207:38,208:?=
+ =?us-ascii?Q?2,209:38,210:2,211:38,212:2,213:58,214:3,215:12,216:1,217:20?=
+ =?us-ascii?Q?,218:1,219:12,220:1,221:52,222:3,223:52,224:3,225:52,226:3,2?=
+ =?us-ascii?Q?27:51,228:3,229:57,230:3,231:12,232:1,233:20,234:1,235:12,23?=
+ =?us-ascii?Q?6:1,239:12,240:1,241:18,242:1,243:12,244:1,245:12,246:1,247:?=
+ =?us-ascii?Q?12,248:1,249:12,250:1,251:15,252:1}","DPD":{"UF":"256","OCH"?=
+ =?us-ascii?Q?:"12700827774716770791","SCHM":"Https","CNT":"1","SL":"1","L?=
+ =?us-ascii?Q?OG":"1"},"PROC":[]},{"ID":3,"OU":"https://neo.ubs.com/r/=3Fi?=
+ =?us-ascii?Q?d=3Dh10b129d7,11b56902,11b56aba&inst=3DV7\r\n&did=3DAC7-E-29?=
+ =?us-ascii?Q?7101570&off=5Fid=3DAC7-E-298088125&ma=3DY5353645541794743&ca?=
+ =?us-ascii?Q?mp=5Fid=3DEM:UNKW:2020-11:16:C","U":"https://neo.ubs.com/r/?=
+ =?us-ascii?Q?=3Fid=3Dh10b129d7,11b56902,11b56aba&inst=3DV7&did=3DAC7-E-29?=
+ =?us-ascii?Q?7101570&off=5Fid=3DAC7-E-298088125&ma=3DY5353645541794743&ca?=
+ =?us-ascii?Q?mp=5Fid=3DEM:UNKW:2020-11:16:C","IAR":false,"LI":{"TN":"a","?=
+ =?us-ascii?Q?IC":true,"BF":2,"SI":-1,"EndIndex":-1},"SRCI":1,"IU":null,"N?=
+ =?us-ascii?Q?U":"neo.ubs.com/r/=3Fid=3Dh10b129d7,11b56902,11b56aba&inst?=
+ =?us-ascii?Q?=3DV7&did=3DAC7-E-297101570&off=5Fid=3DAC7-E-298088125&ma=3D?=
+ =?us-ascii?Q?Y5353645541794743&camp=5Fid=3DEM:UNKW:2020-11:16:C","UFT":"{?=
+ =?us-ascii?Q?101:14,102:2,105:11,108:3,110:3,111:7,112:2,114:3,115:3,116:?=
+ =?us-ascii?Q?1,118:3,119:3,121:3,122:3,123:1,125:3,128:2,131:2513,135:\"5?=
+ =?us-ascii?Q?9FD0DEE,F72F7FA1\",201:10136,202:1004,203:456,204:10593,205:?=
+ =?us-ascii?Q?37,206:2,207:38,208:2,209:38,210:2,211:38,212:2,213:58,214:3?=
+ =?us-ascii?Q?,215:12,216:1,217:20,218:1,219:12,220:1,221:52,222:3,223:52,?=
+ =?us-ascii?Q?224:3,225:52,226:3,227:51,228:3,229:57,230:3,231:12,232:1,23?=
+ =?us-ascii?Q?3:20,234:1,235:12,236:1,239:12,240:1,241:18,242:1,243:12,244?=
+ =?us-ascii?Q?:1,245:12,246:1,247:12,248:1,249:12,250:1,251:15,252:1}","DP?=
+ =?us-ascii?Q?D":{"UF":"256","OCH":"11629609395243386524","SCHM":"Https","?=
+ =?us-ascii?Q?CNT":"1","SL":"1","LOG":"1"},"PROC":[]},{"ID":4,"OU":"https:?=
+ =?us-ascii?Q?//neo.ubs.com/r/=3Fid=3Dh10b129d7,11b56902,11b56abb&inst=3DV?=
+ =?us-ascii?Q?7\r\n&did=3DAC7-E-297101570&off=5Fid=3DAC7-E-298088126&ma=3D?=
+ =?us-ascii?Q?Y5353645541794743&camp=5Fid=3DEM:UNKW:2020-11:16:C","U":"htt?=
+ =?us-ascii?Q?ps://neo.ubs.com/r/=3Fid=3Dh10b129d7,11b56902,11b56abb&inst?=
+ =?us-ascii?Q?=3DV7&did=3DAC7-E-297101570&off=5Fid=3DAC7-E-298088126&ma=3D?=
+ =?us-ascii?Q?Y5353645541794743&camp=5Fid=3DEM:UNKW:2020-11:16:C","IAR":fa?=
+ =?us-ascii?Q?lse,"LI":{"TN":"a","IC":true,"BF":2,"SI":-1,"EndIndex":-1},"?=
+ =?us-ascii?Q?SRCI":1,"IU":null,"NU":"neo.ubs.com/r/=3Fid=3Dh10b129d7,11b5?=
+ =?us-ascii?Q?6902,11b56abb&inst=3DV7&did=3DAC7-E-297101570&off=5Fid=3DAC7?=
+ =?us-ascii?Q?-E-298088126&ma=3DY5353645541794743&camp=5Fid=3DEM:UNKW:2020?=
+ =?us-ascii?Q?-11:16:C","UFT":"{101:14,102:2,105:11,108:3,110:3,111:7,112:?=
+ =?us-ascii?Q?2,114:3,115:3,116:1,118:3,119:3,121:3,122:3,123:1,125:3,128:?=
+ =?us-ascii?Q?2,131:2513,135:\"59FD0DEE,F72F7FA1\",201:10136,202:1004,203:?=
+ =?us-ascii?Q?456,204:10593,205:37,206:2,207:38,208:2,209:38,210:2,211:38,?=
+ =?us-ascii?Q?212:2,213:58,214:3,215:12,216:1,217:20,218:1,219:12,220:1,22?=
+ =?us-ascii?Q?1:52,222:3,223:52,224:3,225:52,226:3,227:51,228:3,229:57,230?=
+ =?us-ascii?Q?:3,231:12,232:1,233:20,234:1,235:12,236:1,239:12,240:1,241:1?=
+ =?us-ascii?Q?8,242:1,243:12,244:1,245:12,246:1,247:12,248:1,249:12,250:1,?=
+ =?us-ascii?Q?251:15,252:1}","DPD":{"UF":"256","OCH":"8322824173751807530"?=
+ =?us-ascii?Q?,"SCHM":"Https","CNT":"1","SL":"1","LOG":"1"},"PROC":[]},{"I?=
+ =?us-ascii?Q?D":19,"OU":"https://neo.ubs.com/r/=3Fid=3Dh10b129d7,11b56902?=
+ =?us-ascii?Q?,11b56abe&inst=3DV7\r\n&did=3DAC7-E-297101570&off=5Fid=3DAC7?=
+ =?us-ascii?Q?-E-298088129&ma=3DY5353645541794743&camp=5Fid=3DEM:UNKW:2020?=
+ =?us-ascii?Q?-11:16:C","U":"https://neo.ubs.com/r/=3Fid=3Dh10b129d7,11b56?=
+ =?us-ascii?Q?902,11b56abe&inst=3DV7&did=3DAC7-E-297101570&off=5Fid=3DAC7-?=
+ =?us-ascii?Q?E-298088129&ma=3DY5353645541794743&camp=5Fid=3DEM:UNKW:2020-?=
+ =?us-ascii?Q?11:16:C","IAR":false,"LI":{"TN":"a","IC":true,"BF":2,"SI":-1?=
+ =?us-ascii?Q?,"EndIndex":-1},"SRCI":1,"IU":null,"NU":"neo.ubs.com/r/=3Fid?=
+ =?us-ascii?Q?=3Dh10b129d7,11b56902,11b56abe&inst=3DV7&did=3DAC7-E-2971015?=
+ =?us-ascii?Q?70&off=5Fid=3DAC7-E-298088129&ma=3DY5353645541794743&camp=5F?=
+ =?us-ascii?Q?id=3DEM:UNKW:2020-11:16:C","UFT":"{101:14,102:2,105:11,108:3?=
+ =?us-ascii?Q?,110:3,111:7,112:2,114:3,115:3,116:1,118:3,119:3,121:3,122:3?=
+ =?us-ascii?Q?,123:1,125:3,128:2,131:2513,135:\"59FD0DEE,F72F7FA1\",201:10?=
+ =?us-ascii?Q?136,202:1004,203:456,204:10593,205:37,206:2,207:38,208:2,209?=
+ =?us-ascii?Q?:38,210:2,211:38,212:2,213:58,214:3,215:12,216:1,217:20,218:?=
+ =?us-ascii?Q?1,219:12,220:1,221:52,222:3,223:52,224:3,225:52,226:3,227:51?=
+ =?us-ascii?Q?,228:3,229:57,230:3,231:12,232:1,233:20,234:1,235:12,236:1,2?=
+ =?us-ascii?Q?39:12,240:1,241:18,242:1,243:12,244:1,245:12,246:1,247:12,24?=
+ =?us-ascii?Q?8:1,249:12,250:1,251:15,252:1}","DPD":{"UF":"256","OCH":"121?=
+ =?us-ascii?Q?0535223348133996","SCHM":"Https","CNT":"1","SL":"1","LOG":"1?=
+ =?us-ascii?Q?"},"PROC":[]},{"ID":20,"OU":"https://neo.ubs.com/r/=3Fid=3Dh?=
+ =?us-ascii?Q?10b129d7,11b56902,11b56abf&inst=3DV7\r\n&did=3DAC7-E-2971015?=
+ =?us-ascii?Q?70&off=5Fid=3DAC7-E-298088130&ma=3DY5353645541794743&camp=5F?=
+ =?us-ascii?Q?id=3DEM:UNKW:2020-11:16:C","U":"https://neo.ubs.com/r/=3Fid?=
+ =?us-ascii?Q?=3Dh10b129d7,11b56902,11b56abf&inst=3DV7&did=3DAC7-E-2971015?=
+ =?us-ascii?Q?70&off=5Fid=3DAC7-E-298088130&ma=3DY5353645541794743&camp=5F?=
+ =?us-ascii?Q?id=3DEM:UNKW:2020-11:16:C","IAR":false,"LI":{"TN":"a","IC":t?=
+ =?us-ascii?Q?rue,"BF":2,"SI":-1,"EndIndex":-1},"SRCI":1,"IU":null,"NU":"n?=
+ =?us-ascii?Q?eo.ubs.com/r/=3Fid=3Dh10b129d7,11b56902,11b56abf&inst=3DV7&d?=
+ =?us-ascii?Q?id=3DAC7-E-297101570&off=5Fid=3DAC7-E-298088130&ma=3DY535364?=
+ =?us-ascii?Q?5541794743&camp=5Fid=3DEM:UNKW:2020-11:16:C","UFT":"{101:14,?=
+ =?us-ascii?Q?102:2,105:11,108:3,110:3,111:7,112:2,114:3,115:3,116:1,118:3?=
+ =?us-ascii?Q?,119:3,121:3,122:3,123:1,125:3,128:2,131:2513,135:\"59FD0DEE?=
+ =?us-ascii?Q?,F72F7FA1\",201:10136,202:1004,203:456,204:10593,205:37,206:?=
+ =?us-ascii?Q?2,207:38,208:2,209:38,210:2,211:38,212:2,213:58,214:3,215:12?=
+ =?us-ascii?Q?,216:1,217:20,218:1,219:12,220:1,221:52,222:3,223:52,224:3,2?=
+ =?us-ascii?Q?25:52,226:3,227:51,228:3,229:57,230:3,231:12,232:1,233:20,23?=
+ =?us-ascii?Q?4:1,235:12,236:1,239:12,240:1,241:18,242:1,243:12,244:1,245:?=
+ =?us-ascii?Q?12,246:1,247:12,248:1,249:12,250:1,251:15,252:1}","DPD":{"UF?=
+ =?us-ascii?Q?":"256","OCH":"1355566897314574049","SCHM":"Https","CNT":"1"?=
+ =?us-ascii?Q?,"SL":"1","LOG":"1"},"PROC":[]},{"ID":21,"OU":"https://neo.u?=
+ =?us-ascii?Q?bs.com/r/=3Fid=3Dh10b129d7,11b56902,11b56ac0&inst=3DV7\r\n&d?=
+ =?us-ascii?Q?id=3DAC7-E-297101570&off=5Fid=3DAC7-E-298088131&ma=3DY535364?=
+ =?us-ascii?Q?5541794743&camp=5Fid=3DEM:UNKW:2020-11:16:C","U":"https://ne?=
+ =?us-ascii?Q?o.ubs.com/r/=3Fid=3Dh10b129d7,11b56902,11b56ac0&inst=3DV7&di?=
+ =?us-ascii?Q?d=3DAC7-E-297101570&off=5Fid=3DAC7-E-298088131&ma=3DY5353645?=
+ =?us-ascii?Q?541794743&camp=5Fid=3DEM:UNKW:2020-11:16:C","IAR":false,"LI"?=
+ =?us-ascii?Q?:{"TN":"a","IC":true,"BF":2,"SI":-1,"EndIndex":-1},"SRCI":1,?=
+ =?us-ascii?Q?"IU":null,"NU":"neo.ubs.com/r/=3Fid=3Dh10b129d7,11b56902,11b?=
+ =?us-ascii?Q?56ac0&inst=3DV7&did=3DAC7-E-297101570&off=5Fid=3DAC7-E-29808?=
+ =?us-ascii?Q?8131&ma=3DY5353645541794743&camp=5Fid=3DEM:UNKW:2020-11:16:C?=
+ =?us-ascii?Q?","UFT":"{101:14,102:2,105:11,108:3,110:3,111:7,112:2,114:3,?=
+ =?us-ascii?Q?115:3,116:1,118:3,119:3,121:3,122:3,123:1,125:3,128:2,131:25?=
+ =?us-ascii?Q?13,135:\"59FD0DEE,F72F7FA1\",201:10136,202:1004,203:456,204:?=
+ =?us-ascii?Q?10593,205:37,206:2,207:38,208:2,209:38,210:2,211:38,212:2,21?=
+ =?us-ascii?Q?3:58,214:3,215:12,216:1,217:20,218:1,219:12,220:1,221:52,222?=
+ =?us-ascii?Q?:3,223:52,224:3,225:52,226:3,227:51,228:3,229:57,230:3,231:1?=
+ =?us-ascii?Q?2,232:1,233:20,234:1,235:12,236:1,239:12,240:1,241:18,242:1,?=
+ =?us-ascii?Q?243:12,244:1,245:12,246:1,247:12,248:1,249:12,250:1,251:15,2?=
+ =?us-ascii?Q?52:1}","DPD":{"UF":"256","OCH":"16430017615586716511","SCHM"?=
+ =?us-ascii?Q?:"Https","CNT":"1","SL":"1","LOG":"1"},"PROC":[]},{"ID":1,"O?=
+ =?us-ascii?Q?U":"www.ubs.com/disclosures","U":"http://www.ubs.com/disclos?=
+ =?us-ascii?Q?ures","IAR":false,"LI":{"BF":1,"SI":-1,"EndIndex":-1},"SRCI"?=
+ =?us-ascii?Q?:1,"IU":null,"NU":"www.ubs.com/disclosures","UFT":"{101:23,1?=
+ =?us-ascii?Q?02:2,105:11,108:3,110:3,111:7,112:2,114:3,115:3,116:1,118:3,?=
+ =?us-ascii?Q?119:3,121:3,122:3,123:1,125:3,128:11,131:2513,135:\"F538357B?=
+ =?us-ascii?Q?,F72F7FA1,E80E10A1,C6B12B30,2D185E1B,604D6CB5,715D78A3,3B03B?=
+ =?us-ascii?Q?694,12E21B33,4B03FFC3,88C6B96F\",201:10136,202:1004,203:456,?=
+ =?us-ascii?Q?204:10593,205:37,206:2,207:38,208:2,209:38,210:2,211:38,212:?=
+ =?us-ascii?Q?2,213:58,214:3,215:12,216:1,217:20,218:1,219:12,220:1,221:52?=
+ =?us-ascii?Q?,222:3,223:52,224:3,225:52,226:3,227:51,228:3,229:57,230:3,2?=
+ =?us-ascii?Q?31:12,232:1,233:20,234:1,235:12,236:1,239:12,240:1,241:18,24?=
+ =?us-ascii?Q?2:1,243:12,244:1,245:12,246:1,247:12,248:1,249:12,250:1,251:?=
+ =?us-ascii?Q?11,252:1}","DPD":{"UF":"256","OCH":"4928129754275908336","SC?=
+ =?us-ascii?Q?HM":"Http","CNT":"4","SL":"1","LOG":"1"},"PROC":[]},{"ID":1,?=
+ =?us-ascii?Q?"OU":"http://www.ubs.com","U":"http://www.ubs.com/","IAR":fa?=
+ =?us-ascii?Q?lse,"LI":{"BF":1,"SI":-1,"EndIndex":-1},"SRCI":1,"IU":null,"?=
+ =?us-ascii?Q?NU":"www.ubs.com","UFT":"{101:12,102:2,105:11,108:3,110:3,11?=
+ =?us-ascii?Q?1:7,112:2,114:3,115:3,116:1,118:3,119:3,121:3,122:3,123:1,12?=
+ =?us-ascii?Q?5:3,131:2513,135:\"F538357B,F72F7FA1\",201:10136,202:1004,20?=
+ =?us-ascii?Q?3:456,204:10593,205:37,206:2,207:38,208:2,209:38,210:2,211:3?=
+ =?us-ascii?Q?8,212:2,213:58,214:3,215:12,216:1,217:20,218:1,219:12,220:1,?=
+ =?us-ascii?Q?221:52,222:3,223:52,224:3,225:52,226:3,227:51,228:3,229:57,2?=
+ =?us-ascii?Q?30:3,231:12,232:1,233:20,234:1,235:12,236:1,239:12,240:1,241?=
+ =?us-ascii?Q?:18,242:1,243:12,244:1,245:12,246:1,247:12,248:1,249:12,250:?=
+ =?us-ascii?Q?1,251:11,252:1}","DPD":{"UF":"256","OCH":"752908172742104325?=
+ =?us-ascii?Q?","SCHM":"Http","CNT":"1","SL":"1","LOG":"1"},"PROC":[]},{"I?=
+ =?us-ascii?Q?D":2,"OU":"https://www.ubs.com/global/en/legal/privacy.html"?=
+ =?us-ascii?Q?,"U":"https://www.ubs.com/global/en/legal/privacy.html","IAR?=
+ =?us-ascii?Q?":false,"LI":{"BF":1,"SI":-1,"EndIndex":-1},"SRCI":1,"IU":nu?=
+ =?us-ascii?Q?ll,"NU":"www.ubs.com/global/en/legal/privacy.html","UFT":"{1?=
+ =?us-ascii?Q?01:40,102:3,105:11,108:3,110:3,111:7,112:2,114:3,115:3,116:1?=
+ =?us-ascii?Q?,118:3,119:3,121:3,122:3,123:1,125:3,128:12,129:1,131:2513,1?=
+ =?us-ascii?Q?35:\"F538357B,F72F7FA1,AC002569,605D5DE0,22DA42C5,AE28FEAA,8?=
+ =?us-ascii?Q?56CA2A9,8DA6ECEE,AF0CF615,582F28EC,93E4DFD4,BCB96A37,D497873?=
+ =?us-ascii?Q?7,2770AB16,21419CEA,9E44B498\",201:10136,202:1004,203:456,20?=
+ =?us-ascii?Q?4:10593,205:37,206:2,207:38,208:2,209:38,210:2,211:38,212:2,?=
+ =?us-ascii?Q?213:58,214:3,215:12,216:1,217:20,218:1,219:12,220:1,221:52,2?=
+ =?us-ascii?Q?22:3,223:52,224:3,225:52,226:3,227:51,228:3,229:57,230:3,231?=
+ =?us-ascii?Q?:12,232:1,233:20,234:1,235:12,236:1,239:12,240:1,241:18,242:?=
+ =?us-ascii?Q?1,243:12,244:1,245:12,246:1,247:12,248:1,249:12,250:1,251:11?=
+ =?us-ascii?Q?,252:1}","DPD":{"UF":"256","OCH":"308917578529730939","SCHM"?=
+ =?us-ascii?Q?:"Https","CNT":"1","SL":"1","LOG":"1"},"PROC":[]},{"ID":2,"O?=
+ =?us-ascii?Q?U":"https://www.ubs.com/content/dam/InvestmentBank/equity-re?=
+ =?us-ascii?Q?search/images/ubs=5Fbdp=5Flogo.png","U":"https://www.ubs.com?=
+ =?us-ascii?Q?/content/dam/InvestmentBank/equity-research/images/ubs=5Fbdp?=
+ =?us-ascii?Q?=5Flogo.png","IAR":false,"LI":{"TN":"img","IC":false,"BF":2,?=
+ =?us-ascii?Q?"SI":-1,"EndIndex":-1},"SRCI":1,"IU":null,"NU":"www.ubs.com/?=
+ =?us-ascii?Q?content/dam/InvestmentBank/equity-research/images/ubs=5Fbdp?=
+ =?us-ascii?Q?=5Flogo.png","UFT":"{101:78,102:3,105:11,108:3,110:3,111:7,1?=
+ =?us-ascii?Q?12:2,114:3,115:3,116:1,118:3,119:3,121:3,122:3,123:1,125:3,1?=
+ =?us-ascii?Q?27:1,128:16,129:1,130:2,?=
+X-MS-Exchange-Organization-Persisted-Urls-1:
+	=?us-ascii?Q?131:2513,135:\"F538357B,F72F7FA1,6155BD0D,3DF8825A,879E9FA0,?=
+ =?us-ascii?Q?A0313006,6C90F2AC,F1F905A7,B9F3FCA6,BB98E14E,DCA08E2B,728A40?=
+ =?us-ascii?Q?59,BDFD197,9744A993,2176AA95,8E9EAAA5,C32F2888,AC28FB84,1D63?=
+ =?us-ascii?Q?CF65,7D8ECED8,B9ECD3C,3BD00CC3,C0BDEDB1,DF632FFF,9F05411D,5F?=
+ =?us-ascii?Q?10683B,88C6B96F,818A57F6,4091306,84B5E94D,1D956C31,7DCB254C,?=
+ =?us-ascii?Q?BCFC5024,F880F766,3379B856,98175F3C,40DCE095,B7FBEECA,715E3B?=
+ =?us-ascii?Q?2,C020CC3B,F6D43CAD,75E42374,655D65BF,24E711DE,7DE8AD3A\"}",?=
+ =?us-ascii?Q?"DPD":{"UF":"65536","OCH":"970334579834522880","SCHM":"Https?=
+ =?us-ascii?Q?","CNT":"1","LOG":"1"},"PROC":[]},{"ID":5,"OU":"https://www.?=
+ =?us-ascii?Q?ubs.com/content/dam/InvestmentBank/equity-research/images/ni?=
+ =?us-ascii?Q?colas-gaudois-43256735-c.gif","U":"https://www.ubs.com/conte?=
+ =?us-ascii?Q?nt/dam/InvestmentBank/equity-research/images/nicolas-gaudois?=
+ =?us-ascii?Q?-43256735-c.gif","IAR":false,"LI":{"TN":"img","IC":false,"BF?=
+ =?us-ascii?Q?":2,"SI":-1,"EndIndex":-1},"SRCI":1,"IU":null,"NU":"www.ubs.?=
+ =?us-ascii?Q?com/content/dam/InvestmentBank/equity-research/images/nicola?=
+ =?us-ascii?Q?s-gaudois-43256735-c.gif","UFT":"{101:92,102:3,105:11,108:3,?=
+ =?us-ascii?Q?110:3,111:7,112:2,114:3,115:3,116:1,118:3,119:3,121:3,122:3,?=
+ =?us-ascii?Q?123:1,125:3,127:1,128:30,129:1,130:3,131:2513,135:\"F538357B?=
+ =?us-ascii?Q?,F72F7FA1,6155BD0D,3DF8825A,879E9FA0,A0313006,6C90F2AC,F1F90?=
+ =?us-ascii?Q?5A7,B9F3FCA6,BB98E14E,DCA08E2B,728A4059,BDFD197,9744A993,217?=
+ =?us-ascii?Q?6AA95,8E9EAAA5,C32F2888,AC28FB84,1D63CF65,7D8ECED8,B9ECD3C,3?=
+ =?us-ascii?Q?BD00CC3,C0BDEDB1,DF632FFF,9F05411D,5F10683B,88C6B96F,818A57F?=
+ =?us-ascii?Q?6,4091306,84B5E94D,1D956C31,7DCB254C,BCFC5024,F880F766,3379B?=
+ =?us-ascii?Q?856,98175F3C,9DCC8D77,B2D9AE24,5F55B9E7,1EF2415F,81620F01,7B?=
+ =?us-ascii?Q?983EC2,36BC4D34,4EE0F0D6,A60CE7EA,20A6BA0B,54D882E3,F21B97E9?=
+ =?us-ascii?Q?,38EBAE88,14B1A5FA\"}","DPD":{"UF":"65536","OCH":"4716664139?=
+ =?us-ascii?Q?962292322","SCHM":"Https","CNT":"2"},"PROC":[]},{"ID":6,"OU"?=
+ =?us-ascii?Q?:"https://www.ubs.com/content/dam/InvestmentBank/equity-rese?=
+ =?us-ascii?Q?arch/images/timothy-arcuri-43512807-c.gif","U":"https://www.?=
+ =?us-ascii?Q?ubs.com/content/dam/InvestmentBank/equity-research/images/ti?=
+ =?us-ascii?Q?mothy-arcuri-43512807-c.gif","IAR":false,"LI":{"TN":"img","I?=
+ =?us-ascii?Q?C":false,"BF":2,"SI":-1,"EndIndex":-1},"SRCI":1,"IU":null,"N?=
+ =?us-ascii?Q?U":"www.ubs.com/content/dam/InvestmentBank/equity-research/i?=
+ =?us-ascii?Q?mages/timothy-arcuri-43512807-c.gif","UFT":"{101:91,102:3,10?=
+ =?us-ascii?Q?5:11,108:3,110:3,111:7,112:2,114:3,115:3,116:1,118:3,119:3,1?=
+ =?us-ascii?Q?21:3,122:3,123:1,125:3,127:1,128:29,129:1,130:3,131:2513,135?=
+ =?us-ascii?Q?:\"F538357B,F72F7FA1,6155BD0D,3DF8825A,879E9FA0,A0313006,6C9?=
+ =?us-ascii?Q?0F2AC,F1F905A7,B9F3FCA6,BB98E14E,DCA08E2B,728A4059,BDFD197,9?=
+ =?us-ascii?Q?744A993,2176AA95,8E9EAAA5,C32F2888,AC28FB84,1D63CF65,7D8ECED?=
+ =?us-ascii?Q?8,B9ECD3C,3BD00CC3,C0BDEDB1,DF632FFF,9F05411D,5F10683B,88C6B?=
+ =?us-ascii?Q?96F,818A57F6,4091306,84B5E94D,1D956C31,7DCB254C,BCFC5024,F88?=
+ =?us-ascii?Q?0F766,3379B856,98175F3C,BF3BEE2F,B2FC4066,1B85ABAD,4606067C,?=
+ =?us-ascii?Q?AF3E1396,FD5D3ABB,AC055594,45EFED35,92CB465B,45649B83,570412?=
+ =?us-ascii?Q?A7,3EE45A05,A9A9A1B,85A9F79F\"}","DPD":{"UF":"65536","OCH":"?=
+ =?us-ascii?Q?706408247309878558","SCHM":"Https","CNT":"2"},"PROC":[]},{"I?=
+ =?us-ascii?Q?D":7,"OU":"https://www.ubs.com/content/dam/InvestmentBank/eq?=
+ =?us-ascii?Q?uity-research/images/kenji-yasui-43253724-c.gif","U":"https:?=
+ =?us-ascii?Q?//www.ubs.com/content/dam/InvestmentBank/equity-research/ima?=
+ =?us-ascii?Q?ges/kenji-yasui-43253724-c.gif","IAR":false,"LI":{"TN":"img"?=
+ =?us-ascii?Q?,"IC":false,"BF":2,"SI":-1,"EndIndex":-1},"SRCI":1,"IU":null?=
+ =?us-ascii?Q?,"NU":"www.ubs.com/content/dam/InvestmentBank/equity-researc?=
+ =?us-ascii?Q?h/images/kenji-yasui-43253724-c.gif","UFT":"{101:88,102:3,10?=
+ =?us-ascii?Q?5:11,108:3,110:3,111:7,112:2,114:3,115:3,116:1,118:3,119:3,1?=
+ =?us-ascii?Q?21:3,122:3,123:1,125:3,127:1,128:26,129:1,130:3,131:2513,135?=
+ =?us-ascii?Q?:\"F538357B,F72F7FA1,6155BD0D,3DF8825A,879E9FA0,A0313006,6C9?=
+ =?us-ascii?Q?0F2AC,F1F905A7,B9F3FCA6,BB98E14E,DCA08E2B,728A4059,BDFD197,9?=
+ =?us-ascii?Q?744A993,2176AA95,8E9EAAA5,C32F2888,AC28FB84,1D63CF65,7D8ECED?=
+ =?us-ascii?Q?8,B9ECD3C,3BD00CC3,C0BDEDB1,DF632FFF,9F05411D,5F10683B,88C6B?=
+ =?us-ascii?Q?96F,818A57F6,4091306,84B5E94D,1D956C31,7DCB254C,BCFC5024,F88?=
+ =?us-ascii?Q?0F766,3379B856,98175F3C,DAA50BDF,8291154E,AFCA6B36,887D635D,?=
+ =?us-ascii?Q?C59A2D7C,432C12A4,9686819E,3397CD6A,2BE2428E,72D06358,A9A9A1?=
+ =?us-ascii?Q?B,85A9F79F,269FA6EC,92392DC5\"}","DPD":{"UF":"65536","OCH":"?=
+ =?us-ascii?Q?3212674997197196590","SCHM":"Https","CNT":"2"},"PROC":[]},{"?=
+ =?us-ascii?Q?ID":8,"OU":"https://www.ubs.com/content/dam/InvestmentBank/e?=
+ =?us-ascii?Q?quity-research/images/munjal-shah-43334778-c.gif","U":"https?=
+ =?us-ascii?Q?://www.ubs.com/content/dam/InvestmentBank/equity-research/im?=
+ =?us-ascii?Q?ages/munjal-shah-43334778-c.gif","IAR":false,"LI":{"TN":"img?=
+ =?us-ascii?Q?","IC":false,"BF":2,"SI":-1,"EndIndex":-1},"SRCI":1,"IU":nul?=
+ =?us-ascii?Q?l,"NU":"www.ubs.com/content/dam/InvestmentBank/equity-resear?=
+ =?us-ascii?Q?ch/images/munjal-shah-43334778-c.gif","UFT":"{101:88,102:3,1?=
+ =?us-ascii?Q?05:11,108:3,110:3,111:7,112:2,114:3,115:3,116:1,118:3,119:3,?=
+ =?us-ascii?Q?121:3,122:3,123:1,125:3,127:1,128:26,129:1,130:3,131:2513,13?=
+ =?us-ascii?Q?5:\"F538357B,F72F7FA1,6155BD0D,3DF8825A,879E9FA0,A0313006,6C?=
+ =?us-ascii?Q?90F2AC,F1F905A7,B9F3FCA6,BB98E14E,DCA08E2B,728A4059,BDFD197,?=
+ =?us-ascii?Q?9744A993,2176AA95,8E9EAAA5,C32F2888,AC28FB84,1D63CF65,7D8ECE?=
+ =?us-ascii?Q?D8,B9ECD3C,3BD00CC3,C0BDEDB1,DF632FFF,9F05411D,5F10683B,88C6?=
+ =?us-ascii?Q?B96F,818A57F6,4091306,84B5E94D,1D956C31,7DCB254C,BCFC5024,F8?=
+ =?us-ascii?Q?80F766,3379B856,98175F3C,19F1AA5,2FBEB0BE,B7CA77CE,6790B722,?=
+ =?us-ascii?Q?7B68E08D,88B9BD7D,40127605,2825222F,202147AC,DB5EEA51,74CA2A?=
+ =?us-ascii?Q?04,85A9F79F,279FA87F,143C3902\"}","DPD":{"UF":"65536","OCH":?=
+ =?us-ascii?Q?"104177186526962142","SCHM":"Https","CNT":"2"},"PROC":[]},{"?=
+ =?us-ascii?Q?ID":9,"OU":"https://www.ubs.com/content/dam/InvestmentBank/e?=
+ =?us-ascii?Q?quity-research/images/taewoo-lee-43423904-c.gif","U":"https:?=
+ =?us-ascii?Q?//www.ubs.com/content/dam/InvestmentBank/equity-research/ima?=
+ =?us-ascii?Q?ges/taewoo-lee-43423904-c.gif","IAR":false,"LI":{"TN":"img",?=
+ =?us-ascii?Q?"IC":false,"BF":2,"SI":-1,"EndIndex":-1},"SRCI":1,"IU":null,?=
+ =?us-ascii?Q?"NU":"www.ubs.com/content/dam/InvestmentBank/equity-research?=
+ =?us-ascii?Q?/images/taewoo-lee-43423904-c.gif","UFT":"{101:87,102:3,105:?=
+ =?us-ascii?Q?11,108:3,110:3,111:7,112:2,114:3,115:3,116:1,118:3,119:3,121?=
+ =?us-ascii?Q?:3,122:3,123:1,125:3,127:1,128:25,129:1,130:3,131:2513,135:\?=
+ =?us-ascii?Q?"F538357B,F72F7FA1,6155BD0D,3DF8825A,879E9FA0,A0313006,6C90F?=
+ =?us-ascii?Q?2AC,F1F905A7,B9F3FCA6,BB98E14E,DCA08E2B,728A4059,BDFD197,974?=
+ =?us-ascii?Q?4A993,2176AA95,8E9EAAA5,C32F2888,AC28FB84,1D63CF65,7D8ECED8,?=
+ =?us-ascii?Q?B9ECD3C,3BD00CC3,C0BDEDB1,DF632FFF,9F05411D,5F10683B,88C6B96?=
+ =?us-ascii?Q?F,818A57F6,4091306,84B5E94D,1D956C31,7DCB254C,BCFC5024,F880F?=
+ =?us-ascii?Q?766,3379B856,98175F3C,9728277F,317FC55E,677FA1AC,5BB0789E,2F?=
+ =?us-ascii?Q?A6410,48942441,62F869A1,836C9F83,25AC5964,BDFA5EC7,85A9F79F,?=
+ =?us-ascii?Q?249FA3C6,B2AE1B6,2FA1F3AE\"}","DPD":{"UF":"65536","OCH":"182?=
+ =?us-ascii?Q?41779914531885914","SCHM":"Https","CNT":"2"},"PROC":[]},{"ID?=
+ =?us-ascii?Q?":15,"OU":"https://www.ubs.com/content/dam/InvestmentBank/eq?=
+ =?us-ascii?Q?uity-research/images/pradeep-ramani-43523467-c.gif","U":"htt?=
+ =?us-ascii?Q?ps://www.ubs.com/content/dam/InvestmentBank/equity-research/?=
+ =?us-ascii?Q?images/pradeep-ramani-43523467-c.gif","IAR":false,"LI":{"TN"?=
+ =?us-ascii?Q?:"img","IC":false,"BF":2,"SI":-1,"EndIndex":-1},"SRCI":1,"IU?=
+ =?us-ascii?Q?":null,"NU":"www.ubs.com/content/dam/InvestmentBank/equity-r?=
+ =?us-ascii?Q?esearch/images/pradeep-ramani-43523467-c.gif","UFT":"{101:91?=
+ =?us-ascii?Q?,102:3,105:11,108:3,110:3,111:7,112:2,114:3,115:3,116:1,118:?=
+ =?us-ascii?Q?3,119:3,121:3,122:3,123:1,125:3,127:1,128:29,129:1,130:3,131?=
+ =?us-ascii?Q?:2513,135:\"F538357B,F72F7FA1,6155BD0D,3DF8825A,879E9FA0,A03?=
+ =?us-ascii?Q?13006,6C90F2AC,F1F905A7,B9F3FCA6,BB98E14E,DCA08E2B,728A4059,?=
+ =?us-ascii?Q?BDFD197,9744A993,2176AA95,8E9EAAA5,C32F2888,AC28FB84,1D63CF6?=
+ =?us-ascii?Q?5,7D8ECED8,B9ECD3C,3BD00CC3,C0BDEDB1,DF632FFF,9F05411D,5F106?=
+ =?us-ascii?Q?83B,88C6B96F,818A57F6,4091306,84B5E94D,1D956C31,7DCB254C,BCF?=
+ =?us-ascii?Q?C5024,F880F766,3379B856,98175F3C,602F3584,95D15B42,237D70BD,?=
+ =?us-ascii?Q?FA039F9B,6AACC603,298C0C05,5843E676,63106E87,9ED1696D,136C0E?=
+ =?us-ascii?Q?6C,1810591,1B63CC3F,D3CCE279,A9A9A1B\"}","DPD":{"UF":"65536"?=
+ =?us-ascii?Q?,"OCH":"2954827374278578869","SCHM":"Https","CNT":"1"},"PROC?=
+ =?us-ascii?Q?":[]},{"ID":16,"OU":"https://www.ubs.com/content/dam/Investm?=
+ =?us-ascii?Q?entBank/equity-research/images/jimmy-yoon-43513450-c.gif","U?=
+ =?us-ascii?Q?":"https://www.ubs.com/content/dam/InvestmentBank/equity-res?=
+ =?us-ascii?Q?earch/images/jimmy-yoon-43513450-c.gif","IAR":false,"LI":{"T?=
+ =?us-ascii?Q?N":"img","IC":false,"BF":2,"SI":-1,"EndIndex":-1},"SRCI":1,"?=
+ =?us-ascii?Q?IU":null,"NU":"www.ubs.com/content/dam/InvestmentBank/equity?=
+ =?us-ascii?Q?-research/images/jimmy-yoon-43513450-c.gif","UFT":"{101:87,1?=
+ =?us-ascii?Q?02:3,105:11,108:3,110:3,111:7,112:2,114:3,115:3,116:1,118:3,?=
+ =?us-ascii?Q?119:3,121:3,122:3,123:1,125:3,127:1,128:25,129:1,130:3,131:2?=
+ =?us-ascii?Q?513,135:\"F538357B,F72F7FA1,6155BD0D,3DF8825A,879E9FA0,A0313?=
+ =?us-ascii?Q?006,6C90F2AC,F1F905A7,B9F3FCA6,BB98E14E,DCA08E2B,728A4059,BD?=
+ =?us-ascii?Q?FD197,9744A993,2176AA95,8E9EAAA5,C32F2888,AC28FB84,1D63CF65,?=
+ =?us-ascii?Q?7D8ECED8,B9ECD3C,3BD00CC3,C0BDEDB1,DF632FFF,9F05411D,5F10683?=
+ =?us-ascii?Q?B,88C6B96F,818A57F6,4091306,84B5E94D,1D956C31,7DCB254C,BCFC5?=
+ =?us-ascii?Q?024,F880F766,3379B856,98175F3C,487CFE9D,B0FC3D40,A8A0E18,3EB?=
+ =?us-ascii?Q?BFCC0,94052FCC,392C02E6,A2A02C68,45FACD89,E6F7F965,EB7564CA,?=
+ =?us-ascii?Q?85A9F79F,259FA559,E2D2506,4B57603A\"}","DPD":{"UF":"65536","?=
+ =?us-ascii?Q?OCH":"6928250351313929610","SCHM":"Https","CNT":"1"},"PROC":?=
+ =?us-ascii?Q?[]},{"ID":17,"OU":"https://www.ubs.com/content/dam/Investmen?=
+ =?us-ascii?Q?tBank/equity-research/images/david-mulholland-43273207-c.gif?=
+ =?us-ascii?Q?","U":"https://www.ubs.com/content/dam/InvestmentBank/equity?=
+ =?us-ascii?Q?-research/images/david-mulholland-43273207-c.gif","IAR":fals?=
+ =?us-ascii?Q?e,"LI":{"TN":"img","IC":false,"BF":2,"SI":-1,"EndIndex":-1},?=
+ =?us-ascii?Q?"SRCI":1,"IU":null,"NU":"www.ubs.com/content/dam/InvestmentB?=
+ =?us-ascii?Q?ank/equity-research/images/david-mulholland-43273207-c.gif",?=
+ =?us-ascii?Q?"UFT":"{101:93,102:3,105:11,108:3,110:3,111:7,112:2,114:3,11?=
+ =?us-ascii?Q?5:3,116:1,118:3,119:3,121:3,122:3,123:1,125:3,127:1,128:31,1?=
+ =?us-ascii?Q?29:1,130:3,131:2513,135:\"F538357B,F72F7FA1,6155BD0D,3DF8825?=
+ =?us-ascii?Q?A,879E9FA0,A0313006,6C90F2AC,F1F905A7,B9F3FCA6,BB98E14E,DCA0?=
+ =?us-ascii?Q?8E2B,728A4059,BDFD197,9744A993,2176AA95,8E9EAAA5,C32F2888,AC?=
+ =?us-ascii?Q?28FB84,1D63CF65,7D8ECED8,B9ECD3C,3BD00CC3,C0BDEDB1,DF632FFF,?=
+ =?us-ascii?Q?9F05411D,5F10683B,88C6B96F,818A57F6,4091306,84B5E94D,1D956C3?=
+ =?us-ascii?Q?1,7DCB254C,BCFC5024,F880F766,3379B856,98175F3C,DAF8E172,3BA0?=
+ =?us-ascii?Q?28C7,E18413F6,74E6187D,F17949FB,3EFA6F8C,FF9F177F,39C4D0AA,6?=
+ =?us-ascii?Q?D50A664,40308496,21F24618,7B5B49CA,6C61EDF2,1E63D0F8\"}","DP?=
+ =?us-ascii?Q?D":{"UF":"65536","OCH":"7800957159929678718","SCHM":"Https",?=
+ =?us-ascii?Q?"CNT":"1"},"PROC":[]},{"ID":18,"OU":"https://www.ubs.com/con?=
+ =?us-ascii?Q?tent/dam/InvestmentBank/equity-research/sunny-lin-43389966-c?=
+ =?us-ascii?Q?.gif","U":"https://www.ubs.com/content/dam/InvestmentBank/eq?=
+ =?us-ascii?Q?uity-research/sunny-lin-43389966-c.gif","IAR":false,"LI":{"T?=
+ =?us-ascii?Q?N":"img","IC":false,"BF":2,"SI":-1,"EndIndex":-1},"SRCI":1,"?=
+ =?us-ascii?Q?IU":null,"NU":"www.ubs.com/content/dam/InvestmentBank/equity?=
+ =?us-ascii?Q?-research/sunny-lin-43389966-c.gif","UFT":"{101:79,102:3,105?=
+ =?us-ascii?Q?:11,108:3,110:3,111:7,112:2,114:3,115:3,116:1,118:3,119:3,12?=
+ =?us-ascii?Q?1:3,122:3,123:1,125:3,127:1,128:24,129:1,130:3,131:2513,135:?=
+ =?us-ascii?Q?\"F538357B,F72F7FA1,6155BD0D,3DF8825A,879E9FA0,A0313006,6C90?=
+ =?us-ascii?Q?F2AC,F1F905A7,B9F3FCA6,BB98E14E,DCA08E2B,728A4059,BDFD197,97?=
+ =?us-ascii?Q?44A993,2176AA95,8E9EAAA5,C32F2888,AC28FB84,1D63CF65,7D8ECED8?=
+ =?us-ascii?Q?,B9ECD3C,3BD00CC3,C0BDEDB1,DF632FFF,9F05411D,5F10683B,88C6B9?=
+ =?us-ascii?Q?6F,818A57F6,4091306,84B5E94D,1D956C31,7D?=
+X-MS-Exchange-Organization-Persisted-Urls-2:
+	CB254C,2EE24747,33BEB70A,A7D4EBFA,73A53BE9,A1054443,5EF86355,8C4E989A,10F4859B,EB7564CA,85A9F79F,279FA87F,1B3C4407,9A4844E7,FA634907,84D06E35,92BF3B1E,E38529EE,F59B0C93\"}","DPD":{"UF":"65536","OCH":"11426999687080616613","SCHM":"Https","CNT":"1"},"PROC":[]},{"ID":22,"OU":"https://neo.ubs.com/r/?id=h10b129d7,11b56902,1&inst=V7","U":"https://neo.ubs.com/r/?id=h10b129d7,11b56902,1&inst=V7","IAR":false,"LI":{"TN":"img","IC":false,"BF":2,"SI":-1,"EndIndex":-1},"SRCI":1,"IU":null,"NU":"neo.ubs.com/r/?id=h10b129d7,11b56902,1&inst=V7","UFT":"{101:14,102:2,105:11,108:3,110:3,111:7,112:2,114:3,115:3,116:1,118:3,119:3,121:3,122:3,123:1,125:3,128:2,131:2513,135:\"59FD0DEE,F72F7FA1\"}","DPD":{"UF":"65536","OCH":"10388924761129705184","SCHM":"Https","CNT":"1"},"PROC":[]}]
+X-MS-Exchange-Organization-PersistedUrlCount: 20
+X-MS-Exchange-Organization-Antispam-PreContentFilter-ScanContext:
+	CategorizerOnSubmitted;CategorizerOnResolved;
+X-MS-Exchange-Organization-AVScannedByV2: Symantec;Microsoft;Command
+X-MS-Exchange-Organization-AVScanComplete: true
+X-MS-Exchange-Organization-UrlSelected: 1
+X-MS-Exchange-Organization-UrlLogged: 1
+X-MS-Exchange-Organization-Recipient-Limit-Verified: True
+X-MS-Exchange-Organization-TotalRecipientCount: 1
+X-MS-Exchange-Organization-ReplyAllBlocker-Verdict: Allow
+X-MS-Exchange-Organization-SafeAttachmentPolicy: PAG-SafeLink
+X-MS-Exchange-Organization-SafeLinksPolicy: PAG - Safe Link policy
+X-MS-Exchange-AtpMessageProperties: SA|SL
+X-MS-Exchange-Organization-ASDirectionalityType: 1
+X-MS-Exchange-Organization-Boomerang-Verdict: None
+X-MS-Exchange-Organization-HMATPModel-DkimAuthStatus: 2
+X-MS-Exchange-Organization-HMATPModel-DmarcAuthStatus: 1
+X-MS-Exchange-Organization-Rules-Execution-History:
+	e2398e30-c1ae-437f-8eeb-c2f936443b07%%%cb2d25fe-d2e6-4c57-97fc-f0e65599f489%%%049335a5-609c-45b0-86f6-062003384f08%%%8b39cfff-e5f0-45ce-9cb5-305a25e21548%%%92e45210-5a0a-4a61-84f2-0301f4ec5a00
+X-MS-Exchange-Forest-RulesExecuted: KL1PR0401MB4194
+X-MS-Exchange-Organization-RulesExecuted: KL1PR0401MB4194
+X-MS-Exchange-Organization-DlpRules-Execution-History:
+	56de797d-ec4c-4d99-a72a-6266e5842c69%%%63218b73-a92b-420a-a249-2bddb0c21d0a%%%957ef474-3592-4bd5-94d9-2b81d13dc728%%%0a5b7768-c290-4067-82e3-1f60147cccdd%%%52e853eb-20ed-464f-9070-79fecdd7e72a%%%95054209-e623-44be-93cd-4fc05e2f32f9%%%c750aed7-4e00-41b3-9e10-26a79a0843ca%%%32b427df-21eb-40a8-988d-26144634d731%%%fd42cd51-69bb-41a8-baad-f3e74f94fbf3%%%01e68547-3345-42b1-967d-575a46d31d40%%%e84029cf-1206-4b81-b2c8-7f850237c337%%%7e8aad26-8a7f-4ab6-9b04-0fdc7016703d%%%c1e43713-b964-4879-8e7d-fe8b5947ba92%%%7fedc324-7f4a-4558-865d-cd8cb47f05a9%%%28f32cb0-0138-4302-a9b0-9c3dd4c8dd4b%%%4535f960-9d70-4156-aa41-fc70e95cf6e8%%%7107e7d7-8985-4dc0-9a4c-8e8a028e37c0%%%c9bfbc0f-74b3-4cc8-a62b-2dfc04570d0b%%%896873e4-6f85-4bc7-8904-8afb4b3997cc%%%59304dc5-220a-4202-8b66-eb0fd2473a80%%%6b011ac4-d175-4bae-b3fc-b7c268d2bc77%%%8d306096-f495-49b1-81ea-897c5facf3a1
+X-MS-Exchange-Organization-DlpRulesExecuted: KL1PR0401MB4194
+X-MS-Exchange-Organization-SafeAttachmentScanNotRequired:
+X-MS-Exchange-Organization-HostedContentFilterPolicy: Blacklist Domain
+X-MS-Exchange-Organization-AntiPhishPolicy: PAG - O365 Anti-Phishing Policy
+X-MS-Exchange-Organization-SenderRecipientCommunicationState: EST
+X-MS-Exchange-Organization-Antispam-ContentFilter-ScanContext:
+	CategorizerOnResolved;
+X-MS-Exchange-Organization-CommunicationStateSummary: EST
+X-MS-Exchange-Organization-FirstContactSummary:
+	ST=1;MRG=0;EXT=0;UN=1;ORCT=1;EV=1;FC=0;NESI=0;NES=0;ESTI=0;EST=1;INS=0;ERR=0
+X-MS-Exchange-Organization-CFA-UserOption: 0
+X-MS-Exchange-Organization-CFA-IsOnTenantAllowedSenderList: true
+X-MS-Exchange-Organization-Antispam-TenantAllowBlockList: AllowDomain
+X-MS-Exchange-Organization-Antispam-SFASkipFiltering: true
+X-MS-Exchange-Organization-CompAuth: compauth=pass reason=100
+X-MS-Exchange-Organization-UriInBody: true
+X-MS-Exchange-Organization-ContainsAttachments: true
+X-MS-Exchange-Organization-Feature-Long: 0	201:32804	202:3768	203:1	205:485
+	206:8	207:16	208:517	210:309	211:303	212:1	215:32829	219:37	220:44	221:6
+	222:1	223:5	227:1	228:1	233:1	235:2	236:2	238:1	239:1	241:1	243:2	244:5	245:2
+	246:1	247:1	248:1	255:1	256:1	257:12	258:1	260:3	261:300	262:3	263:20	264:570
+	265:27	1004:bemis.com	1006:customer,contact,update,importan,attach	1007:Latn
+	1008:None	1014:ubs.com	1015:ubs.com	1020:ubs.com	1030:ubs.com	1033:txt
+	1034:8DAB550F@pag.com	1035:ubs.com
+X-MS-Exchange-Organization-HDRFeatureV2:
+	10;6;0;1;1;1;5;5;0;2;8;8;3;0;8;3;99;60;21;14;14;17;16;16;20;13;49;49;9;21;49;9;2;1;1;-1;-1;-1;-1;-1;-1;1;14;1;14
+X-MS-Exchange-Organization-ExtractionAttachmentNames: 0
+X-MS-Exchange-Organization-ExtractionTags: SUB64;1IMG;2IMG;LINK;SCRL;
+X-MS-Exchange-Organization-ExtractionTagsURLFound: URL
+X-MS-Exchange-Organization-ExtractionTagsSubject: UBS: Memory Semis Monthly
+ "November '20 Edition: Mobile DRAM pricing first up"
+X-MS-Exchange-Organization-ExtractionTagsFrom: <nicolas.gaudois@ubs.com>
+X-MS-Exchange-Organization-ExtractionTagsSubjectNormalized: ubs rnernory
+ sernls rnonthly novernber 2o edltlon rnoblle drarn prlclng flrst up
+X-MS-Oob-TLC-OOBClassifiers: OLM:10000;
+X-MS-Exchange-Organization-DetonationSkipEnforcementScenarios: TenantAllow
+X-MS-Exchange-Organization-Antispam-PostContentFilter-ScanContext:
+	CategorizerOnResolved;CategorizerOnRouted;
+X-MS-Exchange-Organization-SCL: -1
+X-Microsoft-Antispam: BCL:0;
+X-Microsoft-Antispam-Message-Info:
+	=?us-ascii?Q?hLJRdXweWekubHoqI3cIyf91qw0mquteDhcpntdYspU4vBiZDOXB1OksakjX?=
+ =?us-ascii?Q?uCspF1OU/MPeqkeWBz/m+tzJQ2lsK1qw8yKnm0rMf+kA6ryvvSNQgAHqOfG7?=
+ =?us-ascii?Q?lNPKkF93DcQgEDMDGyNXLZyd47hufK6W6QYmCxjGgaq+6aBoGv4mUHNNEybm?=
+ =?us-ascii?Q?UfPkJJ8Wt5NU7b4b/quDEwOJzHzsh4Sk2C1Dq7whWZkdT4tiiOlcZexDdhR4?=
+ =?us-ascii?Q?KJ+oISUUr0R6v7Y6qSDE48gTKe8X7oE6lwga3DPkIu+LXak9JBPWAmPrc2j/?=
+ =?us-ascii?Q?vZZRR2TnedY0E9mU6eBhotA6hHCJ2BI2yxopEkuqxYJ6hWQo9l7IHH2ohMGc?=
+ =?us-ascii?Q?ZL0rqco2EzxoijwBGnmVF4jyExth7xl0MJ4RGD9mtqEWynH76eerQt9D7Orr?=
+ =?us-ascii?Q?HP+dBGRVhH3mfTp/jc1FNnZsiM2WAGGc7zvZkBBIslx0rYCWEqn1p9V9H3jB?=
+ =?us-ascii?Q?vPH5LnSnkw+xeVB4wLk2xxeZE1aTASiT7UFUQEr6IQ0pL4xqoub6hm3q66DK?=
+ =?us-ascii?Q?KGWfc06UauRkTkX3DBBDV/Evu5P/Y0QuH19Y/gyJMMkVGsPVzjb9sgneZ5e+?=
+ =?us-ascii?Q?vvAwBT0by8i8HtjT60H4nzjnHIqtTI/9yP54cHuo3Eu7F4BAze8Ion/ZLL44?=
+ =?us-ascii?Q?9GiTtKQUxVXPEsLE2Lo6PbCim/JPcD+2YhulufXOHKror8jM1GQmvi/4pwY6?=
+ =?us-ascii?Q?ss5adxy/PwTjt+tOnj/360xb+iHQtXYziH+baLBpnIv/apT5NYhxNHvGyhwf?=
+ =?us-ascii?Q?r1OqifKAOshJy+P44f27/AI14hc1FVDdg07fO9FbQrFyvxQGj2FbvsQ9uvdq?=
+ =?us-ascii?Q?MoFG2l68g1TAXD2Xo5kNn+hMjKTjevPsUJ6UqIENqc0m43/ogCr7Sw4TUqZw?=
+ =?us-ascii?Q?YEMSiyR4KIMk94clZeIQYvXAv+YMrDJN2QTFGC6g29RTfghBAdUCOLJyY5Bg?=
+ =?us-ascii?Q?KHxf+YDFDuQFK7sbjiuKdibW0rYju03Ma7TUUIig7F/G+ll8p7cBpVRatczL?=
+ =?us-ascii?Q?TgM+CwvAopdu+exac3E/hC3BjtZ3hFy6vBrwRiUCkbR5BoBR358Gg1QTq7Ai?=
+ =?us-ascii?Q?nj6Nv2uoBKvxOP5Qz4XlkNvmLcNnA13TZx+DUQ0spmtNKrselhFMuWZuMSus?=
+ =?us-ascii?Q?zUCTutLC8TFIUfdH2Iax3z/pwc1ARvIsL0RXRzxDwApQL02qD9T5Z54NbPix?=
+ =?us-ascii?Q?0SK1hO/r8gk1usKhQQbSOYezL2uQfOyCBYCRefRzW1+5goPZo1C3+j0HjcXN?=
+ =?us-ascii?Q?aUYDoUFJRaGisGZk7lo48D7GqSb1+dbYdTXc6YIa1LTqKd30Mx8B+W1X3G1M?=
+ =?us-ascii?Q?r+TYQ70rB5ltDe8+5P33d0faZO3FyYI/j+fOrsMEu4aLgmvlciKYcwVjhC2W?=
+ =?us-ascii?Q?r1Q/V9TK0ShIAysftWb/jdpo/5v9r6HDhX0C1HrcBGK/e89IpAuTdZPOdoOG?=
+ =?us-ascii?Q?jRc/xtWaOpw+g57LxQnktAr2tH4T8wgQBkYHKoWIwRRjrZEf3Ek6wg=3D=3D?=
+X-Forefront-Antispam-Report:
+	CIP:161.239.225.142;CTRY:US;LANG:en;SCL:-1;SRV:;IPV:NLI;SFV:SKA;H:cli-lp-gate1.stm.ibb.ubs.com;PTR:cli-lp-gate1.stm.ibb.ubs.com;CAT:NONE;SFS:;DIR:INB;
+X-MS-Exchange-Organization-GroupForkPerf: VCL=0;VL=0
+X-MS-Exchange-Organization-SupervisoryReviewPoliciesExecuted: KL1PR0401MB4194
+X-MS-Exchange-Organization-ATPSafeLinks-UrlContainer-Signature:
+	1|AwZUvEkJjuCLzqxlAfBSvTmZR5pX62uI1+3Jy5lhecTVWz0EtQbHxrpu9P3gN+ZyU8XMmrkoVRSy9NaAUq2JcpSczb4p48/XnMtQ5ZqxoPfATqpU5ohSHl96/JoZY5DjJ1sYLN6hkNCPkki2UnSxYZZA+A4uA+oOjbrTEa2Hk5M=
+X-MS-Exchange-Safelinks-Url-KeyVer: 1
+X-MS-Exchange-Safelinks-Url-KeyVer: 1
+X-MS-Exchange-Organization-ATPSafeLinks-UrlContainer-Data-ChunkCount: 1
+X-MS-Exchange-Organization-ATPSafeLinks-UrlContainer-Data-0:
+	=?us-ascii?Q?eyJ1Y2MiOlt7Im91IjoiaHR0cDovL3d3dy51YnMuY29tL2Rpc2Nsb3N1cmVz?=
+ =?us-ascii?Q?Iiwid3UiOiJodHRwczovL2FwYzAxLnNhZmVsaW5rcy5wcm90ZWN0aW9uLm91?=
+ =?us-ascii?Q?dGxvb2suY29tLz91cmw9aHR0cCUzQSUyRiUyRnd3dy51YnMuY29tJTJGZGlz?=
+ =?us-ascii?Q?Y2xvc3VyZXMmYW1wO2RhdGE9MDQlN0MwMSU3Q21jYXJydXRoJTQwcGFnLmNv?=
+ =?us-ascii?Q?bSU3Q2EzMmFkZmZmN2Y5OTQ2MmEwYzQ2MDhkODhhNDY0MzZiJTdDZjU0MWRl?=
+ =?us-ascii?Q?M2RjZDczNDhhMGFhYzQ3N2QwOTBlNDlhZDUlN0MxJTdDMCU3QzYzNzQxMTM4?=
+ =?us-ascii?Q?MTcwMjc2MTkwOSU3Q1Vua25vd24lN0NUV0ZwYkdac2IzZDhleUpXSWpvaU1D?=
+ =?us-ascii?Q?NHdMakF3TURBaUxDSlFJam9pVjJsdU16SWlMQ0pCVGlJNklrMWhhV3dpTENK?=
+ =?us-ascii?Q?WFZDSTZNbjAlM0QlN0MxMDAwJmFtcDtzZGF0YT00Q2FCTCUyRjd2WDNwbzg0?=
+ =?us-ascii?Q?ckQlMkI3alJLVUMlMkZWMThsTERQdUhZYm5ZJTJCd2JGZHMlM0QmYW1wO3Jl?=
+ =?us-ascii?Q?c2VydmVkPTAiLCJhYyI6IiJ9LHsib3UiOiJodHRwOi8vd3d3LnVicy5jb20v?=
+ =?us-ascii?Q?ZGlzY2xvc3VyZXMiLCJ3dSI6Imh0dHBzOi8vYXBjMDEuc2FmZWxpbmtzLnBy?=
+ =?us-ascii?Q?b3RlY3Rpb24ub3V0bG9vay5jb20vP3VybD1odHRwJTNBJTJGJTJGd3d3LnVi?=
+ =?us-ascii?Q?cy5jb20lMkZkaXNjbG9zdXJlcyZhbXA7ZGF0YT0wNCU3QzAxJTdDbWNhcnJ1?=
+ =?us-ascii?Q?dGglNDBwYWcuY29tJTdDYTMyYWRmZmY3Zjk5NDYyYTBjNDYwOGQ4OGE0NjQz?=
+ =?us-ascii?Q?NmIlN0NmNTQxZGUzZGNkNzM0OGEwYWFjNDc3ZDA5MGU0OWFkNSU3QzElN0Mw?=
+ =?us-ascii?Q?JTdDNjM3NDExMzgxNzAyNzYxOTA5JTdDVW5rbm93biU3Q1RXRnBiR1pzYjNk?=
+ =?us-ascii?Q?OGV5SldJam9pTUM0d0xqQXdNREFpTENKUUlqb2lWMmx1TXpJaUxDSkJUaUk2?=
+ =?us-ascii?Q?SWsxaGFXd2lMQ0pYVkNJNk1uMCUzRCU3QzEwMDAmYW1wO3NkYXRhPTRDYUJM?=
+ =?us-ascii?Q?JTJGN3ZYM3BvODRyRCUyQjdqUktVQyUyRlYxOGxMRFB1SFliblklMkJ3YkZk?=
+ =?us-ascii?Q?cyUzRCZhbXA7cmVzZXJ2ZWQ9MCIsImFjIjoiIn0seyJvdSI6Imh0dHBzOi8v?=
+ =?us-ascii?Q?bmVvLnVicy5jb20vci8/aWQ9aDEwYjEyOWQ3LDExYjU2OTAyLDExYjU2YWI5?=
+ =?us-ascii?Q?Jmluc3Q9VjcmZGlkPUFDNy1FLTI5NzEwMTU3MCZvZmZfaWQ9QUM3LUUtMjk4?=
+ =?us-ascii?Q?MDg4MTI0Jm1hPVk1MzUzNjQ1NTQxNzk0NzQzJmNhbXBfaWQ9RU06VU5LVzoy?=
+ =?us-ascii?Q?MDIwLTExOjE2OkMiLCJ3dSI6Imh0dHBzOi8vYXBjMDEuc2FmZWxpbmtzLnBy?=
+ =?us-ascii?Q?b3RlY3Rpb24ub3V0bG9vay5jb20vP3VybD1odHRwcyUzQSUyRiUyRm5lby51?=
+ =?us-ascii?Q?YnMuY29tJTJGciUyRiUzRmlkJTNEaDEwYjEyOWQ3JTJDMTFiNTY5MDIlMkMx?=
+ =?us-ascii?Q?MWI1NmFiOSUyNmluc3QlM0RWNyUyNmRpZCUzREFDNy1FLTI5NzEwMTU3MCUy?=
+ =?us-ascii?Q?Nm9mZl9pZCUzREFDNy1FLTI5ODA4ODEyNCUyNm1hJTNEWTUzNTM2NDU1NDE3?=
+ =?us-ascii?Q?OTQ3NDMlMjZjYW1wX2lkJTNERU0lM0FVTktXJTNBMjAyMC0xMSUzQTE2JTNB?=
+ =?us-ascii?Q?QyZhbXA7ZGF0YT0wNCU3QzAxJTdDbWNhcnJ1dGglNDBwYWcuY29tJTdDYTMy?=
+ =?us-ascii?Q?YWRmZmY3Zjk5NDYyYTBjNDYwOGQ4OGE0NjQzNmIlN0NmNTQxZGUzZGNkNzM0?=
+ =?us-ascii?Q?OGEwYWFjNDc3ZDA5MGU0OWFkNSU3QzElN0MwJTdDNjM3NDExMzgxNzAyNzkx?=
+ =?us-ascii?Q?NzY3JTdDVW5rbm93biU3Q1RXRnBiR1pzYjNkOGV5SldJam9pTUM0d0xqQXdN?=
+ =?us-ascii?Q?REFpTENKUUlqb2lWMmx1TXpJaUxDSkJUaUk2SWsxaGFXd2lMQ0pYVkNJNk1u?=
+ =?us-ascii?Q?MCUzRCU3QzEwMDAmYW1wO3NkYXRhPVFFY0F1WWE3RTd0VENGaFpQSjNyNXFX?=
+ =?us-ascii?Q?QTdvRkFNQ2RXSGdOZ0E0JTJCNjBuZyUzRCZhbXA7cmVzZXJ2ZWQ9MCIsImFj?=
+ =?us-ascii?Q?IjoiIn0seyJvdSI6Imh0dHBzOi8vbmVvLnVicy5jb20vci8/aWQ9aDEwYjEy?=
+ =?us-ascii?Q?OWQ3LDExYjU2OTAyLDExYjU2YWJhJmluc3Q9VjcmZGlkPUFDNy1FLTI5NzEw?=
+ =?us-ascii?Q?MTU3MCZvZmZfaWQ9QUM3LUUtMjk4MDg4MTI1Jm1hPVk1MzUzNjQ1NTQxNzk0?=
+ =?us-ascii?Q?NzQzJmNhbXBfaWQ9RU06VU5LVzoyMDIwLTExOjE2OkMiLCJ3dSI6Imh0dHBz?=
+ =?us-ascii?Q?Oi8vYXBjMDEuc2FmZWxpbmtzLnByb3RlY3Rpb24ub3V0bG9vay5jb20vP3Vy?=
+ =?us-ascii?Q?bD1odHRwcyUzQSUyRiUyRm5lby51YnMuY29tJTJGciUyRiUzRmlkJTNEaDEw?=
+ =?us-ascii?Q?YjEyOWQ3JTJDMTFiNTY5MDIlMkMxMWI1NmFiYSUyNmluc3QlM0RWNyUyNmRp?=
+ =?us-ascii?Q?ZCUzREFDNy1FLTI5NzEwMTU3MCUyNm9mZl9pZCUzREFDNy1FLTI5ODA4ODEy?=
+ =?us-ascii?Q?NSUyNm1hJTNEWTUzNTM2NDU1NDE3OTQ3NDMlMjZjYW1wX2lkJTNERU0lM0FV?=
+ =?us-ascii?Q?TktXJTNBMjAyMC0xMSUzQTE2JTNBQyZhbXA7ZGF0YT0wNCU3QzAxJTdDbWNh?=
+ =?us-ascii?Q?cnJ1dGglNDBwYWcuY29tJTdDYTMyYWRmZmY3Zjk5NDYyYTBjNDYwOGQ4OGE0?=
+ =?us-ascii?Q?NjQzNmIlN0NmNTQxZGUzZGNkNzM0OGEwYWFjNDc3ZDA5MGU0OWFkNSU3QzEl?=
+ =?us-ascii?Q?N0MwJTdDNjM3NDExMzgxNzAyODAxNzIzJTdDVW5rbm93biU3Q1RXRnBiR1pz?=
+ =?us-ascii?Q?YjNkOGV5SldJam9pTUM0d0xqQXdNREFpTENKUUlqb2lWMmx1TXpJaUxDSkJU?=
+ =?us-ascii?Q?aUk2SWsxaGFXd2lMQ0pYVkNJNk1uMCUzRCU3QzEwMDAmYW1wO3NkYXRhPXF3?=
+ =?us-ascii?Q?QmpaVFRQVzZFeTVwenZpJTJCczM0SFNmRmRpaTNsJTJCcWlOeUFVcFJad1Rr?=
+ =?us-ascii?Q?JTNEJmFtcDtyZXNlcnZlZD0wIiwiYWMiOiIifSx7Im91IjoiaHR0cHM6Ly9u?=
+ =?us-ascii?Q?ZW8udWJzLmNvbS9yLz9pZD1oMTBiMTI5ZDcsMTFiNTY5MDIsMTFiNTZhYmIm?=
+ =?us-ascii?Q?aW5zdD1WNyZkaWQ9QUM3LUUtMjk3MTAxNTcwJm9mZl9pZD1BQzctRS0yOTgw?=
+ =?us-ascii?Q?ODgxMjYmbWE9WTUzNTM2NDU1NDE3OTQ3NDMmY2FtcF9pZD1FTTpVTktXOjIw?=
+ =?us-ascii?Q?MjAtMTE6MTY6QyIsInd1IjoiaHR0cHM6Ly9hcGMwMS5zYWZlbGlua3MucHJv?=
+ =?us-ascii?Q?dGVjdGlvbi5vdXRsb29rLmNvbS8/dXJsPWh0dHBzJTNBJTJGJTJGbmVvLnVi?=
+ =?us-ascii?Q?cy5jb20lMkZyJTJGJTNGaWQlM0RoMTBiMTI5ZDclMkMxMWI1NjkwMiUyQzEx?=
+ =?us-ascii?Q?YjU2YWJiJTI2aW5zdCUzRFY3JTI2ZGlkJTNEQUM3LUUtMjk3MTAxNTcwJTI2?=
+ =?us-ascii?Q?b2ZmX2lkJTNEQUM3LUUtMjk4MDg4MTI2JTI2bWElM0RZNTM1MzY0NTU0MTc5?=
+ =?us-ascii?Q?NDc0MyUyNmNhbXBfaWQlM0RFTSUzQVVOS1clM0EyMDIwLTExJTNBMTYlM0FD?=
+ =?us-ascii?Q?JmFtcDtkYXRhPTA0JTdDMDElN0NtY2FycnV0aCU0MHBhZy5jb20lN0NhMzJh?=
+ =?us-ascii?Q?ZGZmZjdmOTk0NjJhMGM0NjA4ZDg4YTQ2NDM2YiU3Q2Y1NDFkZTNkY2Q3MzQ4?=
+ =?us-ascii?Q?YTBhYWM0NzdkMDkwZTQ5YWQ1JTdDMSU3QzAlN0M2Mzc0MTEzODE3MDI4MDE3?=
+ =?us-ascii?Q?MjMlN0NVbmtub3duJTdDVFdGcGJHWnNiM2Q4ZXlKV0lqb2lNQzR3TGpBd01E?=
+ =?us-ascii?Q?QWlMQ0pRSWpvaVYybHVNeklpTENKQlRpSTZJazFoYVd3aUxDSlhWQ0k2TW4w?=
+ =?us-ascii?Q?JTNEJTdDMTAwMCZhbXA7c2RhdGE9MFNlVUJLS0Z4Q2VBa3Z3SUlram43Szdu?=
+ =?us-ascii?Q?Q1RqVkZwOEJ0NElHb1R3Z2ZOdyUzRCZhbXA7cmVzZXJ2ZWQ9MCIsImFjIjoi?=
+ =?us-ascii?Q?In0seyJvdSI6Imh0dHBzOi8vbmVvLnVicy5jb20vci8/aWQ9aDEwYjEyOWQ3?=
+ =?us-ascii?Q?LDExYjU2OTAyLDExYjU2YWJlJmluc3Q9VjcmZGlkPUFDNy1FLTI5NzEwMTU3?=
+ =?us-ascii?Q?MCZvZmZfaWQ9QUM3LUUtMjk4MDg4MTI5Jm1hPVk1MzUzNjQ1NTQxNzk0NzQz?=
+ =?us-ascii?Q?JmNhbXBfaWQ9RU06VU5LVzoyMDIwLTExOjE2OkMiLCJ3dSI6Imh0dHBzOi8v?=
+ =?us-ascii?Q?YXBjMDEuc2FmZWxpbmtzLnByb3RlY3Rpb24ub3V0bG9vay5jb20vP3VybD1o?=
+ =?us-ascii?Q?dHRwcyUzQSUyRiUyRm5lby51YnMuY29tJTJGciUyRiUzRmlkJTNEaDEwYjEy?=
+ =?us-ascii?Q?OWQ3JTJDMTFiNTY5MDIlMkMxMWI1NmFiZSUyNmluc3QlM0RWNyUyNmRpZCUz?=
+ =?us-ascii?Q?REFDNy1FLTI5NzEwMTU3MCUyNm9mZl9pZCUzREFDNy1FLTI5ODA4ODEyOSUy?=
+ =?us-ascii?Q?Nm1hJTNEWTUzNTM2NDU1NDE3OTQ3NDMlMjZjYW1wX2lkJTNERU0lM0FVTktX?=
+ =?us-ascii?Q?JTNBMjAyMC0xMSUzQTE2JTNBQyZhbXA7ZGF0YT0wNCU3QzAxJTdDbWNhcnJ1?=
+ =?us-ascii?Q?dGglNDBwYWcuY29tJTdDYTMyYWRmZmY3Zjk5NDYyYTBjNDYwOGQ4OGE0NjQz?=
+ =?us-ascii?Q?NmIlN0NmNTQxZGUzZGNkNzM0OGEwYWFjNDc3ZDA5MGU0OWFkNSU3QzElN0Mw?=
+ =?us-ascii?Q?JTdDNjM3NDExMzgxNzAyODExNjgwJTdDVW5rbm93biU3Q1RXRnBiR1pzYjNk?=
+ =?us-ascii?Q?OGV5SldJam9pTUM0d0xqQXdNREFpTENKUUlqb2lWMmx1TXpJaUxDSkJUaUk2?=
+ =?us-ascii?Q?SWsxaGFXd2lMQ0pYVkNJNk1uMCUzRCU3QzEwMDAmYW1wO3NkYXRhPUtnYk9I?=
+ =?us-ascii?Q?V2lwS2xzbzVCaVFRclI3ZnNVMGFsaDdtZmZWWDElMkI5MEZCdzNoYyUzRCZh?=
+ =?us-ascii?Q?bXA7cmVzZXJ2ZWQ9MCIsImFjIjoiIn0seyJvdSI6Imh0dHBzOi8vbmVvLnVi?=
+ =?us-ascii?Q?cy5jb20vci8/aWQ9aDEwYjEyOWQ3LDExYjU2OTAyLDExYjU2YWJmJmluc3Q9?=
+ =?us-ascii?Q?VjcmZGlkPUFDNy1FLTI5NzEwMTU3MCZvZmZfaWQ9QUM3LUUtMjk4MDg4MTMw?=
+ =?us-ascii?Q?Jm1hPVk1MzUzNjQ1NTQxNzk0NzQzJmNhbXBfaWQ9RU06VU5LVzoyMDIwLTEx?=
+ =?us-ascii?Q?OjE2OkMiLCJ3dSI6Imh0dHBzOi8vYXBjMDEuc2FmZWxpbmtzLnByb3RlY3Rp?=
+ =?us-ascii?Q?b24ub3V0bG9vay5jb20vP3VybD1odHRwcyUzQSUyRiUyRm5lby51YnMuY29t?=
+ =?us-ascii?Q?JTJGciUyRiUzRmlkJTNEaDEwYjEyOWQ3JTJDMTFiNTY5MDIlMkMxMWI1NmFi?=
+ =?us-ascii?Q?ZiUyNmluc3QlM0RWNyUyNmRpZCUzREFDNy1FLTI5NzEwMTU3MCUyNm9mZl9p?=
+ =?us-ascii?Q?ZCUzREFDNy1FLTI5ODA4ODEzMCUyNm1hJTNEWTUzNTM2NDU1NDE3OTQ3NDMl?=
+ =?us-ascii?Q?MjZjYW1wX2lkJTNERU0lM0FVTktXJTNBMjAyMC0xMSUzQTE2JTNBQyZhbXA7?=
+ =?us-ascii?Q?ZGF0YT0wNCU3QzAxJTdDbWNhcnJ1dGglNDBwYWcuY29tJTdDYTMyYWRmZmY3?=
+ =?us-ascii?Q?Zjk5NDYyYTBjNDYwOGQ4OGE0NjQzNmIlN0NmNTQxZGUzZGNkNzM0OGEwYWFj?=
+ =?us-ascii?Q?NDc3ZDA5MGU0OWFkNSU3QzElN0MwJTdDNjM3NDExMzgxNzAyODExNjgwJTdD?=
+ =?us-ascii?Q?VW5rbm93biU3Q1RXRnBiR1pzYjNkOGV5SldJam9pTUM0d0xqQXdNREFpTENK?=
+ =?us-ascii?Q?UUlqb2lWMmx1TXpJaUxDSkJUaUk2SWsxaGFXd2lMQ0pYVkNJNk1uMCUzRCU3?=
+ =?us-ascii?Q?QzEwMDAmYW1wO3NkYXRhPXVCOSUyRm9aenZvcEVLZUl0aVp3VExJdFB0ejBp?=
+ =?us-ascii?Q?WFFzVlVyTmUxVkFlZ3hqTSUzRCZhbXA7cmVzZXJ2ZWQ9MCIsImFjIjoiIn0s?=
+ =?us-ascii?Q?eyJvdSI6Imh0dHBzOi8vbmVvLnVicy5jb20vci8/aWQ9aDEwYjEyOWQ3LDEx?=
+ =?us-ascii?Q?YjU2OTAyLDExYjU2YWMwJmluc3Q9VjcmZGlkPUFDNy1FLTI5NzEwMTU3MCZv?=
+ =?us-ascii?Q?ZmZfaWQ9QUM3LUUtMjk4MDg4MTMxJm1hPVk1MzUzNjQ1NTQxNzk0NzQzJmNh?=
+ =?us-ascii?Q?bXBfaWQ9RU06VU5LVzoyMDIwLTExOjE2OkMiLCJ3dSI6Imh0dHBzOi8vYXBj?=
+ =?us-ascii?Q?MDEuc2FmZWxpbmtzLnByb3RlY3Rpb24ub3V0bG9vay5jb20vP3VybD1odHRw?=
+ =?us-ascii?Q?cyUzQSUyRiUyRm5lby51YnMuY29tJTJGciUyRiUzRmlkJTNEaDEwYjEyOWQ3?=
+ =?us-ascii?Q?JTJDMTFiNTY5MDIlMkMxMWI1NmFjMCUyNmluc3QlM0RWNyUyNmRpZCUzREFD?=
+ =?us-ascii?Q?Ny1FLTI5NzEwMTU3MCUyNm9mZl9pZCUzREFDNy1FLTI5ODA4ODEzMSUyNm1h?=
+ =?us-ascii?Q?JTNEWTUzNTM2NDU1NDE3OTQ3NDMlMjZjYW1wX2lkJTNERU0lM0FVTktXJTNB?=
+ =?us-ascii?Q?MjAyMC0xMSUzQTE2JTNBQyZhbXA7ZGF0YT0wNCU3QzAxJTdDbWNhcnJ1dGgl?=
+ =?us-ascii?Q?NDBwYWcuY29tJTdDYTMyYWRmZmY3Zjk5NDYyYTBjNDYwOGQ4OGE0NjQzNmIl?=
+ =?us-ascii?Q?N0NmNTQxZGUzZGNkNzM0OGEwYWFjNDc3ZDA5MGU0OWFkNSU3QzElN0MwJTdD?=
+ =?us-ascii?Q?NjM3NDExMzgxNzAyODExNjgwJTdDVW5rbm93biU3Q1RXRnBiR1pzYjNkOGV5?=
+ =?us-ascii?Q?SldJam9pTUM0d0xqQXdNREFpTENKUUlqb2lWMmx1TXpJaUxDSkJUaUk2SWsx?=
+ =?us-ascii?Q?aGFXd2lMQ0pYVkNJNk1uMCUzRCU3QzEwMDAmYW1wO3NkYXRhPWVWY2hFOW9O?=
+ =?us-ascii?Q?bThlU0p2NWwlMkZ2M1dQR25qYmp3ZFZZMU5GOHdtb0JwVmF4QSUzRCZhbXA7?=
+ =?us-ascii?Q?cmVzZXJ2ZWQ9MCIsImFjIjoiIn0seyJvdSI6Imh0dHA6Ly93d3cudWJzLmNv?=
+ =?us-ascii?Q?bS8iLCJ3dSI6Imh0dHBzOi8vYXBjMDEuc2FmZWxpbmtzLnByb3RlY3Rpb24u?=
+ =?us-ascii?Q?b3V0bG9vay5jb20vP3VybD1odHRwJTNBJTJGJTJGd3d3LnVicy5jb20lMkYm?=
+ =?us-ascii?Q?YW1wO2RhdGE9MDQlN0MwMSU3Q21jYXJydXRoJTQwcGFnLmNvbSU3Q2EzMmFk?=
+ =?us-ascii?Q?ZmZmN2Y5OTQ2MmEwYzQ2MDhkODhhNDY0MzZiJTdDZjU0MWRlM2RjZDczNDhh?=
+ =?us-ascii?Q?MGFhYzQ3N2QwOTBlNDlhZDUlN0MxJTdDMCU3QzYzNzQxMTM4MTcwMjgzMTU5?=
+ =?us-ascii?Q?MSU3Q1Vua25vd24lN0NUV0ZwYkdac2IzZDhleUpXSWpvaU1DNHdMakF3TURB?=
+ =?us-ascii?Q?aUxDSlFJam9pVjJsdU16SWlMQ0pCVGlJNklrMWhhV3dpTENKWFZDSTZNbjAl?=
+ =?us-ascii?Q?M0QlN0MxMDAwJmFtcDtzZGF0YT13WW0lMkJWUHVRQWVWdGpkMG11M3olMkZs?=
+ =?us-ascii?Q?Z3JNSmxldktPbE8yaVVnSkhEVlBGdyUzRCZhbXA7cmVzZXJ2ZWQ9MCIsImFj?=
+ =?us-ascii?Q?IjoiIn0seyJvdSI6Imh0dHBzOi8vd3d3LnVicy5jb20vZ2xvYmFsL2VuL2xl?=
+ =?us-ascii?Q?Z2FsL3ByaXZhY3kuaHRtbCIsInd1IjoiaHR0cHM6Ly9hcGMwMS5zYWZlbGlu?=
+ =?us-ascii?Q?a3MucHJvdGVjdGlvbi5vdXRsb29rLmNvbS8/dXJsPWh0dHBzJTNBJTJGJTJG?=
+ =?us-ascii?Q?d3d3LnVicy5jb20lMkZnbG9iYWwlMkZlbiUyRmxlZ2FsJTJGcHJpdmFjeS5o?=
+ =?us-ascii?Q?dG1sJmFtcDtkYXRhPTA0JTdDMDElN0NtY2FycnV0aCU0MHBhZy5jb20lN0Nh?=
+ =?us-ascii?Q?MzJhZGZmZjdmOTk0NjJhMGM0NjA4ZDg4YTQ2NDM2YiU3Q2Y1NDFkZTNkY2Q3?=
+ =?us-ascii?Q?MzQ4YTBhYWM0NzdkMDkwZTQ5YWQ1JTdDMSU3QzAlN0M2Mzc0MTEzODE3MDI4?=
+ =?us-ascii?Q?MzE1OTElN0NVbmtub3duJTdDVFdGcGJHWnNiM2Q4ZXlKV0lqb2lNQzR3TGpB?=
+ =?us-ascii?Q?d01EQWlMQ0pRSWpvaVYybHVNeklpTENKQlRpSTZJazFoYVd3aUxDSlhWQ0k2?=
+ =?us-ascii?Q?TW4wJTNEJTdDMTAwMCZhbXA7c2RhdGE9VFVRR1Y1OEh5cENqTnoxVVVDS1lW?=
+ =?us-ascii?Q?T0RRZXJnQk1lOU1wQXRxUm81dUpZSSUzRCZhbXA7cmVzZXJ2ZWQ9MCIsImFj?=
+ =?us-ascii?Q?IjoiIn1dLCJvdiI6MX0=3D?=
+X-MS-Exchange-Safelinks-Url-KeyVer: 1
+X-MS-Exchange-ATPSafeLinks-Stat: 0
+X-MS-Exchange-ATPSafeLinks-BitVector: 1000:0x0|0x0|0x1000;
+X-MS-Exchange-Organization-Cross-Session-Cache:
+	=?us-ascii?Q?00CIP=3D161.239.225.142;EIPC0=3D2004,2055,950,951,2005,2006,?=
+ =?us-ascii?Q?2007,2008,2009,2010,2011,2012,2013,2014,2000,2050,2051,2052,?=
+ =?us-ascii?Q?952,902,2054,2016,903,901,907,905,904,2001,3000,2003,2002,96?=
+ =?us-ascii?Q?7,2058,2059,2060,531,2017,5080,5011,5051,5001,5057,5055,5058?=
+ =?us-ascii?Q?,5056,5052,5054,906,5010,5059,5053,5002,5003,5005,5070;MIPC0?=
+ =?us-ascii?Q?=3D950;REP=3D01,1,0\;01,2,0\;01,3,0\;01,4,0\;01,5,0\;01,6,0\?=
+ =?us-ascii?Q?;01,7,0\;01,8,403\;01,9,0\;01,10,0\;01,11,0\;01,12,403\;02,1?=
+ =?us-ascii?Q?,0\;02,2,0\;02,3,0\;02,4,0\;02,5,183\;02,6,0\;02,7,0;SL=3D3;?=
+ =?us-ascii?Q?EMSL=3D1;SCL=3D-1;BL=3D0;RL=3D1;PID=3D0;EXPID=3D;IsIncomingM?=
+ =?us-ascii?Q?ail=3Dtrue;TIP=3DNotListed;CIPCRY=3DUS;SAUTHOP=3D1;RMX=3DOff?=
+ =?us-ascii?Q?ice365;EIPC1=3D2004,2055,950,951,2005,2006,2007,2008,2009,20?=
+ =?us-ascii?Q?10,2011,2012,2013,2014,2000,2050,2051,2052,952,902,2054,2016?=
+ =?us-ascii?Q?,903,901,907,905,904,2001,3000,2003,2002,967,2058,2059,2060,?=
+ =?us-ascii?Q?531,2017,5080,5011,5051,5001,5057,5055,5058,5056,5052,5054,9?=
+ =?us-ascii?Q?06,5010,5059,5053,5002,5003,5005,5070;MIPC1=3D950,2014,951;A?=
+ =?us-ascii?Q?=3D00;MX=3D00;PTR=3D00cli-lp-gate1.stm.ibb.ubs.com;SPF=3D011?=
+ =?us-ascii?Q?bm8tcmVwbHlAdWJzLmNvbQ=3D=3D;DKIM=3D00c3JzYTIwNDguX2RvbWFpbm?=
+ =?us-ascii?Q?tleS51YnMuY29t\;dj1ES0lNMTsgcD1NSUlCSWpBTkJna3Foa2lHOXcwQkFR?=
+ =?us-ascii?Q?RUZBQU9DQVE4QU1JSUJDZ0tDQVFFQWxCbmdlSnJOSnFVaFJ3T0llZGduV1Fp?=
+ =?us-ascii?Q?YmxENVpERVFveUpVSTNKUFFLS0pJS1JnRjdUdUJvZkNKWHlFcVRIbVkwbkx6?=
+ =?us-ascii?Q?ZmI1ZVpDSlhCTlcySlVYVnFqTkszOTJGTE1Sdms5Ry93bXFZTjY2K3psRkdw?=
+ =?us-ascii?Q?WXljdllUdHpqVVZmUGpjNnJ1cTlMYSs4OXpZOU1rNUVhQTRZNjdoaDBJRy9Z?=
+ =?us-ascii?Q?L1oveTVIRlhmc01mVUE3Nlo0VjFLQkVhSEZ3TWdUTnBJOEhkVnB5TGNUNE9t?=
+ =?us-ascii?Q?dmVabUpsQnY0bUNzYWNXTDU5SENHZ3dUUk5wV21YalRjZDI2RkdzcFA4a0Nm?=
+ =?us-ascii?Q?V0FCd3pVVGhpd3c1R0I3VVZ5VU82cE9LendsbHVFSStaVENmSW5SSW95VEdY?=
+ =?us-ascii?Q?Y2FHVzEwOWVRYWMxOENOSkw2NDZ6b2pZVndNRXVUeS9LeUNXVTFCVWtETkgw?=
+ =?us-ascii?Q?a0hnd0lEQVAvLw=3D=3D;DMARC=3D00dWJzLmNvbQ=3D=3D\;dj1ETUFSQzE?=
+ =?us-ascii?Q?7IHA9cmVqZWN0OyBzcD1yZWplY3Q7IHJ1YT1tYWlsdG86ZG1hcmMtcmVwb3J?=
+ =?us-ascii?Q?0cy01NzU3NDgwNjc1Njk2NDM2NDE2OUBvcGVuLmNoLG1haWx0bzpkbWFyYy1?=
+ =?us-ascii?Q?yZXBvcnRzQHVicy5jb207IHJ1Zj1tYWlsdG86ZG1hcmMtZm9yZW5zaWNzQHV?=
+ =?us-ascii?Q?icy5jb207IHJmPWlvZGVmOyBwY3Q9MTAwOyByaT04NjQwMA=3D=3D;AUTHRE?=
+ =?us-ascii?Q?S=3D[mx.microsoft.com,1]{5,1,UABhAHMAcwA=3D,cwBlAG4AZABlAHIA?=
+ =?us-ascii?Q?IABJAFAAIABpAHMAIAAxADYAMQAuADIAMwA5AC4AMgAyADUALgAxADQAMgA?=
+ =?us-ascii?Q?=3D,cwBtAHQAcAAuAHIAYwBwAHQAVABvAEQAbwBtAGEAaQBuAA=3D=3D|cAB?=
+ =?us-ascii?Q?hAGcAYQBzAGkAYQAuAGMAbwBtAA=3D=3D,cwBtAHQAcAAuAE0AYQBpAGwARg?=
+ =?us-ascii?Q?ByAG8AbQA=3D|dQBiAHMALgBjAG8A?=
+X-MS-Exchange-Organization-Cross-Session-Cache:
+	=?us-ascii?Q?01bQA=3D}{9,1,UABhAHMAcwA=3D,cAA9AHIAZQBqAGUAYwB0ACAAcwBwAD0?=
+ =?us-ascii?Q?AcgBlAGoAZQBjAHQAIABwAGMAdAA9ADEAMAAwAA=3D=3D,YQBjAHQAaQBvAG?=
+ =?us-ascii?Q?4A|TgBvAG4AZQA=3D,aABlAGEAZABlAHIALgBmAHIAbwBtAA=3D=3D|dQBiA?=
+ =?us-ascii?Q?HMALgBjAG8AbQA=3D}{2,8,RgBhAGkAbAA=3D,cwBpAGcAbgBhAHQAdQByAG?=
+ =?us-ascii?Q?UAIABkAGkAZAAgAG4AbwB0ACAAdgBlAHIAaQBmAHkA,aABlAGEAZABlAHIAL?=
+ =?us-ascii?Q?gBkAA=3D=3D|dQBiAHMALgBjAG8AbQA=3D}{12,7,TgBvAG4AZQA=3D,MAA?=
+ =?us-ascii?Q?=3D};SpfResult=3D1;DkimStatus=3D2;DkimSS=3D12;DmarcStatus=3D?=
+ =?us-ascii?Q?1;DmarcAction=3D0;ARCRES=3Dv10000000000000000000000000000000?=
+ =?us-ascii?Q?0000000000;CAuthExp=3Dtrue;MFP=3D705c29ac-fedd-4455-866b-d0e?=
+ =?us-ascii?Q?53497242d;PReRC=3D1;FPR=3D8A0CF1C5.8FDA9FD1.5BD5AF76.83C9E16?=
+ =?us-ascii?Q?1.205F5;URLC=5FBE=3D28;URLC=5FBEC=3D12;URLC=5FB=3D20;URLC=5F?=
+ =?us-ascii?Q?BC=3D9;URLC=5FAE=3D0;UMGPV=3D6286;UMEPV=3D9999;SLP=3D539a1fc?=
+ =?us-ascii?Q?a-839c-423f-a521-a15d981610dc;SAP=3D48d272ab-ac1b-4e2c-8168-?=
+ =?us-ascii?Q?fb80a93ca6a4;RT=3DSA|SL;NoDLx=3D1;CGDLxSupported=3D1;BR=5FV?=
+ =?us-ascii?Q?=3DNone;DIR=3D1;PTRO=3Dubs.com;P2O=3Dubs.com;P=5FCAUTH=3Dpas?=
+ =?us-ascii?Q?s;P=5FCAUTHR=3D100;CFP=3Dc0643ce5-609d-4588-a6ca-dcd63f81bab?=
+ =?us-ascii?Q?2;HCFP=3D099a96e7-c890-46ac-bd2f-4b7d910e91d6;APP=3D2fd06ad2?=
+ =?us-ascii?Q?-605a-4c0b-9ac4-1e6bf6faa610;GWS=5FRead=3DV2;GUIMP=5FSUM=3DR?=
+ =?us-ascii?Q?1E1S1;SRCS=3DEST;TP=5FPTL=3D2;TP=5FSDL=3DAllow;CAUTH=3Dpass;?=
+ =?us-ascii?Q?CAUTHR=3D100;CAUTH=5FCAT=3DAD;IVB=5FDBG=3DD2;HMEPV=3D319;HME?=
+ =?us-ascii?Q?PV2=3D1901;HMESV=3D1993;HMESV2=3D731;SRESV=3D3814;BMASV=3D42?=
+ =?us-ascii?Q?46;BMESV=3D8160;BMAPV=3D2781;BMEPV=3D10000;CMASV=3D10000;CMA?=
+ =?us-ascii?Q?PV=3D10000;CBEBV=3D7234;CBEBV2=3D10000;CLEPV=3D80;URLF=5FDBG?=
+ =?us-ascii?B?PURTOjU7RkZWPU5TUE07RlZfU0NMPTE7VFBfRlY9QWxsb3c7VFBfRkM9U0RM?=
+ =?us-ascii?Q?;TPV=5FSCL=3D-1;TPV=5FPID=3D099a96e7-c890-46ac-bd2f-4b7d910e?=
+ =?us-ascii?Q?91d6;FV=3DAllow;FVS=3DTenant;FSCL=3D-1;TAP=5FEP=3D?=
+X-MS-Exchange-Organization-Processed-By-Gcc-Journaling: Journal Agent
+
+--_c2f44a47-19aa-42c7-bd36-2121c3854e6a_
+Content-Type: multipart/alternative;
+	boundary="_6906eea5-372b-4041-94c6-d14c3c2976ef_"
+
+--_6906eea5-372b-4041-94c6-d14c3c2976ef_
+Content-Type: text/plain;
+	charset="windows-1252"
+Content-Transfer-Encoding: 8bit
+
+Click here for the full report:&#xA;&#xD;Upside to mobile DRAM contract pricing coming through
+We believe 4Q20 contracts with revised up procurement volumes for smartphones carry revised up mobile DRAM contract pricing. Whilst this is not sufficient to lift overall mobile DRAM pricing vs 3Q, we now forecast blended mobile DRAM contract prices down 4% QoQ (was -7%). As the volume upside from the same customers (Oppo/Vivo/Xiaomi) continues into 1H21, mobile DRAM contract pricing should start to move up (UBSe +4% QoQ vs. prior est. flat) in 1Q21. Considering our overall forecast for undersupply in DRAM in 2021, we are less concerned about a potential later correction in those customers' procurement, as they may eventually overshoot their real TAM. Meanwhile, we estimate that server DRAM contract pricing may range in 4Q between US$108-118 for 32GB, down 12% QoQ on average. We now forecast flat QoQ in 1Q21 (was +2%). All in all, we remain of the view that blended DRAM contract pricing will start to move up slightly in 1Q21 and rapidly gather pace throughout 2021.
+Also upping NAND ASP estimates, but still expecting continuous decline in '21
+We continue to forecast NAND flash contract prices down 10% QoQ in 4Q20. We are however increasing our forecast to -10% from -15% QoQ for 1Q21 on the back of similar upside in procurement estimates from smartphone customers. Whilst there is some debate within NAND flash market participants as to the share of the price curve, we now see a broader agreement to our long-held view that oversupply will continue throughout 2021. We continue to view this as mostly supply-driven.
+Samsung to aggressively add NAND flash capacity
+Samsung continues to aim to balance out market shares and profits maximisation in DRAM, whilst seeking to use its profits leadership in NAND flash to put pressure on competition and drive longer-term consolidation. With that in mind, Samsung aims to add c.95k wpm of capacity for NAND flash in 2021 – c.65k wpm for Xi'an, and 30k wpm for P2. We expect Samsung to add c.60k wpm capacity for DRAM, all in P2.
+Preference for DRAM-exposed players and memory semiscap
+We continue to prefer Samsung (Key Call Buy), SK Hynix and MU (both Buy). We are more cautious on WDC (Neutral). We continue to prefer, within semiscap, memory-exposed stocks such as LRCX, TEL, Wonik IPS and Eugene Tech (all rated Buy).
+
+UBS does and seeks to do business with companies covered in its research reports. As a result, investors should be aware that the firm may have a conflict of interest that could affect the objectivity of such reports.  Investors should consider research reports as only a single factor in making their investment decision.  Important information including analyst certification and required disclosures regarding specific companies, derivatives or other instruments discussed in the email, is included in the relevant latest research report, attached and/or hyperlinked to this email.  This email is to be read in conjunction with such information.  Such reports are provided to our clients through UBS Neo, the UBS Client Portal and UBS.com.  You should also refer to the public disclosures website at https://apc01.safelinks.protection.outlook.com/?url=http%3A%2F%2Fwww.ubs.com%2Fdisclosures&amp;data=04%7C01%7Cmcarruth%40pag.com%7Ca32adfff7f99462a0c4608d88a46436b%7Cf541de3dcd7348a0aac477d090e49ad5%7C1%7C0%7C637411381702761909%7CUnknown%7CTWFpbGZsb3d8eyJWIjoiMC4wLjAwMDAiLCJQIjoiV2luMzIiLCJBTiI6Ik1haWwiLCJXVCI6Mn0%3D%7C1000&amp;sdata=4CaBL%2F7vX3po84rD%2B7jRKUC%2FV18lLDPuHYbnY%2BwbFds%3D&amp;reserved=0 for required disclosures regarding specific companies.
+
+The message is subject to the Global Research Disclaimer available at https://apc01.safelinks.protection.outlook.com/?url=http%3A%2F%2Fwww.ubs.com%2Fdisclosures&amp;data=04%7C01%7Cmcarruth%40pag.com%7Ca32adfff7f99462a0c4608d88a46436b%7Cf541de3dcd7348a0aac477d090e49ad5%7C1%7C0%7C637411381702761909%7CUnknown%7CTWFpbGZsb3d8eyJWIjoiMC4wLjAwMDAiLCJQIjoiV2luMzIiLCJBTiI6Ik1haWwiLCJXVCI6Mn0%3D%7C1000&amp;sdata=4CaBL%2F7vX3po84rD%2B7jRKUC%2FV18lLDPuHYbnY%2BwbFds%3D&amp;reserved=0.
+
+--_6906eea5-372b-4041-94c6-d14c3c2976ef_
+Content-Type: text/html;
+	charset="windows-1252"
+Content-Transfer-Encoding: quoted-printable
+
+<HEAD><TITLE>UBS Research</TITLE>
+<META content=3D"text/html; charset=3Dutf-8"=20
+nl_http-equiv=3D"Content-Type">
+<STYLE type=3Dtext/css>
+                                    /* preheader */
+            span.preheader { display: none !important; }
+        body {margin: 0; padding: 0; min-width: 100%!important;}
+        .content {width: 100%; max-width: 600px;}=20
+     a:link, a:visited {
+            color:#2077b6;
+            text-decoration:none;
+                        }
+                        .white a:link, .white a:visited {
+            color:#ffffff;
+            text-decoration:none;
+                        }
+           =20
+                /* iOS BLUE LINKS */
+    .appleLinksBlack a {color: #898888 !important; text-decoration: none !i=
+mportant;}
+    .appleFooter a {color:#999999; text-decoration: none !important; }
+           =20
+.header {padding: 10px 30px 10px 30px;}
+.col370 {width: 370px !important;}
+.subhead {font-size: 15px; color: #ffffff; font-family: Arial, sans-serif; =
+letter-spacing: 10px;}
+.h1 {font-size: 28px; line-height: 38px; font-weight: bold;}
+.h1, .h2, .bodycopy {color: #153643; font-family: Arial, sans-serif;}
+.innerpadding {padding: 10px 30px 10px 30px;}
+.titlepadding {padding: 20px 30px 0px 30px;}
+.borderbottom {border-bottom: 1px solid #f2eeed;}
+.h2 {padding: 0 0 15px 0; font-size: 24px; line-height: 28px; font-weight: =
+bold;}
+.bodycopy {font-size: 14px; line-height: 18px;}
+.button {text-align: center; font-size: 18px; font-family: Arial, sans-seri=
+f; padding: 0 30px 0 30px;}
+.button a {color: #ffffff; text-decoration: none;}
+img {height: auto;}
+.footer {padding: 20px 30px 15px 30px;}
+.footercopy {font-family: Arial, sans-serif; font-size: 14px; color: #fffff=
+f;}
+.footerdark {font-family: Arial, sans-serif; font-size: 14px; color: #00000=
+0;}
+.footercopy a {color: #ffffff; text-decoration: underline;}
+   a[class=3Demailmobbutton] {display:block !important; font-size:16px !imp=
+ortant; font-weight:bold !important; padding:0px 0px 0px 0px !important; li=
+ne-height:18px !important; background:#ffffff !important; border-radius:5px=
+ !important; margin:10px auto; width:100%; text-align:left; color:#111; tex=
+t-decoration:none; text-shadow:#fff 1px 0 0;}=20
+span[class=3Demailbodytext], a[class=3Demailbodytext], td[class=3Demailbody=
+text]
+    {font-size:16px !important; line-height:21px !important;}
+=20
+     /*apple fix doesn't support max-width property*/
+@media only screen and (min-device-width: 601px) {
+.content {width: 600px !important;}
+.col370 {width: 370px!important;}
+.col205 {width: 205px!important;}
+.bodycopy {font-size: 14px; line-height: 18px !important;}
+}
+
+@media only screen and (max-width: 550px), screen and (max-device-width: 55=
+0px) {
+.wrap {width: 100% !important;}
+.content {width: 100% !important;}
+.innerpadding {padding: 10px 20px 10px 20px;}
+.bodycopy {font-size: 18px; line-height: 22px !important;}
+body[yahoo] .buttonwrapper {background-color: transparent!important;}
+body[yahoo] .button a {background-color: #9a3d37; padding: 15px 15px 13px!i=
+mportant; display: block!important;}
+body[yahoo] .unsubscribe {display: block; margin-top: 20px; padding: 10px 5=
+0px; background: #2f3942; border-radius: 5px; text-decoration: none!importa=
+nt; font-weight: bold;}
+a[class=3Demailmobbutton]{display:block !important; font-size:14px !importa=
+nt; font-weight:bold !important; padding:6px 4px 8px 4px !important; line-h=
+eight: 18px !important; background:#9a3d37 !important; border-radius:5px !i=
+mportant; margin:5px auto; width:100%; text-align:center; color:#ffffff !im=
+portant; text-decoration: none !important; text-shadow:#ffffff 0px 0 0;}
+span[class=3Demailbodytext], a[class=3Demailbodytext], td[class=3Demailbody=
+text]
+    {font-size:16px !important; line-height:21px !important; text-decoratio=
+n:none !important;}
+  .full-width-image img { width: 100% !important; height: auto !important;
+ =20
+}
+}
+
+        </STYLE>
+
+<META name=3DGENERATOR content=3D"MSHTML 9.00.8112.16592"></HEAD><BODY bgCo=
+lor=3D#ffffff><BODY bgColor=3D#ffffff yahoo><SPAN style=3D"display: none; f=
+ont-size: 0px; color: #ffffff; line-height: 1px; font-family: Helvetica, Ar=
+ial, sans-serif; max-height: 0px; max-width: 0px; opacity: 0; overflow: hid=
+den;" class=3D"preheader">Upside to mobile DRAM contract pricing coming thr=
+ough -- We believe 4Q20 contracts with revised up procurement volumes for s=
+martphones carry revised up mobile DRAM contract pricing. Whilst this is no=
+t sufficient to lift overall mobile DRAM pricing vs 3Q, we now forecast ble=
+nded mobile DRAM contract...F</span> <TABLE class=3D"wrap" border=3D0 cellS=
+pacing=3D0 cellPadding=3D0 width=3D"100%" bgColor=3D#ffffff><TBODY>  <TR>  =
+ <!-- outlook lotus fix to support max-width property--><!--[if (gte mso 9)=
+|(IE)]>  <TABLE border=3D0 cellSpacing=3D0 cellPadding=3D0 width=3D600 alig=
+n=3Dcenter>     <TBODY><TR>       <TD><![endif]-->     <TABLE class=3Dconte=
+nt border=3D0 cellSpacing=3D0 cellPadding=3D0 align=3Dcenter> <TBODY>      =
+  <!-- ARTICLE SECTION -->  <TR> <TD class=3D"innerpadding" bgcolor=3D"#fff=
+fff" style=3D"padding: 10px 30px 10px 30px;">               <TABLE border=
+=3D0 cellSpacing=3D0 cellPadding=3D0 width=3D"100%"> <TBODY> <TR> <TD width=
+=3D"111" align=3D"left" valign=3D"middle" style=3D"FONT-FAMILY: Arial, sans=
+-serif; COLOR: #000000; FONT-SIZE: 14px">    <a href=3D"https://apc01.safel=
+inks.protection.outlook.com/?url=3Dhttps%3A%2F%2Fneo.ubs.com%2Fr%2F%3Fid%3D=
+h10b129d7%2C11b56902%2C11b56ab9%26inst%3DV7%26did%3DAC7-E-297101570%26off_i=
+d%3DAC7-E-298088124%26ma%3DY5353645541794743%26camp_id%3DEM%3AUNKW%3A2020-1=
+1%3A16%3AC&amp;data=3D04%7C01%7Cmcarruth%40pag.com%7Ca32adfff7f99462a0c4608=
+d88a46436b%7Cf541de3dcd7348a0aac477d090e49ad5%7C1%7C0%7C637411381702791767%=
+7CUnknown%7CTWFpbGZsb3d8eyJWIjoiMC4wLjAwMDAiLCJQIjoiV2luMzIiLCJBTiI6Ik1haWw=
+iLCJXVCI6Mn0%3D%7C1000&amp;sdata=3DQEcAuYa7E7tTCFhZPJ3r5qWA7oFAMCdWHgNgA4%2=
+B60ng%3D&amp;reserved=3D0" originalSrc=3D"https://neo.ubs.com/r/?id=3Dh10b1=
+29d7,11b56902,11b56ab9&inst=3DV7&did=3DAC7-E-297101570&off_id=3DAC7-E-29808=
+8124&ma=3DY5353645541794743&camp_id=3DEM:UNKW:2020-11:16:C" shash=3D"FVMxJ2=
+B2ayzqYHqUUCTLpyDjImMHCuhtgLZbpRspaI2t5EJAASmTx//+l2pYoU9iMwg95B3Z4s4jeWGLs=
+tiIFRmeaiNnoYYFulz9/zx6u6Tu7A4g/Yx/DbzhllNaJXT9e5xkHx6x7J8YAo7SyQW1czOTPgcH=
+WHvuUDmIp23ABcU=3D"><img src=3D"https://www.ubs.com/content/dam/InvestmentB=
+ank/equity-research/images/ubs_bdp_logo.png" alt=3D"UBS" style=3D"border-wi=
+dth:0;width:109px;height:40px" /></a> </TD>            <td>&nbsp;</td> <td =
+align=3D"right" valign=3D"middle" class=3D""  style=3D"font-family:Arial, s=
+ans-serif; font-size:12px; color: #8B8B8B;">Global Research<br>  16 Novembe=
+r 2020  </td></TR></TBODY></TABLE></TD></TR><TR> <TD class=3D"innerpadding"=
+ style=3D"padding: 10px 30px 10px 30px;">  <TABLE border=3D0 cellSpacing=3D=
+0 cellPadding=3D0 width=3D"100%">  <TBODY><TR> <TD  style=3D"FONT-FAMILY: A=
+rial, Helvetica, sans-serif; COLOR: #000000; FONT-SIZE: 16px; font-weight:b=
+old;"  class=3D"emailh2"> Memory Semis Monthly </TD></TR>  </TBODY></TABLE>=
+</TD></TR><!-- Offer starts -->         <TR> <TD class=3D"innerpadding" sty=
+le=3D"padding: 10px 30px 10px 30px;"> <TABLE border=3D0 cellSpacing=3D0 cel=
+lPadding=3D0 width=3D"100%">              <TBODY><TR><TD  style=3D"FONT-FAM=
+ILY: Arial, Helvetica, sans-serif; COLOR: #e60000; font-size: 30px; line-he=
+ight: 40px;"  class=3D"headline">      <a href=3D"https://apc01.safelinks.p=
+rotection.outlook.com/?url=3Dhttps%3A%2F%2Fneo.ubs.com%2Fr%2F%3Fid%3Dh10b12=
+9d7%2C11b56902%2C11b56aba%26inst%3DV7%26did%3DAC7-E-297101570%26off_id%3DAC=
+7-E-298088125%26ma%3DY5353645541794743%26camp_id%3DEM%3AUNKW%3A2020-11%3A16=
+%3AC&amp;data=3D04%7C01%7Cmcarruth%40pag.com%7Ca32adfff7f99462a0c4608d88a46=
+436b%7Cf541de3dcd7348a0aac477d090e49ad5%7C1%7C0%7C637411381702801723%7CUnkn=
+own%7CTWFpbGZsb3d8eyJWIjoiMC4wLjAwMDAiLCJQIjoiV2luMzIiLCJBTiI6Ik1haWwiLCJXV=
+CI6Mn0%3D%7C1000&amp;sdata=3DqwBjZTTPW6Ey5pzvi%2Bs34HSfFdii3l%2BqiNyAUpRZwT=
+k%3D&amp;reserved=3D0" originalSrc=3D"https://neo.ubs.com/r/?id=3Dh10b129d7=
+,11b56902,11b56aba&inst=3DV7&did=3DAC7-E-297101570&off_id=3DAC7-E-298088125=
+&ma=3DY5353645541794743&camp_id=3DEM:UNKW:2020-11:16:C" shash=3D"gPp15guERS=
+Br74SLZa3NK+tHBHGId1ZSD9fKhunNE5isgax7usZQaBwN69U7mjnyb1Y1vpUt96t6rcgEAj2ZG=
+KOJ35tTqj76Gr1MB2YYAyaVuuYIrRjC3nVwUD6akHUYbiR6QT4q0XY6+FTg2bQuCvL4DKs+O49T=
+OA61L2QyN7Y=3D" _urltype=3D"11" target=3D"_blank" style=3D"color:#e60000;te=
+xt-decoration:none;font-weight:normal;">November '20 Edition: Mobile DRAM p=
+ricing first up</a></TD></TR> </TBODY></TABLE></TD></TR>  <TR>  <TD class=
+=3D"innerpadding" style=3D"padding: 10px 30px 10px 30px;"> <TABLE border=3D=
+0 cellSpacing=3D0 cellPadding=3D0 width=3D"100%">            <TBODY> <TR>  =
+ <TD   style=3D"PADDING-BOTTOM: 20px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px=
+; FONT-FAMILY: Arial, sans-serif; COLOR: #000000; PADDING-TOP: 10px; font-s=
+ize:18px; line-height:20px;"   class=3D"bodycopy">   Mobile DRAM pricing sh=
+ould start to move up in 1Q21. We also see upside for NAND in 1Q, but susta=
+ined capacity addition should maintain oversupply in '21E.   <br><br>  <!--=
+ START OFFER 2--> <TABLE border=3D0 cellSpacing=3D0 cellPadding=3D0 width=
+=3D"100%"><TBODY><TR><TD vAlign=3Dmiddle><TABLE border=3D0 cellSpacing=3D0 =
+cellPadding=3D0> <TBODY><TR><TD style=3D"PADDING-BOTTOM: 10px; PADDING-LEFT=
+: 18px; PADDING-RIGHT: 18px; PADDING-TOP: 12px; border-radius: 3px; -webkit=
+-border-radius: 3px"   bgColor=3D#9a3d37 align=3Dcenter><a style=3D"DISPLAY=
+: inline-block; FONT-FAMILY: Frutiger, Helvetica, Arial, sans-serif; COLOR:=
+ #ffffff; FONT-SIZE: 16px; FONT-WEIGHT: normal; TEXT-DECORATION: none;" hre=
+f=3D"https://apc01.safelinks.protection.outlook.com/?url=3Dhttps%3A%2F%2Fne=
+o.ubs.com%2Fr%2F%3Fid%3Dh10b129d7%2C11b56902%2C11b56abb%26inst%3DV7%26did%3=
+DAC7-E-297101570%26off_id%3DAC7-E-298088126%26ma%3DY5353645541794743%26camp=
+_id%3DEM%3AUNKW%3A2020-11%3A16%3AC&amp;data=3D04%7C01%7Cmcarruth%40pag.com%=
+7Ca32adfff7f99462a0c4608d88a46436b%7Cf541de3dcd7348a0aac477d090e49ad5%7C1%7=
+C0%7C637411381702801723%7CUnknown%7CTWFpbGZsb3d8eyJWIjoiMC4wLjAwMDAiLCJQIjo=
+iV2luMzIiLCJBTiI6Ik1haWwiLCJXVCI6Mn0%3D%7C1000&amp;sdata=3D0SeUBKKFxCeAkvwI=
+Ikjn7K7nCTjVFp8Bt4IGoTwgfNw%3D&amp;reserved=3D0" originalSrc=3D"https://neo=
+.ubs.com/r/?id=3Dh10b129d7,11b56902,11b56abb&inst=3DV7&did=3DAC7-E-29710157=
+0&off_id=3DAC7-E-298088126&ma=3DY5353645541794743&camp_id=3DEM:UNKW:2020-11=
+:16:C" shash=3D"KbsaaqUeximYtxwCqbVFP92HA5/gwDA1xVqhBWS2u5pwplmOhTnZf+XlAW0=
++yTMfcJeq8jiji8XGXwEL92KP35TPQVVrZBtAsXTUCzu+Zf3vu+IpzAYodiljwI+gTc6MHz4jhV=
+5XdYAfbA3psDrTmcwdvnncyd2D0t+/SQY/Nrs=3D" _urltype=3D"11" target=3D"_blank"=
+>Read the Report</A></TD></TR></TBODY></TABLE></TD></TR><TR><TD> &nbsp; </T=
+D></TR></TBODY></TABLE> <!-- END OFFER 2--> </TD></TR></TBODY></TABLE></TD>=
+</TR>  <TR> <TD class=3D"innerpadding" style=3D"padding: 10px 30px 10px 30p=
+x;">             <table width=3D"100%" border=3D0 cellPadding=3D0 cellSpaci=
+ng=3D0 style=3D"font-family:sans-serif;color:#333333;width:100%;font-size:1=
+4px;text-align:left;"> <tr><td width=3D"10%" align=3D"center" valign=3D"mid=
+dle" style=3D"padding-right:5px;"><a href=3D"mailto:nicolas.gaudois@ubs.com=
+?subject=3DUBS Research follow-up: November '20 Edition: Mobile DRAM pricin=
+g first up" class=3D"appleLinksBlack" style=3D"color:#898888; text-decorati=
+on:none; line-height:20px;"><img src=3D"https://www.ubs.com/content/dam/Inv=
+estmentBank/equity-research/images/nicolas-gaudois-43256735-c.gif" alt=3D""=
+ style=3D"border-width:0;width:auto;height:auto;" /></a></td><td width=3D"1=
+0%" align=3D"center" valign=3D"middle" style=3D"padding-right:5px;"><a href=
+=3D"mailto:timothy.arcuri@ubs.com?subject=3DUBS Research follow-up: Novembe=
+r '20 Edition: Mobile DRAM pricing first up" class=3D"appleLinksBlack" styl=
+e=3D"color:#898888; text-decoration:none; line-height:20px;"><img src=3D"ht=
+tps://www.ubs.com/content/dam/InvestmentBank/equity-research/images/timothy=
+-arcuri-43512807-c.gif" alt=3D"" style=3D"border-width:0;width:auto;height:=
+auto;" /></a></td><td width=3D"10%" align=3D"center" valign=3D"middle" styl=
+e=3D"padding-right:5px;"><a href=3D"mailto:kenji.yasui@ubs.com?subject=3DUB=
+S Research follow-up: November '20 Edition: Mobile DRAM pricing first up" c=
+lass=3D"appleLinksBlack" style=3D"color:#898888; text-decoration:none; line=
+-height:20px;"><img src=3D"https://www.ubs.com/content/dam/InvestmentBank/e=
+quity-research/images/kenji-yasui-43253724-c.gif" alt=3D"" style=3D"border-=
+width:0;width:auto;height:auto;" /></a></td><td width=3D"10%" align=3D"cent=
+er" valign=3D"middle" style=3D"padding-right:5px;"><a href=3D"mailto:munjal=
+.shah@ubs.com?subject=3DUBS Research follow-up: November '20 Edition: Mobil=
+e DRAM pricing first up" class=3D"appleLinksBlack" style=3D"color:#898888; =
+text-decoration:none; line-height:20px;"><img src=3D"https://www.ubs.com/co=
+ntent/dam/InvestmentBank/equity-research/images/munjal-shah-43334778-c.gif"=
+ alt=3D"" style=3D"border-width:0;width:auto;height:auto;" /></a></td><td w=
+idth=3D"10%" align=3D"center" valign=3D"middle" style=3D"padding-right:5px;=
+"><a href=3D"mailto:taewoo.lee@ubs.com?subject=3DUBS Research follow-up: No=
+vember '20 Edition: Mobile DRAM pricing first up" class=3D"appleLinksBlack"=
+ style=3D"color:#898888; text-decoration:none; line-height:20px;"><img src=
+=3D"https://www.ubs.com/content/dam/InvestmentBank/equity-research/images/t=
+aewoo-lee-43423904-c.gif" alt=3D"" style=3D"border-width:0;width:auto;heigh=
+t:auto;" /></a></td><td width=3D"10%" align=3D"left" valign=3D"middle"></td=
+></tr><tr><td align=3D"center" valign=3D"top" style=3D"FONT-FAMILY: Arial, =
+sans-serif; font-size: 10px; padding-top:10px;padding-bottom:0;padding-righ=
+t:5px;padding-left:0px; line-height:14px; color:#898888;" class=3D"bodycopy=
+"><a href=3D"mailto:nicolas.gaudois@ubs.com?subject=3DUBS Research follow-u=
+p: November '20 Edition: Mobile DRAM pricing first up" class=3D"appleLinksB=
+lack" style=3D"color:#898888; text-decoration:none; line-height:20px;">N. G=
+audois</a></td><td align=3D"center" valign=3D"top" style=3D"FONT-FAMILY: Ar=
+ial, sans-serif; font-size: 10px; padding-top:10px;padding-bottom:0;padding=
+-right:5px;padding-left:0px; line-height:14px; color:#898888;" class=3D"bod=
+ycopy"><a href=3D"mailto:timothy.arcuri@ubs.com?subject=3DUBS Research foll=
+ow-up: November '20 Edition: Mobile DRAM pricing first up" class=3D"appleLi=
+nksBlack" style=3D"color:#898888; text-decoration:none; line-height:20px;">=
+T. Arcuri</a></td><td align=3D"center" valign=3D"top" style=3D"FONT-FAMILY:=
+ Arial, sans-serif; font-size: 10px; padding-top:10px;padding-bottom:0;padd=
+ing-right:5px;padding-left:0px; line-height:14px; color:#898888;" class=3D"=
+bodycopy"><a href=3D"mailto:kenji.yasui@ubs.com?subject=3DUBS Research foll=
+ow-up: November '20 Edition: Mobile DRAM pricing first up" class=3D"appleLi=
+nksBlack" style=3D"color:#898888; text-decoration:none; line-height:20px;">=
+K. Yasui</a></td><td align=3D"center" valign=3D"top" style=3D"FONT-FAMILY: =
+Arial, sans-serif; font-size: 10px; padding-top:10px;padding-bottom:0;paddi=
+ng-right:5px;padding-left:0px; line-height:14px; color:#898888;" class=3D"b=
+odycopy"><a href=3D"mailto:munjal.shah@ubs.com?subject=3DUBS Research follo=
+w-up: November '20 Edition: Mobile DRAM pricing first up" class=3D"appleLin=
+ksBlack" style=3D"color:#898888; text-decoration:none; line-height:20px;">M=
+. Shah</a></td><td align=3D"center" valign=3D"top" style=3D"FONT-FAMILY: Ar=
+ial, sans-serif; font-size: 10px; padding-top:10px;padding-bottom:0;padding=
+-right:5px;padding-left:0px; line-height:14px; color:#898888;" class=3D"bod=
+ycopy"><a href=3D"mailto:taewoo.lee@ubs.com?subject=3DUBS Research follow-u=
+p: November '20 Edition: Mobile DRAM pricing first up" class=3D"appleLinksB=
+lack" style=3D"color:#898888; text-decoration:none; line-height:20px;">T. L=
+ee</a></td><td align=3D"left" valign=3D"top" style=3D"FONT-FAMILY: Arial, s=
+ans-serif; font-size: 10px; padding-top:10px;padding-bottom:0;padding-right=
+:5px;padding-left:0px; line-height:14px; color:#898888;" class=3D"bodycopy"=
+>+ 4 More</td></tr></tr> </table><hr style=3D"color:lightgrey;color: #efefe=
+f;background-color: #efefef;height: 1px; border:0; margin-top:20px;margin-b=
+ottom:10px;"></TD></TR> <TR>  <TD class=3D"innerpadding" style=3D"padding: =
+10px 30px 10px 30px;">             <TABLE border=3D0 cellSpacing=3D0 cellPa=
+dding=3D0 width=3D"100%">               <TBODY>  <TR> <TD  style=3D"PADDING=
+-BOTTOM: 20px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; FONT-FAMILY: Arial, s=
+ans-serif; COLOR: #000000; PADDING-TOP: 0px; font-size:12px; line-height:16=
+px;" class=3D"bodycopy">  <span style=3D"font-weight:bold;">Upside to mobil=
+e DRAM contract pricing coming through</span><br/>We believe 4Q20 contracts=
+ with revised up procurement volumes for smartphones carry revised up mobil=
+e DRAM contract pricing. Whilst this is not sufficient to lift overall mobi=
+le DRAM pricing vs 3Q, we now forecast blended mobile DRAM contract prices =
+down 4% QoQ (was -7%). As the volume upside from the same customers (Oppo/V=
+ivo/Xiaomi) continues into 1H21, mobile DRAM contract pricing should start =
+to move up (UBSe +4% QoQ vs. prior est. flat) in 1Q21. Considering our over=
+all forecast for undersupply in DRAM in 2021, we are less concerned about a=
+ potential later correction in those customers' procurement, as they may ev=
+entually overshoot their real TAM. Meanwhile, we estimate that server DRAM =
+contract pricing may range in 4Q between US$108-118 for 32GB, down 12% QoQ =
+on average. We now forecast flat QoQ in 1Q21 (was +2%). All in all, we rema=
+in of the view that blended DRAM contract pricing will start to move up sli=
+ghtly in 1Q21 and rapidly gather pace throughout 2021.<span style=3D"font-w=
+eight:bold;"><br><br>Also upping NAND ASP estimates, but still expecting co=
+ntinuous decline in '21</span><br/>We continue to forecast NAND flash contr=
+act prices down 10% QoQ in 4Q20. We are however increasing our forecast to =
+-10% from -15% QoQ for 1Q21 on the back of similar upside in procurement es=
+timates from smartphone customers. Whilst there is some debate within NAND =
+flash market participants as to the share of the price curve, we now see a =
+broader agreement to our long-held view that oversupply will continue throu=
+ghout 2021. We continue to view this as mostly supply-driven.<span style=3D=
+"font-weight:bold;"><br><br>Samsung to aggressively add NAND flash capacity=
+</span><br/>Samsung continues to aim to balance out market shares and profi=
+ts maximisation in DRAM, whilst seeking to use its profits leadership in NA=
+ND flash to put pressure on competition and drive longer-term consolidation=
+. With that in mind, Samsung aims to add c.95k wpm of capacity for NAND fla=
+sh in 2021 =96 c.65k wpm for Xi'an, and 30k wpm for P2. We expect Samsung t=
+o add c.60k wpm capacity for DRAM, all in P2.<span style=3D"font-weight:bol=
+d;"><br><br>Preference for DRAM-exposed players and memory semiscap</span><=
+br/>We continue to prefer Samsung (Key Call Buy), SK Hynix and MU (both Buy=
+). We are more cautious on WDC (Neutral). We continue to prefer, within sem=
+iscap, memory-exposed stocks such as LRCX, TEL, Wonik IPS and Eugene Tech (=
+all rated Buy).</TD></TR></TBODY></TABLE></TD></TR> <TR>    <TD class=3D"in=
+nerpadding" style=3D"padding: 10px 30px 10px 30px;">    <table width=3D"100=
+%" border=3D0 cellPadding=3D0 cellSpacing=3D0 style=3D"font-family:sans-ser=
+if;color:#333333;width:100%;font-size:14px;text-align:left;">      <tr>    =
+     <td width=3D"10%" align=3D"left" valign=3D"middle"><a href=3D"mailto:n=
+icolas.gaudois@ubs.com?subject=3DUBS Research follow-up: November '20 Editi=
+on: Mobile DRAM pricing first up" class=3D"appleLinksBlack" style=3D"color:=
+#898888; text-decoration:none; line-height:20px;">  <img src=3D"https://www=
+.ubs.com/content/dam/InvestmentBank/equity-research/images/nicolas-gaudois-=
+43256735-c.gif" alt=3D"" style=3D"border-width:0;width:auto;height:auto;" /=
+></a></td>  <td align=3D"left" valign=3D"middle" style=3D"padding-top:0;pad=
+ding-bottom:0;padding-right:0;padding-left:10px; line-height:25px; color:#8=
+98888;" class=3D"bodycopy"> <a href=3D"mailto:nicolas.gaudois@ubs.com?subje=
+ct=3DUBS Research follow-up: November '20 Edition: Mobile DRAM pricing firs=
+t up" class=3D"appleLinksBlack" style=3D"color:#898888; text-decoration:non=
+e; line-height:20px;"><b>Nicolas Gaudois</b>, Analyst</a><br /> <a href=3D"=
+mailto:nicolas.gaudois@ubs.com?subject=3DUBS Research follow-up: November '=
+20 Edition: Mobile DRAM pricing first up" class=3D"appleLinksBlack" style=
+=3D"color:#898888; text-decoration:none; line-height:20px;">nicolas.gaudois=
+@ubs.com</a><br /> <a class=3D"appleLinksBlack" style=3D"color:#898888; tex=
+t-decoration:none; line-height:20px;">+852-2971 5681</a>   </td> </tr></tab=
+le></TD></TR><TR>    <TD class=3D"innerpadding" style=3D"padding: 10px 30px=
+ 10px 30px;">    <table width=3D"100%" border=3D0 cellPadding=3D0 cellSpaci=
+ng=3D0 style=3D"font-family:sans-serif;color:#333333;width:100%;font-size:1=
+4px;text-align:left;">      <tr>         <td width=3D"10%" align=3D"left" v=
+align=3D"middle"><a href=3D"mailto:timothy.arcuri@ubs.com?subject=3DUBS Res=
+earch follow-up: November '20 Edition: Mobile DRAM pricing first up" class=
+=3D"appleLinksBlack" style=3D"color:#898888; text-decoration:none; line-hei=
+ght:20px;">  <img src=3D"https://www.ubs.com/content/dam/InvestmentBank/equ=
+ity-research/images/timothy-arcuri-43512807-c.gif" alt=3D"" style=3D"border=
+-width:0;width:auto;height:auto;" /></a></td>  <td align=3D"left" valign=3D=
+"middle" style=3D"padding-top:0;padding-bottom:0;padding-right:0;padding-le=
+ft:10px; line-height:25px; color:#898888;" class=3D"bodycopy"> <a href=3D"m=
+ailto:timothy.arcuri@ubs.com?subject=3DUBS Research follow-up: November '20=
+ Edition: Mobile DRAM pricing first up" class=3D"appleLinksBlack" style=3D"=
+color:#898888; text-decoration:none; line-height:20px;"><b>Timothy Arcuri</=
+b>, Analyst</a><br /> <a href=3D"mailto:timothy.arcuri@ubs.com?subject=3DUB=
+S Research follow-up: November '20 Edition: Mobile DRAM pricing first up" c=
+lass=3D"appleLinksBlack" style=3D"color:#898888; text-decoration:none; line=
+-height:20px;">timothy.arcuri@ubs.com</a><br /> <a class=3D"appleLinksBlack=
+" style=3D"color:#898888; text-decoration:none; line-height:20px;">+1-415-3=
+52 5676</a>   </td> </tr></table></TD></TR><TR>    <TD class=3D"innerpaddin=
+g" style=3D"padding: 10px 30px 10px 30px;">    <table width=3D"100%" border=
+=3D0 cellPadding=3D0 cellSpacing=3D0 style=3D"font-family:sans-serif;color:=
+#333333;width:100%;font-size:14px;text-align:left;">      <tr>         <td =
+width=3D"10%" align=3D"left" valign=3D"middle"><a href=3D"mailto:kenji.yasu=
+i@ubs.com?subject=3DUBS Research follow-up: November '20 Edition: Mobile DR=
+AM pricing first up" class=3D"appleLinksBlack" style=3D"color:#898888; text=
+-decoration:none; line-height:20px;">  <img src=3D"https://www.ubs.com/cont=
+ent/dam/InvestmentBank/equity-research/images/kenji-yasui-43253724-c.gif" a=
+lt=3D"" style=3D"border-width:0;width:auto;height:auto;" /></a></td>  <td a=
+lign=3D"left" valign=3D"middle" style=3D"padding-top:0;padding-bottom:0;pad=
+ding-right:0;padding-left:10px; line-height:25px; color:#898888;" class=3D"=
+bodycopy"> <a href=3D"mailto:kenji.yasui@ubs.com?subject=3DUBS Research fol=
+low-up: November '20 Edition: Mobile DRAM pricing first up" class=3D"appleL=
+inksBlack" style=3D"color:#898888; text-decoration:none; line-height:20px;"=
+><b>Kenji Yasui</b>, Analyst</a><br /> <a href=3D"mailto:kenji.yasui@ubs.co=
+m?subject=3DUBS Research follow-up: November '20 Edition: Mobile DRAM prici=
+ng first up" class=3D"appleLinksBlack" style=3D"color:#898888; text-decorat=
+ion:none; line-height:20px;">kenji.yasui@ubs.com</a><br /> <a class=3D"appl=
+eLinksBlack" style=3D"color:#898888; text-decoration:none; line-height:20px=
+;">+81-3-5208 6211</a>   </td> </tr></table></TD></TR><TR>    <TD class=3D"=
+innerpadding" style=3D"padding: 10px 30px 10px 30px;">    <table width=3D"1=
+00%" border=3D0 cellPadding=3D0 cellSpacing=3D0 style=3D"font-family:sans-s=
+erif;color:#333333;width:100%;font-size:14px;text-align:left;">      <tr>  =
+       <td width=3D"10%" align=3D"left" valign=3D"middle"><a href=3D"mailto=
+:munjal.shah@ubs.com?subject=3DUBS Research follow-up: November '20 Edition=
+: Mobile DRAM pricing first up" class=3D"appleLinksBlack" style=3D"color:#8=
+98888; text-decoration:none; line-height:20px;">  <img src=3D"https://www.u=
+bs.com/content/dam/InvestmentBank/equity-research/images/munjal-shah-433347=
+78-c.gif" alt=3D"" style=3D"border-width:0;width:auto;height:auto;" /></a><=
+/td>  <td align=3D"left" valign=3D"middle" style=3D"padding-top:0;padding-b=
+ottom:0;padding-right:0;padding-left:10px; line-height:25px; color:#898888;=
+" class=3D"bodycopy"> <a href=3D"mailto:munjal.shah@ubs.com?subject=3DUBS R=
+esearch follow-up: November '20 Edition: Mobile DRAM pricing first up" clas=
+s=3D"appleLinksBlack" style=3D"color:#898888; text-decoration:none; line-he=
+ight:20px;"><b>Munjal Shah</b>, Analyst</a><br /> <a href=3D"mailto:munjal.=
+shah@ubs.com?subject=3DUBS Research follow-up: November '20 Edition: Mobile=
+ DRAM pricing first up" class=3D"appleLinksBlack" style=3D"color:#898888; t=
+ext-decoration:none; line-height:20px;">munjal.shah@ubs.com</a><br /> <a cl=
+ass=3D"appleLinksBlack" style=3D"color:#898888; text-decoration:none; line-=
+height:20px;">+1-212-713 2113</a>   </td> </tr></table></TD></TR><TR>    <T=
+D class=3D"innerpadding" style=3D"padding: 10px 30px 10px 30px;">    <table=
+ width=3D"100%" border=3D0 cellPadding=3D0 cellSpacing=3D0 style=3D"font-fa=
+mily:sans-serif;color:#333333;width:100%;font-size:14px;text-align:left;"> =
+     <tr>         <td width=3D"10%" align=3D"left" valign=3D"middle"><a hre=
+f=3D"mailto:taewoo.lee@ubs.com?subject=3DUBS Research follow-up: November '=
+20 Edition: Mobile DRAM pricing first up" class=3D"appleLinksBlack" style=
+=3D"color:#898888; text-decoration:none; line-height:20px;">  <img src=3D"h=
+ttps://www.ubs.com/content/dam/InvestmentBank/equity-research/images/taewoo=
+-lee-43423904-c.gif" alt=3D"" style=3D"border-width:0;width:auto;height:aut=
+o;" /></a></td>  <td align=3D"left" valign=3D"middle" style=3D"padding-top:=
+0;padding-bottom:0;padding-right:0;padding-left:10px; line-height:25px; col=
+or:#898888;" class=3D"bodycopy"> <a href=3D"mailto:taewoo.lee@ubs.com?subje=
+ct=3DUBS Research follow-up: November '20 Edition: Mobile DRAM pricing firs=
+t up" class=3D"appleLinksBlack" style=3D"color:#898888; text-decoration:non=
+e; line-height:20px;"><b>Taewoo Lee</b>, Analyst</a><br /> <a href=3D"mailt=
+o:taewoo.lee@ubs.com?subject=3DUBS Research follow-up: November '20 Edition=
+: Mobile DRAM pricing first up" class=3D"appleLinksBlack" style=3D"color:#8=
+98888; text-decoration:none; line-height:20px;">taewoo.lee@ubs.com</a><br /=
+> <a class=3D"appleLinksBlack" style=3D"color:#898888; text-decoration:none=
+; line-height:20px;">+852-2971 6873</a>   </td> </tr></table></TD></TR><TR>=
+    <TD class=3D"innerpadding" style=3D"padding: 10px 30px 10px 30px;">    =
+<table width=3D"100%" border=3D0 cellPadding=3D0 cellSpacing=3D0 style=3D"f=
+ont-family:sans-serif;color:#333333;width:100%;font-size:14px;text-align:le=
+ft;">      <tr>         <td width=3D"10%" align=3D"left" valign=3D"middle">=
+<a href=3D"mailto:pradeep.ramani@ubs.com?subject=3DUBS Research follow-up: =
+November '20 Edition: Mobile DRAM pricing first up" class=3D"appleLinksBlac=
+k" style=3D"color:#898888; text-decoration:none; line-height:20px;">  <img =
+src=3D"https://www.ubs.com/content/dam/InvestmentBank/equity-research/image=
+s/pradeep-ramani-43523467-c.gif" alt=3D"" style=3D"border-width:0;width:aut=
+o;height:auto;" /></a></td>  <td align=3D"left" valign=3D"middle" style=3D"=
+padding-top:0;padding-bottom:0;padding-right:0;padding-left:10px; line-heig=
+ht:25px; color:#898888;" class=3D"bodycopy"> <a href=3D"mailto:pradeep.rama=
+ni@ubs.com?subject=3DUBS Research follow-up: November '20 Edition: Mobile D=
+RAM pricing first up" class=3D"appleLinksBlack" style=3D"color:#898888; tex=
+t-decoration:none; line-height:20px;"><b>Pradeep Ramani</b>, Analyst</a><br=
+ /> <a href=3D"mailto:pradeep.ramani@ubs.com?subject=3DUBS Research follow-=
+up: November '20 Edition: Mobile DRAM pricing first up" class=3D"appleLinks=
+Black" style=3D"color:#898888; text-decoration:none; line-height:20px;">pra=
+deep.ramani@ubs.com</a><br /> <a class=3D"appleLinksBlack" style=3D"color:#=
+898888; text-decoration:none; line-height:20px;">+1-415-352 5517</a>   </td=
+> </tr></table></TD></TR><TR>    <TD class=3D"innerpadding" style=3D"paddin=
+g: 10px 30px 10px 30px;">    <table width=3D"100%" border=3D0 cellPadding=
+=3D0 cellSpacing=3D0 style=3D"font-family:sans-serif;color:#333333;width:10=
+0%;font-size:14px;text-align:left;">      <tr>         <td width=3D"10%" al=
+ign=3D"left" valign=3D"middle"><a href=3D"mailto:jimmy.yoon@ubs.com?subject=
+=3DUBS Research follow-up: November '20 Edition: Mobile DRAM pricing first =
+up" class=3D"appleLinksBlack" style=3D"color:#898888; text-decoration:none;=
+ line-height:20px;">  <img src=3D"https://www.ubs.com/content/dam/Investmen=
+tBank/equity-research/images/jimmy-yoon-43513450-c.gif" alt=3D"" style=3D"b=
+order-width:0;width:auto;height:auto;" /></a></td>  <td align=3D"left" vali=
+gn=3D"middle" style=3D"padding-top:0;padding-bottom:0;padding-right:0;paddi=
+ng-left:10px; line-height:25px; color:#898888;" class=3D"bodycopy"> <a href=
+=3D"mailto:jimmy.yoon@ubs.com?subject=3DUBS Research follow-up: November '2=
+0 Edition: Mobile DRAM pricing first up" class=3D"appleLinksBlack" style=3D=
+"color:#898888; text-decoration:none; line-height:20px;"><b>Jimmy Yoon</b>,=
+ Associate Analyst</a><br /> <a href=3D"mailto:jimmy.yoon@ubs.com?subject=
+=3DUBS Research follow-up: November '20 Edition: Mobile DRAM pricing first =
+up" class=3D"appleLinksBlack" style=3D"color:#898888; text-decoration:none;=
+ line-height:20px;">jimmy.yoon@ubs.com</a><br /> <a class=3D"appleLinksBlac=
+k" style=3D"color:#898888; text-decoration:none; line-height:20px;">+852-37=
+12 4671</a>   </td> </tr></table></TD></TR><TR>    <TD class=3D"innerpaddin=
+g" style=3D"padding: 10px 30px 10px 30px;">    <table width=3D"100%" border=
+=3D0 cellPadding=3D0 cellSpacing=3D0 style=3D"font-family:sans-serif;color:=
+#333333;width:100%;font-size:14px;text-align:left;">      <tr>         <td =
+width=3D"10%" align=3D"left" valign=3D"middle"><a href=3D"mailto:david.mulh=
+olland@ubs.com?subject=3DUBS Research follow-up: November '20 Edition: Mobi=
+le DRAM pricing first up" class=3D"appleLinksBlack" style=3D"color:#898888;=
+ text-decoration:none; line-height:20px;">  <img src=3D"https://www.ubs.com=
+/content/dam/InvestmentBank/equity-research/images/david-mulholland-4327320=
+7-c.gif" alt=3D"" style=3D"border-width:0;width:auto;height:auto;" /></a></=
+td>  <td align=3D"left" valign=3D"middle" style=3D"padding-top:0;padding-bo=
+ttom:0;padding-right:0;padding-left:10px; line-height:25px; color:#898888;"=
+ class=3D"bodycopy"> <a href=3D"mailto:david.mulholland@ubs.com?subject=3DU=
+BS Research follow-up: November '20 Edition: Mobile DRAM pricing first up" =
+class=3D"appleLinksBlack" style=3D"color:#898888; text-decoration:none; lin=
+e-height:20px;"><b>David Mulholland, CFA</b>, Analyst</a><br /> <a href=3D"=
+mailto:david.mulholland@ubs.com?subject=3DUBS Research follow-up: November =
+'20 Edition: Mobile DRAM pricing first up" class=3D"appleLinksBlack" style=
+=3D"color:#898888; text-decoration:none; line-height:20px;">david.mulhollan=
+d@ubs.com</a><br /> <a class=3D"appleLinksBlack" style=3D"color:#898888; te=
+xt-decoration:none; line-height:20px;">+44-20-7568 4069</a>   </td> </tr></=
+table></TD></TR><TR>    <TD class=3D"innerpadding" style=3D"padding: 10px 3=
+0px 10px 30px;">    <table width=3D"100%" border=3D0 cellPadding=3D0 cellSp=
+acing=3D0 style=3D"font-family:sans-serif;color:#333333;width:100%;font-siz=
+e:14px;text-align:left;">      <tr>         <td width=3D"10%" align=3D"left=
+" valign=3D"middle"><a href=3D"mailto:sunny.lin@ubs.com?subject=3DUBS Resea=
+rch follow-up: November '20 Edition: Mobile DRAM pricing first up" class=3D=
+"appleLinksBlack" style=3D"color:#898888; text-decoration:none; line-height=
+:20px;">  <img src=3D"https://www.ubs.com/content/dam/InvestmentBank/equity=
+-research/sunny-lin-43389966-c.gif" alt=3D"" style=3D"border-width:0;width:=
+auto;height:auto;" /></a></td>  <td align=3D"left" valign=3D"middle" style=
+=3D"padding-top:0;padding-bottom:0;padding-right:0;padding-left:10px; line-=
+height:25px; color:#898888;" class=3D"bodycopy"> <a href=3D"mailto:sunny.li=
+n@ubs.com?subject=3DUBS Research follow-up: November '20 Edition: Mobile DR=
+AM pricing first up" class=3D"appleLinksBlack" style=3D"color:#898888; text=
+-decoration:none; line-height:20px;"><b>Sunny Lin</b>, Analyst</a><br /> <a=
+ href=3D"mailto:sunny.lin@ubs.com?subject=3DUBS Research follow-up: Novembe=
+r '20 Edition: Mobile DRAM pricing first up" class=3D"appleLinksBlack" styl=
+e=3D"color:#898888; text-decoration:none; line-height:20px;">sunny.lin@ubs.=
+com</a><br /> <a class=3D"appleLinksBlack" style=3D"color:#898888; text-dec=
+oration:none; line-height:20px;">+886-2-8722 7346</a>   </td> </tr></table>=
+</TD></TR> <TR><TD><hr style=3D"color:lightgrey;color: #efefef;background-c=
+olor: #efefef;height: 1px; border:0; margin-top:10px;margin-bottom:10px;"><=
+/TD></TR> <TR><TD><!-- BANNER SECTION TEXT-->
+<table width=3D"100%" border=3D"0" cellspacing=3D"0" cellpadding=3D"0">
+<tr>
+<td align=3D"left" class=3D"footer" bgcolor=3D"#ffffff" style=3D"padding: 1=
+0px 30px 20px 30px;">
+<span style=3D"FONT-FAMILY: Arial, sans-serif; color:#000000; font-size: 14=
+px; line-height:17px; font-weight: bold" class=3D"footerdark">This email is=
+ intended for</span> <a href=3D"mailto:mcarruth@pagasia.com" class=3D"apple=
+LinksBlack" style=3D"FONT-FAMILY: Arial, sans-serif; color:#000000; text-de=
+coration:none; font-size: 14px; line-height:17px; font-weight: bold;">mcarr=
+uth@pagasia.com</a><br>
+<span class=3D"appleLinksBlack" style=3D"FONT-FAMILY: Arial, sans-serif; co=
+lor:#898888; font-size: 12px; line-height:15px;">Please log in with this em=
+ail address if prompted (or contact your UBS sales representative to update=
+ it). Not you? Please log in with your email address registered with UBS Re=
+search.</span>
+</td>
+</tr>
+</table></TD></TR><TR> <TD class=3D"footer" bgcolor=3D"#ffffff" style=3D"pa=
+dding: 10px 30px 10px 30px;">   <table width=3D"100%" border=3D"0" cellspac=
+ing=3D"0" cellpadding=3D"0">       <tr>  <td align=3D"left" class=3D"footer=
+dark"><span style=3D"FONT-FAMILY: Arial, Helvetica, sans-serif; FONT-SIZE: =
+12px; color:#7f7f7f" ><P>To manage your subscriptions, <a href=3D"https://a=
+pc01.safelinks.protection.outlook.com/?url=3Dhttps%3A%2F%2Fneo.ubs.com%2Fr%=
+2F%3Fid%3Dh10b129d7%2C11b56902%2C11b56abe%26inst%3DV7%26did%3DAC7-E-2971015=
+70%26off_id%3DAC7-E-298088129%26ma%3DY5353645541794743%26camp_id%3DEM%3AUNK=
+W%3A2020-11%3A16%3AC&amp;data=3D04%7C01%7Cmcarruth%40pag.com%7Ca32adfff7f99=
+462a0c4608d88a46436b%7Cf541de3dcd7348a0aac477d090e49ad5%7C1%7C0%7C637411381=
+702811680%7CUnknown%7CTWFpbGZsb3d8eyJWIjoiMC4wLjAwMDAiLCJQIjoiV2luMzIiLCJBT=
+iI6Ik1haWwiLCJXVCI6Mn0%3D%7C1000&amp;sdata=3DKgbOHWipKlso5BiQQrR7fsU0alh7mf=
+fVX1%2B90FBw3hc%3D&amp;reserved=3D0" originalSrc=3D"https://neo.ubs.com/r/?=
+id=3Dh10b129d7,11b56902,11b56abe&inst=3DV7&did=3DAC7-E-297101570&off_id=3DA=
+C7-E-298088129&ma=3DY5353645541794743&camp_id=3DEM:UNKW:2020-11:16:C" shash=
+=3D"J96GxdW4w9WNDllyxHl06b5QgXEgGDIPqncxN6h/FrTXCSTsbe7VoulHEAA5RRo/5muf87D=
+qWEZ0tljqOUaWezlXbsfYV6sxWb80Pcqb+75Jt3GXRdPE98ZA7FN/dPog2+PsWOTAoAYs7RtVeO=
+G6RrG4mlWlOEatco6pEMory4s=3D" style=3D"color:#ee6a56;text-decoration:none;f=
+ont-weight:normal">click here</a> or contact your UBS Sales or Research rep=
+resentative.
+<BR><BR><BR>UBS does and seeks to do business with companies covered in its=
+ research reports. As a result, investors should be aware that the firm may=
+ have a conflict of interest that could affect the objectivity of such repo=
+rts. Investors should consider research reports as only a single factor in =
+making their investment decision. Important information including analyst c=
+ertification and required disclosures regarding specific companies, derivat=
+ives or other instruments discussed in the email, is included in the releva=
+nt latest research report, attached and/or hyperlinked to this email. This =
+email is to be read in conjunction with such information. Such reports are =
+provided to our clients through UBS Neo, the UBS Client Portal and UBS.com.=
+ You should also refer to the public disclosures website at <a href=3D"http=
+s://apc01.safelinks.protection.outlook.com/?url=3Dhttps%3A%2F%2Fneo.ubs.com=
+%2Fr%2F%3Fid%3Dh10b129d7%2C11b56902%2C11b56abf%26inst%3DV7%26did%3DAC7-E-29=
+7101570%26off_id%3DAC7-E-298088130%26ma%3DY5353645541794743%26camp_id%3DEM%=
+3AUNKW%3A2020-11%3A16%3AC&amp;data=3D04%7C01%7Cmcarruth%40pag.com%7Ca32adff=
+f7f99462a0c4608d88a46436b%7Cf541de3dcd7348a0aac477d090e49ad5%7C1%7C0%7C6374=
+11381702811680%7CUnknown%7CTWFpbGZsb3d8eyJWIjoiMC4wLjAwMDAiLCJQIjoiV2luMzIi=
+LCJBTiI6Ik1haWwiLCJXVCI6Mn0%3D%7C1000&amp;sdata=3DuB9%2FoZzvopEKeItiZwTLItP=
+tz0iXQsVUrNe1VAegxjM%3D&amp;reserved=3D0" originalSrc=3D"https://neo.ubs.co=
+m/r/?id=3Dh10b129d7,11b56902,11b56abf&inst=3DV7&did=3DAC7-E-297101570&off_i=
+d=3DAC7-E-298088130&ma=3DY5353645541794743&camp_id=3DEM:UNKW:2020-11:16:C" =
+shash=3D"PZxjpaRB9PVolBZ2urjmnsNruM8xsQpVVLS/G7pjvpgc6koTrPN25uUoDJLMeC8ZUS=
+m6+1+qlsCgbCJxqeFnr4JhL8Us7u1opmJHb9UXzDSxiaKTNV+UMWHd/MVqZoaRaWsRUZAeYI688=
+V5IJNBmq3JQiUNMivZGe0m2ieGHrjg=3D" target=3D"_blank" style=3D"color:#ee6a56=
+;text-decoration:none;font-weight:normal;">http://www.ubs.com/disclosures</=
+a> for required disclosures regarding specific companies.<br><br>
+            The message is subject to the Global Research Disclaimer availa=
+ble at <a href=3D"https://apc01.safelinks.protection.outlook.com/?url=3Dhtt=
+ps%3A%2F%2Fneo.ubs.com%2Fr%2F%3Fid%3Dh10b129d7%2C11b56902%2C11b56ac0%26inst=
+%3DV7%26did%3DAC7-E-297101570%26off_id%3DAC7-E-298088131%26ma%3DY5353645541=
+794743%26camp_id%3DEM%3AUNKW%3A2020-11%3A16%3AC&amp;data=3D04%7C01%7Cmcarru=
+th%40pag.com%7Ca32adfff7f99462a0c4608d88a46436b%7Cf541de3dcd7348a0aac477d09=
+0e49ad5%7C1%7C0%7C637411381702811680%7CUnknown%7CTWFpbGZsb3d8eyJWIjoiMC4wLj=
+AwMDAiLCJQIjoiV2luMzIiLCJBTiI6Ik1haWwiLCJXVCI6Mn0%3D%7C1000&amp;sdata=3DeVc=
+hE9oNm8eSJv5l%2Fv3WPGnjbjwdVY1NF8wmoBpVaxA%3D&amp;reserved=3D0" originalSrc=
+=3D"https://neo.ubs.com/r/?id=3Dh10b129d7,11b56902,11b56ac0&inst=3DV7&did=
+=3DAC7-E-297101570&off_id=3DAC7-E-298088131&ma=3DY5353645541794743&camp_id=
+=3DEM:UNKW:2020-11:16:C" shash=3D"pxWZLCCPI95CL7ccFD0RsPKCdCdj3pcb4X+NeM3pr=
+OgM5N1BO6DQ+lymF/1d3qNwKcG0we23pVbuA60kp3/9+DsdNO536jpRJjCEbaU2kloDy7Ec7hds=
+1xRyFpgRGv9GsQZjiURDKs9je+0cfCqECG9qBMZmAqjZWV68YHjYdOM=3D" target=3D"_blan=
+k" style=3D"color:#ee6a56;text-decoration:none;font-weight:normal;">http://=
+www.ubs.com/disclosures</a>.</body></html></span>   </td>  </tr>   </table>=
+</TD></TR><!--[if (gte mso 9)|(IE)]></TD></TR></TBODY></TABLE><![endif]--> =
+ </TBODY></TABLE></td></tr></tbody></table><img height=3D'0' width=3D'0' al=
+t=3D'' src=3D'https://neo.ubs.com/r/?id=3Dh10b129d7,11b56902,1&inst=3DV7'/>=
+</BODY></HTML>
+
+--_6906eea5-372b-4041-94c6-d14c3c2976ef_--
+
+--_c2f44a47-19aa-42c7-bd36-2121c3854e6a_
+Content-Type: text/plain; charset=us-ascii; name="disclaim.txt"
+Content-Disposition: inline
+Content-Description: Legal Disclaimer
+
+Visit our website at https://apc01.safelinks.protection.outlook.com/?url=http%3A%2F%2Fwww.ubs.com%2F&amp;data=04%7C01%7Cmcarruth%40pag.com%7Ca32adfff7f99462a0c4608d88a46436b%7Cf541de3dcd7348a0aac477d090e49ad5%7C1%7C0%7C637411381702831591%7CUnknown%7CTWFpbGZsb3d8eyJWIjoiMC4wLjAwMDAiLCJQIjoiV2luMzIiLCJBTiI6Ik1haWwiLCJXVCI6Mn0%3D%7C1000&amp;sdata=wYm%2BVPuQAeVtjd0mu3z%2FlgrMJlevKOlO2iUgJHDVPFw%3D&amp;reserved=0
+
+This message contains confidential information and is intended only
+for the individual named.  If you are not the named addressee you
+should not disseminate, distribute or copy this e-mail.  Please
+notify the sender immediately by e-mail if you have received this
+e-mail by mistake and delete this e-mail from your system.
+
+E-mails are not encrypted and cannot be guaranteed to be secure or
+error-free as information could be intercepted, corrupted, lost,
+destroyed, arrive late or incomplete, or contain viruses.  The sender
+therefore does not accept liability for any errors or omissions in the
+contents of this message which arise as a result of e-mail transmission.
+If verification is required please request a hard-copy version.  This
+message is provided for informational purposes and should not be
+construed as a solicitation or offer to buy or sell any securities
+or related financial instruments.
+
+UBS reserves the right to retain all messages. Messages are protected
+and accessed only in legally justified cases.
+
+For information on how UBS processes and keeps secure your personal
+data, please visit our Privacy Notice at
+https://apc01.safelinks.protection.outlook.com/?url=https%3A%2F%2Fwww.ubs.com%2Fglobal%2Fen%2Flegal%2Fprivacy.html&amp;data=04%7C01%7Cmcarruth%40pag.com%7Ca32adfff7f99462a0c4608d88a46436b%7Cf541de3dcd7348a0aac477d090e49ad5%7C1%7C0%7C637411381702831591%7CUnknown%7CTWFpbGZsb3d8eyJWIjoiMC4wLjAwMDAiLCJQIjoiV2luMzIiLCJBTiI6Ik1haWwiLCJXVCI6Mn0%3D%7C1000&amp;sdata=TUQGV58HypCjNz1UUCKYVODQergBMe9MpAtqRo5uJYI%3D&amp;reserved=0
+--_c2f44a47-19aa-42c7-bd36-2121c3854e6a_--
+
+--_37570ebf-d76e-4d55-8536-6a5b63b40db0_--

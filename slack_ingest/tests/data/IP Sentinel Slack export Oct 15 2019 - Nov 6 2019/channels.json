@@ -1,0 +1,74 @@
+[
+    {
+        "id": "CP19UKSF4",
+        "name": "general",
+        "created": "1571153950",
+        "creator": "UPG9G6D38",
+        "is_archived": false,
+        "is_general": true,
+        "members": [
+            "UP19VS2E6",
+            "UP2JNQM9R",
+            "UPFUKHWS3",
+            "UPG9G6D38"
+        ],
+        "topic": {
+            "value": "Company-wide announcements and work-related matters",
+            "creator": "UPG9G6D38",
+            "last_set": "1571153950"
+        },
+        "purpose": {
+            "value": "This channel is for workspace-wide communication and announcements. All members are in this channel.",
+            "creator": "UPG9G6D38",
+            "last_set": "1571153950"
+        }
+    },
+    {
+        "id": "CP7KZPEKT",
+        "name": "random",
+        "created": "1571153950",
+        "creator": "UPG9G6D38",
+        "is_archived": false,
+        "is_general": false,
+        "members": [
+            "UP19VS2E6",
+            "UP2JNQM9R",
+            "UPFUKHWS3",
+            "UPG9G6D38"
+        ],
+        "topic": {
+            "value": "Non-work banter and water cooler conversation",
+            "creator": "UPG9G6D38",
+            "last_set": "1571153950"
+        },
+        "purpose": {
+            "value": "A place for non-work-related patter, chit-chat, gibber and blather you’d prefer to keep out of more focused work-related channels.",
+            "creator": "UPG9G6D38",
+            "last_set": "1571153950"
+        }
+    },
+    {
+        "id": "CPG9G78PQ",
+        "name": "regulatory-it",
+        "created": "1571153950",
+        "creator": "UPG9G6D38",
+        "is_archived": false,
+        "is_general": false,
+        "members": [
+            "UP19VS2E6",
+            "UP2JNQM9R",
+            "UPFUKHWS3",
+            "UPG9G6D38"
+        ],
+        "topic": {
+            "value": "",
+            "creator": "",
+            "last_set": "0"
+        },
+        "purpose": {
+            "value": "",
+            "creator": "",
+            "last_set": "0"
+        }
+    }
+]

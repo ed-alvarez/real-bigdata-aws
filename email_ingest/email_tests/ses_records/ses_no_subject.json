@@ -1,0 +1,173 @@
+{
+        "Records": [
+            {
+                "eventSource": "aws:ses",
+                "eventVersion": "1.0",
+                "ses": {
+                    "mail": {
+                        "timestamp": "2020-11-16T17:44:42.124Z",
+                        "source": "journaling@abbevillellp.com",
+                        "messageId": "rjhn1rivj27d5539vnmsbfnaso3ks4vg9e114b01",
+                        "destination": [
+                            "nuno.camara@kirkoswald.com"
+                        ],
+                        "headersTruncated": False,
+                        "headers": [
+                            {
+                                "name": "Return-Path",
+                                "value": "<journaling@abbevillellp.com>"
+                            },
+                            {
+                                "name": "Received",
+                                "value": "from EUR02-HE1-obe.outbound.protection.outlook.com (mail-he1eur02lp2050.outbound.protection.outlook.com [104.47.5.50]) by inbound-smtp.eu-west-1.amazonaws.com with SMTP id rjhn1rivj27d5539vnmsbfnaso3ks4vg9e114b01 for kirkoswald@ip-sentinel.net; Mon, 16 Nov 2020 17:44:42 +0000 (UTC)"
+                            },
+                            {
+                                "name": "Received-SPF",
+                                "value": "pass (spfCheck: domain of abbevillellp.com designates 104.47.5.50 as permitted sender) client-ip=104.47.5.50; envelope-from=journaling@abbevillellp.com; helo=mail-he1eur02lp2050.outbound.protection.outlook.com;"
+                            },
+                            {
+                                "name": "Authentication-Results",
+                                "value": "amazonses.com; spf=pass (spfCheck: domain of abbevillellp.com designates 104.47.5.50 as permitted sender) client-ip=104.47.5.50; envelope-from=journaling@abbevillellp.com; helo=mail-he1eur02lp2050.outbound.protection.outlook.com; dmarc=fail header.from=gmail.com;"
+                            },
+                            {
+                                "name": "X-SES-RECEIPT",
+                                "value": "AEFBQUFBQUFBQUFFL1BGZWExVjBnS0dwNk5kUTZHUkZja05FbXFWaEg3UzZkd3pOMzVpaVAvV1NEYzRManpHb1Q1MWZNaFpkQ3pwSzNua0RWOWVoYy9mME9kWC9rSTAvbzhrcGw1amN2Sk1EUWhCUEdHeVZSY3I4TGRXLytabWVBcTQ2RFJkR0hqUThtSEJOaTJNTUJ3WEwySEtHTHJNazkwcHo2dWVTNE0vSUIwbFgvamlyaGxFdzF6dDJlakc2cjkwOWZKT2hUYWM2N1JyaWEzaXhBUmlTbkdaU2RPR1dkM2hOZDVMaFA0YUFxN29zUDcxYVFGdmxGbjNPTjUrQWRLWkVKUTJHZWRlcWk4SW5maUpBekNDOTc4WXNWWk9Zb0FkVE0ybDgxMkh3RFlDRDRDWlUrSnp3eU1GRnFQb1IyTFVDcmdtZFRaSzg9"
+                            },
+                            {
+                                "name": "X-SES-DKIM-SIGNATURE",
+                                "value": "a=rsa-sha256; q=dns/txt; b=VvNxphCfEjoLXPZpXrA3MrZ2jb4urVhkw30XgVJLzSmrJsfbveUscFjzz3gOo0JZ1z7QrOH4pPkLeQYbuMqLRvwO/lFOHyAI+kIPIMdQYagmq9GWDYcaqUEcGeDKIBEdv+H1U0oK15+yXzKqji2qlah5/M9cXyAwZRsHqvExlX4=; c=relaxed/simple; s=shh3fegwg5fppqsuzphvschd53n6ihuv; d=amazonses.com; t=1605548682; v=1; bh=zjtZCrlS0TlMtIds6yt3EGv3Oj4gUr+naSXmzo6K2fc=; h=From:To:Cc:Bcc:Subject:Date:Message-ID:MIME-Version:Content-Type:X-SES-RECEIPT;"
+                            },
+                            {
+                                "name": "Content-Type",
+                                "value": "multipart/mixed; boundary=\"_e37e3868-b953-470c-aef4-9a4af950799e_\""
+                            },
+                            {
+                                "name": "To",
+                                "value": "Nuno Camara <nuno.camara@kirkoswald.com>"
+                            },
+                            {
+                                "name": "From",
+                                "value": "nuno camara <nmccanto@gmail.com>"
+                            },
+                            {
+                                "name": "MIME-Version",
+                                "value": "1.0"
+                            },
+                            {
+                                "name": "Sender",
+                                "value": "<MicrosoftExchange329e71ec88ae4615bbc36ab6ce41109e@AbbevillePartnersLLP.onmicrosoft.com>"
+                            },
+                            {
+                                "name": "Message-ID",
+                                "value": "<9fa94c3a-4aec-4288-a623-d0496f783e3c@journal.report.generator>"
+                            },
+                            {
+                                "name": "Date",
+                                "value": "Mon, 16 Nov 2020 17:44:38 +0000"
+                            },
+                            {
+                                "name": "X-MS-PublicTrafficType",
+                                "value": "Email"
+                            },
+                            {
+                                "name": "X-MS-Journal-Report",
+                                "value": ""
+                            },
+                            {
+                                "name": "Return-Path",
+                                "value": "journaling@abbevillellp.com"
+                            },
+                            {
+                                "name": "X-MS-Exchange-Parent-Message-Id",
+                                "value": "<44ECE545-E03F-4DCD-8C15-34E817CEEEF2@gmail.com>"
+                            },
+                            {
+                                "name": "Auto-Submitted",
+                                "value": "auto-generated"
+                            },
+                            {
+                                "name": "X-MS-Exchange-Generated-Message-Source",
+                                "value": "Journal Agent"
+                            },
+                            {
+                                "name": "X-MS-TrafficTypeDiagnostic",
+                                "value": "AM6PR03MB5560:JournalingReport"
+                            },
+                            {
+                                "name": "X-LD-Processed",
+                                "value": "b4126aba-d698-403e-a36b-2d797e7cd9b7,ExtAddr"
+                            },
+                            {
+                                "name": "X-OriginatorOrg",
+                                "value": "AbbevillePartnersLLP.onmicrosoft.com"
+                            },
+                            {
+                                "name": "X-MS-Exchange-CrossTenant-AuthSource",
+                                "value": "AM6PR03MB5560.eurprd03.prod.outlook.com"
+                            },
+                            {
+                                "name": "X-MS-Exchange-CrossTenant-AuthAs",
+                                "value": "Internal"
+                            },
+                            {
+                                "name": "X-MS-Exchange-CrossTenant-OriginalArrivalTime",
+                                "value": "16 Nov 2020 17:44:38.1182 (UTC)"
+                            },
+                            {
+                                "name": "X-MS-Exchange-CrossTenant-Network-Message-Id",
+                                "value": "2d439dbf-4ff5-47b0-7920-08d88a5749ff"
+                            },
+                            {
+                                "name": "X-MS-Exchange-CrossTenant-FromEntityHeader",
+                                "value": "Hosted"
+                            },
+                            {
+                                "name": "X-MS-Exchange-Transport-CrossTenantHeadersStamped",
+                                "value": "AM6PR03MB5560"
+                            }
+                        ],
+                        "commonHeaders": {
+                            "returnPath": "journaling@abbevillellp.com",
+                            "from": [
+                                "nuno camara <nmccanto@gmail.com>"
+                            ],
+                            "sender": "MicrosoftExchange329e71ec88ae4615bbc36ab6ce41109e@AbbevillePartnersLLP.onmicrosoft.com",
+                            "date": "Mon, 16 Nov 2020 17:44:38 +0000",
+                            "to": [
+                                "Nuno Camara <nuno.camara@kirkoswald.com>"
+                            ],
+                            "messageId": "<9fa94c3a-4aec-4288-a623-d0496f783e3c@journal.report.generator>"
+                        }
+                    },
+                    "receipt": {
+                        "timestamp": "2020-11-16T17:44:42.124Z",
+                        "processingTimeMillis": 880,
+                        "recipients": [
+                            "kirkoswald@ip-sentinel.net"
+                        ],
+                        "spamVerdict": {
+                            "status": "DISABLED"
+                        },
+                        "virusVerdict": {
+                            "status": "DISABLED"
+                        },
+                        "spfVerdict": {
+                            "status": "PASS"
+                        },
+                        "dkimVerdict": {
+                            "status": "GRAY"
+                        },
+                        "dmarcVerdict": {
+                            "status": "FAIL"
+                        },
+                        "action": {
+                            "type": "Lambda",
+                            "functionArn": "arn:aws:lambda:eu-west-1:955323147179:function:prod-email-ingest-v2",
+                            "invocationType": "Event"
+                        },
+                        "dmarcPolicy": "none"
+                    }
+                }
+            }
+        ]
+    }

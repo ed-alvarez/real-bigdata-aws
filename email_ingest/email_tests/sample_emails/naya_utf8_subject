@@ -1,0 +1,930 @@
+Return-Path: <Journaling@nayafund.com>
+Received: from GBR01-CWL-obe.outbound.protection.outlook.com (mail-cwlgbr01lp2052.outbound.protection.outlook.com [104.47.20.52])
+ by inbound-smtp.eu-west-1.amazonaws.com with SMTP id tj7q27aa7pa19udlril7s03ui9pjkutcj14dhpg1
+ for naya@ip-sentinel.net;
+ Sun, 15 Nov 2020 22:52:32 +0000 (UTC)
+Received-SPF: none (spfCheck: 104.47.20.52 is neither permitted nor denied by domain of nayafund.com) client-ip=104.47.20.52; envelope-from=Journaling@nayafund.com; helo=mail-cwlgbr01lp2052.outbound.protection.outlook.com;
+Authentication-Results: amazonses.com;
+ spf=none (spfCheck: 104.47.20.52 is neither permitted nor denied by domain of nayafund.com) client-ip=104.47.20.52; envelope-from=Journaling@nayafund.com; helo=mail-cwlgbr01lp2052.outbound.protection.outlook.com;
+ dmarc=fail header.from=citi.com;
+X-SES-RECEIPT: AEFBQUFBQUFBQUFFMWJReVMxUHZmR0lILzc0YmJMdTBsU3hSV0wySk5yRkluTXg4cm1xbEd5OGM0YisraHJZNWpXcE1kaUJmb2hqbDBqak9tRzRNbmNjeWRkWHpuRk1GdFlXYVJqK0orNGZUMlFBajFRN1dGcHFZTHgwUGgwWGM0dFI2ekRob1pmVGEzQVFReTcrZ2l4bXRaZWJzZmFXd0EwUnB3VTV3akdaTTNkL3E1MmxhOVdSUUF2SkRsajRlWG1ic3BITkx4R0l4UDRhVW1XTzZaNDRBcmJtbXl0blM3bU85TnJSM3hHcDdMWnZqZlRuL3ZvWWt0K2kyT0d6eVpnWlgvdFFsUXNnUkR4c295TDhoYnM2MmcvZmNOTWVCcm42aHZiZVdMamp3OVZCVDRLRkx5RlFRa2x2VXdGaDFOTE4zUDdyNWpjWXc9
+X-SES-DKIM-SIGNATURE: a=rsa-sha256; q=dns/txt; b=Sbyzetk0/UP+KDRldpsIKCx17OGhgiufYpfdm+53x71N8uKe2C+vCZMEKBCTUL7klWboNFmlgMmHpMn3/iPD7VQNsuhHBdbRtMClYyUBQ+8oS671bneyHLG0zujDU4yx4Hvd1eeCHJnBVKe+sgpwL4OfZwbKhhN0EGzcMseMo/M=; c=relaxed/simple; s=shh3fegwg5fppqsuzphvschd53n6ihuv; d=amazonses.com; t=1605480752; v=1; bh=Mtn573l7DAsywginmiFfagHBy9tfxq3Ip2UcMvBJeVs=; h=From:To:Cc:Bcc:Subject:Date:Message-ID:MIME-Version:Content-Type:X-SES-RECEIPT;
+Content-Type: multipart/mixed;
+	boundary="_0533470d-bf9d-4184-ae7a-78ae10f116e2_"
+Subject: =?utf-8?Q?Citi_/_=E5=A4=96=E5=9B=BD=E6=A0=AA=E3=82=BB=E3=83=BC?=
+ =?utf-8?Q?=E3=83=AB=E3=82=B9=E3=83=A1=E3=83=A2:_2021_=E5=B9=B4=E6=9C=AB?=
+ =?utf-8?Q?=E3=81=AES&P500_=E3=81=AE=E3=82=BF=E3=83=BC=E3=82=B2=E3=83=83?=
+ =?utf-8?Q?=E3=83=88=E3=83=97=E3=83=A9=E3=82=A4=E3=82=B9=E3=82=92?=
+ =?utf-8?Q?3,800_=E3=81=AB?=
+To: sarah@nayafund.com
+From: Citi Velocity <globalcitivelocityteam@citi.com>
+MIME-Version: 1.0
+Sender:
+	<MicrosoftExchange329e71ec88ae4615bbc36ab6ce41109e@nayafund.onmicrosoft.com>
+Message-ID: <40293f4f-4a8b-482a-bc79-3e0c69c46fb1@journal.report.generator>
+Date: Sun, 15 Nov 2020 22:52:31 +0000
+X-MS-PublicTrafficType: Email
+X-MS-Journal-Report:
+Return-Path: Journaling@nayafund.com
+X-MS-Exchange-Parent-Message-Id:
+	<1762739518.8372.1605480742861.JavaMail.citimkts@sd-018d-e7e4.nam.nsroot.net>
+Auto-Submitted: auto-generated
+X-MS-Exchange-Generated-Message-Source: Journal Agent
+X-MS-TrafficTypeDiagnostic: CWXP123MB3046:JournalingReport
+X-LD-Processed: b47761fe-9cec-4236-9646-1b8f909406a2,ExtAddr
+X-OriginatorOrg: nayafund.onmicrosoft.com
+X-MS-Exchange-CrossTenant-AuthSource: CWXP123MB3046.GBRP123.PROD.OUTLOOK.COM
+X-MS-Exchange-CrossTenant-AuthAs: Internal
+X-MS-Exchange-CrossTenant-OriginalArrivalTime: 15 Nov 2020 22:52:31.9287 (UTC)
+X-MS-Exchange-CrossTenant-Network-Message-Id:
+	8c72c890-d4ec-4648-a6d6-08d889b922d5
+X-MS-Exchange-CrossTenant-FromEntityHeader: Hosted
+X-MS-Exchange-Transport-CrossTenantHeadersStamped: CWXP123MB3046
+
+--_0533470d-bf9d-4184-ae7a-78ae10f116e2_
+Content-Type: text/plain; charset="iso-2022-jp"
+Content-Transfer-Encoding: 7bit
+
+Sender: globalcitivelocityteam@citi.com
+Subject: Citi / 外国株セールスメモ: 2021 年末のS&P500 のターゲットプライスを3,800 に
+Message-Id: <1762739518.8372.1605480742861.JavaMail.citimkts@sd-018d-e7e4.nam.nsroot.net>
+Recipient: Sarah@nayafund.com
+
+--_0533470d-bf9d-4184-ae7a-78ae10f116e2_
+Content-Type: message/rfc822
+
+Received: from LO4P123CA0038.GBRP123.PROD.OUTLOOK.COM (2603:10a6:600:152::7)
+ by CWXP123MB3046.GBRP123.PROD.OUTLOOK.COM (2603:10a6:400:30::13) with
+ Microsoft SMTP Server (version=TLS1_2,
+ cipher=TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384) id 15.20.3564.25; Sun, 15 Nov
+ 2020 22:52:31 +0000
+Received: from LO2GBR01FT008.eop-gbr01.prod.protection.outlook.com
+ (2603:10a6:600:152:cafe::f0) by LO4P123CA0038.outlook.office365.com
+ (2603:10a6:600:152::7) with Microsoft SMTP Server (version=TLS1_2,
+ cipher=TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384) id 15.20.3564.25 via Frontend
+ Transport; Sun, 15 Nov 2020 22:52:31 +0000
+Authentication-Results: spf=softfail (sender IP is 185.84.92.69)
+ smtp.mailfrom=citi.com; nayafund.mail.onmicrosoft.com; dkim=fail (body hash
+ did not verify) header.d=citi.com;nayafund.mail.onmicrosoft.com; dmarc=fail
+ action=oreject header.from=citi.com;
+Received-SPF: SoftFail (protection.outlook.com: domain of transitioning
+ citi.com discourages use of 185.84.92.69 as permitted sender)
+Received: from mail.nayafund.com (185.84.92.69) by
+ LO2GBR01FT008.mail.protection.outlook.com (10.152.42.94) with Microsoft SMTP
+ Server (version=TLS1_2, cipher=TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA384) id
+ 15.20.3564.22 via Frontend Transport; Sun, 15 Nov 2020 22:52:30 +0000
+Received: from NML-LON-SRV-03.nayafund.com (10.241.2.3) by
+ NML-LON-SRV-03.nayafund.com (10.241.2.3) with Microsoft SMTP Server (TLS) id
+ 15.0.1497.2; Sun, 15 Nov 2020 22:52:29 +0000
+Received: from eu-smtp-1.mimecast.com (91.220.42.227) by
+ NML-LON-SRV-03.nayafund.com (10.241.2.3) with Microsoft SMTP Server id
+ 15.0.1497.2 via Frontend Transport; Sun, 15 Nov 2020 22:52:29 +0000
+ARC-Message-Signature: i=1; a=rsa-sha256; c=relaxed/relaxed;
+	d=dkim.mimecast.com; s=201903; t=1605480749;
+	h=from:from:reply-to:subject:subject:date:date:message-id:message-id:
+	 to:to:cc:mime-version:mime-version:content-type:content-type:
+	 dkim-signature; bh=mkTRw57MDJEZZV9FyqU8xPuApyEKWb+/PN2U3Oki3eQ=;
+	b=MDiH844yaNQMQXYkWbXb51BnczDGyunX5+i5UpzyHz9xEgYO5WkxZK0okLldrUMCFBQyb3
+	ItSPySH8dQo6dYxBM2u/iv3UPGYPi1Ifh5Q59kp8tDDPqhDm9qhg31BQ0j4z8L8haevqi3
+	UpLIZkKJZcCDvfI3VDbW3QOBoQWwVoZLVKhnNRoCD9l430LJSnp5E3Lb/prdQzxV/dODk5
+	R5mN08Q5aTMhD6eydVw8s2le9/aUq15bqdkZsQVNWGRVaD1HGfK8QMpRT7Vj3DlliEy7U2
+	0CZLIdPOUOXcuy0Y2eB8iKCqIkl/El7yit4aXlCm8911rgGAh4im94URl3R1CA==
+ARC-Seal: i=1; s=201903; d=dkim.mimecast.com; t=1605480749; a=rsa-sha256;
+	cv=none;
+	b=d07MDj6TuZJ/lkeYsp7wIK0nyafxwGPG9TExTJzKljXlq3eNMQ1pdCWsexctcRIXl+kB/j
+	plVguDE96U0ItXGNGBwD3eP1JBsmIaPhbBdWa/1gRY4jcEJL9JaYHG5VY/LE0BhPaYcsxI
+	sMGmThl2t2ilWX3WdpeAR04vhjLgmeveI+niaU1kIGLYAUKHkmhxbaAXoL2vRZb/3PLkxe
+	5qBeZ56BhVRAKb8X8ji6OKjZhDNy5WguAFLuTYWJR7iKaBd5QQdW5omEhm8OW4wpb5z/q7
+	QB/pQ/+NJWsRkf0cWyeHWCgHLMuBzKmlJV4xBQ6azyQMb4zmTfWMohkR2DnRrA==
+ARC-Authentication-Results: i=1;
+	relay.mimecast.com;
+	dkim=pass header.d=citi.com header.s=maila header.b=gH7v2CjP;
+	dmarc=pass (policy=reject) header.from=citi.com;
+	spf=pass (relay.mimecast.com: domain of globalcitivelocityteam@citi.com designates 67.231.145.226 as permitted sender) smtp.mailfrom=globalcitivelocityteam@citi.com
+Received: from appmailout1.citi.com (appmailout1.citi.com [67.231.145.226])
+ (Using TLS) by relay.mimecast.com with ESMTP id
+ uk-mta-55-hx2mgnd3NXGjcZFN_3lGOg-1; Sun, 15 Nov 2020 22:52:26 +0000
+X-MC-Unique: hx2mgnd3NXGjcZFN_3lGOg-1
+Received: from pps.filterd (m0120833.ppops.net [127.0.0.1])
+	by mx0a-00123c010.pphosted.com (8.16.0.42/8.16.0.42) with SMTP id 0AFMk5PJ157731
+	for <sarah@nayafund.com>; Sun, 15 Nov 2020 22:52:25 GMT
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=citi.com; h=date : from : to :
+ message-id : subject : mime-version : content-type; s=maila;
+ bh=u8Td8c3S1ZL/8RVgWjvSjhQoyTwosCnxK86CaNroQAc=;
+ b=gH7v2CjPpfMhmVIaNKxUD9U2dlKkhyYHfN9I98qqZMyEBV7qxlI+Sy8VrBthXXGmtPua
+ RRj2VpDj2V6fBmi/IT1ZeIuPO37sRSPqhfRJ29tWy7yft0aRPFcSRO5ROG3ZT2EjU3Yr
+ SjV710JF7EggNzkUaUEwLYANLSzBg5DxzRD5LEgcpjaFNBxRYGhE7iYX0GMua/oRhp2q
+ tuvVlrIFq2WdIPkUeZs7dp9kjnlo08TASD6cc6l4/ds9Swucd92Y7kKYF8ZpMr41PtWb
+ 7XsuUlppYAq0U8nBCygbvc+4wgeqOi42Sl/l1uQERLDlMvd+Sdyf3JBhOrAjMRh9smrx +Q==
+Received: from mail.citigroup.com (2._spf.citigroup.com [192.193.158.81])
+	by mx0a-00123c010.pphosted.com with ESMTP id 34t51b8fwr-1
+	(version=TLSv1.2 cipher=AES256-GCM-SHA384 bits=256 verify=NOT)
+	for <sarah@nayafund.com>; Sun, 15 Nov 2020 22:52:24 +0000
+Received: from imbhub-ru52.nam.nsroot.net (imbhub-ru52.nam.nsroot.net [150.110.235.91])
+	by smtpinbound.citigroup.com (Sentrion-MTA-4.4.0/Sentrion-MTA-4.4.0) with ESMTPS id 0AFMqNaY032163
+	(version=TLSv1.2 cipher=ECDHE-RSA-AES256-GCM-SHA384 bits=256 verify=OK)
+	for <sarah@nayafund.com>; Sun, 15 Nov 2020 22:52:23 GMT
+Received: from sd-018d-e7e4.nam.nsroot.net (sd-018d-e7e4.nam.nsroot.net [159.17.210.116])
+	by imbhub-ru52.nam.nsroot.net (Sentrion-MTA-4.4.0/Sentrion-MTA-4.4.0) with ESMTPS id 0AFMqNvQ081765
+	(version=TLSv1.2 cipher=ECDHE-RSA-AES256-GCM-SHA384 bits=256 verify=NO)
+	for <sarah@nayafund.com>; Sun, 15 Nov 2020 22:52:23 GMT
+Received: from sd-018d-e7e4.nam.nsroot.net (localhost [127.0.0.1])
+	by sd-018d-e7e4.nam.nsroot.net (8.14.4/8.13.8/MAILclnt/5.10/$Rev: 20722 $) with ESMTP id 0AFMqMD6013087
+	for <sarah@nayafund.com>; Sun, 15 Nov 2020 17:52:22 -0500
+Date: Sun, 15 Nov 2020 17:52:22 -0500 (EST)
+From: Citi Velocity <globalcitivelocityteam@citi.com>
+To: sarah@nayafund.com
+Message-ID: <1762739518.8372.1605480742861.JavaMail.citimkts@sd-018d-e7e4.nam.nsroot.net>
+Subject: =?utf-8?Q?Citi_/_=E5=A4=96=E5=9B=BD=E6=A0=AA=E3=82=BB=E3=83=BC?=
+ =?utf-8?Q?=E3=83=AB=E3=82=B9=E3=83=A1=E3=83=A2:_2021_=E5=B9=B4=E6=9C=AB?=
+ =?utf-8?Q?=E3=81=AES&P500_=E3=81=AE=E3=82=BF=E3=83=BC=E3=82=B2=E3=83=83?=
+ =?utf-8?Q?=E3=83=88=E3=83=97=E3=83=A9=E3=82=A4=E3=82=B9=E3=82=92?=
+ =?utf-8?Q?3,800_=E3=81=AB?=
+MIME-Version: 1.0
+X-Proofpoint-Virus-Version: vendor=fsecure engine=2.50.10434:6.0.312,18.0.737
+ definitions=2020-11-15_11:2020-11-13,2020-11-15 signatures=0
+Authentication-Results-Original: relay.mimecast.com;	dkim=pass
+ header.d=citi.com header.s=maila header.b=gH7v2CjP;	dmarc=pass
+ (policy=reject) header.from=citi.com;	spf=pass (relay.mimecast.com: domain of
+ globalcitivelocityteam@citi.com designates 67.231.145.226 as permitted
+ sender) smtp.mailfrom=globalcitivelocityteam@citi.com
+X-Mimecast-Spam-Score: -99
+X-Mimecast-Impersonation-Protect: Policy=NAYA - Impersonation Protect - Default;Similar Internal Domain=false;Similar Monitored External Domain=false;Custom External Domain=false;Mimecast External Domain=false;Newly Observed Domain=false;Internal User Name=false;Custom Display Name List=false;Reply-to Address Mismatch=false;Targeted Threat Dictionary=false;Mimecast Threat Dictionary=false;Custom Threat Dictionary=false
+Content-Type: multipart/mixed;
+	boundary="_4388fc3f-0b0a-4c74-a565-6e216d7ab1ad_"
+Return-Path: globalcitivelocityteam@citi.com
+X-OrganizationHeadersPreserved: NML-LON-SRV-03.nayafund.com
+X-MS-Exchange-Organization-OriginalArrivalTime: 15 Nov 2020 22:52:30.8269
+ (UTC)
+X-MS-Exchange-Organization-ExpirationStartTime: 15 Nov 2020 22:52:30.8639
+ (UTC)
+X-MS-Exchange-Organization-ExpirationStartTimeReason: OriginalSubmit
+X-MS-Exchange-Organization-ExpirationInterval: 1:00:00:00.0000000
+X-MS-Exchange-Organization-ExpirationIntervalReason: OriginalSubmit
+X-MS-Exchange-Organization-Network-Message-Id: f0eb86dc-2555-4ac8-dd95-08d889b92232
+X-MS-Exchange-Organization-OriginalServerIPAddress: 10.152.42.94
+X-MS-Exchange-Organization-MessageScope: 656a526e-4477-4aa5-b351-77e3c51555ac
+X-EOPAttributedMessage: 0
+X-MS-Exchange-Organization-TargetResourceForest: GBRP123.PROD.OUTLOOK.COM
+X-MS-Exchange-Organization-OrgEopForest: GBR01
+X-MS-Exchange-Organization-MessageDirectionality: Originating
+X-MS-Exchange-Organization-Id: b47761fe-9cec-4236-9646-1b8f909406a2
+X-MS-Exchange-Organization-MessageInboundConnectorType: OnPremises
+X-MS-Exchange-Organization-MessageInboundConnectorName: Inbound from
+ 96813388-53bf-4981-852d-233c37875a50
+X-MS-Exchange-Organization-Base64-MessageInboundConnectorData: TgBhAG0AZQA9AEkAbgBiAG8AdQBuAGQAIABmAHIAbwBtACAAOQA2ADgAMQAzADMAOAA4AC0ANQAzAGIAZgAtADQAOQA4ADEALQA4ADUAMgBkAC0AMgAzADMAYwAzADcAOAA3ADUAYQA1ADAAOwBDAG8AbgBuAGUAYwB0AG8AcgBUAHkAcABlAD0ATwBuAFAAcgBlAG0AaQBzAGUAcwA7AFQAZQBuAGEAbgB0AEkAZAA9AGIANAA3ADcANgAxAGYAZQAtADkAYwBlAGMALQA0ADIAMwA2AC0AOQA2ADQANgAtADEAYgA4AGYAOQAwADkANAAwADYAYQAyAA==
+X-MS-Exchange-Organization-MessageInboundConnectorData: Name=Inbound from
+ 96813388-53bf-4981-852d-233c37875a50;ConnectorType=OnPremises;TenantId=b47761fe-9cec-4236-9646-1b8f909406a2
+X-MS-Exchange-Organization-InboundConnector-Attributes: id=1f85efbc-8a67-4aed-7f08-08d7c053c827;ty=1;idh=380f833c-4dd0-e1ff-76e3-58476ec28465;cr=256;ch=256;tl=1;mi=0;
+X-MS-Exchange-Organization-OriginalAttributedTenantConnectingIp: TenantId=b47761fe-9cec-4236-9646-1b8f909406a2;Ip=[185.84.92.69];Helo=[mail.nayafund.com]
+X-MS-Exchange-Organization-SkipListedRecipientPilot: True
+X-MS-Exchange-Organization-OriginalClientIPAddress: 91.220.42.227
+X-MS-Exchange-Organization-Processed-By-Journaling: Journal Agent
+X-CrossPremisesHeadersPromoted: LO2GBR01FT008.eop-gbr01.prod.protection.outlook.com
+X-MS-Exchange-Organization-Cross-Premises-Headers-Promoted: LO2GBR01FT008.eop-gbr01.prod.protection.outlook.com
+X-CrossPremisesHeadersFiltered: LO2GBR01FT008.eop-gbr01.prod.protection.outlook.com
+X-MS-Exchange-Organization-Cross-Premises-Headers-Processed: LO2GBR01FT008.eop-gbr01.prod.protection.outlook.com
+X-MS-Exchange-Organization-ConnectingIP: 185.84.92.69
+X-MS-Exchange-Organization-ConnectingEHLO: mail.nayafund.com
+X-MS-Exchange-Organization-AS-LastExternalIp: 185.84.92.69
+X-MS-Exchange-Organization-IsAtpTenant: true
+X-MS-Exchange-Organization-Originating-Country: GB
+X-MS-Exchange-Organization-P2SenderPII: <PII:H101(QPFnlW+mjZNbcZNfDw2JO1wA/LfMWAeP6HzvA/JNP7o=)>@citi.com
+X-MS-Exchange-Organization-P2SenderDisplayNamePII: H101(G9d8sxvIGWi4h/yRoBVTUPHMIqKVz3eywk4h3ha+QIQ=)
+X-MS-Exchange-Organization-OriginalEnvelopeRecipients: SHewer@nayafund.mail.onmicrosoft.com
+X-MS-Exchange-Organization-EhloAndPtrDomain: mail.nayafund.com;
+X-MS-Exchange-Organization-MxPointsToUs: true
+X-MS-Exchange-Organization-RecipientMxInfo-PFAFD: nayafund.mail.onmicrosoft.com#nayafund-mail-onmicrosoft-com.mail.protection.outlook.com
+X-MS-Exchange-Organization-HMATPModel-Spf: 3
+X-MS-Exchange-Organization-HMATPModel-Recipient: <PII:H101(kd/6hAV1UL1DDlm4Mi8o4qlvxrDugNLSD/GjZgGst/M=)>@nayafund.mail.onmicrosoft.com
+X-MS-Exchange-Organization-ASNIPLDA: true
+X-MS-Exchange-Organization-TransportTrafficType: Email
+X-MS-PublicTrafficType: Email
+X-MS-Exchange-Organization-OrderedPrecisionLatencyInProgress: LSRV=LO4P123CA0038.GBRP123.PROD.OUTLOOK.COM:TOTAL-FE=0.008|SMR-PEN=0.022(RENV=0.020|SMRPROXY-PEN=0.000);2020-11-15T22:52:31.231Z
+X-MS-Exchange-Organization-MessageLatency: SRV=LO2GBR01FT008.eop-gbr01.prod.protection.outlook.com:TOTAL-FE=0.392|SMR-PEN=0.392(RENV=0.028|REOH=0.340(SMREH=0.329(SMREH-Protocol
+ Filter Agent=0.326 ))|SMRPROXY-PEN=0.024(SMS-PEN=0.020))
+X-MS-Exchange-Organization-MessageLatency:
+	SRV=LO4P123CA0038.GBRP123.PROD.OUTLOOK.COM:TOTAL-FE=0.032|SMR-PEN=0.022(RENV=0.020|SMRPROXY-PEN=0.000)|SMS=0.024
+X-MS-Exchange-Forest-ArrivalHubServer: CWXP123MB3046.GBRP123.PROD.OUTLOOK.COM
+X-MS-Exchange-Organization-AuthSource: NML-LON-SRV-03.nayafund.com
+X-MS-Exchange-Organization-AuthAs: Anonymous
+X-MS-Exchange-Organization-FromEntityHeader: HybridOnPrem
+X-MS-Exchange-Forest-MessageScope: 656a526e-4477-4aa5-b351-77e3c51555ac
+X-MS-Exchange-Organization-OriginatorOrganization: nayafund.com
+X-OriginatorOrg: nayafund.com
+X-MS-Exchange-Organization-Antispam-ProtocolFilterHub-ScanContext:
+	ProtocolFilterHub:SmtpOnEndOfData;
+X-MS-Exchange-Organization-AcceptedDomain: False
+X-MS-Office365-Filtering-Correlation-Id: f0eb86dc-2555-4ac8-dd95-08d889b92232
+X-MS-Exchange-Organization-OriginalSize: 32581
+X-MS-TrafficTypeDiagnostic: CWXP123MB3046:
+X-MS-Exchange-Organization-HygienePolicy: Premium
+X-MS-Exchange-Organization-ReplicationInfo:
+	ReplicaId=327e539d-0cc9-9ace-56bc-6d22b989d808;ReplicatingServerFqdn=LO3P123MB3052.GBRP123.PROD.OUTLOOK.COM
+X-MS-Exchange-Forest-Language: ja
+X-MS-Exchange-Forest-IndexAgent-0:
+	AQ0CamEAAbgEAAAPAAADH4sIAAAAAAAEAO1V3U8cVRS/87G77MDY+u
+ jbfeoT2WVBYsOLNqCWRJS41cTH2dnr7nU/Zp2Z3bWJD8xMa6nS1JgC
+ ba0NNS2FIq0WqlSoJP4pvd1heeq/4Ll3WFzQ+JX4BplMzpyP3/md3z
+ 13uXRM10apS/H7pGyZ1D2ra29bDZwZxoMDgwM4S6olA2eNkkFx5pWR
+ oZP49ewZLArSuHV7rvX1k3DhHvM3WbDFghXmP2bBLRZ8O8LLM7j1eD
+ 28scK8+9kTk8MDAxgs5m/zXP8hCwIWTLNgngXLzL/NS/2vhvpPirQV
+ /HT+s3D+Tnjju/a9m+2ltdb5pXDuAvMehD9tPtu8Ojn2BmQz70p78S
+ 7zLjNvgXmzzDvHpnxde3r1fAYz/3sWrApaX3JmAVC8yfwH4Nx5NBNu
+ TOsaCx4Ih8eCNeYt7fywBuMAxV1vI5y5xryZZ798s3PuRwgxb555i6
+ 0Nv7WwzmcIZpm/LMYQI09NjRcsG48Sx7CJqWtF1605I+l0s9lMgaa0
+ sadtyrQqaTdtp0mtVs+VqZnONGufEMF4EEf9Qc7W1uXw89n22oVwen
+ Fn9o6ucS0PSfnPlHy+Be4p5i8y7+7Qy/2DUBdcBDWeb10EjdtLq637
+ 14H9GStHDQdP4LdIo2Q1qFn8dzPUzY/EDEOYtwcxeZM/6t1+eCu8st
+ 2a/jncntpZnRtKAb/ru95yaxoOFqZeBNrtzSfiPL9g3qXdtXXmA9Fr
+ QDFrVKhtVPFo0UilUkn+JzZV1zLDQqAB+O7a1r2t/n+XFJp37gR0P9
+ rYo439i43VtXeJkccTlk3APm00CP64ThyXWlXnVVhXq+oapovdIsEH
+ fpDxaVKu4THilLDhRmvdCfHIa3xUPqKufWDVMRwnhhMltEGrBQCjDi
+ YVg5ZxjphG3SH4LCQVeXOnnnNMm+ZIHrvWoZYmkCFVN4Uny8SAIhNU
+ K+EiAXDIrRhVoyCQ7A5KTYyha+9V92Hxp1gM/A5kjVHHLBu0Qmzwdk
+ 8QEf91Wfyz4YGCbdVr+M2ylTPKeMKwS8R18HjVTOEJUslBfXZ8cjSF
+ T5XL2KaFIgRt4hC7QfKpgzP0HxrpBD5l21YTdKSFahTcS2lStwhBE0
+ cxbFTzXVS4oLwBNQkMbpccbH3YFaacGtwkCkz46DRPDZsSR6DwWtA8
+ zz/SkGSTAnVcUBEkL0J5oWjVoxNvWnY5n9I1JKso1oM0RVJlhGRJUR
+ ECTwzFY1I8hhAYClJVlJAhiCQVqbKkRjmRRxIIkiSJ5BgkdOy4hBQF
+ KZATZcJ7/1OVeiQExXKnhSLzLmp38v47erjdQYaOCZSMSSiNeoBeH9
+ IVXgvJcg/3C3Aky78/KnDrQMldJA8QjtoBgminxFECkpOo928bgTMa
+ IWoHgApCivjs5g8tEhxHV6SYUDtSMsHVRon/KLKkdDRMHKn9Z2prKu
+ 8L8saSqE94VLHzSeEHhdXjEnoJvQi2wh8AV5OiqoPA8zXUCySjQlAj
+ Lk5NlHPmYOjoWC96QYCoGtL7JHScH3Q8OkcAhDRAA1vk82sFRo9o1H
+ n39iJdFbARTpyfKScDb6gVoikRN5lfrj2JIoZCAQV4wgN27DdGQXOV agsAAA==
+X-MS-Exchange-Forest-IndexAgent: 1 1219
+X-MS-Exchange-Forest-EmailMessageHash: 4B04F704,3D04A91A,DDE3E087,A124C377
+X-MS-Exchange-Organization-IsPotentialIntraOrgMail: False
+X-MS-Exchange-Organization-Antispam-PreContentFilter-PolicyLoadTime:
+	MAOSUB:19;MAOSUBLOAD:13;SAORES:11;SAORESLOAD:5;SLORES:5;SLORESLOAD:5;
+X-MS-Exchange-Organization-AttachmentDetailsHeaderStamp-Success: 1.0
+X-MS-Exchange-Organization-AttachmentDetails:
+	0:JujRX22nb8o3Q+vr83z8f67F6+OWSaBtJrYS7fBar6A=:U:Png:QVRUMDAwMDc=::#:False:::N:::N::N:None;1:mCmxdr42d0ZzZPOF3YORtfYFaO0RF9ZV44ElWZF6N9A=:U:Png:QVRUMDAwMDg=::#:False:::N:::N::N:None;2:XQoOPhxDpdKCanhhZMKeWJuIt125sqkMONH53/pD/ZY=:U:Png:QVRUMDAwMDk=::#:False:::N:::N::N:None
+X-MS-Exchange-Organization-AttachmentDetailsInfo-ChunkCount: 1
+X-MS-Exchange-Organization-AttachmentDetailsInfo-0:
+	[{"ID":0,"FN":"ATT00007","FS":371,"HFH":"JujRX22nb8o3Q+vr83z8f67F6+OWSaBtJrYS7fBar6A=","FT":["Png"],"EXT":"","AF":0},{"ID":1,"FN":"ATT00008","FS":816,"HFH":"mCmxdr42d0ZzZPOF3YORtfYFaO0RF9ZV44ElWZF6N9A=","FT":["Png"],"EXT":"","AF":0},{"ID":2,"FN":"ATT00009","FS":2602,"HFH":"XQoOPhxDpdKCanhhZMKeWJuIt125sqkMONH53/pD/ZY=","FT":["Png"],"EXT":"","AF":0}]
+X-MS-Exchange-Organization-MessageFingerprint:
+	B0174BAD.AEDF9521.61E05CAE.5C2A32E7.20200
+X-MS-Exchange-Organization-UrlMinimumDomainAge: citivelocity.com#3916
+X-MS-Exchange-Organization-URLFeatureReduction:
+	57;2;0;23;0;0;0;0;16;3;2;10000000;0;0;0
+X-MS-Exchange-Organization-Persisted-Urls-ChunkCount: 2
+X-MS-Exchange-Organization-Persisted-Urls-0:
+	=?us-ascii?Q?[{"ID":1,"OU":"https://protect-eu.mimecast.com/s/hbGUC48rDHK?=
+ =?us-ascii?Q?DPxcOhsLH","U":"https://protect-eu.mimecast.com/s/hbGUC48rDH?=
+ =?us-ascii?Q?KDPxcOhsLH","IAR":false,"LI":{"TN":"a","IC":true,"BF":2,"SI"?=
+ =?us-ascii?Q?:-1,"EndIndex":-1},"SRCI":1,"IU":null,"NU":"protect-eu.mimec?=
+ =?us-ascii?Q?ast.com/s/hbGUC48rDHKDPxcOhsLH","UFT":"{101:46,102:2,105:23,?=
+ =?us-ascii?Q?108:3,109:1,110:8,111:12,112:2,114:8,115:10,116:1,117:1,118:?=
+ =?us-ascii?Q?10,119:8,121:7,122:3,123:1,125:3,128:20,131:10000000,135:\"E?=
+ =?us-ascii?Q?2F58CB3,C6D6BE65,A0574632,891EC5C0,4938C3D8,BCF35016,BFD0733?=
+ =?us-ascii?Q?A,ACB296E1,AA6CB204,1005231C,C86253E2,1B64769E,9C00B698,6C03?=
+ =?us-ascii?Q?AF79,17298846,B319FBFF,A7EED5FC,7FDF8259,8A0098B8,F0B09B0B,1?=
+ =?us-ascii?Q?EB75393,97C90FA3,F0105BD0,283AEC2A,EAA2E678,E2D41D31,6215A0C?=
+ =?us-ascii?Q?4,EF6D5DD7,5B55B39B,38E96FF1,204E674A,71A60E0\",201:6478,202?=
+ =?us-ascii?Q?:206,203:1488,204:7967,205:37,206:2,207:38,208:2,209:38,210:?=
+ =?us-ascii?Q?2,211:38,212:2,213:58,214:3,215:23,216:1,217:23,218:1,219:23?=
+ =?us-ascii?Q?,220:1,221:52,222:3,223:52,224:3,225:52,226:3,227:51,228:3,2?=
+ =?us-ascii?Q?29:57,230:3,231:23,232:1,233:27,234:1,235:23,236:1,239:23,24?=
+ =?us-ascii?Q?0:1,241:23,242:1,243:23,244:1,245:23,246:1,247:23,248:1,249:?=
+ =?us-ascii?Q?23,250:1,251:22,252:1}","DPD":{"UF":"256","OCH":"15698501729?=
+ =?us-ascii?Q?831256227","SCHM":"Https","CNT":"2","SL":"1","LOG":"1"},"PRO?=
+ =?us-ascii?Q?C":[]},{"ID":2,"OU":"https://protect-eu.mimecast.com/s/kX2ZC?=
+ =?us-ascii?Q?58vEHLX81IOLLM9","U":"https://protect-eu.mimecast.com/s/kX2Z?=
+ =?us-ascii?Q?C58vEHLX81IOLLM9","IAR":false,"LI":{"TN":"a","IC":true,"BF":?=
+ =?us-ascii?Q?2,"SI":-1,"EndIndex":-1},"SRCI":1,"IU":null,"NU":"protect-eu?=
+ =?us-ascii?Q?.mimecast.com/s/kX2ZC58vEHLX81IOLLM9","UFT":"{101:46,102:2,1?=
+ =?us-ascii?Q?05:23,108:3,109:1,110:8,111:12,112:2,114:8,115:10,116:1,117:?=
+ =?us-ascii?Q?1,118:10,119:8,121:7,122:3,123:1,125:3,128:20,131:10000000,1?=
+ =?us-ascii?Q?35:\"E2F58CB3,C6D6BE65,A0574632,891EC5C0,4938C3D8,BCF35016,B?=
+ =?us-ascii?Q?FD0733A,ACB296E1,AA6CB204,1005231C,C86253E2,1B64769E,9C00B69?=
+ =?us-ascii?Q?8,6C03AF79,B4C0A68A,3A94A4D,B179EDEC,59BA4203,9002E0C1,7641D?=
+ =?us-ascii?Q?D9C,4DAEA334,E5A09C56,689FF6EA,2E2E29A9,3C2949D1,3CB8AE92,2A?=
+ =?us-ascii?Q?4E79DF,2217F9D2,B5F7C7F1,21F24618,6F5B36E6,3F58ACBF\",201:64?=
+ =?us-ascii?Q?78,202:206,203:1488,204:7967,205:37,206:2,207:38,208:2,209:3?=
+ =?us-ascii?Q?8,210:2,211:38,212:2,213:58,214:3,215:23,216:1,217:23,218:1,?=
+ =?us-ascii?Q?219:23,220:1,221:52,222:3,223:52,224:3,225:52,226:3,227:51,2?=
+ =?us-ascii?Q?28:3,229:57,230:3,231:23,232:1,233:27,234:1,235:23,236:1,239?=
+ =?us-ascii?Q?:23,240:1,241:23,242:1,243:23,244:1,245:23,246:1,247:23,248:?=
+ =?us-ascii?Q?1,249:23,250:1,251:22,252:1}","DPD":{"UF":"256","OCH":"37172?=
+ =?us-ascii?Q?96985730675061","SCHM":"Https","CNT":"2","SL":"1","LOG":"1"}?=
+ =?us-ascii?Q?,"PROC":[]},{"ID":3,"OU":"https://protect-eu.mimecast.com/s/?=
+ =?us-ascii?Q?7wfLC66w7UYpkJsmrp0M","U":"https://protect-eu.mimecast.com/s?=
+ =?us-ascii?Q?/7wfLC66w7UYpkJsmrp0M","IAR":false,"LI":{"TN":"a","IC":true,?=
+ =?us-ascii?Q?"BF":2,"SI":-1,"EndIndex":-1},"SRCI":1,"IU":null,"NU":"prote?=
+ =?us-ascii?Q?ct-eu.mimecast.com/s/7wfLC66w7UYpkJsmrp0M","UFT":"{101:46,10?=
+ =?us-ascii?Q?2:2,105:23,108:3,109:1,110:8,111:12,112:2,114:8,115:10,116:1?=
+ =?us-ascii?Q?,117:1,118:10,119:8,121:7,122:3,123:1,125:3,128:20,131:10000?=
+ =?us-ascii?Q?000,135:\"E2F58CB3,C6D6BE65,A0574632,891EC5C0,4938C3D8,BCF35?=
+ =?us-ascii?Q?016,BFD0733A,ACB296E1,AA6CB204,1005231C,C86253E2,1B64769E,9C?=
+ =?us-ascii?Q?00B698,6C03AF79,9D5B85B1,5CC1C352,F6C380B2,4467BF28,880512C0?=
+ =?us-ascii?Q?,98565C0,48E42829,714D61A8,AA571CFA,3FF8B57F,A6AB6BA7,70F0E7?=
+ =?us-ascii?Q?88,DD9E54D3,4464F36B,231CCB8B,19A17F04,C7FAF7FF,578B47FE\",2?=
+ =?us-ascii?Q?01:6478,202:206,203:1488,204:7967,205:37,206:2,207:38,208:2,?=
+ =?us-ascii?Q?209:38,210:2,211:38,212:2,213:58,214:3,215:23,216:1,217:23,2?=
+ =?us-ascii?Q?18:1,219:23,220:1,221:52,222:3,223:52,224:3,225:52,226:3,227?=
+ =?us-ascii?Q?:51,228:3,229:57,230:3,231:23,232:1,233:27,234:1,235:23,236:?=
+ =?us-ascii?Q?1,239:23,240:1,241:23,242:1,243:23,244:1,245:23,246:1,247:23?=
+ =?us-ascii?Q?,248:1,249:23,250:1,251:22,252:1}","DPD":{"UF":"256","OCH":"?=
+ =?us-ascii?Q?569997503036083527","SCHM":"Https","CNT":"2","SL":"1","LOG":?=
+ =?us-ascii?Q?"1"},"PROC":[]},{"ID":4,"OU":"https://protect-eu.mimecast.co?=
+ =?us-ascii?Q?m/s/DZXbC76x7U18MYsNkXT1","U":"https://protect-eu.mimecast.c?=
+ =?us-ascii?Q?om/s/DZXbC76x7U18MYsNkXT1","IAR":false,"LI":{"TN":"a","IC":t?=
+ =?us-ascii?Q?rue,"BF":2,"SI":-1,"EndIndex":-1},"SRCI":1,"IU":null,"NU":"p?=
+ =?us-ascii?Q?rotect-eu.mimecast.com/s/DZXbC76x7U18MYsNkXT1","UFT":"{101:4?=
+ =?us-ascii?Q?6,102:2,105:23,108:3,109:1,110:8,111:12,112:2,114:8,115:10,1?=
+ =?us-ascii?Q?16:1,117:1,118:10,119:8,121:7,122:3,123:1,125:3,128:20,131:1?=
+ =?us-ascii?Q?0000000,135:\"E2F58CB3,C6D6BE65,A0574632,891EC5C0,4938C3D8,B?=
+ =?us-ascii?Q?CF35016,BFD0733A,ACB296E1,AA6CB204,1005231C,C86253E2,1B64769?=
+ =?us-ascii?Q?E,9C00B698,6C03AF79,DEEDAECB,30D5D7F5,B6FC882,5237771,1A0837?=
+ =?us-ascii?Q?2D,A1F71E26,D8CDB18A,F89E0009,6256ABA2,88AA7F4F,248C7FB1,31E?=
+ =?us-ascii?Q?25283,1CBBC73A,83A8F5F7,121EEF5F,9AC80B90,EEC101D8,B5392726\?=
+ =?us-ascii?Q?",201:6478,202:206,203:1488,204:7967,205:37,206:2,207:38,208?=
+ =?us-ascii?Q?:2,209:38,210:2,211:38,212:2,213:58,214:3,215:23,216:1,217:2?=
+ =?us-ascii?Q?3,218:1,219:23,220:1,221:52,222:3,223:52,224:3,225:52,226:3,?=
+ =?us-ascii?Q?227:51,228:3,229:57,230:3,231:23,232:1,233:27,234:1,235:23,2?=
+ =?us-ascii?Q?36:1,239:23,240:1,241:23,242:1,243:23,244:1,245:23,246:1,247?=
+ =?us-ascii?Q?:23,248:1,249:23,250:1,251:22,252:1}","DPD":{"UF":"256","OCH?=
+ =?us-ascii?Q?":"5408172730305421130","SCHM":"Https","CNT":"2","SL":"1","L?=
+ =?us-ascii?Q?OG":"1"},"PROC":[]},{"ID":8,"OU":"https://protect-eu.mimecas?=
+ =?us-ascii?Q?t.com/s/pEbAC8qy7Cp23gfoDnZj","U":"https://protect-eu.mimeca?=
+ =?us-ascii?Q?st.com/s/pEbAC8qy7Cp23gfoDnZj","IAR":false,"LI":{"TN":"a","I?=
+ =?us-ascii?Q?C":true,"BF":2,"SI":-1,"EndIndex":-1},"SRCI":1,"IU":null,"NU?=
+ =?us-ascii?Q?":"protect-eu.mimecast.com/s/pEbAC8qy7Cp23gfoDnZj","UFT":"{1?=
+ =?us-ascii?Q?01:46,102:2,105:23,108:3,109:1,110:8,111:12,112:2,114:8,115:?=
+ =?us-ascii?Q?10,116:1,117:1,118:10,119:8,121:7,122:3,123:1,125:3,128:20,1?=
+ =?us-ascii?Q?31:10000000,135:\"E2F58CB3,C6D6BE65,A0574632,891EC5C0,4938C3?=
+ =?us-ascii?Q?D8,BCF35016,BFD0733A,ACB296E1,AA6CB204,1005231C,C86253E2,1B6?=
+ =?us-ascii?Q?4769E,9C00B698,6C03AF79,78F5714E,81AF28CF,A128EA33,E87047E9,?=
+ =?us-ascii?Q?4B1E4A9F,39B0C24F,41810D2A,8E1430E4,9729DF73,9B6BDEAA,B19052?=
+ =?us-ascii?Q?DA,DE023DA1,51F87EDD,AC19BD4F,FFBB4018,23DEC186,E91F5B55,8EA?=
+ =?us-ascii?Q?327D3\",201:6478,202:206,203:1488,204:7967,205:37,206:2,207:?=
+ =?us-ascii?Q?38,208:2,209:38,210:2,211:38,212:2,213:58,214:3,215:23,216:1?=
+ =?us-ascii?Q?,217:23,218:1,219:23,220:1,221:52,222:3,223:52,224:3,225:52,?=
+ =?us-ascii?Q?226:3,227:51,228:3,229:57,230:3,231:23,232:1,233:27,234:1,23?=
+ =?us-ascii?Q?5:23,236:1,239:23,240:1,241:23,242:1,243:23,244:1,245:23,246?=
+ =?us-ascii?Q?:1,247:23,248:1,249:23,250:1,251:22,252:1}","DPD":{"UF":"256?=
+ =?us-ascii?Q?","OCH":"15579142247268628824","SCHM":"Https","CNT":"2","SL"?=
+ =?us-ascii?Q?:"1","LOG":"1"},"PROC":[]},{"ID":10,"OU":"https://protect-eu?=
+ =?us-ascii?Q?.mimecast.com/s/dlQNC98z7HElnjI1QjCJ","U":"https://protect-e?=
+ =?us-ascii?Q?u.mimecast.com/s/dlQNC98z7HElnjI1QjCJ","IAR":false,"LI":{"TN?=
+ =?us-ascii?Q?":"a","IC":true,"BF":2,"SI":-1,"EndIndex":-1},"SRCI":1,"IU":?=
+ =?us-ascii?Q?null,"NU":"protect-eu.mimecast.com/s/dlQNC98z7HElnjI1QjCJ","?=
+ =?us-ascii?Q?UFT":"{101:46,102:2,105:23,108:3,109:1,110:8,111:12,112:2,11?=
+ =?us-ascii?Q?4:8,115:10,116:1,117:1,118:10,119:8,121:7,122:3,123:1,125:3,?=
+ =?us-ascii?Q?128:20,131:10000000,135:\"E2F58CB3,C6D6BE65,A0574632,891EC5C?=
+ =?us-ascii?Q?0,4938C3D8,BCF35016,BFD0733A,ACB296E1,AA6CB204,1005231C,C862?=
+ =?us-ascii?Q?53E2,1B64769E,9C00B698,6C03AF79,E2194022,8C3B10E2,15ABA8ED,5?=
+ =?us-ascii?Q?BB420AB,9821026D,CECEA41C,7FCB73FE,D7741A0,8A0F877F,1C184704?=
+ =?us-ascii?Q?,869598C8,925FEB2D,AFCA6B36,8C7D69A9,C55508F8,3F049FC1,FDA0F?=
+ =?us-ascii?Q?5C9,698C3D1A\",201:6478,202:206,203:1488,204:7967,205:37,206?=
+ =?us-ascii?Q?:2,207:38,208:2,209:38,210:2,211:38,212:2,213:58,214:3,215:2?=
+ =?us-ascii?Q?3,216:1,217:23,218:1,219:23,220:1,221:52,222:3,223:52,224:3,?=
+ =?us-ascii?Q?225:52,226:3,227:51,228:3,229:57,230:3,231:23,232:1,233:27,2?=
+ =?us-ascii?Q?34:1,235:23,236:1,239:23,240:1,241:23,242:1,243:23,244:1,245?=
+ =?us-ascii?Q?:23,246:1,247:23,248:1,249:23,250:1,251:22,252:1}","DPD":{"U?=
+ =?us-ascii?Q?F":"256","OCH":"3834733854041312363","SCHM":"Https","CNT":"1?=
+ =?us-ascii?Q?","SL":"1","LOG":"1"},"PROC":[]},{"ID":13,"OU":"https://www.?=
+ =?us-ascii?Q?citivelocity.com/t/r/eppublic/1wpxe","U":"https://www.citive?=
+ =?us-ascii?Q?locity.com/t/r/eppublic/1wpxe","IAR":false,"LI":{"BF":1,"SI"?=
+ =?us-ascii?Q?:-1,"EndIndex":-1},"SRCI":1,"IU":null,"NU":"www.citivelocity?=
+ =?us-ascii?Q?.com/t/r/eppublic/1wpxe","UFT":"{101:39,102:2,105:20,108:3,1?=
+ =?us-ascii?Q?10:12,111:16,112:2,114:12,115:3,116:1,118:3,119:12,121:8,122?=
+ =?us-ascii?Q?:3,123:1,125:3,128:5,131:281630,135:\"F538357B,92ED20B5,2016?=
+ =?us-ascii?Q?856D,6665D32E,10105C0F,7740173E,355DE3C7,47246E07,F52DB97C,1?=
+ =?us-ascii?Q?0166C3D,7C8C8EAE,60292556,591DE15E,31DCC8F8,A7342C98,814E874?=
+ =?us-ascii?Q?9,310906E5,64DB67D0,60159D9E\",201:3916,202:268,203:101,204:?=
+ =?us-ascii?Q?4018,205:27,206:1,207:27,208:1,209:27,210:1,211:27,212:1,213?=
+ =?us-ascii?Q?:17,214:2,215:14,216:1,217:34,218:1,219:14,220:1,221:52,222:?=
+ =?us-ascii?Q?3,223:52,224:3,225:52,226:3,227:51,228:3,229:17,230:2,231:14?=
+ =?us-ascii?Q?,232:1,233:36,234:2,235:14,236:1,237:14,238:1,239:14,240:1,2?=
+ =?us-ascii?Q?41:34,242:1,243:14,244:1,245:14,246:1,247:14,248:1,249:18,25?=
+ =?us-ascii?Q?0:1,251:17,252:1}","DPD":{"UF":"256","OCH":"7802217061281819?=
+ =?us-ascii?Q?056","SCHM":"Https","CNT":"2","SL":"1","LOG":"1"},"PROC":[]}?=
+ =?us-ascii?Q?,{"ID":14,"OU":"https://www.citivelocity.com/t/r/eppublic/1w?=
+ =?us-ascii?Q?ucj","U":"https://www.citivelocity.com/t/r/eppublic/1wucj","?=
+ =?us-ascii?Q?IAR":false,"LI":{"BF":1,"SI":-1,"EndIndex":-1},"SRCI":1,"IU"?=
+ =?us-ascii?Q?:null,"NU":"www.citivelocity.com/t/r/eppublic/1wucj","UFT":"?=
+ =?us-ascii?Q?{101:39,102:2,105:20,108:3,110:12,111:16,112:2,114:12,115:3,?=
+ =?us-ascii?Q?116:1,118:3,119:12,121:8,122:3,123:1,125:3,128:5,131:281630,?=
+ =?us-ascii?Q?135:\"F538357B,92ED20B5,2016856D,6665D32E,10105C0F,7740173E,?=
+ =?us-ascii?Q?355DE3C7,47246E07,F52DB97C,10166C3D,7C8C8EAE,60292556,591DE1?=
+ =?us-ascii?Q?5E,31DCC8F8,A7342C98,814E8749,2C08FF06,57E68C4C,59DF4687\",2?=
+ =?us-ascii?Q?01:3916,202:268,203:101,204:4018,205:27,206:1,207:27,208:1,2?=
+ =?us-ascii?Q?09:27,210:1,211:27,212:1,213:17,214:2,215:14,216:1,217:34,21?=
+ =?us-ascii?Q?8:1,219:14,220:1,221:52,222:3,223:52,224:3,225:52,226:3,227:?=
+ =?us-ascii?Q?51,228:3,229:17,230:2,231:14,232:1,233:36,234:2,235:14,236:1?=
+ =?us-ascii?Q?,237:14,238:1,239:14,240:1,241:34,242:1,243:14,244:1,245:14,?=
+ =?us-ascii?Q?246:1,247:14,248:1,249:18,250:1,251:17,252:1}","DPD":{"UF":"?=
+ =?us-ascii?Q?256","OCH":"4676747506776561753","SCHM":"Https","CNT":"2","S?=
+ =?us-ascii?Q?L":"1","LOG":"1"},"PROC":[]},{"ID":12,"OU":"https://www.citi?=
+ =?us-ascii?Q?velocity.com/citiportal/eppublic/mvc/piwikTracker=3Fdata=3D%?=
+ =?us-ascii?Q?7b%22loginId%22:%22shewer3%22}&cvar=3D%7b_%221%22:[%22proper?=
+ =?us-ascii?Q?ties%22,%22%7b%5c%22eventName%5c%22:%5c%22email=5Fopen%5c%22?=
+ =?us-ascii?Q?}%22],%222%22:[%22trackingSource%22,%22100%22],%227%22:[%22c?=
+ =?us-ascii?Q?ontentId%22,%22EA5fb1ade0e4b02763ff7c882e%22]}&idsite=3D11&u?=
+ =?us-ascii?Q?rl=3Dhttps://www.citivelocity.com&rec=3D1","U":"https://www.?=
+ =?us-ascii?Q?citivelocity.com/citiportal/eppublic/mvc/piwikTracker=3Fdata?=
+ =?us-ascii?Q?=3D%7b%22loginId%22:%22shewer3%22%7D&cvar=3D%7b%20%221%22:[%?=
+ =?us-ascii?Q?22properties%22,%22%7b%5c%22eventName%5c%22:%5c%22email=5Fop?=
+ =?us-ascii?Q?en%5c%22%7D%22],%222%22:[%22trackingSource%22,%22100%22],%22?=
+ =?us-ascii?Q?7%22:[%22contentId%22,%22EA5fb1ade0e4b02763ff7c882e%22]%7D&i?=
+ =?us-ascii?Q?dsite=3D11&url=3Dhttps://www.citivelocity.com&rec=3D1","IAR"?=
+ =?us-ascii?Q?:false,"LI":{"TN":"img","IC":false,"BF":2,"SI":-1,"EndIndex"?=
+ =?us-ascii?Q?:-1},"SRCI":1,"IU":null,"NU":"www.citivelocity.com/citiporta?=
+ =?us-ascii?Q?l/eppublic/mvc/piwikTracker=3Fdata=3D%7b%22loginId%22:%22she?=
+ =?us-ascii?Q?wer3%22%7D&cvar=3D%7b%20%221%22:[%22properties%22,%22%7b%5c%?=
+ =?us-ascii?Q?22eventName%5c%22:%5c%22email=5Fopen%5c%22%7D%22],%222%22:[%?=
+ =?us-ascii?Q?22trackingSource%22,%22100%22],%227%22:[%22contentId%22,%22E?=
+ =?us-ascii?Q?A5fb1ade0e4b02763ff7c882e%22]%7D&idsite=3D11&url=3Dhttps://w?=
+ =?us-ascii?Q?ww.citivelocity.com&?=
+X-MS-Exchange-Organization-Persisted-Urls-1:
+	rec=1","UFT":"{101:57,102:2,105:20,108:3,110:12,111:16,112:2,114:12,115:3,116:1,118:3,119:12,121:8,122:3,123:1,125:3,128:12,131:281630,135:\"F538357B,92ED20B5,2016856D,6665D32E,10105C0F,7740173E,355DE3C7,47246E07,F52DB97C,10166C3D,4B5A1799,D0BE06E1,B23BD9B8,B2B4DD4B,60E640FC,2E016386,7EF18AB8,9E283284,7C8C8EAE,60292556,591DE15E,31DCC8F8,A7342C98,814E8749,1496E9C9,6DEC65A1,D8BBD4E2,77A19A28,CDED605D,ECCB8C0E,A3560598,90D15363,15708EC0,665EBF48,EEA52B5B\"}","DPD":{"UF":"65536","OCH":"591113798775893163","SCHM":"Https","CNT":"1","LOG":"1"},"PROC":[]}]
+X-MS-Exchange-Organization-PersistedUrlCount: 9
+X-MS-Exchange-Organization-Antispam-PreContentFilter-ScanContext:
+	CategorizerOnSubmitted;CategorizerOnResolved;
+X-MS-Exchange-Organization-AVScannedByV2: Symantec;Command;Microsoft
+X-MS-Exchange-Organization-AVScanComplete: true
+X-MS-Exchange-Organization-UrlSelected: 1
+X-MS-Exchange-Organization-UrlLogged: 1
+X-MS-Exchange-Organization-Recipient-Limit-Verified: True
+X-MS-Exchange-Organization-TotalRecipientCount: 1
+X-MS-Exchange-Organization-ReplyAllBlocker-Verdict: Allow
+X-MS-Exchange-Organization-ASDirectionalityType: 1
+X-MS-Exchange-Organization-Boomerang-Verdict: None
+X-MS-Exchange-Organization-HMATPModel-DkimAuthStatus: 2
+X-MS-Exchange-Organization-HMATPModel-DmarcAuthStatus: 3
+X-MS-Exchange-Organization-SenderRecipientCommunicationState: EST
+X-MS-Exchange-Organization-Antispam-ContentFilter-ScanContext:
+	CategorizerOnResolved;
+X-MS-Exchange-Organization-CommunicationStateSummary: EST
+X-MS-Exchange-Organization-FirstContactSummary:
+	ST=1;MRG=0;EXT=0;UN=1;ORCT=1;EV=1;FC=0;NESI=0;NES=0;ESTI=0;EST=1;INS=0;ERR=0
+X-MS-Exchange-Organization-CFA-UserOption: 0
+X-MS-Exchange-Organization-ContainsAttachments: true
+X-MS-Exchange-Organization-Feature-Long: 0	201:9431	202:635	203:1	205:103
+	206:2	208:251	210:204	211:556	212:2	215:8952	220:10	221:9	222:1	223:8	227:1
+	228:1	233:1	234:1	235:1	236:2	237:5	238:3	241:1	242:3	243:2	244:6	246:1	247:1
+	248:3	252:1	255:1	256:3	257:8	260:4	261:500	262:8	263:2	264:1050	265:20
+	1006:contact	1007:Hani,Hira,Kana,Latn	1008:merck.com	1009:click
+	1013:185.84.92.69	1014:citi.com	1015:citi.com	1019:mail.nayafund.com
+	1020:citi.com	1030:citi.com	1034:E99C9668@nayafund.com	1035:citi.com
+X-MS-Exchange-Organization-HDRFeatureV2:
+	14;0;1;1;1;0;3;2;0;0;1;1;1;1;1;1;118;29;11;17;15;26;19;17;3;26;11;11;4;11;11;4;2;3;3;-1;-1;-1;-1;-1;-1;1;11;0;25
+X-MS-Exchange-Organization-ExtractionAttachmentNames: 0;1;2
+X-MS-Exchange-Organization-ExtractionTags: SUB64;1IMG;2IMG;LINK;
+X-MS-Exchange-Organization-ExtractionTagsURLFound: URL
+X-MS-Exchange-Organization-ExtractionTagsSubject:
+	=?iso-2022-jp?B?Q2l0aSAvIBskQjMwOXEzdCU7ITwlayU5JWElYhsoQjogMjAyMSA=?=
+ =?iso-2022-jp?B?GyRCRy9LdiROGyhCUyZQNTAwIBskQiROJT8hPCUyJUMlSCVXJWkbKEI=?=
+ =?iso-2022-jp?B?GyRCJSQlOSRyGyhCMyw4MDAgGyRCJEsbKEI=?=
+X-MS-Exchange-Organization-ExtractionTagsFrom: Citi Velocity
+ <globalcitivelocityteam@citi.com>
+X-MS-Exchange-Organization-ExtractionTagsSubjectNormalized:
+	=?iso-2022-jp?B?Y2x0bCAbJEIzMDlxM3QlOyE8JWslOSVhJWIbKEIgMm8ybCA=?=
+ =?iso-2022-jp?B?GyRCRy9LdiROGyhCcyBwc28gGyRCJE4lPyE8JTElQyVIJVUlaSUkGyhC?=
+ =?iso-2022-jp?B?GyRCJTkkchsoQjMgOG8gGyRCJEsbKEI=?=
+X-MS-Oob-TLC-OOBClassifiers: OLM:5516;
+X-MS-Exchange-Organization-SpamScore: 0
+X-MS-Exchange-Organization-Antispam-AnalystRuleHits:
+	(4636009)(9686003)(55016002)(224303003)(966005)(156005)(81166007)(356005)(86362001)(6916009)(8606008)(36906005)(166002)(83380400001)(8936002)(1096003)(26005)(44144004)(33964004)(7126003)(7696005)(19627405001)(82310400003)(5660300002)(76236003)(336012)
+X-MS-Exchange-Organization-Antispam-ScanContext:
+	DIR:Originating;SFV:NSPM;SKIP:0;
+X-MS-Exchange-Organization-Antispam-PostContentFilter-ScanContext:
+	CategorizerOnResolved;CategorizerOnRouted;
+X-MS-Exchange-Organization-SCL: 1
+X-Microsoft-Antispam: BCL:0;
+X-Microsoft-Antispam-Message-Info:
+	=?us-ascii?Q?9Kma4OZJ3DHWr1xudf+JqoryHc0+btHwzncCuBwUL0CEfs6tKmUbuTW/4FUq?=
+ =?us-ascii?Q?LkGwbcJITE9Ad6UMii79IsTiUs99Tm6gCL3qUHjJWVymb7yNOINdAkqCmHo4?=
+ =?us-ascii?Q?/RAeh1nh05s9dbbBZtlGlsYgs0Zet6HZYKZCn0F2ffiUBGetURwjcHNuLzL6?=
+ =?us-ascii?Q?ADMkYaB9TCcXwQinfc0+dpSfDKhdJ4dTyQvvK9vlZUipyzvtKr97as+59Z9K?=
+ =?us-ascii?Q?wAnHhA6QkIEJyGry2zA8xXPi1srndYR7vwidxmZH1YKbWq+2xSJys5DkMiTp?=
+ =?us-ascii?Q?moo0NdqBKbWDFLKs1ByuwPOzBnLSZpvpr8AUQMEooZOxN1b4LOofKYh4uChp?=
+ =?us-ascii?Q?9KJcahV09b1t5bICeTovHEZsQwldyFfLYLhtFkhddJPkFe99V5VzIV+wk1VN?=
+ =?us-ascii?Q?5SfI047G3q54L5pzWhYTxDMLmWK9DBw8JcLXgrIUQzSiIazl478JYjqbwC6L?=
+ =?us-ascii?Q?vAAv5AbpU/K9IHcKduHMIJqdR7W68FqQxQH1nWKBIp+v1mCs0KcV08HMhaLl?=
+ =?us-ascii?Q?wghJMM0AzaKXsgGYHl8yM1Y3YRG05ZZC1KvbYefI5NixjiMiNrXVbj8bLQcC?=
+ =?us-ascii?Q?OQVMECqRlYaYAo7ThXxg0ech3Ax+2mkCAmE0CaZd8u0Rk5jKTNvxsxWd8aJm?=
+ =?us-ascii?Q?TyU19WBlQImKeqJZ/ofe1ZrV75YwZIBedy5HvASLcjEduFSFRHcJLuaFe0+1?=
+ =?us-ascii?Q?EtnvrRSp7CDBRJkmCS/BDF7PwfmhfD8bNagizlU7ftBEpHD3yqPKTJjlFgM0?=
+ =?us-ascii?Q?s6JcPkW0E7dVxaxqWCuy6aoWhBiVS+8KprABNqxHCRThOJik3oOQYqtUSutZ?=
+ =?us-ascii?Q?HANcJ/1o/MFtqvWTpdswtrUwtXBPCSiAUq6EqpgVS0L+wsqYMDmuBAYFeTYa?=
+ =?us-ascii?Q?TMV7XVvtuLE14+/7sSAWIymf8wniZPhDmGnE3dD/b9BHcjzccH3GW1nJUpRs?=
+ =?us-ascii?Q?ZOclXfcbrgE2mFZFDqSkO0vw8FOzuwVXTT9S0vwSLXPDn7ZRRNoajk/P2xrX?=
+ =?us-ascii?Q?K6QbtppJA5ZMlFI4UxABTqIEs4KNg4eAbfmkK11l6CWa7KlisD35s3sWVLU8?=
+ =?us-ascii?Q?XMHD1pLxdtXuS8GeFFIay6yibxafq78/Q7id/lpduxP78ahG6YtiTU8/He4e?=
+ =?us-ascii?Q?sGOa8AAsykkPje9uNwX8MHq78/QYVo4EfA=3D=3D?=
+X-Forefront-Antispam-Report:
+	CIP:185.84.92.69;CTRY:GB;LANG:ja;SCL:1;SRV:;IPV:NLI;SFV:NSPM;H:mail.nayafund.com;PTR:InfoDomainNonexistent;CAT:NONE;SFS:(4636009)(9686003)(55016002)(224303003)(966005)(156005)(81166007)(356005)(86362001)(6916009)(8606008)(36906005)(166002)(83380400001)(8936002)(1096003)(26005)(44144004)(33964004)(7126003)(7696005)(19627405001)(82310400003)(5660300002)(76236003)(336012);DIR:INB;
+X-MS-Exchange-Organization-GroupForkPerf: VCL=0;VL=7
+X-MS-Exchange-Organization-Cross-Session-Cache:
+	=?us-ascii?Q?00CIP=3D185.84.92.69;EIPC0=3D2004,2055,950,951,2005,2006,200?=
+ =?us-ascii?Q?7,2008,2009,2010,2011,2012,2013,2014,2000,2050,2051,2052,952?=
+ =?us-ascii?Q?,902,2054,2016,903,901,905,904,907,2001,3000,2003,2002,967,2?=
+ =?us-ascii?Q?058,2059,2060,531,2017,5080,5011,5051,5001,5057,5058,5054,50?=
+ =?us-ascii?Q?52,5056,906,5010,5055,5059,5053,5002,5003,5005,5070;MIPC0=3D?=
+ =?us-ascii?Q?;REP=3D01,1,0\;01,2,0\;01,3,0\;01,4,0\;01,5,0\;01,6,0\;01,7,?=
+ =?us-ascii?Q?0\;01,8,93\;01,9,0\;01,10,0\;01,11,0\;01,12,93\;02,1,0\;02,2?=
+ =?us-ascii?Q?,0\;02,3,0\;02,4,0\;02,5,0\;02,6,0\;02,7,0;SL=3D1;EMSL=3D1;S?=
+ =?us-ascii?Q?CL=3D1;BL=3D0;RL=3D1;PID=3D0;EXPID=3D;TIP=3DNotListed;CIPCRY?=
+ =?us-ascii?Q?=3DGB;SAUTHOP=3D1;RMX=3DMimecast;A=3D00;MX=3D00;PTR=3D02;SPF?=
+ =?us-ascii?Q?=3D031Z2xvYmFsY2l0aXZlbG9jaXR5dGVhbUBjaXRpLmNvbQ=3D=3D;DKIM?=
+ =?us-ascii?Q?=3D00bWFpbGEuX2RvbWFpbmtleS5jaXRpLmNvbQ=3D=3D\;dj1ES0lNMTsga?=
+ =?us-ascii?Q?z1yc2E7IHA9TUlJQklqQU5CZ2txaGtpRzl3MEJBUUVGQUFPQ0FROEFNSUlCQ?=
+ =?us-ascii?Q?2dLQ0FRRUF0YzRldlJiNFhtR0tiNXRhSmM0MVFsTzBINksrZWdWdUJyRzRJY?=
+ =?us-ascii?Q?VZrV2VBRjhjczI4bWs4aGxESk5VNTNMb1ROYVk3cmNLT0J3YlEwK0FtNjBRe?=
+ =?us-ascii?Q?mw4U3drTU5LRXNlb2JjSEtqS1JUeUdhZnlYUU96eWpFYkxRZW9hMVZCaVM1U?=
+ =?us-ascii?Q?jRaekZGTTN5T29rcXBXYld2czFxSEh1WVdKelMxbmRtL002YTN0S2RuRUVrY?=
+ =?us-ascii?Q?WxwVnRIaUNWVE9ScmcwZW9iVHFiQ0taMXlvTTRwem5lRE9GM1dkS2lXZ1BqV?=
+ =?us-ascii?Q?EQ2ZXl1MDJYTkE4cG0va0c3ejJ6YW9GNWZYa2RXeVRiS01aWTdWYUVvS1o2S?=
+ =?us-ascii?Q?VFqVE9va3Z1TnNpU1JNSXdEQXAxSjMwY2d1NGswMmN6TEszQnJiWlA0OVRqM?=
+ =?us-ascii?Q?nJqSXRxZmVHWXFHUHdEcTJzNU9iMVl6dEc3RjdrVWRLRXdJREFRQUI=3D;DM?=
+ =?us-ascii?Q?ARC=3D00Y2l0aS5jb20=3D\;dj1ETUFSQzE7IHA9cmVqZWN0OyBydWE9bWFp?=
+ =?us-ascii?Q?bHRvOmNpdGlAcnVhLmFnYXJpLmNvbSxtYWlsdG86ZG1hcmMucmVwb3J0cy5y?=
+ =?us-ascii?Q?dWFAY2l0aS5jb20=3D;ARC=3D00MjAxOTAzLl9kb21haW5rZXkuZGtpbS5ta?=
+ =?us-ascii?Q?W1lY2FzdC5jb20=3D\;dj1ES0lNMTsgaz1yc2E7IHA9TUlJQklqQU5CZ2txa?=
+ =?us-ascii?Q?GtpRzl3MEJBUUVGQUFPQ0FROEFNSUlCQ2dLQ0FRRUFzWmhSOG5aQUFZL0NwY?=
+ =?us-ascii?Q?nNHODVvUmFkM0VEeWNBQmhJYjZSYS9YWHc5VDNCRmZ5RFJySjFpOHNENkZRO?=
+ =?us-ascii?Q?FdGSC8xMXBhSkpKM0JaZDZSSjZhdEczSXg0eTZvdkc4RVF3WjN6OHlCMVIrQ?=
+ =?us-ascii?Q?U85aXgvMEYvR3lkeG1KdGU2RkJGWlp5akhzem1OTmlRVzJta1BRekpVL1p6N?=
+ =?us-ascii?Q?W1oWmlqTnM1MXdjaDEwc0xySHNjY2svMzdJTDVVNTgxNkpIVlY2TjJLbDJDZ?=
+ =?us-ascii?Q?ncyOXkzdWIrbHE5SnRDMWIwWnAvZGdUOHJDWk0wS1NNM0JsVVhibStCYk5HU?=
+ =?us-ascii?Q?XExOGVTUlpab2ROaXZUMTNUdFpQcUtUM0dEYzl1N2w4ZG9iREpUdGpPNnhBa?=
+ =?us-ascii?Q?3dvS1RZMWszN28zVW1IK005T3VGbStYUlo1NDNGWUdYVGU2MnJjZWtlWWFCY?=
+ =?us-ascii?Q?kxFZm1mRG1ia3VxeXdJREFRQUI=3D;AUTHRES=3D[mx.microsoft.com,1]?=
+ =?us-ascii?Q?{5,3,UwBvAGYAdABGAGEAaQBsAA=3D=3D,cwBlAG4AZABlAHIAIABJAFAAIA?=
+ =?us-ascii?Q?BpAHMAIAAxADgANQA?=
+X-MS-Exchange-Organization-Cross-Session-Cache:
+	=?us-ascii?Q?01uADgANAAuADkAMgAuADYAOQA=3D,cwBtAHQAcAAuAHIAYwBwAHQAVABvAE?=
+ =?us-ascii?Q?QAbwBtAGEAaQBuAA=3D=3D|bgBhAHkAYQBmAHUAbgBkAC4AbQBhAGkAbAAuA?=
+ =?us-ascii?Q?G8AbgBtAGkAYwByAG8AcwBvAGYAdAAuAGMAbwBtAA=3D=3D,cwBtAHQAcAAu?=
+ =?us-ascii?Q?AE0AYQBpAGwARgByAG8AbQA=3D|YwBpAHQAaQAuAGMAbwBtAA=3D=3D}{9,8?=
+ =?us-ascii?Q?,RgBhAGkAbAA=3D,cAA9AHIAZQBqAGUAYwB0ACAAcwBwAD0AcgBlAGoAZQBj?=
+ =?us-ascii?Q?AHQAIABwAGMAdAA9ADEAMAAwAA=3D=3D,YQBjAHQAaQBvAG4A|TwBSAGUAag?=
+ =?us-ascii?Q?BlAGMAdAA=3D,aABlAGEAZABlAHIALgBmAHIAbwBtAA=3D=3D|YwBpAHQAaQ?=
+ =?us-ascii?Q?AuAGMAbwBtAA=3D=3D}{2,8,RgBhAGkAbAA=3D,YgBvAGQAeQAgAGgAYQBzA?=
+ =?us-ascii?Q?GgAIABkAGkAZAAgAG4AbwB0ACAAdgBlAHIAaQBmAHkA,aABlAGEAZABlAHIA?=
+ =?us-ascii?Q?LgBkAA=3D=3D|YwBpAHQAaQAuAGMAbwBtAA=3D=3D};EIPC2=3D1904,1607?=
+ =?us-ascii?Q?,1609,1803,1608,1903,796;MIPC2=3D;SpfResult=3D3;DkimStatus?=
+ =?us-ascii?Q?=3D2;DkimSS=3D10;DmarcStatus=3D3;DmarcAction=3D5;DmarcSkip?=
+ =?us-ascii?Q?=3D450;MFP=3D3d4fa067-f295-4094-97d2-9c7fa133481d;PReRC=3D1;?=
+ =?us-ascii?Q?FPR=3DB0174BAD.AEDF9521.61E05CAE.5C2A32E7.20200;URLC=5FBE=3D?=
+ =?us-ascii?B?MTY7VVJMQ19CRUM9MTU7VVJMQ19CPTk7VVJMQ19CQz04O1VSTENfQUU9MDtV?=
+ =?us-ascii?Q?MGPV=3D2263;UMEPV=3D9999;NoDLx=3D1;CGDLxSupported=3D1;BR=5FV?=
+ =?us-ascii?Q?=3DNone;DIR=3D1;HOSFP=3D2107f2b4-c436-4503-b7d9-4aad971edc93?=
+ =?us-ascii?Q?;GWS=5FRead=3DV2;GUIMP=5FSUM=3DR1E1S1;SRCS=3DEST;HCFP=3D4f8a?=
+ =?us-ascii?Q?4f6e-98cc-4c57-a76b-915b81717a1c;APP=3D92eac53d-0540-4be3-b4?=
+ =?us-ascii?Q?59-04b5ea774a64;IVB=5FDBG=3DD2;HMEPV=3D10000;HMEPV2=3D2573;H?=
+ =?us-ascii?Q?MESV=3D3282;HMESV2=3D282;SRESV=3D7400;BMASV=3D4246;BMESV=3D2?=
+ =?us-ascii?Q?294;BMAPV=3D7855;BMEPV=3D766;CMASV=3D511;CMAPV=3D328;CBEBV?=
+ =?us-ascii?Q?=3D6844;CBEBV2=3D6780;CLEPV=3D2442;URLF=5FDBG=3DDS:8;ASC=3D0?=
+ =?us-ascii?Q?;FFV=3DNSPM;FV=5FSCL=3D1;FV=3DNSPM;FVS=3DFilters;FSCL=3D1;TA?=
+ =?us-ascii?Q?P=5FEP=3D?=
+X-MS-Exchange-Organization-Processed-By-Gcc-Journaling: Journal Agent
+
+--_4388fc3f-0b0a-4c74-a565-6e216d7ab1ad_
+Content-Type: multipart/related;
+	boundary="_c145b2bc-dea5-4b0e-b15b-e5874d085137_"
+
+--_c145b2bc-dea5-4b0e-b15b-e5874d085137_
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+<html xmlns=3D"http://www.w3.org/TR/REC-html40">
+<head>
+<META content=3D"IE=3D11.0000" http-equiv=3D"X-UA-Compatible">
+<META name=3D"viewport" content=3D"width=3Ddevice-width, initial-scale=3D1"=
+>=09=20
+<META http-equiv=3D"X-UA-Compatible" content=3D"IE=3Dedge">=09=20
+<meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dutf-8" />
+<title>Citi Velocity </title>
+</head>
+<body style=3D"padding:0; margin:0; color:#000; background-color:#ffffff; f=
+ont-family:sans-serif, Arial, Helvetica;">
+=09<style type=3D"text/css">
+img{ -ms-interpolation-mode: bicubic; }=20
+@media screen and (max-width:595px) {
+=09/* table[class=3Demailwrapto100pc], img[class=3Demailwrapto100pc]{
+=09=09width:99% !important;=20
+=09=09height:auto !important; */
+=09}
+}
+</style>
+<div style=3D"display:none !important; visibility:hidden; mso-hide:all; fon=
+t-size:1px; color:#ffffff; line-height:1px; max-height:0px; max-width:0px; =
+opacity:0; overflow:hidden;" id=3D"subscription_hidden_content">
+=09Nov 15 2020 Senka Sakai 17:38 EST Citi / &#22806;&#22269;&#26666;&#12475=
+;&#12540;&#12523;&#12473;&#12513;&#12514;: 2021 &#24180;&#26411;&#12398;S&a=
+mp;P500 &#12398;&#12479;&#12540;&#12466;&#12483;&#12488;&#12503;&#12521;&#1=
+2452;&#12473;&#12434;3,800 &#12395; <b><u>=E2=97=86=E6=97=A5=E6=9C=AC=E8=AA=
+=9E=E8=A8=B3=E5=85=A8=E6=96=87=E3=81=AF=E6=B7=BB=E4=BB=98PDF=E3=82=92=E3=81=
+=94=E8=A6=A7=E3=81=8F=E3=81=A0=E3=81=95=E3=81=84=E3=80=82</u></b><b><u></u>=
+</b><br><b>=E2=98=851 =E3=82=B0=E3=83=AD=E3=83=BC=E3=83=90=E3=83=AB=E3=83=
+=BB=E3=83=9E=E3=82=AF=E3=83=AD=E7=B5=8C=E6=B8=88</b><br>=E3=83=AF=E3=82=AF=
+=E3=83=81=E3=83=B3=E3=81=A8=E7=B1=B3=E5=9B=BD=E3=81=AE=E9=81=B8=E6=8C=99=E3=
+=81=8C=E4=BE=9D=E7=84=B6=E3=81=A8=E3=81=97=E3=81=A6=E5=B8=82=E5=A0=B4=E3=81=
+=AE=E3=83=95=E3=82=A9=E3=83=BC=E3=82=AB=E3=82=B9=E3=80=80Igor Cesarec<br><a=
+ href=3D"https://protect-eu.mimecast.com/s/hbGUC48rDHKDPxcOhsLH">https://ww=
+w.citivelocity.com/t/r/eppublic/1wpxe</a><br><b>=E2=98=852 =E7=B1=B3=E5=9B=
+=BD=E6=A0=AA=E5=BC=8F=E6=8A=95=E8=B3=87=E6=88=A6=E7=95=A5</b><b></b><br>202=
+1=E5=B9=B4=E6=9C=AB=E3=81=AES&amp;P500=E3=81=AE=E3=82=BF=E3=83=BC=E3=82=B2=
+=E3=83=83=E3=83=88=E3=83=97=E3=83=A9=E3=82=A4=E3=82=B9=E3=82=923,800=EF=BC=
+=88=E3=83=80=E3=82=A6=E3=81=A734,200=E3=83=89=E3=83=AB=EF=BC=89=E3=81=AB=E8=
+=A8=AD=E5=AE=9A=E3=80=80Tobias M Levkovich<br><a href=3D"https://protect-eu=
+.mimecast.com/s/kX2ZC58vEHLX81IOLLM9">https://www.citivelocity.com/t/r/eppu=
+blic/1wucj</a><br><b>=E2=98=853 =E3=82=A4=E3=83=B3=E3=83=89=E3=83=BB=E3=83=
+=9E=E3=82=AF=E3=83=AD=E7=B5=8C=E6=B8=88</b><br>=E8=B2=A1=E6=94=BF=E5=88=BA=
+=E6=BF=80=E7=AD=963.0=EF=BC=9A=E9=81=A9=E5=88=87=E3=81=AA=E5=BC=A6=E3=82=92=
+=E8=BB=BD=E3=81=8F=E3=81=8B=E3=81=8D=E9=B3=B4=E3=82=89=E3=81=99=E3=80=80Sam=
+iran Cha...<br>
+</div>
+<table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" width=3D"100%" styl=
+e=3D"margin: 0px auto; background:#fff; background-image:linear-gradient(#e=
+5f8fe,#fff);">
+<tbody><tr>
+<td align=3D"center" style=3D"padding-top:40px; padding-bottom:50px; paddin=
+g-left:10px; padding-right:10px;">
+
+=09<!--[if (gte mso 9)|(IE)]>
+=09<table width=3D"626" align=3D"center" cellpadding=3D"0" cellspacing=3D"0=
+" border=3D"0">
+    <tr>
+    <td>
+    <![endif]-->
+
+=09=09<table cellspacing=3D"0" cellpadding=3D"0" width=3D"100%" align=3D"ce=
+nter" border=3D"0" style=3D"max-width:600px;">
+=09=09=09<tr>
+=09=09=09=09<td>
+=09=09=09=09=09<div  style=3D"margin-top:5px;">
+=09=09=09=09=09=09<a href=3D"https://protect-eu.mimecast.com/s/7wfLC66w7UYp=
+kJsmrp0M" style=3D"text-decoration:none;"><img src=3D"cid:headerLeftImage">=
+</a>
+=09=09=09=09=09</div>
+=09=09=09=09</td>
+=09=09=09=09<td align=3D"right">
+=09=09=09=09=09<div style=3D"margin-top:0;">
+=09=09=09=09=09=09<img src=3D"cid:headerRightImage">
+=09=09=09=09=09</div>
+=09=09=09=09</td>
+=09=09=09</tr>
+=09=09=09<tr style=3D"height:15px"></tr>
+=09=09</table>
+=09=09
+=09=09<table cellspacing=3D"0" cellpadding=3D"0" width=3D"100%" align=3D"ce=
+nter" class=3D"emailwrapto100pc" border=3D"0" style=3D"color:#53565a; margi=
+n:0; max-width: 600px; background: #eeeff0;
+    =09=09border: 2px solid #fff; border-right-color: #caccce; border-botto=
+m-color: #caccce; box-shadow: 2px 2px 5px #97999b; -webkit-border-radius: 5=
+px; -moz-border-radius: 5px; border-radius: 5px;">
+=09=09<tbody><tr>
+=09=09<td valign=3D"middle" align=3D"center" style=3D"margin:0; text-align:=
+center; background:#f7f7f8; border-bottom:1px solid #caccce;">
+=09=09=09<table border=3D"0" align=3D"left" class=3D"emailwrapto100pc" cell=
+padding=3D"0" cellspacing=3D"0" style=3D"width:100%">
+=09=09=09<tbody><tr>
+=09=09=09
+=09=09=09<td valign=3D"bottom" align=3D"center" style=3D"color:#171a1c; tex=
+t-align:center; padding-top:25px; padding-bottom:25px;  padding-left:15px; =
+vertical-align:top; font-family:segoe ui,sans-serif;">
+=09=09=09=09<p style=3D"margin-top:0; margin-bottom:-.2em; font-weight:700;=
+ font-size:15px; text-transform:uppercase; mso-line-height-rule:exactly; ">=
+Nov</p>
+=09=09=09=09<p style=3D"margin-top:0; margin-bottom:0; font-size:28px; mso-=
+line-height-rule:exactly; line-height:32px; ">15</p>
+=09=09=09=09<p style=3D"margin-top:0; margin-bottom:0; font-size:15px; text=
+-transform:uppercase; ">2020</p>
+=09=09=09</td>
+
+=09=09=09<td valign=3D"bottom" style=3D"color:#171a1c; text-align:left; pad=
+ding-top:25px; padding-bottom:25px; padding-left:10px; vertical-align:top; =
+font-family:segoe ui,sans-serif;">
+=09=09=09=09<p style=3D"margin-top:0; margin-bottom:-.2em; font-weight:700;=
+ font-size:15px; mso-line-height-rule:exactly; color:#68757e;">
+=09=09=09=09=09<img src=3D"cid:subEventTypeImage" style=3D"margin-bottom: -=
+3px;"/>&nbsp;Senka Sakai
+=09=09=09=09</p>
+=09=09=09=09<p style=3D"margin-top:0; margin-bottom:0; font-size:28px; mso-=
+line-height-rule:exactly; line-height:32px; ">
+=09=09=09=09=09<a href=3D"https://protect-eu.mimecast.com/s/DZXbC76x7U18MYs=
+NkXT1" style=3D"color:#0066b3; text-decoration:none; ">Citi / &#22806;&#222=
+69;&#26666;&#12475;&#12540;&#12523;&#12473;&#12513;&#12514;: 2021 &#24180;&=
+#26411;&#12398;S&amp;P500 &#12398;&#12479;&#12540;&#12466;&#12483;&#12488;&=
+#12503;&#12521;&#12452;&#12473;&#12434;3,800 &#12395;</a>
+=09=09=09=09</p>
+=09=09=09=09<p style=3D"margin-top:0; margin-bottom:0; font-size:15px; ">17=
+:38 EST</p>
+=09=09=09</td>
+=09=09=09</tr>
+=09=09=09</tbody></table>
+=09=09</td>
+=09=09</tr>
+
+=09=09<tr>
+=09=09<td style=3D"font-size:28px;font-family:segoe ui,sans-serif; border-t=
+op:1px solid #dddee0;">
+=09=09=09<div style=3D"color:#333a40; margin-top:10px; margin-left:20px; ma=
+rgin-top:14px; margin-right:20px; margin-bottom:10px; font-size:14px;font-f=
+amily:segoe ui,sans-serif;word-spacing: normal;word-wrap: break-word; ">
+=09=09=09=09<b><u>=E2=97=86=E6=97=A5=E6=9C=AC=E8=AA=9E=E8=A8=B3=E5=85=A8=E6=
+=96=87=E3=81=AF=E6=B7=BB=E4=BB=98PDF=E3=82=92=E3=81=94=E8=A6=A7=E3=81=8F=E3=
+=81=A0=E3=81=95=E3=81=84=E3=80=82</u></b><b><u></u></b><br><b>=E2=98=851 =
+=E3=82=B0=E3=83=AD=E3=83=BC=E3=83=90=E3=83=AB=E3=83=BB=E3=83=9E=E3=82=AF=E3=
+=83=AD=E7=B5=8C=E6=B8=88</b><br>=E3=83=AF=E3=82=AF=E3=83=81=E3=83=B3=E3=81=
+=A8=E7=B1=B3=E5=9B=BD=E3=81=AE=E9=81=B8=E6=8C=99=E3=81=8C=E4=BE=9D=E7=84=B6=
+=E3=81=A8=E3=81=97=E3=81=A6=E5=B8=82=E5=A0=B4=E3=81=AE=E3=83=95=E3=82=A9=E3=
+=83=BC=E3=82=AB=E3=82=B9=E3=80=80Igor Cesarec<br><a href=3D"https://protect=
+-eu.mimecast.com/s/hbGUC48rDHKDPxcOhsLH">https://www.citivelocity.com/t/r/e=
+ppublic/1wpxe</a><br><b>=E2=98=852 =E7=B1=B3=E5=9B=BD=E6=A0=AA=E5=BC=8F=E6=
+=8A=95=E8=B3=87=E6=88=A6=E7=95=A5</b><b></b><br>2021=E5=B9=B4=E6=9C=AB=E3=
+=81=AES&amp;P500=E3=81=AE=E3=82=BF=E3=83=BC=E3=82=B2=E3=83=83=E3=83=88=E3=
+=83=97=E3=83=A9=E3=82=A4=E3=82=B9=E3=82=923,800=EF=BC=88=E3=83=80=E3=82=A6=
+=E3=81=A734,200=E3=83=89=E3=83=AB=EF=BC=89=E3=81=AB=E8=A8=AD=E5=AE=9A=E3=80=
+=80Tobias M Levkovich<br><a href=3D"https://protect-eu.mimecast.com/s/kX2ZC=
+58vEHLX81IOLLM9">https://www.citivelocity.com/t/r/eppublic/1wucj</a><br><b>=
+=E2=98=853 =E3=82=A4=E3=83=B3=E3=83=89=E3=83=BB=E3=83=9E=E3=82=AF=E3=83=AD=
+=E7=B5=8C=E6=B8=88</b><br>=E8=B2=A1=E6=94=BF=E5=88=BA=E6=BF=80=E7=AD=963.0=
+=EF=BC=9A=E9=81=A9=E5=88=87=E3=81=AA=E5=BC=A6=E3=82=92=E8=BB=BD=E3=81=8F=E3=
+=81=8B=E3=81=8D=E9=B3=B4=E3=82=89=E3=81=99=E3=80=80Samiran Cha...<br>
+=09=09=09</div>
+=09=09</td>
+=09=09</tr>
+=09=09
+=09=09
+=09=09<tr>
+=09=09<td style=3D"padding-top:10px; padding-right:20px; padding-left:20px;=
+ padding-bottom:10px;">
+=09=09=09<table cellspacing=3D"0" cellpadding=3D"0" width=3D"100%" align=3D=
+"center" border=3D"0">
+=09=09=09<tbody><tr>
+=09=09=09<td style=3D"background-color:#07c;border-radius:4px;height:33px;w=
+idth:49.5%;" align=3D"center" valign=3D"middle">
+=09=09=09=09<a href=3D"https://protect-eu.mimecast.com/s/DZXbC76x7U18MYsNkX=
+T1" style=3D"text-decoration:none;">
+=09=09=09=09<span style=3D"vertical-align: middle;border-radius:4px;color:w=
+hite;font-family:segoe ui,sans-serif;font-size:18px;">Read More</span>
+=09=09=09=09</a>
+=09=09=09</td>
+=09=09=09</tr>
+=09=09=09</tbody></table>
+=09=09</td>
+=09=09</tr>
+=09=09
+=09=09<tr>
+=09=09<td style=3D"border-top:1px solid #fff;">
+
+=09=09=09<div style=3D"margin-top:10px;font-size:12px;font-family:segoe ui,=
+sans-serif;margin-left:20px;color:#333a40;">
+=09=09=09<strong>Have questions?</strong>
+=09=09=09</div>
+
+
+=09=09=09<div style=3D"font-size:12px;margin-bottom:10px; font-family:segoe=
+ ui,sans-serif;margin-left:20px;color:#53565a;">
+=09=09=09Contact the Citi Velocity Help Desk at
+=09=09=09<a style=3D"font-family:segoe ui,sans-serif;text-decoration:underl=
+ine;color:#07c" href=3D"mailto:CitiVelocityHelp@citi.com">CitiVelocityHelp@=
+citi.com</a>
+=09=09=09</div>
+
+=09=09=09<div style=3D"margin-left:20px; margin-bottom:10px; font-size:12px=
+;font-family:segoe ui,sans-serif">You are receiving this email because you =
+have subscribed to Citi Velocity content. <strong><a style=3D"text-decorati=
+on:none;color:#07c;font-family:segoe ui,sans-serif;" href=3D"https://protec=
+t-eu.mimecast.com/s/pEbAC8qy7Cp23gfoDnZj">Please click here to manage your =
+subscriptions</a></strong></div>
+
+=09=09=09<div style=3D"margin-left:20px;margin-bottom:10px; font-size:12px;=
+">
+=09=09=09<a href=3D"https://protect-eu.mimecast.com/s/pEbAC8qy7Cp23gfoDnZj"=
+ style=3D"font-family:segoe ui,sans-serif;text-decoration:none;color:#07c;"=
+>Unsubscribe</a> &nbsp;|&nbsp; <a href=3D"https://protect-eu.mimecast.com/s=
+/dlQNC98z7HElnjI1QjCJ" style=3D"font-family:segoe ui,sans-serif;text-decora=
+tion:none;color:#07c;">Read Our Disclaimer</a> &nbsp;|&nbsp; <a href=3D"htt=
+ps://protect-eu.mimecast.com/s/7wfLC66w7UYpkJsmrp0M" style=3D"font-family:s=
+egoe ui,sans-serif;text-decoration:none;color:#07c;">CitiVelocity.com</a>
+=09=09=09</div>
+
+
+
+=09=09=09<div style=3D"margin-left:20px; margin-right:20px; margin-top:10px=
+; margin-bottom:20px; font-size:10px;font-family:segoe ui,sans-serif;color:=
+#666;">
+=09=09=09=09&#169;2020 Citigroup Global Markets Inc. Member SIPC. All right=
+s reserved. Citi Velocity, Citi Velocity &amp; ArrowDesign, Citi, Citi with=
+ Arc Design and Citigroup are service marks of Citigroup inc. or its subsid=
+iaries and are used and/or registered throughout the world.
+=09=09=09</div>
+=09=09</td>
+=09=09</tr>
+=09=09</tbody></table>
+
+    <!--[if (gte mso 9)|(IE)]>
+    </td>
+    </tr>
+=09</table>
+=09<![endif]-->
+</td>
+</tr>
+</tbody></table>
+<span style=3D"display: none"><img width=3D"1" height=3D"1" src=3D"https://=
+www.citivelocity.com/citiportal/eppublic/mvc/piwikTracker?data=3D%7b%22logi=
+nId%22:%22shewer3%22}&cvar=3D%7b %221%22:[%22properties%22,%22%7b%5c%22even=
+tName%5c%22:%5c%22email_open%5c%22}%22],%222%22:[%22trackingSource%22,%2210=
+0%22],%227%22:[%22contentId%22,%22EA5fb1ade0e4b02763ff7c882e%22]}&idsite=3D=
+11&url=3Dhttps://www.citivelocity.com&rec=3D1"/></span></body>
+</html>
+
+--_c145b2bc-dea5-4b0e-b15b-e5874d085137_
+Content-Type: image/png
+Content-Transfer-Encoding: base64
+Content-Disposition: inline
+Content-ID: <subEventTypeImage>
+
+iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJ
+bWFnZVJlYWR5ccllPAAAARVJREFUeNpiLK9rYaAEsCCxdYA4G4iFCeh5C8RTgfgKsgGGQHwciNmJ
+tDgRiK2A+BwTVCAdi+avQLweiCcB8WIgfookB1KbiuwCXjTNe4A4BohfIomxAXEjEFdA+XwgggmL
+824CsT8QvwbiPCDeDMQdQMwFxLL4AhEG+oD4GxA3AHE9VMwHiDNhtiIDbC44DaWD0MT5sIUmEx6x
+X8REBzYDbKD0PDTxa0D8hxgDioFYCIinAXEAlM4FYiMgTiAmEEEhvRuIo4B4IxSDgAwQx+Ey4DOa
+uBHUyReA+DEQiwGxGRAzI6n5hOyFWUD8E4v3jKBpwhJNM0jtHGQXnANiEyDOgfofH3gHxFPQMxMD
+VCCD1OwMEGAAN+Yutmvod0cAAAAASUVORK5CYII=
+--_c145b2bc-dea5-4b0e-b15b-e5874d085137_
+Content-Type: image/png
+Content-Transfer-Encoding: base64
+Content-Disposition: inline
+Content-ID: <headerRightImage>
+
+iVBORw0KGgoAAAANSUhEUgAAAC0AAAAcCAYAAAD1PDaSAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJ
+bWFnZVJlYWR5ccllPAAAAtJJREFUeNrsmEtIlFEUgO9vhiRCExRRUUFtisaSqEUJZrqoKAntQU/c
+uAiLYIIW1SZ6EIE0EESLWlVi9iAL2lQLq1n0sGxqdj0skLIWRmUTmPj33ZkzdmeYaeZ3RvGPufDd
+ez33dTz/PecetWzbVm4rBcqFJa/0aJXCZELLsrLaFC9ZSrMBKmA+eKJi9RmCcBeuccqHtHsl8zkt
+TCQLZZdDwNbbpmcAmmFmOqUTsZIp6dTS7DCe5iT4DHE33ITnYmH9VWdBOayFEpn3Exo58cKoWZrZ
+xXDPsOBbqLVNf/H6LCg31pTAAfhhrDtuzJ8D26EimX4FWd5d/UkuQbWIdL8U4Q0YFAUqqTvgzNCX
+VKoPTtBdCJ0iPsh+e2JqwyaoytgRHZTp8EDohYtW1OHMchgWiwPGX0Olupi8km69RLJBfh6HPEz/
+GfzO+KLntHh97WDDC4friobviF5fGfUOWCKhqwfuwHkV8n+XOXvFmmFkjSJrop4Mq2EqfIVbsqte
+G2COHm8SWRuytkwcsfAfv+kE6tPQkDCyCFbBPubUcFCn3L318E1HApm3EWYb6ybJNdClHQISQWKy
+9xHFh/u4SLkC6/76nHoCn7SjwVyYIVaqTrH+kSiiv9RECW0dMtaT8xcRC9YZCr+DOiwaNMa3Uh+B
+nSl3Dvm3DN1ppVbAG2SVI5l7NBgWro1TOKpQS+R5Dvk/jqWEaZm0D1HsZQpLDoy1LM9jXA3XpKZh
+aae4SenY01qFI01zi9It0upYfRnFPQnRZQFchWIHZxXFJVA5D3lKnYNdkrjoRP41B7VKfC2NRJRo
+Oqpzg21pzvgi7Tz2OCRXTz9GNbm1dMjfT70GnopEP7e74ShsFoV19LidwRmtRv8YnJLkagT+Rgz5
+uyVh1zH7PvTJSK8oUsacZpF1SRb3Ksk+16n3g47pv+AxnJXRflkXdPJKWvn/e+SV/s+U/iPAAItG
+Qkvv5/ZRAAAAAElFTkSuQmCC
+--_c145b2bc-dea5-4b0e-b15b-e5874d085137_
+Content-Type: image/png
+Content-Transfer-Encoding: base64
+Content-Disposition: inline
+Content-ID: <headerLeftImage>
+
+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
+--_c145b2bc-dea5-4b0e-b15b-e5874d085137_--
+
+--_4388fc3f-0b0a-4c74-a565-6e216d7ab1ad_--
+
+--_0533470d-bf9d-4184-ae7a-78ae10f116e2_--

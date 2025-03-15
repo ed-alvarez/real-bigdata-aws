@@ -1,0 +1,1518 @@
+Return-Path: <Info@melqart.com>
+Received: from GBR01-LO2-obe.outbound.protection.outlook.com (mail-lo2gbr01lp2058.outbound.protection.outlook.com [104.47.21.58])
+ by inbound-smtp.eu-west-1.amazonaws.com with SMTP id ttb0v92nm0df9rees04at1ldjtv3etduso299ag1
+ for melqart@ip-sentinel.net;
+ Sun, 15 Nov 2020 17:42:29 +0000 (UTC)
+Received-SPF: softfail (spfCheck: transitioning domain of melqart.com does not designate 104.47.21.58 as permitted sender) client-ip=104.47.21.58; envelope-from=Info@melqart.com; helo=mail-lo2gbr01lp2058.outbound.protection.outlook.com;
+Authentication-Results: amazonses.com;
+ spf=softfail (spfCheck: transitioning domain of melqart.com does not designate 104.47.21.58 as permitted sender) client-ip=104.47.21.58; envelope-from=Info@melqart.com; helo=mail-lo2gbr01lp2058.outbound.protection.outlook.com;
+ dmarc=fail header.from=jefferies.com;
+X-SES-RECEIPT: AEFBQUFBQUFBQUFGVGJZTlhxMTFWMWpwd3pMNHBNcktVNVRqTGd0NEpUUC81SlJsRTIvWFlYSUlnM3FjMHp0bU4zREpxUHZHV050YXBrY2xGVm1oc3c4UGNOUHhGT1Q3RTdDdUJkdXZaeEorak80NjBrWjBRVW5HRjBCZ1YrbFBnSnJzTkxiM1QyRVl3QjdRbjhBMHNNVmZqOEdrZnlYbWpvNUJtM3JTT3dSUnhjdkNzRU90RFNtVHNJamJNeUR1SE9tZFI3bXdlMUNLRjdWYUtZTjU4VExsZkowMlhJV2dDV2xlQ3kwbzlQNVpWZEx6bGRqQVpST0djT0dhOEJjaFNoZHlUVHNZS3lmTC9DWldBRHUzc3NkQzYraGgrWFpuWmMwNjRyM0NtWEYzVDlsQUlDRnNrZVkxdW4zWlFqbUt3Z0Q5NlFYWkVmSU09
+X-SES-DKIM-SIGNATURE: a=rsa-sha256; q=dns/txt; b=pWK1GMVy6upgh5RvBQPMSaa+EavlsKsqX2LQsL+6Dnkpsopg3RnA3VOj1xBErbU5CntAXEValj1HHudNs9jTSYYOt3oG1XwJ93poHGCJm87VNLzA/5zkdL5eiXgWzqXVyKL1Hmzmi++RuKBHCG/sdSsCd4ym3KA4wBjsMvqxMxo=; c=relaxed/simple; s=shh3fegwg5fppqsuzphvschd53n6ihuv; d=amazonses.com; t=1605462149; v=1; bh=qHqOGz44JIWsxga1QkH+z6gQdQk17UJX1O90Ol+rzzY=; h=From:To:Cc:Bcc:Subject:Date:Message-ID:MIME-Version:Content-Type:X-SES-RECEIPT;
+Content-Type: multipart/mixed;
+	boundary="_15ec8339-572d-461b-83c6-249c1e6325f4_"
+Subject: JEF Resources Virtual Access***FARMAN, DGOC, US Offshore Wind,
+ Offshore Wind Contractors, FESHARAKI***RSVP
+CC: Richard Stroud <rstroud1@jefferies.com>
+From: Marc Kofler <marc.kofler@jefferies.com>
+MIME-Version: 1.0
+Sender:
+	<MicrosoftExchange329e71ec88ae4615bbc36ab6ce41109e@Melqart365.onmicrosoft.com>
+Message-ID: <1942a236-fcf6-4f09-b9c2-2bcdff518b97@journal.report.generator>
+Date: Sun, 15 Nov 2020 17:42:28 +0000
+X-MS-PublicTrafficType: Email
+X-MS-Journal-Report:
+Return-Path: Info@melqart.com
+X-MS-Exchange-Parent-Message-Id:
+	<15770_LO2P265MB144046C506CE2E898D2A9C5AF8E40@LO2P265MB1440.GBRP265.PROD.OUTLOOK.COM>
+Auto-Submitted: auto-generated
+X-MS-Exchange-Generated-Message-Source: Journal Agent
+X-MS-TrafficTypeDiagnostic: CWXP123MB2613:JournalingReport
+X-LD-Processed: 6fed32bf-cc6b-4b02-9c29-cc91d7807f71,ExtAddr
+X-OriginatorOrg: Melqart365.onmicrosoft.com
+X-MS-Exchange-CrossTenant-AuthSource: CWXP123MB2613.GBRP123.PROD.OUTLOOK.COM
+X-MS-Exchange-CrossTenant-AuthAs: Internal
+X-MS-Exchange-CrossTenant-OriginalArrivalTime: 15 Nov 2020 17:42:28.8678 (UTC)
+X-MS-Exchange-CrossTenant-Network-Message-Id:
+	9a634d62-5507-426a-d4ff-08d8898dd28b
+X-MS-Exchange-CrossTenant-FromEntityHeader: Hosted
+X-MS-Exchange-Transport-CrossTenantHeadersStamped: CWXP123MB2613
+
+--_15ec8339-572d-461b-83c6-249c1e6325f4_
+Content-Type: text/plain; charset="us-ascii"
+Content-Transfer-Encoding: 7bit
+
+Sender: marc.kofler@jefferies.com
+Subject: JEF Resources Virtual Access***FARMAN, DGOC, US Offshore Wind, Offshore Wind Contractors, FESHARAKI***RSVP
+Message-Id: <15770_LO2P265MB144046C506CE2E898D2A9C5AF8E40@LO2P265MB1440.GBRP265.PROD.OUTLOOK.COM>
+Recipient: Simondisabled.Poggioli@melqart.com
+
+--_15ec8339-572d-461b-83c6-249c1e6325f4_
+Content-Type: message/rfc822
+
+Received: from AM0PR05CA0075.eurprd05.prod.outlook.com (2603:10a6:208:136::15)
+ by CWXP123MB2613.GBRP123.PROD.OUTLOOK.COM (2603:10a6:401:84::23) with
+ Microsoft SMTP Server (version=TLS1_2,
+ cipher=TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384) id 15.20.3564.28; Sun, 15 Nov
+ 2020 17:42:28 +0000
+Received: from AM5EUR03FT020.eop-EUR03.prod.protection.outlook.com
+ (2603:10a6:208:136:cafe::a4) by AM0PR05CA0075.outlook.office365.com
+ (2603:10a6:208:136::15) with Microsoft SMTP Server (version=TLS1_2,
+ cipher=TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384) id 15.20.3564.25 via Frontend
+ Transport; Sun, 15 Nov 2020 17:42:27 +0000
+Authentication-Results: spf=fail (sender IP is 195.130.217.221)
+ smtp.mailfrom=scx.jefferies.com; melqart.com; dkim=fail (body hash did not
+ verify) header.d=jefferies.com;melqart.com; dmarc=fail action=oreject
+ header.from=jefferies.com;compauth=none reason=451
+Received-SPF: Fail (protection.outlook.com: domain of scx.jefferies.com does
+ not designate 195.130.217.221 as permitted sender)
+ receiver=protection.outlook.com; client-ip=195.130.217.221;
+ helo=eu-smtp-1.mimecast.com;
+Received: from eu-smtp-1.mimecast.com (195.130.217.221) by
+ AM5EUR03FT020.mail.protection.outlook.com (10.152.16.116) with Microsoft SMTP
+ Server (version=TLS1_2, cipher=TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384) id
+ 15.20.3564.22 via Frontend Transport; Sun, 15 Nov 2020 17:42:27 +0000
+Received: from o143.scx.jefferies.com (o143.scx.jefferies.com
+ [149.72.238.94]) (Using TLS) by relay.mimecast.com with ESMTP id
+ uk-mta-68-uRLpCuSdPymJmz0cW6rDbw-1; Sun, 15 Nov 2020 17:42:23 +0000
+X-MC-Unique: uRLpCuSdPymJmz0cW6rDbw-1
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+	d=jefferies.com;
+	h=from:cc:subject:content-type:mime-version:list-unsubscribe;
+	s=j; bh=83ZtsFs5CEuhb3tIDiSjQfc0HHM89GAOrDog9/gn5rc=; b=Pp8hGq9e
+	hkR+5iSMCImK4zZJZPIF5lnAd/RDwJD9nxAvFFXkc6WNgqyRz42042bwEDeIyTyY
+	c+XUeBadQ7HhW9Ez0bjsLQL6GwApRRv/0yF4NqA8XTW5ppPfZFtjrrwHiNJD5p9I
+	uEl/nk9aBv0fy+0p1E+QTMDGvyoEm05MsQU=
+Received: by filter1533p1iad2.sendgrid.net with SMTP id filter1533p1iad2-19309-5FB1687E-21
+        2020-11-15 17:42:22.644097352 +0000 UTC m=+851448.950878347
+Received: from outbound-01.streetcontxt.net (unknown)
+	by ismtpd0067p1mdw1.sendgrid.net (SG) with ESMTP id Iai2l9tlQkqtATwqzV_RrA
+	for <Simon.Poggioli@melqart.com>; Sun, 15 Nov 2020 17:42:22.509 +0000 (UTC)
+Received: from outbound-01.prod (localhost [127.0.0.1])
+	by outbound-01.streetcontxt.net (Postfix) with ESMTP id 4CYzzv60J6z7jv7
+	for <Simon.Poggioli@melqart.com>; Sun, 15 Nov 2020 17:42:19 +0000 (UTC)
+Received: from as-0d0f6218a173a8465.streetcontxt.net (ip-10-0-2-91.ec2.internal [10.0.2.91])
+	by outbound-01.prod (Postfix) with ESMTP id 4CYzzm1BNDz3sKx
+	for <Simon.Poggioli@melqart.com>; Sun, 15 Nov 2020 17:42:12 +0000 (UTC)
+From: Marc Kofler <marc.kofler@jefferies.com>
+CC: Richard Stroud <rstroud1@jefferies.com>
+Subject: JEF Resources Virtual Access***FARMAN, DGOC, US Offshore Wind,
+ Offshore Wind Contractors, FESHARAKI***RSVP
+Date: Sun, 15 Nov 2020 17:42:22 +0000 (UTC)
+Message-ID: <15770_LO2P265MB144046C506CE2E898D2A9C5AF8E40@LO2P265MB1440.GBRP265.PROD.OUTLOOK.COM>
+MIME-Version: 1.0
+X-StreetContxt: ac=15770; dl=38476; uc=n9w0Q1P0M43t2U1SiwC7jbYq
+List-Unsubscribe: <mailto:unsubscribe-n9w0Q1P0M43t2U1SiwC7jbYq@streetcontxt.com>,
+ <https://jefferies.streetcontxt.com/unsubscribe/request/n9w0Q1P0M43t2U1SiwC7jbYq>
+X-SG-EID: Ax65LiKapXILWMGFzlaOzC3FyzfbeOuUthTTTmkBtvhB6g/xbm/rJ0aQ49G98Spofi1Fa2kDT98JDc
+ TpDCey4dQFZOb1YQOsBPviyFOOF+lr8SEdLp+vfThUYztOlxc0n8grO8txp7NcYrv9ONKXdklyrKoB
+ vLYRCOMxOCDQxz1bSPvke25oBrXUzPW7DeTc0pyfFYagJkkHU3TEnA++oRYhFgxLFkZKFxa/ULvjGi
+ Y=
+X-SG-ID: 3ENcGL4LC5zKhdnyXS+qM7dmR5pmlpshkww4rthcrq9S0lM2Gq3xL+oEF5Hm+WxX
+X-Entity-ID: z/NgFXARABkSa/MFQCI5Pw==
+X-Mimecast-Spam-Score: 0
+Content-Type: multipart/related;
+	boundary="_f65fb63f-fbf9-4092-b3e9-d856724d8f59_";
+	type="multipart/alternative"
+Return-Path:
+	bounces+18539665-cd1b-simon.poggioli=melqart.com@scx.jefferies.com
+X-MS-Exchange-Organization-OriginalArrivalTime: 15 Nov 2020 17:42:27.4953
+ (UTC)
+X-MS-Exchange-Organization-ExpirationStartTime: 15 Nov 2020 17:42:27.5933
+ (UTC)
+X-MS-Exchange-Organization-ExpirationStartTimeReason: OriginalSubmit
+X-MS-Exchange-Organization-ExpirationInterval: 1:00:00:00.0000000
+X-MS-Exchange-Organization-ExpirationIntervalReason: OriginalSubmit
+X-MS-Exchange-Organization-Network-Message-Id: 1ecc77cf-ba4f-4f10-0b4f-08d8898dd1c9
+X-MS-Exchange-Organization-OriginalClientIPAddress: 195.130.217.221
+X-MS-Exchange-Organization-OriginalServerIPAddress: 10.152.16.116
+X-MS-Exchange-Organization-MessageScope: a8d77647-ab82-4f73-83f3-4d6243b4b84c
+X-EOPAttributedMessage: 0
+X-EOPTenantAttributedMessage: 6fed32bf-cc6b-4b02-9c29-cc91d7807f71:0
+X-MS-Exchange-Organization-TargetResourceForest: GBRP123.PROD.OUTLOOK.COM
+X-MS-Exchange-Organization-OrgEopForest: EUR03
+X-MS-Exchange-Organization-MessageDirectionality: Incoming
+X-MS-Exchange-Organization-Id: 6fed32bf-cc6b-4b02-9c29-cc91d7807f71
+X-MS-Exchange-Organization-FFO-ServiceTag: EUR03B
+X-MS-Exchange-Organization-TenantServiceProvider: Mimecast
+X-MS-Exchange-Organization-Cross-Premises-Headers-Processed: AM5EUR03FT020.eop-EUR03.prod.protection.outlook.com
+X-MS-Exchange-Organization-ConnectingIP: 195.130.217.221
+X-MS-Exchange-Organization-ConnectingEHLO: eu-smtp-1.mimecast.com
+X-MS-Exchange-Organization-AS-LastExternalIp: 195.130.217.221
+X-MS-Exchange-Organization-Originating-Country: GB
+X-MS-Exchange-Organization-P2SenderPII: <PII:H101(G/tr2TViPsn4pQF1rpKB5mZtqJIj+DVZBtHeDqC2i3s=)>@jefferies.com
+X-MS-Exchange-Organization-P2SenderDisplayNamePII: H101(87n2srJYHn3BeP1CQRWtPwgoEnOdReTmqD8b2wKqwvc=)
+X-MS-Exchange-Organization-OriginalEnvelopeRecipients: simon.poggioli@melqart.com
+X-MS-Exchange-Organization-PtrDomains: eu-smtp-delivery-1.mimecast.com
+X-MS-Exchange-Organization-EhloAndPtrDomain: eu-smtp-1.mimecast.com;eu-smtp-delivery-1.mimecast.com
+X-MS-Exchange-Organization-MxPointsToUs: false
+X-MS-Exchange-Organization-RecipientMxInfo-PFAFD: melqart.com#eu-smtp-inbound-1.mimecast.com;eu-smtp-inbound-2.mimecast.com
+X-MS-Exchange-Organization-CompAuthRes: none
+X-MS-Exchange-Organization-CompAuthReason: 451
+X-MS-Exchange-Organization-SpoofDetection-Frontdoor-DisplayDomainName: jefferies.com
+X-MS-Exchange-Organization-SenderRep-Score: 3
+X-MS-Exchange-Organization-SenderRep-Data: IpClassLargeGrayOther_GrayOther_GrayBest
+X-MS-Exchange-Organization-VBR-Class: GrayOther
+X-MS-Exchange-Organization-HMATPModel-Spf: 4
+X-MS-Exchange-Organization-HMATPModel-Recipient: <PII:H101(WZjk9Wl3U2i+3NQB0+RKnyicnq/xRgvmL+IWCP9ViFA=)>@melqart.com
+X-MS-Exchange-Organization-ASND: true
+X-MS-Exchange-Organization-TransportTrafficType: Email
+X-MS-PublicTrafficType: Email
+X-MS-Exchange-Organization-OrderedPrecisionLatencyInProgress: LSRV=AM0PR05CA0075.eurprd05.prod.outlook.com:TOTAL-FE=0.021|SMR-PEN=0.057(RENV=0.053|SMRPROXY-PEN=0.000);2020-11-15T17:42:27.993Z
+X-MS-Exchange-Organization-MessageLatency: SRV=AM5EUR03FT020.eop-EUR03.prod.protection.outlook.com:TOTAL-FE=0.475|SMR-PEN=0.427(RENV=0.060(SMRRC=0.052(SMRRC-TenantAttributionAndInboundConnectorAgent=0.046
+ ))|REOH=0.365(SMREH=0.327(SMREH-Protocol Filter
+ Agent=0.324))|SMRPROXY-PEN=0.000)|SMS=0.049
+X-MS-Exchange-Organization-MessageLatency:
+	SRV=AM0PR05CA0075.eurprd05.prod.outlook.com:TOTAL-FE=0.188|SMR-PEN=0.057(RENV=0.053|SMRPROXY-PEN=0.000)|SMS=0.167(SMSC=0.139)
+X-MS-Exchange-Forest-ArrivalHubServer: CWXP123MB2613.GBRP123.PROD.OUTLOOK.COM
+X-MS-Exchange-Organization-AuthSource:
+	AM5EUR03FT020.eop-EUR03.prod.protection.outlook.com
+X-MS-Exchange-Organization-AuthAs: Anonymous
+X-MS-Exchange-Organization-FromEntityHeader: Internet
+X-MS-Exchange-Forest-MessageScope: a8d77647-ab82-4f73-83f3-4d6243b4b84c
+X-MS-Exchange-Organization-Antispam-ProtocolFilterHub-ScanContext:
+	ProtocolFilterHub:SmtpOnEndOfData;
+X-MS-Office365-Filtering-Correlation-Id: 1ecc77cf-ba4f-4f10-0b4f-08d8898dd1c9
+X-MS-Exchange-Organization-OriginalSize: 48374
+X-MS-TrafficTypeDiagnostic: CWXP123MB2613:
+X-MS-Exchange-Organization-HygienePolicy: Premium
+X-MS-Exchange-Organization-ReplicationInfo:
+	ReplicaId=c24e75dd-59d0-f248-dd6b-1dd28d89d808;ReplicatingServerFqdn=LO2P123MB2621.GBRP123.PROD.OUTLOOK.COM
+X-MS-Exchange-Forest-Language: en
+X-MS-Exchange-Forest-IndexAgent-0:
+	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
+X-MS-Exchange-Forest-IndexAgent: 1 2299
+X-MS-Exchange-Forest-EmailMessageHash: 8ABACDA6,F6C830CD
+X-MS-Exchange-Organization-IsPotentialIntraOrgMail: False
+X-MS-Exchange-Organization-Antispam-PreContentFilter-PolicyLoadTime:
+	MAOSUB:12;MAOSUBLOAD:6;SAORES:12;SAORESLOAD:5;SLORES:5;SLORESLOAD:5;
+X-MS-Exchange-Organization-AttachmentDetailsHeaderStamp-Success: 1.0
+X-MS-Exchange-Organization-AttachmentDetails:
+	0:QB1HAGLMyyJWmWr4ajIhtdwAOppIVGrBtc8sZhR2lHQ=:U:Jpeg:aW1hZ2UwMDEuanBn::#:False:::N:::N::N:None
+X-MS-Exchange-Organization-AttachmentDetailsInfo-ChunkCount: 1
+X-MS-Exchange-Organization-AttachmentDetailsInfo-0:
+	[{"ID":0,"FN":"image001.jpg","FS":5586,"HFH":"QB1HAGLMyyJWmWr4ajIhtdwAOppIVGrBtc8sZhR2lHQ=","FT":["Jpeg"],"EXT":"jpg","AF":0}]
+X-MS-Exchange-Organization-MessageFingerprint:
+	EFCB4E59.86F4A1D8.FBA757.58E9DB4D.2048B
+X-MS-Exchange-Organization-UrlMinimumDomainAge: streetcontxt.com#2664
+X-MS-Exchange-Organization-URLFeatureReduction:
+	71;2;0;26;0;0;0;0;16;3;2;10000000;0;0;0
+X-MS-Exchange-Organization-Persisted-Urls-ChunkCount: 3
+X-MS-Exchange-Organization-Persisted-Urls-0:
+	=?us-ascii?Q?[{"ID":1,"OU":"https://jefferies.streetcontxt.com/unsubscrib?=
+ =?us-ascii?Q?e/request/n9w0Q1P0M43t2U1SiwC7jbYq","U":"https://jefferies.s?=
+ =?us-ascii?Q?treetcontxt.com/unsubscribe/request/n9w0Q1P0M43t2U1SiwC7jbYq?=
+ =?us-ascii?Q?","IAR":false,"LI":{"BF":1,"SI":-1,"EndIndex":-1},"SRCI":4,"?=
+ =?us-ascii?Q?IU":null,"NU":"jefferies.streetcontxt.com/unsubscribe/reques?=
+ =?us-ascii?Q?t/n9w0Q1P0M43t2U1SiwC7jbYq","UFT":"{101:71,102:2,103:1,105:2?=
+ =?us-ascii?Q?6,108:3,110:12,111:16,112:2,114:12,115:9,116:1,118:9,119:12,?=
+ =?us-ascii?Q?121:8,122:3,123:1,125:3,128:24,131:10000000,135:\"AE12040D,2?=
+ =?us-ascii?Q?D31DBFF,968CF6F3,BD93F01D,5A140DC2,B1E5A7E0,1CD93C63,605DD47?=
+ =?us-ascii?Q?2,55A89E58,EC1BB2ED,2C739BEB,3998813B,4F7DB3DF,A8FC4DE1,DC0E?=
+ =?us-ascii?Q?D176,4ADC386B,6A8F2781,38BEBEE9,978D6FAF,22E23463,40DCE095,B?=
+ =?us-ascii?Q?8FBF05D,1B1841C5,3E715C71,7FE4C058,C8D7922F,8AC6BC95,7D8ECED?=
+ =?us-ascii?Q?8,F9ED388,38DA9566,728A4059,AA4361AB,1A22EC0D,6D3C123B,5896E?=
+ =?us-ascii?Q?9BF,EBF63E53,FF01FC6A,578B47FE,5351BD5C,CBFD24DF,E49F3F06,8B?=
+ =?us-ascii?Q?C97BF6,B7F588D4,835DCF05,51AA28BA,1FFFF1C6,16274470,DEBBDE54?=
+ =?us-ascii?Q?,23BAADD2,3E086FD9\",201:2664,202:141,203:257,204:2922,205:6?=
+ =?us-ascii?Q?1,206:4,207:62,208:5,209:61,210:4,211:61,212:4,213:14,214:1,?=
+ =?us-ascii?Q?215:61,216:4,217:30,218:2,219:14,220:1,221:52,222:3,223:52,2?=
+ =?us-ascii?Q?24:3,225:52,226:3,227:51,228:3,229:14,230:1,231:61,232:4,233?=
+ =?us-ascii?Q?:30,234:2,235:14,236:1,237:14,238:1,239:60,240:4,241:29,242:?=
+ =?us-ascii?Q?3,243:14,244:1,245:56,246:25,247:32,248:1,249:14,250:1,251:7?=
+ =?us-ascii?Q?,252:1}","DPD":{"UF":"256","OCH":"4513368111226929610","SCHM?=
+ =?us-ascii?Q?":"Https","CNT":"1","SL":"1","LOG":"1"},"PROC":[]},{"ID":7,"?=
+ =?us-ascii?Q?OU":"https://protect-eu.mimecast.com/s/U74iCG5vzFQNNPs10hJu"?=
+ =?us-ascii?Q?,"U":"https://protect-eu.mimecast.com/s/U74iCG5vzFQNNPs10hJu?=
+ =?us-ascii?Q?","IAR":false,"LI":{"TN":"a","IC":true,"BF":2,"SI":-1,"EndIn?=
+ =?us-ascii?Q?dex":-1},"SRCI":1,"IU":null,"NU":"protect-eu.mimecast.com/s/?=
+ =?us-ascii?Q?U74iCG5vzFQNNPs10hJu","UFT":"{101:46,102:2,105:23,108:3,109:?=
+ =?us-ascii?Q?1,110:8,111:12,112:2,114:8,115:10,116:1,117:1,118:10,119:8,1?=
+ =?us-ascii?Q?21:7,122:3,123:1,125:3,128:20,131:10000000,135:\"E2F58CB3,C6?=
+ =?us-ascii?Q?D6BE65,A0574632,891EC5C0,4938C3D8,BCF35016,BFD0733A,ACB296E1?=
+ =?us-ascii?Q?,AA6CB204,1005231C,C86253E2,1B64769E,9C00B698,6C03AF79,909B8?=
+ =?us-ascii?Q?15D,B6F2C207,253561,AAD9A18C,1641BF44,958E1BD3,7AE431D6,E159?=
+ =?us-ascii?Q?32EF,29B33AAE,F9F2E3A0,8AB9476,A0D4E0F5,A594417E,AC2BDB91,ED?=
+ =?us-ascii?Q?8A3D7D,47A03E82,B35D8D6F,353D3F38\",201:6478,202:206,203:148?=
+ =?us-ascii?Q?8,204:7967,205:37,206:2,207:38,208:2,209:38,210:2,211:38,212?=
+ =?us-ascii?Q?:2,213:58,214:3,215:23,216:1,217:23,218:1,219:23,220:1,221:5?=
+ =?us-ascii?Q?2,222:3,223:52,224:3,225:52,226:3,227:51,228:3,229:57,230:3,?=
+ =?us-ascii?Q?231:23,232:1,233:27,234:1,235:23,236:1,239:23,240:1,241:23,2?=
+ =?us-ascii?Q?42:1,243:23,244:1,245:23,246:1,247:23,248:1,249:23,250:1,251?=
+ =?us-ascii?Q?:22,252:1}","DPD":{"UF":"256","OCH":"17616462287535694882","?=
+ =?us-ascii?Q?SCHM":"Https","CNT":"2","SL":"1","LOG":"1"},"PROC":[]},{"ID"?=
+ =?us-ascii?Q?:5,"OU":"https://protect-eu.mimecast.com/s/SbbJCD916TkLLWclC?=
+ =?us-ascii?Q?fw4","U":"https://protect-eu.mimecast.com/s/SbbJCD916TkLLWcl?=
+ =?us-ascii?Q?Cfw4","IAR":false,"LI":{"TN":"a","IC":true,"BF":2,"SI":-1,"E?=
+ =?us-ascii?Q?ndIndex":-1},"SRCI":1,"IU":null,"NU":"protect-eu.mimecast.co?=
+ =?us-ascii?Q?m/s/SbbJCD916TkLLWclCfw4","UFT":"{101:46,102:2,105:23,108:3,?=
+ =?us-ascii?Q?109:1,110:8,111:12,112:2,114:8,115:10,116:1,117:1,118:10,119?=
+ =?us-ascii?Q?:8,121:7,122:3,123:1,125:3,128:20,131:10000000,135:\"E2F58CB?=
+ =?us-ascii?Q?3,C6D6BE65,A0574632,891EC5C0,4938C3D8,BCF35016,BFD0733A,ACB2?=
+ =?us-ascii?Q?96E1,AA6CB204,1005231C,C86253E2,1B64769E,9C00B698,6C03AF79,1?=
+ =?us-ascii?Q?15DA40,B225335F,A93A3FEC,5B8C2710,8A3A271B,A547358B,94BCFFAD?=
+ =?us-ascii?Q?,27A61C50,24EC3E42,C2407016,D68F3F44,855B5988,7149F0EB,7ABB3?=
+ =?us-ascii?Q?6C7,644D7301,74680AB8,483FCF63,BFF70580\",201:6478,202:206,2?=
+ =?us-ascii?Q?03:1488,204:7967,205:37,206:2,207:38,208:2,209:38,210:2,211:?=
+ =?us-ascii?Q?38,212:2,213:58,214:3,215:23,216:1,217:23,218:1,219:23,220:1?=
+ =?us-ascii?Q?,221:52,222:3,223:52,224:3,225:52,226:3,227:51,228:3,229:57,?=
+ =?us-ascii?Q?230:3,231:23,232:1,233:27,234:1,235:23,236:1,239:23,240:1,24?=
+ =?us-ascii?Q?1:23,242:1,243:23,244:1,245:23,246:1,247:23,248:1,249:23,250?=
+ =?us-ascii?Q?:1,251:22,252:1}","DPD":{"UF":"256","OCH":"12646849256448803?=
+ =?us-ascii?Q?633","SCHM":"Https","CNT":"2","SL":"1","LOG":"1"},"PROC":[]}?=
+ =?us-ascii?Q?,{"ID":6,"OU":"https://protect-eu.mimecast.com/s/WlTDCE981TN?=
+ =?us-ascii?Q?88zIQU86x","U":"https://protect-eu.mimecast.com/s/WlTDCE981T?=
+ =?us-ascii?Q?N88zIQU86x","IAR":false,"LI":{"TN":"a","IC":true,"BF":2,"SI"?=
+ =?us-ascii?Q?:-1,"EndIndex":-1},"SRCI":1,"IU":null,"NU":"protect-eu.mimec?=
+ =?us-ascii?Q?ast.com/s/WlTDCE981TN88zIQU86x","UFT":"{101:46,102:2,105:23,?=
+ =?us-ascii?Q?108:3,109:1,110:8,111:12,112:2,114:8,115:10,116:1,117:1,118:?=
+ =?us-ascii?Q?10,119:8,121:7,122:3,123:1,125:3,128:20,131:10000000,135:\"E?=
+ =?us-ascii?Q?2F58CB3,C6D6BE65,A0574632,891EC5C0,4938C3D8,BCF35016,BFD0733?=
+ =?us-ascii?Q?A,ACB296E1,AA6CB204,1005231C,C86253E2,1B64769E,9C00B698,6C03?=
+ =?us-ascii?Q?AF79,70A9DDE8,8847D689,CD33B574,EDFF0F89,8E3C6BFE,B9DC4367,9?=
+ =?us-ascii?Q?9CE50AD,3D4E97C8,210B2C4C,744CC13F,5D46BA0B,3D65F117,49CB1EF?=
+ =?us-ascii?Q?C,19AAD2B9,C8B73E84,BC9E50DF,7C94A61C,334C4973\",201:6478,20?=
+ =?us-ascii?Q?2:206,203:1488,204:7967,205:37,206:2,207:38,208:2,209:38,210?=
+ =?us-ascii?Q?:2,211:38,212:2,213:58,214:3,215:23,216:1,217:23,218:1,219:2?=
+ =?us-ascii?Q?3,220:1,221:52,222:3,223:52,224:3,225:52,226:3,227:51,228:3,?=
+ =?us-ascii?Q?229:57,230:3,231:23,232:1,233:27,234:1,235:23,236:1,239:23,2?=
+ =?us-ascii?Q?40:1,241:23,242:1,243:23,244:1,245:23,246:1,247:23,248:1,249?=
+ =?us-ascii?Q?:23,250:1,251:22,252:1}","DPD":{"UF":"256","OCH":"1219957107?=
+ =?us-ascii?Q?3320917286","SCHM":"Https","CNT":"2","SL":"1","LOG":"1"},"PR?=
+ =?us-ascii?Q?OC":[]},{"ID":8,"OU":"https://protect-eu.mimecast.com/s/UX77?=
+ =?us-ascii?Q?CJqyzFDWW2CyjJsp","U":"https://protect-eu.mimecast.com/s/UX7?=
+ =?us-ascii?Q?7CJqyzFDWW2CyjJsp","IAR":false,"LI":{"TN":"a","IC":true,"BF"?=
+ =?us-ascii?Q?:2,"SI":-1,"EndIndex":-1},"SRCI":1,"IU":null,"NU":"protect-e?=
+ =?us-ascii?Q?u.mimecast.com/s/UX77CJqyzFDWW2CyjJsp","UFT":"{101:46,102:2,?=
+ =?us-ascii?Q?105:23,108:3,109:1,110:8,111:12,112:2,114:8,115:10,116:1,117?=
+ =?us-ascii?Q?:1,118:10,119:8,121:7,122:3,123:1,125:3,128:20,131:10000000,?=
+ =?us-ascii?Q?135:\"E2F58CB3,C6D6BE65,A0574632,891EC5C0,4938C3D8,BCF35016,?=
+ =?us-ascii?Q?BFD0733A,ACB296E1,AA6CB204,1005231C,C86253E2,1B64769E,9C00B6?=
+ =?us-ascii?Q?98,6C03AF79,FCF60D6F,B69D9823,A0FAEE2A,B12A0861,565C6781,546?=
+ =?us-ascii?Q?989C9,F6809719,89BA488A,1EB3295D,12D7347E,DBE0DE1F,38EC6BAD,?=
+ =?us-ascii?Q?674085F7,C73BA7CF,4582B097,9D935896,627AE8F4,4F6504BC\",201:?=
+ =?us-ascii?Q?6478,202:206,203:1488,204:7967,205:37,206:2,207:38,208:2,209?=
+ =?us-ascii?Q?:38,210:2,211:38,212:2,213:58,214:3,215:23,216:1,217:23,218:?=
+ =?us-ascii?Q?1,219:23,220:1,221:52,222:3,223:52,224:3,225:52,226:3,227:51?=
+ =?us-ascii?Q?,228:3,229:57,230:3,231:23,232:1,233:27,234:1,235:23,236:1,2?=
+ =?us-ascii?Q?39:23,240:1,241:23,242:1,243:23,244:1,245:23,246:1,247:23,24?=
+ =?us-ascii?Q?8:1,249:23,250:1,251:22,252:1}","DPD":{"UF":"256","OCH":"388?=
+ =?us-ascii?Q?8808367221087127","SCHM":"Https","CNT":"2","SL":"1","LOG":"1?=
+ =?us-ascii?Q?"},"PROC":[]},{"ID":10,"OU":"https://protect-eu.mimecast.com?=
+ =?us-ascii?Q?/s/EJ0SCL870tZDDgS5V54w","U":"https://protect-eu.mimecast.co?=
+ =?us-ascii?Q?m/s/EJ0SCL870tZDDgS5V54w","IAR":false,"LI":{"TN":"a","IC":tr?=
+ =?us-ascii?Q?ue,"BF":2,"SI":-1,"EndIndex":-1},"SRCI":1,"IU":null,"NU":"pr?=
+ =?us-ascii?Q?otect-eu.mimecast.com/s/EJ0SCL870tZDDgS5V54w","UFT":"{101:46?=
+ =?us-ascii?Q?,102:2,105:23,108:3,109:1,110:8,111:12,112:2,114:8,115:10,11?=
+ =?us-ascii?Q?6:1,117:1,118:10,119:8,121:7,122:3,123:1,125:3,128:20,131:10?=
+ =?us-ascii?Q?000000,135:\"E2F58CB3,C6D6BE65,A0574632,891EC5C0,4938C3D8,BC?=
+ =?us-ascii?Q?F35016,BFD0733A,ACB296E1,AA6CB204,1005231C,C86253E2,1B64769E?=
+ =?us-ascii?Q?,9C00B698,6C03AF79,409B3AC4,61CE0DAA,B29BF49B,2D185E1B,894DA?=
+ =?us-ascii?Q?D40,B48AA48C,754A72C2,A9E9B334,9B8F0473,986B0EFF,2AB7B96F,DC?=
+ =?us-ascii?Q?05AEF8,D807E743,D1EA9AEC,177FF23F,C5E4A7E7,A0DB511A,874AF2BB?=
+ =?us-ascii?Q?\",201:6478,202:206,203:1488,204:7967,205:37,206:2,207:38,20?=
+ =?us-ascii?Q?8:2,209:38,210:2,211:38,212:2,213:58,214:3,215:23,216:1,217:?=
+ =?us-ascii?Q?23,218:1,219:23,220:1,221:52,222:3,223:52,224:3,225:52,226:3?=
+ =?us-ascii?Q?,227:51,228:3,229:57,230:3,231:23,232:1,233:27,234:1,235:23,?=
+ =?us-ascii?Q?236:1,239:23,240:1,241:23,242:1,243:23,244:1,245:23,246:1,24?=
+ =?us-ascii?Q?7:23,248:1,249:23,250:1,251:22,252:1}","DPD":{"UF":"256","OC?=
+ =?us-ascii?Q?H":"17406556179454888735","SCHM":"Https","CNT":"2","SL":"1",?=
+ =?us-ascii?Q?"LOG":"1"},"PROC":[]},{"ID":13,"OU":"https://protect-eu.mime?=
+ =?us-ascii?Q?cast.com/s/WfoKCMQwNiAyyLcNur2t","U":"https://protect-eu.mim?=
+ =?us-ascii?Q?ecast.com/s/WfoKCMQwNiAyyLcNur2t","IAR":false,"LI":{"TN":"a"?=
+ =?us-ascii?Q?,"IC":true,"BF":2,"SI":-1,"EndIndex":-1},"SRCI":1,"IU":null,?=
+ =?us-ascii?Q?"NU":"protect-eu.mimecast.com/s/WfoKCMQwNiAyyLcNur2t","UFT":?=
+ =?us-ascii?Q?"{101:46,102:2,105:23,108:3,109:1,110:8,111:12,112:2,114:8,1?=
+ =?us-ascii?Q?15:10,116:1,117:1,118:10,119:8,121:7,122:3,123:1,125:3,128:2?=
+ =?us-ascii?Q?0,131:10000000,135:\"E2F58CB3,C6D6BE65,A0574632,891EC5C0,493?=
+ =?us-ascii?Q?8C3D8,BCF35016,BFD0733A,ACB296E1,AA6CB204,1005231C,C86253E2,?=
+ =?us-ascii?Q?1B64769E,9C00B698,6C03AF79,5BC1C1BF,FEBB3E85,38F02BB6,F7B444?=
+ =?us-ascii?Q?10,56512E8E,8A82006,A9A4E7B,79AE6941,9FCC909D,BCDE3B10,2388A?=
+ =?us-ascii?Q?9B0,81C28AB7,86A23EEB,6C67FE20,5A537371,949AE280,80045332,97?=
+ =?us-ascii?Q?56CB81\",201:6478,202:206,203:1488,204:7967,205:37,206:2,207?=
+ =?us-ascii?Q?:38,208:2,209:38,210:2,211:38,212:2,213:58,214:3,215:23,216:?=
+ =?us-ascii?Q?1,217:23,218:1,219:23,220:1,221:52,222:3,223:52,224:3,225:52?=
+ =?us-ascii?Q?,226:3,227:51,228:3,229:57,230:3,231:23,232:1,233:27,234:1,2?=
+ =?us-ascii?Q?35:23,236:1,239:23,240:1,241:23,242:1,243:23,244:1,245:23,24?=
+ =?us-ascii?Q?6:1,247:23,248:1,249:23,250:1,251:22,252:1}","DPD":{"UF":"25?=
+ =?us-ascii?Q?6","OCH":"8171406402181959853","SCHM":"Https","CNT":"2","SL"?=
+ =?us-ascii?Q?:"1","LOG":"1"},"PROC":[]},{"ID":15,"OU":"https://protect-eu?=
+ =?us-ascii?Q?.mimecast.com/s/DMelCN9LXTGqqQFlQqhu","U":"https://protect-e?=
+ =?us-ascii?Q?u.mimecast.com/s/DMelCN9LXTGqqQFlQqhu","IAR":false,"LI":{"TN?=
+ =?us-ascii?Q?":"a","IC":true,"BF":2,"SI":-1,"EndIndex":-1},"SRCI":1,"IU":?=
+ =?us-ascii?Q?null,"NU":"protect-eu.mimecast.com/s/DMelCN9LXTGqqQFlQqhu","?=
+ =?us-ascii?Q?UFT":"{101:46,102:2,105:23,108:3,109:1,110:8,111:12,112:2,11?=
+ =?us-ascii?Q?4:8,115:10,116:1,117:1,118:10,119:8,121:7,122:3,123:1,125:3,?=
+ =?us-ascii?Q?128:20,131:10000000,135:\"E2F58CB3,C6D6BE65,A0574632,891EC5C?=
+ =?us-ascii?Q?0,4938C3D8,BCF35016,BFD0733A,ACB296E1,AA6CB204,1005231C,C862?=
+ =?us-ascii?Q?53E2,1B64769E,9C00B698,6C03AF79,EA170E23,1F76A76F,8395940F,6?=
+ =?us-ascii?Q?C67FE20,16530865,B3436FD6,C81121D6,7829A845,739A83C,A735B839?=
+ =?us-ascii?Q?,A1E5D22E,EB940D80,29431B5,6BF1908,4C396BC,7F3AFC6B,49434DB,?=
+ =?us-ascii?Q?F3A56339\",201:6478,202:206,203:1488,204:7967,205:37,206:2,2?=
+ =?us-ascii?Q?07:38,208:2,209:38,210:2,211:38,212:2,213:58,214:3,215:23,21?=
+ =?us-ascii?Q?6:1,217:23,218:1,219:23,220:1,221:52,222:3,223:52,224:3,225:?=
+ =?us-ascii?Q?52,226:3,227:51,228:3,229:57,230:3,231:23,232:1,233:27,234:1?=
+ =?us-ascii?Q?,235:23,236:1,239:23,240:1,241:23,242:1,243:23,244:1,245:23,?=
+ =?us-ascii?Q?246:1,247:23,248:1,249:23,250:1,251:22,252:1}","DPD":{"UF":"?=
+ =?us-ascii?Q?256","OCH":"6586791910595601911","SCHM":"Https","CNT":"2","S?=
+ =?us-ascii?Q?L":"1","LOG":"1"},"PROC":[]},{"ID":17,"OU":"https://protect-?=
+ =?us-ascii?Q?eu.mimecast.com/s/yHSpCOyMLTyLLguRkINj","U":"https://protect?=
+ =?us-ascii?Q?-eu.mimecast.com/s/yHSpCOyMLTyLLguRkINj","IAR":false,"LI":{"?=
+ =?us-ascii?Q?TN":"a","IC":true,"BF":2,"SI":-1,"EndIndex":-1},"SRCI":1,"IU?=
+ =?us-ascii?Q?":null,"NU":"protect-eu.mimecast.com/s/yHSpCOyMLTyLLguRkINj"?=
+ =?us-ascii?Q?,"UFT":"{101:46,102:2,105:23,108:3,109:1,110:8,111:12,112:2,?=
+ =?us-ascii?Q?114:8,115:10,116:1,117:1,118:10,119:8,121:7,122:3,123:1,125:?=
+ =?us-ascii?Q?3,128:20,131:10000000,135:\"E2F58CB3,C6D6BE65,A0574632,891EC?=
+ =?us-ascii?Q?5C0,4938C3D8,BCF35016,BFD0733A,ACB296E1,AA6CB204,1005231C,C8?=
+ =?us-ascii?Q?6253E2,1B64769E,9C00B698,6C03AF79,9E97D757,244E6D96,19E8E1FD?=
+ =?us-ascii?Q?,560444BF,4A5598D8,4712D402,A1A4A803,198?=
+X-MS-Exchange-Organization-Persisted-Urls-1:
+	=?us-ascii?Q?7E71E,8347CEAA,9E62C9AC,83A23A32,755B4058,877122FD,98EEBE5F,?=
+ =?us-ascii?Q?590415CD,7EE04197,FA9C43E3,D5F428BA\",201:6478,202:206,203:1?=
+ =?us-ascii?Q?488,204:7967,205:37,206:2,207:38,208:2,209:38,210:2,211:38,2?=
+ =?us-ascii?Q?12:2,213:58,214:3,215:23,216:1,217:23,218:1,219:23,220:1,221?=
+ =?us-ascii?Q?:52,222:3,223:52,224:3,225:52,226:3,227:51,228:3,229:57,230:?=
+ =?us-ascii?Q?3,231:23,232:1,233:27,234:1,235:23,236:1,239:23,240:1,241:23?=
+ =?us-ascii?Q?,242:1,243:23,244:1,245:23,246:1,247:23,248:1,249:23,250:1,2?=
+ =?us-ascii?Q?51:22,252:1}","DPD":{"UF":"256","OCH":"13129409193281836077"?=
+ =?us-ascii?Q?,"SCHM":"Https","CNT":"2","SL":"1","LOG":"1"},"PROC":[]},{"I?=
+ =?us-ascii?Q?D":18,"OU":"https://protect-eu.mimecast.com/s/LZEdCPZ7gfk112?=
+ =?us-ascii?Q?c9mvfP","U":"https://protect-eu.mimecast.com/s/LZEdCPZ7gfk11?=
+ =?us-ascii?Q?2c9mvfP","IAR":false,"LI":{"TN":"a","IC":true,"BF":2,"SI":-1?=
+ =?us-ascii?Q?,"EndIndex":-1},"SRCI":1,"IU":null,"NU":"protect-eu.mimecast?=
+ =?us-ascii?Q?.com/s/LZEdCPZ7gfk112c9mvfP","UFT":"{101:46,102:2,105:23,108?=
+ =?us-ascii?Q?:3,109:1,110:8,111:12,112:2,114:8,115:10,116:1,117:1,118:10,?=
+ =?us-ascii?Q?119:8,121:7,122:3,123:1,125:3,128:20,131:10000000,135:\"E2F5?=
+ =?us-ascii?Q?8CB3,C6D6BE65,A0574632,891EC5C0,4938C3D8,BCF35016,BFD0733A,A?=
+ =?us-ascii?Q?CB296E1,AA6CB204,1005231C,C86253E2,1B64769E,9C00B698,6C03AF7?=
+ =?us-ascii?Q?9,932E4FF4,3CB5972E,73AA9597,E0FEFB12,536B6D52,9E1A7C66,1C77?=
+ =?us-ascii?Q?593D,BD34A8A1,A819B703,BCB1DC43,A73887A2,67A2AF79,469BBFC1,8?=
+ =?us-ascii?Q?73B430F,43207C9E,D4137351,1796EE82,D79E47B5\",201:6478,202:2?=
+ =?us-ascii?Q?06,203:1488,204:7967,205:37,206:2,207:38,208:2,209:38,210:2,?=
+ =?us-ascii?Q?211:38,212:2,213:58,214:3,215:23,216:1,217:23,218:1,219:23,2?=
+ =?us-ascii?Q?20:1,221:52,222:3,223:52,224:3,225:52,226:3,227:51,228:3,229?=
+ =?us-ascii?Q?:57,230:3,231:23,232:1,233:27,234:1,235:23,236:1,239:23,240:?=
+ =?us-ascii?Q?1,241:23,242:1,243:23,244:1,245:23,246:1,247:23,248:1,249:23?=
+ =?us-ascii?Q?,250:1,251:22,252:1}","DPD":{"UF":"256","OCH":"3086678751382?=
+ =?us-ascii?Q?777416","SCHM":"Https","CNT":"2","SL":"1","LOG":"1"},"PROC":?=
+ =?us-ascii?Q?[]},{"ID":1,"OU":"https://protect-eu.mimecast.com/s/7q-2Cyro?=
+ =?us-ascii?Q?7URPPQsZG3L5","U":"https://protect-eu.mimecast.com/s/7q-2Cyr?=
+ =?us-ascii?Q?o7URPPQsZG3L5","IAR":false,"LI":{"TN":"a","IC":true,"BF":2,"?=
+ =?us-ascii?Q?SI":-1,"EndIndex":-1},"SRCI":1,"IU":null,"NU":"protect-eu.mi?=
+ =?us-ascii?Q?mecast.com/s/7q-2Cyro7URPPQsZG3L5","UFT":"{101:46,102:2,105:?=
+ =?us-ascii?Q?23,108:3,109:1,110:8,111:12,112:2,114:8,115:10,116:1,117:1,1?=
+ =?us-ascii?Q?18:10,119:8,121:7,122:3,123:1,125:3,127:1,128:20,131:1000000?=
+ =?us-ascii?Q?0,135:\"E2F58CB3,C6D6BE65,A0574632,891EC5C0,4938C3D8,BCF3501?=
+ =?us-ascii?Q?6,BFD0733A,ACB296E1,AA6CB204,1005231C,C86253E2,1B64769E,9C00?=
+ =?us-ascii?Q?B698,6C03AF79,F64D0742,B613FE65,65AFD56D,C73BA7CF,4D82BD2F,A?=
+ =?us-ascii?Q?2A6E82D,54D5721D,2BABFB80,A1570ECF,3E03EB4C,87FA933F,64292BA?=
+ =?us-ascii?Q?2,6226E9E5,F68FA1A3,16027397,E7B09431,AB89C147,1F04FA87\",20?=
+ =?us-ascii?Q?1:6478,202:206,203:1488,204:7967,205:37,206:2,207:38,208:2,2?=
+ =?us-ascii?Q?09:38,210:2,211:38,212:2,213:58,214:3,215:23,216:1,217:23,21?=
+ =?us-ascii?Q?8:1,219:23,220:1,221:52,222:3,223:52,224:3,225:52,226:3,227:?=
+ =?us-ascii?Q?51,228:3,229:57,230:3,231:23,232:1,233:27,234:1,235:23,236:1?=
+ =?us-ascii?Q?,239:23,240:1,241:23,242:1,243:23,244:1,245:23,246:1,247:23,?=
+ =?us-ascii?Q?248:1,249:23,250:1,251:22,252:1}","DPD":{"UF":"256","OCH":"6?=
+ =?us-ascii?Q?975857821335609789","SCHM":"Https","CNT":"2"},"PROC":[]},{"I?=
+ =?us-ascii?Q?D":2,"OU":"https://protect-eu.mimecast.com/s/4oUkCzKvQhAYYyc?=
+ =?us-ascii?Q?XJZ=5Fo","U":"https://protect-eu.mimecast.com/s/4oUkCzKvQhAY?=
+ =?us-ascii?Q?YycXJZ=5Fo","IAR":false,"LI":{"TN":"a","IC":true,"BF":2,"SI"?=
+ =?us-ascii?Q?:-1,"EndIndex":-1},"SRCI":1,"IU":null,"NU":"protect-eu.mimec?=
+ =?us-ascii?Q?ast.com/s/4oUkCzKvQhAYYycXJZ=5Fo","UFT":"{101:46,102:2,105:2?=
+ =?us-ascii?Q?3,108:3,109:1,110:8,111:12,112:2,114:8,115:10,116:1,117:1,11?=
+ =?us-ascii?Q?8:10,119:8,121:7,122:3,123:1,125:3,127:1,128:20,131:10000000?=
+ =?us-ascii?Q?,135:\"E2F58CB3,C6D6BE65,A0574632,891EC5C0,4938C3D8,BCF35016?=
+ =?us-ascii?Q?,BFD0733A,ACB296E1,AA6CB204,1005231C,C86253E2,1B64769E,9C00B?=
+ =?us-ascii?Q?698,6C03AF79,F634302D,2909AA6C,60CBC9D4,EEB435E5,5C851363,2A?=
+ =?us-ascii?Q?A6704E,F7D01A8D,ED6F0C22,7A582B5,3121626F,2388A9B0,8CC29C08,?=
+ =?us-ascii?Q?76C27966,9181FC91,637F0E3A,4834535,6653DFD0\",201:6478,202:2?=
+ =?us-ascii?Q?06,203:1488,204:7967,205:37,206:2,207:38,208:2,209:38,210:2,?=
+ =?us-ascii?Q?211:38,212:2,213:58,214:3,215:23,216:1,217:23,218:1,219:23,2?=
+ =?us-ascii?Q?20:1,221:52,222:3,223:52,224:3,225:52,226:3,227:51,228:3,229?=
+ =?us-ascii?Q?:57,230:3,231:23,232:1,233:27,234:1,235:23,236:1,239:23,240:?=
+ =?us-ascii?Q?1,241:23,242:1,243:23,244:1,245:23,246:1,247:23,248:1,249:23?=
+ =?us-ascii?Q?,250:1,251:22,252:1}","DPD":{"UF":"256","OCH":"6128684400177?=
+ =?us-ascii?Q?860597","SCHM":"Https","CNT":"2"},"PROC":[]},{"ID":3,"OU":"h?=
+ =?us-ascii?Q?ttps://protect-eu.mimecast.com/s/BlN-CAPNWCzKKPi9SmJk","U":"?=
+ =?us-ascii?Q?https://protect-eu.mimecast.com/s/BlN-CAPNWCzKKPi9SmJk","IAR?=
+ =?us-ascii?Q?":false,"LI":{"TN":"a","IC":true,"BF":2,"SI":-1,"EndIndex":-?=
+ =?us-ascii?Q?1},"SRCI":1,"IU":null,"NU":"protect-eu.mimecast.com/s/BlN-CA?=
+ =?us-ascii?Q?PNWCzKKPi9SmJk","UFT":"{101:46,102:2,105:23,108:3,109:1,110:?=
+ =?us-ascii?Q?8,111:12,112:2,114:8,115:10,116:1,117:1,118:10,119:8,121:7,1?=
+ =?us-ascii?Q?22:3,123:1,125:3,127:1,128:20,131:10000000,135:\"E2F58CB3,C6?=
+ =?us-ascii?Q?D6BE65,A0574632,891EC5C0,4938C3D8,BCF35016,BFD0733A,ACB296E1?=
+ =?us-ascii?Q?,AA6CB204,1005231C,C86253E2,1B64769E,9C00B698,6C03AF79,AE343?=
+ =?us-ascii?Q?79D,CB6044E8,B675115B,66EBA3FA,5F46AF5D,1899E180,6DE8940A,9D?=
+ =?us-ascii?Q?96737D,68BB1A71,5C851363,17A65265,E4A09E6F,FBD49E07,27EBF76F?=
+ =?us-ascii?Q?,B7687AA6,BD195F4A,2B1CD823,48DD63D\",201:6478,202:206,203:1?=
+ =?us-ascii?Q?488,204:7967,205:37,206:2,207:38,208:2,209:38,210:2,211:38,2?=
+ =?us-ascii?Q?12:2,213:58,214:3,215:23,216:1,217:23,218:1,219:23,220:1,221?=
+ =?us-ascii?Q?:52,222:3,223:52,224:3,225:52,226:3,227:51,228:3,229:57,230:?=
+ =?us-ascii?Q?3,231:23,232:1,233:27,234:1,235:23,236:1,239:23,240:1,241:23?=
+ =?us-ascii?Q?,242:1,243:23,244:1,245:23,246:1,247:23,248:1,249:23,250:1,2?=
+ =?us-ascii?Q?51:22,252:1}","DPD":{"UF":"256","OCH":"3201389129424924814",?=
+ =?us-ascii?Q?"SCHM":"Https","CNT":"2"},"PROC":[]},{"ID":4,"OU":"https://p?=
+ =?us-ascii?Q?rotect-eu.mimecast.com/s/V3ArCBLNOUOXXkTjj=5Fih","U":"https:?=
+ =?us-ascii?Q?//protect-eu.mimecast.com/s/V3ArCBLNOUOXXkTjj=5Fih","IAR":fa?=
+ =?us-ascii?Q?lse,"LI":{"TN":"a","IC":true,"BF":2,"SI":-1,"EndIndex":-1},"?=
+ =?us-ascii?Q?SRCI":1,"IU":null,"NU":"protect-eu.mimecast.com/s/V3ArCBLNOU?=
+ =?us-ascii?Q?OXXkTjj=5Fih","UFT":"{101:46,102:2,105:23,108:3,109:1,110:8,?=
+ =?us-ascii?Q?111:12,112:2,114:8,115:10,116:1,117:1,118:10,119:8,121:7,122?=
+ =?us-ascii?Q?:3,123:1,125:3,127:1,128:20,131:10000000,135:\"E2F58CB3,C6D6?=
+ =?us-ascii?Q?BE65,A0574632,891EC5C0,4938C3D8,BCF35016,BFD0733A,ACB296E1,A?=
+ =?us-ascii?Q?A6CB204,1005231C,C86253E2,1B64769E,9C00B698,6C03AF79,E9CCB97?=
+ =?us-ascii?Q?B,65FD1B87,1D956C31,87CB350A,6148F11A,AE34379D,8D5FE34E,97D2?=
+ =?us-ascii?Q?9433,2509A420,43C10ED1,2E106E10,1357D034,8810CEA,D4CB6646,BE?=
+ =?us-ascii?Q?42A861,4C7AC652,437CF6BE\",201:6478,202:206,203:1488,204:796?=
+ =?us-ascii?Q?7,205:37,206:2,207:38,208:2,209:38,210:2,211:38,212:2,213:58?=
+ =?us-ascii?Q?,214:3,215:23,216:1,217:23,218:1,219:23,220:1,221:52,222:3,2?=
+ =?us-ascii?Q?23:52,224:3,225:52,226:3,227:51,228:3,229:57,230:3,231:23,23?=
+ =?us-ascii?Q?2:1,233:27,234:1,235:23,236:1,239:23,240:1,241:23,242:1,243:?=
+ =?us-ascii?Q?23,244:1,245:23,246:1,247:23,248:1,249:23,250:1,251:22,252:1?=
+ =?us-ascii?Q?}","DPD":{"UF":"256","OCH":"5297505242193723301","SCHM":"Htt?=
+ =?us-ascii?Q?ps","CNT":"2"},"PROC":[]},{"ID":9,"OU":"https://protect-eu.m?=
+ =?us-ascii?Q?imecast.com/s/0rEICKZ1zfGyyYF2WpFh","U":"https://protect-eu.?=
+ =?us-ascii?Q?mimecast.com/s/0rEICKZ1zfGyyYF2WpFh","IAR":false,"LI":{"TN":?=
+ =?us-ascii?Q?"a","IC":true,"BF":2,"SI":-1,"EndIndex":-1},"SRCI":1,"IU":nu?=
+ =?us-ascii?Q?ll,"NU":"protect-eu.mimecast.com/s/0rEICKZ1zfGyyYF2WpFh","UF?=
+ =?us-ascii?Q?T":"{101:46,102:2,105:23,108:3,109:1,110:8,111:12,112:2,114:?=
+ =?us-ascii?Q?8,115:10,116:1,117:1,118:10,119:8,121:7,122:3,123:1,125:3,12?=
+ =?us-ascii?Q?8:20,131:10000000,135:\"E2F58CB3,C6D6BE65,A0574632,891EC5C0,?=
+ =?us-ascii?Q?4938C3D8,BCF35016,BFD0733A,ACB296E1,AA6CB204,1005231C,C86253?=
+ =?us-ascii?Q?E2,1B64769E,9C00B698,6C03AF79,949E03F8,82C6AFFD,83A26002,AED?=
+ =?us-ascii?Q?9A7D8,555EA485,1FC5CC29,1F84D580,18E88D72,1BB324A4,CD06F47,9?=
+ =?us-ascii?Q?9D23DDE,8CC29C08,7BC28145,DD892FFA,125168A4,B659A220,62DB64A?=
+ =?us-ascii?Q?A,70FDB37B\",201:6478,202:206,203:1488,204:7967,205:37,206:2?=
+ =?us-ascii?Q?,207:38,208:2,209:38,210:2,211:38,212:2,213:58,214:3,215:23,?=
+ =?us-ascii?Q?216:1,217:23,218:1,219:23,220:1,221:52,222:3,223:52,224:3,22?=
+ =?us-ascii?Q?5:52,226:3,227:51,228:3,229:57,230:3,231:23,232:1,233:27,234?=
+ =?us-ascii?Q?:1,235:23,236:1,239:23,240:1,241:23,242:1,243:23,244:1,245:2?=
+ =?us-ascii?Q?3,246:1,247:23,248:1,249:23,250:1,251:22,252:1}","DPD":{"UF"?=
+ =?us-ascii?Q?:"256","OCH":"11946245941552276328","SCHM":"Https","CNT":"5"?=
+ =?us-ascii?Q?},"PROC":[]},{"ID":21,"OU":"https://protect-eu.mimecast.com/?=
+ =?us-ascii?Q?s/8jWyCQ0njiy11KuV=5FyoG","U":"https://protect-eu.mimecast.c?=
+ =?us-ascii?Q?om/s/8jWyCQ0njiy11KuV=5FyoG","IAR":false,"LI":{"TN":"a","IC"?=
+ =?us-ascii?Q?:true,"BF":2,"SI":-1,"EndIndex":-1},"SRCI":1,"IU":null,"NU":?=
+ =?us-ascii?Q?"protect-eu.mimecast.com/s/8jWyCQ0njiy11KuV=5FyoG","UFT":"{1?=
+ =?us-ascii?Q?01:46,102:2,105:23,108:3,109:1,110:8,111:12,112:2,114:8,115:?=
+ =?us-ascii?Q?10,116:1,117:1,118:10,119:8,121:7,122:3,123:1,125:3,127:1,12?=
+ =?us-ascii?Q?8:20,131:10000000,135:\"E2F58CB3,C6D6BE65,A0574632,891EC5C0,?=
+ =?us-ascii?Q?4938C3D8,BCF35016,BFD0733A,ACB296E1,AA6CB204,1005231C,C86253?=
+ =?us-ascii?Q?E2,1B64769E,9C00B698,6C03AF79,3FF3B1AE,505A78F3,4FC9FDA0,888?=
+ =?us-ascii?Q?1EE66,9F6E238D,7F42BD0,AB5903A9,AFCA6B36,547D1181,74CA4200,D?=
+ =?us-ascii?Q?41021E8,3EA26EEE,2C138C62,F2CDD417,3EFAF283,C85B4A2B,9AA01FD?=
+ =?us-ascii?Q?0\",201:6478,202:206,203:1488,204:7967,205:37,206:2,207:38,2?=
+ =?us-ascii?Q?08:2,209:38,210:2,211:38,212:2,213:58,214:3,215:23,216:1,217?=
+ =?us-ascii?Q?:23,218:1,219:23,220:1,221:52,222:3,223:52,224:3,225:52,226:?=
+ =?us-ascii?Q?3,227:51,228:3,229:57,230:3,231:23,232:1,233:27,234:1,235:23?=
+ =?us-ascii?Q?,236:1,239:23,240:1,241:23,242:1,243:23,244:1,245:23,246:1,2?=
+ =?us-ascii?Q?47:23,248:1,249:23,250:1,251:22,252:1}","DPD":{"UF":"256","O?=
+ =?us-ascii?Q?CH":"4426161574424208722","SCHM":"Https","CNT":"1"},"PROC":[?=
+ =?us-ascii?Q?]},{"ID":22,"OU":"www.jefferies.com","U":"http://www.jefferi?=
+ =?us-ascii?Q?es.com/","IAR":false,"LI":{"BF":1,"SI":-1,"EndIndex":-1},"SR?=
+ =?us-ascii?Q?CI":1,"IU":null,"NU":"www.jefferies.com","UFT":"{101:18,102:?=
+ =?us-ascii?Q?2,105:17,108:3,110:9,111:13,112:2,114:9,115:3,116:1,118:3,11?=
+ =?us-ascii?Q?9:9,121:6,122:3,123:1,125:3,131:10000000,135:\"F538357B,84B7?=
+ =?us-ascii?Q?4A2C,C6CADC6,A09596D2,B197F02C,F893493,DBFD84A9,DF0053E\",20?=
+ =?us-ascii?Q?1:8962,202:175,203:169,204:9132,205:37,206:2,207:38,208:2,20?=
+ =?us-ascii?Q?9:38,210:2,211:38,212:2,213:58,214:3,215:5,216:1,217:24,218:?=
+ =?us-ascii?Q?2,219:6,220:1,221:52,222:3,223:52,224:3,225:52,226:3,227:51,?=
+ =?us-ascii?Q?228:3,229:57,230:3,231:5,232:1,233:28,234:3,235:6,236:1,239:?=
+ =?us-ascii?Q?5,240:1,241:25,242:2,243:6,244:1,245:35,246:1,247:8,248:1,24?=
+ =?us-ascii?Q?9:6,250:1,251:6,252:1}","DPD":{"UF":"256","OCH":"14390153876?=
+ =?us-ascii?Q?876204076","SCHM":"Http","CNT":"1"},"PROC":[]},{"ID":12,"OU"?=
+ =?us-ascii?Q?:"_http://www.jefferies.com/CMSFiles/Jefferies.com/Images/On?=
+ =?us-ascii?Q?eJef/web.png","U":"http://www.jefferies.com/CMSFiles/Jefferi?=
+ =?us-ascii?Q?es.com/Images/OneJef/web.png","IAR":false,"LI":{"TN":"img","?=
+ =?us-ascii?Q?IC":false,"BF":2,"SI":-1,"EndIndex":-1},"SRCI":1,"IU":null,"?=
+ =?us-ascii?Q?NU":"www.jefferies.com/CMSFiles/Jefferies.com/Images/OneJef/?=
+ =?us-ascii?Q?web.png","UFT":"{101:62,102:4,105:17,108:3,110:9,111:13,112:?=
+ =?us-ascii?Q?2,114:9,115:3,116:1,118:3,119:9,121:6,122:3,123:1,125:3,126:?=
+ =?us-ascii?Q?1,128:7,129:1,131:10000000,135:\"F538357B,84B74A2C,C6CADC6,A?=
+ =?us-ascii?Q?09596D2,B197F02C,F893493,DBFD84A9,DF0053E,54512B68,9A3A46B,3?=
+ =?us-ascii?Q?40B9D2D,FBB6BC9E,DCFA43ED,796C8FC5,4D8793D8,6EA47D8A,14D2BA7?=
+ =?us-ascii?Q?6,DD4EE08,6987F397,86E4CB5D,BEE8CB92,5E55B854,BCFC5024,F880F?=
+ =?us-ascii?Q?766,3379B856,98175F3C,2EF86ABD,8CC37858,8D9BB3FB,78BFB0CF,7D?=
+ =?us-ascii?Q?E8AD3A\"}","DPD":{"UF":"65536","OCH":"16924165261572461261?=
+X-MS-Exchange-Organization-Persisted-Urls-2:
+	=?us-ascii?Q?","SCHM":"Http","CNT":"1"},"PROC":[]},{"ID":14,"OU":"http://?=
+ =?us-ascii?Q?www.jefferies.com/CMSFiles/Jefferies.com/Images/OneJef/linke?=
+ =?us-ascii?Q?din.png","U":"http://www.jefferies.com/CMSFiles/Jefferies.co?=
+ =?us-ascii?Q?m/Images/OneJef/linkedin.png","IAR":false,"LI":{"TN":"img","?=
+ =?us-ascii?Q?IC":false,"BF":2,"SI":-1,"EndIndex":-1},"SRCI":1,"IU":null,"?=
+ =?us-ascii?Q?NU":"www.jefferies.com/CMSFiles/Jefferies.com/Images/OneJef/?=
+ =?us-ascii?Q?linkedin.png","UFT":"{101:67,102:4,105:17,108:3,110:9,111:13?=
+ =?us-ascii?Q?,112:2,114:9,115:3,116:1,118:3,119:9,121:6,122:3,123:1,125:3?=
+ =?us-ascii?Q?,126:1,128:12,129:1,131:10000000,135:\"F538357B,84B74A2C,C6C?=
+ =?us-ascii?Q?ADC6,A09596D2,B197F02C,F893493,DBFD84A9,DF0053E,54512B68,9A3?=
+ =?us-ascii?Q?A46B,340B9D2D,FBB6BC9E,DCFA43ED,796C8FC5,4D8793D8,6EA47D8A,1?=
+ =?us-ascii?Q?4D2BA76,DD4EE08,6987F397,86E4CB5D,BEE8CB92,5E55B854,BCFC5024?=
+ =?us-ascii?Q?,F880F766,3379B856,98175F3C,2EF86ABD,8CC37858,8D9BB3FB,8C4E9?=
+ =?us-ascii?Q?89A,D6F42A4D,97C806D7,E4A51B9D,6DAA8C25,D30DEF92,7DE8AD3A\"}?=
+ =?us-ascii?Q?","DPD":{"UF":"65536","OCH":"6231841449621165209","SCHM":"Ht?=
+ =?us-ascii?Q?tp","CNT":"1"},"PROC":[]},{"ID":16,"OU":"http://www.jefferie?=
+ =?us-ascii?Q?s.com/CMSFiles/Jefferies.com/Images/OneJef/twitter.png","U":?=
+ =?us-ascii?Q?"http://www.jefferies.com/CMSFiles/Jefferies.com/Images/OneJ?=
+ =?us-ascii?Q?ef/twitter.png","IAR":false,"LI":{"TN":"img","IC":false,"BF"?=
+ =?us-ascii?Q?:2,"SI":-1,"EndIndex":-1},"SRCI":1,"IU":null,"NU":"www.jeffe?=
+ =?us-ascii?Q?ries.com/CMSFiles/Jefferies.com/Images/OneJef/twitter.png","?=
+ =?us-ascii?Q?UFT":"{101:66,102:4,105:17,108:3,110:9,111:13,112:2,114:9,11?=
+ =?us-ascii?Q?5:3,116:1,118:3,119:9,121:6,122:3,123:1,125:3,126:1,128:11,1?=
+ =?us-ascii?Q?29:1,131:10000000,135:\"F538357B,84B74A2C,C6CADC6,A09596D2,B?=
+ =?us-ascii?Q?197F02C,F893493,DBFD84A9,DF0053E,54512B68,9A3A46B,340B9D2D,F?=
+ =?us-ascii?Q?BB6BC9E,DCFA43ED,796C8FC5,4D8793D8,6EA47D8A,14D2BA76,DD4EE08?=
+ =?us-ascii?Q?,6987F397,86E4CB5D,BEE8CB92,5E55B854,BCFC5024,F880F766,3379B?=
+ =?us-ascii?Q?856,98175F3C,2EF86ABD,8CC37858,8D9BB3FB,9F5E4E11,66A17F65,BB?=
+ =?us-ascii?Q?BDE5D2,AB5C225E,BC315C1A,7DE8AD3A\"}","DPD":{"UF":"65536","O?=
+ =?us-ascii?Q?CH":"4633195257213065204","SCHM":"Http","CNT":"1"},"PROC":[]?=
+ =?us-ascii?Q?},{"ID":19,"OU":"http://email.jefferies.streetcontxt.net/pla?=
+ =?us-ascii?Q?tform/i/6FSqUxWNuHbOihGczDq9FXW8UOZbCq9pMErpr5PBMfGWuHhPlQ6g?=
+ =?us-ascii?Q?8Ln8ReQBT54wA4y9vawLGriejCnizck8MMerXthmBk1dS7SblP6O0FjMckif?=
+ =?us-ascii?Q?2WESPZt3VRD8bxHh","U":"http://email.jefferies.streetcontxt.n?=
+ =?us-ascii?Q?et/platform/i/6FSqUxWNuHbOihGczDq9FXW8UOZbCq9pMErpr5PBMfGWuH?=
+ =?us-ascii?Q?hPlQ6g8Ln8ReQBT54wA4y9vawLGriejCnizck8MMerXthmBk1dS7SblP6O0F?=
+ =?us-ascii?Q?jMckif2WESPZt3VRD8bxHh","IAR":false,"LI":{"TN":"img","IC":fa?=
+ =?us-ascii?Q?lse,"BF":2,"SI":-1,"EndIndex":-1},"SRCI":1,"IU":null,"NU":"e?=
+ =?us-ascii?Q?mail.jefferies.streetcontxt.net/platform/i/6FSqUxWNuHbOihGcz?=
+ =?us-ascii?Q?Dq9FXW8UOZbCq9pMErpr5PBMfGWuHhPlQ6g8Ln8ReQBT54wA4y9vawLGriej?=
+ =?us-ascii?Q?Cnizck8MMerXthmBk1dS7SblP6O0FjMckif2WESPZt3VRD8bxHh","UFT":"?=
+ =?us-ascii?Q?{101:172,102:3,105:32,108:4,110:12,111:16,112:2,114:12,115:1?=
+ =?us-ascii?Q?5,116:2,118:9,119:12,121:8,122:3,123:1,125:3,128:128,131:100?=
+ =?us-ascii?Q?00000,135:\"4247C35D,EBA66849,8052097E,AE12040D,2D31DBFF,968?=
+ =?us-ascii?Q?CF6F3,BD93F01D,5A140DC2,B1E5A7E0,1CD93C63,605DD472,55A89E58,?=
+ =?us-ascii?Q?EC1BB2ED,2C739BEB,3998813B,4F7DB3DF,A8FC4DE1,DC0ED176,4ADC38?=
+ =?us-ascii?Q?6B,6A8F2781,6BE413B6,82621094,40A4ADD4,A139805E,15BB62BA,470?=
+ =?us-ascii?Q?18AE1\"}","DPD":{"UF":"65536","OCH":"4618821893731617723","S?=
+ =?us-ascii?Q?CHM":"Http","CNT":"1"},"PROC":[]},{"ID":20,"OU":"http://emai?=
+ =?us-ascii?Q?l.jefferies.streetcontxt.net/r/i/6FSqUxWNuHbOihGczDq9FXW8UOZ?=
+ =?us-ascii?Q?bCq9pMErpr5PBMfGWuHhPlQ6g8Ln8ReQBT54wA4y9vawLGriejCnizck8MMe?=
+ =?us-ascii?Q?rXthmBk1dS7SblP6O0FjMckif2WESPZt3VRD8bxHh","U":"http://email?=
+ =?us-ascii?Q?.jefferies.streetcontxt.net/r/i/6FSqUxWNuHbOihGczDq9FXW8UOZb?=
+ =?us-ascii?Q?Cq9pMErpr5PBMfGWuHhPlQ6g8Ln8ReQBT54wA4y9vawLGriejCnizck8MMer?=
+ =?us-ascii?Q?XthmBk1dS7SblP6O0FjMckif2WESPZt3VRD8bxHh","IAR":false,"LI":{?=
+ =?us-ascii?Q?"TN":"img","IC":false,"BF":2,"SI":-1,"EndIndex":-1},"SRCI":1?=
+ =?us-ascii?Q?,"IU":null,"NU":"email.jefferies.streetcontxt.net/r/i/6FSqUx?=
+ =?us-ascii?Q?WNuHbOihGczDq9FXW8UOZbCq9pMErpr5PBMfGWuHhPlQ6g8Ln8ReQBT54wA4?=
+ =?us-ascii?Q?y9vawLGriejCnizck8MMerXthmBk1dS7SblP6O0FjMckif2WESPZt3VRD8bx?=
+ =?us-ascii?Q?Hh","UFT":"{101:165,102:3,105:32,108:4,110:12,111:16,112:2,1?=
+ =?us-ascii?Q?14:12,115:15,116:2,118:9,119:12,121:8,122:3,123:1,125:3,128:?=
+ =?us-ascii?Q?128,131:10000000,135:\"4247C35D,EBA66849,8052097E,AE12040D,2?=
+ =?us-ascii?Q?D31DBFF,968CF6F3,BD93F01D,5A140DC2,B1E5A7E0,1CD93C63,605DD47?=
+ =?us-ascii?Q?2,55A89E58,EC1BB2ED,2C739BEB,3998813B,4F7DB3DF,A8FC4DE1,DC0E?=
+ =?us-ascii?Q?D176,4ADC386B,6A8F2781\"}","DPD":{"UF":"65536","OCH":"253816?=
+ =?us-ascii?Q?5279220839426","SCHM":"Http","CNT":"1"},"PROC":[]}]?=
+X-MS-Exchange-Organization-PersistedUrlCount: 22
+X-MS-Exchange-Organization-Antispam-PreContentFilter-ScanContext:
+	CategorizerOnSubmitted;CategorizerOnResolved;
+X-MS-Exchange-Organization-AVScannedByV2: Symantec;Microsoft;Command
+X-MS-Exchange-Organization-AVScanComplete: true
+X-MS-Exchange-Organization-UrlSelected: 1
+X-MS-Exchange-Organization-UrlLogged: 1
+X-MS-Exchange-Organization-Recipient-Limit-Verified: True
+X-MS-Exchange-Organization-TotalRecipientCount: 1
+X-MS-Exchange-Organization-ReplyAllBlocker-Verdict: Allow
+X-MS-Exchange-Organization-ASDirectionalityType: 1
+X-MS-Exchange-Organization-Boomerang-Verdict: None
+X-MS-Exchange-Organization-HMATPModel-DkimAuthStatus: 2
+X-MS-Exchange-Organization-HMATPModel-DmarcAuthStatus: 3
+X-MS-Exchange-Organization-Rules-Execution-History:
+	dab331b5-6cbe-4551-904a-f74c18231a4b%%%bd609b88-b16a-45d6-9900-df94a8e55a81%%%90d8fc8a-c84e-4a47-a95c-b18b0af66712
+X-MS-Exchange-Forest-RulesExecuted: CWXP123MB2613
+X-MS-Exchange-Organization-RulesExecuted: CWXP123MB2613
+X-MS-Exchange-Organization-SenderRecipientCommunicationState: EST
+X-MS-Exchange-Organization-Antispam-ContentFilter-ScanContext:
+	CategorizerOnResolved;
+X-MS-Exchange-Organization-CommunicationStateSummary: EST
+X-MS-Exchange-Organization-FirstContactSummary:
+	ST=1;MRG=0;EXT=0;UN=1;ORCT=1;EV=1;FC=0;NESI=0;NES=0;ESTI=0;EST=1;INS=0;ERR=0
+X-MS-Exchange-Organization-CFA-UserOption: 0
+X-MS-Exchange-Organization-Antispam-SFASkipFiltering: true
+X-MS-Exchange-Organization-CompAuth-Eop: compauth=none reason=451
+X-MS-Exchange-Organization-ContainsAttachments: true
+X-MS-Exchange-Organization-Feature-Long: 0	201:23532	202:2640	203:1	205:320
+	206:3	208:668	210:1526	211:6	212:1	215:23527	220:18	221:15	222:3	223:12	226:1
+	227:1	228:1	234:1	235:2	236:2	237:5	238:3	239:1	241:1	242:1	243:2	244:5	245:1
+	246:1	247:1	248:4	252:1	253:1	254:1	255:1	256:1	257:12	258:1	260:4	261:500
+	262:8	263:3	264:666	265:17	1004:aglresources.com	1005:access
+	1006:access,importan,limit,attach,request	1007:Latn	1008:andrew.com
+	1009:notice	1014:jefferies.com	1015:jefferies.com	1020:scx.jefferies.com
+	1030:scx.jefferies.com	1033:jpg	1034:D7048E1@melqart.com	1035:jefferies.com
+X-MS-Exchange-Organization-HDRFeatureV2:
+	10;0;4;1;1;0;1;1;0;0;1;1;0;4;1;0;113;10;34;7;11;0;7;7;15;10;4;4;2;34;4;2;2;3;4;-1;-1;-1;-1;-1;-1;4;33;-1;-1
+X-MS-Exchange-Organization-ExtractionAttachmentNames: 0
+X-MS-Exchange-Organization-ExtractionTags: SUB64;1IMG;2IMG;LINK;
+X-MS-Exchange-Organization-ExtractionTagsURLFound: URL
+X-MS-Exchange-Organization-ExtractionTagsSubject: JEF Resources Virtual
+ Access***FARMAN, DGOC, US Offshore Wind, Offshore Wind Contractors,
+ FESHARAKI***RSVP
+X-MS-Exchange-Organization-ExtractionTagsFrom: Marc Kofler
+ <marc.kofler@jefferies.com>
+X-MS-Exchange-Organization-ExtractionTagsSubjectNormalized: jef resources
+ vlrtual aces farrnan dgoc us ofshore vvlnd ofshore vvlnd contractors
+ fesharakl rsvp
+X-MS-Oob-TLC-OOBClassifiers: OLM:9508;
+X-MS-Exchange-Organization-DetonationSkipEnforcementScenarios: TenantAllow
+X-MS-Exchange-Organization-Antispam-PostContentFilter-ScanContext:
+	CategorizerOnResolved;CategorizerOnRouted;
+X-MS-Exchange-Organization-SCL: -1
+X-Microsoft-Antispam: BCL:0;
+X-Microsoft-Antispam-Message-Info:
+	=?us-ascii?Q?89FzDcFr7BbUkIjliM6mmTJdch6FwI64P8kVS9+RQRUlBHCq3oEH/q7KNd18?=
+ =?us-ascii?Q?w1lt06P+Jdc18ZIZhGgASYFGIlBe0UIakolxH8NCSlwvLAjv03arhAPgmvW3?=
+ =?us-ascii?Q?oDdYGhyMV8AbbI6e/+/0irUAYniieEUtmlu9GZpE3QPbUKgtiKWTlmbbF5C/?=
+ =?us-ascii?Q?Zqv/dDnywDT6dq4k0gXeXSPmwWdqtikVcVjksXiHmlooOFPadRpqtt9IbPPB?=
+ =?us-ascii?Q?wearO5K/jo6zYn2EVMdIUvYfjYddv/2eqjTP0cr9oSvapbgW9jGSMa4WYNJf?=
+ =?us-ascii?Q?pDh1XyDji3E7Txpa8SNasphcmwk2JF5SYIJEG94NtQZlIy63DSkfaqoS+h3K?=
+ =?us-ascii?Q?iq6ACBT7sFMXKbacKkSJsY8N1e5gEvtdkMcnv/rFsUc8BzfBHIg5GMHNJs05?=
+ =?us-ascii?Q?w5eMy5bPlfcmblU24kvYS3ZFxE2QMC+EzrBMOjPBe/nJ0abRAol6oLWWVo5V?=
+ =?us-ascii?Q?sOtE0EBBqZvkoSP6s4lVjCaSfNw9xPKYGfMB7O7uRH+i6xzUGNzD4b5HVCvl?=
+ =?us-ascii?Q?0lHgZdfhjQfhTCWkk5rCKg5XRwxjDB/5oRLN5RAZ7vnYAxMF22v+uUE8GUTq?=
+ =?us-ascii?Q?/ncGSIivQw047vWFV6i8vjbSsK30JHIaPohp3Tv6ha/Lwn3n5X6pmODYmHMl?=
+ =?us-ascii?Q?MW3ZHoXxfQw9bNCE3PsENtQmMBheIvgw0Roo5vsAmklFisYWCxil0Qzc9r4N?=
+ =?us-ascii?Q?Ezkceqmk/v2Swjsr8bdD7yiQK3AU1AV+d+ITjgpzcIaS1SQu2CaxkfRvqaBF?=
+ =?us-ascii?Q?wuRqdB6g47QNmQMbWrQezY/ybHSQRcdJkKTQo9pSRrB+imDZvJ1HTwXAMPbi?=
+ =?us-ascii?Q?TA7dmc2G/P5gAbOIh/HYRZJVBiqlJj3QxZ+cyzMCG+9zMbFXkqyqipIras95?=
+ =?us-ascii?Q?dNBbga1apMIFhUmofgTe6IukjrUVbSf2Aoc0W1J3KYGYIAio7jhH3Y2Ph2qw?=
+ =?us-ascii?Q?c0CDkuaTM7RMiBPulJvxfFBAZcY0+/VaZEqYxb+s3nTuHhBN4Zp1Kh00hJyL?=
+ =?us-ascii?Q?8all5jNvl0aMGvIa7g+YfmI7T0+g1+8OnDLEuml/whd8KVfnJsbHfi5Bjqcx?=
+ =?us-ascii?Q?XJDqOLp3pWd/EbC+TKRxxeA8HHnftExJsSX8IvzJ2XkgmeL5tFe7RHqn4lQZ?=
+ =?us-ascii?Q?mIfsHeOkqvZ0ZEpONys6+Tg+EEL1dEQrBcB8StFs+wX8ByQfkAA8HZenv80v?=
+ =?us-ascii?Q?e7KQATLmFCIUYyEznJVJYpUFOlyz+H2w1XCTvpWf06Ig9Sk1gCWz3LoeAbOi?=
+ =?us-ascii?Q?T3HiiD9JSvDeEtnQu1nw3oUlgg2A7+Cr5OgRSvBbzfzyKp9is58cQMOgMQUZ?=
+ =?us-ascii?Q?cUPCNvqVM8uWR8nuIjcktXQJ?=
+X-Forefront-Antispam-Report:
+	CIP:195.130.217.221;CTRY:GB;LANG:en;SCL:-1;SRV:;IPV:CAL;SFV:SKN;H:eu-smtp-1.mimecast.com;PTR:eu-smtp-delivery-1.mimecast.com;CAT:NONE;SFS:;DIR:INB;
+X-MS-Exchange-Organization-GroupForkPerf: VCL=0;VL=8
+X-MS-Exchange-Organization-Cross-Session-Cache:
+	=?us-ascii?Q?00CIP=3D195.130.217.221;EIPC0=3D2004,2055,950,951,2005,2006,?=
+ =?us-ascii?Q?2007,2008,2009,2010,2011,2012,2013,2014,2000,2050,2051,2052,?=
+ =?us-ascii?Q?952,902,2054,2016,903,901,907,905,904,2001,3000,2003,2002,96?=
+ =?us-ascii?Q?7,2058,2059,2060,531,2017,5080,5011,5051,5001,5057,5055,5058?=
+ =?us-ascii?Q?,5056,5052,5054,906,5010,5059,5053,5002,5003,5005,5070;MIPC0?=
+ =?us-ascii?Q?=3D2003,2004,950,952,951,5011;REP=3D01,1,0\;01,2,0\;01,3,0\;?=
+ =?us-ascii?Q?01,4,0\;01,5,183\;01,6,0\;01,7,0\;01,8,91046\;01,9,0\;01,10,?=
+ =?us-ascii?Q?0\;01,11,0\;01,12,91046\;02,1,0\;02,2,0\;02,3,0\;02,4,0\;02,?=
+ =?us-ascii?Q?5,0\;02,6,0\;02,7,0;SL=3D3;EMSL=3D1;SCL=3D-1;BL=3D0;RL=3D1;P?=
+ =?us-ascii?Q?ID=3D0;EXPID=3D;IsIncomingMail=3Dtrue;TIP=3DAllowList;TP=5FC?=
+ =?us-ascii?Q?PIP=3DAllow;IPV=3DCAL;IPB=5FSkip=3D1;IPT=5FSkip=3D1;CIPCRY?=
+ =?us-ascii?Q?=3DGB;SAUTHOP=3D1;RMX=3DMimecast;EIPC1=3D2004,2055,950,951,2?=
+ =?us-ascii?Q?005,2006,2007,2008,2009,2010,2011,2012,2013,2014,2000,2050,2?=
+ =?us-ascii?Q?051,2052,952,902,2054,2016,903,901,907,905,904,2001,3000,200?=
+ =?us-ascii?Q?3,2002,967,2058,2059,2060,531,2017,5080,5011,5051,5001,5057,?=
+ =?us-ascii?Q?5055,5058,5056,5052,5054,906,5010,5059,5053,5002,5003,5005,5?=
+ =?us-ascii?Q?070;MIPC1=3D2003,2004,950,952,951,902,2014,5011;A=3D01;MX=3D?=
+ =?us-ascii?Q?00;PTR=3D00eu-smtp-delivery-1.mimecast.com;SPF=3D041Ym91bmNl?=
+ =?us-ascii?Q?cysxODUzOTY2NS1jZDFiLXNpbW9uLnBvZ2dpb2xpPW1lbHFhcnQuY29tQHNj?=
+ =?us-ascii?Q?eC5qZWZmZXJpZXMuY29t;DKIM=3D00ai5fZG9tYWlua2V5LmplZmZlcmllcy?=
+ =?us-ascii?Q?5jb20=3D\;az1yc2E7IHQ9czsgcD1NSUdmTUEwR0NTcUdTSWIzRFFFQkFRVU?=
+ =?us-ascii?Q?FBNEdOQURDQmlRS0JnUURBd1k4SXJYbGhmZWNtVlJXcGNzTENzYlZ3ekNvNW?=
+ =?us-ascii?Q?IvdE84TEdQN0F1VGxjMzIzcDEwSDFCQWgyeTVHcVFHTDd2RlRZYmRmT3BDNW?=
+ =?us-ascii?Q?0rcnBycDVaNy9KcUVjUzlDY295MkRnOFI3eWtxK1RjdWZWWDloNW1WeDlxV2?=
+ =?us-ascii?Q?tsREVQSjAxdXZFUENUVW9iS2hBNDF5ZENvakZVcjk2ODFMSlJxY041a21ib2?=
+ =?us-ascii?Q?hjUElFandJREFRQUI=3D;DMARC=3D00amVmZmVyaWVzLmNvbQ=3D=3D\;dj1?=
+ =?us-ascii?Q?ETUFSQzE7IHA9cmVqZWN0OyBmbz0xOyBydWE9bWFpbHRvOmRtYXJjX3J1YUB?=
+ =?us-ascii?Q?lbWFpbGRlZmVuc2UucHJvb2Zwb2ludC5jb207IHJ1Zj1tYWlsdG86ZG1hcmN?=
+ =?us-ascii?Q?fcnVmQGVtYWlsZGVmZW5zZS5wcm9vZnBvaW50LmNvbQ=3D=3D;AUTHRES=3D?=
+ =?us-ascii?Q?[mx.microsoft.com,1]{5,8,RgBhAGkAbAA=3D,cwBlAG4AZABlAHIAIABJ?=
+ =?us-ascii?Q?AFAAIABpAHMAIAAxADkANQAuADEAMwAwAC4AMgAxADcALgAyADIAMQA=3D,c?=
+ =?us-ascii?Q?wBtAHQAcAAuAHIAYwBwAHQAVABvAEQAbwBtAGEAaQBuAA=3D=3D|bQBlAGwA?=
+ =?us-ascii?Q?cQBhAHIAdAAuAGMAbwBtAA=3D=3D,cwBtAHQAcAAuAE0AYQBpAGwARgByAG8?=
+ =?us-ascii?Q?AbQA=3D|cwBjAHgALgBqAGUAZgBmAGUAcgBpAGUAcwAuAGMAbwBtAA=3D=3D?=
+ =?us-ascii?Q?}{9,8,RgBhAGkAbAA=3D,cAA9AHIAZQBqAGUAYwB0ACAAcwBwAD0AcgBlAGo?=
+ =?us-ascii?Q?AZQBjAHQAIABwAGMAdAA9ADEAMAAwAA=3D=3D,YQBjAHQAaQBv?=
+X-MS-Exchange-Organization-Cross-Session-Cache:
+	=?us-ascii?Q?01AG4A|TwBSAGUAagBlAGMAdAA=3D,aABlAGEAZABlAHIALgBmAHIAbwBtAA?=
+ =?us-ascii?Q?=3D=3D|agBlAGYAZgBlAHIAaQBlAHMALgBjAG8AbQA=3D}{2,8,RgBhAGkAb?=
+ =?us-ascii?Q?AA=3D,YgBvAGQAeQAgAGgAYQBzAGgAIABkAGkAZAAgAG4AbwB0ACAAdgBlAH?=
+ =?us-ascii?Q?IAaQBmAHkA,aABlAGEAZABlAHIALgBkAA=3D=3D|agBlAGYAZgBlAHIAaQBl?=
+ =?us-ascii?Q?AHMALgBjAG8AbQA=3D}{12,7,TgBvAG4AZQA=3D,MAA=3D};SpfResult=3D?=
+ =?us-ascii?Q?4;DkimStatus=3D2;DkimSS=3D10;DmarcStatus=3D3;DmarcAction=3D5?=
+ =?us-ascii?Q?;DmarcSkip=3D451;ARCRES=3Dv100000000000000000000000000000000?=
+ =?us-ascii?Q?000000000;CAuthExp=3Dtrue;MFP=3D5ad961dd-8220-43de-b5e4-bc88?=
+ =?us-ascii?Q?b0aab076;PReRC=3D1;FPR=3DEFCB4E59.86F4A1D8.FBA757.58E9DB4D.2?=
+ =?us-ascii?Q?048B;URLC=5FBE=3D39;URLC=5FBEC=3D34;URLC=5FB=3D22;URLC=5FBC?=
+ =?us-ascii?Q?=3D17;URLC=5FAE=3D0;UMGPV=3D1043;UMEPV=3D9999;NoDLx=3D1;CGDL?=
+ =?us-ascii?Q?xSupported=3D1;BR=5FV=3DNone;DIR=3D1;PTRO=3Dmimecast.com;P2O?=
+ =?us-ascii?Q?=3Djefferies.com;P=5FCAUTH=3Dnone;P=5FCAUTHR=3D451;CFP=3Dde3?=
+ =?us-ascii?Q?eb1cc-3e56-4210-beda-30d924425a90;HCFP=3D79b94c53-c05e-478c-?=
+ =?us-ascii?Q?8fb5-fe0ca0d50cb4;APP=3D8a1ec482-cff2-4190-b598-3d75fa19957a?=
+ =?us-ascii?Q?;GWS=5FRead=3DV2;SRCS=3DEST;CAUTH=3Dnone;CAUTHR=3D451;CAUTH?=
+ =?us-ascii?Q?=5FCAT=3DAD;IVB=5FDBG=3DD2;HMEPV=3D10000;HMEPV2=3D1412;HMESV?=
+ =?us-ascii?Q?=3D3993;HMESV2=3D9999;SRESV=3D6792;BMASV=3D2574;BMESV=3D7447?=
+ =?us-ascii?Q?;BMAPV=3D2604;BMEPV=3D10000;CMASV=3D10000;CMAPV=3D10000;CBEB?=
+ =?us-ascii?Q?V=3D6054;CBEBV2=3D7913;CLEPV=3D10000;URLF=5FDBG=3DDS:7;FFV?=
+ =?us-ascii?Q?=3DNSPM;FV=5FSCL=3D1;TP=5FFV=3DAllow;TP=5FFC=3DConnPolicy;TP?=
+ =?us-ascii?Q?V=5FSCL=3D-1;FV=3DAllow;FVS=3DTenant;FSCL=3D-1;TAP=5FEP=3D?=
+X-MS-Exchange-Organization-Processed-By-Gcc-Journaling: Journal Agent
+
+--_f65fb63f-fbf9-4092-b3e9-d856724d8f59_
+Content-Type: multipart/alternative;
+	boundary="_67ba47fb-61b9-4171-bfcf-4983c2c98a9d_"
+
+--_67ba47fb-61b9-4171-bfcf-4983c2c98a9d_
+Content-Type: text/plain; charset=WINDOWS-1252
+Content-Transfer-Encoding: quoted-printable
+
+[Equities]
+EMEA Corporate & Research Access
+
+As of 16th November 2020
+
+Jefferies Upcoming EMEA Virtual Access Events
+
+Resources
+
+Nov 16              Jefferies Research Analyst Marketing - Ahmed Farman (Ut=
+ilities) Orsted - Spotlight on US Offshore Wind Opportunity<https://protect=
+-eu.mimecast.com/s/7q-2Cyro7URPPQsZG3L5>, Deep-diving Offshore Wind; Initia=
+te =D8rsted at Buy, Upgrade RWE to Buy<https://protect-eu.mimecast.com/s/4o=
+UkCzKvQhAYYycXJZ_o> (Nov 16, 17, 18, 19, 20)
+
+Nov 18,19         Diversified Gas & Oil PLC<https://protect-eu.mimecast.com=
+/s/BlN-CAPNWCzKKPi9SmJk> (DGOC LN) CEO, CFO, SVP Strategy & Finance & VP IR=
+ (1:1s) (Nov 18, 19, Dec 2)
+
+Nov 19              Jefferies University: US Offshore Wind: Ready For Take-=
+off?<https://protect-eu.mimecast.com/s/V3ArCBLNOUOXXkTjj_ih> - Rany Raviv, =
+former Vice President, Offshore Wind at Avangrid Renewables, subsidiary of =
+Iberdrola (14:00 UK time) NEW
+
+Nov 24              Jefferies Offshore Wind Contractors Summit
+Equity Research Report: Mark Wilson (Energy) Do You Wanna Build a Windfarm.=
+..<https://protect-eu.mimecast.com/s/SbbJCD916TkLLWclCfw4>
+Subsea 7, CEO
+Nexans, EVP, Subsea & Land Systems Business Group
+Lamprell, CEO, CFO
+Prysmian, EVP Projects Business, Chief R&D Officer, Head of IR
+Fred. Olsen Windcarrier, CEO
+Jan de Nul Group, Senior Financial Manager Offshore
+Scorpio Bulkers, UK MD
+
+Nov 25              Jefferies University: Dr. Fesharaki's Oil Market Insigh=
+ts Ahead of OPEC<https://protect-eu.mimecast.com/s/WlTDCE981TN88zIQU86x> - =
+Expert call with Dr. Fereidun Fesharaki, Founder and Chairman of FACTS Glob=
+al Energy (FGE) (13:30 UK time)
+
+European Specialist Sales: Marc Kofler (marc.kofler@jefferies.com<mailto:ma=
+rc.kofler@jefferies.com> / +442078987097)
+
+
+
+Please refer to Jefferies' important disclosure via this link<https://prote=
+ct-eu.mimecast.com/s/U74iCG5vzFQNNPs10hJu>.
+Please refer to our Privacy Notice<https://protect-eu.mimecast.com/s/UX77CJ=
+qyzFDWW2CyjJsp> for an explanation of how we manage your information.
+Please reply to this email or your Jefferies Representative to unsubscribe.
+
+Marc Kofler
+Resources Specialist Sales
+Tel: +44 (0)20 7898 7097 / Mob: +44 (0)7970 108 330
+
+Jefferies International Limited
+100 Bishopsgate, London EC2N 4JL
+https://protect-eu.mimecast.com/s/0rEICKZ1zfGyyYF2WpFh<https://protect-eu.m=
+imecast.com/s/0rEICKZ1zfGyyYF2WpFh>
+
+
+
+Richard Stroud | Corporate Access Marketing
+Jefferies International Limited, 100 Bishopsgate, London, EC2N 4JL
+T: +442075484315 | M: +447967448087 | E: rstroud1@jefferies.com<mailto:rstr=
+oud1@jefferies.com>
+
+Please refer to the Jefferies International Limited disclaimer via the foll=
+owing link: Jefferies Disclaimer<https://protect-eu.mimecast.com/s/EJ0SCL87=
+0tZDDgS5V54w>
+
+Jefferies International Limited
+100 Bishopsgate, London, EC2N 4JL
+Tel: +44 (0)20 7029 8000
+
+
+[Jefferies.com]<https://protect-eu.mimecast.com/s/0rEICKZ1zfGyyYF2WpFh>
+[Jefferies LinkedIn]<https://protect-eu.mimecast.com/s/WfoKCMQwNiAyyLcNur2t=
+>
+[Jefferies Twitter]<https://protect-eu.mimecast.com/s/DMelCN9LXTGqqQFlQqhu>
+
+Find Jefferies online
+
+
+
+
+Jefferies archives and monitors outgoing and incoming e-mail together with =
+voice communications, where required. For information about how we handle p=
+ersonal data see our privacy notice.<https://protect-eu.mimecast.com/s/yHSp=
+COyMLTyLLguRkINj> The contents of this email, including any attachments, ar=
+e confidential to the ordinary user of the email address to which it was ad=
+dressed. If you are not the addressee of this email you may not copy, forwa=
+rd, disclose or otherwise use it or any part of it in any form whatsoever. =
+This email may be produced at the request of regulators or in connection wi=
+th civil litigation. Jefferies accepts no liability for any errors or omiss=
+ions arising as a result of transmission. Use by other than intended recipi=
+ents is prohibited. In the United Kingdom, Jefferies operates as Jefferies =
+International Limited; registered in England: no. 1978621; registered offic=
+e: 100 Bishopsgate, London EC2N 4JL. Jefferies International Limited is aut=
+horized and regulated by the Financial Conduct Authority.
+https://protect-eu.mimecast.com/s/LZEdCPZ7gfk112c9mvfP
+
+--_67ba47fb-61b9-4171-bfcf-4983c2c98a9d_
+Content-Type: text/html; charset=WINDOWS-1252
+Content-Transfer-Encoding: quoted-printable
+
+<html xmlns:v=3D"urn:schemas-microsoft-com:vml" xmlns:o=3D"urn:schemas-micr=
+osoft-com:office:office" xmlns:w=3D"urn:schemas-microsoft-com:office:word" =
+xmlns:m=3D"http://schemas.microsoft.com/office/2004/12/omml" xmlns=3D"http:=
+//www.w3.org/TR/REC-html40"><head>
+<meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Diso-8859-=
+1">
+<meta name=3D"Generator" content=3D"Microsoft Word 15 (filtered medium)">
+<!--[if !mso]><style>v\:* {behavior:url(#default#VML);}
+o\:* {behavior:url(#default#VML);}
+w\:* {behavior:url(#default#VML);}
+.shape {behavior:url(#default#VML);}
+</style><![endif]--><style><!--
+/* Font Definitions */
+@font-face
+=09{font-family:"Cambria Math";
+=09panose-1:2 4 5 3 5 4 6 3 2 4;}
+@font-face
+=09{font-family:Calibri;
+=09panose-1:2 15 5 2 2 2 4 3 2 4;}
+/* Style Definitions */
+p.MsoNormal, li.MsoNormal, div.MsoNormal
+=09{margin:0cm;
+=09margin-bottom:.0001pt;
+=09font-size:11.0pt;
+=09font-family:"Calibri",sans-serif;}
+a:link, span.MsoHyperlink
+=09{mso-style-priority:99;
+=09color:#0563C1;
+=09text-decoration:underline;}
+a:visited, span.MsoHyperlinkFollowed
+=09{mso-style-priority:99;
+=09color:#954F72;
+=09text-decoration:underline;}
+p.msonormal0, li.msonormal0, div.msonormal0
+=09{mso-style-name:msonormal;
+=09mso-margin-top-alt:auto;
+=09margin-right:0cm;
+=09mso-margin-bottom-alt:auto;
+=09margin-left:0cm;
+=09font-size:11.0pt;
+=09font-family:"Calibri",sans-serif;}
+span.EmailStyle18
+=09{mso-style-type:personal;
+=09font-family:"Calibri",sans-serif;
+=09color:windowtext;}
+span.EmailStyle19
+=09{mso-style-type:personal-reply;
+=09font-family:"Calibri",sans-serif;
+=09color:windowtext;}
+.MsoChpDefault
+=09{mso-style-type:export-only;
+=09font-size:10.0pt;}
+@page WordSection1
+=09{size:612.0pt 792.0pt;
+=09margin:72.0pt 72.0pt 72.0pt 72.0pt;}
+div.WordSection1
+=09{page:WordSection1;}
+--></style><!--[if gte mso 9]><xml>
+<o:shapedefaults v:ext=3D"edit" spidmax=3D"1027" />
+</xml><![endif]--><!--[if gte mso 9]><xml>
+<o:shapelayout v:ext=3D"edit">
+<o:idmap v:ext=3D"edit" data=3D"1" />
+</o:shapelayout></xml><![endif]-->
+</head>
+<body lang=3D"EN-GB" link=3D"#0563C1" vlink=3D"#954F72">
+<div class=3D"WordSection1">
+<div align=3D"center">
+<table class=3D"MsoNormalTable" border=3D"1" cellspacing=3D"0" cellpadding=
+=3D"0" width=3D"678" style=3D"width:508.5pt;border:solid windowtext 1.0pt">
+<tbody>
+<tr style=3D"height:37.6pt">
+<td width=3D"678" style=3D"width:508.5pt;border-top:solid windowtext 1.0pt;=
+border-left:none;border-bottom:solid windowtext 1.0pt;border-right:none;bac=
+kground:#102647;padding:0cm 0cm 0cm 0cm;height:37.6pt">
+<p class=3D"MsoNormal" style=3D"mso-margin-top-alt:0cm;margin-right:21.6pt;=
+margin-bottom:6.0pt;margin-left:7.1pt;line-height:13.0pt;text-autospace:non=
+e">
+<!--[if gte vml 1]><v:shapetype id=3D"_x0000_t75" coordsize=3D"21600,21600"=
+ o:spt=3D"75" o:preferrelative=3D"t" path=3D"m@4@5l@4@11@9@11@9@5xe" filled=
+=3D"f" stroked=3D"f">
+<v:stroke joinstyle=3D"miter" />
+<v:formulas>
+<v:f eqn=3D"if lineDrawn pixelLineWidth 0" />
+<v:f eqn=3D"sum @0 1 0" />
+<v:f eqn=3D"sum 0 0 @1" />
+<v:f eqn=3D"prod @2 1 2" />
+<v:f eqn=3D"prod @3 21600 pixelWidth" />
+<v:f eqn=3D"prod @3 21600 pixelHeight" />
+<v:f eqn=3D"sum @0 0 1" />
+<v:f eqn=3D"prod @6 1 2" />
+<v:f eqn=3D"prod @7 21600 pixelWidth" />
+<v:f eqn=3D"sum @8 21600 0" />
+<v:f eqn=3D"prod @7 21600 pixelHeight" />
+<v:f eqn=3D"sum @10 21600 0" />
+</v:formulas>
+<v:path o:extrusionok=3D"f" gradientshapeok=3D"t" o:connecttype=3D"rect" />
+<o:lock v:ext=3D"edit" aspectratio=3D"t" />
+</v:shapetype><v:shape id=3D"Picture_x0020_1" o:spid=3D"_x0000_s1026" type=
+=3D"#_x0000_t75" alt=3D"Equities" style=3D'position:absolute;left:0;text-al=
+ign:left;margin-left:308.6pt;margin-top:18.35pt;width:205.5pt;height:68.25p=
+t;z-index:251659264;visibility:visible;mso-wrap-style:square;mso-width-perc=
+ent:0;mso-height-percent:0;mso-wrap-distance-left:0;mso-wrap-distance-top:0=
+;mso-wrap-distance-right:0;mso-wrap-distance-bottom:0;mso-position-horizont=
+al:right;mso-position-horizontal-relative:text;mso-position-vertical:absolu=
+te;mso-position-vertical-relative:line;mso-width-percent:0;mso-height-perce=
+nt:0;mso-width-relative:page;mso-height-relative:page' o:allowoverlap=3D"f"=
+>
+<v:imagedata src=3D"cid:image001.jpg@01D6B9DD.8142ADB0" o:title=3D"Equities=
+" />
+<w:wrap type=3D"square"/>
+</v:shape><![endif]--><!--[if !vml]--><img width=3D"274" height=3D"91" styl=
+e=3D"width:2.8541in;height:.9479in" src=3D"cid:image001.jpg@01D6B9DD.8142AD=
+B0" align=3D"right" alt=3D"Equities" v:shapes=3D"Picture_x0020_1"><![endif]=
+><span style=3D"font-family:&quot;Arial&quot;,sans-serif;color:white"><o:p>=
+</o:p></span></p>
+<p class=3D"MsoNormal" style=3D"mso-margin-top-alt:0cm;margin-right:21.6pt;=
+margin-bottom:6.0pt;margin-left:7.1pt;mso-line-height-alt:13.0pt;text-autos=
+pace:none">
+<span style=3D"font-size:16.0pt;font-family:&quot;Arial&quot;,sans-serif;co=
+lor:white">EMEA Corporate &amp; Research Access
+<o:p></o:p></span></p>
+</td>
+</tr>
+<tr style=3D"height:32.85pt">
+<td width=3D"678" valign=3D"top" style=3D"width:508.5pt;border-top:solid wi=
+ndowtext 1.0pt;border-left:none;border-bottom:solid windowtext 1.0pt;border=
+-right:none;background:white;padding:0cm 0cm 0cm 0cm;height:32.85pt">
+<p class=3D"MsoNormal" style=3D"margin-left:7.1pt"><span style=3D"font-size=
+:10.0pt;font-family:&quot;Arial&quot;,sans-serif"><o:p>&#xa0;</o:p></span><=
+/p>
+<p class=3D"MsoNormal" style=3D"margin-left:7.1pt"><span style=3D"font-size=
+:10.0pt;font-family:&quot;Arial&quot;,sans-serif;color:black">As of 16<sup>=
+th</sup> November 2020</span><span style=3D"font-size:10.0pt;font-family:&q=
+uot;Arial&quot;,sans-serif"><o:p></o:p></span></p>
+<p class=3D"MsoNormal" style=3D"margin-left:7.1pt"><span style=3D"font-size=
+:10.0pt;font-family:&quot;Arial&quot;,sans-serif"><o:p>&#xa0;</o:p></span><=
+/p>
+<p class=3D"MsoNormal" style=3D"margin-left:7.1pt"><b><span style=3D"font-s=
+ize:16.0pt;font-family:&quot;Arial&quot;,sans-serif;color:black">Jefferies =
+Upcoming EMEA Virtual Access Events</span></b><b><span style=3D"font-size:1=
+6.0pt;font-family:&quot;Arial&quot;,sans-serif"><o:p></o:p></span></b></p>
+<table class=3D"MsoNormalTable" border=3D"0" cellspacing=3D"0" cellpadding=
+=3D"0" style=3D"border-collapse:collapse">
+<tbody>
+<tr>
+<td width=3D"676" valign=3D"top" style=3D"width:507.0pt;background:white;pa=
+dding:0cm 5.4pt 0cm 5.4pt">
+<p class=3D"MsoNormal"><b><u><span style=3D"font-size:10.0pt;font-family:&q=
+uot;Arial&quot;,sans-serif;color:#0070C0"><o:p><span style=3D"text-decorati=
+on:none">&#xa0;</span></o:p></span></u></b></p>
+<p class=3D"MsoNormal"><b><u><span style=3D"font-size:10.0pt;font-family:&q=
+uot;Arial&quot;,sans-serif;color:#0070C0">Resources<o:p></o:p></span></u></=
+b></p>
+<p class=3D"MsoNormal"><span style=3D"font-size:10.0pt;font-family:&quot;Ar=
+ial&quot;,sans-serif"><o:p>&#xa0;</o:p></span></p>
+<p class=3D"MsoNormal" style=3D"margin-left:72.0pt;text-indent:-72.0pt"><sp=
+an class=3D"MsoHyperlink"><span style=3D"font-size:10.0pt;font-family:&quot=
+;Arial&quot;,sans-serif;color:black;text-decoration:none">Nov 16&#xa0;&#xa0=
+;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;
+<b>Jefferies Research Analyst Marketing &#x2013; Ahmed Farman (Utilities) <=
+/b></span></span><span style=3D"color:black"><a href=3D"https://protect-eu.=
+mimecast.com/s/7q-2Cyro7URPPQsZG3L5"><span style=3D"font-size:10.0pt;font-f=
+amily:&quot;Arial&quot;,sans-serif;color:#0070C0">Orsted - Spotlight
+ on US Offshore Wind Opportunity</span></a></span><span style=3D"font-size:=
+10.0pt;font-family:&quot;Arial&quot;,sans-serif;color:black">,
+</span><span style=3D"color:black"><a href=3D"https://protect-eu.mimecast.c=
+om/s/4oUkCzKvQhAYYycXJZ_o"><span style=3D"font-size:10.0pt;font-family:&quo=
+t;Arial&quot;,sans-serif;color:#0070C0">Deep-diving Offshore Wind; Initiate=
+ =D8rsted at Buy, Upgrade RWE to Buy</span></a></span><span style=3D"font-s=
+ize:10.0pt;font-family:&quot;Arial&quot;,sans-serif;color:black">
+ (Nov 16, 17, 18, 19, 20) </span><b><span style=3D"font-size:10.0pt;font-fa=
+mily:&quot;Arial&quot;,sans-serif;color:red"><o:p></o:p></span></b></p>
+<p class=3D"MsoNormal"><span style=3D"font-size:10.0pt;font-family:&quot;Ar=
+ial&quot;,sans-serif"><o:p>&#xa0;</o:p></span></p>
+<p class=3D"MsoNormal" style=3D"margin-left:72.0pt;text-indent:-72.0pt"><sp=
+an style=3D"font-size:10.0pt;font-family:&quot;Arial&quot;,sans-serif;color=
+:black">Nov 18,19&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;
+</span><span style=3D"color:black"><a href=3D"https://protect-eu.mimecast.c=
+om/s/BlN-CAPNWCzKKPi9SmJk"><b><span style=3D"font-size:10.0pt;font-family:&=
+quot;Arial&quot;,sans-serif;color:black;text-decoration:none">Diversified G=
+as &amp; Oil PLC</span></b></a></span><b><span style=3D"font-size:10.0pt;fo=
+nt-family:&quot;Arial&quot;,sans-serif;color:black">
+ (DGOC LN) </span></b><span style=3D"font-size:10.0pt;font-family:&quot;Ari=
+al&quot;,sans-serif;color:black">CEO, CFO, SVP Strategy &amp; Finance &amp;=
+ VP IR (1:1s) (Nov 18, 19, Dec 2)</span><span style=3D"font-size:10.0pt;fon=
+t-family:&quot;Arial&quot;,sans-serif"><o:p></o:p></span></p>
+<p class=3D"MsoNormal" style=3D"margin-left:72.0pt;text-indent:-72.0pt"><sp=
+an style=3D"font-size:10.0pt;font-family:&quot;Arial&quot;,sans-serif"><o:p=
+>&#xa0;</o:p></span></p>
+<p class=3D"MsoNormal" style=3D"margin-left:72.0pt;text-indent:-72.0pt"><sp=
+an style=3D"font-size:10.0pt;font-family:&quot;Arial&quot;,sans-serif;color=
+:black">Nov 19&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&=
+#xa0;&#xa0;&#xa0;
+</span><span style=3D"color:black"><a href=3D"https://protect-eu.mimecast.c=
+om/s/V3ArCBLNOUOXXkTjj_ih"><b><span style=3D"font-size:10.0pt;font-family:&=
+quot;Arial&quot;,sans-serif;color:black;text-decoration:none">Jefferies Uni=
+versity: US Offshore Wind: Ready For
+ Take-off?</span></b></a></span><span style=3D"font-size:10.0pt;font-family=
+:&quot;Arial&quot;,sans-serif;color:black"> &#x2013; Rany Raviv, former Vic=
+e President, Offshore Wind at Avangrid Renewables, subsidiary of Iberdrola =
+(14:00 UK time)
+</span><b><span style=3D"font-size:10.0pt;font-family:&quot;Arial&quot;,san=
+s-serif;color:red">NEW<o:p></o:p></span></b></p>
+<p class=3D"MsoNormal"><span style=3D"font-size:10.0pt;font-family:&quot;Ar=
+ial&quot;,sans-serif"><o:p>&#xa0;</o:p></span></p>
+<p class=3D"MsoNormal"><span style=3D"font-size:10.0pt;font-family:&quot;Ar=
+ial&quot;,sans-serif;color:black">Nov 24&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0=
+;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;
+<b>Jefferies Offshore Wind Contractors Summit</b></span><b><span style=3D"f=
+ont-size:10.0pt;font-family:&quot;Arial&quot;,sans-serif;color:red"><o:p></=
+o:p></span></b></p>
+<p class=3D"MsoNormal" style=3D"margin-left:72.0pt"><span style=3D"font-siz=
+e:10.0pt;font-family:&quot;Arial&quot;,sans-serif;color:black">Equity Resea=
+rch Report: Mark Wilson (Energy)
+</span><span style=3D"color:black"><a href=3D"https://protect-eu.mimecast.c=
+om/s/SbbJCD916TkLLWclCfw4"><span style=3D"font-size:10.0pt;font-family:&quo=
+t;Arial&quot;,sans-serif">Do
+ You Wanna Build a Windfarm...</span></a></span><span style=3D"font-size:10=
+.0pt;font-family:&quot;Arial&quot;,sans-serif"><o:p></o:p></span></p>
+<p class=3D"MsoNormal" style=3D"margin-left:108.0pt"><span style=3D"font-si=
+ze:10.0pt;font-family:&quot;Arial&quot;,sans-serif;color:black">Subsea 7, C=
+EO</span><span style=3D"font-size:10.0pt;font-family:&quot;Arial&quot;,sans=
+-serif"><o:p></o:p></span></p>
+<p class=3D"MsoNormal" style=3D"margin-left:108.0pt"><span style=3D"font-si=
+ze:10.0pt;font-family:&quot;Arial&quot;,sans-serif;color:black">Nexans, EVP=
+, Subsea &amp; Land Systems Business Group</span><span style=3D"font-size:1=
+0.0pt;font-family:&quot;Arial&quot;,sans-serif"><o:p></o:p></span></p>
+<p class=3D"MsoNormal" style=3D"margin-left:108.0pt"><span style=3D"font-si=
+ze:10.0pt;font-family:&quot;Arial&quot;,sans-serif;color:black">Lamprell, C=
+EO, CFO</span><span style=3D"font-size:10.0pt;font-family:&quot;Arial&quot;=
+,sans-serif"><o:p></o:p></span></p>
+<p class=3D"MsoNormal" style=3D"margin-left:108.0pt"><span style=3D"font-si=
+ze:10.0pt;font-family:&quot;Arial&quot;,sans-serif;color:black">Prysmian, E=
+VP Projects Business, Chief R&amp;D Officer, Head of IR</span><span style=
+=3D"font-size:10.0pt;font-family:&quot;Arial&quot;,sans-serif"><o:p></o:p><=
+/span></p>
+<p class=3D"MsoNormal" style=3D"margin-left:108.0pt"><span style=3D"font-si=
+ze:10.0pt;font-family:&quot;Arial&quot;,sans-serif;color:black">Fred. Olsen=
+ Windcarrier, CEO</span><span style=3D"font-size:10.0pt;font-family:&quot;A=
+rial&quot;,sans-serif"><o:p></o:p></span></p>
+<p class=3D"MsoNormal" style=3D"margin-left:108.0pt"><span style=3D"font-si=
+ze:10.0pt;font-family:&quot;Arial&quot;,sans-serif;color:black">Jan de Nul =
+Group, Senior Financial Manager Offshore</span><span style=3D"font-size:10.=
+0pt;font-family:&quot;Arial&quot;,sans-serif"><o:p></o:p></span></p>
+<p class=3D"MsoNormal" style=3D"margin-left:108.0pt"><span style=3D"font-si=
+ze:10.0pt;font-family:&quot;Arial&quot;,sans-serif;color:black">Scorpio Bul=
+kers, UK MD</span><span style=3D"font-size:10.0pt;font-family:&quot;Arial&q=
+uot;,sans-serif"><o:p></o:p></span></p>
+<p class=3D"MsoNormal"><span style=3D"font-size:10.0pt;font-family:&quot;Ar=
+ial&quot;,sans-serif"><o:p>&#xa0;</o:p></span></p>
+<p class=3D"MsoNormal" style=3D"margin-left:72.0pt;text-indent:-72.0pt"><sp=
+an style=3D"font-size:10.0pt;font-family:&quot;Arial&quot;,sans-serif;color=
+:black">Nov 25&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&=
+#xa0;&#xa0;&#xa0;
+</span><span style=3D"color:black"><a href=3D"https://protect-eu.mimecast.c=
+om/s/WlTDCE981TN88zIQU86x"><b><span style=3D"font-size:10.0pt;font-family:&=
+quot;Arial&quot;,sans-serif;color:black;text-decoration:none">Jefferies Uni=
+versity: Dr. Fesharaki&#x2019;s Oil Market
+ Insights Ahead of OPEC</span></b></a></span><span style=3D"font-size:10.0p=
+t;font-family:&quot;Arial&quot;,sans-serif;color:black"> &#x2013; Expert ca=
+ll with Dr. Fereidun Fesharaki, Founder and Chairman of FACTS Global Energy=
+ (FGE) (13:30 UK time)</span><span style=3D"font-size:10.0pt;font-family:&q=
+uot;Arial&quot;,sans-serif;color:red"><o:p></o:p></span></p>
+<p class=3D"MsoNormal"><span style=3D"font-size:10.0pt;font-family:&quot;Ar=
+ial&quot;,sans-serif"><o:p>&#xa0;</o:p></span></p>
+<p class=3D"MsoNormal"><span style=3D"font-size:10.0pt;font-family:&quot;Ar=
+ial&quot;,sans-serif;color:black">European Specialist Sales: Marc Kofler (<=
+/span><span style=3D"color:black"><a href=3D"mailto:marc.kofler@jefferies.c=
+om"><span style=3D"font-size:10.0pt;font-family:&quot;Arial&quot;,sans-seri=
+f">marc.kofler@jefferies.com</span></a></span><span style=3D"font-size:10.0=
+pt;font-family:&quot;Arial&quot;,sans-serif;color:black">
+ / +442078987097)</span><span style=3D"font-size:10.0pt;font-family:&quot;A=
+rial&quot;,sans-serif"><o:p></o:p></span></p>
+<p class=3D"MsoNormal"><span style=3D"font-size:10.0pt;font-family:&quot;Ar=
+ial&quot;,sans-serif;color:black"><o:p>&#xa0;</o:p></span></p>
+</td>
+</tr>
+</tbody>
+</table>
+<p class=3D"MsoNormal" style=3D"mso-margin-top-alt:0cm;margin-right:21.6pt;=
+margin-bottom:6.0pt;margin-left:7.1pt;line-height:13.0pt;text-autospace:non=
+e">
+<span style=3D"font-family:&quot;Arial&quot;,sans-serif;color:black">&#xa0;=
+ &#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#=
+xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0=
+;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#=
+xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0=
+;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#=
+xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;
+<o:p></o:p></span></p>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+<p class=3D"MsoNormal" align=3D"center" style=3D"margin-left:7.1pt;text-ali=
+gn:center"><span style=3D"font-family:&quot;Arial&quot;,sans-serif;display:=
+none"><o:p>&#xa0;</o:p></span></p>
+<div align=3D"center">
+<table class=3D"MsoNormalTable" border=3D"0" cellspacing=3D"0" cellpadding=
+=3D"0" width=3D"669" style=3D"width:501.65pt;border-collapse:collapse">
+<tbody>
+<tr>
+<td width=3D"669" style=3D"width:501.65pt;border:none;border-top:solid wind=
+owtext 1.0pt;padding:0cm 5.4pt 0cm 5.4pt">
+<p class=3D"MsoNormal" style=3D"mso-margin-top-alt:7.5pt;margin-right:0cm;m=
+argin-bottom:7.5pt;margin-left:7.1pt;line-height:125%">
+<span style=3D"font-size:7.0pt;line-height:125%;font-family:&quot;Arial&quo=
+t;,sans-serif;color:#666666">Please refer to Jefferies&#x2019; important di=
+sclosure via
+</span><a href=3D"https://protect-eu.mimecast.com/s/U74iCG5vzFQNNPs10hJu"><=
+span style=3D"font-size:7.0pt;line-height:125%;font-family:&quot;Arial&quot=
+;,sans-serif">this link</span></a><span style=3D"font-size:7.0pt;line-heigh=
+t:125%;font-family:&quot;Arial&quot;,sans-serif">.<br>
+<span style=3D"color:#666666">Please refer to our </span></span><a href=3D"=
+https://protect-eu.mimecast.com/s/UX77CJqyzFDWW2CyjJsp"><span style=3D"font=
+-size:7.0pt;line-height:125%;font-family:&quot;Arial&quot;,sans-serif">Priv=
+acy
+ Notice</span></a><span style=3D"font-size:7.0pt;line-height:125%;font-fami=
+ly:&quot;Arial&quot;,sans-serif;color:#666666"> for an explanation of how w=
+e manage your information.</span><span style=3D"font-family:&quot;Arial&quo=
+t;,sans-serif;color:#666666"><br>
+</span><b><i><span style=3D"font-size:7.0pt;line-height:125%;font-family:&q=
+uot;Arial&quot;,sans-serif;color:#666666">Please reply to this email or you=
+r Jefferies Representative to unsubscribe</span></i></b><b><i><span style=
+=3D"font-size:7.0pt;line-height:125%;font-family:&quot;Arial&quot;,sans-ser=
+if">.</span></i></b><span style=3D"font-family:&quot;Arial&quot;,sans-serif=
+"><o:p></o:p></span></p>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+<p class=3D"MsoNormal"><o:p>&#xa0;</o:p></p>
+<p class=3D"MsoNormal"><b><span style=3D"color:black">Marc Kofler<o:p></o:p=
+></span></b></p>
+<p class=3D"MsoNormal"><i><span style=3D"color:black">Resources Specialist =
+Sales<o:p></o:p></span></i></p>
+<p class=3D"MsoNormal"><span style=3D"color:black">Tel: +44 (0)20 7898 7097=
+ / Mob: +44 (0)7970 108 330<o:p></o:p></span></p>
+<p class=3D"MsoNormal"><span style=3D"font-size:4.0pt;color:black"><o:p>&#x=
+a0;</o:p></span></p>
+<p class=3D"MsoNormal"><b><span style=3D"color:#595959">Jefferies Internati=
+onal Limited<o:p></o:p></span></b></p>
+<p class=3D"MsoNormal">100 Bishopsgate, London EC2N 4JL<o:p></o:p></p>
+<p class=3D"MsoNormal"><span style=3D"color:#1F497D"><a href=3D"https://pro=
+tect-eu.mimecast.com/s/0rEICKZ1zfGyyYF2WpFh"><span style=3D"color:blue">www=
+.jefferies.com</span></a><o:p></o:p></span></p>
+<p class=3D"MsoNormal"><span style=3D"font-size:4.0pt;color:#1F497D"><o:p>&=
+#xa0;</o:p></span></p>
+<p class=3D"MsoNormal"><o:p>&#xa0;</o:p></p>
+<p class=3D"MsoNormal"><span lang=3D"EN-US" style=3D"font-family:&quot;Aria=
+l&quot;,sans-serif"><o:p>&#xa0;</o:p></span></p>
+<p class=3D"MsoNormal"><b><span style=3D"font-size:10.0pt;color:#17365D">Ri=
+chard Stroud</span></b><b><span style=3D"font-size:10.0pt">
+</span></b><span style=3D"font-size:10.0pt;color:#7F7F7F">| Corporate Acces=
+s Marketing<o:p></o:p></span></p>
+<p class=3D"MsoNormal"><span style=3D"font-size:10.0pt;color:#7F7F7F">Jeffe=
+ries International Limited, 100 Bishopsgate, London, EC2N 4JL<o:p></o:p></s=
+pan></p>
+<p class=3D"MsoNormal"><span style=3D"font-size:10.0pt;color:#7F7F7F">T: +4=
+42075484315 | M: +447967448087 | E</span><span style=3D"font-size:9.0pt;col=
+or:black">:
+</span><span lang=3D"EN-US"><a href=3D"mailto:rstroud1@jefferies.com"><span=
+ lang=3D"EN-GB" style=3D"font-size:9.0pt">rstroud1@jefferies.com</span></a>=
+</span><span style=3D"font-size:9.0pt;color:black"><o:p></o:p></span></p>
+<p class=3D"MsoNormal"><span style=3D"font-size:10.0pt;color:#7F7F7F"><o:p>=
+&#xa0;</o:p></span></p>
+<p class=3D"MsoNormal"><b><span style=3D"font-size:10.0pt;color:black">Plea=
+se refer to the Jefferies International Limited disclaimer via the followin=
+g link:
+<a href=3D"https://protect-eu.mimecast.com/s/EJ0SCL870tZDDgS5V54w">Jefferie=
+s Disclaimer</a></span></b><span lang=3D"EN-US"><o:p></o:p></span></p>
+<p class=3D"MsoNormal"><span lang=3D"EN-US"><o:p>&#xa0;</o:p></span></p>
+</div>
+<strong>Jefferies International Limited</strong> <br>
+100 Bishopsgate, London, EC2N 4JL <br>
+Tel: +44 (0)20 7029 8000 <br>
+<br>
+<p></p>
+<table cellpadding=3D"0" cellspacing=3D"0" border=3D"0" width=3D"100%" styl=
+e=3D"table-layout: fixed;" align=3D"left">
+<tbody>
+<tr>
+<td>
+<table cellpadding=3D"0" cellspacing=3D"0" border=3D"0" width=3D"600" align=
+=3D"left">
+<tbody>
+<tr>
+<td>
+<table width=3D"30" align=3D"left" border=3D"0" cellpadding=3D"0" cellspaci=
+ng=3D"0">
+<tbody>
+<tr>
+<td width=3D"30" align=3D"left"><a href=3D"https://protect-eu.mimecast.com/=
+s/0rEICKZ1zfGyyYF2WpFh" style=3D"text-decoration:none;"><img src=3D" http:/=
+/www.jefferies.com/CMSFiles/Jefferies.com/Images/OneJef/web.png" alt=3D"Jef=
+feries.com" width=3D"23" height=3D"23" style=3D"display:block; border:none;=
+outline:none;font-size:16px; text-align:center; border=3D" 0?=3D""></a></td=
+>
+</tr>
+</tbody>
+</table>
+<table width=3D"30" align=3D"left" border=3D"0" cellpadding=3D"0" cellspaci=
+ng=3D"0">
+<tbody>
+<tr>
+<td width=3D"30" align=3D"left"><a href=3D"https://protect-eu.mimecast.com/=
+s/WfoKCMQwNiAyyLcNur2t" style=3D"text-decoration:none;"><img src=3D"http://=
+www.jefferies.com/CMSFiles/Jefferies.com/Images/OneJef/linkedin.png" alt=3D=
+"Jefferies LinkedIn" border=3D"0" width=3D"23" height=3D"23" style=3D"displ=
+ay:block; border:none; outline:none; text-decoration:none;" ?=3D""></a></td=
+>
+</tr>
+</tbody>
+</table>
+<table width=3D"30" align=3D"left" border=3D"0" cellpadding=3D"0" cellspaci=
+ng=3D"0">
+<tbody>
+<tr>
+<td width=3D"30" align=3D"left"><a href=3D"https://protect-eu.mimecast.com/=
+s/DMelCN9LXTGqqQFlQqhu" style=3D"text-decoration:none;"><img src=3D"http://=
+www.jefferies.com/CMSFiles/Jefferies.com/Images/OneJef/twitter.png" alt=3D"=
+Jefferies Twitter" border=3D"0" width=3D"23" height=3D"23" style=3D"display=
+:block; border:none; outline:none; text-decoration:none;"></a></td>
+</tr>
+</tbody>
+</table>
+<table width=3D"300" align=3D"left" border=3D"0" cellpadding=3D"0" cellspac=
+ing=3D"0">
+<tbody>
+<tr>
+<td width=3D"300" align=3D"left">
+<p style=3D"font-family:arial;font-size:.8em;color:#333333;margin:10px 0 0;=
+padding:0;">
+Find Jefferies online </p>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+<br>
+<h6 style=3D"font-family:arial, sans-serif;font-size:.75em;color:gray;font-=
+weight:normal;">
+<br>
+<br>
+<br>
+Jefferies archives and monitors outgoing and incoming e-mail together with =
+voice communications, where required. For information about how we handle p=
+ersonal data see our
+<a href=3D"https://protect-eu.mimecast.com/s/yHSpCOyMLTyLLguRkINj" target=
+=3D"_blank" style=3D"color:#089cb6;text-decoration:none;">
+privacy notice.</a> The contents of this email, including any attachments, =
+are confidential to the ordinary user of the email address to which it was =
+addressed. If you are not the addressee of this email you may not copy, for=
+ward, disclose or otherwise use
+ it or any part of it in any form whatsoever. This email may be produced at=
+ the request of regulators or in connection with civil litigation. Jefferie=
+s accepts no liability for any errors or omissions arising as a result of t=
+ransmission. Use by other than intended
+ recipients is prohibited. In the United Kingdom, Jefferies operates as Jef=
+feries International Limited; registered in England: no. 1978621; registere=
+d office: 100 Bishopsgate, London EC2N 4JL. Jefferies International Limited=
+ is authorized and regulated by
+ the Financial Conduct Authority. </h6>
+<div></div>
+
+
+<br><br><span style=3D"color:#aaa;font-size:11px;"><a href=3D"https://prote=
+ct-eu.mimecast.com/s/LZEdCPZ7gfk112c9mvfP" style=3D"text-decoration:none;co=
+lor:#aaa;">Unsubscribe</a> from this distribution</span>
+<img width=3D"1" height=3D"1" alt=3D"" src=3D"http://email.jefferies.street=
+contxt.net/platform/i/6FSqUxWNuHbOihGczDq9FXW8UOZbCq9pMErpr5PBMfGWuHhPlQ6g8=
+Ln8ReQBT54wA4y9vawLGriejCnizck8MMerXthmBk1dS7SblP6O0FjMckif2WESPZt3VRD8bxHh=
+">
+<img width=3D"1" height=3D"1" alt=3D"" src=3D"http://email.jefferies.street=
+contxt.net/r/i/6FSqUxWNuHbOihGczDq9FXW8UOZbCq9pMErpr5PBMfGWuHhPlQ6g8Ln8ReQB=
+T54wA4y9vawLGriejCnizck8MMerXthmBk1dS7SblP6O0FjMckif2WESPZt3VRD8bxHh">
+<a href=3D"https://protect-eu.mimecast.com/s/8jWyCQ0njiy11KuV_yoG"></a></bo=
+dy></html>
+
+--_67ba47fb-61b9-4171-bfcf-4983c2c98a9d_--
+
+--_f65fb63f-fbf9-4092-b3e9-d856724d8f59_
+Content-Type: image/jpeg; name="image001.jpg"
+Content-Description: image001.jpg
+Content-Disposition: inline; filename="image001.jpg"; size=5586;
+	creation-date="Fri, 13 Nov 2020 16:53:31 GMT";
+	modification-date="Fri, 13 Nov 2020 16:53:31 GMT"
+Content-ID: <image001.jpg@01D6B9DD.8142ADB0>
+Content-Transfer-Encoding: base64
+
+/9j/4AAQSkZJRgABAQEAYABgAAD/2wBDAAoHBwgHBgoICAgLCgoLDhgQDg0NDh0VFhEYIx8lJCIf
+IiEmKzcvJik0KSEiMEExNDk7Pj4+JS5ESUM8SDc9Pjv/2wBDAQoLCw4NDhwQEBw7KCIoOzs7Ozs7
+Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozv/wAARCABbARIDASIA
+AhEBAxEB/8QAHwAAAQUBAQEBAQEAAAAAAAAAAAECAwQFBgcICQoL/8QAtRAAAgEDAwIEAwUFBAQA
+AAF9AQIDAAQRBRIhMUEGE1FhByJxFDKBkaEII0KxwRVS0fAkM2JyggkKFhcYGRolJicoKSo0NTY3
+ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqDhIWGh4iJipKTlJWWl5iZmqKjpKWm
+p6ipqrKztLW2t7i5usLDxMXGx8jJytLT1NXW19jZ2uHi4+Tl5ufo6erx8vP09fb3+Pn6/8QAHwEA
+AwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoL/8QAtREAAgECBAQDBAcFBAQAAQJ3AAECAxEEBSEx
+BhJBUQdhcRMiMoEIFEKRobHBCSMzUvAVYnLRChYkNOEl8RcYGRomJygpKjU2Nzg5OkNERUZHSElK
+U1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6goOEhYaHiImKkpOUlZaXmJmaoqOkpaanqKmqsrO0tba3
+uLm6wsPExcbHyMnK0tPU1dbX2Nna4uPk5ebn6Onq8vP09fb3+Pn6/9oADAMBAAIRAxEAPwDzWiii
+vQOQWigYyM0ucH7ooENIoQ4OKflD1Q/gaTZET/rGU+4zQM0bKUkDmrhk3MATxn1qhZo0ZG1kk+hr
+UgtmmbBQirRk0SsUNlERkYdgP0p8Gk2d84urgfJERuxx5h7Kaux6W5tkjXGQxNSSWxieON2McEf3
+Qv3pG7mldPQTTWpzeraRq0t39rbbcGU/fiOBEB0Bz90AV2dtpVjrmi266lFHLL5YPmxH07hu+aRU
+82LyplXyXGPK7Ee/rV7TLe30+zFvBGVhBJCZyBnsPak4gp3OL8Q2d/ozA6U6w2ZHJt49rofdup+t
+Zs2tXl7pwtbo+Y6uGWbcd3HrXd6jLDbpse1lufOOxY4lyefX2rirjTJpZrx7a0aFbZhvgY/OoPQg
+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
+
+--_f65fb63f-fbf9-4092-b3e9-d856724d8f59_--
+
+--_15ec8339-572d-461b-83c6-249c1e6325f4_--

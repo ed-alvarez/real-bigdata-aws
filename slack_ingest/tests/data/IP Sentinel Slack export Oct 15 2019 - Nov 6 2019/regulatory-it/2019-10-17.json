@@ -1,0 +1,23 @@
+[
+    {
+        "client_msg_id": "e540210a-8284-4a19-bb54-e8fd8471071e",
+        "type": "message",
+        "text": "<@UP19VS2E6> &amp; <@UPG9G6D38> - good news; Melqart are using Slack for internal communications *only* which reduces the scope of the phase 1 requirement considerably.",
+        "user": "UPFUKHWS3",
+        "ts": "1571321692.001200",
+        "team": "TP2JMH5U3",
+        "user_team": "TP2JMH5U3",
+        "source_team": "TP2JMH5U3",
+        "user_profile": {
+            "avatar_hash": "1c71adf9e86e",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2019-10-16\/797192641621_1c71adf9e86e4d1832f3_72.jpg",
+            "first_name": "Sean",
+            "real_name": "Sean Morgan",
+            "display_name": "Sean Morgan",
+            "team": "TP2JMH5U3",
+            "name": "sean",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        }
+    }
+]

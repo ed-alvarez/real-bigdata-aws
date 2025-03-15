@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<verbacdr state="1">	<!-- Finished Call State -->
+	<id>72b94381-7479-11ec-9122-00155d190b04</id>
+	<rec_version>9.6.10 (Revision 6468r)</rec_version>
+	<native_id>50127002</native_id>
+	<native_call_id>50127002</native_call_id>
+	<cisco_guid>1908046592-0000065536-0000204162-0706299402</cisco_guid>
+	<location>SYSVERB1-IN1.mid.dom</location>
+	<mediator>SYSVERB2-IN1.mid.dom</mediator>
+	<source_device>SEP1856800CAD32</source_device>
+	<source_ip>10.70.8.68</source_ip>
+	<source_caller_id>8912351</source_caller_id>
+	<source_name>Vaibhav Sharma - 8912351</source_name>
+	<destination_device>S0/SU0/DS1-0@ROV1.IN2.saxobank.com</destination_device>
+	<destination_caller_id>009711056757#</destination_caller_id>
+	<recorded_cid>8912351</recorded_cid>
+	<signaling_source>TCP:10.70.25.42:36077</signaling_source>
+	<start_time>2022.01.13 14:02:31.634</start_time>
+	<record_creation_time>2022.01.13 14:02:31.633</record_creation_time>
+	<end_time>2022.01.13 14:03:15.575</end_time>
+	<audio_codec_id>4</audio_codec_id>	<!-- G.711U 64 kbps -->
+	<video_codec_id>299</video_codec_id>	<!-- Undefined -->
+	<direction_id>2</direction_id>	<!-- PSTN Outgoing -->
+	<cause_id>0</cause_id>	<!-- Normal -->
+	<rec_provider>0</rec_provider>	<!-- Cisco Network based Recording -->
+	<signaling_id>2</signaling_id>	<!-- SIP -->
+	<recorder_service_id>23</recorder_service_id>	<!-- Unified Recorder -->
+	<modality_id>voice</modality_id>
+	<recorded_party>0</recorded_party>	<!-- Source caller -->
+	<record_failed>false</record_failed>
+	<ondemand>false</ondemand>
+	<rtp_count_valid>false</rtp_count_valid>
+	<conference>false</conference>
+	<keep>false</keep>
+	<controlled>false</controlled>
+	<voice_mail>false</voice_mail>
+	<skip_acl_check>false</skip_acl_check>
+	<secondary>0</secondary>	<!-- Primary -->
+	<platform_id>cisco-network</platform_id>
+	<platform_call_id>[2.10279848]</platform_call_id>
+	<cisco_id_nearend>50127002</cisco_id_nearend>
+	<cisco_id_farend>50127003</cisco_id_farend>
+	<cisco_nearend_sip_id>71ba7b00-1e0130f7-2e3296-2a19460a@10.70.25.42</cisco_nearend_sip_id>
+	<cisco_farend_sip_id>71ba7b00-1e0130f7-2e3297-2a19460a@10.70.25.42</cisco_farend_sip_id>
+	<cisco_cluster_nearend>StandAloneCluster</cisco_cluster_nearend>
+	<cisco_cluster_farend>StandAloneCluster</cisco_cluster_farend>
+	<media_length>43</media_length>
+	<files>
+		<file expected_url="2022\01\13\72b94381-7479-11ec-9122-00155d190b04_(20220113140231633).wav" size="71430" original="1">2022\01\13\72b94381-7479-11ec-9122-00155d190b04_(20220113140231633).wav</file>
+	</files>
+	<participants>
+		<participant>
+			<callerid>8912351</callerid>
+			<role>Caller</role>
+			<start_time>2022.01.13 14:02:31.614</start_time>
+			<end_time>2022.01.13 14:03:15.566</end_time>
+			<end_cause>0</end_cause>
+		</participant>
+		<participant>
+			<callerid>009711056757#</callerid>
+			<role>Called</role>
+			<start_time>2022.01.13 14:02:31.614</start_time>
+			<end_time>2022.01.13 14:03:15.575</end_time>
+			<end_cause>0</end_cause>
+		</participant>
+	</participants>
+	<media>
+		<mediasegment id="0" start_time="2022.01.13 14:02:31.634" end_time="2022.01.13 14:02:31.692">
+			<mediadescriptor>
+				<destination direction="source_caller" ip="10.70.25.30" port="48642" src_ip="10.70.8.68" src_port="4000" src_rtcp_port="0" protocol="udp" bitrate="256000" tipsupported="false" />
+				<content type="main"/>
+				<codecs>
+					<codec name="PCMU" pt="0" clk="8000" />
+					<codec name="GSM" pt="3" clk="8000" />
+					<codec name="G723" pt="4" clk="8000" />
+					<codec name="PCMA" pt="8" clk="8000" />
+					<codec name="G722" pt="9" clk="8000" />
+					<codec name="G729" pt="18" clk="8000" />
+				</codecs>
+				<statistics>
+					<start_time>2022.01.13 14:02:31.654</start_time>
+					<rtp total="2" lost="0" duplicated="0" outoforder="0" outofbuffer="0" streamchange="1"/>
+				</statistics>
+			</mediadescriptor>
+		</mediasegment>
+		<mediasegment id="1" start_time="2022.01.13 14:02:31.692" end_time="2022.01.13 14:03:15.575">
+			<mediadescriptor>
+				<destination direction="source_caller" ip="10.70.25.30" port="48642" src_ip="10.70.8.68" src_port="4000" src_rtcp_port="0" protocol="udp" bitrate="256000" tipsupported="false" />
+				<content type="main"/>
+				<codecs>
+					<codec name="PCMU" pt="0" clk="8000" />
+					<codec name="GSM" pt="3" clk="8000" />
+					<codec name="G723" pt="4" clk="8000" />
+					<codec name="PCMA" pt="8" clk="8000" />
+					<codec name="G722" pt="9" clk="8000" />
+					<codec name="G729" pt="18" clk="8000" />
+				</codecs>
+				<statistics>
+					<start_time>2022.01.13 14:02:31.698</start_time>
+					<rtp total="2186" lost="8" duplicated="0" outoforder="0" outofbuffer="0" streamchange="1"/>
+					<decoding ok="4372" error="0" skipped="0" outofbuffer="0" resync="1"/>
+					<mixing normalwrite="4382" solowrite="6" silencewrite="0" latemedia="0" resync="0" silence_suppressed="0"/>
+				</statistics>
+			</mediadescriptor>
+			<mediadescriptor>
+				<destination direction="destination_caller" ip="10.70.25.30" port="48644" src_ip="10.70.8.68" src_port="4000" src_rtcp_port="0" protocol="udp" bitrate="256000" tipsupported="false" />
+				<content type="main"/>
+				<codecs>
+					<codec name="PCMU" pt="0" clk="8000" />
+					<codec name="GSM" pt="3" clk="8000" />
+					<codec name="G723" pt="4" clk="8000" />
+					<codec name="PCMA" pt="8" clk="8000" />
+					<codec name="G722" pt="9" clk="8000" />
+					<codec name="G729" pt="18" clk="8000" />
+				</codecs>
+				<statistics>
+					<start_time>2022.01.13 14:02:31.755</start_time>
+					<rtp total="2188" lost="3" duplicated="0" outoforder="0" outofbuffer="0" streamchange="1"/>
+					<decoding ok="4376" error="0" skipped="0" outofbuffer="0" resync="1"/>
+					<mixing normalwrite="4382" solowrite="6" silencewrite="0" latemedia="0" resync="0" silence_suppressed="0"/>
+				</statistics>
+			</mediadescriptor>
+		</mediasegment>
+	</media>
+</verbacdr>

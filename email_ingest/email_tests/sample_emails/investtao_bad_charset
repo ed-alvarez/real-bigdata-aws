@@ -1,0 +1,1515 @@
+Return-Path: <JournalError@investao.co.uk>
+Received: from APC01-PU1-obe.outbound.protection.outlook.com (mail-pu1apc01lp2056.outbound.protection.outlook.com [104.47.126.56])
+ by inbound-smtp.eu-west-1.amazonaws.com with SMTP id h51tnh19t0ar9vqlpmv5mv7pkt30ukao8m41g9g1
+ for investao@ip-sentinel.net;
+ Mon, 16 Nov 2020 15:52:37 +0000 (UTC)
+Received-SPF: pass (spfCheck: domain of investao.co.uk designates 104.47.126.56 as permitted sender) client-ip=104.47.126.56; envelope-from=JournalError@investao.co.uk; helo=mail-pu1apc01lp2056.outbound.protection.outlook.com;
+Authentication-Results: amazonses.com;
+ spf=pass (spfCheck: domain of investao.co.uk designates 104.47.126.56 as permitted sender) client-ip=104.47.126.56; envelope-from=JournalError@investao.co.uk; helo=mail-pu1apc01lp2056.outbound.protection.outlook.com;
+ dmarc=none header.from=investao.co.uk;
+X-SES-RECEIPT: AEFBQUFBQUFBQUFGUkxSYVVsR3k1VmhRekU3RnN3V3pXN2FpdHJNZmJ6MmMyeGxtaVoyMTRuZXpHc0JqQ3krN010dmpIOHlqZzdYY1o1UlV6eXJDeHgvNGhManpJeTc2YXpueVdRRG9nam5ETVA5NmFmSkhrQ0dDTWQvcG12Qk1maUw1WkUxdXJIcW13ZTl2bEtQeHFrdUp1ZENVcEJwN1U0eDBMQ2VYVlBtUlIydzYrdUZ0RFB5NWhwUGV4L0NYUVloN1JxRDV6dkNmR0JJa3MrYkh0U05aUFFjaEJzdTVzQVBZdFkwd2pFWHdONFBsY2l0NDJEWi9NSTl2aXRWWTIvVnhIRFh2aFFNV216eUZMRmV1ZkpXbEtNNFgwQ3ZiMTdhUUk3dUpEKytDOUdRa3djWWhPWlJkTmpKYk10VkJRb2ZMNnJVYmRJRGc9
+X-SES-DKIM-SIGNATURE: a=rsa-sha256; q=dns/txt; b=WmSHazraEMuFIJiGNyxMuKwup8uVc2fWdTD6oqkIhck0qnHZ2w/3Xk5sklbINnKTfMqoS01phzErCRg9lozhdFqbANdLdQHlkPmRjXp5X0Q11VAwqoQn+EY2767ld26trVM+qsavYWXV0hp6I+qAS+aKd5UyRoDn6zGMgpZI5gk=; c=relaxed/simple; s=shh3fegwg5fppqsuzphvschd53n6ihuv; d=amazonses.com; t=1605541958; v=1; bh=NWMeQ+NXgMSCy643Fsl6Py4aqTbTUupwu4XucWRdv/E=; h=From:To:Cc:Bcc:Subject:Date:Message-ID:MIME-Version:Content-Type:X-SES-RECEIPT;
+Content-Type: multipart/mixed;
+	boundary="_4e8a94a2-4bf3-4064-b57d-5ab96322e243_"
+Subject: Weekly Call Nov 23
+To: Shelley Yang <shelley.yang@investao.co.uk>, Mathias Kalmar
+	<Mathias.Kalmar@investao.co.uk>, Hillary Su <Hillary.Su@investao.co.uk>,
+	Devin Ziwen Huang <Devin.Huang@investao.co.uk>
+From: Rex Chongjun Zhu <rex.zhu@investao.co.uk>
+Sender: <MicrosoftExchange329e71ec88ae4615bbc36ab6ce41109e@investao.onmicrosoft.com>
+Message-ID: <499f34a3-3288-419b-8ae9-a6339d23e35b@journal.report.generator>
+Date: Mon, 16 Nov 2020 15:52:33 +0000
+X-MS-PublicTrafficType: Email
+X-MS-Journal-Report:
+Return-Path: JournalError@investao.co.uk
+X-MS-Exchange-Parent-Message-Id: <HK2PR06MB3348E2083E3397E39FCB9A81D3E30@HK2PR06MB3348.apcprd06.prod.outlook.com>
+Auto-Submitted: auto-generated
+X-MS-Exchange-Generated-Message-Source: Journal Agent
+X-MS-TrafficTypeDiagnostic: HK0PR06MB2963:JournalingReport
+X-MS-Exchange-Transport-Forked: True
+Keywords:
+MIME-Version: 1.0
+X-OriginatorOrg: investao.onmicrosoft.com
+X-MS-Exchange-CrossTenant-AuthSource: HK0PR06MB2963.apcprd06.prod.outlook.com
+X-MS-Exchange-CrossTenant-AuthAs: Internal
+X-MS-Exchange-CrossTenant-OriginalArrivalTime: 16 Nov 2020 15:52:33.6421
+ (UTC)
+X-MS-Exchange-CrossTenant-Network-Message-Id: abe5f15d-e915-400a-fec5-08d88a47a1e5
+X-MS-Exchange-CrossTenant-FromEntityHeader: Hosted
+X-MS-Exchange-Transport-CrossTenantHeadersStamped: HK0PR06MB2963
+
+--_4e8a94a2-4bf3-4064-b57d-5ab96322e243_
+Content-Type: text/plain; charset="us-ascii"
+Content-Transfer-Encoding: 7bit
+
+Sender: rex.zhu@investao.co.uk
+Subject: Weekly Call Nov 23
+Message-Id: <HK2PR06MB3348E2083E3397E39FCB9A81D3E30@HK2PR06MB3348.apcprd06.prod.outlook.com>
+To: shelley.yang@investao.co.uk
+To: Mathias.Kalmar@investao.co.uk
+To: Hillary.Su@investao.co.uk
+To: Devin.Huang@investao.co.uk
+
+--_4e8a94a2-4bf3-4064-b57d-5ab96322e243_
+Content-Type: message/rfc822
+
+Received: from HK2PR06MB3348.apcprd06.prod.outlook.com (2603:1096:202:3a::21)
+ by HK0PR06MB2963.apcprd06.prod.outlook.com (2603:1096:203:8a::20) with
+ Microsoft SMTP Server (version=TLS1_2,
+ cipher=TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384) id 15.20.3564.28; Mon, 16 Nov
+ 2020 15:52:32 +0000
+Received: from HK2PR06MB3348.apcprd06.prod.outlook.com
+ ([fe80::9c79:2f56:d891:32b9]) by HK2PR06MB3348.apcprd06.prod.outlook.com
+ ([fe80::9c79:2f56:d891:32b9%3]) with mapi id 15.20.3564.025; Mon, 16 Nov 2020
+ 15:52:32 +0000
+From: Rex Chongjun Zhu <rex.zhu@investao.co.uk>
+To: Shelley Yang <shelley.yang@investao.co.uk>, Mathias Kalmar
+	<Mathias.Kalmar@investao.co.uk>, Hillary Su <Hillary.Su@investao.co.uk>,
+	Devin Ziwen Huang <Devin.Huang@investao.co.uk>
+Subject: Weekly Call Nov 23
+Thread-Topic: Weekly Call Nov 23
+Thread-Index: Ada8MFPAUz76v5KUQHugEO46i8cRuAAACl3A
+Date: Mon, 16 Nov 2020 15:52:32 +0000
+Message-ID:
+ <HK2PR06MB3348E2083E3397E39FCB9A81D3E30@HK2PR06MB3348.apcprd06.prod.outlook.com>
+Accept-Language: en-GB, en-US
+Content-Language: en-US
+X-MS-Exchange-Organization-AuthAs: Internal
+X-MS-Exchange-Organization-AuthMechanism: 04
+X-MS-Exchange-Organization-AuthSource: HK2PR06MB3348.apcprd06.prod.outlook.com
+X-MS-Exchange-Organization-TransportTrafficType: Email
+X-MS-Exchange-Organization-SubmissionQuotaSkipped: False
+X-MS-Exchange-Organization-TransportTrafficSubType: MeetingMessage
+X-MS-Has-Attach: yes
+X-MS-Exchange-Organization-Network-Message-Id:
+ df4fbd63-a61e-4e33-4f9c-08d88a47a172
+X-MS-Exchange-Organization-SCL: -1
+X-MS-TNEF-Correlator:
+X-MS-Exchange-Organization-RecordReviewCfmType: 0
+x-ms-publictraffictype: Email
+authentication-results: investao.co.uk; dkim=none (message not signed)
+ header.d=none;investao.co.uk; dmarc=none action=none
+ header.from=investao.co.uk;
+x-ms-exchange-calendar-series-instance-id:
+ BAAAAIIA4AB0xbcQGoLgCAAAAABgP4dic7zWAQAAAAAAAAAAEAAAAIs0SlBDDGJCgLIWit5XXTE=
+x-ms-exchange-organization-transporttraffictype: Email
+x-ms-exchange-organization-submissionquotaskipped: False
+x-ms-exchange-organization-transporttrafficsubtype: MeetingMessage
+x-ms-exchange-organization-recordreviewcfmtype: 0
+x-ms-exchange-organization-originalsize: 70080
+x-ms-exchange-organization-originalarrivaltime: 16 Nov 2020 15:52:32.7610
+ (UTC)
+x-ms-exchange-organization-messagesource: StoreDriver
+x-ms-exchange-organization-fromentityheader: Hosted
+x-ms-exchange-organization-messagedirectionality: Originating
+x-ms-exchange-organization-id: 48e492ef-55f6-4033-b22d-3bd721cff761
+x-ms-exchange-organization-clientrequestedsendrichinfo: True
+x-ms-exchange-organization-bcc:
+x-ms-exchange-organization-originalclientipaddress: 139.226.38.227
+x-ms-exchange-organization-mailuseragent-ipaddress: [139.226.38.227]
+x-originating-ip: [139.226.38.227]
+x-ms-exchange-organization-originalserveripaddress: 2603:1096:202:3a::21
+x-ms-exchange-organization-submissionrecipientcount: 4
+x-ms-exchange-organization-orgeopforest: APC01
+x-ms-exchange-organization-mailboxtype: HOSTED
+x-ms-exchange-organization-userprincipalname:
+ tUF8LcouuX9T8fFp7QGIK0jdwFTZdDLEkixyArVaNToSK+9KGGELSq+BP2WY1OKvQB0Aa1oEF3bGyhbXxveX7Q==
+x-ms-exchange-organization-antispam-mailboxsubmissionfilter-policyloadtime:
+ MSFAPolicyLoadTime:0;
+x-ms-exchange-organization-sendspamsignaltohostedmailbox: true
+x-ms-exchange-organization-usermbx-cpev: 10000
+x-ms-exchange-organization-usermbx-aadobjectid:
+ 28f3eaef-c877-4d4f-93ee-0f0882ccdbbe
+x-ms-exchange-organization-usermbx-throttlelvl: 0
+x-ms-exchange-organization-usermbx-24hrsusalrts: 0
+x-ms-exchange-organization-usermbx-24hrblockcnt: 0
+x-ms-exchange-organization-usermbx-24hrmsgssent: 5
+x-ms-exchange-organization-usermbx-minutesfromclientipfirstseentonow: 23258
+x-ms-exchange-organization-usermbx-minutesfromclientiplastseentonow: 3
+x-ms-exchange-organization-usermbx-minutesfromcountryfirstseentonow: 669941
+x-ms-exchange-organization-usermbx-minutesfromcountrylastseentonow: 3
+x-ms-exchange-organization-usermbx-minutesfromclienttypefirstseentonow: 821296
+x-ms-exchange-organization-usermbx-minutesfromclienttypelastseentonow: 3
+x-ms-exchange-organization-usermbx-currentmsgexternalrcptcount: 0
+x-ms-exchange-organization-orderedprecisionlatencyinprogress:
+ LSRV=HK2PR06MB3348.apcprd06.prod.outlook.com:TOTAL-SUB=0.154|SA=0.038|MTSS-PEN=0.115(MTSSD-PEN=0.115(MTSSDC=0.070|MTSSDSDM=0.028(MTSSDSDM-Mailbox
+ Submission Filter Agent=0.027 )));2020-11-16T15:52:32.915Z
+x-ms-exchange-forest-arrivalhubserver: HK0PR06MB2963.apcprd06.prod.outlook.com
+x-ms-exchange-organization-expirationstarttime: 16 Nov 2020 15:52:32.9574
+ (UTC)
+x-ms-exchange-organization-expirationstarttimereason: OriginalSubmit
+x-ms-exchange-organization-expirationinterval: 1:00:00:00.0000000
+x-ms-exchange-organization-expirationintervalreason: OriginalSubmit
+x-ms-exchange-organization-messagescope: 5fed64a9-5a43-412b-a67c-3f5bbf3b8335
+x-ms-exchange-forest-messagescope: 5fed64a9-5a43-412b-a67c-3f5bbf3b8335
+x-ms-exchange-organization-cross-premises-headers-processed:
+ HK0PR06MB2963.apcprd06.prod.outlook.com
+x-ms-exchange-organization-antispam-protocolfilterhub-scancontext:
+ ProtocolFilterHub:SmtpOnEndOfData;
+x-ms-exchange-organization-accepteddomain: True
+x-ms-office365-filtering-correlation-id: df4fbd63-a61e-4e33-4f9c-08d88a47a172
+x-ms-traffictypediagnostic: HK0PR06MB2963:MeetingMessage
+x-ms-exchange-organization-hygienepolicy: Premium
+x-ms-exchange-organization-replicationinfo:
+ ReplicaId=d256c885-eafe-5a97-e50a-78a1478ad808;ReplicatingServerFqdn=SG2PR06MB2968.apcprd06.prod.outlook.com
+x-ms-exchange-organization-messagelatency:
+ SRV=HK2PR06MB3348.apcprd06.prod.outlook.com:TOTAL-SUB=0.166|SA=0.038|MTSS-PEN=0.129(MTSSD-PEN=0.129(MTSSDC=0.070|MTSSDSDM=0.028(MTSSDSDM-Mailbox
+ Submission Filter Agent=0.027 )|SDSSO-PEN=0.013(SMSC-PEN=0.013)))
+x-ms-exchange-forest-language: en
+x-ms-exchange-forest-indexagent: 1 2142
+x-ms-exchange-forest-emailmessagehash:
+ 0245EB31,00000000,E79571F3,E79571F3,E79571F3,E79571F3
+x-ms-exchange-organization-ispotentialintraorgmail: True
+x-ms-exchange-organization-antispam-precontentfilter-policyloadtime:
+ MAOSUB:0;MAOSUBLOAD:0;SAORES:0;SAORESLOAD:0;SLORES:0;SLORESLOAD:0;
+x-ms-exchange-organization-attachmentdetailsheaderstamp-success: 1.0
+x-ms-exchange-organization-attachmentdetails:
+ 0::U:Empty:SW52ZXNUQU8gV2Vla2x5LmRvY3g=::#:False:::N:::N::N:None;1:EOBh0qsgiqyDuolEp6eV2eAsqSVQ36WNEm+HVoYqoEI=:U:Png:aW1hZ2UwMDAwMS5wbmc=::#:False:::N:::N::N:None;2:EOBh0qsgiqyDuolEp6eV2eAsqSVQ36WNEm+HVoYqoEI=:U::aW1hZ2UwMDAwMS5wbmc=::#:False:::N:::N::N:None;3:EOBh0qsgiqyDuolEp6eV2eAsqSVQ36WNEm+HVoYqoEI=:U::aW1hZ2UwMDAwMS5wbmc=::#:False:::N:::N::N:None;4:EOBh0qsgiqyDuolEp6eV2eAsqSVQ36WNEm+HVoYqoEI=:U::aW1hZ2UwMDAwMS5wbmc=::#:False:::N:::N::N:None
+x-ms-exchange-organization-attachmentdetailsinfo-chunkcount: 1
+x-ms-exchange-organization-attachmentdetailsinfo-0: [{"ID":0,"FN":"InvesTAO
+ Weekly.docx","FS":0,"FT":["Empty"],"EXT":"docx","AF":0},{"ID":1,"FN":"image00001.png","FS":561,"HFH":"EOBh0qsgiqyDuolEp6eV2eAsqSVQ36WNEm+HVoYqoEI=","FT":["Png"],"EXT":"png","AF":0},{"ID":2,"FN":"image00001.png","FS":561,"HFH":"EOBh0qsgiqyDuolEp6eV2eAsqSVQ36WNEm+HVoYqoEI=","EXT":"png","AF":0},{"ID":3,"FN":"image00001.png","FS":561,"HFH":"EOBh0qsgiqyDuolEp6eV2eAsqSVQ36WNEm+HVoYqoEI=","EXT":"png","AF":0},{"ID":4,"FN":"image00001.png","FS":561,"HFH":"EOBh0qsgiqyDuolEp6eV2eAsqSVQ36WNEm+HVoYqoEI=","EXT":"png","AF":0}]
+x-ms-exchange-organization-messagefingerprint:
+ 24855252.A0F2A7D6.7DE1AD8F.4AFBF39F.2048D
+x-ms-exchange-organization-urlminimumdomainage: zoom.com.cn#1539
+x-ms-exchange-organization-urlfeaturereduction:
+ 76;2;0;23;0;0;0;0;14;6;2;10000000;0;0;0
+x-ms-exchange-organization-persisted-urls-chunkcount: 1
+x-ms-exchange-organization-persistedurlcount: 3
+x-ms-exchange-organization-antispam-precontentfilter-scancontext:
+ CategorizerOnSubmitted;CategorizerOnResolved;
+x-ms-exchange-organization-avscannedbyv2: Symantec;Command;Microsoft
+x-ms-exchange-organization-avscancomplete: true
+x-ms-exchange-organization-urlselected: 1
+x-ms-exchange-organization-urllogged: 1
+x-ms-exchange-organization-recipient-limit-verified: True
+x-ms-exchange-organization-totalrecipientcount: 4
+x-ms-exchange-organization-replyallblocker-verdict: Allow
+x-ms-exchange-organization-asdirectionalitytype: 3
+x-ms-exchange-organization-disclaimer-hash:
+ 7ebd0b4b85840ae3f6ddaba9ad8d383df12542a74d94aadc5b07c9fc572c6d01
+x-ms-exchange-organization-rules-execution-log:
+ c6d6bed9-96c9-4f3c-ad1f-8474647d4415
+x-ms-exchange-organization-rules-execution-history:
+ c6d6bed9-96c9-4f3c-ad1f-8474647d4415
+x-ms-exchange-forest-rulesexecuted: HK0PR06MB2963
+x-ms-exchange-organization-rulesexecuted: HK0PR06MB2963
+x-ms-exchange-organization-antispam-contentfilter-scancontext:
+ CategorizerOnResolved;
+x-ms-exchange-organization-antiphish-v2: SKP-INTRA-ORG
+x-ms-exchange-organization-containsattachments: true
+x-ms-exchange-organization-extractionattachmentnames: 0;1;2;3;4
+x-ms-exchange-organization-extractiontags: SUB64;1IMG;LINK;
+x-ms-exchange-organization-extractiontagsurlfound: URL
+x-ms-exchange-organization-extractiontagssubject: Weekly Call Nov 23
+x-ms-exchange-organization-extractiontagsfrom: Rex Chongjun Zhu
+ <rex.zhu@investao.co.uk>
+x-ms-exchange-organization-extractiontagssubjectnormalized: vvekly cal nov 23
+x-ms-oob-tlc-oobclassifiers: OLM:1013;
+x-ms-exchange-organization-client-country: CN
+x-ms-exchange-organization-antispam-scancontext:
+ DIR:Originating;SFV:SKI;SKIP:0;
+x-ms-exchange-organization-antispam-postcontentfilter-scancontext:
+ CategorizerOnResolved;CategorizerOnRouted;
+x-microsoft-antispam: BCL:0;
+x-microsoft-antispam-message-info:
+ sSQVTNlHlHpUT/XYt2BXniZoIoPe0te4el8pO0q50hEjatKHiN/ogdqt2d2SN6aF2wlQfnIhbUJ9Fo8fRuG9Dd6/Mucb2LrF99Xc/sdlAIQjMqecdnPlLAg2B7REyggbSiydX8uQBGDgh3u+qwHMi3v2SWp516umufL5gARYqVcyPytNnry92GUlgwemoWUpcAAQk1dI2RkgZYGqZTHbcCgonp9qPzRqDslFG0QDzaDrnoaPNmzGuN3syzZ4iqMRfCgtNBMbrqI4I38SjBhjYCFggcON73NfQSohyuYdRTJtHuaiQ4xt+cTjBcb6e77HQlHePgLF/MXE/djdeeyFNt0d64zDI6vTSoIzh25jIZQ=
+x-forefront-antispam-report:
+ CIP:255.255.255.255;CTRY:;LANG:en;SCL:-1;SRV:;IPV:NLI;SFV:SKI;H:HK2PR06MB3348.apcprd06.prod.outlook.com;PTR:;CAT:NONE;SFS:;DIR:INB;
+x-ms-exchange-antispam-messagedata:
+ zV9XJRHA3rRR3Ze8Wrf7jV/On73GP+g2QbuXg22Hmo8u+gKmL5zKdL4NBYunTyWKjHw2zU3X1zoi3W82bvMpf/gy+5x5bql6dPvARXTXuFNtdyVpFPu+8Mwq1OJ2TBrAedvFD+lPSu6um9sEGxAGF108cvymuPbVuOrlTsWimZWLr+KnKoCcGdp6HJ8y65SCFJlRx0kdwECFYDfMoZ4AY8EtJTjNK0O6gMAQspihZdryPxBNhG+84Bft78Xbs82Srmy2CepDMeew/BW2+u1sUJV/0JCPD6kIRGdiEdYGEzPyjdrCiD0vIMSJw1whq99PlouB7hC/8G9icUDhOyKmi0Y3Hf3Q397LMdPlA7/RrEJA6SDPA3tvfwM4SfuNCuY3r9UiwZxe3Isbkv043Udhp7LbbqXX+4jG0YjljtmfBTpiDNubuOS6wGxdykgExz6tlGc1FPu/x2o2IFnkXMzXBzbMB3X9Fh+Y8f9EZqYFHYpaxJ3l36/3jV8/bSShI+Yvqzw8wGlAEuYsjO3HbabpPRDxIfTeN27AN/CEULUomUHF9BAUpqSNo4jKN7MyQz6A0XiI/ZQDytuCQPAbVyeW/5e51eTz+UuUffKFqphP86L2vf/XM/JGFgJey3qXogRsRFr6f0UPj9gjz7RyEtOi2w==
+x-ms-exchange-organization-groupforkperf: VCL=0;VL=0
+x-ms-exchange-organization-cross-session-cache:
+ 00HOSFP=a61de310-e535-4c6c-a430-cfd569b4e9a6;CPEPV=10000;SL=1;EMSL=1;SCL=-1;BL=0;RL=1;PID=0;EXPID=;EIPC2=1904,1607,1609,1803,1608,1903,796;MIPC2=;SpfResult=-1;SAUTHOP=1;DkimStatus=7;DkimSS=0;DmarcStatus=4;DmarcAction=0;AUTHRES=[mx.microsoft.com,1]{5,7,TgBvAG4AZQA=,}{9,7,TgBvAG4AZQA=,,YQBjAHQAaQBvAG4A|TgBvAG4AZQA=,aABlAGEAZABlAHIALgBmAHIAbwBtAA==|aQBuAHYAZQBzAHQAYQBvAC4AYwBvAC4AdQBrAA==}{2,7,TgBvAG4AZQA=,bQBlAHMAcwBhAGcAZQAgAG4AbwB0ACAAcwBpAGcAbgBlAGQA};MFP=a3b14ce8-9c2f-4370-a1fb-8ddcde247e7f;PReRC=4;FPR=24855252.A0F2A7D6.7DE1AD8F.4AFBF39F.2048D;URLC_BE=5;URLC_BEC=5;URLC_B=3;URLC_BC=3;URLC_AE=0;UMGPV=841;UMEPV=3473;NoDLx=1;CGDLxSupported=1;RMX=;DIR=3;GWS_Read=V2;EIO=9;ASC=0;HCFP=224d73d5-ba7b-4a36-899e-320653e54e14;FFV=NSPM;FV_SCL=-1;FSCL=-1
+x-ms-exchange-organization-processed-by-gcc-journaling: Journal Agent
+Document-Reference:
+ https%3a%2f%2finvestao.sharepoint.com%2f%3aw%3a%2fg%2fEcoWXDYNpTNDnJZKy-4WOW0BsAei0lCxG6V7mhEFimOEzQ;
+ FileName=InvesTAO%20Weekly.docx; ProviderType=OneDrivePro;
+ Permission=OrganizationEdit
+Content-Type: multipart/related;
+	boundary="_008_HK2PR06MB3348E2083E3397E39FCB9A81D3E30HK2PR06MB3348apcp_";
+	type="multipart/alternative"
+MIME-Version: 1.0
+
+--_008_HK2PR06MB3348E2083E3397E39FCB9A81D3E30HK2PR06MB3348apcp_
+Content-Type: multipart/alternative;
+	boundary="_000_HK2PR06MB3348E2083E3397E39FCB9A81D3E30HK2PR06MB3348apcp_"
+
+--_000_HK2PR06MB3348E2083E3397E39FCB9A81D3E30HK2PR06MB3348apcp_
+Content-Type: text/plain; charset="gb2312"
+Content-Transfer-Encoding: base64
+
+UmV4IENob25nanVuIFpodSBoYXMgc2hhcmVkIGEgT25lRHJpdmUgZm9yIEJ1c2luZXNzIGZpbGUg
+d2l0aCB5b3UuIFRvIHZpZXcgaXQsIGNsaWNrIHRoZSBsaW5rIGJlbG93Lg0KDQpbaWNvbl0NCklu
+dmVzVEFPIFdlZWtseS5kb2N4PGh0dHBzOi8vaW52ZXN0YW8uc2hhcmVwb2ludC5jb20vOnc6L2cv
+RWNvV1hEWU5wVE5EbkpaS3ktNFdPVzBCc0FlaTBsQ3hHNlY3bWhFRmltT0V6UT4NCg0KDQpJbnZl
+c3RhbyBMaW1pdGVkIGlzIGludml0aW5nIHlvdSB0byBhIHNjaGVkdWxlZCBab29tIG1lZXRpbmcu
+DQoNCkpvaW4gWm9vbSBNZWV0aW5nDQpodHRwczovL3pvb20uY29tLmNuL2ovOTg1NDIwNTE0Mj9w
+d2Q9VFhnNVZrOWxUbFY2VTBwV2RYTlJkSHByTlZab1VUMDkNCg0KTWVldGluZyBJRDogOTg1IDQy
+MCA1MTQyDQpQYXNzY29kZTogOTg3NzENCg0KRGlhbCBieSB5b3VyIGxvY2F0aW9uDQogICAgICAg
+ICs0NCAzMzAgMDg4IDU4MzAgVW5pdGVkIEtpbmdkb20NCiAgICAgICAgKzQ0IDEzMSA0NjAgMTE5
+NiBVbml0ZWQgS2luZ2RvbQ0KICAgICAgICArNDQgMjAzIDQ4MSA1MjM3IFVuaXRlZCBLaW5nZG9t
+DQogICAgICAgICs4NiAxMCA1Mzg3IDYzMzAgQ2hpbmENCiAgICAgICAgKzg2IDEwIDg3ODMgMzE3
+NyBDaGluYQ0KICAgICAgICArMzUxIDMwOCA4MTAgOTg4IFBvcnR1Z2FsDQogICAgICAgICszNTEg
+MjExIDIwMiA2MTggUG9ydHVnYWwNCiAgICAgICAgKzM1MSAzMDggODA0IDE4OCBQb3J0dWdhbA0K
+TWVldGluZyBJRDogOTg1IDQyMCA1MTQyDQpQYXNzY29kZTogOTg3NzENCkZpbmQgeW91ciBsb2Nh
+bCBudW1iZXI6IGh0dHBzOi8vem9vbS5jb20uY24vdS9hZGd6ZndxbURmDQoNCg0KTWVldGluZyBN
+aW51dGVzDQpUb3BpYzogUmV2aWV3ICYgVG8gZG8NCkRhdGUNCjE2IE5vdiAyMDIwDQpUaW1lOg0K
+MTY6MzAgqEMgMTc6MzAgKFVUQys4KQ0KTG9jYXRpb24NClpvb20NCkF0dGVuZGVlcw0KU2hlbGxl
+eSwgTWF0aGlhcywgSGlsbGFyeSwgUmV4LCBEZXZpbg0KTm90ZS10YWtlcg0KUmV4DQpEaXNjdXNz
+aW9uDQpSZXNlYXJjaA0KDQogIDEuICBDaGluYSBtYXJrZXRzOiBPY3QgbWFjcm8tZWNvbiBkYXRh
+IHdlbGwgb3V0cGVyZm9ybSBleHBlY3RhdGlvbjsgbmV3IFFESUkgcXVvdGEgqEMgbWFzc2l2ZSBp
+bmNyZWFzZSBjb21wYXJlZCB0byB0aGUgbGFzdCAyIHllYXJzOyBjb25jZXJucyBvbiBsaXF1aWRp
+dHkgYW5kIGdyb3d0aCBoYWQgaW1wYWN0cyBvbiBzdG9jayBwcmljZXM7IFJDRVAgc2lnbmF0dXJl
+IGVuZXJnaXplcyB0aGUgbWFya2V0Ow0KICAyLiAgR2xvYmFsIG1hcmtldHM6IHJlY292ZXJ5IHZz
+LiBuZXcgcGFuZGVtaWMgcGVhayAtDQogIDMuICBERFEgb24gRm91bnRhaW5DYXAgqEMgb3V0cGVy
+Zm9ybWluZyByZXR1cm5zIHdpdGggaGlnaGVyIHZvbGF0aWxpdHkgY29tcGFyZWQgqEMgbWVldGlu
+ZyBvbiBGcmlkYXkNCg0KDQpQcm9kdWN0cw0KDQqhpCAgICAgICBWYWx1ZSBQYXJ0bmVyczogb25i
+b2FyZGVkLCBmaWxlcyBzZW50DQoNCqGkICAgICAgIEhGVDogbWVldGluZyCoQyBkZXRhaWxlZCBh
+Z3JlZW1lbnQgcHJvcG9zYWwNCg0KoaQgICAgICAgQ0FGVzogdmlkZW8gc2VudA0KDQqhpCAgICAg
+ICBPdGhlcnM6DQoNCm8gICAgUGVuZ3lhbmc6IHBvc3Rwb25pbmcgRGVjZW1iZXIgd2ViaW5hcg0K
+DQpvICAgIEZvdW50YWluQ2FwILe95a06IGNhbGwgbmV4dCB3ZWVrICh3aXRoIGEgQ2hpbmEgbG9u
+Zy1vbmx5IHN0cmF0ZWd5IHcvIDV5IGFubnVhbGlzZWQgcmV0dXJuIG9mIDE2JSwgY3VycmVudCBj
+YXBhY2l0eSBvbiBTd2l0emVybGFuZCkNCg0KbyAgICBDVUFNLCBDWSwgUEEsIEhULCBDTUYsIEdG
+LCBSb3NlZmluY2g6IC8NCg0KDQpNYXJrZXRpbmcNCg0KICAxLiAgRGVjLiBQZW5neWFuZyAmSFNC
+QyAoZmlyc3Qgd2VlayBvZiBEZWMpDQoNCiAgKiAgIFN0YXR1czogcG9zdHBvbmluZyB0aGUgZGF0
+ZSwgdGhlbWUgc2V0IG9uIHRoZSBFTSBhc3NldCBhbGxvY2F0aW9uDQoNCiAgMS4gIERlYy4gQ2l0
+eSBvZiBMb25kb24gdmlydHVhbCB2aXNpdA0KDQpvICAgIFN0YXR1czogSW4gdGFsayB3aXRoIE9y
+aWVudGFsIFNlY3VyaXRpZXM7IFRlYm9uIGRlY2xpbmVkOw0KDQogIDEuICBEaWdpdGFsIG1hcmtl
+dGluZzogbmV3IHBvZGNhc3QgcGVuZGluZzsNCiAgMi4gIE90aGVyczogUmFua2lhUHJvIKhDIGEg
+bWFnYXppbmUgaW52aXRpbmcgdXMgZm9yIGEgcGllY2Ugb2YgYXJ0aWNsZTsgc2V0dGluZyB1cCBJ
+bnZlc1RBTyB3ZWNoYXQgY2hhbm5lbDsgQmxvb21iZXJnIG1lZXRpbmcNClNhbGVzICYgRGlzdHJp
+YnV0aW9uDQoNCiAgMS4gIExhc3QgbWVldGluZyhzKTogTm9yZGljIG11bHRpLWZhbWlseSBvZmZp
+Y2UsIElRIG9mZmljZSwgR3JlZW5zIFBlYWsgVUsgaW52ZXN0b3INCiAgMi4gIE5ldyBtZWV0aW5n
+OiBJbnZlcnNpcyCoQyB0byBpbnRyb2R1Y2UgYW5kIGZ1cnRoZXIgY29udGFjdCB3aXRoIG91ciBt
+YW5hZ2VyczsgVG93ZXIgV2F0c29uIKhDIGFib3V0IG91ciBlcXVpdHkgbWFuYWdlcnM7IFFESUkg
+d2l0aCBIdWGhr2FuIEZ1bmQNCiAgMy4gIE5ldyBsZWFkczoNCiAgNC4gIENvbnRhY3QgbmFtZSBs
+aXN0ICYgd2ViaW5hcjogdG8gYnVpbGQgbW9yZSB0YXJnZXRlZCBhbmQgcmVsZXZhbnQgZXZlbnRz
+IGFuZCBkYXRhYmFzZQ0KSVQsIEhSLCBPcGVyYXRpb24gJiBBZG1pbg0KDQogIDEuICBZZWFyLWVu
+ZCByZXZpZXcgYW5kIG5ldyBwbGFucywgcG9zdGNhcmRzDQogIDIuICBTd2lzcyBiYXNlOiBhbHRl
+cm5hdGl2ZSBwcm92aWRlcg0KICAzLiAgQ29tcGxpYW5jZTogSW52ZXNUQU8gYWNjb3VudHMgZ2F0
+aGVyZWQgaW4gYSBmaWxlDQogIDQuICBJbnRlcm46IG1vcmUgcmVzb3VyY2UgZnJvbSBub3cgqEMg
+dXRpbGl6aW5nIG91ciBkaWdpdGFsIGNoYW5uZWxzDQogIDUuICBPdGhlciBsb25nLXRlcm0gb3Bl
+cmF0aW9uYWw6ICAgLw0KDQpfX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fXw0KDQpUaGlz
+IGVtYWlsIGlzIGlzc3VlZCBieSBJbnZlc3RhbyBMaW1pdGVkIChVSyksIGFuIEFwcG9pbnRlZCBS
+ZXByZXNlbnRhdGl2ZSBvZiBNaXJhYmVsbGEgQWR2aXNlcnMgTExQLCB3aGljaCBpcyBhdXRob3Jp
+c2VkIGFuZCByZWd1bGF0ZWQgYnkgdGhlIEZpbmFuY2lhbCBDb25kdWN0IEF1dGhvcml0eSBudW1i
+ZXIgNjA2NzkyLiBUaGlzIGVtYWlsIChpbmNsdWRpbmcgYW55IGF0dGFjaG1lbnRzKSBtYXkgY29u
+dGFpbiBjb25maWRlbnRpYWwsIHByb3ByaWV0YXJ5LCBwcml2aWxlZ2VkIGFuZC9vciBwcml2YXRl
+IGluZm9ybWF0aW9uLiBUaGlzIGluZm9ybWF0aW9uIGlzIGludGVuZGVkIHNvbGVseSBmb3IgdGhl
+IHVzZSBvZiB0aGUgaW5kaXZpZHVhbCBvciBlbnRpdHkgdG8gd2hvbSBpdCBpcyBhZGRyZXNzZWQu
+IElmIHlvdSBhcmUgbm90IHRoZSBpbnRlbmRlZCByZWNpcGllbnQgb2YgdGhpcyBtZXNzYWdlLCBw
+bGVhc2Ugbm90aWZ5IHRoZSBzZW5kZXIgaW1tZWRpYXRlbHksIGFuZCBkZWxldGUgdGhlIG1lc3Nh
+Z2UgYW5kIGFueSBhdHRhY2htZW50cy4gQW55IGRpc2Nsb3N1cmUsIHJlcHJvZHVjdGlvbiwgZGlz
+dHJpYnV0aW9uIG9yIG90aGVyIHVzZSBvZiB0aGlzIG1lc3NhZ2Ugb3IgYW55IGF0dGFjaG1lbnRz
+IGJ5IGFuIGluZGl2aWR1YWwgb3IgZW50aXR5IG90aGVyIHRoYW4gdGhlIGludGVuZGVkIHJlY2lw
+aWVudCBpcyBwcm9oaWJpdGVkLiBUaGlzIGVtYWlsIGlzIGZvciBpbmZvcm1hdGlvbiBwdXJwb3Nl
+cyBvbmx5IGFuZCBzaGFsbCBub3QgYmUgY29uc3RydWVkIGFzIGFuIG9mZmVyIG9yIGFuIGFjY2Vw
+dGFuY2Ugb3IgYSBjb25maXJtYXRpb24gb2YgYW55IGNvbnRyYWN0IG9yIHRyYW5zYWN0aW9uLiBB
+bnkgdmlld3Mgb3Igb3BpbmlvbnMgZXhwcmVzc2VkIGFyZSBzb2xlbHkgdGhvc2Ugb2YgdGhlIGF1
+dGhvciBhbmQgZG8gbm90IG5lY2Vzc2FyaWx5IHJlcHJlc2VudCB0aG9zZSBvZiBJbnZlc3RhbyBM
+aW1pdGVkIChVSykuDQo=
+
+--_000_HK2PR06MB3348E2083E3397E39FCB9A81D3E30HK2PR06MB3348apcp_
+Content-Type: text/html; charset="gb2312"
+Content-Transfer-Encoding: quoted-printable
+
+<html xmlns:v=3D"urn:schemas-microsoft-com:vml" xmlns:o=3D"urn:schemas-micr=
+osoft-com:office:office" xmlns:w=3D"urn:schemas-microsoft-com:office:word" =
+xmlns:m=3D"http://schemas.microsoft.com/office/2004/12/omml" xmlns=3D"http:=
+//www.w3.org/TR/REC-html40">
+<head>
+<meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dgb2312">
+<meta name=3D"Generator" content=3D"Microsoft Word 15 (filtered medium)">
+<style><!--
+/* Font Definitions */
+@font-face
+	{font-family:Wingdings;
+	panose-1:5 0 0 0 0 0 0 0 0 0;}
+@font-face
+	{font-family:=CB=CE=CC=E5;
+	panose-1:2 1 6 0 3 1 1 1 1 1;}
+@font-face
+	{font-family:"Cambria Math";
+	panose-1:2 4 5 3 5 4 6 3 2 4;}
+@font-face
+	{font-family:=B5=C8=CF=DF;
+	panose-1:2 1 6 0 3 1 1 1 1 1;}
+@font-face
+	{font-family:Cambria;
+	panose-1:2 4 5 3 5 4 6 3 2 4;}
+@font-face
+	{font-family:"\@=B5=C8=CF=DF";
+	panose-1:2 1 6 0 3 1 1 1 1 1;}
+@font-face
+	{font-family:"\@=CB=CE=CC=E5";
+	panose-1:2 1 6 0 3 1 1 1 1 1;}
+/* Style Definitions */
+p.MsoNormal, li.MsoNormal, div.MsoNormal
+	{margin:0cm;
+	font-size:12.0pt;
+	font-family:=CB=CE=CC=E5;}
+a:link, span.MsoHyperlink
+	{mso-style-priority:99;
+	color:blue;
+	text-decoration:underline;}
+p.MsoListParagraph, li.MsoListParagraph, div.MsoListParagraph
+	{mso-style-priority:34;
+	margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:0cm;
+	margin-left:36.0pt;
+	text-align:justify;
+	text-justify:inter-ideograph;
+	font-size:11.0pt;
+	font-family:=B5=C8=CF=DF;}
+span.EmailStyle19
+	{mso-style-type:personal-compose;
+	font-family:"Cambria",serif;}
+.MsoChpDefault
+	{mso-style-type:export-only;
+	font-size:10.0pt;}
+@page WordSection1
+	{size:612.0pt 792.0pt;
+	margin:72.0pt 90.0pt 72.0pt 90.0pt;}
+div.WordSection1
+	{page:WordSection1;}
+/* List Definitions */
+@list l0
+	{mso-list-id:489836061;
+	mso-list-type:hybrid;
+	mso-list-template-ids:929565332 826945038 67698713 67698715 67698703 67698=
+713 67698715 67698703 67698713 67698715;}
+@list l0:level1
+	{mso-level-number-format:alpha-lower;
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	margin-left:18.0pt;
+	text-indent:-18.0pt;
+	mso-ansi-language:EN-US;}
+@list l0:level2
+	{mso-level-number-format:alpha-lower;
+	mso-level-text:"%2\)";
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	margin-left:42.0pt;
+	text-indent:-21.0pt;}
+@list l0:level3
+	{mso-level-number-format:roman-lower;
+	mso-level-tab-stop:none;
+	mso-level-number-position:right;
+	margin-left:63.0pt;
+	text-indent:-21.0pt;}
+@list l0:level4
+	{mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	margin-left:84.0pt;
+	text-indent:-21.0pt;}
+@list l0:level5
+	{mso-level-number-format:alpha-lower;
+	mso-level-text:"%5\)";
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	margin-left:105.0pt;
+	text-indent:-21.0pt;}
+@list l0:level6
+	{mso-level-number-format:roman-lower;
+	mso-level-tab-stop:none;
+	mso-level-number-position:right;
+	margin-left:126.0pt;
+	text-indent:-21.0pt;}
+@list l0:level7
+	{mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	margin-left:147.0pt;
+	text-indent:-21.0pt;}
+@list l0:level8
+	{mso-level-number-format:alpha-lower;
+	mso-level-text:"%8\)";
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	margin-left:168.0pt;
+	text-indent:-21.0pt;}
+@list l0:level9
+	{mso-level-number-format:roman-lower;
+	mso-level-tab-stop:none;
+	mso-level-number-position:right;
+	margin-left:189.0pt;
+	text-indent:-21.0pt;}
+@list l1
+	{mso-list-id:589895911;
+	mso-list-type:hybrid;
+	mso-list-template-ids:1462772784 559076086 134807555 67698715 67698703 676=
+98713 67698715 67698703 67698713 67698715;}
+@list l1:level1
+	{mso-level-number-format:alpha-lower;
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	margin-left:18.0pt;
+	text-indent:-18.0pt;}
+@list l1:level2
+	{mso-level-number-format:bullet;
+	mso-level-text:o;
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	margin-left:42.0pt;
+	text-indent:-21.0pt;
+	font-family:"Courier New";}
+@list l1:level3
+	{mso-level-number-format:roman-lower;
+	mso-level-tab-stop:none;
+	mso-level-number-position:right;
+	margin-left:63.0pt;
+	text-indent:-21.0pt;}
+@list l1:level4
+	{mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	margin-left:84.0pt;
+	text-indent:-21.0pt;}
+@list l1:level5
+	{mso-level-number-format:alpha-lower;
+	mso-level-text:"%5\)";
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	margin-left:105.0pt;
+	text-indent:-21.0pt;}
+@list l1:level6
+	{mso-level-number-format:roman-lower;
+	mso-level-tab-stop:none;
+	mso-level-number-position:right;
+	margin-left:126.0pt;
+	text-indent:-21.0pt;}
+@list l1:level7
+	{mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	margin-left:147.0pt;
+	text-indent:-21.0pt;}
+@list l1:level8
+	{mso-level-number-format:alpha-lower;
+	mso-level-text:"%8\)";
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	margin-left:168.0pt;
+	text-indent:-21.0pt;}
+@list l1:level9
+	{mso-level-number-format:roman-lower;
+	mso-level-tab-stop:none;
+	mso-level-number-position:right;
+	margin-left:189.0pt;
+	text-indent:-21.0pt;}
+@list l2
+	{mso-list-id:1130980065;
+	mso-list-type:hybrid;
+	mso-list-template-ids:-1338446302 134807553 134807555 134807557 134807553 =
+134807555 134807557 134807553 134807555 134807557;}
+@list l2:level1
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0B7;
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;
+	font-family:Symbol;}
+@list l2:level2
+	{mso-level-number-format:bullet;
+	mso-level-text:o;
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;
+	font-family:"Courier New";}
+@list l2:level3
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0A7;
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;
+	font-family:Wingdings;}
+@list l2:level4
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0B7;
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;
+	font-family:Symbol;}
+@list l2:level5
+	{mso-level-number-format:bullet;
+	mso-level-text:o;
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;
+	font-family:"Courier New";}
+@list l2:level6
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0A7;
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;
+	font-family:Wingdings;}
+@list l2:level7
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0B7;
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;
+	font-family:Symbol;}
+@list l2:level8
+	{mso-level-number-format:bullet;
+	mso-level-text:o;
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;
+	font-family:"Courier New";}
+@list l2:level9
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0A7;
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;
+	font-family:Wingdings;}
+@list l3
+	{mso-list-id:1333683797;
+	mso-list-type:hybrid;
+	mso-list-template-ids:-762908924 -703547886 134807569 67698715 67698703 67=
+698713 67698715 67698703 67698713 67698715;}
+@list l3:level1
+	{mso-level-number-format:alpha-lower;
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	margin-left:18.0pt;
+	text-indent:-18.0pt;}
+@list l3:level2
+	{mso-level-text:"%2\)";
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	margin-left:42.0pt;
+	text-indent:-21.0pt;}
+@list l3:level3
+	{mso-level-number-format:roman-lower;
+	mso-level-tab-stop:none;
+	mso-level-number-position:right;
+	margin-left:63.0pt;
+	text-indent:-21.0pt;}
+@list l3:level4
+	{mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	margin-left:84.0pt;
+	text-indent:-21.0pt;}
+@list l3:level5
+	{mso-level-number-format:alpha-lower;
+	mso-level-text:"%5\)";
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	margin-left:105.0pt;
+	text-indent:-21.0pt;}
+@list l3:level6
+	{mso-level-number-format:roman-lower;
+	mso-level-tab-stop:none;
+	mso-level-number-position:right;
+	margin-left:126.0pt;
+	text-indent:-21.0pt;}
+@list l3:level7
+	{mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	margin-left:147.0pt;
+	text-indent:-21.0pt;}
+@list l3:level8
+	{mso-level-number-format:alpha-lower;
+	mso-level-text:"%8\)";
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	margin-left:168.0pt;
+	text-indent:-21.0pt;}
+@list l3:level9
+	{mso-level-number-format:roman-lower;
+	mso-level-tab-stop:none;
+	mso-level-number-position:right;
+	margin-left:189.0pt;
+	text-indent:-21.0pt;}
+@list l4
+	{mso-list-id:1640064995;
+	mso-list-type:hybrid;
+	mso-list-template-ids:-1699594614 134807555 134807555 134807557 134807553 =
+134807555 134807557 134807553 134807555 134807557;}
+@list l4:level1
+	{mso-level-number-format:bullet;
+	mso-level-text:o;
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;
+	font-family:"Courier New";}
+@list l4:level2
+	{mso-level-number-format:bullet;
+	mso-level-text:o;
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;
+	font-family:"Courier New";}
+@list l4:level3
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0A7;
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;
+	font-family:Wingdings;}
+@list l4:level4
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0B7;
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;
+	font-family:Symbol;}
+@list l4:level5
+	{mso-level-number-format:bullet;
+	mso-level-text:o;
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;
+	font-family:"Courier New";}
+@list l4:level6
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0A7;
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;
+	font-family:Wingdings;}
+@list l4:level7
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0B7;
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;
+	font-family:Symbol;}
+@list l4:level8
+	{mso-level-number-format:bullet;
+	mso-level-text:o;
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;
+	font-family:"Courier New";}
+@list l4:level9
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0A7;
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;
+	font-family:Wingdings;}
+@list l5
+	{mso-list-id:1740322726;
+	mso-list-type:hybrid;
+	mso-list-template-ids:548052610 821482946 67698713 67698715 67698703 67698=
+713 67698715 67698703 67698713 67698715;}
+@list l5:level1
+	{mso-level-number-format:alpha-lower;
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	margin-left:18.0pt;
+	text-indent:-18.0pt;}
+@list l5:level2
+	{mso-level-number-format:alpha-lower;
+	mso-level-text:"%2\)";
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	margin-left:42.0pt;
+	text-indent:-21.0pt;}
+@list l5:level3
+	{mso-level-number-format:roman-lower;
+	mso-level-tab-stop:none;
+	mso-level-number-position:right;
+	margin-left:63.0pt;
+	text-indent:-21.0pt;}
+@list l5:level4
+	{mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	margin-left:84.0pt;
+	text-indent:-21.0pt;}
+@list l5:level5
+	{mso-level-number-format:alpha-lower;
+	mso-level-text:"%5\)";
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	margin-left:105.0pt;
+	text-indent:-21.0pt;}
+@list l5:level6
+	{mso-level-number-format:roman-lower;
+	mso-level-tab-stop:none;
+	mso-level-number-position:right;
+	margin-left:126.0pt;
+	text-indent:-21.0pt;}
+@list l5:level7
+	{mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	margin-left:147.0pt;
+	text-indent:-21.0pt;}
+@list l5:level8
+	{mso-level-number-format:alpha-lower;
+	mso-level-text:"%8\)";
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	margin-left:168.0pt;
+	text-indent:-21.0pt;}
+@list l5:level9
+	{mso-level-number-format:roman-lower;
+	mso-level-tab-stop:none;
+	mso-level-number-position:right;
+	margin-left:189.0pt;
+	text-indent:-21.0pt;}
+ol
+	{margin-bottom:0cm;}
+ul
+	{margin-bottom:0cm;}
+--></style><!--[if gte mso 9]><xml>
+<o:shapedefaults v:ext=3D"edit" spidmax=3D"1026" />
+</xml><![endif]--><!--[if gte mso 9]><xml>
+<o:shapelayout v:ext=3D"edit">
+<o:idmap v:ext=3D"edit" data=3D"1" />
+</o:shapelayout></xml><![endif]-->
+</head>
+<body lang=3D"EN-GB" link=3D"blue" vlink=3D"purple" style=3D"word-wrap:brea=
+k-word">
+<!--[if lte mso 15 || CheckWebRef]-->
+<div id=3D"OwaReferenceAttachments" contenteditable=3D"false">
+<table style=3D"margin-bottom: 15px; border-width: 0px 0px 1px 0px; border-=
+color:#C7C7C7; border-style: none none dotted none;">
+<tbody>
+<tr valign=3D"top">
+<td style=3D"padding-bottom:7px;">
+<table align=3D"left" style=3D"margin-right: 28px; border-width: 0px; backg=
+round-color: rgb(255, 255, 255); border-spacing: 0px">
+<tbody>
+<tr valign=3D"top">
+<td style=3D"padding: 0px;">
+<div id=3D"OwaReferenceAttachmentDescription" style=3D"margin-left: 3px;">
+<p style=3D"white-space: nowrap; margin-bottom: 4px; font-size: 14px; font-=
+weight: normal; font-family: 'Segoe UI', 'Segoe WP', 'Segoe UI WPC', Tahoma=
+, Arial, sans-serif; color: #666666;">
+Rex Chongjun Zhu has shared a OneDrive for Business file with you. To view =
+it, click the link below.</p>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+<tr valign=3D"top">
+<td>
+<table valign=3D"top" style=3D"margin-right: 28px; margin-bottom:10px; bord=
+er-width: 0px; height:20px; background-color: rgb(255, 255, 255); border-sp=
+acing: 0px">
+<tbody>
+<tr valign=3D"top">
+<td style=3D"padding: 0px;">
+<div style=3D"background-color: rgb(255, 255, 255); height: 20px; width: 20=
+px; max-height: 20px;">
+<img height=3D"20" width=3D"20" style=3D"border:0px" src=3D"cid:image00001.=
+png@01D6BC73.8B7A0920" alt=3D"icon"></div>
+</td>
+<td>
+<div id=3D"OwaReferenceAttachmentFileName2" style=3D"margin: 0px 0px 0px 5p=
+x; font-size: 14px; font-family: 'Segoe UI', 'Segoe WP', 'Segoe UI WPC', Ta=
+homa, Arial, sans-serif; color: rgb(0, 114, 198);">
+<a href=3D"https://investao.sharepoint.com/:w:/g/EcoWXDYNpTNDnJZKy-4WOW0BsA=
+ei0lCxG6V7mhEFimOEzQ" target=3D"_blank" style=3D"text-decoration: none; mar=
+gin: 0px; font-size: 14px; font-family: 'Segoe UI', 'Segoe WP', 'Segoe UI W=
+PC', Tahoma, Arial, sans-serif; color: rgb(0, 114, 198);">InvesTAO
+ Weekly.docx</a></div>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+<br>
+<div id=3D"OwaReferenceAttachmentsEnd" style=3D"display:none;visibility:hid=
+den;"></div>
+<!--[endif]-->
+<div class=3D"WordSection1">
+<p><span style=3D"font-family:&quot;Cambria&quot;,serif">Investao Limited i=
+s inviting you to a scheduled Zoom meeting.
+<o:p></o:p></span></p>
+<p><span style=3D"font-family:&quot;Cambria&quot;,serif">Join Zoom Meeting =
+<br>
+<a href=3D"https://zoom.com.cn/j/9854205142?pwd=3DTXg5Vk9lTlV6U0pWdXNRdHprN=
+VZoUT09">https://zoom.com.cn/j/9854205142?pwd=3DTXg5Vk9lTlV6U0pWdXNRdHprNVZ=
+oUT09</a>
+<o:p></o:p></span></p>
+<p><span style=3D"font-family:&quot;Cambria&quot;,serif">Meeting ID: 985 42=
+0 5142 <br>
+Passcode: 98771 <o:p></o:p></span></p>
+<p><span style=3D"font-family:&quot;Cambria&quot;,serif">Dial by your locat=
+ion <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; +44 330 088 5830 United Kingdom =
+<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; +44 131 460 1196 United Kingdom =
+<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; +44 203 481 5237 United Kingdom =
+<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; +86 10 5387 6330 China <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; +86 10 8783 3177 China <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; +351 308 810 988 Portugal <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; +351 211 202 618 Portugal <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; +351 308 804 188 Portugal <br>
+Meeting ID: 985 420 5142 <br>
+Passcode: 98771 <br>
+Find your local number: <a href=3D"https://zoom.com.cn/u/adgzfwqmDf">https:=
+//zoom.com.cn/u/adgzfwqmDf</a>
+<o:p></o:p></span></p>
+<p class=3D"MsoNormal"><span style=3D"font-family:&quot;Cambria&quot;,serif=
+"><o:p>&nbsp;</o:p></span></p>
+<p class=3D"MsoNormal"><span style=3D"font-family:&quot;Cambria&quot;,serif=
+"><o:p>&nbsp;</o:p></span></p>
+<table class=3D"MsoNormalTable" border=3D"0" cellspacing=3D"0" cellpadding=
+=3D"0" align=3D"left" width=3D"642" style=3D"width:481.7pt;border-collapse:=
+collapse;margin-left:6.75pt;margin-right:6.75pt;margin-bottom:5.25pt">
+<tbody>
+<tr style=3D"height:27.7pt">
+<td width=3D"642" colspan=3D"6" style=3D"width:481.7pt;border:solid windowt=
+ext 1.0pt;padding:0cm 5.4pt 0cm 5.4pt;height:27.7pt">
+<p class=3D"MsoNormal" align=3D"center" style=3D"text-align:center;mso-elem=
+ent:frame;mso-element-frame-hspace:9.0pt;mso-element-wrap:around;mso-elemen=
+t-anchor-vertical:paragraph;mso-element-anchor-horizontal:column;mso-height=
+-rule:exactly">
+<a name=3D"_Hlk55229441"><b><span style=3D"font-size:16.0pt;font-family:&qu=
+ot;Cambria&quot;,serif">Meeting Minutes<o:p></o:p></span></b></a></p>
+</td>
+<span style=3D"mso-bookmark:_Hlk55229441"></span>
+</tr>
+<tr style=3D"height:25.8pt">
+<td width=3D"642" colspan=3D"6" style=3D"width:481.7pt;border:solid windowt=
+ext 1.0pt;border-top:none;padding:0cm 5.4pt 0cm 5.4pt;height:25.8pt">
+<p class=3D"MsoNormal" style=3D"mso-element:frame;mso-element-frame-hspace:=
+9.0pt;mso-element-wrap:around;mso-element-anchor-vertical:paragraph;mso-ele=
+ment-anchor-horizontal:column;mso-height-rule:exactly">
+<span style=3D"mso-bookmark:_Hlk55229441"><b><span style=3D"font-family:&qu=
+ot;Cambria&quot;,serif">Topic: Review &amp; To do<o:p></o:p></span></b></sp=
+an></p>
+</td>
+<span style=3D"mso-bookmark:_Hlk55229441"></span>
+</tr>
+<tr style=3D"height:10.2pt">
+<td width=3D"107" style=3D"width:80.4pt;border-top:none;border-left:solid w=
+indowtext 1.0pt;border-bottom:solid windowtext 1.0pt;border-right:none;padd=
+ing:0cm 5.4pt 0cm 5.4pt;height:10.2pt">
+<p class=3D"MsoNormal" style=3D"line-height:110%;mso-element:frame;mso-elem=
+ent-frame-hspace:9.0pt;mso-element-wrap:around;mso-element-anchor-vertical:=
+paragraph;mso-element-anchor-horizontal:column;mso-height-rule:exactly">
+<span style=3D"mso-bookmark:_Hlk55229441"><b><span style=3D"font-family:&qu=
+ot;Cambria&quot;,serif">Date</span></b></span><span style=3D"mso-bookmark:_=
+Hlk55229441"><b><span style=3D"font-size:11.0pt;line-height:110%;font-famil=
+y:&quot;Cambria&quot;,serif"><o:p></o:p></span></b></span></p>
+</td>
+<span style=3D"mso-bookmark:_Hlk55229441"></span>
+<td width=3D"132" style=3D"width:98.95pt;border-top:none;border-left:solid =
+windowtext 1.0pt;border-bottom:solid windowtext 1.0pt;border-right:none;pad=
+ding:0cm 5.4pt 0cm 5.4pt;height:10.2pt">
+<p class=3D"MsoNormal" style=3D"line-height:110%;mso-element:frame;mso-elem=
+ent-frame-hspace:9.0pt;mso-element-wrap:around;mso-element-anchor-vertical:=
+paragraph;mso-element-anchor-horizontal:column;mso-height-rule:exactly">
+<span style=3D"mso-bookmark:_Hlk55229441"><span style=3D"font-family:&quot;=
+Cambria&quot;,serif">16 Nov 2020<o:p></o:p></span></span></p>
+</td>
+<span style=3D"mso-bookmark:_Hlk55229441"></span>
+<td width=3D"63" style=3D"width:47.2pt;border-top:none;border-left:solid wi=
+ndowtext 1.0pt;border-bottom:solid windowtext 1.0pt;border-right:none;paddi=
+ng:0cm 5.4pt 0cm 5.4pt;height:10.2pt">
+<p class=3D"MsoNormal" style=3D"line-height:110%;mso-element:frame;mso-elem=
+ent-frame-hspace:9.0pt;mso-element-wrap:around;mso-element-anchor-vertical:=
+paragraph;mso-element-anchor-horizontal:column;mso-height-rule:exactly">
+<span style=3D"mso-bookmark:_Hlk55229441"><b><span style=3D"font-family:&qu=
+ot;Cambria&quot;,serif">Time:<o:p></o:p></span></b></span></p>
+</td>
+<span style=3D"mso-bookmark:_Hlk55229441"></span>
+<td width=3D"207" style=3D"width:155.15pt;border-top:none;border-left:solid=
+ windowtext 1.0pt;border-bottom:solid windowtext 1.0pt;border-right:none;pa=
+dding:0cm 5.4pt 0cm 5.4pt;height:10.2pt">
+<p class=3D"MsoNormal" style=3D"line-height:110%;mso-element:frame;mso-elem=
+ent-frame-hspace:9.0pt;mso-element-wrap:around;mso-element-anchor-vertical:=
+paragraph;mso-element-anchor-horizontal:column;mso-height-rule:exactly">
+<span style=3D"mso-bookmark:_Hlk55229441"><span style=3D"font-family:&quot;=
+Cambria&quot;,serif">16:30 =A8C 17:30 (UTC+8)<o:p></o:p></span></span></p>
+</td>
+<span style=3D"mso-bookmark:_Hlk55229441"></span>
+<td width=3D"73" style=3D"width:55.1pt;border-top:none;border-left:solid wi=
+ndowtext 1.0pt;border-bottom:solid windowtext 1.0pt;border-right:none;paddi=
+ng:0cm 5.4pt 0cm 5.4pt;height:10.2pt">
+<p class=3D"MsoNormal" style=3D"line-height:110%;mso-element:frame;mso-elem=
+ent-frame-hspace:9.0pt;mso-element-wrap:around;mso-element-anchor-vertical:=
+paragraph;mso-element-anchor-horizontal:column;mso-height-rule:exactly">
+<span style=3D"mso-bookmark:_Hlk55229441"><b><span style=3D"font-family:&qu=
+ot;Cambria&quot;,serif">Location<o:p></o:p></span></b></span></p>
+</td>
+<span style=3D"mso-bookmark:_Hlk55229441"></span>
+<td width=3D"60" style=3D"width:44.9pt;border:solid windowtext 1.0pt;border=
+-top:none;padding:0cm 5.4pt 0cm 5.4pt;height:10.2pt">
+<p class=3D"MsoNormal" style=3D"line-height:110%;mso-element:frame;mso-elem=
+ent-frame-hspace:9.0pt;mso-element-wrap:around;mso-element-anchor-vertical:=
+paragraph;mso-element-anchor-horizontal:column;mso-height-rule:exactly">
+<span style=3D"mso-bookmark:_Hlk55229441"><span style=3D"font-family:&quot;=
+Cambria&quot;,serif">Zoom<o:p></o:p></span></span></p>
+</td>
+<span style=3D"mso-bookmark:_Hlk55229441"></span>
+</tr>
+<tr style=3D"height:4.8pt">
+<td width=3D"107" style=3D"width:80.4pt;border-top:none;border-left:solid w=
+indowtext 1.0pt;border-bottom:solid windowtext 1.0pt;border-right:none;padd=
+ing:0cm 5.4pt 0cm 5.4pt;height:4.8pt">
+<p class=3D"MsoNormal" style=3D"line-height:110%;mso-element:frame;mso-elem=
+ent-frame-hspace:9.0pt;mso-element-wrap:around;mso-element-anchor-vertical:=
+paragraph;mso-element-anchor-horizontal:column;mso-height-rule:exactly">
+<span style=3D"mso-bookmark:_Hlk55229441"><b><span style=3D"font-family:&qu=
+ot;Cambria&quot;,serif">Attendees<o:p></o:p></span></b></span></p>
+</td>
+<span style=3D"mso-bookmark:_Hlk55229441"></span>
+<td width=3D"535" colspan=3D"5" style=3D"width:401.3pt;border:solid windowt=
+ext 1.0pt;border-top:none;padding:0cm 5.4pt 0cm 5.4pt;height:4.8pt">
+<p class=3D"MsoNormal" style=3D"line-height:110%;mso-element:frame;mso-elem=
+ent-frame-hspace:9.0pt;mso-element-wrap:around;mso-element-anchor-vertical:=
+paragraph;mso-element-anchor-horizontal:column;mso-height-rule:exactly">
+<span style=3D"mso-bookmark:_Hlk55229441"><span style=3D"font-family:&quot;=
+Cambria&quot;,serif">Shelley, Mathias, Hillary, Rex, Devin<o:p></o:p></span=
+></span></p>
+</td>
+<span style=3D"mso-bookmark:_Hlk55229441"></span>
+</tr>
+<tr style=3D"height:14.8pt">
+<td width=3D"107" style=3D"width:80.4pt;border-top:none;border-left:solid w=
+indowtext 1.0pt;border-bottom:solid windowtext 1.0pt;border-right:none;padd=
+ing:0cm 5.4pt 0cm 5.4pt;height:14.8pt">
+<p class=3D"MsoNormal" style=3D"line-height:110%;mso-element:frame;mso-elem=
+ent-frame-hspace:9.0pt;mso-element-wrap:around;mso-element-anchor-vertical:=
+paragraph;mso-element-anchor-horizontal:column;mso-height-rule:exactly">
+<span style=3D"mso-bookmark:_Hlk55229441"><b><span style=3D"font-family:&qu=
+ot;Cambria&quot;,serif">Note-taker<o:p></o:p></span></b></span></p>
+</td>
+<span style=3D"mso-bookmark:_Hlk55229441"></span>
+<td width=3D"535" colspan=3D"5" style=3D"width:401.3pt;border:solid windowt=
+ext 1.0pt;border-top:none;padding:0cm 5.4pt 0cm 5.4pt;height:14.8pt">
+<p class=3D"MsoNormal" style=3D"line-height:110%;mso-element:frame;mso-elem=
+ent-frame-hspace:9.0pt;mso-element-wrap:around;mso-element-anchor-vertical:=
+paragraph;mso-element-anchor-horizontal:column;mso-height-rule:exactly">
+<span style=3D"mso-bookmark:_Hlk55229441"><span style=3D"font-family:&quot;=
+Cambria&quot;,serif">Rex</span></span><span style=3D"mso-bookmark:_Hlk55229=
+441"><span lang=3D"EN-US" style=3D"font-family:&quot;Cambria&quot;,serif"><=
+o:p></o:p></span></span></p>
+</td>
+<span style=3D"mso-bookmark:_Hlk55229441"></span>
+</tr>
+<tr style=3D"height:24.75pt">
+<td width=3D"642" colspan=3D"6" style=3D"width:481.7pt;border:solid windowt=
+ext 1.0pt;border-top:none;padding:0cm 5.4pt 0cm 5.4pt;height:24.75pt">
+<p class=3D"MsoNormal" align=3D"center" style=3D"text-align:center;mso-elem=
+ent:frame;mso-element-frame-hspace:9.0pt;mso-element-wrap:around;mso-elemen=
+t-anchor-vertical:paragraph;mso-element-anchor-horizontal:column;mso-height=
+-rule:exactly">
+<span style=3D"mso-bookmark:_Hlk55229441"><b><span style=3D"font-size:14.0p=
+t;font-family:&quot;Cambria&quot;,serif">Discussion<o:p></o:p></span></b></=
+span></p>
+</td>
+<span style=3D"mso-bookmark:_Hlk55229441"></span>
+</tr>
+<tr style=3D"height:431.85pt">
+<td width=3D"642" colspan=3D"6" valign=3D"top" style=3D"width:481.7pt;borde=
+r-top:none;border-left:solid windowtext 1.0pt;border-bottom:none;border-rig=
+ht:solid windowtext 1.0pt;padding:0cm 5.4pt 0cm 5.4pt;height:431.85pt">
+<p class=3D"MsoNormal" style=3D"mso-element:frame;mso-element-frame-hspace:=
+9.0pt;mso-element-wrap:around;mso-element-anchor-vertical:paragraph;mso-ele=
+ment-anchor-horizontal:column;mso-height-rule:exactly">
+<span style=3D"mso-bookmark:_Hlk55229441"><b><span style=3D"font-family:&qu=
+ot;Cambria&quot;,serif;color:#A5A5A5">Research</span></b></span><span style=
+=3D"mso-bookmark:_Hlk55229441"><b><span style=3D"font-size:11.0pt;font-fami=
+ly:&quot;Cambria&quot;,serif;color:#A5A5A5"><o:p></o:p></span></b></span></=
+p>
+<ol style=3D"margin-top:0cm" start=3D"1" type=3D"a">
+<li class=3D"MsoListParagraph" style=3D"margin-left:-18.0pt;line-height:105=
+%;mso-list:l0 level1 lfo1;mso-element:frame;mso-element-frame-hspace:9.0pt;=
+mso-element-wrap:around;mso-element-anchor-vertical:paragraph;mso-element-a=
+nchor-horizontal:column;mso-height-rule:exactly">
+<span style=3D"mso-bookmark:_Hlk55229441"><span style=3D"font-family:&quot;=
+Cambria&quot;,serif">China markets: Oct macro-econ data well outperform exp=
+ectation; new QDII quota =A8C massive increase compared to the last 2 years=
+; concerns on liquidity and growth had impacts on
+ stock prices; RCEP signature energizes the market;<o:p></o:p></span></span=
+></li><li class=3D"MsoListParagraph" style=3D"margin-left:-18.0pt;line-heig=
+ht:105%;mso-list:l0 level1 lfo1;mso-element:frame;mso-element-frame-hspace:=
+9.0pt;mso-element-wrap:around;mso-element-anchor-vertical:paragraph;mso-ele=
+ment-anchor-horizontal:column;mso-height-rule:exactly">
+<span style=3D"mso-bookmark:_Hlk55229441"><span style=3D"font-family:&quot;=
+Cambria&quot;,serif">Global markets: recovery vs. new pandemic peak -
+<o:p></o:p></span></span></li><li class=3D"MsoListParagraph" style=3D"margi=
+n-left:-18.0pt;line-height:105%;mso-list:l0 level1 lfo1;mso-element:frame;m=
+so-element-frame-hspace:9.0pt;mso-element-wrap:around;mso-element-anchor-ve=
+rtical:paragraph;mso-element-anchor-horizontal:column;mso-height-rule:exact=
+ly">
+<span style=3D"mso-bookmark:_Hlk55229441"><span style=3D"font-family:&quot;=
+Cambria&quot;,serif">DDQ on FountainCap =A8C outperforming returns with hig=
+her volatility compared =A8C meeting on Friday<o:p></o:p></span></span></li=
+></ol>
+<p class=3D"MsoListParagraph" style=3D"margin-left:18.0pt;line-height:105%;=
+mso-element:frame;mso-element-frame-hspace:9.0pt;mso-element-wrap:around;ms=
+o-element-anchor-vertical:paragraph;mso-element-anchor-horizontal:column;ms=
+o-height-rule:exactly">
+<span style=3D"mso-bookmark:_Hlk55229441"><b><span style=3D"font-family:&qu=
+ot;Cambria&quot;,serif;color:#A5A5A5"><o:p>&nbsp;</o:p></span></b></span></=
+p>
+<p class=3D"MsoNormal" style=3D"mso-element:frame;mso-element-frame-hspace:=
+9.0pt;mso-element-wrap:around;mso-element-anchor-vertical:paragraph;mso-ele=
+ment-anchor-horizontal:column;mso-height-rule:exactly">
+<span style=3D"mso-bookmark:_Hlk55229441"><b><span style=3D"font-family:&qu=
+ot;Cambria&quot;,serif;color:#A5A5A5">Products
+<o:p></o:p></span></b></span></p>
+<p class=3D"MsoListParagraph" style=3D"margin-left:15.85pt;text-indent:-15.=
+85pt;line-height:105%;mso-list:l2 level1 lfo2;mso-element:frame;mso-element=
+-frame-hspace:9.0pt;mso-element-wrap:around;mso-element-anchor-vertical:par=
+agraph;mso-element-anchor-horizontal:column;mso-height-rule:exactly">
+<span style=3D"mso-bookmark:_Hlk55229441"><![if !supportLists]><span style=
+=3D"font-family:Symbol"><span style=3D"mso-list:Ignore">=A1=A4<span style=
+=3D"font:7.0pt &quot;Times New Roman&quot;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&=
+nbsp;
+</span></span></span><![endif]><span style=3D"font-family:&quot;Cambria&quo=
+t;,serif">Value Partners: onboarded, files sent<o:p></o:p></span></span></p=
+>
+<p class=3D"MsoListParagraph" style=3D"margin-left:15.85pt;text-indent:-15.=
+85pt;line-height:105%;mso-list:l2 level1 lfo2;mso-element:frame;mso-element=
+-frame-hspace:9.0pt;mso-element-wrap:around;mso-element-anchor-vertical:par=
+agraph;mso-element-anchor-horizontal:column;mso-height-rule:exactly">
+<span style=3D"mso-bookmark:_Hlk55229441"><![if !supportLists]><span style=
+=3D"font-family:Symbol"><span style=3D"mso-list:Ignore">=A1=A4<span style=
+=3D"font:7.0pt &quot;Times New Roman&quot;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&=
+nbsp;
+</span></span></span><![endif]><span style=3D"font-family:&quot;Cambria&quo=
+t;,serif">HFT: meeting =A8C detailed agreement proposal<o:p></o:p></span></=
+span></p>
+<p class=3D"MsoListParagraph" style=3D"margin-left:15.85pt;text-indent:-15.=
+85pt;line-height:105%;mso-list:l2 level1 lfo2;mso-element:frame;mso-element=
+-frame-hspace:9.0pt;mso-element-wrap:around;mso-element-anchor-vertical:par=
+agraph;mso-element-anchor-horizontal:column;mso-height-rule:exactly">
+<span style=3D"mso-bookmark:_Hlk55229441"><![if !supportLists]><span style=
+=3D"font-family:Symbol"><span style=3D"mso-list:Ignore">=A1=A4<span style=
+=3D"font:7.0pt &quot;Times New Roman&quot;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&=
+nbsp;
+</span></span></span><![endif]><span style=3D"font-family:&quot;Cambria&quo=
+t;,serif">CAFW: video sent<o:p></o:p></span></span></p>
+<p class=3D"MsoListParagraph" style=3D"margin-left:15.85pt;text-indent:-15.=
+85pt;line-height:105%;mso-list:l2 level1 lfo2;mso-element:frame;mso-element=
+-frame-hspace:9.0pt;mso-element-wrap:around;mso-element-anchor-vertical:par=
+agraph;mso-element-anchor-horizontal:column;mso-height-rule:exactly">
+<span style=3D"mso-bookmark:_Hlk55229441"><![if !supportLists]><span style=
+=3D"font-family:Symbol"><span style=3D"mso-list:Ignore">=A1=A4<span style=
+=3D"font:7.0pt &quot;Times New Roman&quot;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&=
+nbsp;
+</span></span></span><![endif]><span style=3D"font-family:&quot;Cambria&quo=
+t;,serif">Others: <o:p>
+</o:p></span></span></p>
+<p class=3D"MsoListParagraph" style=3D"margin-left:37.1pt;text-indent:-21.2=
+5pt;line-height:105%;mso-list:l2 level2 lfo2;mso-element:frame;mso-element-=
+frame-hspace:9.0pt;mso-element-wrap:around;mso-element-anchor-vertical:para=
+graph;mso-element-anchor-horizontal:column;mso-height-rule:exactly">
+<span style=3D"mso-bookmark:_Hlk55229441"><![if !supportLists]><span style=
+=3D"font-family:&quot;Courier New&quot;"><span style=3D"mso-list:Ignore">o<=
+span style=3D"font:7.0pt &quot;Times New Roman&quot;">&nbsp;&nbsp;&nbsp;
+</span></span></span><![endif]><span style=3D"font-family:&quot;Cambria&quo=
+t;,serif">Pengyang: postponing December webinar
+<o:p></o:p></span></span></p>
+<p class=3D"MsoListParagraph" style=3D"margin-left:37.1pt;text-indent:-21.2=
+5pt;line-height:105%;mso-list:l2 level2 lfo2;mso-element:frame;mso-element-=
+frame-hspace:9.0pt;mso-element-wrap:around;mso-element-anchor-vertical:para=
+graph;mso-element-anchor-horizontal:column;mso-height-rule:exactly">
+<span style=3D"mso-bookmark:_Hlk55229441"><![if !supportLists]><span style=
+=3D"font-family:&quot;Courier New&quot;"><span style=3D"mso-list:Ignore">o<=
+span style=3D"font:7.0pt &quot;Times New Roman&quot;">&nbsp;&nbsp;&nbsp;
+</span></span></span><![endif]><span style=3D"font-family:&quot;Cambria&quo=
+t;,serif">FountainCap
+</span><span lang=3D"ZH-CN">=B7=BD=E5=AD</span></span><span style=3D"mso-bo=
+okmark:_Hlk55229441"><span style=3D"font-family:&quot;Cambria&quot;,serif">=
+: call next week (with a China long-only strategy w/ 5y annualised return o=
+f 16%, current capacity on Switzerland)<o:p></o:p></span></span></p>
+<p class=3D"MsoListParagraph" style=3D"margin-left:37.1pt;text-indent:-21.2=
+5pt;line-height:105%;mso-list:l2 level2 lfo2;mso-element:frame;mso-element-=
+frame-hspace:9.0pt;mso-element-wrap:around;mso-element-anchor-vertical:para=
+graph;mso-element-anchor-horizontal:column;mso-height-rule:exactly">
+<span style=3D"mso-bookmark:_Hlk55229441"><![if !supportLists]><span style=
+=3D"font-family:&quot;Courier New&quot;"><span style=3D"mso-list:Ignore">o<=
+span style=3D"font:7.0pt &quot;Times New Roman&quot;">&nbsp;&nbsp;&nbsp;
+</span></span></span><![endif]><span style=3D"font-family:&quot;Cambria&quo=
+t;,serif">CUAM, CY, PA, HT, CMF, GF, Rosefinch: /<o:p></o:p></span></span><=
+/p>
+<p class=3D"MsoListParagraph" style=3D"line-height:105%;mso-element:frame;m=
+so-element-frame-hspace:9.0pt;mso-element-wrap:around;mso-element-anchor-ve=
+rtical:paragraph;mso-element-anchor-horizontal:column;mso-height-rule:exact=
+ly">
+<span style=3D"mso-bookmark:_Hlk55229441"><span style=3D"font-family:&quot;=
+Cambria&quot;,serif"><o:p>&nbsp;</o:p></span></span></p>
+<p class=3D"MsoNormal" style=3D"mso-element:frame;mso-element-frame-hspace:=
+9.0pt;mso-element-wrap:around;mso-element-anchor-vertical:paragraph;mso-ele=
+ment-anchor-horizontal:column;mso-height-rule:exactly">
+<span style=3D"mso-bookmark:_Hlk55229441"><b><span style=3D"font-family:&qu=
+ot;Cambria&quot;,serif;color:#A5A5A5">Marketing<o:p></o:p></span></b></span=
+></p>
+<ol style=3D"margin-top:0cm" start=3D"1" type=3D"a">
+<li class=3D"MsoListParagraph" style=3D"margin-left:-18.0pt;line-height:105=
+%;mso-list:l1 level1 lfo3;mso-element:frame;mso-element-frame-hspace:9.0pt;=
+mso-element-wrap:around;mso-element-anchor-vertical:paragraph;mso-element-a=
+nchor-horizontal:column;mso-height-rule:exactly">
+<span style=3D"mso-bookmark:_Hlk55229441"><span style=3D"font-family:&quot;=
+Cambria&quot;,serif">Dec. Pengyang &amp;HSBC (first week of Dec)<o:p></o:p>=
+</span></span></li></ol>
+<ul style=3D"margin-top:0cm" type=3D"circle">
+<li class=3D"MsoListParagraph" style=3D"margin-left:0cm;line-height:105%;ms=
+o-list:l4 level1 lfo4;mso-element:frame;mso-element-frame-hspace:9.0pt;mso-=
+element-wrap:around;mso-element-anchor-vertical:paragraph;mso-element-ancho=
+r-horizontal:column;mso-height-rule:exactly">
+<span style=3D"mso-bookmark:_Hlk55229441"><span style=3D"font-family:&quot;=
+Cambria&quot;,serif">Status: postponing the date, theme set on the EM asset=
+ allocation<o:p></o:p></span></span></li></ul>
+<ol style=3D"margin-top:0cm" start=3D"2" type=3D"a">
+<li class=3D"MsoListParagraph" style=3D"margin-left:-18.0pt;line-height:105=
+%;mso-list:l1 level1 lfo3;mso-element:frame;mso-element-frame-hspace:9.0pt;=
+mso-element-wrap:around;mso-element-anchor-vertical:paragraph;mso-element-a=
+nchor-horizontal:column;mso-height-rule:exactly">
+<span style=3D"mso-bookmark:_Hlk55229441"><span style=3D"font-family:&quot;=
+Cambria&quot;,serif">Dec. City of London virtual visit<o:p></o:p></span></s=
+pan></li></ol>
+<p class=3D"MsoListParagraph" style=3D"margin-left:42.0pt;text-indent:-21.0=
+pt;line-height:105%;mso-list:l1 level2 lfo3;mso-element:frame;mso-element-f=
+rame-hspace:9.0pt;mso-element-wrap:around;mso-element-anchor-vertical:parag=
+raph;mso-element-anchor-horizontal:column;mso-height-rule:exactly">
+<span style=3D"mso-bookmark:_Hlk55229441"><![if !supportLists]><span style=
+=3D"font-family:&quot;Courier New&quot;"><span style=3D"mso-list:Ignore">o<=
+span style=3D"font:7.0pt &quot;Times New Roman&quot;">&nbsp;&nbsp;&nbsp;
+</span></span></span><![endif]><span style=3D"font-family:&quot;Cambria&quo=
+t;,serif">Status: In talk with Oriental Securities; Tebon declined;<o:p></o=
+:p></span></span></p>
+<ol style=3D"margin-top:0cm" start=3D"3" type=3D"a">
+<li class=3D"MsoListParagraph" style=3D"margin-left:-18.0pt;line-height:105=
+%;mso-list:l1 level1 lfo3;mso-element:frame;mso-element-frame-hspace:9.0pt;=
+mso-element-wrap:around;mso-element-anchor-vertical:paragraph;mso-element-a=
+nchor-horizontal:column;mso-height-rule:exactly">
+<span style=3D"mso-bookmark:_Hlk55229441"><span style=3D"font-family:&quot;=
+Cambria&quot;,serif">Digital marketing: new podcast pending;
+<o:p></o:p></span></span></li><li class=3D"MsoListParagraph" style=3D"margi=
+n-left:-18.0pt;line-height:105%;mso-list:l1 level1 lfo3;mso-element:frame;m=
+so-element-frame-hspace:9.0pt;mso-element-wrap:around;mso-element-anchor-ve=
+rtical:paragraph;mso-element-anchor-horizontal:column;mso-height-rule:exact=
+ly">
+<span style=3D"mso-bookmark:_Hlk55229441"><span style=3D"font-family:&quot;=
+Cambria&quot;,serif">Others: RankiaPro =A8C a magazine inviting us for a pi=
+ece of article; setting up InvesTAO wechat channel; Bloomberg meeting<o:p><=
+/o:p></span></span></li></ol>
+<p class=3D"MsoNormal" style=3D"margin-top:12.0pt;mso-element:frame;mso-ele=
+ment-frame-hspace:9.0pt;mso-element-wrap:around;mso-element-anchor-vertical=
+:paragraph;mso-element-anchor-horizontal:column;mso-height-rule:exactly">
+<span style=3D"mso-bookmark:_Hlk55229441"><b><span style=3D"font-family:&qu=
+ot;Cambria&quot;,serif;color:#A5A5A5">Sales &amp; Distribution<o:p></o:p></=
+span></b></span></p>
+<ol style=3D"margin-top:0cm" start=3D"1" type=3D"a">
+<li class=3D"MsoListParagraph" style=3D"margin-left:-18.0pt;line-height:105=
+%;mso-list:l5 level1 lfo5;mso-element:frame;mso-element-frame-hspace:9.0pt;=
+mso-element-wrap:around;mso-element-anchor-vertical:paragraph;mso-element-a=
+nchor-horizontal:column;mso-height-rule:exactly">
+<span style=3D"mso-bookmark:_Hlk55229441"><span style=3D"font-family:&quot;=
+Cambria&quot;,serif">Last meeting(s): Nordic multi-family office, IQ office=
+, Greens Peak UK investor
+<o:p></o:p></span></span></li><li class=3D"MsoListParagraph" style=3D"margi=
+n-left:-18.0pt;line-height:105%;mso-list:l5 level1 lfo5;mso-element:frame;m=
+so-element-frame-hspace:9.0pt;mso-element-wrap:around;mso-element-anchor-ve=
+rtical:paragraph;mso-element-anchor-horizontal:column;mso-height-rule:exact=
+ly">
+<span style=3D"mso-bookmark:_Hlk55229441"><span style=3D"font-family:&quot;=
+Cambria&quot;,serif">New meeting: Inversis =A8C to introduce and further co=
+ntact with our managers; Tower Watson =A8C about our equity managers; QDII =
+with
+</span></span><span style=3D"mso-bookmark:_Hlk55229441"><span lang=3D"EN-US=
+" style=3D"font-family:&quot;Cambria&quot;,serif">Hua=A1=AFan Fund</span></=
+span><span style=3D"mso-bookmark:_Hlk55229441"><span style=3D"font-family:&=
+quot;Cambria&quot;,serif"><o:p></o:p></span></span></li><li class=3D"MsoLis=
+tParagraph" style=3D"margin-left:-18.0pt;line-height:105%;mso-list:l5 level=
+1 lfo5;mso-element:frame;mso-element-frame-hspace:9.0pt;mso-element-wrap:ar=
+ound;mso-element-anchor-vertical:paragraph;mso-element-anchor-horizontal:co=
+lumn;mso-height-rule:exactly">
+<span style=3D"mso-bookmark:_Hlk55229441"><span style=3D"font-family:&quot;=
+Cambria&quot;,serif">New leads:
+<o:p></o:p></span></span></li><li class=3D"MsoListParagraph" style=3D"margi=
+n-left:-18.0pt;line-height:105%;mso-list:l5 level1 lfo5;mso-element:frame;m=
+so-element-frame-hspace:9.0pt;mso-element-wrap:around;mso-element-anchor-ve=
+rtical:paragraph;mso-element-anchor-horizontal:column;mso-height-rule:exact=
+ly">
+<span style=3D"mso-bookmark:_Hlk55229441"><span style=3D"font-family:&quot;=
+Cambria&quot;,serif">Contact name list &amp; webinar: to build more targete=
+d and relevant events and database
+<o:p></o:p></span></span></li></ol>
+<p class=3D"MsoNormal" style=3D"margin-top:12.0pt;mso-element:frame;mso-ele=
+ment-frame-hspace:9.0pt;mso-element-wrap:around;mso-element-anchor-vertical=
+:paragraph;mso-element-anchor-horizontal:column;mso-height-rule:exactly">
+<span style=3D"mso-bookmark:_Hlk55229441"><b><span style=3D"font-family:&qu=
+ot;Cambria&quot;,serif;color:#A5A5A5">IT, HR, Operation &amp; Admin<o:p></o=
+:p></span></b></span></p>
+<ol style=3D"margin-top:0cm" start=3D"1" type=3D"a">
+<li class=3D"MsoListParagraph" style=3D"margin-left:-18.0pt;line-height:105=
+%;mso-list:l3 level1 lfo6;mso-element:frame;mso-element-frame-hspace:9.0pt;=
+mso-element-wrap:around;mso-element-anchor-vertical:paragraph;mso-element-a=
+nchor-horizontal:column;mso-height-rule:exactly">
+<span style=3D"mso-bookmark:_Hlk55229441"><span style=3D"font-family:&quot;=
+Cambria&quot;,serif">Year-end review and new plans, postcards<o:p></o:p></s=
+pan></span></li><li class=3D"MsoListParagraph" style=3D"margin-left:-18.0pt=
+;line-height:105%;mso-list:l3 level1 lfo6;mso-element:frame;mso-element-fra=
+me-hspace:9.0pt;mso-element-wrap:around;mso-element-anchor-vertical:paragra=
+ph;mso-element-anchor-horizontal:column;mso-height-rule:exactly">
+<span style=3D"mso-bookmark:_Hlk55229441"><span style=3D"font-family:&quot;=
+Cambria&quot;,serif">Swiss base: alternative provider<o:p></o:p></span></sp=
+an></li><li class=3D"MsoListParagraph" style=3D"margin-left:-18.0pt;line-he=
+ight:105%;mso-list:l3 level1 lfo6;mso-element:frame;mso-element-frame-hspac=
+e:9.0pt;mso-element-wrap:around;mso-element-anchor-vertical:paragraph;mso-e=
+lement-anchor-horizontal:column;mso-height-rule:exactly">
+<span style=3D"mso-bookmark:_Hlk55229441"><span style=3D"font-family:&quot;=
+Cambria&quot;,serif">Compliance: InvesTAO accounts gathered in a file<o:p><=
+/o:p></span></span></li><li class=3D"MsoListParagraph" style=3D"margin-left=
+:-18.0pt;line-height:105%;mso-list:l3 level1 lfo6;mso-element:frame;mso-ele=
+ment-frame-hspace:9.0pt;mso-element-wrap:around;mso-element-anchor-vertical=
+:paragraph;mso-element-anchor-horizontal:column;mso-height-rule:exactly">
+<span style=3D"mso-bookmark:_Hlk55229441"><span style=3D"font-family:&quot;=
+Cambria&quot;,serif">Intern: more</span></span><span style=3D"mso-bookmark:=
+_Hlk55229441"><span lang=3D"EN-US" style=3D"font-family:&quot;Cambria&quot;=
+,serif"> resource from now =A8C utilizing our digital channels</span></span=
+><span style=3D"mso-bookmark:_Hlk55229441"><span style=3D"font-family:&quot=
+;Cambria&quot;,serif"><o:p></o:p></span></span></li><li class=3D"MsoListPar=
+agraph" style=3D"margin-left:-18.0pt;line-height:105%;mso-list:l3 level1 lf=
+o6;mso-element:frame;mso-element-frame-hspace:9.0pt;mso-element-wrap:around=
+;mso-element-anchor-vertical:paragraph;mso-element-anchor-horizontal:column=
+;mso-height-rule:exactly">
+<span style=3D"mso-bookmark:_Hlk55229441"><span style=3D"font-family:&quot;=
+Cambria&quot;,serif">Other long-term operational:&nbsp;&nbsp; /
+<o:p></o:p></span></span></li></ol>
+</td>
+<span style=3D"mso-bookmark:_Hlk55229441"></span>
+</tr>
+</tbody>
+</table>
+<p class=3D"MsoNormal"><span style=3D"font-family:&quot;Cambria&quot;,serif=
+"><o:p>&nbsp;</o:p></span></p>
+</div>
+<hr>
+<p style=3D"text-align: justify;"><span style=3D"color: #808080; font-size:=
+ 8px; line-height: 1; font-family: Arial;">This email is issued by Investao=
+ Limited (UK), an Appointed Representative of Mirabella Advisers LLP, which=
+ is authorised and regulated by the
+ Financial Conduct Authority number 606792. This email (including any attac=
+hments) may contain confidential, proprietary, privileged and/or private in=
+formation. This information is intended solely for the use of the individua=
+l or entity to whom it is addressed.
+ If you are not the intended recipient of this message, please notify the s=
+ender immediately, and delete the message and any attachments. Any disclosu=
+re, reproduction, distribution or other use of this message or any attachme=
+nts by an individual or entity other
+ than the intended recipient is prohibited. This email is for information p=
+urposes only and shall not be construed as an offer or an acceptance or a c=
+onfirmation of any contract or transaction. Any views or opinions expressed=
+ are solely those of the author
+ and do not necessarily represent those of Investao Limited (UK).</span></p=
+>
+</body>
+</html>
+
+--_000_HK2PR06MB3348E2083E3397E39FCB9A81D3E30HK2PR06MB3348apcp_
+Content-Type: text/calendar; charset="utf-8"; method=REQUEST
+Content-Transfer-Encoding: base64
+
+QkVHSU46VkNBTEVOREFSDQpNRVRIT0Q6UkVRVUVTVA0KUFJPRElEOk1pY3Jvc29mdCBFeGNoYW5n
+ZSBTZXJ2ZXIgMjAxMA0KVkVSU0lPTjoyLjANCkJFR0lOOlZUSU1FWk9ORQ0KVFpJRDpDaGluYSBT
+dGFuZGFyZCBUaW1lDQpCRUdJTjpTVEFOREFSRA0KRFRTVEFSVDoxNjAxMDEwMVQwMDAwMDANClRa
+T0ZGU0VURlJPTTorMDgwMA0KVFpPRkZTRVRUTzorMDgwMA0KRU5EOlNUQU5EQVJEDQpCRUdJTjpE
+QVlMSUdIVA0KRFRTVEFSVDoxNjAxMDEwMVQwMDAwMDANClRaT0ZGU0VURlJPTTorMDgwMA0KVFpP
+RkZTRVRUTzorMDgwMA0KRU5EOkRBWUxJR0hUDQpFTkQ6VlRJTUVaT05FDQpCRUdJTjpWRVZFTlQN
+Ck9SR0FOSVpFUjtDTj1SZXggQ2hvbmdqdW4gWmh1Om1haWx0bzpyZXguemh1QGludmVzdGFvLmNv
+LnVrDQpBVFRFTkRFRTtST0xFPVJFUS1QQVJUSUNJUEFOVDtQQVJUU1RBVD1ORUVEUy1BQ1RJT047
+UlNWUD1UUlVFO0NOPVNoZWxsZXkgWWENCiBuZzptYWlsdG86c2hlbGxleS55YW5nQGludmVzdGFv
+LmNvLnVrDQpBVFRFTkRFRTtST0xFPVJFUS1QQVJUSUNJUEFOVDtQQVJUU1RBVD1ORUVEUy1BQ1RJ
+T047UlNWUD1UUlVFO0NOPU1hdGhpYXMgS2ENCiBsbWFyOm1haWx0bzpNYXRoaWFzLkthbG1hckBp
+bnZlc3Rhby5jby51aw0KQVRURU5ERUU7Uk9MRT1SRVEtUEFSVElDSVBBTlQ7UEFSVFNUQVQ9TkVF
+RFMtQUNUSU9OO1JTVlA9VFJVRTtDTj1IaWxsYXJ5IFN1DQogOm1haWx0bzpIaWxsYXJ5LlN1QGlu
+dmVzdGFvLmNvLnVrDQpBVFRFTkRFRTtST0xFPVJFUS1QQVJUSUNJUEFOVDtQQVJUU1RBVD1ORUVE
+Uy1BQ1RJT047UlNWUD1UUlVFO0NOPURldmluIFppd2UNCiBuIEh1YW5nOm1haWx0bzpEZXZpbi5I
+dWFuZ0BpbnZlc3Rhby5jby51aw0KQVRUQUNIOkNJRDpGQjMxNzJCRTI3QUI5MzQ5ODY2M0Y5NTYy
+NEUyOERBNkBhcGNwcmQwNi5wcm9kLm91dGxvb2suY29tDQpBVFRBQ0g6Q0lEOmltYWdlMDAwMDEu
+cG5nQDAxRDZCQzczLjhCNEExRjgwDQpBVFRBQ0g6Q0lEOmltYWdlMDAwMDEucG5nQDAxRDZCQzcz
+LjhCNjZBODMwDQpBVFRBQ0g6Q0lEOmltYWdlMDAwMDEucG5nQDAxRDZCQzczLjhCNzY4NkIwDQpB
+VFRBQ0g6Q0lEOmltYWdlMDAwMDEucG5nQDAxRDZCQzczLjhCN0EwOTIwDQpERVNDUklQVElPTjtM
+QU5HVUFHRT1lbi1VUzpSZXggQ2hvbmdqdW4gWmh1IGhhcyBzaGFyZWQgYSBPbmVEcml2ZSBmb3Ig
+QnVzaW4NCiBlc3MgZmlsZSB3aXRoIHlvdS4gVG8gdmlldyBpdFwsIGNsaWNrIHRoZSBsaW5rIGJl
+bG93LlxuXG5baWNvbl1cbkludmVzVEFPIA0KIFdlZWtseS5kb2N4PGh0dHBzOi8vaW52ZXN0YW8u
+c2hhcmVwb2ludC5jb20vOnc6L2cvRWNvV1hEWU5wVE5EbkpaS3ktNFdPVzBCDQogc0FlaTBsQ3hH
+NlY3bWhFRmltT0V6UT5cblxuXG5JbnZlc3RhbyBMaW1pdGVkIGlzIGludml0aW5nIHlvdSB0byBh
+IHNjaGVkdWwNCiBlZCBab29tIG1lZXRpbmcuXG5cbkpvaW4gWm9vbSBNZWV0aW5nXG5odHRwczov
+L3pvb20uY29tLmNuL2ovOTg1NDIwNTE0Mj9wdw0KIGQ9VFhnNVZrOWxUbFY2VTBwV2RYTlJkSHBy
+TlZab1VUMDlcblxuTWVldGluZyBJRDogOTg1IDQyMCA1MTQyXG5QYXNzY29kZTogDQogOTg3NzFc
+blxuRGlhbCBieSB5b3VyIGxvY2F0aW9uXG4gICAgICAgICs0NCAzMzAgMDg4IDU4MzAgVW5pdGVk
+IEtpbmdkb21cbiANCiAgICAgICAgKzQ0IDEzMSA0NjAgMTE5NiBVbml0ZWQgS2luZ2RvbVxuICAg
+ICAgICArNDQgMjAzIDQ4MSA1MjM3IFVuaXRlZCBLaQ0KIG5nZG9tXG4gICAgICAgICs4NiAxMCA1
+Mzg3IDYzMzAgQ2hpbmFcbiAgICAgICAgKzg2IDEwIDg3ODMgMzE3NyBDaGluYVxuICAgDQogICAg
+ICArMzUxIDMwOCA4MTAgOTg4IFBvcnR1Z2FsXG4gICAgICAgICszNTEgMjExIDIwMiA2MTggUG9y
+dHVnYWxcbiAgICAgICANCiAgKzM1MSAzMDggODA0IDE4OCBQb3J0dWdhbFxuTWVldGluZyBJRDog
+OTg1IDQyMCA1MTQyXG5QYXNzY29kZTogOTg3NzFcbkZpbg0KIGQgeW91ciBsb2NhbCBudW1iZXI6
+IGh0dHBzOi8vem9vbS5jb20uY24vdS9hZGd6ZndxbURmXG5cblxuTWVldGluZyBNaW51dGVzDQog
+XG5Ub3BpYzogUmV2aWV3ICYgVG8gZG9cbkRhdGVcbjE2IE5vdiAyMDIwXG5UaW1lOlxuMTY6MzAg
+4oCTIDE3OjMwIChVVEMrOCkNCiBcbkxvY2F0aW9uXG5ab29tXG5BdHRlbmRlZXNcblNoZWxsZXlc
+LCBNYXRoaWFzXCwgSGlsbGFyeVwsIFJleFwsIERldmluXG5Obw0KIHRlLXRha2VyXG5SZXhcbkRp
+c2N1c3Npb25cblJlc2VhcmNoXG5cbiAgMS4gIENoaW5hIG1hcmtldHM6IE9jdCBtYWNyby1lY29u
+DQogIGRhdGEgd2VsbCBvdXRwZXJmb3JtIGV4cGVjdGF0aW9uXDsgbmV3IFFESUkgcXVvdGEg4oCT
+IG1hc3NpdmUgaW5jcmVhc2UgY28NCiBtcGFyZWQgdG8gdGhlIGxhc3QgMiB5ZWFyc1w7IGNvbmNl
+cm5zIG9uIGxpcXVpZGl0eSBhbmQgZ3Jvd3RoIGhhZCBpbXBhY3RzIA0KIG9uIHN0b2NrIHByaWNl
+c1w7IFJDRVAgc2lnbmF0dXJlIGVuZXJnaXplcyB0aGUgbWFya2V0XDtcbiAgMi4gIEdsb2JhbCBt
+YXJrDQogZXRzOiByZWNvdmVyeSB2cy4gbmV3IHBhbmRlbWljIHBlYWsgLVxuICAzLiAgRERRIG9u
+IEZvdW50YWluQ2FwIOKAkyBvdXRwZXINCiBmb3JtaW5nIHJldHVybnMgd2l0aCBoaWdoZXIgdm9s
+YXRpbGl0eSBjb21wYXJlZCDigJMgbWVldGluZyBvbiBGcmlkYXlcblxuXA0KIG5Qcm9kdWN0c1xu
+XG7CtyAgICAgICBWYWx1ZSBQYXJ0bmVyczogb25ib2FyZGVkXCwgZmlsZXMgc2VudFxuXG7CtyAg
+ICAgICBIDQogRlQ6IG1lZXRpbmcg4oCTIGRldGFpbGVkIGFncmVlbWVudCBwcm9wb3NhbFxuXG7C
+tyAgICAgICBDQUZXOiB2aWRlbyBzZW50XG4NCiBcbsK3ICAgICAgIE90aGVyczpcblxubyAgICBQ
+ZW5neWFuZzogcG9zdHBvbmluZyBEZWNlbWJlciB3ZWJpbmFyXG5cbm8gICAgRg0KIG91bnRhaW5D
+YXAg5pa554CbOiBjYWxsIG5leHQgd2VlayAod2l0aCBhIENoaW5hIGxvbmctb25seSBzdHJhdGVn
+eSB3LyA1eSBhDQogbm51YWxpc2VkIHJldHVybiBvZiAxNiVcLCBjdXJyZW50IGNhcGFjaXR5IG9u
+IFN3aXR6ZXJsYW5kKVxuXG5vICAgIENVQU1cLCANCiBDWVwsIFBBXCwgSFRcLCBDTUZcLCBHRlws
+IFJvc2VmaW5jaDogL1xuXG5cbk1hcmtldGluZ1xuXG4gIDEuICBEZWMuIFBlbmd5YQ0KIG5nICZI
+U0JDIChmaXJzdCB3ZWVrIG9mIERlYylcblxuICAqICAgU3RhdHVzOiBwb3N0cG9uaW5nIHRoZSBk
+YXRlXCwgdGhlbWUgDQogc2V0IG9uIHRoZSBFTSBhc3NldCBhbGxvY2F0aW9uXG5cbiAgMS4gIERl
+Yy4gQ2l0eSBvZiBMb25kb24gdmlydHVhbCB2aXNpdFwNCiBuXG5vICAgIFN0YXR1czogSW4gdGFs
+ayB3aXRoIE9yaWVudGFsIFNlY3VyaXRpZXNcOyBUZWJvbiBkZWNsaW5lZFw7XG5cbiAgMQ0KIC4g
+IERpZ2l0YWwgbWFya2V0aW5nOiBuZXcgcG9kY2FzdCBwZW5kaW5nXDtcbiAgMi4gIE90aGVyczog
+UmFua2lhUHJvIOKAkyBhDQogIG1hZ2F6aW5lIGludml0aW5nIHVzIGZvciBhIHBpZWNlIG9mIGFy
+dGljbGVcOyBzZXR0aW5nIHVwIEludmVzVEFPIHdlY2hhdCANCiBjaGFubmVsXDsgQmxvb21iZXJn
+IG1lZXRpbmdcblNhbGVzICYgRGlzdHJpYnV0aW9uXG5cbiAgMS4gIExhc3QgbWVldGluZyhzKQ0K
+IDogTm9yZGljIG11bHRpLWZhbWlseSBvZmZpY2VcLCBJUSBvZmZpY2VcLCBHcmVlbnMgUGVhayBV
+SyBpbnZlc3RvclxuICAyLiAgDQogTmV3IG1lZXRpbmc6IEludmVyc2lzIOKAkyB0byBpbnRyb2R1
+Y2UgYW5kIGZ1cnRoZXIgY29udGFjdCB3aXRoIG91ciBtYW5hZ2UNCiByc1w7IFRvd2VyIFdhdHNv
+biDigJMgYWJvdXQgb3VyIGVxdWl0eSBtYW5hZ2Vyc1w7IFFESUkgd2l0aCBIdWHigJlhbiBGdW5k
+XA0KIG4gIDMuICBOZXcgbGVhZHM6XG4gIDQuICBDb250YWN0IG5hbWUgbGlzdCAmIHdlYmluYXI6
+IHRvIGJ1aWxkIG1vcmUgdGFyZ2V0DQogZWQgYW5kIHJlbGV2YW50IGV2ZW50cyBhbmQgZGF0YWJh
+c2VcbklUXCwgSFJcLCBPcGVyYXRpb24gJiBBZG1pblxuXG4gIDEuICANCiBZZWFyLWVuZCByZXZp
+ZXcgYW5kIG5ldyBwbGFuc1wsIHBvc3RjYXJkc1xuICAyLiAgU3dpc3MgYmFzZTogYWx0ZXJuYXRp
+dmUgcA0KIHJvdmlkZXJcbiAgMy4gIENvbXBsaWFuY2U6IEludmVzVEFPIGFjY291bnRzIGdhdGhl
+cmVkIGluIGEgZmlsZVxuICA0LiAgSW50DQogZXJuOiBtb3JlIHJlc291cmNlIGZyb20gbm93IOKA
+kyB1dGlsaXppbmcgb3VyIGRpZ2l0YWwgY2hhbm5lbHNcbiAgNS4gIE90aGUNCiByIGxvbmctdGVy
+bSBvcGVyYXRpb25hbDogICAvXG5cbl9fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fXG5c
+blRoaXMgZQ0KIG1haWwgaXMgaXNzdWVkIGJ5IEludmVzdGFvIExpbWl0ZWQgKFVLKVwsIGFuIEFw
+cG9pbnRlZCBSZXByZXNlbnRhdGl2ZSBvZiBNDQogaXJhYmVsbGEgQWR2aXNlcnMgTExQXCwgd2hp
+Y2ggaXMgYXV0aG9yaXNlZCBhbmQgcmVndWxhdGVkIGJ5IHRoZSBGaW5hbmNpYWwNCiAgQ29uZHVj
+dCBBdXRob3JpdHkgbnVtYmVyIDYwNjc5Mi4gVGhpcyBlbWFpbCAoaW5jbHVkaW5nIGFueSBhdHRh
+Y2htZW50cykgbQ0KIGF5IGNvbnRhaW4gY29uZmlkZW50aWFsXCwgcHJvcHJpZXRhcnlcLCBwcml2
+aWxlZ2VkIGFuZC9vciBwcml2YXRlIGluZm9ybWF0DQogaW9uLiBUaGlzIGluZm9ybWF0aW9uIGlz
+IGludGVuZGVkIHNvbGVseSBmb3IgdGhlIHVzZSBvZiB0aGUgaW5kaXZpZHVhbCBvciANCiBlbnRp
+dHkgdG8gd2hvbSBpdCBpcyBhZGRyZXNzZWQuIElmIHlvdSBhcmUgbm90IHRoZSBpbnRlbmRlZCBy
+ZWNpcGllbnQgb2YgdA0KIGhpcyBtZXNzYWdlXCwgcGxlYXNlIG5vdGlmeSB0aGUgc2VuZGVyIGlt
+bWVkaWF0ZWx5XCwgYW5kIGRlbGV0ZSB0aGUgbWVzc2FnDQogZSBhbmQgYW55IGF0dGFjaG1lbnRz
+LiBBbnkgZGlzY2xvc3VyZVwsIHJlcHJvZHVjdGlvblwsIGRpc3RyaWJ1dGlvbiBvciBvdGgNCiBl
+ciB1c2Ugb2YgdGhpcyBtZXNzYWdlIG9yIGFueSBhdHRhY2htZW50cyBieSBhbiBpbmRpdmlkdWFs
+IG9yIGVudGl0eSBvdGhlcg0KICB0aGFuIHRoZSBpbnRlbmRlZCByZWNpcGllbnQgaXMgcHJvaGli
+aXRlZC4gVGhpcyBlbWFpbCBpcyBmb3IgaW5mb3JtYXRpb24gDQogcHVycG9zZXMgb25seSBhbmQg
+c2hhbGwgbm90IGJlIGNvbnN0cnVlZCBhcyBhbiBvZmZlciBvciBhbiBhY2NlcHRhbmNlIG9yIGEN
+CiAgY29uZmlybWF0aW9uIG9mIGFueSBjb250cmFjdCBvciB0cmFuc2FjdGlvbi4gQW55IHZpZXdz
+IG9yIG9waW5pb25zIGV4cHJlcw0KIHNlZCBhcmUgc29sZWx5IHRob3NlIG9mIHRoZSBhdXRob3Ig
+YW5kIGRvIG5vdCBuZWNlc3NhcmlseSByZXByZXNlbnQgdGhvc2UgDQogb2YgSW52ZXN0YW8gTGlt
+aXRlZCAoVUspLlxuDQpVSUQ6MDQwMDAwMDA4MjAwRTAwMDc0QzVCNzEwMUE4MkUwMDgwMDAwMDAw
+MDYwM0Y4NzYyNzNCQ0Q2MDEwMDAwMDAwMDAwMDAwMDANCiAwMTAwMDAwMDA4QjM0NEE1MDQzMEM2
+MjQyODBCMjE2OEFERTU3NUQzMQ0KU1VNTUFSWTtMQU5HVUFHRT1lbi1VUzpXZWVrbHkgQ2FsbCBO
+b3YgMjMNCkRUU1RBUlQ7VFpJRD1DaGluYSBTdGFuZGFyZCBUaW1lOjIwMjAxMTIzVDE2MzAwMA0K
+RFRFTkQ7VFpJRD1DaGluYSBTdGFuZGFyZCBUaW1lOjIwMjAxMTIzVDE3MzAwMA0KQ0xBU1M6UFVC
+TElDDQpQUklPUklUWTo1DQpEVFNUQU1QOjIwMjAxMTE2VDE1NTIyOVoNClRSQU5TUDpPUEFRVUUN
+ClNUQVRVUzpDT05GSVJNRUQNClNFUVVFTkNFOjANCkxPQ0FUSU9OO0xBTkdVQUdFPWVuLVVTOmh0
+dHBzOi8vem9vbS5jb20uY24vai85ODU0MjA1MTQyP3B3ZD1UWGc1Vms5bFRsVjZVMA0KIHBXZFhO
+UmRIcHJOVlpvVVQwOQ0KWC1NSUNST1NPRlQtQ0RPLUFQUFQtU0VRVUVOQ0U6MA0KWC1NSUNST1NP
+RlQtQ0RPLU9XTkVSQVBQVElEOjU4ODI5ODIxMg0KWC1NSUNST1NPRlQtQ0RPLUJVU1lTVEFUVVM6
+VEVOVEFUSVZFDQpYLU1JQ1JPU09GVC1DRE8tSU5URU5ERURTVEFUVVM6QlVTWQ0KWC1NSUNST1NP
+RlQtQ0RPLUFMTERBWUVWRU5UOkZBTFNFDQpYLU1JQ1JPU09GVC1DRE8tSU1QT1JUQU5DRToxDQpY
+LU1JQ1JPU09GVC1DRE8tSU5TVFRZUEU6MA0KWC1NSUNST1NPRlQtRE9OT1RGT1JXQVJETUVFVElO
+RzpGQUxTRQ0KWC1NSUNST1NPRlQtRElTQUxMT1ctQ09VTlRFUjpGQUxTRQ0KWC1NSUNST1NPRlQt
+TE9DQVRJT05TOlsgeyAiRGlzcGxheU5hbWUiIDogImh0dHBzOi8vem9vbS5jb20uY24vai85ODU0
+MjA1MTQyDQogP3B3ZD1UWGc1Vms5bFRsVjZVMHBXZFhOUmRIcHJOVlpvVVQwOSJcLCAiTG9jYXRp
+b25Bbm5vdGF0aW9uIiA6ICIiXCwgIkxvY2ENCiB0aW9uU291cmNlIiA6IDBcLCAiVW5yZXNvbHZl
+ZCIgOiBmYWxzZVwsICJMb2NhdGlvblVyaSIgOiAiIiB9IF0NCkJFR0lOOlZBTEFSTQ0KREVTQ1JJ
+UFRJT046UkVNSU5ERVINClRSSUdHRVI7UkVMQVRFRD1TVEFSVDotUFQxNU0NCkFDVElPTjpESVNQ
+TEFZDQpFTkQ6VkFMQVJNDQpFTkQ6VkVWRU5UDQpFTkQ6VkNBTEVOREFSDQo=
+
+--_000_HK2PR06MB3348E2083E3397E39FCB9A81D3E30HK2PR06MB3348apcp_--
+
+--_008_HK2PR06MB3348E2083E3397E39FCB9A81D3E30HK2PR06MB3348apcp_
+Content-Type: image/png; name="image00001.png"
+Content-Description: image00001.png
+Content-Disposition: attachment; filename="image00001.png"; size=561;
+	creation-date="Mon, 16 Nov 2020 15:52:31 GMT";
+	modification-date="Mon, 16 Nov 2020 15:52:31 GMT"
+Content-ID: <image00001.png@01D6BC73.8B4A1F80>
+Content-Transfer-Encoding: base64
+
+iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAIAAAAC64paAAAAAXNSR0IArs4c6QAAAARnQU1BAACx
+jwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAHGSURBVDhPlZPBSwJBFMb9g6J7/QHRtYOQqG2p
+N2kPHYSog0aBXXJVCkW3KFALI7BAqEPhyUQjSIsuRoclIcRl3WINTfvWWXXdVqOPj+HN7PvNezPs
+GDoqJWLxMT5NJvlaTUntSgsrkZ4CDKPh/wH7fT6xXlfzA/j5teoNHO0m82t714ue1JRtf2I+hPVw
+TwsWC6Zq3rC0cT6zHEOeruVde0JlEvR5gyZbY6QqdbuVibELOf/f8CjhgmR42n4A6wZIUuqqNASz
+qfvsA4cA4+PLO4LLbBmLBB4lBXZsXQgfDZTCCM/ScYxYJLBSTqUhGEY2SqEsjABTsk7ydDWA0Sfh
+d+K3CDDtw5VKhef5arWay+UikYhOZXckg/kKc4VuEWALLNo35dhms7lcLofD4ff7ZainAfzbk6aw
+1GiC4TgOqc1mk2EYlmUJCY2Dw2d3brc7k5E7IhJF0Ww2o3OoUCiM/EkoT6rV+jaZTLXhN9gXzpJO
+p+V/W0Ouh27a7Y7T6YxGo0qunmiaVl6V+PmVf3pb3T7EqypzNYqiSqUS+aQrSZKsVqv+ewasPq1G
+giAEg0HcnxaGTxLHxWIRXc2NkNFo9Hq9giD8ALsSX4KN4ChIAAAAAElFTkSuQmCC
+
+--_008_HK2PR06MB3348E2083E3397E39FCB9A81D3E30HK2PR06MB3348apcp_
+Content-Type: image/png; name="image00001.png"
+Content-Description: image00001.png
+Content-Disposition: attachment; filename="image00001.png"; size=561;
+	creation-date="Mon, 16 Nov 2020 15:52:31 GMT";
+	modification-date="Mon, 16 Nov 2020 15:52:31 GMT"
+Content-ID: <image00001.png@01D6BC73.8B66A830>
+Content-Transfer-Encoding: base64
+
+iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAIAAAAC64paAAAAAXNSR0IArs4c6QAAAARnQU1BAACx
+jwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAHGSURBVDhPlZPBSwJBFMb9g6J7/QHRtYOQqG2p
+N2kPHYSog0aBXXJVCkW3KFALI7BAqEPhyUQjSIsuRoclIcRl3WINTfvWWXXdVqOPj+HN7PvNezPs
+GDoqJWLxMT5NJvlaTUntSgsrkZ4CDKPh/wH7fT6xXlfzA/j5teoNHO0m82t714ue1JRtf2I+hPVw
+TwsWC6Zq3rC0cT6zHEOeruVde0JlEvR5gyZbY6QqdbuVibELOf/f8CjhgmR42n4A6wZIUuqqNASz
+qfvsA4cA4+PLO4LLbBmLBB4lBXZsXQgfDZTCCM/ScYxYJLBSTqUhGEY2SqEsjABTsk7ydDWA0Sfh
+d+K3CDDtw5VKhef5arWay+UikYhOZXckg/kKc4VuEWALLNo35dhms7lcLofD4ff7ZainAfzbk6aw
+1GiC4TgOqc1mk2EYlmUJCY2Dw2d3brc7k5E7IhJF0Ww2o3OoUCiM/EkoT6rV+jaZTLXhN9gXzpJO
+p+V/W0Ouh27a7Y7T6YxGo0qunmiaVl6V+PmVf3pb3T7EqypzNYqiSqUS+aQrSZKsVqv+ewasPq1G
+giAEg0HcnxaGTxLHxWIRXc2NkNFo9Hq9giD8ALsSX4KN4ChIAAAAAElFTkSuQmCC
+
+--_008_HK2PR06MB3348E2083E3397E39FCB9A81D3E30HK2PR06MB3348apcp_
+Content-Type: image/png; name="image00001.png"
+Content-Description: image00001.png
+Content-Disposition: attachment; filename="image00001.png"; size=561;
+	creation-date="Mon, 16 Nov 2020 15:52:31 GMT";
+	modification-date="Mon, 16 Nov 2020 15:52:31 GMT"
+Content-ID: <image00001.png@01D6BC73.8B7686B0>
+Content-Transfer-Encoding: base64
+
+iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAIAAAAC64paAAAAAXNSR0IArs4c6QAAAARnQU1BAACx
+jwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAHGSURBVDhPlZPBSwJBFMb9g6J7/QHRtYOQqG2p
+N2kPHYSog0aBXXJVCkW3KFALI7BAqEPhyUQjSIsuRoclIcRl3WINTfvWWXXdVqOPj+HN7PvNezPs
+GDoqJWLxMT5NJvlaTUntSgsrkZ4CDKPh/wH7fT6xXlfzA/j5teoNHO0m82t714ue1JRtf2I+hPVw
+TwsWC6Zq3rC0cT6zHEOeruVde0JlEvR5gyZbY6QqdbuVibELOf/f8CjhgmR42n4A6wZIUuqqNASz
+qfvsA4cA4+PLO4LLbBmLBB4lBXZsXQgfDZTCCM/ScYxYJLBSTqUhGEY2SqEsjABTsk7ydDWA0Sfh
+d+K3CDDtw5VKhef5arWay+UikYhOZXckg/kKc4VuEWALLNo35dhms7lcLofD4ff7ZainAfzbk6aw
+1GiC4TgOqc1mk2EYlmUJCY2Dw2d3brc7k5E7IhJF0Ww2o3OoUCiM/EkoT6rV+jaZTLXhN9gXzpJO
+p+V/W0Ouh27a7Y7T6YxGo0qunmiaVl6V+PmVf3pb3T7EqypzNYqiSqUS+aQrSZKsVqv+ewasPq1G
+giAEg0HcnxaGTxLHxWIRXc2NkNFo9Hq9giD8ALsSX4KN4ChIAAAAAElFTkSuQmCC
+
+--_008_HK2PR06MB3348E2083E3397E39FCB9A81D3E30HK2PR06MB3348apcp_
+Content-Type: image/png; name="image00001.png"
+Content-Description: image00001.png
+Content-Disposition: attachment; filename="image00001.png"; size=561;
+	creation-date="Mon, 16 Nov 2020 15:52:31 GMT";
+	modification-date="Mon, 16 Nov 2020 15:52:31 GMT"
+Content-ID: <image00001.png@01D6BC73.8B7A0920>
+Content-Transfer-Encoding: base64
+
+iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAIAAAAC64paAAAAAXNSR0IArs4c6QAAAARnQU1BAACx
+jwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAHGSURBVDhPlZPBSwJBFMb9g6J7/QHRtYOQqG2p
+N2kPHYSog0aBXXJVCkW3KFALI7BAqEPhyUQjSIsuRoclIcRl3WINTfvWWXXdVqOPj+HN7PvNezPs
+GDoqJWLxMT5NJvlaTUntSgsrkZ4CDKPh/wH7fT6xXlfzA/j5teoNHO0m82t714ue1JRtf2I+hPVw
+TwsWC6Zq3rC0cT6zHEOeruVde0JlEvR5gyZbY6QqdbuVibELOf/f8CjhgmR42n4A6wZIUuqqNASz
+qfvsA4cA4+PLO4LLbBmLBB4lBXZsXQgfDZTCCM/ScYxYJLBSTqUhGEY2SqEsjABTsk7ydDWA0Sfh
+d+K3CDDtw5VKhef5arWay+UikYhOZXckg/kKc4VuEWALLNo35dhms7lcLofD4ff7ZainAfzbk6aw
+1GiC4TgOqc1mk2EYlmUJCY2Dw2d3brc7k5E7IhJF0Ww2o3OoUCiM/EkoT6rV+jaZTLXhN9gXzpJO
+p+V/W0Ouh27a7Y7T6YxGo0qunmiaVl6V+PmVf3pb3T7EqypzNYqiSqUS+aQrSZKsVqv+ewasPq1G
+giAEg0HcnxaGTxLHxWIRXc2NkNFo9Hq9giD8ALsSX4KN4ChIAAAAAElFTkSuQmCC
+
+--_008_HK2PR06MB3348E2083E3397E39FCB9A81D3E30HK2PR06MB3348apcp_--
+
+--_4e8a94a2-4bf3-4064-b57d-5ab96322e243_--

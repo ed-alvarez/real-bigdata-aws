@@ -1,0 +1,351 @@
+service: teams
+configValidationMode: error
+frameworkVersion: "3"
+
+provider:
+  name: aws
+  runtime: python3.8
+  lambdaHashingVersion: 20201221
+  stage: ${opt:stage,'dev'}
+  deploymentBucket:
+    name: ${sls:stage}-deployment-serverless-ips
+  deploymentPrefix: ${sls:stage}-${self:service}
+  region: ${env:AWS_Region, 'eu-west-1'}
+  iam:
+    role:
+      name: ${sls:stage}-${self:service}-ingest-role
+      statements:
+        - Effect: "Allow"
+          Action:
+            - "states:StartExecution"
+            - "states:DescribeExecution"
+          Resource:
+            - !Sub "arn:aws:states:${AWS::Region}:${AWS::AccountId}:stateMachine:${sls:stage}-ingest-${self:service}-state-machine"
+        - Effect: "Allow"
+          Action:
+            - "s3:ListBucket"
+          Resource:
+            - "arn:aws:s3:::*"
+        - Effect: "Allow"
+          Action:
+            - "s3:*Object"
+          Resource:
+            - "arn:aws:s3:::*"
+        - Effect: "Allow"
+          Action:
+            - "kms:Decrypt"
+            - "kms:GenerateDataKey"
+          Resource:
+            - "*"
+        - Effect: "Allow"
+          Action:
+            - "ssm:GetParameter"
+          Resource:
+            - "*"
+        - Effect: "Allow"
+          Action:
+            - "dynamodb:GetShardIterator"
+            - "dynamodb:Scan"
+            - "dynamodb:Query"
+            - "dynamodb:DescribeStream"
+            - "dynamodb:GetRecords"
+            - "dynamodb:ListStreams"
+          Resource:
+            - !Sub "arn:aws:dynamodb:${AWS::Region}:${AWS::AccountId}:table/${sls:stage}-msTeamsIngest/index/*"
+            - !Sub "arn:aws:dynamodb:${AWS::Region}:${AWS::AccountId}:table/${sls:stage}-msTeamsIngest/stream/*"
+        - Effect: "Allow"
+          Action:
+            - "dynamodb:BatchGetItem"
+            - "dynamodb:BatchWriteItem"
+            - "dynamodb:ConditionCheckItem"
+            - "dynamodb:PutItem"
+            - "dynamodb:DescribeTable"
+            - "dynamodb:DeleteItem"
+            - "dynamodb:GetItem"
+            - "dynamodb:Scan"
+            - "dynamodb:Query"
+            - "dynamodb:UpdateItem"
+          Resource:
+            - !Sub "arn:aws:dynamodb:${AWS::Region}:${AWS::AccountId}:table/${sls:stage}-msTeamsIngest"
+        - Effect: "Allow"
+          Action:
+            - "dynamodb:DescribeLimits"
+          Resource:
+            - !Sub "arn:aws:dynamodb:${AWS::Region}:${AWS::AccountId}:table/${sls:stage}-msTeamsIngest"
+            - !Sub "arn:aws:dynamodb:${AWS::Region}:${AWS::AccountId}:table/${sls:stage}-msTeamsIngest/index/*"
+        - Effect: "Allow"
+          Action:
+            - "sns:Publish"
+          Resource:
+            - !Sub "arn:aws:sns:${AWS::Region}:${AWS::AccountId}:${param:alertDispatchTopic}"
+
+params:
+  default:
+    alertDispatchTopic: ${self:service}-alert-dispatch-${sls:stage}
+    ES_CLOUD_ID: ${ssm:/elastic_app/${self:provider.stage}/${self:service}/cloud_id}
+    ES_PASSWORD: ${ssm:/elastic_app/${self:provider.stage}/${self:service}/password}
+    ES_USER: ${ssm:/elastic_app/${self:provider.stage}/${self:service}/user}
+    STAGE: ${sls:stage}
+  dev:
+    step_fn_lambda_timeout: 300
+    step_fn_lambda_memory: 1792
+    download_lambda_timeout: 300
+    download_lambda_memory: 1792
+    decode_lambda_timeout: 300
+    decode_lambda_memory: 3008
+    UPLOAD_TO_ES: 1
+    LOGGING_LEVEL: DEBUG
+  prod:
+    step_fn_lambda_timeout: 300
+    step_fn_lambda_memory: 1792
+    download_lambda_timeout: 300
+    download_lambda_memory: 1792
+    decode_lambda_timeout: 300
+    decode_lambda_memory: 3008
+    UPLOAD_TO_ES: 1
+    LOGGING_LEVEL: INFO
+
+functions:
+  teams_step_fn_launch:
+    handler: teams_src/step_function_launch/handler.lambda_handler
+    name: ${sls:stage}-MSTeams-step-fn-launch
+    description: Launch the MSTeams Step Function
+    memorySize: ${param:step_fn_lambda_memory}
+    timeout: ${param:step_fn_lambda_timeout}
+    onError: !Sub "arn:aws:sns:${AWS::Region}:${AWS::AccountId}:${param:alertDispatchTopic}"
+    environment:
+      LOGGING_LEVEL: ${param:LOGGING_LEVEL}
+      STAGE: ${param:STAGE}
+    layers:
+      - { Ref: PythonRequirementsLambdaLayer }
+    package:
+      patterns:
+        - "./teams_src/step_function_launch/**"
+
+  teams_data_download:
+    handler: teams_src/teams_data_download/handler.lambda_handler
+    name: ${sls:stage}-MSTeams-userids-download
+    description: Download Daily Archive from MSTeams
+    memorySize: ${param:download_lambda_memory}
+    timeout: ${param:download_lambda_timeout}
+    onError: !Sub "arn:aws:sns:${AWS::Region}:${AWS::AccountId}:${param:alertDispatchTopic}"
+    environment:
+      LOGGING_LEVEL: ${param:LOGGING_LEVEL}
+      STAGE: ${param:STAGE}
+    layers:
+      - { Ref: PythonRequirementsLambdaLayer }
+    package:
+      patterns:
+        - "./teams_src/teams_data_download/**"
+
+  teams_data_fetch_conversation:
+    handler: teams_src/teams_data_fetch_conversation/handler.lambda_handler
+    name: ${sls:stage}-MSTeams-user-conversations
+    description: Download Daily Archive from MSTeams
+    memorySize: ${param:download_lambda_memory}
+    timeout: ${param:download_lambda_timeout}
+    onError: !Sub "arn:aws:sns:${AWS::Region}:${AWS::AccountId}:${param:alertDispatchTopic}"
+    environment:
+      LOGGING_LEVEL: ${param:LOGGING_LEVEL}
+      STAGE: ${param:STAGE}
+    layers:
+      - { Ref: PythonRequirementsLambdaLayer }
+    package:
+      patterns:
+        - "./teams_src/teams_data_fetch_conversation/**"
+
+  teams_data_processing:
+    handler: teams_src/teams_data_processing_and_ingest/handler.lambda_handler
+    name: ${sls:stage}-MSTeams-file-decode
+    description: Decode Daily Archive from MSTeams
+    memorySize: ${param:decode_lambda_memory}
+    timeout: ${param:decode_lambda_timeout}
+    onError: !Sub "arn:aws:sns:${AWS::Region}:${AWS::AccountId}:${param:alertDispatchTopic}"
+    environment:
+      UPLOAD_TO_ES: ${param:UPLOAD_TO_ES}
+      LOGGING_LEVEL: ${param:LOGGING_LEVEL}
+      STAGE: ${param:STAGE}
+      ES_CLOUD_ID: ${param:ES_CLOUD_ID}
+      ES_PASSWORD: ${param:ES_PASSWORD}
+      ES_USER: ${param:ES_USER}
+      TIKA_JAVA: "/opt/lib/jvm/java-1.8.0-openjdk-1.8.0.252.b09-2.lambda2.0.1.x86_64/jre/bin/java"
+      TIKA_SERVER_JAR: "file:///opt/tika-server.jar"
+    layers:
+      - { Ref: PythonRequirementsLambdaLayer }
+
+    package:
+      patterns:
+        - "./teams_src/teams_data_processing_and_ingest/**"
+
+stepFunctions:
+  validate: true # enable pre-deployment definition validation (disabled by default)
+  stateMachines:
+    ingest_ms_teams:
+      name: ${sls:stage}-ingest-${self:service}-state-machine
+      loggingConfig:
+        level: ALL
+        includeExecutionData: true
+        destinations:
+          - Fn::GetAtt: [StepFunctionLogs, Arn]
+      definition:
+        Comment: Orchestrate the MS Teams ingestion process
+        StartAt: ErrorHandler
+        States:
+          ErrorHandler:
+            Type: Parallel
+            Branches:
+              - StartAt: TeamsDataDownload
+                States:
+                  TeamsDataDownload:
+                    Type: Task
+                    Resource: !GetAtt teams_data_download.Arn
+                    TimeoutSeconds: ${param:download_lambda_timeout}
+                    ResultPath: "$"
+                    Retry:
+                      - ErrorEquals:
+                          - Lambda.ServiceException
+                          - Lambda.AWSLambdaException
+                          - Lambda.SdkClientException
+                        IntervalSeconds: 2
+                        MaxAttempts: 2
+                        BackoffRate: 2
+                    Next: TeamsFetchUserConversation
+
+                  TeamsFetchUserConversation:
+                    Type: Task
+                    Resource: !GetAtt teams_data_fetch_conversation.Arn
+                    TimeoutSeconds: ${param:download_lambda_timeout}
+                    ResultPath: "$"
+                    Retry:
+                      - ErrorEquals:
+                          - Lambda.ServiceException
+                          - Lambda.AWSLambdaException
+                          - Lambda.SdkClientException
+                        IntervalSeconds: 2
+                        MaxAttempts: 2
+                        BackoffRate: 2
+                    Next: IterateOverUserIds
+
+                  IterateOverUserIds:
+                    Type: Choice
+                    Choices:
+                      - Variable: "$.workflow_done"
+                        BooleanEquals: false
+                        Next: TeamsFetchUserConversation
+                    Default: TeamsDecode
+
+                  TeamsDecode:
+                    Type: Task
+                    Resource: !GetAtt teams_data_processing.Arn
+                    TimeoutSeconds: ${param:decode_lambda_timeout}
+                    ResultPath: "$"
+                    Retry:
+                      - ErrorEquals:
+                          - Lambda.ServiceException
+                          - Lambda.AWSLambdaException
+                          - Lambda.SdkClientException
+                        IntervalSeconds: 2
+                        MaxAttempts: 2
+                        BackoffRate: 2
+                    Next: IterateOverDownloadFiles
+
+                  IterateOverDownloadFiles:
+                    Type: Choice
+                    Choices:
+                      - Variable: "$.files_to_process"
+                        BooleanEquals: true
+                        Next: TeamsDecode
+                    Default: Done
+
+                  Done:
+                    Type: Pass
+                    Result: $
+                    End: true
+            Catch:
+              - ErrorEquals: ["States.ALL"]
+                Next: JobFailed
+            Next: JobSucceded
+
+          JobFailed:
+            Type: Fail
+
+          JobSucceded:
+            Type: Succeed
+
+resources: # CloudFormation template syntax from here on.
+  Resources:
+    usersTable:
+      Type: AWS::DynamoDB::Table
+      Properties:
+        TableName: ${sls:stage}-msTeamsIngest
+        AttributeDefinitions:
+          - AttributeName: client
+            AttributeType: S
+        KeySchema:
+          - AttributeName: client
+            KeyType: HASH
+        ProvisionedThroughput:
+          ReadCapacityUnits: 5
+          WriteCapacityUnits: 1
+
+    StepFunctionLogs:
+      Type: AWS::Logs::LogGroup
+      Properties:
+        LogGroupName: /stepfunction/${sls:stage}-ingestMSTeams
+
+    AlarmTopic:
+      Type: AWS::SNS::Topic
+      Properties:
+        DisplayName: "${sls:stage} MS Teams Alerts"
+        TopicName: ${param:alertDispatchTopic}
+
+    EmailSubscription:
+      Type: AWS::SNS::Subscription
+      Properties:
+        Protocol: email
+        TopicArn: !Ref AlarmTopic
+        Endpoint: adrian@fingerprint-supervision.com
+
+package:
+  individually: true
+  patterns:
+    - "!node_modules/**"
+    - "!*.json"
+    - "!*.txt"
+    - "!conftest.py"
+    - "!./teams_tests/**"
+    - "!**/*test*"
+    - "!./venv/**"
+    - "teams_settings.py"
+    - "../shared/shared_src/**"
+    - "./teams_src/teams_shared_modules/**"
+
+plugins:
+  - serverless-stage-manager
+  - serverless-python-requirements
+  - serverless-step-functions
+
+custom:
+  pythonRequirements:
+    dockerizePip: non-linux
+    layer: true
+    useDownloadCache: false
+    useStaticCache: false
+    invalidateCaches: true
+    slim: true
+    slimPatterns:
+      - "**/*.egg-info*"
+    noDeploy:
+      - pytest
+      - mock
+      - boto3
+      - botocore
+      - requests_mock
+      - freezegun
+      - mypy
+      - moto
+
+  stages:
+    - dev
+    - prod
+    - prod-us

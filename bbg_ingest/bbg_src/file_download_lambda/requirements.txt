@@ -1,0 +1,7 @@
+aws_lambda_logging
+cryptography
+elasticsearch==7.17.6
+elasticsearch-dsl==7.4.0
+paramiko==2.8.0
+python_dotenv
+requests

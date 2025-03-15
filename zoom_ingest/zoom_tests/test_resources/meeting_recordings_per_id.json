@@ -1,0 +1,57 @@
+{
+    "uuid": "ZiB4IiqWQpCxKvb4OvvqcQ==",
+    "id": 85064714475,
+    "account_id": "aNg6vhlFR3qQKhquq1NO7Q",
+    "host_id": "XD5VZiZVTMCrBnaw7Dw0iw",
+    "topic": "Zoom Meeting: Max Jaffe & Gabriel Sod Hoffs of Blackstone/Graham Robinson of Melqart Asset Management",
+    "type": 2,
+    "start_time": "2022-08-18T11:54:44Z",
+    "timezone": "Europe/London",
+    "host_email": "liz.newton@melqart.com",
+    "duration": 59,
+    "total_size": 57665978,
+    "recording_count": 3,
+    "share_url": "https://melqart.zoom.us/rec/share/VkjmKrMq11l3f23Mr4CUHY0A21T6yLPg1pDXMS_nZs-S9gJrPWmPQkBn7oS4WZGT.FFd9ybmT-NwHwTIn",
+    "recording_files": [
+        {
+            "id": "4384b5c6-def6-4cbd-aeb8-c4878dda1ed4",
+            "meeting_id": "ZiB4IiqWQpCxKvb4OvvqcQ==",
+            "recording_start": "2022-08-18T11:54:45Z",
+            "recording_end": "2022-08-18T12:54:32Z",
+            "file_type": "M4A",
+            "file_extension": "M4A",
+            "file_size": 57088181,
+            "play_url": "https://melqart.zoom.us/rec/play/al4i75dkGkjvYfCF46ZYKBXBISsW-cZnol9-e_e5YZIvMrP_7ie7MaULL2inX5EV-EUFLxNx9-xGXwZW.Rs2_pw6gexzVXzWI",
+            "download_url": "https://melqart.zoom.us/rec/download/al4i75dkGkjvYfCF46ZYKBXBISsW-cZnol9-e_e5YZIvMrP_7ie7MaULL2inX5EV-EUFLxNx9-xGXwZW.Rs2_pw6gexzVXzWI",
+            "status": "completed",
+            "recording_type": "audio_only"
+        },
+        {
+            "id": "0efd5e25-f55d-4dbb-aeab-6c99bbe6aee4",
+            "meeting_id": "ZiB4IiqWQpCxKvb4OvvqcQ==",
+            "recording_start": "2022-08-18T11:54:45Z",
+            "recording_end": "2022-08-18T12:54:32Z",
+            "file_type": "TIMELINE",
+            "file_extension": "JSON",
+            "file_size": 514043,
+            "download_url": "https://melqart.zoom.us/rec/download/KXasxNK2NxVF8mYrMT_W4-08rI9Poblhz8ud_km9xbRkjdNcFp3wPukkhrYw1Md6ySJ7YY1Se6bOY3XO.zFAG163-eWTbg45M",
+            "status": "completed",
+            "recording_type": "timeline"
+        },
+        {
+            "id": "91aa16a2-9937-41ba-854a-f781b7ec58ed",
+            "meeting_id": "ZiB4IiqWQpCxKvb4OvvqcQ==",
+            "recording_start": "2022-08-18T11:54:45Z",
+            "recording_end": "2022-08-18T12:54:32Z",
+            "file_type": "TRANSCRIPT",
+            "file_extension": "VTT",
+            "file_size": 63754,
+            "play_url": "https://melqart.zoom.us/rec/play/y-esDAnqdmyGbigPaWzbe8Wz-uLvVTYvdjPgYIoWbyY_MjzdFh1xDQvgeulqwYDTae6VeEywBo0iitsF.af3ES2Ai1KgCuf51",
+            "download_url": "https://melqart.zoom.us/rec/download/y-esDAnqdmyGbigPaWzbe8Wz-uLvVTYvdjPgYIoWbyY_MjzdFh1xDQvgeulqwYDTae6VeEywBo0iitsF.af3ES2Ai1KgCuf51",
+            "status": "completed",
+            "recording_type": "audio_transcript"
+        }
+    ],
+    "password": "N^$01TAX",
+    "recording_play_passcode": "_WFSFamVluR5Rtw_ZvaiowrTrxPrDXWF"
+}

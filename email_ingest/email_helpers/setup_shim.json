@@ -1,0 +1,25 @@
+{
+  "email-shim" : {
+    "aliases" : {
+      "ips_data_input_email_v2" : { }
+    },
+    "mappings" : { },
+    "settings" : {
+      "index" : {
+        "routing" : {
+          "allocation" : {
+            "include" : {
+              "_tier_preference" : "data_hot"
+            }
+          }
+        },
+        "number_of_shards" : "3",
+        "blocks" : {
+          "read_only_allow_delete" : "false"
+        },
+        "default_pipeline" : "email-v2",
+        "number_of_replicas" : "0"
+      }
+    }
+  }
+}

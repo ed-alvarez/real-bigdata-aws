@@ -1,0 +1,314 @@
+app: ingest
+service: zoom
+
+frameworkVersion: "3"
+
+provider:
+  name: aws
+  stage: ${opt:stage,'dev'}
+  region: eu-west-1
+  runtime: python3.8
+  lambdaHashingVersion: 20201221
+  memorySize: ${param:lambda_memory}
+  timeout: ${param:lambda_timeout}
+
+  deploymentBucket:
+    name: ${sls:stage}-deployment-serverless-ips
+  deploymentPrefix: ${sls:stage}-${self:service}
+
+  environment:
+    STAGE: ${sls:stage}
+    LOGGING_LEVEL: ${param:LOGGING_LEVEL}
+
+  iam:
+    role:
+      name: ${sls:stage}-${self:service}-ingest-role
+      statements:
+        - Effect: "Allow"
+          Action:
+            - "s3:*"
+            - "s3-object-lambda:*"
+          Resource: "*"
+        - Effect: "Allow"
+          Action:
+            - "s3:ListBucket"
+          Resource:
+            - "arn:aws:s3:::*"
+        - Effect: "Allow"
+          Action:
+            - "s3:GetObject"
+            - "s3:PutObject"
+            - "s3:PutObjectAcl"
+            - "s3:ListBucket"
+            - "s3:DeleteObject"
+          Resource:
+            - "arn:aws:s3:::*"
+        - Effect: "Allow"
+          Action:
+            - "s3:GetObject"
+            - "s3:PutObject"
+            - "s3:PutObjectAcl"
+            - "s3:ListBucket"
+            - "s3:DeleteObject"
+          Resource:
+            - "arn:aws:s3:::*/*"
+        - Effect: "Allow"
+          Action:
+            - "ssm:GetParameter"
+          Resource:
+            - "*"
+        - Effect: "Allow"
+          Action:
+            - "states:StartExecution"
+            - "states:DescribeExecution"
+          Resource:
+            - !Sub 'arn:aws:states:${AWS::Region}:${AWS::AccountId}:stateMachine:${sls:stage}-ingest-${self:service}-state-machine'
+        - Effect: "Allow"
+          Action:
+            - "sts:AssumeRole"
+          Resource:
+            - "*"
+params:
+  default:
+    alertDispatchTopic: ${self:service}-alert-dispatch-${sls:stage}
+    lambda_timeout: 300
+    lambda_memory: 3008
+    ES_PORT: 9243
+    ES_URL: "https:"
+  dev:
+    LOGGING_LEVEL: DEBUG
+    PUSH_ES: 1
+    STAGE: "dev"
+  prod:
+    LOGGING_LEVEL: INFO
+    PUSH_ES: 1
+    STAGE: "prod"
+
+functions:
+  fnZoomLaunch: # Lambda #0 Start step machine workflow
+    handler: zoom_functions/zoom_trigger_ingest.lambda_handler
+    name: ${sls:stage}-zoom-trigger-ingest
+    description: Create Zoom Ingest Workflow
+    package:
+      patterns:
+        - "./zoom_functions/**"
+        - "./zoom_shared/**"
+        - "zoom_settings.py"
+    environment:
+      LOGGING_LEVEL: ${param:LOGGING_LEVEL}
+      SECRET_KEY: 'qwertyuiopasdfghjklzxcvbnm'
+      STAGE: ${param:STAGE}
+
+  fnZoomCreate: # Lambda #1 Get initial id sets
+    handler: zoom_functions/zoom_create_ids.lambda_handler
+    name: ${sls:stage}-zoom-create-ids
+    description: Create Zoom Initial Set IDs
+    package:
+      patterns:
+        - "./zoom_functions/**"
+        - "./zoom_shared/**"
+        - "zoom_settings.py"
+    environment:
+      PUSH_ES: ${param:PUSH_ES}
+      LOGGING_LEVEL: ${param:LOGGING_LEVEL}
+      STAGE: ${param:STAGE}
+      ES_USER: ${ssm:/elastic_app/${self:provider.stage}/${self:service}/user}
+      ES_PASSWORD: ${ssm:/elastic_app/${self:provider.stage}/${self:service}/password}
+      ES_CLOUD_ID: ${ssm:/elastic_app/${self:provider.stage}/${self:service}/cloud_id}
+
+  fnZoomExtract: # Lambda #2 Extract call/meet blobs
+    handler: zoom_functions/zoom_extract_blobs.lambda_handler
+    name: ${sls:stage}-zoom-extract-blobs
+    description: Extract Blobs from Zoom API
+    package:
+      patterns:
+        - "./zoom_functions/**"
+        - "./zoom_shared/**"
+        - "zoom_settings.py"
+    environment:
+      PUSH_ES: ${param:PUSH_ES}
+      LOGGING_LEVEL: ${param:LOGGING_LEVEL}
+      STAGE: ${param:STAGE}
+      ES_USER: ${ssm:/elastic_app/${self:provider.stage}/${self:service}/user}
+      ES_PASSWORD: ${ssm:/elastic_app/${self:provider.stage}/${self:service}/password}
+      ES_CLOUD_ID: ${ssm:/elastic_app/${self:provider.stage}/${self:service}/cloud_id}
+
+  fnZoomDownload: # Lambda #3 Download media files
+    handler: zoom_functions/zoom_media_download.lambda_handler
+    name: ${sls:stage}-zoom-media-download
+    description: Download Media to enhance Blobs
+    package:
+      patterns:
+        - "./zoom_functions/**"
+        - "./zoom_shared/**"
+        - "zoom_settings.py"
+    environment:
+      PUSH_ES: ${param:PUSH_ES}
+      LOGGING_LEVEL: ${param:LOGGING_LEVEL}
+      STAGE: ${param:STAGE}
+      ES_USER: ${ssm:/elastic_app/${self:provider.stage}/${self:service}/user}
+      ES_PASSWORD: ${ssm:/elastic_app/${self:provider.stage}/${self:service}/password}
+      ES_CLOUD_ID: ${ssm:/elastic_app/${self:provider.stage}/${self:service}/cloud_id}
+
+  fnZoomProcess: # Lambda #4 Process finalized zoom objs
+    handler: zoom_functions/zoom_process.lambda_handler
+    name: ${sls:stage}-zoom-process
+    description: Process Zoom Objs
+    package:
+      patterns:
+        - "./zoom_functions/**"
+        - "./zoom_shared/**"
+        - "zoom_settings.py"
+    environment:
+      PUSH_ES: ${param:PUSH_ES}
+      LOGGING_LEVEL: ${param:LOGGING_LEVEL}
+      STAGE: ${param:STAGE}
+      ES_USER: ${ssm:/elastic_app/${self:provider.stage}/${self:service}/user}
+      ES_PASSWORD: ${ssm:/elastic_app/${self:provider.stage}/${self:service}/password}
+      ES_CLOUD_ID: ${ssm:/elastic_app/${self:provider.stage}/${self:service}/cloud_id}
+
+stepFunctions:
+  validate: true # enable pre-deployment definition validation (disabled by default)
+  stateMachines:
+    ingest_zoom:
+      name: ${sls:stage}-ingest-${self:service}-state-machine
+
+      definition:
+        Comment: State machine for zoom ingesting.
+        StartAt: ZoomCreateIDs
+        States:
+          ZoomCreateIDs:
+            Type: Task
+            Resource: !GetAtt fnZoomCreate.Arn
+            ResultPath: "$"
+            Retry:
+              - ErrorEquals:
+                  - Lambda.ServiceException
+                  - Lambda.AWSLambdaException
+                IntervalSeconds: 2
+                MaxAttempts: 5
+                BackoffRate: 2
+            Next: CheckInit
+          CheckInit:
+            Type: Choice
+            Choices:
+              - Variable: "$.success_step"
+                BooleanEquals: true
+                Next: Parallel
+            Default: JobFailed
+          Parallel:
+            Type: Parallel
+            Next: JobSucceded
+            Branches:
+              - StartAt: LambaExtractBlobs
+                States:
+                  LambaExtractBlobs:
+                    Type: Task
+                    Resource: !GetAtt fnZoomExtract.Arn
+                    ResultPath: "$"
+                    Retry:
+                      - ErrorEquals:
+                          - Lambda.ServiceException
+                          - Lambda.AWSLambdaException
+                          - Lambda.SdkClientException
+                        IntervalSeconds: 2
+                        MaxAttempts: 2
+                        BackoffRate: 2
+                    Next: IterateOverRawBlobs
+                  IterateOverRawBlobs:
+                    Type: Choice
+                    Choices:
+                      - Variable: "$.success_step"
+                        BooleanEquals: false
+                        Next: LambaExtractBlobs
+                    Default: ZoomDownloadMedia
+                  ZoomDownloadMedia:
+                    Type: Task
+                    Resource: !GetAtt fnZoomDownload.Arn
+                    ResultPath: "$"
+                    Retry:
+                      - ErrorEquals:
+                          - Lambda.ServiceException
+                          - Lambda.AWSLambdaException
+                          - Lambda.SdkClientException
+                        IntervalSeconds: 2
+                        MaxAttempts: 2
+                        BackoffRate: 2
+                    Next: IterateOverEnhancedBlobs
+                  IterateOverEnhancedBlobs:
+                    Type: Choice
+                    Choices:
+                      - Variable: "$.success_step"
+                        BooleanEquals: false
+                        Next: ZoomDownloadMedia
+                    Default: ZoomProcess
+                  ZoomProcess:
+                    Type: Task
+                    Resource: !GetAtt fnZoomProcess.Arn
+                    ResultPath: "$"
+                    Retry:
+                      - ErrorEquals:
+                          - Lambda.ServiceException
+                          - Lambda.AWSLambdaException
+                          - Lambda.SdkClientException
+                        IntervalSeconds: 2
+                        MaxAttempts: 2
+                        BackoffRate: 2
+                    Next: IterateOverReadyBlobs
+                  IterateOverReadyBlobs:
+                    Type: Choice
+                    Choices:
+                      - Variable: "$.success_step"
+                        BooleanEquals: false
+                        Next: ZoomProcess
+                    Default: DoneProcessing
+                  DoneProcessing:
+                    Type: Succeed
+            Catch:
+              - ErrorEquals:
+                  - States.ALL
+                Comment: JobFailed
+                Next: JobFailed
+            Retry:
+              - ErrorEquals:
+                  - States.Timeout
+                BackoffRate: 1
+                IntervalSeconds: 1
+                MaxAttempts: 2
+                Comment: RetryJob
+          JobSucceded:
+            Type: Succeed
+          JobFailed:
+            Type: Fail
+
+package:
+  individually: true
+  patterns:
+    - "!*.txt"
+    - "!conftest.py"
+    - "zoom_settings.py"
+    - "../shared/shared_src/**"
+
+  exclude:
+    - ./venv/**
+    - ./zoom_tests/**
+
+plugins:
+  - serverless-stage-manager
+  - serverless-step-functions
+  - serverless-python-requirements
+
+custom:
+  pythonRequirements:
+    dockerizePip: non-linux
+    noDeploy:
+      - pytest
+      - mock
+      - boto3
+      - botocore
+      - moto[sns]
+      - moto[s3]
+
+  stages:
+    - dev
+    - prod

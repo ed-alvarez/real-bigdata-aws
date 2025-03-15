@@ -1,0 +1,280 @@
+service: voice
+org: hogbinj
+app: ingest
+configValidationMode: error
+variablesResolutionMode: 20210326
+
+frameworkVersion: '2'
+# arn:aws:sts::955323147179:assumed-role/lambda/dev-voice-ingest-create-transcription-job is not authorized to perform: transcribe:StartTranscriptionJob
+
+provider:
+  lambdaHashingVersion: 20201221
+
+  name: aws
+  runtime: python3.8
+  stage: ${opt:stage,"dev"}
+  deploymentBucket:
+    name: ${self:provider.stage}-deployment-serverless-ips
+  deploymentPrefix: ${self:provider.stage}-${self:service}
+  iam:
+    role:
+      name: ${self:provider.stage}-voiceIngest-role
+      statements:
+        - Effect: "Allow"
+          Action:
+            - "s3:ListBucket"
+          Resource:
+            - "arn:aws:s3:::*"
+        - Effect: "Allow"
+          Action:
+            - "s3:*Object"
+          Resource:
+            - "arn:aws:s3:::*"
+        - Effect: "Allow"
+          Action:
+            - "kms:Decrypt"
+            - "kms:GenerateDataKey"
+          Resource:
+            - "*"
+        - Effect: "Allow"
+          Action:
+            - "ssm:GetParameter"
+          Resource:
+            - "*"
+        - Effect: "Allow"
+          Action:
+            - "transcribe:StartTranscriptionJob"
+          Resource:
+            - "*"
+        - Effect: "Allow"
+          Action:
+            - "dynamodb:GetShardIterator"
+            - "dynamodb:Scan"
+            - "dynamodb:Query"
+            - "dynamodb:DescribeStream"
+            - "dynamodb:GetRecords"
+            - "dynamodb:ListStreams"
+          Resource:
+            - !Sub 'arn:aws:dynamodb:${AWS::Region}:${AWS::AccountId}:table/${self:provider.stage}_voiceIngest/index/*'
+            - !Sub 'arn:aws:dynamodb:${AWS::Region}:${AWS::AccountId}:table/${self:provider.stage}_voiceIngest/stream/*'
+        - Effect: "Allow"
+          Action:
+            - "dynamodb:BatchGetItem"
+            - "dynamodb:BatchWriteItem"
+            - "dynamodb:ConditionCheckItem"
+            - "dynamodb:PutItem"
+            - "dynamodb:DescribeTable"
+            - "dynamodb:DeleteItem"
+            - "dynamodb:GetItem"
+            - "dynamodb:Scan"
+            - "dynamodb:Query"
+            - "dynamodb:UpdateItem"
+          Resource:
+            - !Sub 'arn:aws:dynamodb:${AWS::Region}:${AWS::AccountId}:table/${self:provider.stage}_voiceIngest'
+        - Effect: "Allow"
+          Action:
+            - "dynamodb:DescribeLimits"
+          Resource:
+            - !Sub 'arn:aws:dynamodb:${AWS::Region}:${AWS::AccountId}:table/${self:provider.stage}_voiceIngest'
+            - !Sub 'arn:aws:dynamodb:${AWS::Region}:${AWS::AccountId}:table/${self:provider.stage}_voiceIngest/index/*'
+  region: eu-west-1
+  apiGateway:
+    shouldStartNameWithService: true
+  environment:
+    STAGE: ${self:provider.stage}
+    LOGGING_LEVEL: ${self:custom.LOGGING_LEVEL.${self:provider.stage}}
+
+functions:
+  apiHandler:
+    name: ${self:provider.stage}-${self:service}-api-handler
+    description: ${self:provider.stage} env Voice CDR API Parse
+    handler: voice_src/api/handler.hello
+    events:
+      - http:
+          method: GET
+          path: /
+    package:
+      patterns:
+        - "!s_createTranscriptionJob.py"
+        - "!s_processTranscript.py"
+        - "voice_src/api/**"
+
+
+    layers:
+      - { Ref: PythonRequirementsLambdaLayer }
+
+  createTranscriptionJob:
+    name: ${self:provider.stage}-${self:service}-create-transcription-job
+    description: ${self:provider.stage} env Create Transcription Job
+    handler: voice_src/create_transcription_job/handler.lambda_handler
+    memorySize: ${self:custom.createTranscriptionJob_lambda_memory.${self:provider.stage}}
+    timeout: ${self:custom.createTranscriptionJob_lambda_timeout.${self:provider.stage}}
+    package:
+      patterns:
+        - "!s_apiHandler.py"
+        - "!s_processTranscript.py"
+        - "./voice_src/create_transcription_job/**"
+    layers:
+      - { Ref: PythonRequirementsLambdaLayer }
+    environment:
+      DYNAMO_DB_TABLE: ${self:custom.DYNAMO_DB_TABLE.${self:provider.stage}}
+
+  processTranscript:
+    name: ${self:provider.stage}-${self:service}-process-transcript
+    description: ${self:provider.stage} env Process Transcript Job
+    handler: voice_src/process_transcript_job/handler.lambda_handler
+    role: ProcessTranscriptRole
+    memorySize: ${self:custom.processTranscript_lambda_memory.${self:provider.stage}}
+    timeout: ${self:custom.processTranscript_lambda_timeout.${self:provider.stage}}
+    events:
+      - cloudwatchEvent:
+          description: "Run the ES ingest once the Transcription has finished"
+          name: "TranscribeNotify"
+          event:
+            source:
+              - 'aws.transcribe'
+            detail-type:
+              - 'Transcribe Job State Change'
+            detail:
+              TranscriptionJobStatus:
+                - "COMPLETED"
+                - "FAILED"
+    package:
+      patterns:
+        - "!s_apiHandler.py"
+        - "!s_createTranscriptionJob.py"
+        - "./voice_src/process_transcript_job/**"
+
+    layers:
+      - { Ref: PythonRequirementsLambdaLayer }
+    environment:
+      ES_HOST: ${ssm:/elastic_cluster/${self:provider.stage}}
+      ES_PASSWORD: ${ssm:/elastic_app/${self:provider.stage}/${self:service}/password}
+      ES_USER: ${ssm:/elastic_app/${self:provider.stage}/${self:service}/user}
+      DYNAMO_DB_TABLE: ${self:custom.DYNAMO_DB_TABLE.${self:provider.stage}}
+
+resources: # CloudFormation template syntax from here on.
+  Resources:
+    VoiceIngestDynamoDBTable:
+      Type: AWS::DynamoDB::Table
+      Properties:
+        TableName: ${self:provider.stage}_voiceIngest
+        AttributeDefinitions:
+          - AttributeName: transcriptionJob
+            AttributeType: S
+        KeySchema:
+          - AttributeName: transcriptionJob
+            KeyType: HASH
+        ProvisionedThroughput:
+          ReadCapacityUnits: 1
+          WriteCapacityUnits: 3
+    ProcessTranscriptRole:
+      Type: AWS::IAM::Role
+      Properties:
+        RoleName: ProcessTranscriptRole
+        AssumeRolePolicyDocument:
+          Version: '2012-10-17'
+          Statement:
+            - Effect: Allow
+              Principal:
+                Service:
+                  - lambda.amazonaws.com
+              Action: sts:AssumeRole
+        Policies:
+        - PolicyName: ProcessTranscriptPolicy
+          PolicyDocument:
+            Version: '2012-10-17'
+            Statement:
+              - Effect: Allow
+                Action:
+                  - logs:CreateLogGroup
+                  - logs:CreateLogStream
+                  - logs:PutLogEvents
+                Resource:
+                  - !Sub 'arn:aws:logs:${AWS::Region}:${AWS::AccountId}:log-group:/aws/lambda/*:*:*'
+
+              - Effect: Allow
+                Action:
+                  - comprehend:DetectKeyPhrases
+                  - comprehend:DetectEntities
+                  - comprehend:DetectDominantLanguage
+                  - comprehend:DetectSentiment
+                  - comprehend:DetectSyntax
+                  - dynamodb:GetItem
+                  - ssm:GetParameter
+                Resource: "*"
+              - Effect: Allow
+                Action:
+                  - s3:GetObject
+                  - s3:PutObject
+                  - s3:ListBucket
+                  - s3:DeleteObject
+                Resource: "arn:aws:s3:::*/*"
+
+
+package:
+  individually: true
+  patterns:
+    - "!node_modules/**"
+    - "!voice_tests/**"
+    - "!voice_src/**"
+    - "!*.json"
+    - "!*.txt"
+    - "!conftest.py"
+    - "../shared/shared_src/**"
+    - "./voice_src/helpers/**"
+
+plugins:
+  - serverless-stage-manager
+  - serverless-python-requirements
+
+custom:
+  pythonRequirements:
+    dockerizePip: non-linux
+    slim: true
+    layer:
+      name: ${self:provider.stage}-${self:service}-layer
+      description: ${self:service} Python requirements lambda layer
+      compatibleRuntimes:
+        - python3.8
+      licenseInfo: GPLv3
+      allowedAccounts:
+        - '*'
+    useDownloadCache: false
+    useStaticCache: false
+    invalidateCaches: true
+    noDeploy:
+      - pytest
+      - mock
+      - boto3
+      - botocore
+      - requests_mock
+      - freezegun
+      - mypy
+      - moto[sns]
+      - moto[s3]
+      - moto[dynamodb]
+
+  stages:
+    - dev
+    - prod
+
+  createTranscriptionJob_lambda_timeout:
+    dev: "30"
+    prod: "30"
+  createTranscriptionJob_lambda_memory:
+    dev: 512
+    prod: 512
+  processTranscript_lambda_timeout:
+    dev: "900"
+    prod: "300"
+  processTranscript_lambda_memory:
+    dev: 1792
+    prod: 1792
+  DYNAMO_DB_TABLE:
+    dev: dev_voiceIngest
+    prod: prod_voiceIngest
+
+  LOGGING_LEVEL:
+    dev: DEBUG
+    prod: INFO

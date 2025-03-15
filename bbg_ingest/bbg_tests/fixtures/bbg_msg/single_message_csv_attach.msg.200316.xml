@@ -1,0 +1,84 @@
+<Message>
+    <MsgID>5E6C4A110000928B04860213</MsgID>
+    <MsgTime>2020-03-13-23.05.53.000000</MsgTime>
+    <MsgTimeUTC>1584155153</MsgTimeUTC>
+    <MsgLang>CODE 65001</MsgLang>
+    <Sender>
+        <UserInfo>
+            <FirstName>SEAN</FirstName>
+            <LastName>OLDFIELD</LastName>
+            <FirmNumber>848135</FirmNumber>
+            <AccountName>MIRABELLA FINANCIAL</AccountName>
+            <AccountNumber>30413594</AccountNumber>
+            <BloombergUUID>25813826</BloombergUUID>
+            <BloombergEmailAddress>SEANSYSTEM2@Bloomberg.net</BloombergEmailAddress>
+            <CorporateEmailAddress>sean@system2capital.com</CorporateEmailAddress>
+        </UserInfo>
+    </Sender>
+    <Recipient DeliveryType="BCC">
+        <UserInfo>
+            <FirstName>SEAN</FirstName>
+            <LastName>OLDFIELD</LastName>
+            <FirmNumber>848135</FirmNumber>
+            <AccountName>MIRABELLA FINANCIAL</AccountName>
+            <AccountNumber>30413594</AccountNumber>
+            <BloombergUUID>25813826</BloombergUUID>
+            <BloombergEmailAddress>SEANSYSTEM2@Bloomberg.net</BloombergEmailAddress>
+            <CorporateEmailAddress>sean@system2capital.com</CorporateEmailAddress>
+        </UserInfo>
+    </Recipient>
+    <Subject>
+        In/Out Securities for 3/14/20 - &quot;Mkt Cap&gt;EUR50M DevEur&quot;
+    </Subject>
+    <Attachment>
+        <FileName>20200314.Mkt_Cap_EUR50M_DevEur.csv</FileName>
+        <FileID>5E6C4FF600007A3007F534C6.csv</FileID>
+        <FileSize>4037</FileSize>
+    </Attachment>
+    <MsgBody>
+        On 14th of March 2020 for screen &quot;Mkt Cap&gt;EUR50M DevEur&quot; there are:
+
+        2951 Static Securities
+        49 Out Securities
+        49 In Securities
+
+        To view these changes run {FIFW IOM /S 482941&lt;GO&gt;}
+
+        [attachment 20200314.Mkt_Cap_EUR50M_DevEur.csv]
+
+        Prepared at 03/13/2020 23:05:53
+
+
+        Out Securities:
+        JUTBK DC CAI IM SOLON NO IMMNOV SS
+        BELI FP HIQ SS SFQ GR ENQ LN
+        LLQ SW PROTCT NO ELANB SS TPE GR
+        ABS PW XANOB SS PRT IM MCAP SS
+        SCPA LN LGRS LN PURP LN EGUSAS SW
+        KENDR NA SAGA LN CTT SS MTRO LN
+        RTX DC HZD LN EVLI FH FCH LN
+        ASCN SW FYB GR CAL LN DTY LN
+        HRPK GR BVZN SW MNC PW PMO LN
+        GDWN LN ASPO FH NWG PW ECT NA
+        JEN BB BCART BB NTG GR
+        STOB LN ETG GR XBRMIB IM
+        HUR LN CHH LN LEO GR
+        For more changes run {FIFW IOM /S 482941 /OUT&lt;GO&gt;}
+        In Securities:
+        SDJ600 GR GHYC SW LASP DC TRET NA
+        AWESGS SW CDMSN1 SW AT1 LN RAV LN
+        CPG PW IEMS LN JPS LN ECHB NA
+        SDJE50 GR IGSU LN UAV LN APSDEX GR
+        UST10F SW OLTH GA CMHY LN WWL PW
+        SAEU LN CBOXESOV GR TRE NO C13 FP
+        CE8 FP WELN SW PEGAS CP CBAV SM
+        HHI LN SJG LN IGE FP DJDVPEX GR
+        PG MV PSRF LN YORE SM XACTSBX SS
+        CBSXXR GR MTU LN PHI LN IJPD LN
+        SUJP LN S2EUBH SW VASTB BB
+        WPC LN AGED LN SXLK LN
+        ZERBZI SW FRP LN MNL LN
+        For more changes run {FIFW IOM /S 482941 /IN&lt;GO&gt;}
+
+    </MsgBody>
+</Message>

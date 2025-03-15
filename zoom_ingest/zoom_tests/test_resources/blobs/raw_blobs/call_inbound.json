@@ -1,0 +1,131 @@
+{
+    "cdr": {
+        "source": {
+            "source_id": "161f615c-1953-4134-87fc-20d8eefad85b",
+            "source_type": "call"
+        },
+        "date_of_action": "2022-09-06 06:55:33",
+        "origin_to": {
+            "persona_id": "Unknown",
+            "persona_first_name": "Unknown",
+            "persona_second_name": "Unknown",
+            "persona_number": "+442078888802",
+            "persona_email": "Unknown",
+            "persona_department": "Unknown"
+        },
+        "destination_from": {
+            "persona_id": "161f615c-1953-4134-87fc-20d8eefad85b",
+            "persona_first_name": "Phil",
+            "persona_second_name": "Grayson",
+            "persona_number": "+442038264480",
+            "persona_email": "phil.grayson@melqart.com",
+            "persona_department": "Investment Management"
+        },
+        "participants": None
+    },
+    "transcript": {
+        "type": "zoom_transcript",
+        "source": {
+            "source_id": "161f615c-1953-4134-87fc-20d8eefad85b",
+            "source_type": "call"
+        },
+        "recording_id": "161f615c1953413487fc20d8eefad85b",
+        "start_time": "2022-09-06 06:55:36",
+        "end_time": "2022-09-06 06:55:57",
+        "content": [
+            {
+                "text": "On the",
+                "end_ts": "00:00:01.990",
+                "ts": "00:00:01.430",
+                "users": []
+            },
+            {
+                "text": "and if I can offer a million Swedish march at one oh, nine again! A smith below, where they close",
+                "end_ts": "00:00:10.690",
+                "ts": "00:00:02.000",
+                "users": [
+                    {
+                        "username": "442078888802",
+                        "multiple_people": False,
+                        "user_id": "442078888802",
+                        "zoom_userid": "Unknown Speaker",
+                        "client_type": 0
+                    },
+                    {
+                        "username": "Phil Grayson",
+                        "multiple_people": False,
+                        "user_id": "820",
+                        "zoom_userid": "nY2RhxowQ9CEDkdtyGx00w",
+                        "client_type": 0
+                    }
+                ]
+            },
+            {
+                "text": "a million shares ten bucks.",
+                "end_ts": "00:00:12.149",
+                "ts": "00:00:10.700",
+                "users": [
+                    {
+                        "username": "442078888802",
+                        "multiple_people": False,
+                        "user_id": "442078888802",
+                        "zoom_userid": "Unknown Speaker",
+                        "client_type": 0
+                    }
+                ]
+            },
+            {
+                "text": "All right. Okay, uh give me a second. I"ll just different. Go ahead, and i"m gonna send you the if I i"ll come back to you on the uh.", "end_ts": "00: 00: 18.489", "ts": "00: 00: 12.620", "users": [{"username": "Phil Grayson", "multiple_people": False, "user_id": "820", "zoom_userid": "nY2RhxowQ9CEDkdtyGx00w", "client_type": 0}]}, {"text": "That"s very much",
+                "end_ts": "00:00:19.910",
+                "ts": "00:00:18.720",
+                "users": [
+                    {
+                        "username": "442078888802",
+                        "multiple_people": False,
+                        "user_id": "442078888802",
+                        "zoom_userid": "Unknown Speaker",
+                        "client_type": 0
+                    },
+                    {
+                        "username": "Phil Grayson",
+                        "multiple_people": False,
+                        "user_id": "820",
+                        "zoom_userid": "nY2RhxowQ9CEDkdtyGx00w",
+                        "client_type": 0
+                    }
+                ]
+            },
+            {
+                "text": "lovely. Thanks, mate. Bye, bye,",
+                "end_ts": "00:00:21.920",
+                "ts": "00:00:19.920",
+                "users": [
+                    {
+                        "username": "442078888802",
+                        "multiple_people": False,
+                        "user_id": "442078888802",
+                        "zoom_userid": "Unknown Speaker",
+                        "client_type": 0
+                    },
+                    {
+                        "username": "Phil Grayson",
+                        "multiple_people": False,
+                        "user_id": "820",
+                        "zoom_userid": "nY2RhxowQ9CEDkdtyGx00w",
+                        "client_type": 0
+                    }
+                ]
+            }
+        ]
+    },
+    "recording": {
+        "source": {
+            "source_id": "161f615c-1953-4134-87fc-20d8eefad85b",
+            "source_type": "call"
+        },
+        "type": "mp3",
+        "play_url": "https://file.zoom.us/file?jwt=eyJhbGciOiJIUzI1NiJ9.eyJhdWQiOiJmaWxlIiwiaGRpZyI6ZmFsc2UsImV4cCI6MTY2MjQ1OTY1MSwiaWF0IjoxNjYyNDU3ODUyLCJpaWMiOiJhdzEiLCJkaWciOiJmY2UwM2QxMmNkMDc0OGYwNjEwMTg1OTZhNjZlZTFjMTkxYWZjZGU3NWVlYTUxNDg4NGJkOWYyNzE2YmM3OTU2Iiwib3JpIjoicGJ4d2ViIiwiaXNzIjoiY3Jvc3NmaWxlIn0.6pOJkS6TpquNfCbKKdXqx8d1-7nxpnfBKh-ltMIA3QM&path=zoomfs%3A%2F%2Fzoom-pbx%2Frecording%2F2022%2F9%2F6%2F23vOATmyRHmTaj4vhE2Usg%2F1xwQ-5T-QRakiEb3eYUBcA%2F161f615c-1953-4134-87fc-20d8eefad85b%2Fcall_recording_161f615c-1953-4134-87fc-20d8eefad85b_20220906065536.mp3",
+        "recording_id": "161f615c1953413487fc20d8eefad85b",
+        "download_url": "https://zoom.us/v2/phone/recording/download/N0vRUvsgRUibIe_Xavv-hg"
+    }
+}
